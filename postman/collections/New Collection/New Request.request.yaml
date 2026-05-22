@@ -1,0 +1,66 @@
+$kind: http-request
+name: New Request
+url: http://localhost:3000/api/inpost/offers
+method: POST
+headers:
+  - key: Content-Type
+    value: application/json
+    disabled: true
+body:
+  type: json
+  content: "{\r
+
+    \  \"externalId\": \"507\",\r
+
+    \  \"product\": {\r
+
+    \    \"name\": \"Avene Cicalfate, krem regenerujący do rąk, efekt bariery, skóra sucha i popękana, 100 ml\",\r
+
+    \    \"description\": \"Avene Cicalfate to regenerujący krem do rąk przeznaczony do pielęgnacji bardzo suchej, spierzchniętej i popękanej skóry dłoni. Formuła pomaga łagodzić uczucie napięcia, pieczenia i podrażnienia, a także wspiera odbudowę bariery ochronnej skóry. Krem tworzy na dłoniach ochronny, wodoodporny film, który daje efekt drugiej skóry i pomaga chronić dłonie szczególnie po częstym myciu lub stosowaniu preparatów na bazie alkoholu. Produkt ma kremową, bezzapachową konsystencję, szybko się wchłania i nie pozostawia lepkiej warstwy. Zawiera Wodę Termalną Avène, sukralfat oraz siarczany miedzi i cynku. Sposób użycia: nakładać co najmniej dwa razy dziennie na całą powierzchnię dłoni, szczególnie na miejsca podrażnione. Dla lepszej regeneracji stosować po każdym myciu rąk oraz przed snem.\",\r
+
+    \    \"brand\": \"Avene\",\r
+
+    \    \"categoryId\": \"d506a930-c3e8-5465-9e87-d5add74a66d5\",\r
+
+    \    \"sku\": \"507\",\r
+
+    \    \"ean\": \"3282779416139\",\r
+
+    \    \"manufacturerProductNumber\": \"7052427\",\r
+
+    \    \"dimension\": {\r
+
+    \      \"weight\": 140\r
+
+    \    }\r
+
+    \  },\r
+
+    \  \"stock\": {\r
+
+    \    \"quantity\": 2,\r
+
+    \    \"unit\": \"UNIT\"\r
+
+    \  },\r
+
+    \  \"price\": {\r
+
+    \    \"grossPrice\": {\r
+
+    \      \"amount\": 53.98,\r
+
+    \      \"currency\": \"PLN\"\r
+
+    \    },\r
+
+    \    \"taxRateInfo\": \"23%\"\r
+
+    \  },\r
+
+    \  \"affiliationProductUrl\": \"https://medkon.pl/507-avene-cicalfate-krem-regenerujacy-do-rak-antybakteryjny-100-ml.html\"\r
+
+    }"
+settings:
+  disabledSystemHeaders: []
+order: 1778675127039

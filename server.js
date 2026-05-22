@@ -2,10 +2,16 @@ require("dotenv").config();
 
 const express = require("express");
 const axios = require("axios");
+const fs = require("fs");
+const path = require("path");
 const crypto = require("crypto");
+const FormData = require("form-data");
+const mime = require("mime-types");
 
 const app = express();
-app.use(express.json());
+
+app.use(express.json({ limit: "5mb" }));
+app.use(express.urlencoded({ extended: true, limit: "5mb" }));
 
 const PORT = process.env.PORT || 3000;
 
@@ -34,6 +40,37 @@ function mask(value) {
   return `${value.slice(0, 4)}...${value.slice(-4)}`;
 }
 
+function ensureDir(dirPath) {
+  fs.mkdirSync(dirPath, { recursive: true });
+}
+
+function safeFileName(value) {
+  return String(value || "")
+    .replace(/[^a-zA-Z0-9._-]/g, "_")
+    .slice(0, 120);
+}
+
+function getExtensionFromUrlOrContentType(imageUrl, contentType) {
+  try {
+    const parsed = new URL(imageUrl);
+    const ext = path.extname(parsed.pathname);
+
+    if (ext && ext.length <= 8) {
+      return ext;
+    }
+  } catch {
+    // ignorujemy
+  }
+
+  const extFromMime = mime.extension(contentType || "");
+
+  if (extFromMime) {
+    return `.${extFromMime}`;
+  }
+
+  return ".jpg";
+}
+
 async function getAccessToken() {
   const now = Date.now();
 
@@ -55,7 +92,8 @@ async function getAccessToken() {
       {
         headers: {
           "Content-Type": "application/x-www-form-urlencoded"
-        }
+        },
+        timeout: 60000
       }
     );
 
@@ -87,27 +125,29 @@ async function getAccessToken() {
   }
 }
 
-async function inpostRequest(method, path, options = {}) {
+async function inpostRequest(method, apiPath, options = {}) {
   const token = await getAccessToken();
 
   try {
     const response = await axios({
       method,
-      url: `${process.env.INPOST_BUY_API_BASE}${path}`,
+      url: `${process.env.INPOST_BUY_API_BASE}${apiPath}`,
       headers: {
         Authorization: `Bearer ${token}`,
         Accept: "application/json",
-        "Content-Type": "application/json",
-        "Accept-Language": "pl",
-        "X-Request-Id": crypto.randomUUID()
+        "Content-Type": options.contentType || "application/json",
+        "Accept-Language": "pl"
       },
       params: options.params,
-      data: options.data
+      data: options.data,
+      timeout: options.timeout || 120000,
+      maxBodyLength: Infinity,
+      maxContentLength: Infinity
     });
 
     return response.data;
   } catch (error) {
-    console.error(`Błąd InPost API: ${method} ${path}`);
+    console.error(`Błąd InPost API: ${method} ${apiPath}`);
 
     if (error.response) {
       console.error("Status:", error.response.status);
@@ -118,6 +158,88 @@ async function inpostRequest(method, path, options = {}) {
 
     throw error;
   }
+}
+
+async function inpostMultipartRequest(method, apiPath, filePath, fileName, options = {}) {
+  const token = await getAccessToken();
+
+  const form = new FormData();
+
+  /**
+   * Jeśli InPost zwróci błąd, że nazwa pola pliku jest inna,
+   * najpierw zmień "file" na nazwę wymaganą w portalu API.
+   * W wielu implementacjach multipart pole nazywa się właśnie "file".
+   */
+  form.append("file", fs.createReadStream(filePath), {
+    filename: fileName,
+    contentType: mime.lookup(fileName) || "application/octet-stream"
+  });
+
+  try {
+    const response = await axios({
+      method,
+      url: `${process.env.INPOST_BUY_API_BASE}${apiPath}`,
+      headers: {
+        Authorization: `Bearer ${token}`,
+        Accept: "application/json",
+        "Accept-Language": "pl",
+        ...form.getHeaders()
+      },
+      params: options.params,
+      data: form,
+      timeout: options.timeout || 120000,
+      maxBodyLength: Infinity,
+      maxContentLength: Infinity
+    });
+
+    return response.data;
+  } catch (error) {
+    console.error(`Błąd InPost multipart API: ${method} ${apiPath}`);
+
+    if (error.response) {
+      console.error("Status:", error.response.status);
+      console.error("Odpowiedź:", error.response.data);
+    } else {
+      console.error(error.message);
+    }
+
+    throw error;
+  }
+}
+
+async function downloadImageToTemp(imageUrl, externalIdOrOfferId) {
+  const tmpDir = path.join(__dirname, "tmp-images");
+  ensureDir(tmpDir);
+
+  const response = await axios.get(imageUrl, {
+    responseType: "arraybuffer",
+    timeout: 120000,
+    maxContentLength: 15 * 1024 * 1024,
+    headers: {
+      "User-Agent": "Mozilla/5.0"
+    }
+  });
+
+  const contentType = response.headers["content-type"] || "";
+
+  if (!contentType.startsWith("image/")) {
+    throw new Error(`URL nie zwrócił obrazu. Content-Type: ${contentType}`);
+  }
+
+  const ext = getExtensionFromUrlOrContentType(imageUrl, contentType);
+  const random = crypto.randomBytes(6).toString("hex");
+  const baseName = safeFileName(externalIdOrOfferId || "image");
+  const fileName = `${baseName}-${random}${ext}`;
+  const filePath = path.join(tmpDir, fileName);
+
+  fs.writeFileSync(filePath, response.data);
+
+  return {
+    filePath,
+    fileName,
+    contentType,
+    size: response.data.length
+  };
 }
 
 function handleError(error, res) {
@@ -132,6 +254,18 @@ function handleError(error, res) {
   });
 }
 
+function getOfferIdFromInpostCreateResponse(data) {
+  return (
+    data?.offerId ||
+    data?.id ||
+    data?.offer?.id ||
+    data?.data?.offerId ||
+    data?.data?.id ||
+    data?.data?.offer?.id ||
+    null
+  );
+}
+
 /**
  * Test działania lokalnego API.
  */
@@ -140,13 +274,14 @@ app.get("/", (req, res) => {
     ok: true,
     message: "Lokalne API integracji InPost Buy działa",
     clientId: mask(process.env.CLIENT_ID),
+    apiBase: process.env.INPOST_BUY_API_BASE,
     scope: process.env.INPOST_SCOPE
   });
 });
 
 /**
- * Tylko do testów.
- * W produkcji nie pokazuj tokenu w przeglądarce.
+ * Test tokenu.
+ * W produkcji nie pokazuj pełnego tokenu.
  */
 app.get("/api/inpost/token-test", async (req, res) => {
   try {
@@ -163,8 +298,7 @@ app.get("/api/inpost/token-test", async (req, res) => {
 });
 
 /**
- * Kategorie produktów.
- * Scope: api:categories:read
+ * Kategorie główne.
  */
 app.get("/api/inpost/categories", async (req, res) => {
   try {
@@ -182,9 +316,8 @@ app.get("/api/inpost/categories", async (req, res) => {
 });
 
 /**
- * Atrybuty konkretnej kategorii.
- * Potrzebne przed wystawieniem oferty.
- * Scope: api:categories:read
+ * Atrybuty kategorii.
+ * Ten endpoint musi być przed /api/inpost/categories/:categoryId.
  */
 app.get("/api/inpost/categories/:categoryId/attributes", async (req, res) => {
   try {
@@ -205,8 +338,31 @@ app.get("/api/inpost/categories/:categoryId/attributes", async (req, res) => {
 });
 
 /**
+ * Szczegóły kategorii / drzewo kategorii.
+ */
+app.get("/api/inpost/categories/:categoryId", async (req, res) => {
+  try {
+    const { categoryId } = req.params;
+
+    const data = await inpostRequest(
+      "GET",
+      `/v1/categories/${encodeURIComponent(categoryId)}`,
+      {
+        params: req.query
+      }
+    );
+
+    res.json({
+      ok: true,
+      data
+    });
+  } catch (error) {
+    handleError(error, res);
+  }
+});
+
+/**
  * Lista ofert.
- * Scope: api:offers:read
  */
 app.get("/api/inpost/offers", async (req, res) => {
   try {
@@ -230,8 +386,39 @@ app.get("/api/inpost/offers", async (req, res) => {
 });
 
 /**
+ * Utworzenie jednej oferty.
+ */
+app.post("/api/inpost/offers", async (req, res) => {
+  try {
+    const organizationId = process.env.ORGANIZATION_ID;
+
+    if (Array.isArray(req.body)) {
+      return res.status(400).json({
+        ok: false,
+        error: "Ten endpoint przyjmuje jedną ofertę, nie tablicę. Do masowej wysyłki użyj send-inpost-offers.js."
+      });
+    }
+
+    const data = await inpostRequest(
+      "POST",
+      `/v1/organizations/${encodeURIComponent(organizationId)}/offers`,
+      {
+        data: req.body
+      }
+    );
+
+    res.json({
+      ok: true,
+      offerId: getOfferIdFromInpostCreateResponse(data),
+      data
+    });
+  } catch (error) {
+    handleError(error, res);
+  }
+});
+
+/**
  * Szczegóły jednej oferty.
- * Scope: api:offers:read
  */
 app.get("/api/inpost/offers/:offerId", async (req, res) => {
   try {
@@ -253,33 +440,8 @@ app.get("/api/inpost/offers/:offerId", async (req, res) => {
 });
 
 /**
- * Utworzenie jednej oferty.
- * Scope: api:offers:write
- */
-app.post("/api/inpost/offers", async (req, res) => {
-  try {
-    const organizationId = process.env.ORGANIZATION_ID;
-
-    const data = await inpostRequest(
-      "POST",
-      `/v1/organizations/${encodeURIComponent(organizationId)}/offers`,
-      {
-        data: req.body
-      }
-    );
-
-    res.json({
-      ok: true,
-      data
-    });
-  } catch (error) {
-    handleError(error, res);
-  }
-});
-
-/**
  * Aktualizacja oferty.
- * Scope: api:offers:write
+ * Używa application/merge-patch+json, bo zwykłe application/json dawało wcześniej UNSUPPORTED_MEDIA_TYPE.
  */
 app.patch("/api/inpost/offers/:offerId", async (req, res) => {
   try {
@@ -290,7 +452,8 @@ app.patch("/api/inpost/offers/:offerId", async (req, res) => {
       "PATCH",
       `/v1/organizations/${encodeURIComponent(organizationId)}/offers/${encodeURIComponent(offerId)}`,
       {
-        data: req.body
+        data: req.body,
+        contentType: "application/merge-patch+json"
       }
     );
 
@@ -304,8 +467,66 @@ app.patch("/api/inpost/offers/:offerId", async (req, res) => {
 });
 
 /**
+ * Dodanie zdjęcia do oferty na podstawie URL.
+ *
+ * Body:
+ * {
+ *   "imageUrl": "https://...",
+ *   "externalId": "156"
+ * }
+ */
+app.post("/api/inpost/offers/:offerId/attachments/from-url", async (req, res) => {
+  let downloaded = null;
+
+  try {
+    const organizationId = process.env.ORGANIZATION_ID;
+    const { offerId } = req.params;
+    const attachmentType = req.query.attachmentType || req.body.attachmentType || "IMAGE";
+    const imageUrl = req.body.imageUrl;
+    const externalId = req.body.externalId || offerId;
+
+    if (!imageUrl) {
+      return res.status(400).json({
+        ok: false,
+        error: "Brakuje imageUrl w body."
+      });
+    }
+
+    downloaded = await downloadImageToTemp(imageUrl, externalId);
+
+    console.log("Pobrano obraz:");
+    console.log("URL:", imageUrl);
+    console.log("Plik:", downloaded.fileName);
+    console.log("Rozmiar:", downloaded.size, "B");
+    console.log("Content-Type:", downloaded.contentType);
+
+    const data = await inpostMultipartRequest(
+      "POST",
+      `/v1/organizations/${encodeURIComponent(organizationId)}/offers/${encodeURIComponent(offerId)}/attachments`,
+      downloaded.filePath,
+      downloaded.fileName,
+      {
+        params: {
+          attachmentType
+        }
+      }
+    );
+
+    res.json({
+      ok: true,
+      data
+    });
+  } catch (error) {
+    handleError(error, res);
+  } finally {
+    if (downloaded?.filePath && fs.existsSync(downloaded.filePath)) {
+      fs.unlinkSync(downloaded.filePath);
+    }
+  }
+});
+
+/**
  * Zamknięcie oferty.
- * Scope: api:offers:write
  */
 app.post("/api/inpost/offers/:offerId/close", async (req, res) => {
   try {
@@ -328,7 +549,6 @@ app.post("/api/inpost/offers/:offerId/close", async (req, res) => {
 
 /**
  * Ponowne otwarcie oferty.
- * Scope: api:offers:write
  */
 app.post("/api/inpost/offers/:offerId/reopen", async (req, res) => {
   try {
@@ -349,108 +569,9 @@ app.post("/api/inpost/offers/:offerId/reopen", async (req, res) => {
   }
 });
 
-/**
- * Lista zamówień.
- * Scope: api:orders:read
- */
-app.get("/api/inpost/orders", async (req, res) => {
-  try {
-    const organizationId = process.env.ORGANIZATION_ID;
-
-    const data = await inpostRequest(
-      "GET",
-      `/v1/organizations/${encodeURIComponent(organizationId)}/orders`,
-      {
-        params: req.query
-      }
-    );
-
-    res.json({
-      ok: true,
-      data
-    });
-  } catch (error) {
-    handleError(error, res);
-  }
-});
-
-/**
- * Szczegóły jednego zamówienia.
- * Scope: api:orders:read
- */
-app.get("/api/inpost/orders/:orderId", async (req, res) => {
-  try {
-    const organizationId = process.env.ORGANIZATION_ID;
-    const { orderId } = req.params;
-
-    const data = await inpostRequest(
-      "GET",
-      `/v1/organizations/${encodeURIComponent(organizationId)}/orders/${encodeURIComponent(orderId)}`
-    );
-
-    res.json({
-      ok: true,
-      data
-    });
-  } catch (error) {
-    handleError(error, res);
-  }
-});
-
-/**
- * Akceptacja zamówienia.
- * Scope: api:orders:write
- */
-app.post("/api/inpost/orders/:orderId/accept", async (req, res) => {
-  try {
-    const organizationId = process.env.ORGANIZATION_ID;
-    const { orderId } = req.params;
-
-    const data = await inpostRequest(
-      "POST",
-      `/v1/organizations/${encodeURIComponent(organizationId)}/orders/${encodeURIComponent(orderId)}/accept`,
-      {
-        data: req.body
-      }
-    );
-
-    res.json({
-      ok: true,
-      data
-    });
-  } catch (error) {
-    handleError(error, res);
-  }
-});
-
-/**
- * Odrzucenie zamówienia.
- * Scope: api:orders:write
- */
-app.post("/api/inpost/orders/:orderId/refuse", async (req, res) => {
-  try {
-    const organizationId = process.env.ORGANIZATION_ID;
-    const { orderId } = req.params;
-
-    const data = await inpostRequest(
-      "POST",
-      `/v1/organizations/${encodeURIComponent(organizationId)}/orders/${encodeURIComponent(orderId)}/refuse`,
-      {
-        data: req.body
-      }
-    );
-
-    res.json({
-      ok: true,
-      data
-    });
-  } catch (error) {
-    handleError(error, res);
-  }
-});
-
 app.listen(PORT, () => {
   console.log(`Serwer działa na porcie ${PORT}`);
   console.log(`Client ID: ${mask(process.env.CLIENT_ID)}`);
+  console.log(`API base: ${process.env.INPOST_BUY_API_BASE}`);
   console.log(`Scope: ${process.env.INPOST_SCOPE}`);
 });

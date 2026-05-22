@@ -1,1 +1,961 @@
-{"ok":true,"data":[{"id":"c9075ccc-6599-51b8-9d45-429538606067","leaf":false,"name":"Dla dzieci","description":"Dla dzieci","doesNotRequireGpsrInfo":true,"children":[{"id":"188de254-d124-525a-92e2-2ca50cdb3ef9","leaf":false,"name":"Akcesoria dla mamy i dziecka","description":"Akcesoria dla mamy i dziecka","doesNotRequireGpsrInfo":true,"children":[]},{"id":"fe83f03b-3be9-51d1-a2d6-71767b8bbbda","leaf":false,"name":"Artykuły szkolne","description":"Artykuły szkolne","doesNotRequireGpsrInfo":true,"children":[]},{"id":"ad1772c0-a055-5a23-8943-e43b36db1934","leaf":false,"name":"Foteliki samochodowe","description":"Foteliki samochodowe","doesNotRequireGpsrInfo":true,"children":[]},{"id":"3f6649be-fd9e-5637-a174-260fa02ffc8c","leaf":false,"name":"Karmienie dziecka","description":"Karmienie dziecka","doesNotRequireGpsrInfo":true,"children":[]},{"id":"c5daa142-cedb-50c2-b39d-d59983fabd31","leaf":false,"name":"Obuwie dla dzieci","description":"Obuwie dla dzieci","doesNotRequireGpsrInfo":true,"children":[]},{"id":"253a33c5-4f9d-5212-8247-d835a463f8ff","leaf":false,"name":"Odzież dla dzieci","description":"Odzież dla dzieci","doesNotRequireGpsrInfo":true,"children":[]},{"id":"c7307dc2-0b09-5289-8b49-a3b56e03e038","leaf":false,"name":"Okazje i przyjęcia","description":"Okazje i przyjęcia","doesNotRequireGpsrInfo":true,"children":[]},{"id":"3f6e5af7-6292-5384-ac75-dc0dec9dd20f","leaf":false,"name":"Pokój dziecięcy","description":"Pokój dziecięcy","doesNotRequireGpsrInfo":true,"children":[]},{"id":"595542a9-36fa-56de-941d-61e403555f30","leaf":false,"name":"Rowery i pojazdy","description":"Rowery i pojazdy","doesNotRequireGpsrInfo":true,"children":[]},{"id":"4a2e0fe4-6677-5e81-9d35-9066cd393aee","leaf":false,"name":"Wózki i akcesoria","description":"Wózki i akcesoria","doesNotRequireGpsrInfo":true,"children":[]},{"id":"ffdfcb0a-d396-5fca-8001-6252d04ca67b","leaf":false,"name":"Zabawki","description":"Zabawki","doesNotRequireGpsrInfo":true,"children":[]},{"id":"fa6f05dd-4221-5920-88ef-7dee2a48e654","leaf":false,"name":"Zabawki ogrodowe","description":"Zabawki ogrodowe","doesNotRequireGpsrInfo":true,"children":[]},{"id":"39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc","leaf":false,"name":"Zdrowie i higiena dziecka","description":"Zdrowie i higiena dziecka","doesNotRequireGpsrInfo":true,"children":[]}]},{"id":"d0d49f24-b740-5502-8460-8653c9d4d9e8","leaf":false,"name":"Dom i ogród","description":"Dom i ogród","doesNotRequireGpsrInfo":true,"children":[{"id":"8a3c9be2-24f3-5deb-a0a3-032905f05562","leaf":false,"name":"Budowa i remont","description":"Budowa i remont","doesNotRequireGpsrInfo":true,"children":[]},{"id":"889e91f0-59ed-5363-981c-006f40dd917d","leaf":false,"name":"Meble","description":"Meble","doesNotRequireGpsrInfo":true,"children":[]},{"id":"9d23693d-0a77-5abb-a135-75f16dc7aac3","leaf":false,"name":"Narzędzia","description":"Narzędzia","doesNotRequireGpsrInfo":true,"children":[]},{"id":"362f4683-e927-56da-b6d2-5e91035e17b9","leaf":false,"name":"Ogród","description":"Ogród","doesNotRequireGpsrInfo":true,"children":[]},{"id":"2d7b3b50-1eac-5fa7-8a73-65b638c169d8","leaf":false,"name":"Oświetlenie","description":"Oświetlenie","doesNotRequireGpsrInfo":true,"children":[]},{"id":"8a965612-2278-5a8f-a1c5-9a421f1d55a1","leaf":false,"name":"Wyposażenie","description":"Wyposażenie","doesNotRequireGpsrInfo":true,"children":[]}]},{"id":"3660a0b1-e3d7-50ae-bb57-4249c8cc5e32","leaf":false,"name":"Elektronika","description":"Elektronika","doesNotRequireGpsrInfo":true,"children":[{"id":"369f82b5-30e2-5669-8848-69992fd798fc","leaf":false,"name":"Elektronika","description":"Elektronika","doesNotRequireGpsrInfo":true,"children":[]},{"id":"ce67f0c5-9a12-59be-a9b0-7e46a5152b22","leaf":false,"name":"Fotografia","description":"Fotografia","doesNotRequireGpsrInfo":true,"children":[]},{"id":"1e2c4b60-3be9-5258-98fa-2fc28ed3975f","leaf":false,"name":"Komputery","description":"Komputery","doesNotRequireGpsrInfo":true,"children":[]},{"id":"d51e964b-a161-5eb3-a477-7de9d6fba886","leaf":false,"name":"Konsole i automaty","description":"Konsole i automaty","doesNotRequireGpsrInfo":true,"children":[]},{"id":"769dc4ca-bb8e-52e5-8bc6-baf4c0fc515b","leaf":false,"name":"RTV i AGD","description":"RTV i AGD","doesNotRequireGpsrInfo":true,"children":[]},{"id":"59b67b82-c571-50f9-ba73-22eb9cb1a6ee","leaf":false,"name":"Sprzęt DJ-ski, studyjny i estradowy","description":"Sprzęt DJ-ski, studyjny i estradowy","doesNotRequireGpsrInfo":true,"children":[]},{"id":"349bcea2-c1bc-53fd-9c4b-af26705bc6e2","leaf":false,"name":"Telefony i akcesoria","description":"Telefony i akcesoria","doesNotRequireGpsrInfo":true,"children":[]}]},{"id":"6f27cf2b-ee1b-5e58-a299-8f34fb598b49","leaf":false,"name":"Firma i biuro","description":"Firma i biuro","doesNotRequireGpsrInfo":true,"children":[{"id":"61a32de5-da27-5c65-8676-ee9b8737d613","leaf":false,"name":"Akcesoria biurowe","description":"Akcesoria biurowe","doesNotRequireGpsrInfo":true,"children":[]},{"id":"e7890659-e530-584d-9ea1-1b136ce48e25","leaf":false,"name":"Akcesoria reklamowe","description":"Akcesoria reklamowe","doesNotRequireGpsrInfo":true,"children":[]},{"id":"2283257b-0f0f-5fb5-bd31-961c8184e33c","leaf":false,"name":"Artykuły piśmiennicze","description":"Artykuły piśmiennicze","doesNotRequireGpsrInfo":true,"children":[]},{"id":"b4519268-dc0e-5b81-abab-7ad57df95df0","leaf":false,"name":"Meble biurowe","description":"Meble biurowe","doesNotRequireGpsrInfo":true,"children":[]},{"id":"519c2c07-59d3-5ca3-8094-ed5e6ae65309","leaf":false,"name":"Organizacja dokumentów","description":"Organizacja dokumentów","doesNotRequireGpsrInfo":true,"children":[]},{"id":"73cef4e8-cd4d-55c9-9d9a-183d6c730dba","leaf":false,"name":"Pakowanie i wysyłka","description":"Pakowanie i wysyłka","doesNotRequireGpsrInfo":true,"children":[]},{"id":"d44685ff-421e-5ebe-841b-17d6171cd978","leaf":false,"name":"Papier","description":"Papier","doesNotRequireGpsrInfo":true,"children":[]},{"id":"c6ddc5d8-652f-56bb-aea0-2b1cd91ac85e","leaf":false,"name":"Przybory kreślarskie","description":"Przybory kreślarskie","doesNotRequireGpsrInfo":true,"children":[]},{"id":"3d5d06e8-510c-5fd5-affc-5a7b24d57fb4","leaf":false,"name":"Sprzęt biurowy","description":"Sprzęt biurowy","doesNotRequireGpsrInfo":true,"children":[]},{"id":"824f88f0-bb77-54f1-ac39-dfe8ce74c4d8","leaf":false,"name":"Sprzęt do prezentacji","description":"Sprzęt do prezentacji","doesNotRequireGpsrInfo":true,"children":[]}]},{"id":"b4bc3637-af8c-5c97-87b0-bdc661341828","leaf":false,"name":"Kolekcje i sztuka","description":"Kolekcje i sztuka","doesNotRequireGpsrInfo":true,"children":[{"id":"7ff4c5dc-9a65-5ea8-8e8c-8dd05b9f09f0","leaf":false,"name":"Akcesoria plastyczne","description":"Akcesoria plastyczne","doesNotRequireGpsrInfo":true,"children":[]},{"id":"0a5efadd-6fd3-5c37-97f2-09392209702d","leaf":false,"name":"Biżuteria","description":"Biżuteria","doesNotRequireGpsrInfo":true,"children":[]},{"id":"4c51f106-77e9-542a-b43c-22bdf7b6760f","leaf":false,"name":"Ceramika","description":"Ceramika","doesNotRequireGpsrInfo":true,"children":[]},{"id":"02dc1325-3f39-53b5-ba94-c31f1558deb8","leaf":false,"name":"Design i antyki","description":"Design i antyki","doesNotRequireGpsrInfo":true,"children":[]},{"id":"7ac6765d-41e1-5a18-95df-ede0cc272b5e","leaf":false,"name":"Dewocjonalia","description":"Dewocjonalia","doesNotRequireGpsrInfo":true,"children":[]},{"id":"9da78158-e159-50de-b9d8-02ff14eb400b","leaf":false,"name":"Kolekcje","description":"Kolekcje","doesNotRequireGpsrInfo":true,"children":[]},{"id":"ea2a7478-be9e-55f2-beeb-798b361dc177","leaf":false,"name":"Meble","description":"Meble","doesNotRequireGpsrInfo":true,"children":[]},{"id":"959c3493-e669-5a29-9091-1f32b55ac036","leaf":true,"name":"Miedź, mosiądz, cyna","description":"Miedź, mosiądz, cyna","doesNotRequireGpsrInfo":true,"children":[]},{"id":"3ffe3efe-0e4f-53f1-9e85-beb7d19dfd1d","leaf":false,"name":"Oświetlenie","description":"Oświetlenie","doesNotRequireGpsrInfo":true,"children":[]},{"id":"16903838-ace5-52ca-84fe-509ba04fe40d","leaf":false,"name":"Platery, posrebrzane i inne","description":"Platery, posrebrzane i inne","doesNotRequireGpsrInfo":true,"children":[]},{"id":"13165f8b-aa37-5b78-bdc9-280bc0703d02","leaf":false,"name":"Porcelana","description":"Porcelana","doesNotRequireGpsrInfo":true,"children":[]},{"id":"127ab3d5-e994-5045-bb05-30c3a5196277","leaf":false,"name":"Rękodzieło","description":"Rękodzieło","doesNotRequireGpsrInfo":true,"children":[]},{"id":"4100060e-065e-5419-a8be-343541baae88","leaf":true,"name":"Reprodukcje i przedmioty stylizowane","description":"Reprodukcje i przedmioty stylizowane","doesNotRequireGpsrInfo":true,"children":[]},{"id":"f41b11f4-014b-5660-bbcf-9b6eb7aa94e9","leaf":false,"name":"Srebra","description":"Srebra","doesNotRequireGpsrInfo":true,"children":[]},{"id":"cde20b4e-df8f-59f5-93c5-029946acb82b","leaf":false,"name":"Szkło","description":"Szkło","doesNotRequireGpsrInfo":true,"children":[]},{"id":"b13e9354-e3f3-5106-be1d-155558605872","leaf":false,"name":"Sztuka","description":"Sztuka","doesNotRequireGpsrInfo":true,"children":[]},{"id":"57bea189-e26b-51fc-abb8-621304e2c1d6","leaf":false,"name":"Tkaniny","description":"Tkaniny","doesNotRequireGpsrInfo":true,"children":[]},{"id":"a71abe4a-fe11-5bbb-8242-0213462e1e10","leaf":false,"name":"Zabytki techniki","description":"Zabytki techniki","doesNotRequireGpsrInfo":true,"children":[]},{"id":"f281c08d-9a0c-5445-af06-e680f0e7ddb3","leaf":false,"name":"Zegary, zegarki","description":"Zegary, zegarki","doesNotRequireGpsrInfo":true,"children":[]}]},{"id":"20510725-8cd4-55fa-b6a7-0a22fe943bde","leaf":false,"name":"Kultura i rozrywka","description":"Kultura i rozrywka","doesNotRequireGpsrInfo":true,"children":[{"id":"282ee5fb-588c-532d-b105-a5943ab86e08","leaf":false,"name":"Czasopisma","description":"Czasopisma","doesNotRequireGpsrInfo":true,"children":[]},{"id":"7702eb85-1e4e-598f-8fba-ff52cd5020c5","leaf":true,"name":"Gadżety","description":"Gadżety","doesNotRequireGpsrInfo":true,"children":[]},{"id":"4bb99e02-62e8-5f92-ab18-75f6e9186499","leaf":false,"name":"Gry","description":"Gry","doesNotRequireGpsrInfo":true,"children":[]},{"id":"e7c6cc7b-c1ae-5582-8aa8-9098021b098d","leaf":false,"name":"Instrumenty","description":"Instrumenty","doesNotRequireGpsrInfo":true,"children":[]},{"id":"a83391c5-2f20-58a4-a84f-91cd888a3ccf","leaf":false,"name":"Komiksy","description":"Komiksy","doesNotRequireGpsrInfo":true,"children":[]},{"id":"f73afada-768e-54d4-9684-daa4334b3c70","leaf":false,"name":"Książki","description":"Książki","doesNotRequireGpsrInfo":true,"children":[]},{"id":"84480db2-1755-5b50-b263-9d86f3b3898c","leaf":false,"name":"Muzyka i filmy","description":"Muzyka","doesNotRequireGpsrInfo":true,"children":[]},{"id":"2f645fb5-3ee7-5e81-bdff-13a204dcc2b0","leaf":false,"name":"Podręczniki szkolne","description":"Podręczniki szkolne","doesNotRequireGpsrInfo":true,"children":[]}]},{"id":"3727fefe-4546-5f75-8a2b-8b5944ca15ff","leaf":false,"name":"Moda","description":"Moda","doesNotRequireGpsrInfo":true,"children":[{"id":"969eb215-23b9-5e73-ad1f-0d1ea737315e","leaf":false,"name":"Biżuteria i zegarki","description":"Biżuteria i zegarki","doesNotRequireGpsrInfo":true,"children":[]},{"id":"5b04a570-18c5-5622-9ca8-cff3376ba138","leaf":false,"name":"Odzież, obuwie i dodatki","description":"Odzież, obuwie i dodatki","doesNotRequireGpsrInfo":true,"children":[]}]},{"id":"84a38c3d-dfdf-54e0-b1c0-e38295bd5a75","leaf":false,"name":"Motoryzacja","description":"Motoryzacja","doesNotRequireGpsrInfo":true,"children":[{"id":"84cd43a1-ca01-5f9f-bd99-5b5223e6d755","leaf":false,"name":"Akcesoria samochodowe","description":"Akcesoria samochodowe","doesNotRequireGpsrInfo":true,"children":[]},{"id":"782ed8cf-3430-59e3-acde-17f380be85ed","leaf":false,"name":"Chemia samochodowa","description":"Chemia samochodowa","doesNotRequireGpsrInfo":true,"children":[]},{"id":"6b37d631-6012-5c96-a318-05713da1d68e","leaf":false,"name":"Części do maszyn i innych pojazdów","description":"Części do maszyn i innych pojazdów","doesNotRequireGpsrInfo":true,"children":[]},{"id":"ae3a4476-92c2-56d0-86a0-827e6389fde3","leaf":false,"name":"Części i akcesoria motocyklowe","description":"Części i akcesoria motocyklowe","doesNotRequireGpsrInfo":true,"children":[]},{"id":"e81125a5-b6bb-55e2-b496-e56ce894d026","leaf":false,"name":"Części samochodowe","description":"Części samochodowe","doesNotRequireGpsrInfo":true,"children":[]},{"id":"ceb6d2b7-13a1-5fb4-b216-ea4697e49787","leaf":false,"name":"Opony i felgi","description":"Opony i felgi","doesNotRequireGpsrInfo":true,"children":[]},{"id":"9ba1e7eb-6286-5555-be50-dfe16cd52477","leaf":false,"name":"Wyposażenie warsztatu","description":"Wyposażenie warsztatu","doesNotRequireGpsrInfo":true,"children":[]}]},{"id":"6180cb12-bf22-5b81-822d-3e70b0fa38b2","leaf":true,"name":"Nieznana","description":"Nieznana kategoria - ustawiana domyślnie, gdy nie znajdziemy dopasowania w katalogu","doesNotRequireGpsrInfo":true,"children":[]},{"id":"84171308-a62e-54fe-9d07-056cde7020be","leaf":false,"name":"Sport i turystyka","description":"Sport i turystyka","doesNotRequireGpsrInfo":true,"children":[{"id":"9a9e6dea-1112-5a75-8ce9-42a57a436042","leaf":false,"name":"Bieganie","description":"Bieganie","doesNotRequireGpsrInfo":true,"children":[]},{"id":"e07532ba-c31a-54b1-b72b-d9267d79bc1f","leaf":false,"name":"Elektronika sportowa","description":"Elektronika sportowa","doesNotRequireGpsrInfo":true,"children":[]},{"id":"c366e9ab-2c3c-58f7-be1e-fcc376e38195","leaf":false,"name":"Kolekcje sportowe","description":"Kolekcje sportowe","doesNotRequireGpsrInfo":true,"children":[]},{"id":"557061f0-ca3f-598f-aa9d-2a246a74443f","leaf":false,"name":"Militaria","description":"Militaria","doesNotRequireGpsrInfo":true,"children":[]},{"id":"c20edb38-f303-5caf-9d2e-0f43c9d96374","leaf":false,"name":"Rowery i akcesoria","description":"Rowery i akcesoria","doesNotRequireGpsrInfo":true,"children":[]},{"id":"e6328e64-87c4-53ef-8fde-2a96c04a29a0","leaf":false,"name":"Siłownia i fitness","description":"Siłownia i fitness","doesNotRequireGpsrInfo":true,"children":[]},{"id":"4c966aae-c262-544a-a418-3e754eb0459f","leaf":false,"name":"Skating i slackline","description":"Skating i slackline","doesNotRequireGpsrInfo":true,"children":[]},{"id":"141847a5-68c5-5ed9-a844-f704bb499736","leaf":false,"name":"Sporty ekstremalne","description":"Sporty ekstremalne","doesNotRequireGpsrInfo":true,"children":[]},{"id":"ee03fc69-e60b-5c07-856f-003648c6ed93","leaf":false,"name":"Sporty towarzyskie i rekreacja","description":"Sporty towarzyskie i rekreacja","doesNotRequireGpsrInfo":true,"children":[]},{"id":"e546fab5-43d6-52ba-be39-49853c21f22d","leaf":false,"name":"Sporty walki","description":"Sporty walki","doesNotRequireGpsrInfo":true,"children":[]},{"id":"fd5cd359-f22a-5bff-88d6-c64b455ae553","leaf":false,"name":"Sporty wodne","description":"Sporty wodne","doesNotRequireGpsrInfo":true,"children":[]},{"id":"664351d5-41c7-5f1e-ae25-f27a6a0d713c","leaf":false,"name":"Sporty zespołowe","description":"Sporty zespołowe","doesNotRequireGpsrInfo":true,"children":[]},{"id":"ed5d33f1-539c-555f-9a0c-f09dc0b9e358","leaf":false,"name":"Sporty zimowe","description":"Sporty zimowe","doesNotRequireGpsrInfo":true,"children":[]},{"id":"ad9bb108-60bb-5d6b-8b63-c4aa7abd625c","leaf":false,"name":"Tenis i zbliżone","description":"Tenis i zbliżone","doesNotRequireGpsrInfo":true,"children":[]},{"id":"ecc3427d-31b2-564b-ac98-f4ba43724169","leaf":false,"name":"Turystyka","description":"Turystyka","doesNotRequireGpsrInfo":true,"children":[]},{"id":"cbe8d91f-1488-50ab-baac-e6b90dd6834c","leaf":false,"name":"Wędkarstwo","description":"Wędkarstwo","doesNotRequireGpsrInfo":true,"children":[]}]},{"id":"b1594473-42a2-514d-adea-e29b34387f6f","leaf":false,"name":"Supermarket","description":"Supermarket","doesNotRequireGpsrInfo":true,"children":[{"id":"50ce2374-ce7c-5749-b614-1e61cb3d90e8","leaf":false,"name":"Dla zwierząt","description":"Dla zwierząt","doesNotRequireGpsrInfo":true,"children":[]},{"id":"d2143f78-1d2d-519a-8984-e301e48472b5","leaf":false,"name":"Produkty spożywcze","description":"Produkty spożywcze","doesNotRequireGpsrInfo":true,"children":[]},{"id":"b662a6a1-d9ec-52ed-b46c-a72051f6a972","leaf":false,"name":"Utrzymanie czystości","description":"Utrzymanie czystości","doesNotRequireGpsrInfo":true,"children":[]}]},{"id":"9e1a8a1d-2248-52d7-810e-85e8d11b3c8d","leaf":false,"name":"Uroda","description":"Uroda","doesNotRequireGpsrInfo":true,"children":[{"id":"aaf01178-4dad-5291-835b-a060a7d9d6d7","leaf":false,"name":"Makijaż","description":"Makijaż","doesNotRequireGpsrInfo":true,"children":[]},{"id":"d9dcd559-fce3-52b3-9261-e815b29f0ade","leaf":false,"name":"Manicure i pedicure","description":"Manicure i pedicure","doesNotRequireGpsrInfo":true,"children":[]},{"id":"ba95deec-2d32-5321-af54-d9e372557c96","leaf":false,"name":"Perfumy i wody","description":"Perfumy i wody","doesNotRequireGpsrInfo":true,"children":[]},{"id":"a25a4d24-4759-5afc-8533-dce1f8daa097","leaf":false,"name":"Pielęgnacja","description":"Pielęgnacja","doesNotRequireGpsrInfo":true,"children":[]},{"id":"e47e1cbc-25d3-5d13-b3a3-d8dd5f8d7396","leaf":false,"name":"Profesjonalne wyposażenie salonów","description":"Profesjonalne wyposażenie salonów","doesNotRequireGpsrInfo":true,"children":[]}]},{"id":"74a3e0c2-09c0-564d-b1a5-28317cf1d3a2","leaf":false,"name":"Zdrowie","description":"Zdrowie","doesNotRequireGpsrInfo":true,"children":[{"id":"32dc0ba6-7f8e-5613-b86c-a177efdf7eba","leaf":false,"name":"Dermokosmetyki","description":"Dermokosmetyki","doesNotRequireGpsrInfo":true,"children":[]},{"id":"5404f250-1159-5fa4-92d4-5d8476eeabc0","leaf":false,"name":"Domowa apteczka","description":"Domowa apteczka","doesNotRequireGpsrInfo":true,"children":[]},{"id":"739ecdfb-08b1-5d1a-9279-9c1f24828fe6","leaf":false,"name":"Erotyka","description":"Erotyka","doesNotRequireGpsrInfo":true,"children":[]},{"id":"75706863-bc75-5eb8-a03d-9d98a2d30249","leaf":false,"name":"Higiena jamy ustnej","description":"Higiena jamy ustnej","doesNotRequireGpsrInfo":true,"children":[]},{"id":"a3a09bcb-18a7-53cc-99bd-cedfce1eb9ca","leaf":false,"name":"Higiena osobista","description":"Higiena osobista","doesNotRequireGpsrInfo":true,"children":[]},{"id":"b29beaf2-4ee6-53f4-b8ee-fa9c5010cfcd","leaf":false,"name":"Korekcja wzroku","description":"Korekcja wzroku","doesNotRequireGpsrInfo":true,"children":[]},{"id":"378f16c0-d022-530e-a211-2036a3560609","leaf":false,"name":"Medycyna naturalna","description":"Medycyna naturalna","doesNotRequireGpsrInfo":true,"children":[]},{"id":"fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3","leaf":true,"name":"Pozostałe produkty zdrowotne","description":"Pozostałe produkty zdrowotne","doesNotRequireGpsrInfo":true,"children":[]},{"id":"c7280aad-d384-55d8-94c6-ad57ce6f47d3","leaf":false,"name":"Sprzęt i wyposażenie medyczne","description":"Sprzęt i wyposażenie medyczne","doesNotRequireGpsrInfo":true,"children":[]}]}]}
+{
+  "ok": true,
+  "data": [
+    {
+      "id": "c9075ccc-6599-51b8-9d45-429538606067",
+      "leaf": false,
+      "name": "Dla dzieci",
+      "description": "Dla dzieci",
+      "doesNotRequireGpsrInfo": true,
+      "children": [
+        {
+          "id": "188de254-d124-525a-92e2-2ca50cdb3ef9",
+          "leaf": false,
+          "name": "Akcesoria dla mamy i dziecka",
+          "description": "Akcesoria dla mamy i dziecka",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "fe83f03b-3be9-51d1-a2d6-71767b8bbbda",
+          "leaf": false,
+          "name": "Artykuły szkolne",
+          "description": "Artykuły szkolne",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "ad1772c0-a055-5a23-8943-e43b36db1934",
+          "leaf": false,
+          "name": "Foteliki samochodowe",
+          "description": "Foteliki samochodowe",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "3f6649be-fd9e-5637-a174-260fa02ffc8c",
+          "leaf": false,
+          "name": "Karmienie dziecka",
+          "description": "Karmienie dziecka",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "c5daa142-cedb-50c2-b39d-d59983fabd31",
+          "leaf": false,
+          "name": "Obuwie dla dzieci",
+          "description": "Obuwie dla dzieci",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "253a33c5-4f9d-5212-8247-d835a463f8ff",
+          "leaf": false,
+          "name": "Odzież dla dzieci",
+          "description": "Odzież dla dzieci",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "c7307dc2-0b09-5289-8b49-a3b56e03e038",
+          "leaf": false,
+          "name": "Okazje i przyjęcia",
+          "description": "Okazje i przyjęcia",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "3f6e5af7-6292-5384-ac75-dc0dec9dd20f",
+          "leaf": false,
+          "name": "Pokój dziecięcy",
+          "description": "Pokój dziecięcy",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "595542a9-36fa-56de-941d-61e403555f30",
+          "leaf": false,
+          "name": "Rowery i pojazdy",
+          "description": "Rowery i pojazdy",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "4a2e0fe4-6677-5e81-9d35-9066cd393aee",
+          "leaf": false,
+          "name": "Wózki i akcesoria",
+          "description": "Wózki i akcesoria",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "ffdfcb0a-d396-5fca-8001-6252d04ca67b",
+          "leaf": false,
+          "name": "Zabawki",
+          "description": "Zabawki",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "fa6f05dd-4221-5920-88ef-7dee2a48e654",
+          "leaf": false,
+          "name": "Zabawki ogrodowe",
+          "description": "Zabawki ogrodowe",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+          "leaf": false,
+          "name": "Zdrowie i higiena dziecka",
+          "description": "Zdrowie i higiena dziecka",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "d0d49f24-b740-5502-8460-8653c9d4d9e8",
+      "leaf": false,
+      "name": "Dom i ogród",
+      "description": "Dom i ogród",
+      "doesNotRequireGpsrInfo": true,
+      "children": [
+        {
+          "id": "8a3c9be2-24f3-5deb-a0a3-032905f05562",
+          "leaf": false,
+          "name": "Budowa i remont",
+          "description": "Budowa i remont",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "889e91f0-59ed-5363-981c-006f40dd917d",
+          "leaf": false,
+          "name": "Meble",
+          "description": "Meble",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "9d23693d-0a77-5abb-a135-75f16dc7aac3",
+          "leaf": false,
+          "name": "Narzędzia",
+          "description": "Narzędzia",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "362f4683-e927-56da-b6d2-5e91035e17b9",
+          "leaf": false,
+          "name": "Ogród",
+          "description": "Ogród",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "2d7b3b50-1eac-5fa7-8a73-65b638c169d8",
+          "leaf": false,
+          "name": "Oświetlenie",
+          "description": "Oświetlenie",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "8a965612-2278-5a8f-a1c5-9a421f1d55a1",
+          "leaf": false,
+          "name": "Wyposażenie",
+          "description": "Wyposażenie",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "3660a0b1-e3d7-50ae-bb57-4249c8cc5e32",
+      "leaf": false,
+      "name": "Elektronika",
+      "description": "Elektronika",
+      "doesNotRequireGpsrInfo": true,
+      "children": [
+        {
+          "id": "369f82b5-30e2-5669-8848-69992fd798fc",
+          "leaf": false,
+          "name": "Elektronika",
+          "description": "Elektronika",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "ce67f0c5-9a12-59be-a9b0-7e46a5152b22",
+          "leaf": false,
+          "name": "Fotografia",
+          "description": "Fotografia",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "1e2c4b60-3be9-5258-98fa-2fc28ed3975f",
+          "leaf": false,
+          "name": "Komputery",
+          "description": "Komputery",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "d51e964b-a161-5eb3-a477-7de9d6fba886",
+          "leaf": false,
+          "name": "Konsole i automaty",
+          "description": "Konsole i automaty",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "769dc4ca-bb8e-52e5-8bc6-baf4c0fc515b",
+          "leaf": false,
+          "name": "RTV i AGD",
+          "description": "RTV i AGD",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "59b67b82-c571-50f9-ba73-22eb9cb1a6ee",
+          "leaf": false,
+          "name": "Sprzęt DJ-ski, studyjny i estradowy",
+          "description": "Sprzęt DJ-ski, studyjny i estradowy",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "349bcea2-c1bc-53fd-9c4b-af26705bc6e2",
+          "leaf": false,
+          "name": "Telefony i akcesoria",
+          "description": "Telefony i akcesoria",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "6f27cf2b-ee1b-5e58-a299-8f34fb598b49",
+      "leaf": false,
+      "name": "Firma i biuro",
+      "description": "Firma i biuro",
+      "doesNotRequireGpsrInfo": true,
+      "children": [
+        {
+          "id": "61a32de5-da27-5c65-8676-ee9b8737d613",
+          "leaf": false,
+          "name": "Akcesoria biurowe",
+          "description": "Akcesoria biurowe",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "e7890659-e530-584d-9ea1-1b136ce48e25",
+          "leaf": false,
+          "name": "Akcesoria reklamowe",
+          "description": "Akcesoria reklamowe",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "2283257b-0f0f-5fb5-bd31-961c8184e33c",
+          "leaf": false,
+          "name": "Artykuły piśmiennicze",
+          "description": "Artykuły piśmiennicze",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "b4519268-dc0e-5b81-abab-7ad57df95df0",
+          "leaf": false,
+          "name": "Meble biurowe",
+          "description": "Meble biurowe",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "519c2c07-59d3-5ca3-8094-ed5e6ae65309",
+          "leaf": false,
+          "name": "Organizacja dokumentów",
+          "description": "Organizacja dokumentów",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "73cef4e8-cd4d-55c9-9d9a-183d6c730dba",
+          "leaf": false,
+          "name": "Pakowanie i wysyłka",
+          "description": "Pakowanie i wysyłka",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "d44685ff-421e-5ebe-841b-17d6171cd978",
+          "leaf": false,
+          "name": "Papier",
+          "description": "Papier",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "c6ddc5d8-652f-56bb-aea0-2b1cd91ac85e",
+          "leaf": false,
+          "name": "Przybory kreślarskie",
+          "description": "Przybory kreślarskie",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "3d5d06e8-510c-5fd5-affc-5a7b24d57fb4",
+          "leaf": false,
+          "name": "Sprzęt biurowy",
+          "description": "Sprzęt biurowy",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "824f88f0-bb77-54f1-ac39-dfe8ce74c4d8",
+          "leaf": false,
+          "name": "Sprzęt do prezentacji",
+          "description": "Sprzęt do prezentacji",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "b4bc3637-af8c-5c97-87b0-bdc661341828",
+      "leaf": false,
+      "name": "Kolekcje i sztuka",
+      "description": "Kolekcje i sztuka",
+      "doesNotRequireGpsrInfo": true,
+      "children": [
+        {
+          "id": "7ff4c5dc-9a65-5ea8-8e8c-8dd05b9f09f0",
+          "leaf": false,
+          "name": "Akcesoria plastyczne",
+          "description": "Akcesoria plastyczne",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "0a5efadd-6fd3-5c37-97f2-09392209702d",
+          "leaf": false,
+          "name": "Biżuteria",
+          "description": "Biżuteria",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "4c51f106-77e9-542a-b43c-22bdf7b6760f",
+          "leaf": false,
+          "name": "Ceramika",
+          "description": "Ceramika",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "02dc1325-3f39-53b5-ba94-c31f1558deb8",
+          "leaf": false,
+          "name": "Design i antyki",
+          "description": "Design i antyki",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "7ac6765d-41e1-5a18-95df-ede0cc272b5e",
+          "leaf": false,
+          "name": "Dewocjonalia",
+          "description": "Dewocjonalia",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "9da78158-e159-50de-b9d8-02ff14eb400b",
+          "leaf": false,
+          "name": "Kolekcje",
+          "description": "Kolekcje",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "ea2a7478-be9e-55f2-beeb-798b361dc177",
+          "leaf": false,
+          "name": "Meble",
+          "description": "Meble",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "959c3493-e669-5a29-9091-1f32b55ac036",
+          "leaf": true,
+          "name": "Miedź, mosiądz, cyna",
+          "description": "Miedź, mosiądz, cyna",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "3ffe3efe-0e4f-53f1-9e85-beb7d19dfd1d",
+          "leaf": false,
+          "name": "Oświetlenie",
+          "description": "Oświetlenie",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "16903838-ace5-52ca-84fe-509ba04fe40d",
+          "leaf": false,
+          "name": "Platery, posrebrzane i inne",
+          "description": "Platery, posrebrzane i inne",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "13165f8b-aa37-5b78-bdc9-280bc0703d02",
+          "leaf": false,
+          "name": "Porcelana",
+          "description": "Porcelana",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "127ab3d5-e994-5045-bb05-30c3a5196277",
+          "leaf": false,
+          "name": "Rękodzieło",
+          "description": "Rękodzieło",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "4100060e-065e-5419-a8be-343541baae88",
+          "leaf": true,
+          "name": "Reprodukcje i przedmioty stylizowane",
+          "description": "Reprodukcje i przedmioty stylizowane",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "f41b11f4-014b-5660-bbcf-9b6eb7aa94e9",
+          "leaf": false,
+          "name": "Srebra",
+          "description": "Srebra",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "cde20b4e-df8f-59f5-93c5-029946acb82b",
+          "leaf": false,
+          "name": "Szkło",
+          "description": "Szkło",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "b13e9354-e3f3-5106-be1d-155558605872",
+          "leaf": false,
+          "name": "Sztuka",
+          "description": "Sztuka",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "57bea189-e26b-51fc-abb8-621304e2c1d6",
+          "leaf": false,
+          "name": "Tkaniny",
+          "description": "Tkaniny",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "a71abe4a-fe11-5bbb-8242-0213462e1e10",
+          "leaf": false,
+          "name": "Zabytki techniki",
+          "description": "Zabytki techniki",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "f281c08d-9a0c-5445-af06-e680f0e7ddb3",
+          "leaf": false,
+          "name": "Zegary, zegarki",
+          "description": "Zegary, zegarki",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "20510725-8cd4-55fa-b6a7-0a22fe943bde",
+      "leaf": false,
+      "name": "Kultura i rozrywka",
+      "description": "Kultura i rozrywka",
+      "doesNotRequireGpsrInfo": true,
+      "children": [
+        {
+          "id": "282ee5fb-588c-532d-b105-a5943ab86e08",
+          "leaf": false,
+          "name": "Czasopisma",
+          "description": "Czasopisma",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "7702eb85-1e4e-598f-8fba-ff52cd5020c5",
+          "leaf": true,
+          "name": "Gadżety",
+          "description": "Gadżety",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "4bb99e02-62e8-5f92-ab18-75f6e9186499",
+          "leaf": false,
+          "name": "Gry",
+          "description": "Gry",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "e7c6cc7b-c1ae-5582-8aa8-9098021b098d",
+          "leaf": false,
+          "name": "Instrumenty",
+          "description": "Instrumenty",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "a83391c5-2f20-58a4-a84f-91cd888a3ccf",
+          "leaf": false,
+          "name": "Komiksy",
+          "description": "Komiksy",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "f73afada-768e-54d4-9684-daa4334b3c70",
+          "leaf": false,
+          "name": "Książki",
+          "description": "Książki",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "84480db2-1755-5b50-b263-9d86f3b3898c",
+          "leaf": false,
+          "name": "Muzyka i filmy",
+          "description": "Muzyka",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "2f645fb5-3ee7-5e81-bdff-13a204dcc2b0",
+          "leaf": false,
+          "name": "Podręczniki szkolne",
+          "description": "Podręczniki szkolne",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "3727fefe-4546-5f75-8a2b-8b5944ca15ff",
+      "leaf": false,
+      "name": "Moda",
+      "description": "Moda",
+      "doesNotRequireGpsrInfo": true,
+      "children": [
+        {
+          "id": "969eb215-23b9-5e73-ad1f-0d1ea737315e",
+          "leaf": false,
+          "name": "Biżuteria i zegarki",
+          "description": "Biżuteria i zegarki",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "5b04a570-18c5-5622-9ca8-cff3376ba138",
+          "leaf": false,
+          "name": "Odzież, obuwie i dodatki",
+          "description": "Odzież, obuwie i dodatki",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "84a38c3d-dfdf-54e0-b1c0-e38295bd5a75",
+      "leaf": false,
+      "name": "Motoryzacja",
+      "description": "Motoryzacja",
+      "doesNotRequireGpsrInfo": true,
+      "children": [
+        {
+          "id": "84cd43a1-ca01-5f9f-bd99-5b5223e6d755",
+          "leaf": false,
+          "name": "Akcesoria samochodowe",
+          "description": "Akcesoria samochodowe",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "782ed8cf-3430-59e3-acde-17f380be85ed",
+          "leaf": false,
+          "name": "Chemia samochodowa",
+          "description": "Chemia samochodowa",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "6b37d631-6012-5c96-a318-05713da1d68e",
+          "leaf": false,
+          "name": "Części do maszyn i innych pojazdów",
+          "description": "Części do maszyn i innych pojazdów",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "ae3a4476-92c2-56d0-86a0-827e6389fde3",
+          "leaf": false,
+          "name": "Części i akcesoria motocyklowe",
+          "description": "Części i akcesoria motocyklowe",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "e81125a5-b6bb-55e2-b496-e56ce894d026",
+          "leaf": false,
+          "name": "Części samochodowe",
+          "description": "Części samochodowe",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "ceb6d2b7-13a1-5fb4-b216-ea4697e49787",
+          "leaf": false,
+          "name": "Opony i felgi",
+          "description": "Opony i felgi",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "9ba1e7eb-6286-5555-be50-dfe16cd52477",
+          "leaf": false,
+          "name": "Wyposażenie warsztatu",
+          "description": "Wyposażenie warsztatu",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "6180cb12-bf22-5b81-822d-3e70b0fa38b2",
+      "leaf": true,
+      "name": "Nieznana",
+      "description": "Nieznana kategoria - ustawiana domyślnie, gdy nie znajdziemy dopasowania w katalogu",
+      "doesNotRequireGpsrInfo": true,
+      "children": []
+    },
+    {
+      "id": "84171308-a62e-54fe-9d07-056cde7020be",
+      "leaf": false,
+      "name": "Sport i turystyka",
+      "description": "Sport i turystyka",
+      "doesNotRequireGpsrInfo": true,
+      "children": [
+        {
+          "id": "9a9e6dea-1112-5a75-8ce9-42a57a436042",
+          "leaf": false,
+          "name": "Bieganie",
+          "description": "Bieganie",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "e07532ba-c31a-54b1-b72b-d9267d79bc1f",
+          "leaf": false,
+          "name": "Elektronika sportowa",
+          "description": "Elektronika sportowa",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "c366e9ab-2c3c-58f7-be1e-fcc376e38195",
+          "leaf": false,
+          "name": "Kolekcje sportowe",
+          "description": "Kolekcje sportowe",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "557061f0-ca3f-598f-aa9d-2a246a74443f",
+          "leaf": false,
+          "name": "Militaria",
+          "description": "Militaria",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "c20edb38-f303-5caf-9d2e-0f43c9d96374",
+          "leaf": false,
+          "name": "Rowery i akcesoria",
+          "description": "Rowery i akcesoria",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "e6328e64-87c4-53ef-8fde-2a96c04a29a0",
+          "leaf": false,
+          "name": "Siłownia i fitness",
+          "description": "Siłownia i fitness",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "4c966aae-c262-544a-a418-3e754eb0459f",
+          "leaf": false,
+          "name": "Skating i slackline",
+          "description": "Skating i slackline",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "141847a5-68c5-5ed9-a844-f704bb499736",
+          "leaf": false,
+          "name": "Sporty ekstremalne",
+          "description": "Sporty ekstremalne",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "ee03fc69-e60b-5c07-856f-003648c6ed93",
+          "leaf": false,
+          "name": "Sporty towarzyskie i rekreacja",
+          "description": "Sporty towarzyskie i rekreacja",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "e546fab5-43d6-52ba-be39-49853c21f22d",
+          "leaf": false,
+          "name": "Sporty walki",
+          "description": "Sporty walki",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "fd5cd359-f22a-5bff-88d6-c64b455ae553",
+          "leaf": false,
+          "name": "Sporty wodne",
+          "description": "Sporty wodne",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "664351d5-41c7-5f1e-ae25-f27a6a0d713c",
+          "leaf": false,
+          "name": "Sporty zespołowe",
+          "description": "Sporty zespołowe",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "ed5d33f1-539c-555f-9a0c-f09dc0b9e358",
+          "leaf": false,
+          "name": "Sporty zimowe",
+          "description": "Sporty zimowe",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "ad9bb108-60bb-5d6b-8b63-c4aa7abd625c",
+          "leaf": false,
+          "name": "Tenis i zbliżone",
+          "description": "Tenis i zbliżone",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "ecc3427d-31b2-564b-ac98-f4ba43724169",
+          "leaf": false,
+          "name": "Turystyka",
+          "description": "Turystyka",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "cbe8d91f-1488-50ab-baac-e6b90dd6834c",
+          "leaf": false,
+          "name": "Wędkarstwo",
+          "description": "Wędkarstwo",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "b1594473-42a2-514d-adea-e29b34387f6f",
+      "leaf": false,
+      "name": "Supermarket",
+      "description": "Supermarket",
+      "doesNotRequireGpsrInfo": true,
+      "children": [
+        {
+          "id": "50ce2374-ce7c-5749-b614-1e61cb3d90e8",
+          "leaf": false,
+          "name": "Dla zwierząt",
+          "description": "Dla zwierząt",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "d2143f78-1d2d-519a-8984-e301e48472b5",
+          "leaf": false,
+          "name": "Produkty spożywcze",
+          "description": "Produkty spożywcze",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "b662a6a1-d9ec-52ed-b46c-a72051f6a972",
+          "leaf": false,
+          "name": "Utrzymanie czystości",
+          "description": "Utrzymanie czystości",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "9e1a8a1d-2248-52d7-810e-85e8d11b3c8d",
+      "leaf": false,
+      "name": "Uroda",
+      "description": "Uroda",
+      "doesNotRequireGpsrInfo": true,
+      "children": [
+        {
+          "id": "aaf01178-4dad-5291-835b-a060a7d9d6d7",
+          "leaf": false,
+          "name": "Makijaż",
+          "description": "Makijaż",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "d9dcd559-fce3-52b3-9261-e815b29f0ade",
+          "leaf": false,
+          "name": "Manicure i pedicure",
+          "description": "Manicure i pedicure",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "ba95deec-2d32-5321-af54-d9e372557c96",
+          "leaf": false,
+          "name": "Perfumy i wody",
+          "description": "Perfumy i wody",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "a25a4d24-4759-5afc-8533-dce1f8daa097",
+          "leaf": false,
+          "name": "Pielęgnacja",
+          "description": "Pielęgnacja",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "e47e1cbc-25d3-5d13-b3a3-d8dd5f8d7396",
+          "leaf": false,
+          "name": "Profesjonalne wyposażenie salonów",
+          "description": "Profesjonalne wyposażenie salonów",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "74a3e0c2-09c0-564d-b1a5-28317cf1d3a2",
+      "leaf": false,
+      "name": "Zdrowie",
+      "description": "Zdrowie",
+      "doesNotRequireGpsrInfo": true,
+      "children": [
+        {
+          "id": "32dc0ba6-7f8e-5613-b86c-a177efdf7eba",
+          "leaf": false,
+          "name": "Dermokosmetyki",
+          "description": "Dermokosmetyki",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "5404f250-1159-5fa4-92d4-5d8476eeabc0",
+          "leaf": false,
+          "name": "Domowa apteczka",
+          "description": "Domowa apteczka",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "739ecdfb-08b1-5d1a-9279-9c1f24828fe6",
+          "leaf": false,
+          "name": "Erotyka",
+          "description": "Erotyka",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "75706863-bc75-5eb8-a03d-9d98a2d30249",
+          "leaf": false,
+          "name": "Higiena jamy ustnej",
+          "description": "Higiena jamy ustnej",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "a3a09bcb-18a7-53cc-99bd-cedfce1eb9ca",
+          "leaf": false,
+          "name": "Higiena osobista",
+          "description": "Higiena osobista",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "b29beaf2-4ee6-53f4-b8ee-fa9c5010cfcd",
+          "leaf": false,
+          "name": "Korekcja wzroku",
+          "description": "Korekcja wzroku",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "378f16c0-d022-530e-a211-2036a3560609",
+          "leaf": false,
+          "name": "Medycyna naturalna",
+          "description": "Medycyna naturalna",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
+          "leaf": true,
+          "name": "Pozostałe produkty zdrowotne",
+          "description": "Pozostałe produkty zdrowotne",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        },
+        {
+          "id": "c7280aad-d384-55d8-94c6-ad57ce6f47d3",
+          "leaf": false,
+          "name": "Sprzęt i wyposażenie medyczne",
+          "description": "Sprzęt i wyposażenie medyczne",
+          "doesNotRequireGpsrInfo": true,
+          "children": []
+        }
+      ]
+    }
+  ]
+}
