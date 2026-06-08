@@ -1,21 +1,19 @@
 #!/usr/bin/env node
 
 /**
- * CSV WooCommerce -> JSON ofert InPost Buy + mapa zdjęć
+ * csv-to-inpost-json.js
+ *
+ * CSV WooCommerce -> JSON ofert InPost Buy + osobna mapa zdjęć.
+ *
+ * Uproszczone mapowanie kategorii:
+ *   1. category-hints.json po EAN
+ *   2. category-overrides.json po kategorii WooCommerce
+ *   3. brak przypisania -> produkt pomijany
  *
  * Użycie:
- *   node csv-to-inpost-json.js suppla-oferta.csv category-map.json dist category-overrides.json
+ *   node csv-to-inpost-json.js suppla-oferta.csv category-map.json dist category-overrides.json dist/category-hints.json
  *
- * Wyniki:
- *   dist/inpost-offers.json
- *   dist/inpost-offers-wrapped.json
- *   dist/offer-images.json
- *   dist/skipped-products.json
- *   dist/products-without-images.json
- *   dist/unresolved-categories.json
- *   dist/category-resolution-report.json
- *
- * Instalacja zależności:
+ * Wymagane paczki:
  *   npm install csv-parse he
  */
 
@@ -24,52 +22,29 @@ const path = require("path");
 const { parse } = require("csv-parse/sync");
 const he = require("he");
 
-const INPUT_CSV = process.argv[2] || "produkty.csv";
+const INPUT_CSV = process.argv[2] || "suppla-oferta.csv";
 const CATEGORY_MAP_FILE = process.argv[3] || "category-map.json";
 const OUTPUT_DIR = process.argv[4] || "dist";
 const CATEGORY_OVERRIDES_FILE = process.argv[5] || "category-overrides.json";
+const CATEGORY_HINTS_FILE = process.argv[6] || path.join(OUTPUT_DIR, "category-hints.json");
+
+const STRICT_MODE = false;
+
+const REQUIRE_IMAGE = true;
+const ONLY_PUBLISHED = true;
+const SKIP_OUT_OF_STOCK = false;
+
+const INCLUDE_IMAGES_IN_OFFER_JSON = false;
+const INCLUDE_META_IN_OFFERS = false;
+
+const USE_NAME_AS_FALLBACK_DESCRIPTION = false;
+const MIN_DESCRIPTION_LENGTH = 100;
+const MAX_DESCRIPTION_LENGTH = 4000;
 
 const DEFAULT_TAX_RATE = "23%";
 const DEFAULT_CURRENCY = "PLN";
 const DEFAULT_STOCK_UNIT = "UNIT";
 const DEFAULT_BRAND = "Inna marka";
-
-const MAX_DESCRIPTION_LENGTH = 4000;
-
-/**
- * false = produkty ze stanem 0 też będą eksportowane.
- * true = produkty ze stanem 0 zostaną pominięte.
- */
-const SKIP_OUT_OF_STOCK = false;
-
-/**
- * true = eksportuje tylko produkty z kolumną Opublikowano = 1.
- */
-const ONLY_PUBLISHED = true;
-
-/**
- * true = gdy opis jest pusty, używa nazwy produktu jako opisu.
- */
-const USE_NAME_AS_FALLBACK_DESCRIPTION = true;
-
-/**
- * true = produkt bez zdjęcia nie zostanie dodany do inpost-offers.json.
- * To jest zalecane, skoro InPost wymaga zdjęcia dla każdej oferty.
- */
-const REQUIRE_IMAGE = true;
-
-/**
- * false = nie dodaje zdjęć do JSON-a oferty.
- * Zdjęcia są zapisywane osobno w dist/offer-images.json
- * i później wysyłane przez send-inpost-offers.js jako załącznik IMAGE.
- */
-const INCLUDE_IMAGES_IN_OFFER_JSON = false;
-
-/**
- * false = nie dodaje pola diagnostycznego _meta do oferty.
- * To bezpieczniejsze przy wysyłce do InPost.
- */
-const INCLUDE_META_IN_OFFERS = false;
 
 function readFileUtf8(filePath) {
   if (!fs.existsSync(filePath)) {
@@ -91,6 +66,11 @@ function ensureDir(dirPath) {
   fs.mkdirSync(dirPath, { recursive: true });
 }
 
+function writeJson(filePath, data) {
+  ensureDir(path.dirname(filePath));
+  fs.writeFileSync(filePath, JSON.stringify(data, null, 2), "utf8");
+}
+
 function normalizeText(value) {
   return String(value ?? "")
     .replace(/\r/g, "")
@@ -99,14 +79,16 @@ function normalizeText(value) {
     .trim();
 }
 
-function limitText(value, maxLength = MAX_DESCRIPTION_LENGTH) {
-  const text = normalizeText(value);
+function normalizeDigits(value) {
+  return String(value ?? "").replace(/[^\d]/g, "");
+}
 
-  if (text.length <= maxLength) {
-    return text;
-  }
-
-  return text.slice(0, maxLength).trim();
+function normalizeCategoryPath(categoryPath) {
+  return normalizeText(categoryPath)
+    .replace(/\s*>\s*/g, " > ")
+    .replace(/\s*\/\s*/g, " / ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function normalizeForCompare(value) {
@@ -120,12 +102,14 @@ function normalizeForCompare(value) {
     .toLowerCase();
 }
 
-function normalizeCategoryPath(categoryPath) {
-  return normalizeText(categoryPath)
-    .replace(/\s*>\s*/g, " > ")
-    .replace(/\s*\/\s*/g, " / ")
-    .replace(/\s+/g, " ")
-    .trim();
+function limitText(value, maxLength = MAX_DESCRIPTION_LENGTH) {
+  const text = normalizeText(value);
+
+  if (text.length <= maxLength) {
+    return text;
+  }
+
+  return text.slice(0, maxLength).trim();
 }
 
 function cleanHtmlToText(value) {
@@ -143,28 +127,36 @@ function cleanHtmlToText(value) {
 }
 
 function parseNumber(value) {
-  if (value === undefined || value === null) return null;
+  if (value === undefined || value === null) {
+    return null;
+  }
 
   const normalized = String(value)
     .replace(/\s/g, "")
     .replace(",", ".")
     .trim();
 
-  if (!normalized) return null;
+  if (!normalized) {
+    return null;
+  }
 
   const number = Number(normalized);
+
   return Number.isFinite(number) ? number : null;
 }
 
 function parseInteger(value) {
   const number = parseNumber(value);
-  return number === null ? null : Math.max(0, Math.floor(number));
+
+  if (number === null) {
+    return null;
+  }
+
+  return Math.max(0, Math.floor(number));
 }
 
-function isLikelyEan(value) {
-  const text = String(value ?? "").trim();
-
-  return /^[0-9]{8}$|^[0-9]{12}$|^[0-9]{13}$|^[0-9]{14}$/.test(text);
+function roundMoney(value) {
+  return Math.round(value * 100) / 100;
 }
 
 function getFirstNonEmpty(...values) {
@@ -192,6 +184,58 @@ function detectDelimiter(csvContent) {
   return semicolonCount > commaCount ? ";" : ",";
 }
 
+function splitEscapedCommaList(value) {
+  const raw = normalizeText(value);
+
+  if (!raw) {
+    return [];
+  }
+
+  const result = [];
+  let current = "";
+  let escaped = false;
+
+  for (const char of raw) {
+    if (escaped) {
+      current += char;
+      escaped = false;
+      continue;
+    }
+
+    if (char === "\\") {
+      escaped = true;
+      continue;
+    }
+
+    if (char === ",") {
+      const item = current.trim();
+
+      if (item) {
+        result.push(item);
+      }
+
+      current = "";
+      continue;
+    }
+
+    current += char;
+  }
+
+  const lastItem = current.trim();
+
+  if (lastItem) {
+    result.push(lastItem);
+  }
+
+  return result;
+}
+
+function splitWooCategories(value) {
+  return splitEscapedCommaList(value)
+    .map((item) => normalizeCategoryPath(item))
+    .filter(Boolean);
+}
+
 function categoryDepth(categoryPath) {
   return normalizeCategoryPath(categoryPath)
     .split(">")
@@ -199,24 +243,38 @@ function categoryDepth(categoryPath) {
     .filter(Boolean).length;
 }
 
-function splitWooCategories(value) {
-  const raw = normalizeText(value);
-
-  if (!raw) {
-    return [];
+function extractCategoryId(value) {
+  if (value && typeof value === "object" && !Array.isArray(value)) {
+    return normalizeText(value.id || value.categoryId || value.value || "");
   }
 
-  return raw
-    .split(/(?<!\\),\s*/g)
-    .map((item) => item.replace(/\\,/g, ","))
-    .map((item) => normalizeCategoryPath(item))
-    .filter(Boolean);
+  return normalizeText(value);
+}
+
+function buildCategoryIdSet(categoryMap) {
+  const ids = new Set();
+
+  for (const value of Object.values(categoryMap || {})) {
+    const categoryId = extractCategoryId(value);
+
+    if (categoryId) {
+      ids.add(categoryId);
+    }
+  }
+
+  return ids;
 }
 
 function buildNormalizedCategoryMap(categoryMap) {
   const normalizedMap = {};
 
-  for (const [categoryPath, categoryId] of Object.entries(categoryMap || {})) {
+  for (const [categoryPath, rawCategoryValue] of Object.entries(categoryMap || {})) {
+    const categoryId = extractCategoryId(rawCategoryValue);
+
+    if (!categoryId) {
+      continue;
+    }
+
     normalizedMap[normalizeForCompare(categoryPath)] = {
       originalPath: categoryPath,
       categoryId
@@ -228,27 +286,32 @@ function buildNormalizedCategoryMap(categoryMap) {
 
 function buildNormalizedOverridesMap(categoryOverrides) {
   const normalizedMap = {};
+  const duplicates = [];
 
   for (const [wooCategoryPath, inpostCategoryValue] of Object.entries(categoryOverrides || {})) {
-    normalizedMap[normalizeForCompare(wooCategoryPath)] = {
+    const normalizedKey = normalizeForCompare(wooCategoryPath);
+
+    if (normalizedMap[normalizedKey]) {
+      duplicates.push({
+        normalizedKey,
+        firstOriginalPath: normalizedMap[normalizedKey].originalPath,
+        duplicatedOriginalPath: wooCategoryPath
+      });
+    }
+
+    normalizedMap[normalizedKey] = {
       originalPath: wooCategoryPath,
       value: inpostCategoryValue
     };
   }
 
-  return normalizedMap;
+  return {
+    normalizedMap,
+    duplicates
+  };
 }
 
-/**
- * category-overrides.json może mieć jako wartość:
- *
- * 1. Bezpośrednie ID kategorii InPost:
- *    "Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna": "68f5ca30..."
- *
- * 2. Ścieżkę z category-map.json:
- *    "Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna": "Dermokosmetyki > Dermokosmetyki do opalania"
- */
-function resolveCategoryValue(value, categoryMap, normalizedCategoryMap) {
+function resolveOverrideValue(value, categoryMap, normalizedCategoryMap) {
   const cleanValue = normalizeText(value);
 
   if (!cleanValue) {
@@ -257,8 +320,9 @@ function resolveCategoryValue(value, categoryMap, normalizedCategoryMap) {
 
   if (categoryMap[cleanValue]) {
     return {
-      categoryId: categoryMap[cleanValue],
-      resolvedFrom: cleanValue
+      categoryId: extractCategoryId(categoryMap[cleanValue]),
+      resolvedFrom: cleanValue,
+      resolvedBy: "category-map-path"
     };
   }
 
@@ -267,228 +331,129 @@ function resolveCategoryValue(value, categoryMap, normalizedCategoryMap) {
   if (normalizedCategoryMap[normalizedValue]) {
     return {
       categoryId: normalizedCategoryMap[normalizedValue].categoryId,
-      resolvedFrom: normalizedCategoryMap[normalizedValue].originalPath
+      resolvedFrom: normalizedCategoryMap[normalizedValue].originalPath,
+      resolvedBy: "category-map-normalized-path"
     };
   }
 
   return {
     categoryId: cleanValue,
-    resolvedFrom: "direct-id"
+    resolvedFrom: "direct-id",
+    resolvedBy: "direct-id"
   };
 }
 
-function getLastCategoryPart(categoryPath) {
-  const parts = normalizeCategoryPath(categoryPath)
-    .split(">")
-    .map((part) => part.trim())
-    .filter(Boolean);
+function validateCategoryOverrides(categoryOverrides, categoryMap) {
+  const normalizedCategoryMap = buildNormalizedCategoryMap(categoryMap);
+  const { duplicates } = buildNormalizedOverridesMap(categoryOverrides);
+  const validCategoryIds = buildCategoryIdSet(categoryMap);
+  const shouldValidateIds = validCategoryIds.size > 0;
+  const invalidOverrides = [];
 
-  return parts[parts.length - 1] || "";
+  for (const duplicate of duplicates) {
+    invalidOverrides.push({
+      error: "Zdublowana kategoria WooCommerce po normalizacji",
+      ...duplicate
+    });
+  }
+
+  for (const [wooCategory, inpostCategoryValue] of Object.entries(categoryOverrides || {})) {
+    const cleanWooCategory = normalizeCategoryPath(wooCategory);
+    const cleanValue = normalizeText(inpostCategoryValue);
+
+    if (!cleanWooCategory) {
+      invalidOverrides.push({
+        wooCategory,
+        inpostCategoryValue,
+        error: "Pusta kategoria WooCommerce"
+      });
+
+      continue;
+    }
+
+    if (!cleanValue) {
+      invalidOverrides.push({
+        wooCategory,
+        inpostCategoryValue,
+        error: "Puste ID albo pusta ścieżka kategorii InPost"
+      });
+
+      continue;
+    }
+
+    const resolved = resolveOverrideValue(cleanValue, categoryMap, normalizedCategoryMap);
+
+    if (!resolved?.categoryId) {
+      invalidOverrides.push({
+        wooCategory,
+        inpostCategoryValue,
+        error: "Nie udało się rozwiązać wartości mapowania"
+      });
+
+      continue;
+    }
+
+    if (shouldValidateIds && !validCategoryIds.has(resolved.categoryId)) {
+      invalidOverrides.push({
+        wooCategory,
+        inpostCategoryValue,
+        resolvedCategoryId: resolved.categoryId,
+        error: "ID kategorii InPost nie występuje w category-map.json"
+      });
+    }
+  }
+
+  return invalidOverrides;
 }
 
-function findByLastCategoryName(wooCategoryPath, categoryMap) {
-  const wooLastPart = normalizeForCompare(getLastCategoryPart(wooCategoryPath));
+function isLikelyEan(value) {
+  const text = normalizeDigits(value);
 
-  if (!wooLastPart) {
+  return /^[0-9]{8}$|^[0-9]{12}$|^[0-9]{13}$|^[0-9]{14}$/.test(text);
+}
+
+function getEan(row) {
+  const gtin = normalizeDigits(row["GTIN, UPC, EAN lub ISBN"]);
+  const ean = normalizeDigits(row["EAN"]);
+  const sku = normalizeDigits(row["SKU"]);
+
+  if (isLikelyEan(gtin)) return gtin;
+  if (isLikelyEan(ean)) return ean;
+  if (isLikelyEan(sku)) return sku;
+
+  return "";
+}
+
+function getHintCategoryId(row, categoryHints) {
+  const ean = getEan(row);
+
+  if (!ean) {
     return null;
   }
 
-  const candidates = Object.entries(categoryMap)
-    .map(([inpostPath, categoryId]) => ({
-      inpostPath,
-      categoryId,
-      lastPart: normalizeForCompare(getLastCategoryPart(inpostPath))
-    }))
-    .filter((item) => item.lastPart === wooLastPart);
+  const hint = categoryHints[ean];
 
-  if (candidates.length === 1) {
-    return {
-      categoryId: candidates[0].categoryId,
-      matchedCategory: candidates[0].inpostPath
-    };
+  if (!hint) {
+    return null;
   }
 
-  return null;
+  const categoryId = typeof hint === "string"
+    ? normalizeText(hint)
+    : normalizeText(hint.categoryId || hint.id || "");
+
+  if (!categoryId) {
+    return null;
+  }
+
+  return {
+    ean,
+    categoryId
+  };
 }
 
-function getFallbackRules() {
-  return [
-    {
-      test: /ochrona przeciwsloneczna|przeciwslonecz|spf|opal/,
-      inpostPath: "Dermokosmetyki > Dermokosmetyki do opalania"
-    },
-    {
-      test: /antyperspir|dezodorant/,
-      inpostPath: "Dermokosmetyki > Dermokosmetyki do ciała > Antyperspiranty"
-    },
-    {
-      test: /krem.*rak|krem.*dlon|dloni|dłoni|stop|stóp/,
-      inpostPath: "Dermokosmetyki > Dermokosmetyki do ciała > Kremy do rąk i stóp"
-    },
-    {
-      test: /olejek.*wlos|olej.*wlos|olejek.*włos|olej.*włos/,
-      inpostPath: "Dermokosmetyki > Dermokosmetyki do włosów > Olejki do włosów"
-    },
-    {
-      test: /olejek|olejki|olej do masażu|olej do masazu/,
-      inpostPath: "Dermokosmetyki > Dermokosmetyki do ciała > Olejki do ciała"
-    },
-    {
-      test: /kapiel|kąpiel|prysznic|mydlo|mydło|zel myjacy|żel myjący|zel pod prysznic|żel pod prysznic|olejek myjacy|olejek myjący/,
-      inpostPath: "Dermokosmetyki > Dermokosmetyki do ciała > Kąpiel i prysznic"
-    },
-    {
-      test: /peeling|scrub/,
-      inpostPath: "Dermokosmetyki > Dermokosmetyki do ciała > Peelingi i scruby do ciała"
-    },
-    {
-      test: /mgielka|mgiełka/,
-      inpostPath: "Dermokosmetyki > Dermokosmetyki do ciała > Mgiełki do ciała"
-    },
-    {
-      test: /balsam|maslo|masło|mleczko|emulsja|krem.*cial|krem.*ciał/,
-      inpostPath: "Dermokosmetyki > Dermokosmetyki do ciała > Balsamy, masła, kremy do ciała"
-    },
-    {
-      test: /szampon/,
-      inpostPath: "Dermokosmetyki > Dermokosmetyki do włosów > Szampony"
-    },
-    {
-      test: /odzywk|odżywk|maska.*wlos|maska.*włos|balsam.*wlos|balsam.*włos|rozczes/,
-      inpostPath: "Dermokosmetyki > Dermokosmetyki do włosów > Odżywki, maski, balsamy do włosów"
-    },
-    {
-      test: /kuracj|wcierk|ampulk|ampułk|serum.*wlos|serum.*włos/,
-      inpostPath: "Dermokosmetyki > Dermokosmetyki do włosów > Kuracje do włosów"
-    },
-    {
-      test: /tonik|hydrolat|woda termalna/,
-      inpostPath: "Dermokosmetyki > Dermokosmetyki do twarzy > Toniki, hydrolaty, wody termalne"
-    },
-    {
-      test: /oczyszcz|demakijaz|demakijaż|plyn micelarn|płyn micelarn|zel do mycia twarzy|żel do mycia twarzy/,
-      inpostPath: "Dermokosmetyki > Dermokosmetyki do twarzy > Oczyszczanie i demakijaż"
-    },
-    {
-      test: /maseczk|maska do twarzy/,
-      inpostPath: "Dermokosmetyki > Dermokosmetyki do twarzy > Maseczki do twarzy"
-    },
-    {
-      test: /serum/,
-      inpostPath: "Dermokosmetyki > Dermokosmetyki do twarzy > Serum"
-    },
-    {
-      test: /krem.*pod oczy|okolice oczu|pod oczy/,
-      inpostPath: "Dermokosmetyki > Dermokosmetyki do twarzy > Kremy pod oczy"
-    },
-    {
-      test: /krem|twarz/,
-      inpostPath: "Dermokosmetyki > Dermokosmetyki do twarzy > Kremy do twarzy"
-    },
-    {
-      test: /wlos|włos/,
-      inpostPath: "Dermokosmetyki > Dermokosmetyki do włosów > Szampony"
-    },
-    {
-      test: /zestaw/,
-      inpostPath: "Dermokosmetyki > Zestawy dermokosmetyków"
-    },
-
-    {
-      test: /zapar/,
-      inpostPath: "Domowa apteczka > Leki bez recepty > Układ pokarmowy > Zaparcia"
-    },
-    {
-      test: /biegun/,
-      inpostPath: "Domowa apteczka > Leki bez recepty > Układ pokarmowy > Biegunka"
-    },
-    {
-      test: /zgaga|nadkwas/,
-      inpostPath: "Domowa apteczka > Leki bez recepty > Układ pokarmowy > Zgaga, nadkwaśność"
-    },
-    {
-      test: /watrob|wątrob/,
-      inpostPath: "Domowa apteczka > Leki bez recepty > Układ pokarmowy > Wątroba"
-    },
-    {
-      test: /wzdec|wzdęc|nudnos|nudnoś|wymiot/,
-      inpostPath: "Domowa apteczka > Leki bez recepty > Układ pokarmowy > Wzdęcia, nudności, wymioty"
-    },
-    {
-      test: /probiot|flora bakteryjna/,
-      inpostPath: "Domowa apteczka > Leki bez recepty > Układ pokarmowy > Odbudowa flory bakteryjnej"
-    },
-    {
-      test: /bol gardla|ból gardła|chryp/,
-      inpostPath: "Domowa apteczka > Leki bez recepty > Przeziębienie, grypa > Ból gardła, chrypa"
-    },
-    {
-      test: /kaszel/,
-      inpostPath: "Domowa apteczka > Leki bez recepty > Przeziębienie, grypa > Kaszel"
-    },
-    {
-      test: /katar/,
-      inpostPath: "Domowa apteczka > Leki bez recepty > Przeziębienie, grypa > Katar"
-    },
-    {
-      test: /goracz|gorącz/,
-      inpostPath: "Domowa apteczka > Leki bez recepty > Przeziębienie, grypa > Gorączka"
-    },
-    {
-      test: /alerg/,
-      inpostPath: "Domowa apteczka > Leki bez recepty > Alergia"
-    },
-    {
-      test: /bol|ból|przeciwbol|przeciwból/,
-      inpostPath: "Domowa apteczka > Leki bez recepty > Przeciwbólowe"
-    },
-    {
-      test: /odporn/,
-      inpostPath: "Domowa apteczka > Leki bez recepty > Odporność"
-    },
-
-    {
-      test: /suplement.*dziec|dla dzieci/,
-      inpostPath: "Domowa apteczka > Suplementy diety > Dla dzieci"
-    },
-    {
-      test: /ciaz|ciąż|karmi/,
-      inpostPath: "Domowa apteczka > Suplementy diety > Dla kobiet w ciąży i mam karmiących"
-    },
-    {
-      test: /witamin|mineral/,
-      inpostPath: "Domowa apteczka > Suplementy diety > Preparaty witaminowo-mineralne"
-    },
-    {
-      test: /skora.*wlos.*paznok|skóra.*włos.*paznok/,
-      inpostPath: "Domowa apteczka > Suplementy diety > Skóra, włosy, paznokcie"
-    },
-    {
-      test: /uklad pokarm|układ pokarm|trawien/,
-      inpostPath: "Domowa apteczka > Suplementy diety > Układ pokarmowy"
-    },
-    {
-      test: /pamiec|pamięc|pamięć|koncentrac|nerwow/,
-      inpostPath: "Domowa apteczka > Suplementy diety > Pamięć, koncentracja i układ nerwowy"
-    },
-    {
-      test: /staw|miesn|mięsn|kosci|kości/,
-      inpostPath: "Domowa apteczka > Suplementy diety > Mięśnie, kości i stawy"
-    },
-    {
-      test: /uklad mocz|układ mocz/,
-      inpostPath: "Domowa apteczka > Suplementy diety > Układ moczowy"
-    },
-    {
-      test: /krazen|krążen|serce/,
-      inpostPath: "Domowa apteczka > Suplementy diety > Układ krążenia"
-    }
-  ];
-}
-
-function resolveCategoryId(row, categoryMap, categoryOverrides) {
+function resolveCategoryId(row, categoryMap, categoryOverrides, categoryHints) {
   const normalizedCategoryMap = buildNormalizedCategoryMap(categoryMap);
-  const normalizedOverridesMap = buildNormalizedOverridesMap(categoryOverrides);
+  const { normalizedMap: normalizedOverridesMap } = buildNormalizedOverridesMap(categoryOverrides);
 
   const categories = splitWooCategories(row["Kategorie"]);
 
@@ -502,9 +467,21 @@ function resolveCategoryId(row, categoryMap, categoryOverrides) {
     return b.length - a.length;
   });
 
+  const hint = getHintCategoryId(row, categoryHints);
+
+  if (hint) {
+    return {
+      categoryId: hint.categoryId,
+      matchedBy: "inpost-hint-ean",
+      matchedWooCategory: null,
+      matchedInpostCategory: `EAN hint: ${hint.ean}`,
+      allWooCategories: categories
+    };
+  }
+
   for (const wooCategory of sortedCategories) {
     if (Object.prototype.hasOwnProperty.call(categoryOverrides, wooCategory)) {
-      const resolved = resolveCategoryValue(
+      const resolved = resolveOverrideValue(
         categoryOverrides[wooCategory],
         categoryMap,
         normalizedCategoryMap
@@ -526,7 +503,7 @@ function resolveCategoryId(row, categoryMap, categoryOverrides) {
     const normalizedWooCategory = normalizeForCompare(wooCategory);
 
     if (normalizedOverridesMap[normalizedWooCategory]) {
-      const resolved = resolveCategoryValue(
+      const resolved = resolveOverrideValue(
         normalizedOverridesMap[normalizedWooCategory].value,
         categoryMap,
         normalizedCategoryMap
@@ -544,73 +521,6 @@ function resolveCategoryId(row, categoryMap, categoryOverrides) {
     }
   }
 
-  for (const wooCategory of sortedCategories) {
-    if (categoryMap[wooCategory]) {
-      return {
-        categoryId: categoryMap[wooCategory],
-        matchedBy: "category-map-exact",
-        matchedWooCategory: wooCategory,
-        matchedInpostCategory: wooCategory,
-        allWooCategories: categories
-      };
-    }
-  }
-
-  for (const wooCategory of sortedCategories) {
-    const normalizedWooCategory = normalizeForCompare(wooCategory);
-
-    if (normalizedCategoryMap[normalizedWooCategory]) {
-      return {
-        categoryId: normalizedCategoryMap[normalizedWooCategory].categoryId,
-        matchedBy: "category-map-normalized",
-        matchedWooCategory: wooCategory,
-        matchedInpostCategory: normalizedCategoryMap[normalizedWooCategory].originalPath,
-        allWooCategories: categories
-      };
-    }
-  }
-
-  for (const wooCategory of sortedCategories) {
-    const result = findByLastCategoryName(wooCategory, categoryMap);
-
-    if (result?.categoryId) {
-      return {
-        categoryId: result.categoryId,
-        matchedBy: "last-category-name",
-        matchedWooCategory: wooCategory,
-        matchedInpostCategory: result.matchedCategory,
-        allWooCategories: categories
-      };
-    }
-  }
-
-  const context = normalizeForCompare(
-    [
-      ...sortedCategories,
-      row["Nazwa"],
-      row["Krótki opis"],
-      row["Opis"]
-    ].join(" | ")
-  );
-
-  for (const rule of getFallbackRules()) {
-    if (!rule.test.test(context)) {
-      continue;
-    }
-
-    const resolved = resolveCategoryValue(rule.inpostPath, categoryMap, normalizedCategoryMap);
-
-    if (resolved?.categoryId) {
-      return {
-        categoryId: resolved.categoryId,
-        matchedBy: "fallback-rule",
-        matchedWooCategory: sortedCategories[0] || "",
-        matchedInpostCategory: rule.inpostPath,
-        allWooCategories: categories
-      };
-    }
-  }
-
   return {
     categoryId: null,
     matchedBy: null,
@@ -621,13 +531,26 @@ function resolveCategoryId(row, categoryMap, categoryOverrides) {
 }
 
 function getPrice(row) {
-  return parseNumber(
+  const price = parseNumber(
     getFirstNonEmpty(
       row["Cena promocyjna"],
       row["Cena"],
       row["Cena regularna"]
     )
   );
+
+  return price === null ? null : roundMoney(price);
+}
+
+function getTaxRate(row) {
+  const taxRate = getFirstNonEmpty(
+    row["Stawka podatku"],
+    row["VAT"],
+    row["Podatek"],
+    row["Tax rate"]
+  );
+
+  return taxRate || DEFAULT_TAX_RATE;
 }
 
 function getStockQuantity(row) {
@@ -639,23 +562,11 @@ function getStockQuantity(row) {
 
   const inStock = normalizeText(row["W magazynie?"]).toLowerCase();
 
-  if (inStock === "1" || inStock === "yes" || inStock === "tak") {
+  if (["1", "yes", "tak", "true"].includes(inStock)) {
     return 1;
   }
 
   return 0;
-}
-
-function getEan(row) {
-  const gtin = normalizeText(row["GTIN, UPC, EAN lub ISBN"]);
-  const ean = normalizeText(row["EAN"]);
-  const sku = normalizeText(row["SKU"]);
-
-  if (isLikelyEan(gtin)) return gtin;
-  if (isLikelyEan(ean)) return ean;
-  if (isLikelyEan(sku)) return sku;
-
-  return "";
 }
 
 function getSku(row) {
@@ -666,7 +577,7 @@ function getBrand(row) {
   const brandFromColumn = normalizeText(row["Marki"]);
 
   if (brandFromColumn) {
-    return brandFromColumn.split(",")[0].trim();
+    return splitEscapedCommaList(brandFromColumn)[0] || brandFromColumn;
   }
 
   const name = normalizeText(row["Nazwa"]);
@@ -695,16 +606,16 @@ function getDimensions(row) {
     dimension.weight = Math.round(weightKg * 1000);
   }
 
+  if (lengthCm !== null) {
+    dimension.length = Math.round(lengthCm * 10);
+  }
+
   if (widthCm !== null) {
     dimension.width = Math.round(widthCm * 10);
   }
 
   if (heightCm !== null) {
     dimension.height = Math.round(heightCm * 10);
-  }
-
-  if (lengthCm !== null) {
-    dimension.length = Math.round(lengthCm * 10);
   }
 
   return Object.keys(dimension).length ? dimension : undefined;
@@ -717,8 +628,7 @@ function getProductImages(row) {
     return [];
   }
 
-  return images
-    .split(",")
+  return splitEscapedCommaList(images)
     .map((url) => normalizeText(url))
     .filter(Boolean)
     .filter((url) => /^https?:\/\//i.test(url));
@@ -737,20 +647,23 @@ function buildInpostAttributes(row) {
   return [];
 }
 
-function buildOffer(row, categoryMap, categoryOverrides) {
-  const externalId = normalizeText(row["Identyfikator"]);
-  const name = normalizeText(row["Nazwa"]);
-
+function getProductDescription(row, name) {
   const descriptionFromHtml = cleanHtmlToText(
     getFirstNonEmpty(row["Opis"], row["Krótki opis"])
   );
 
-  const description = limitText(
-    descriptionFromHtml ||
-      (USE_NAME_AS_FALLBACK_DESCRIPTION ? name : ""),
+  const fallbackDescription = USE_NAME_AS_FALLBACK_DESCRIPTION ? name : "";
+
+  return limitText(
+    descriptionFromHtml || fallbackDescription,
     MAX_DESCRIPTION_LENGTH
   );
+}
 
+function buildOffer(row, categoryMap, categoryOverrides, categoryHints) {
+  const externalId = normalizeText(row["Identyfikator"]);
+  const name = normalizeText(row["Nazwa"]);
+  const description = getProductDescription(row, name);
   const price = getPrice(row);
   const quantity = getStockQuantity(row);
   const sku = getSku(row);
@@ -760,30 +673,35 @@ function buildOffer(row, categoryMap, categoryOverrides) {
   const dimensions = getDimensions(row);
   const images = getProductImages(row);
   const productUrl = getProductUrl(row);
+  const taxRate = getTaxRate(row);
 
-  const categoryResult = resolveCategoryId(row, categoryMap, categoryOverrides);
+  const categoryResult = resolveCategoryId(
+    row,
+    categoryMap,
+    categoryOverrides,
+    categoryHints
+  );
 
   const errors = [];
 
   if (!externalId) errors.push("Brak Identyfikator");
   if (!name) errors.push("Brak Nazwa");
-  if (!description) errors.push("Brak Opis");
+
+  if (!description) {
+    errors.push("Brak Opis");
+  } else if (description.length < MIN_DESCRIPTION_LENGTH) {
+    errors.push(`Opis krótszy niż ${MIN_DESCRIPTION_LENGTH} znaków`);
+  }
+
   if (price === null) errors.push("Brak Cena / Cena promocyjna");
+  if (price !== null && price <= 0) errors.push("Cena musi być większa od 0");
 
   if (!categoryResult.categoryId) {
-    errors.push("Brak mapowania kategorii w category-map.json lub category-overrides.json");
+    errors.push("Brak mapowania kategorii w category-hints.json albo category-overrides.json");
   }
 
   if (REQUIRE_IMAGE && images.length === 0) {
     errors.push("Brak zdjęcia w kolumnie Obrazki");
-  }
-
-  if (ONLY_PUBLISHED && normalizeText(row["Opublikowano"]) !== "1") {
-    errors.push("Produkt nieopublikowany");
-  }
-
-  if (SKIP_OUT_OF_STOCK && quantity <= 0) {
-    errors.push("Brak stanu magazynowego");
   }
 
   if (errors.length) {
@@ -798,6 +716,7 @@ function buildOffer(row, categoryMap, categoryOverrides) {
         price,
         stock: quantity,
         images,
+        descriptionLength: description.length,
         categories: categoryResult.allWooCategories || splitWooCategories(row["Kategorie"]),
         categoryResolution: {
           categoryId: categoryResult.categoryId,
@@ -853,7 +772,7 @@ function buildOffer(row, categoryMap, categoryOverrides) {
         amount: price,
         currency: DEFAULT_CURRENCY
       },
-      taxRateInfo: DEFAULT_TAX_RATE
+      taxRateInfo: taxRate
     }
   };
 
@@ -875,6 +794,16 @@ function buildOffer(row, categoryMap, categoryOverrides) {
     skipped: null,
     categoryResolution: categoryResult
   };
+}
+
+function isBlockingSkippedProduct(skippedProduct) {
+  const ignoredErrors = new Set([
+    "Produkt nieopublikowany",
+    "Pominięto wariant/produkt nadrzędny",
+    "Pominięto produkt ze stanem 0"
+  ]);
+
+  return skippedProduct.errors.some((error) => !ignoredErrors.has(error));
 }
 
 function updateCategoryReport(report, categoryResolution) {
@@ -900,10 +829,59 @@ function updateCategoryReport(report, categoryResolution) {
   }
 }
 
+function logObjectCounts(title, object) {
+  console.log(title);
+
+  const entries = Object.entries(object);
+
+  if (!entries.length) {
+    console.log("- brak");
+    return;
+  }
+
+  for (const [key, count] of entries) {
+    console.log(`- ${key}: ${count}`);
+  }
+}
+
+function isPublished(row) {
+  return normalizeText(row["Opublikowano"]) === "1";
+}
+
+function shouldSkipByProductType(row) {
+  const productType = normalizeText(row["Rodzaj"]);
+
+  if (!productType || productType === "simple") {
+    return null;
+  }
+
+  return {
+    type: productType,
+    reason: "Pominięto wariant/produkt nadrzędny"
+  };
+}
+
 function main() {
+  ensureDir(OUTPUT_DIR);
+
   const csvContent = readFileUtf8(INPUT_CSV);
   const categoryMap = readJsonIfExists(CATEGORY_MAP_FILE, {});
   const categoryOverrides = readJsonIfExists(CATEGORY_OVERRIDES_FILE, {});
+  const categoryHints = readJsonIfExists(CATEGORY_HINTS_FILE, {});
+
+  const invalidOverrides = validateCategoryOverrides(categoryOverrides, categoryMap);
+
+  if (invalidOverrides.length) {
+    writeJson(
+      path.join(OUTPUT_DIR, "invalid-category-overrides.json"),
+      invalidOverrides
+    );
+
+    throw new Error(
+      `category-overrides.json zawiera błędne mapowania: ${invalidOverrides.length}. ` +
+      `Sprawdź ${path.join(OUTPUT_DIR, "invalid-category-overrides.json")}`
+    );
+  }
 
   const delimiter = detectDelimiter(csvContent);
 
@@ -919,30 +897,68 @@ function main() {
   const offers = [];
   const offerImages = {};
   const skippedProducts = [];
+  const blockingSkippedProducts = [];
   const productsWithoutImages = [];
   const unresolvedCategories = new Map();
+  const shortDescriptions = [];
 
   const categoryReport = {
     inputCsv: INPUT_CSV,
     categoryMapFile: CATEGORY_MAP_FILE,
-    categoryOverridesFile: fs.existsSync(CATEGORY_OVERRIDES_FILE)
-      ? CATEGORY_OVERRIDES_FILE
-      : null,
+    categoryOverridesFile: CATEGORY_OVERRIDES_FILE,
+    categoryHintsFile: CATEGORY_HINTS_FILE,
     delimiter,
+    settings: {
+      STRICT_MODE,
+      REQUIRE_IMAGE,
+      ONLY_PUBLISHED,
+      SKIP_OUT_OF_STOCK,
+      INCLUDE_IMAGES_IN_OFFER_JSON,
+      INCLUDE_META_IN_OFFERS,
+      USE_NAME_AS_FALLBACK_DESCRIPTION,
+      MIN_DESCRIPTION_LENGTH,
+      mappingOrder: [
+        "category-hints.json by EAN",
+        "category-overrides.json by WooCommerce category",
+        "skip"
+      ]
+    },
     byMethod: {},
     resolved: [],
     unresolved: []
   };
 
   for (const row of rows) {
-    const productType = normalizeText(row["Rodzaj"]);
+    const externalId = normalizeText(row["Identyfikator"]);
+    const name = normalizeText(row["Nazwa"]);
 
-    if (productType && productType !== "simple") {
+    const typeSkip = shouldSkipByProductType(row);
+
+    if (typeSkip) {
       skippedProducts.push({
-        externalId: normalizeText(row["Identyfikator"]),
-        name: normalizeText(row["Nazwa"]),
-        type: productType,
-        errors: [`Pominięto typ produktu: ${productType}`]
+        externalId,
+        name,
+        type: typeSkip.type,
+        errors: [typeSkip.reason]
+      });
+      continue;
+    }
+
+    if (ONLY_PUBLISHED && !isPublished(row)) {
+      skippedProducts.push({
+        externalId,
+        name,
+        errors: ["Produkt nieopublikowany"]
+      });
+      continue;
+    }
+
+    if (SKIP_OUT_OF_STOCK && getStockQuantity(row) <= 0) {
+      skippedProducts.push({
+        externalId,
+        name,
+        stock: getStockQuantity(row),
+        errors: ["Pominięto produkt ze stanem 0"]
       });
       continue;
     }
@@ -950,18 +966,25 @@ function main() {
     const { offer, images, skipped, categoryResolution } = buildOffer(
       row,
       categoryMap,
-      categoryOverrides
+      categoryOverrides,
+      categoryHints
     );
 
     updateCategoryReport(categoryReport, categoryResolution);
 
-    const externalId = normalizeText(row["Identyfikator"]);
-    const name = normalizeText(row["Nazwa"]);
-
-    if (!images.length) {
+    if (skipped?.errors?.includes("Brak zdjęcia w kolumnie Obrazki")) {
       productsWithoutImages.push({
         externalId,
         name,
+        categories: splitWooCategories(row["Kategorie"])
+      });
+    }
+
+    if (skipped?.errors?.some((error) => error.startsWith("Opis krótszy niż"))) {
+      shortDescriptions.push({
+        externalId,
+        name,
+        descriptionLength: skipped.descriptionLength,
         categories: splitWooCategories(row["Kategorie"])
       });
     }
@@ -977,6 +1000,10 @@ function main() {
     if (skipped) {
       skippedProducts.push(skipped);
 
+      if (isBlockingSkippedProduct(skipped)) {
+        blockingSkippedProducts.push(skipped);
+      }
+
       if (!categoryResolution.categoryId) {
         for (const categoryPath of categoryResolution.allWooCategories || []) {
           unresolvedCategories.set(categoryPath, categoryPath);
@@ -985,64 +1012,29 @@ function main() {
     }
   }
 
-  ensureDir(OUTPUT_DIR);
-
   const cleanOffers = offers.map((offer) => JSON.parse(JSON.stringify(offer)));
 
-  fs.writeFileSync(
-    path.join(OUTPUT_DIR, "inpost-offers.json"),
-    JSON.stringify(cleanOffers, null, 2),
-    "utf8"
-  );
+  writeJson(path.join(OUTPUT_DIR, "inpost-offers.json"), cleanOffers);
+  writeJson(path.join(OUTPUT_DIR, "inpost-offers-wrapped.json"), { offers: cleanOffers });
+  writeJson(path.join(OUTPUT_DIR, "offer-images.json"), offerImages);
+  writeJson(path.join(OUTPUT_DIR, "skipped-products.json"), skippedProducts);
+  writeJson(path.join(OUTPUT_DIR, "blocking-skipped-products.json"), blockingSkippedProducts);
+  writeJson(path.join(OUTPUT_DIR, "products-without-images.json"), productsWithoutImages);
+  writeJson(path.join(OUTPUT_DIR, "short-descriptions.json"), shortDescriptions);
+  writeJson(path.join(OUTPUT_DIR, "unresolved-categories.json"), [...unresolvedCategories.keys()].sort());
+  writeJson(path.join(OUTPUT_DIR, "category-resolution-report.json"), categoryReport);
 
-  fs.writeFileSync(
-    path.join(OUTPUT_DIR, "inpost-offers-wrapped.json"),
-    JSON.stringify({ offers: cleanOffers }, null, 2),
-    "utf8"
-  );
-
-  fs.writeFileSync(
-    path.join(OUTPUT_DIR, "offer-images.json"),
-    JSON.stringify(offerImages, null, 2),
-    "utf8"
-  );
-
-  fs.writeFileSync(
-    path.join(OUTPUT_DIR, "skipped-products.json"),
-    JSON.stringify(skippedProducts, null, 2),
-    "utf8"
-  );
-
-  fs.writeFileSync(
-    path.join(OUTPUT_DIR, "products-without-images.json"),
-    JSON.stringify(productsWithoutImages, null, 2),
-    "utf8"
-  );
-
-  fs.writeFileSync(
-    path.join(OUTPUT_DIR, "unresolved-categories.json"),
-    JSON.stringify([...unresolvedCategories.keys()].sort(), null, 2),
-    "utf8"
-  );
-
-  fs.writeFileSync(
-    path.join(OUTPUT_DIR, "category-resolution-report.json"),
-    JSON.stringify(categoryReport, null, 2),
-    "utf8"
-  );
-
-  console.log("Gotowe.");
+  console.log("Generowanie plików zakończone.");
   console.log(`Wczytano produktów z CSV: ${rows.length}`);
   console.log(`Utworzono ofert: ${cleanOffers.length}`);
-  console.log(`Pominięto produktów: ${skippedProducts.length}`);
+  console.log(`Pominięto produktów łącznie: ${skippedProducts.length}`);
+  console.log(`Pominięto produktów z błędami krytycznymi: ${blockingSkippedProducts.length}`);
   console.log(`Produkty bez zdjęć: ${productsWithoutImages.length}`);
+  console.log(`Produkty z opisem krótszym niż ${MIN_DESCRIPTION_LENGTH} znaków: ${shortDescriptions.length}`);
   console.log(`Kategorie bez mapowania: ${unresolvedCategories.size}`);
   console.log("");
 
-  console.log("Dopasowanie kategorii:");
-  for (const [method, count] of Object.entries(categoryReport.byMethod)) {
-    console.log(`- ${method}: ${count}`);
-  }
+  logObjectCounts("Dopasowanie kategorii:", categoryReport.byMethod);
 
   console.log("");
   console.log(`Pliki wynikowe zapisano w katalogu: ${OUTPUT_DIR}`);
@@ -1050,9 +1042,42 @@ function main() {
   console.log(`- ${path.join(OUTPUT_DIR, "inpost-offers-wrapped.json")}`);
   console.log(`- ${path.join(OUTPUT_DIR, "offer-images.json")}`);
   console.log(`- ${path.join(OUTPUT_DIR, "skipped-products.json")}`);
+  console.log(`- ${path.join(OUTPUT_DIR, "blocking-skipped-products.json")}`);
   console.log(`- ${path.join(OUTPUT_DIR, "products-without-images.json")}`);
+  console.log(`- ${path.join(OUTPUT_DIR, "short-descriptions.json")}`);
   console.log(`- ${path.join(OUTPUT_DIR, "unresolved-categories.json")}`);
   console.log(`- ${path.join(OUTPUT_DIR, "category-resolution-report.json")}`);
+
+  const criticalErrors = [];
+
+  if (unresolvedCategories.size > 0) {
+    criticalErrors.push(`Kategorie bez mapowania: ${unresolvedCategories.size}`);
+  }
+
+  if (blockingSkippedProducts.length > 0) {
+    criticalErrors.push(`Produkty z błędami krytycznymi: ${blockingSkippedProducts.length}`);
+  }
+
+  if (STRICT_MODE && criticalErrors.length > 0) {
+    console.log("");
+    console.log("STRICT_MODE: wykryto błędy krytyczne. Nie wysyłaj jeszcze ofert do InPost.");
+
+    for (const error of criticalErrors) {
+      console.log(`- ${error}`);
+    }
+
+    console.log("");
+    console.log("Najpierw sprawdź:");
+    console.log(`- ${path.join(OUTPUT_DIR, "blocking-skipped-products.json")}`);
+    console.log(`- ${path.join(OUTPUT_DIR, "unresolved-categories.json")}`);
+    console.log(`- ${path.join(OUTPUT_DIR, "products-without-images.json")}`);
+    console.log(`- ${path.join(OUTPUT_DIR, "short-descriptions.json")}`);
+
+    process.exit(1);
+  }
+
+  console.log("");
+  console.log("OK: poprawne oferty są gotowe do wysyłki przez send-inpost-offers.js.");
 }
 
 main();

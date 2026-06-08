@@ -623,22 +623,6 @@
     ]
   },
   {
-    "externalId": "271",
-    "name": "Dermocare - Szampon nawilżający",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "272",
-    "name": "Mustela Bebe Enfant Liniment",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "275",
     "name": "Mustela Żel do higieny intymnej",
     "sku": "3504105031527",
@@ -1434,22 +1418,6 @@
     ]
   },
   {
-    "externalId": "548",
-    "name": "Dermocare - Szampon nawilżający - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "549",
-    "name": "Dermocare - Szampon nawilżający - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "565",
     "name": "A-Derma The Essentials - Oczyszczająca Kostka dermatologiczna",
     "sku": "3282779285230",
@@ -1696,13 +1664,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "609",
-    "name": "Epitheliale A.H Ultra SPF50+ Ochronny krem regenerujący, przeciw śladom",
-    "errors": [
-      "Produkt nieopublikowany"
     ]
   },
   {
@@ -7239,14 +7200,6 @@
     ]
   },
   {
-    "externalId": "2185",
-    "name": "H H-Sebopurin Specjalistyczny szampon normalizujący",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "2195",
     "name": "H H-Keratineum Skoncentrowany szampon wzmacniający łodygę włosa",
     "sku": "5900717157217",
@@ -7922,14 +7875,6 @@
     ]
   },
   {
-    "externalId": "2359",
-    "name": "E Emotopic Emulsja do kąpieli MED+",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "2363",
     "name": "E Emotopic 3-Zadaniowa Pianka myjąca MED+",
     "sku": "5900717691711",
@@ -8416,29 +8361,6 @@
     ]
   },
   {
-    "externalId": "2449",
-    "name": "E Emotopic Kremowy żel myjący MED+",
-    "errors": [
-      "Produkt nieopublikowany"
-    ]
-  },
-  {
-    "externalId": "2450",
-    "name": "E Emotopic Emulsja do kąpieli MED+ - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2451",
-    "name": "E Emotopic Emulsja do kąpieli MED+ - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "2453",
     "name": "Zestaw Sun Mleczko do opalania twarzy i ciała SPF50+ Balsam po opalaniu",
     "sku": "3264680022623",
@@ -8470,381 +8392,6 @@
     ]
   },
   {
-    "externalId": "2459",
-    "name": "E Emotopic Balsam nawilżająco-natłuszczający MED+",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2496",
-    "name": "E Emotopic Balsam nawilżająco-natłuszczający MED+ - 190ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2497",
-    "name": "E Emotopic Balsam nawilżająco-natłuszczający MED+ - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2503",
-    "name": "Mustela Skóra Normalna Woda oczyszczająca bez spłukiwania",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2525",
-    "name": "Mustela Skóra Normalna Woda oczyszczająca bez spłukiwania - 100ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2526",
-    "name": "Mustela Skóra Normalna Woda oczyszczająca bez spłukiwania - 300ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2527",
-    "name": "Mustela Skóra Normalna Woda oczyszczająca bez spłukiwania - 500ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2528",
-    "name": "Mustela Skóra Normalna Woda oczyszczająca bez spłukiwania - 750ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2536",
-    "name": "Very Rose Tonizująca mgiełka do twarzy",
-    "errors": [
-      "Produkt nieopublikowany"
-    ]
-  },
-  {
-    "externalId": "2538",
-    "name": "Mustela Skóra Normalna Delikatny żel do mycia",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2542",
-    "name": "Mustela Skóra Normalna Delikatny żel do mycia - 100ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2543",
-    "name": "Mustela Skóra Normalna Delikatny żel do mycia - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2544",
-    "name": "Mustela Skóra Normalna Delikatny żel do mycia - 500ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2545",
-    "name": "Mustela Skóra Normalna Delikatny żel do mycia - 750ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2555",
-    "name": "Mustela Hydra Bébé Mleczko do ciała z organicznym awokado",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2559",
-    "name": "Mustela Hydra Bébé Mleczko do ciała z organicznym awokado - 100ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2560",
-    "name": "Mustela Hydra Bébé Mleczko do ciała z organicznym awokado - 300ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2561",
-    "name": "Mustela Hydra Bébé Mleczko do ciała z organicznym awokado - 500ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2562",
-    "name": "Mustela Hydra Bébé Mleczko do ciała z organicznym awokado - 750ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2573",
-    "name": "Mustela Skóra Normlana Płyn \"Bąbelkowa Kąpiel\" z organicznym awokado",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2574",
-    "name": "Mustela Skóra Normlana Płyn \"Bąbelkowa Kąpiel\" z organicznym awokado - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2575",
-    "name": "Mustela Skóra Normlana Płyn \"Bąbelkowa Kąpiel\" z organicznym awokado - 750ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2579",
-    "name": "Mustela Skóra Normalna Delikatny szampon",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2580",
-    "name": "Mustela Skóra Normalna Delikatny szampon - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2581",
-    "name": "Mustela Skóra Normalna Delikatny szampon - 500ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2586",
-    "name": "Stelatopia+ Krem uzupełniajacy lipidy",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2589",
-    "name": "Stelatopia+ Krem uzupełniajacy lipidy - 150ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2590",
-    "name": "Stelatopia+ Krem uzupełniajacy lipidy - 300ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2597",
-    "name": "Stelatopia Balsam emolient",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2604",
-    "name": "Stelatopia Balsam emolient - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2605",
-    "name": "Stelatopia Balsam emolient - 300ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2613",
-    "name": "Stelatopia Krem emolient",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2614",
-    "name": "Stelatopia Krem emolient - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2615",
-    "name": "Stelatopia Krem emolient - 300ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2621",
-    "name": "Mustela Krem do przewijania 123",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2622",
-    "name": "Mustela Krem do przewijania 123 - 100ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2623",
-    "name": "Mustela Krem do przewijania 123 - 150ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2624",
-    "name": "Mustela Krem do przewijania 123 - 50ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2627",
-    "name": "Mustela Bebe Enfant Liniment - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2628",
-    "name": "Mustela Bebe Enfant Liniment - 750ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2631",
-    "name": "Mustela Maternite Krem na rozstępy",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2633",
-    "name": "Mustela Maternite Krem na rozstępy - 150ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2634",
-    "name": "Mustela Maternite Krem na rozstępy - 250ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2640",
-    "name": "Zestaw Maternite Krem na rozstępy + Maternite Olejek na rozstępy",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2648",
-    "name": "Zestaw Maternite Krem na rozstępy + Maternite Olejek na rozstępy - 150ml + 105ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2649",
-    "name": "Zestaw Maternite Krem na rozstępy + Maternite Olejek na rozstępy - 250ml + 105ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2652",
-    "name": "Normance Antybakteryjny żel do mycia",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "2654",
     "name": "Prodigieux Floral Żel pod prysznic",
     "sku": "3264680026133",
@@ -8873,22 +8420,6 @@
     ]
   },
   {
-    "externalId": "2655",
-    "name": "Normance Antybakteryjny żel do mycia - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2656",
-    "name": "Normance Antybakteryjny żel do mycia - 500ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "2661",
     "name": "Nuxuriance Ultra Serum przeciwstarzeniowe",
     "sku": "2661",
@@ -8913,30 +8444,6 @@
     },
     "errors": [
       "Brak Cena / Cena promocyjna"
-    ]
-  },
-  {
-    "externalId": "2663",
-    "name": "Dermedic Linum Emolient Baby Kremowy żel do mycia",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2667",
-    "name": "Dermedic Linum Emolient Baby Kremowy żel do mycia - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2668",
-    "name": "Dermedic Linum Emolient Baby Kremowy żel do mycia - 500ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -8995,30 +8502,6 @@
     ]
   },
   {
-    "externalId": "2685",
-    "name": "Cleanance Hydra Oczyszczający krem łagodzący",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2689",
-    "name": "Cleanance Hydra Oczyszczający krem łagodzący - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2690",
-    "name": "Cleanance Hydra Oczyszczający krem łagodzący - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "2693",
     "name": "Nuxe Merveillance Expert Serum liftingujące i ujędrniające, do każdego typu cery",
     "sku": "3264680015113",
@@ -9042,54 +8525,6 @@
     },
     "errors": [
       "Brak Cena / Cena promocyjna"
-    ]
-  },
-  {
-    "externalId": "2695",
-    "name": "Cleanance Żel oczyszczający",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2696",
-    "name": "Cleanance Żel oczyszczający - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2697",
-    "name": "Cleanance Żel oczyszczający - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2702",
-    "name": "Cold Cream Krem",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2703",
-    "name": "Cold Cream Krem - 100ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2704",
-    "name": "Cold Cream Krem - 40ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -9148,14 +8583,6 @@
     ]
   },
   {
-    "externalId": "2716",
-    "name": "XeraCalm A.D Balsam uzupełniający lipidy",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "2718",
     "name": "Merveillance Expert Krem liftingujący i ujędrniający, do skóry suchej i bardzo suchej",
     "sku": "3264680015076",
@@ -9179,54 +8606,6 @@
     },
     "errors": [
       "Brak Cena / Cena promocyjna"
-    ]
-  },
-  {
-    "externalId": "2719",
-    "name": "XeraCalm A.D Balsam uzupełniający lipidy - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2720",
-    "name": "XeraCalm A.D Balsam uzupełniający lipidy - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2724",
-    "name": "XeraCalm A.D Krem uzupełniający lipidy",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2725",
-    "name": "XeraCalm A.D Krem uzupełniający lipidy - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2726",
-    "name": "XeraCalm A.D Krem uzupełniający lipidy - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2730",
-    "name": "XeraCalm Nutrition Mleczko nawilżające",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -9254,46 +8633,6 @@
     },
     "errors": [
       "Brak Cena / Cena promocyjna"
-    ]
-  },
-  {
-    "externalId": "2735",
-    "name": "XeraCalm Nutrition Mleczko nawilżające - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2736",
-    "name": "XeraCalm Nutrition Mleczko nawilżające - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2740",
-    "name": "XeraCalm A.D Nutrition Balsam nawilżający",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2742",
-    "name": "XeraCalm A.D Nutrition Balsam nawilżający - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2743",
-    "name": "XeraCalm A.D Nutrition Balsam nawilżający - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -9738,14 +9077,6 @@
     ]
   },
   {
-    "externalId": "2852",
-    "name": "Sebium Gel Moussant Antybakteryjny żel do mycia twarzy cera mieszana i trądzikowa",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "2856",
     "name": "Pro Oil Control Pianka do mycia",
     "sku": "3499320009249",
@@ -9975,22 +9306,6 @@
     ]
   },
   {
-    "externalId": "2896",
-    "name": "Atoderm Intensive Gel moussant Żel oczyszczający, redukujący swędzenie do skóry bardzo suchej, atopowej i podrażnionej",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2898",
-    "name": "Atoderm Gel Douche Żel pod prysznic i do kąpieli",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "2901",
     "name": "Atoderm Creme Wzmacniająco-natłuszczający krem do ciała, 500ml",
     "sku": "3701129804308",
@@ -10014,14 +9329,6 @@
     },
     "errors": [
       "Brak Cena / Cena promocyjna"
-    ]
-  },
-  {
-    "externalId": "2903",
-    "name": "Atoderm Creme Ultra Odżywczy i ochronny krem do ciała skóra normalna i sucha",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -10152,38 +9459,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "2929",
-    "name": "Wax Tricho Maska przyspieszająca wzrost włosów",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2931",
-    "name": "Atoderm Intensive Baume kojący balsam emolientowy, skóra sucha i atopowa, od urodzenia",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2932",
-    "name": "Wax Tricho Maska przyspieszająca wzrost włosów - 240ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2933",
-    "name": "Wax Tricho Maska przyspieszająca wzrost włosów - 480ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -10346,62 +9621,6 @@
     ]
   },
   {
-    "externalId": "2953",
-    "name": "Wax Henna Daily Mist Odżywka do włosów jasnych",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2955",
-    "name": "Wax Henna Daily Mist Odżywka do włosów jasnych - 100ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2956",
-    "name": "Wax Henna Daily Mist Odżywka do włosów jasnych - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2959",
-    "name": "Wax NaturClassic Blonda Maska regenerująca do włosów jasnych",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2960",
-    "name": "Wax NaturClassic Blonda Maska regenerująca do włosów jasnych - 240ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2961",
-    "name": "Wax NaturClassic Blonda Maska regenerująca do włosów jasnych - 480ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2962",
-    "name": "Wax NaturClassic Blonda Maska regenerująca do włosów jasnych - 50ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "2963",
     "name": "Sensibio Light Łagodząco-nawilżający krem do twarzy o lekkiej konsystencji, skóra wrażliwa i nadwrażliwa",
     "sku": "3401346673106",
@@ -10454,14 +9673,6 @@
     ]
   },
   {
-    "externalId": "2973",
-    "name": "Wax Henna Daily Mist Odżywka do włosów ciemnych",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "2975",
     "name": "Sensibio DS+ Krem przeciw podrażnieniom, skóra wrażliwa",
     "sku": "3401397240470",
@@ -10486,46 +9697,6 @@
     },
     "errors": [
       "Brak Cena / Cena promocyjna"
-    ]
-  },
-  {
-    "externalId": "2976",
-    "name": "Wax Henna Daily Mist Odżywka do włosów ciemnych - 100ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2977",
-    "name": "Wax Henna Daily Mist Odżywka do włosów ciemnych - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2980",
-    "name": "Wax Henna NaturClassic Maska do włosów ciemnych",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2982",
-    "name": "Wax Henna NaturClassic Maska do włosów ciemnych - 240ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "2983",
-    "name": "Wax Henna NaturClassic Maska do włosów ciemnych - 480ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -10633,30 +9804,6 @@
     ]
   },
   {
-    "externalId": "3001",
-    "name": "Wax Aloes NaturClassic Maska do włosów cienkich",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3006",
-    "name": "Wax Aloes NaturClassic Maska do włosów cienkich - 240ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3007",
-    "name": "Wax Aloes NaturClassic Maska do włosów cienkich - 480ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "3012",
     "name": "Wax Daily Szampon do włosów przetłuszczających się",
     "sku": "5901986060208",
@@ -10737,38 +9884,6 @@
     ]
   },
   {
-    "externalId": "3019",
-    "name": "Wax Kamilla ColourCare Maska do włosów farbowanych jasnych",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3020",
-    "name": "Wax Kamilla ColourCare Maska do włosów farbowanych jasnych - 240ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3021",
-    "name": "Wax Kamilla ColourCare Maska do włosów farbowanych jasnych - 480ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3026",
-    "name": "Wax Arabica ColourCare Maska regenerująca do włosów farbowanych ciemnych",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "3028",
     "name": "Sensibio Tolerance+ Krem łagodzący",
     "sku": "3401340981023",
@@ -10793,22 +9908,6 @@
     },
     "errors": [
       "Brak Cena / Cena promocyjna"
-    ]
-  },
-  {
-    "externalId": "3029",
-    "name": "Wax Arabica ColourCare Maska regenerująca do włosów farbowanych ciemnych - 240ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3030",
-    "name": "Wax Arabica ColourCare Maska regenerująca do włosów farbowanych ciemnych - 480ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -10861,38 +9960,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "3039",
-    "name": "Wax Hermiona ColourCare Maska odbudowująca do włosów farbowanych i zniszczonych",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3040",
-    "name": "Sensibio Gel Moussant Łagodzący żel micelarny do mycia twarzy skóra wrażliwa i nadwrażliwa",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3041",
-    "name": "Wax Hermiona ColourCare Maska odbudowująca do włosów farbowanych i zniszczonych - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3042",
-    "name": "Wax Hermiona ColourCare Maska odbudowująca do włosów farbowanych i zniszczonych - 240ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -10952,30 +10019,6 @@
     },
     "errors": [
       "Brak Cena / Cena promocyjna"
-    ]
-  },
-  {
-    "externalId": "3055",
-    "name": "Seboradin Women Sport - Szampon i Żel 2 w 1",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3058",
-    "name": "Seboradin Women Sport - Szampon i Żel 2 w 1 - 150ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3059",
-    "name": "Seboradin Women Sport - Szampon i Żel 2 w 1 - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -11173,30 +10216,6 @@
     ]
   },
   {
-    "externalId": "3089",
-    "name": "Seboradin Oily Hair - Szampon do mycia włosów przetłuszczających się i skłonnych do wypadania",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3090",
-    "name": "Seboradin Oily Hair - Szampon do mycia włosów przetłuszczających się i skłonnych do wypadania - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3091",
-    "name": "Seboradin Oily Hair - Szampon do mycia włosów przetłuszczających się i skłonnych do wypadania - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "3096",
     "name": "Node DS+ Shampooing Szampon przeciwłupieżowy",
     "sku": "3701129805060",
@@ -11246,14 +10265,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "3101",
-    "name": "Seboradin Revitalizing - Szampon do włosów suchych i zniszczonych",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -11358,46 +10369,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "3115",
-    "name": "Seboradin Forte - Szampon przeciw wypadaniu włosów",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3116",
-    "name": "Seboradin Forte - Szampon przeciw wypadaniu włosów - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3117",
-    "name": "Seboradin Forte - Szampon przeciw wypadaniu włosów - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3120",
-    "name": "Seboradin FitoCell - Szampon z roślinnymi komórkami macierzystymi",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3122",
-    "name": "Seboradin Men - Szampon przeciw wypadaniu włosów",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -11663,14 +10634,6 @@
     ]
   },
   {
-    "externalId": "3155",
-    "name": "Seboradin Forte - Balsam przeciw wypadaniu włosów",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "3157",
     "name": "Seboradin Revitalizing - Regenerujący Booster do włosów zniszczonych",
     "sku": "5902751582222",
@@ -11693,22 +10656,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "3160",
-    "name": "Sebium H2O Płyn micelarny do skóry tłustej, mieszanej, trądzikowej",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3169",
-    "name": "Atoderm Huile de Douche Ultra-odżywczy olejek pod prysznic",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -11737,14 +10684,6 @@
     },
     "errors": [
       "Brak Cena / Cena promocyjna"
-    ]
-  },
-  {
-    "externalId": "3178",
-    "name": "Hydrabio H2O Nawilżający płyn micelarny do demakijażu skóra odwodniona",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -12004,38 +10943,6 @@
     ]
   },
   {
-    "externalId": "3206",
-    "name": "Seboradin Men - Lotion przeciw wypadaniu włosów",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3208",
-    "name": "Seboradin Oily Hair - Ampułki kuracja wzmacniająca i regenerująca włosy",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3212",
-    "name": "Seboradin Oily Hair - Ampułki kuracja wzmacniająca i regenerująca włosy - 5,5ml x 14",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3213",
-    "name": "Seboradin Oily Hair - Ampułki kuracja wzmacniająca i regenerująca włosy - 5,5ml x 7",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "3217",
     "name": "Cicabio Lotion Kojąco-regenerujący lotion osuszający rany i hamujący sączenie",
     "sku": "3701129800225",
@@ -12114,30 +11021,6 @@
     ]
   },
   {
-    "externalId": "3225",
-    "name": "Seboradin Forte - Ampułki przeciw wypadaniu włosów",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3227",
-    "name": "Node Fluide Szampon do częstego stosowania wszystkie rodzaje włosów",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3230",
-    "name": "Seboradin FitoCell - Serum z komórkami macierzystymi",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "3233",
     "name": "Seboradin Men Forte - Serum przeciw wypadaniu włosów",
     "sku": "5902751586800",
@@ -12189,54 +11072,6 @@
     ]
   },
   {
-    "externalId": "3240",
-    "name": "CeraVe Oczyszczający żel do mycia",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3241",
-    "name": "CeraVe Oczyszczający żel do mycia - 236ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3242",
-    "name": "CeraVe Oczyszczający żel do mycia - 473ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3248",
-    "name": "CeraVe SA Wygładzający żel do mycia",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3249",
-    "name": "CeraVe SA Wygładzający żel do mycia - 236ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3250",
-    "name": "CeraVe SA Wygładzający żel do mycia - 473ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "3253",
     "name": "AbcDerm Change Intensif Krem ochronny przeciw pieluszkowym podrażnieniom skóry",
     "sku": "3701129802168",
@@ -12259,142 +11094,6 @@
     },
     "errors": [
       "Brak Cena / Cena promocyjna"
-    ]
-  },
-  {
-    "externalId": "3255",
-    "name": "CeraVe Emulsja nawilżająca do mycia",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3256",
-    "name": "CeraVe Emulsja nawilżająca do mycia - 1l",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3257",
-    "name": "CeraVe Emulsja nawilżająca do mycia - 236ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3258",
-    "name": "CeraVe Emulsja nawilżająca do mycia - 473ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3262",
-    "name": "CeraVe Olejek nawilżający do mycia",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3282",
-    "name": "CeraVe Olejek nawilżający do mycia - 236ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3283",
-    "name": "CeraVe Olejek nawilżający do mycia - 473ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3288",
-    "name": "CeraVe Balsam nawilżający",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3289",
-    "name": "CeraVe Balsam nawilżający - 340g",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3290",
-    "name": "CeraVe Balsam nawilżający - 454g",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3293",
-    "name": "CeraVe Regenerujący krem do rąk",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3294",
-    "name": "CeraVe Regenerujący krem do rąk - 100ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3295",
-    "name": "CeraVe Regenerujący krem do rąk - 50ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3299",
-    "name": "CeraVe Emulsja nawilżająca",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3300",
-    "name": "CeraVe Emulsja nawilżająca - 1l",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3301",
-    "name": "CeraVe Emulsja nawilżająca - 236ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3302",
-    "name": "CeraVe Emulsja nawilżająca - 473ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -12426,14 +11125,6 @@
     ]
   },
   {
-    "externalId": "3326",
-    "name": "CeraVe SA Balsam wygładzający",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "3328",
     "name": "Sebium Pore Refiner Preparat korygujący zwężający pory",
     "sku": "3401361353625",
@@ -12457,22 +11148,6 @@
     },
     "errors": [
       "Brak Cena / Cena promocyjna"
-    ]
-  },
-  {
-    "externalId": "3329",
-    "name": "CeraVe SA Balsam wygładzający - 177ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3330",
-    "name": "CeraVe SA Balsam wygładzający - 340g",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -12614,13 +11289,6 @@
     ]
   },
   {
-    "externalId": "3367",
-    "name": "CeraVe Żel przeciw niedoskonałościom",
-    "errors": [
-      "Produkt nieopublikowany"
-    ]
-  },
-  {
     "externalId": "3370",
     "name": "CeraVe Żel przeciw niedoskonałościom",
     "sku": "3337875782357",
@@ -12678,22 +11346,6 @@
     ]
   },
   {
-    "externalId": "3377",
-    "name": "Sebium H2O Płyn micelarny do skóry tłustej, mieszanej, trądzikowej - 500ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3379",
-    "name": "Sebium H2O Płyn micelarny do skóry tłustej, mieszanej, trądzikowej - 250ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "3382",
     "name": "Mediket Ictamo Szampon dla podrażnionej i tłustej skóry głowy",
     "sku": "7640114911446",
@@ -12717,38 +11369,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "3389",
-    "name": "Mediket Versi Żel do mycia",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3391",
-    "name": "Mediket Versi Żel do mycia - 120ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3392",
-    "name": "Mediket Versi Żel do mycia - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3393",
-    "name": "Mediket Versi Żel do mycia - 500ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -12778,30 +11398,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "3400",
-    "name": "Vitella Ictamo Krem gojący",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3401",
-    "name": "Vitella Ictamo Krem gojący - 30ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3402",
-    "name": "Vitella Ictamo Krem gojący - 75ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -12860,30 +11456,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "3409",
-    "name": "Cicaplast Baume B5+ Balsam kojąco-regenerujący",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3410",
-    "name": "Cicaplast Baume B5+ Balsam kojąco-regenerujący - 100ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3411",
-    "name": "Cicaplast Baume B5+ Balsam kojąco-regenerujący - 40ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -13117,30 +11689,6 @@
     ]
   },
   {
-    "externalId": "3445",
-    "name": "Effaclar Żel oczyszczający",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3446",
-    "name": "Effaclar Żel oczyszczający - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3447",
-    "name": "Effaclar Żel oczyszczający - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "3450",
     "name": "Effeclar Micro-peeling Żel oczyszczający",
     "sku": "3337875708289",
@@ -13221,30 +11769,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "3460",
-    "name": "Effaclar H Iso-Biome Krem myjący przeciw niedoskonałościom",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3461",
-    "name": "Effaclar H Iso-Biome Krem myjący przeciw niedoskonałościom - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3462",
-    "name": "Effaclar H Iso-Biome Krem myjący przeciw niedoskonałościom - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -13908,46 +12432,6 @@
     ]
   },
   {
-    "externalId": "3552",
-    "name": "Atoderm Huile de Douche Ultra-odżywczy olejek pod prysznic - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3553",
-    "name": "Atoderm Huile de Douche Ultra-odżywczy olejek pod prysznic - 1l",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3556",
-    "name": "Atoderm Intensive Gel moussant Żel oczyszczający, redukujący swędzenie do skóry bardzo suchej, atopowej i podrażnionej - 1l",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3557",
-    "name": "Atoderm Intensive Gel moussant Żel oczyszczający, redukujący swędzenie do skóry bardzo suchej, atopowej i podrażnionej - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3558",
-    "name": "Atoderm Intensive Gel moussant Żel oczyszczający, redukujący swędzenie do skóry bardzo suchej, atopowej i podrażnionej - 500ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "3559",
     "name": "Hydraphase Intense Serum intensywnie nawilżające",
     "sku": "3337872413353",
@@ -13974,22 +12458,6 @@
     "errors": [
       "Brak Opis",
       "Brak Cena / Cena promocyjna"
-    ]
-  },
-  {
-    "externalId": "3561",
-    "name": "Atoderm Gel Douche Żel pod prysznic i do kąpieli - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3562",
-    "name": "Atoderm Gel Douche Żel pod prysznic i do kąpieli - 500ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -14079,94 +12547,6 @@
     ]
   },
   {
-    "externalId": "3574",
-    "name": "Atoderm Crème de douche",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3575",
-    "name": "Atoderm Crème de douche - 1l",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3576",
-    "name": "Atoderm Crème de douche - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3579",
-    "name": "Atoderm Intensive Baume kojący balsam emolientowy, skóra sucha i atopowa, od urodzenia - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3580",
-    "name": "Atoderm Intensive Baume kojący balsam emolientowy, skóra sucha i atopowa, od urodzenia - 500ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3581",
-    "name": "Atoderm Intensive Baume kojący balsam emolientowy, skóra sucha i atopowa, od urodzenia - 75ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3583",
-    "name": "Atoderm Creme Ultra Odżywczy i ochronny krem do ciała skóra normalna i sucha - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3584",
-    "name": "Atoderm Creme Ultra Odżywczy i ochronny krem do ciała skóra normalna i sucha - 500ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3586",
-    "name": "Atoderm SOS Spray",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3688",
-    "name": "Atoderm SOS Spray - 50ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3689",
-    "name": "Atoderm SOS Spray - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "3690",
     "name": "Cicabio Creme SPF 50+",
     "sku": "3401564695546",
@@ -14225,62 +12605,6 @@
     ]
   },
   {
-    "externalId": "3704",
-    "name": "Lipikar AP+ Olejek myjący uzupełniający poziom lipidów przeciw podrażnieniom skóry",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3705",
-    "name": "Lipikar AP+ Olejek myjący uzupełniający poziom lipidów przeciw podrażnieniom skóry - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3706",
-    "name": "Lipikar AP+ Olejek myjący uzupełniający poziom lipidów przeciw podrażnieniom skóry - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3707",
-    "name": "Lipikar AP+ Olejek myjący uzupełniający poziom lipidów przeciw podrażnieniom skóry - 750ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3711",
-    "name": "Lipikar Syndet AP+ Krem myjący uzupełniający poziom lipidów",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3712",
-    "name": "Lipikar Syndet AP+ Krem myjący uzupełniający poziom lipidów - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3713",
-    "name": "Lipikar Syndet AP+ Krem myjący uzupełniający poziom lipidów - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "3717",
     "name": "Lipikar Eczema Med Krem",
     "sku": "3337875771214",
@@ -14316,30 +12640,6 @@
     ]
   },
   {
-    "externalId": "3725",
-    "name": "Lipikar Lait Mleczko do ciała uzupełniające poziom lipidów",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3726",
-    "name": "Lipikar Lait Mleczko do ciała uzupełniające poziom lipidów - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3727",
-    "name": "Lipikar Lait Mleczko do ciała uzupełniające poziom lipidów - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "3730",
     "name": "Lipikar Xerand Krem do rąk",
     "sku": "3337872412684",
@@ -14366,38 +12666,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "3735",
-    "name": "Lipikar Gel Lavant Żel do mycia",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3736",
-    "name": "Lipikar Gel Lavant Żel do mycia - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3737",
-    "name": "Lipikar Gel Lavant Żel do mycia - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3738",
-    "name": "Lipikar Gel Lavant Żel do mycia - 750ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -14428,30 +12696,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "3746",
-    "name": "Ultra Płyn micelarny do skóry wrażliwej",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3747",
-    "name": "Ultra Płyn micelarny do skóry wrażliwej - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3748",
-    "name": "Ultra Płyn micelarny do skóry wrażliwej - 750ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -14641,22 +12885,6 @@
     ]
   },
   {
-    "externalId": "3774",
-    "name": "Hydrabio H2O Nawilżający płyn micelarny do demakijażu skóra odwodniona - 250ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3775",
-    "name": "Hydrabio H2O Nawilżający płyn micelarny do demakijażu skóra odwodniona - 500ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "3777",
     "name": "Hydrabio Lait Mleczko do demakijażu",
     "sku": "3401399694295",
@@ -14709,22 +12937,6 @@
     ]
   },
   {
-    "externalId": "3786",
-    "name": "Node Fluide Szampon do częstego stosowania wszystkie rodzaje włosów - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3787",
-    "name": "Node Fluide Szampon do częstego stosowania wszystkie rodzaje włosów - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "3789",
     "name": "Node K Shampooing Szampon przeciwłupieżowy",
     "sku": "3401577939958",
@@ -14773,22 +12985,6 @@
     },
     "errors": [
       "Brak Cena / Cena promocyjna"
-    ]
-  },
-  {
-    "externalId": "3804",
-    "name": "Sebium Gel Moussant Antybakteryjny żel do mycia twarzy cera mieszana i trądzikowa - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3805",
-    "name": "Sebium Gel Moussant Antybakteryjny żel do mycia twarzy cera mieszana i trądzikowa - 500ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -14867,22 +13063,6 @@
     },
     "errors": [
       "Brak Cena / Cena promocyjna"
-    ]
-  },
-  {
-    "externalId": "3818",
-    "name": "Sensibio Gel Moussant Łagodzący żel micelarny do mycia twarzy skóra wrażliwa i nadwrażliwa - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3819",
-    "name": "Sensibio Gel Moussant Łagodzący żel micelarny do mycia twarzy skóra wrażliwa i nadwrażliwa - 500ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -15820,62 +14000,6 @@
     ]
   },
   {
-    "externalId": "3952",
-    "name": "Koenzym Q10+E",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3953",
-    "name": "Koenzym Q10+E - 120 tabletek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3954",
-    "name": "Koenzym Q10+E - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3957",
-    "name": "Koenzym Q10 100",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3958",
-    "name": "Koenzym Q10 100 - 120 tabletek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3959",
-    "name": "Koenzym Q10 100 - 30szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3960",
-    "name": "Koenzym Q10 100 - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "3964",
     "name": "Omega-3",
     "sku": "5907377136712",
@@ -15898,30 +14022,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "3966",
-    "name": "Omega-3 1000",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3967",
-    "name": "Omega-3 1000 - 120 tabletek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3968",
-    "name": "Omega-3 1000 - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -16106,30 +14206,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "3989",
-    "name": "Witamina B12",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3990",
-    "name": "Witamina B12 - 100 tabletek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "3991",
-    "name": "Witamina B12 - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -16432,30 +14508,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "4055",
-    "name": "Cynk organiczny + C",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4056",
-    "name": "Cynk organiczny + C - 100 tabletek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4057",
-    "name": "Cynk organiczny + C - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -17018,38 +15070,6 @@
     ]
   },
   {
-    "externalId": "4146",
-    "name": "D-Vitum forte 1000 j.m.",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4149",
-    "name": "D-Vitum forte 1000 j.m. - 120 tabletek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4150",
-    "name": "D-Vitum forte 1000 j.m. - 30szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4151",
-    "name": "D-Vitum forte 1000 j.m. - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "4167",
     "name": "Capital Soleil Mleczko po opalaniu",
     "sku": "3337871322724",
@@ -17073,165 +15093,6 @@
     },
     "errors": [
       "Brak Cena / Cena promocyjna"
-    ]
-  },
-  {
-    "externalId": "4174",
-    "name": "Capital Soleil Matujący krem do twarzy SPF 50+",
-    "errors": [
-      "Produkt nieopublikowany"
-    ]
-  },
-  {
-    "externalId": "4179",
-    "name": "D-Vitum forte 2000 j.m.",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4180",
-    "name": "D-Vitum forte 2000 j.m. - 120 tabletek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4181",
-    "name": "D-Vitum forte 2000 j.m. - 150szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4182",
-    "name": "D-Vitum forte 2000 j.m. - 36szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4183",
-    "name": "D-Vitum forte 2000 j.m. - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4184",
-    "name": "D-Vitum forte 2000 j.m. - 90szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4190",
-    "name": "D-Vitum forte Max 4000 j.m.",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4191",
-    "name": "D-Vitum forte Max 4000 j.m. - 120 tabletek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4192",
-    "name": "D-Vitum forte Max 4000 j.m. - 150szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4193",
-    "name": "D-Vitum forte Max 4000 j.m. - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4194",
-    "name": "D-Vitum forte Max 4000 j.m. - 90szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4199",
-    "name": "D-Vitum forte 2000 j.m. K2",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4200",
-    "name": "D-Vitum forte 2000 j.m. K2 - 120 tabletek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4201",
-    "name": "D-Vitum forte 2000 j.m. K2 - 30szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4202",
-    "name": "D-Vitum forte 2000 j.m. K2 - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4206",
-    "name": "D-Vitum forte Max 4000 j.m. K2",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4207",
-    "name": "D-Vitum forte Max 4000 j.m. K2 - 120 tabletek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4208",
-    "name": "D-Vitum forte Max 4000 j.m. K2 - 30szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4209",
-    "name": "D-Vitum forte Max 4000 j.m. K2 - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -17413,102 +15274,6 @@
     ]
   },
   {
-    "externalId": "4225",
-    "name": "D-Vitum 400 j.m. dla dzieci",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4226",
-    "name": "D-Vitum 400 j.m. dla dzieci - 30szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4227",
-    "name": "D-Vitum 400 j.m. dla dzieci - 90szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4231",
-    "name": "D-Vitum 600 j.m. dla dzieci",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4232",
-    "name": "D-Vitum 600 j.m. dla dzieci - 30szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4233",
-    "name": "D-Vitum 600 j.m. dla dzieci - 90szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4236",
-    "name": "D-Vitum 800 j.m. dla dzieci",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4237",
-    "name": "D-Vitum 800 j.m. dla dzieci - 30szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4238",
-    "name": "D-Vitum 800 j.m. dla dzieci - 90szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4241",
-    "name": "D-Vitum 1000 j.m. dla dzieci",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4242",
-    "name": "D-Vitum 1000 j.m. dla dzieci - 30szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4243",
-    "name": "D-Vitum 1000 j.m. dla dzieci - 90szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "4246",
     "name": "D-Vitum 400 j.m. witaminy D DHA dla dzieci",
     "sku": "5904960014945",
@@ -17562,30 +15327,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "4250",
-    "name": "Collaflex",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4263",
-    "name": "Collaflex - 120 tabletek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4264",
-    "name": "Collaflex - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -17888,30 +15629,6 @@
     ]
   },
   {
-    "externalId": "4308",
-    "name": "C-Vitum 1000mg",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4309",
-    "name": "C-Vitum 1000mg - 30szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4310",
-    "name": "C-Vitum 1000mg - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "4313",
     "name": "C-Vitum Long Active",
     "sku": "5904960016383",
@@ -17938,30 +15655,6 @@
     "errors": [
       "Brak Opis",
       "Brak Cena / Cena promocyjna"
-    ]
-  },
-  {
-    "externalId": "4315",
-    "name": "Adek-Vitum",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4316",
-    "name": "Adek-Vitum - 30szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4317",
-    "name": "Adek-Vitum - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -18938,13 +16631,6 @@
     ]
   },
   {
-    "externalId": "4454",
-    "name": "Idealia Energetyzujący krem wygładzający do skóry suchej",
-    "errors": [
-      "Produkt nieopublikowany"
-    ]
-  },
-  {
     "externalId": "4479",
     "name": "Debutir",
     "sku": "5907698301622",
@@ -19525,13 +17211,6 @@
     ]
   },
   {
-    "externalId": "4583",
-    "name": "Dermablend 3D, podkład wyrównujący powierzchnię skóry, 15 Opal",
-    "errors": [
-      "Produkt nieopublikowany"
-    ]
-  },
-  {
     "externalId": "4601",
     "name": "Coligas Fast Herbata ziołowa",
     "sku": "4601",
@@ -19790,13 +17469,6 @@
     ]
   },
   {
-    "externalId": "4629",
-    "name": "Homme Sensi Baume Kojący balsam po goleniu do skóry wrażliwej",
-    "errors": [
-      "Produkt nieopublikowany"
-    ]
-  },
-  {
     "externalId": "4633",
     "name": "Mirtillo Plus Kapsułki",
     "sku": "8032472001294",
@@ -19955,30 +17627,6 @@
     ]
   },
   {
-    "externalId": "4649",
-    "name": "Colostrum Genactiv",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4650",
-    "name": "Colostrum Genactiv - 120 tabletek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4651",
-    "name": "Colostrum Genactiv - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "4655",
     "name": "Colostrum Genactiv Proszek",
     "sku": "5907546536473",
@@ -20065,30 +17713,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "4665",
-    "name": "Colostrum Genactiv Tabletki do ssania z maliną",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4666",
-    "name": "Colostrum Genactiv Tabletki do ssania z maliną - 20szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4667",
-    "name": "Colostrum Genactiv Tabletki do ssania z maliną - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -20370,54 +17994,6 @@
     ]
   },
   {
-    "externalId": "4694",
-    "name": "ZzzQuil Natura Żelki o smaku owoców leśnych",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4695",
-    "name": "ZzzQuil Natura Żelki o smaku owoców leśnych - 30szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4696",
-    "name": "ZzzQuil Natura Żelki o smaku owoców leśnych - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4711",
-    "name": "Nutrof Total",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4722",
-    "name": "Nutrof Total - 30szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4723",
-    "name": "Nutrof Total - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "4726",
     "name": "Resvega",
     "sku": "3662042003875",
@@ -20441,86 +18017,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "4729",
-    "name": "Bodymax Plus",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4730",
-    "name": "Bodymax Plus - 200szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4731",
-    "name": "Bodymax Plus - 30szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4732",
-    "name": "Bodymax Plus - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4736",
-    "name": "Bodymax Vital 50+",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4737",
-    "name": "Bodymax Vital 50+ - 30szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4738",
-    "name": "Bodymax Vital 50+ - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4741",
-    "name": "Bodymax Active",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4742",
-    "name": "Bodymax Active - 30szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4743",
-    "name": "Bodymax Active - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -20799,30 +18295,6 @@
     "errors": [
       "Brak Opis",
       "Brak Cena / Cena promocyjna"
-    ]
-  },
-  {
-    "externalId": "4767",
-    "name": "Möller’s Forte z tranem",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4769",
-    "name": "Möller’s Forte z tranem - 112 tabletek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4770",
-    "name": "Möller’s Forte z tranem - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -21196,37 +18668,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "4813",
-    "name": "",
-    "errors": [
-      "Produkt nieopublikowany"
-    ]
-  },
-  {
-    "externalId": "4815",
-    "name": "Inofem",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4816",
-    "name": "Inofem - 30szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4817",
-    "name": "Inofem - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -22009,30 +19450,6 @@
     ]
   },
   {
-    "externalId": "4920",
-    "name": "Berimal Forte",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4922",
-    "name": "Berimal Forte - 30szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4923",
-    "name": "Berimal Forte - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "4926",
     "name": "Cardiostatil",
     "sku": "5902802704399",
@@ -22065,54 +19482,6 @@
     ]
   },
   {
-    "externalId": "4928",
-    "name": "Maxi3Vena",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4930",
-    "name": "Maxi3Vena - 30szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4931",
-    "name": "Maxi3Vena - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4934",
-    "name": "Venalex",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4935",
-    "name": "Venalex - 30szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4936",
-    "name": "Venalex - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "4939",
     "name": "Detramax",
     "sku": "5907461319823",
@@ -22137,30 +19506,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "4941",
-    "name": "Detramax Plus",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4942",
-    "name": "Detramax Plus - 30szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4943",
-    "name": "Detramax Plus - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -22434,30 +19779,6 @@
     ]
   },
   {
-    "externalId": "4966",
-    "name": "Bilomag Plus",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4967",
-    "name": "Bilomag Plus - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4968",
-    "name": "Bilomag Plus - 90szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "4971",
     "name": "Bilomag Plus Oczy",
     "sku": "5906204022273",
@@ -22659,30 +19980,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "4991",
-    "name": "Cidrex plus",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4992",
-    "name": "Cidrex plus - 40szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "4993",
-    "name": "Cidrex plus - 80szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -23025,54 +20322,6 @@
     ]
   },
   {
-    "externalId": "5030",
-    "name": "Vitrum Osteo",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5031",
-    "name": "Vitrum Osteo - 100 tabletek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5032",
-    "name": "Vitrum Osteo - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5036",
-    "name": "Vitrum D3 Forte",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5037",
-    "name": "Vitrum D3 Forte - 120 tabletek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5038",
-    "name": "Vitrum D3 Forte - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "5047",
     "name": "Vitrum D3 Strong",
     "sku": "5711313006065",
@@ -23098,78 +20347,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "5051",
-    "name": "Vitrum D3",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5052",
-    "name": "Vitrum D3 - 120 tabletek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5053",
-    "name": "Vitrum D3 - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5056",
-    "name": "Arthron Complex",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5057",
-    "name": "Arthron Complex - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5058",
-    "name": "Arthron Complex - 90szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5061",
-    "name": "Sanostol",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5062",
-    "name": "Sanostol - 30szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5063",
-    "name": "Sanostol - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -23542,30 +20719,6 @@
     ]
   },
   {
-    "externalId": "5094",
-    "name": "Grinovita Acerola",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5095",
-    "name": "Grinovita Acerola - 100 tabletek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5096",
-    "name": "Grinovita Acerola - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "5099",
     "name": "Grinovita Forte",
     "sku": "5901716993356",
@@ -23588,30 +20741,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "5101",
-    "name": "Artresan Optima 1 a Day",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5102",
-    "name": "Artresan Optima 1 a Day - 30szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5103",
-    "name": "Artresan Optima 1 a Day - 36szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -24034,13 +21163,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "5158",
-    "name": "5901330003639 Olimp Prostatan",
-    "errors": [
-      "Produkt nieopublikowany"
     ]
   },
   {
@@ -27301,30 +24423,6 @@
     ]
   },
   {
-    "externalId": "5522",
-    "name": "Solgar Włosy Skóra Paznokcie",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5523",
-    "name": "Solgar Włosy Skóra Paznokcie - 120 tabletek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5524",
-    "name": "Solgar Włosy Skóra Paznokcie - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "5528",
     "name": "Solgar Kwas Hialuronowy Kolagen kompleks 120mg",
     "sku": "0033984014176",
@@ -27539,13 +24637,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "5544",
-    "name": "",
-    "errors": [
-      "Produkt nieopublikowany"
     ]
   },
   {
@@ -28967,30 +26058,6 @@
     ]
   },
   {
-    "externalId": "5682",
-    "name": "PotazeK",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5684",
-    "name": "PotazeK - 100 tabletek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5685",
-    "name": "PotazeK - 50szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "5688",
     "name": "Apo-Uro Plus",
     "sku": "5902020661030",
@@ -29182,30 +26249,6 @@
     ]
   },
   {
-    "externalId": "5719",
-    "name": "Emolium Intensive Pro Balsam",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5720",
-    "name": "Emolium Intensive Pro Balsam - 100ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5721",
-    "name": "Emolium Intensive Pro Balsam - 500ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "5725",
     "name": "Skin Repair Krem do rąk",
     "sku": "5902502210619",
@@ -29336,22 +26379,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "5741",
-    "name": "Dermocare Kremowy żel do mycia",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5745",
-    "name": "Dermocare Emulsja do ciała",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -30378,30 +27405,6 @@
     ]
   },
   {
-    "externalId": "5833",
-    "name": "Bioliq Krem naprawczy do skóry atopowej",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5834",
-    "name": "Bioliq Krem naprawczy do skóry atopowej - 180ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5835",
-    "name": "Bioliq Krem naprawczy do skóry atopowej - 50ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "5838",
     "name": "Bioliq Normalizujący krem na dzień",
     "sku": "5906071029337",
@@ -30983,70 +27986,6 @@
     ]
   },
   {
-    "externalId": "5885",
-    "name": "Equazen Kapsułki",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5886",
-    "name": "Equazen Kapsułki - 240szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5887",
-    "name": "Equazen Kapsułki - 400szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5888",
-    "name": "Equazen Kapsułki - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5897",
-    "name": "Equazen Kapsułki do żucia",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5901",
-    "name": "Equazen Kapsułki do żucia - 240szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5902",
-    "name": "Equazen Kapsułki do żucia - 400szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5903",
-    "name": "Equazen Kapsułki do żucia - 60szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "5904",
     "name": "Equazen Płyn smak waniliowy",
     "sku": "5060072605898",
@@ -31147,38 +28086,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "5912",
-    "name": "Gal Tran",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5913",
-    "name": "Gal Tran - 100 tabletek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5914",
-    "name": "Gal Tran - 150szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "5915",
-    "name": "Gal Tran - 300szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -31628,13 +28535,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "5989",
-    "name": "Naturalna Witamina D3",
-    "errors": [
-      "Produkt nieopublikowany"
     ]
   },
   {
@@ -32164,30 +29064,6 @@
     "errors": [
       "Brak Opis",
       "Brak Cena / Cena promocyjna"
-    ]
-  },
-  {
-    "externalId": "6057",
-    "name": "Colostrum Genactiv Maseczka",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "6058",
-    "name": "Colostrum Genactiv Maseczka - 150ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "6059",
-    "name": "Colostrum Genactiv Maseczka - 50ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -34725,54 +31601,6 @@
     ]
   },
   {
-    "externalId": "6519",
-    "name": "The Originals Flash Serum rozświetlające z efektem przeciw-zmęczeniowym",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "6525",
-    "name": "The Originals Flash Serum rozświetlające z efektem przeciw-zmęczeniowym - 2ml x 1",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "6526",
-    "name": "The Originals Flash Serum rozświetlające z efektem przeciw-zmęczeniowym - 2ml x 5",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "6527",
-    "name": "The Originals Formula Nᵒ10 HD Color Touch Serum nawilżająco-ujędrniające SPF 30",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "6528",
-    "name": "The Originals Formula Nᵒ10 HD Color Touch Serum nawilżająco-ujędrniające SPF 30 - 2ml x 10",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "6529",
-    "name": "The Originals Formula Nᵒ10 HD Color Touch Serum nawilżająco-ujędrniające SPF 30 - 2ml x 30",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "6535",
     "name": "The Originals Moisturising Mask Maska nawilżająca",
     "sku": "8437015942636",
@@ -34799,85 +31627,6 @@
     "errors": [
       "Brak Opis",
       "Brak Cena / Cena promocyjna"
-    ]
-  },
-  {
-    "externalId": "6539",
-    "name": "The Originals Proteos Hydra Plus Serum nawilżające z antyoksydantami",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "6540",
-    "name": "The Originals Proteos Hydra Plus Serum nawilżające z antyoksydantami - 2ml x 10",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "6541",
-    "name": "The Originals Proteos Hydra Plus Serum nawilżające z antyoksydantami - 2ml x 30",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "6548",
-    "name": "The Originals Proteos Hydra Plus SP Serum nawilżające z antyoksydantami",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "6554",
-    "name": "The Originals Proteos Hydra Plus SP Serum nawilżające z antyoksydantami - 2ml x 10",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "6555",
-    "name": "The Originals Proteos Hydra Plus SP Serum nawilżające z antyoksydantami - 2ml x 30",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "6563",
-    "name": "The Originals Proteos Liposome Serum nawilżające z antyoksydantami",
-    "errors": [
-      "Produkt nieopublikowany"
-    ]
-  },
-  {
-    "externalId": "6564",
-    "name": "The Originals Proteos Liposome Serum nawilżające z antyoksydantami",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "6565",
-    "name": "The Originals Proteos Liposome Serum nawilżające z antyoksydantami - 2ml x 10",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "6566",
-    "name": "The Originals Proteos Liposome Serum nawilżające z antyoksydantami - 2ml x 30",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -35108,54 +31857,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "6808",
-    "name": "Eau Thermale Avène Cleanance - Żel oczyszczający",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "6838",
-    "name": "Mustela Sun Bebe Enfant Mleczko do twarzy SPF 50+",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "6840",
-    "name": "Mustela Sun Bebe Enfant Mleczko do twarzy SPF 50+ - 100ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "6843",
-    "name": "Mustela Sun Bebe Enfant Mleczko do twarzy SPF 50+ - 40ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "6864",
-    "name": "Eau Thermale Avène Cleanance - Żel oczyszczający - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "6871",
-    "name": "Eau Thermale Avène Cleanance - Żel oczyszczający - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -35677,46 +32378,6 @@
     ]
   },
   {
-    "externalId": "9053",
-    "name": "Seboradin Revitalizing - Balsam do włosów suchych i zniszczonych",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "9057",
-    "name": "Seboradin Revitalizing - Szampon do włosów suchych i zniszczonych - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "9066",
-    "name": "Seboradin Revitalizing - Szampon do włosów suchych i zniszczonych - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "9071",
-    "name": "Seboradin Revitalizing - Balsam do włosów suchych i zniszczonych - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "9079",
-    "name": "Seboradin Revitalizing - Szampon do włosów suchych i zniszczonych - 500ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "9086",
     "name": "Seboradin Revitalizing - Lotion do włosów suchych i zniszczonych",
     "sku": "5904730878067",
@@ -35900,46 +32561,6 @@
     ]
   },
   {
-    "externalId": "9206",
-    "name": "Seboradin Men - Lotion przeciw wypadaniu włosów - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "9209",
-    "name": "Seboradin Men - Lotion przeciw wypadaniu włosów - 100ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "9225",
-    "name": "Seboradin Men - Szampon przeciw wypadaniu włosów - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "9227",
-    "name": "Seboradin Men - Szampon przeciw wypadaniu włosów - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "9229",
-    "name": "Seboradin Men - Szampon przeciw wypadaniu włosów - 100ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "9262",
     "name": "Seboradin Forte Plus - 4-tygodniowa intensywna kuracja przeciw wypadaniu włosów.",
     "sku": "5902751586350",
@@ -35965,46 +32586,6 @@
     ]
   },
   {
-    "externalId": "9273",
-    "name": "Seboradin Forte - Ampułki przeciw wypadaniu włosów - 5,5ml x 14",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "9275",
-    "name": "Seboradin Forte - Ampułki przeciw wypadaniu włosów - 5,5ml x 7",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "9277",
-    "name": "Seboradin Forte - Ampułki przeciw wypadaniu włosów - 5.5ml x 28",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "9284",
-    "name": "Seboradin Forte - Szampon przeciw wypadaniu włosów - 500ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "9288",
-    "name": "Seboradin Forte - Szampon przeciw wypadaniu włosów - 100ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "9307",
     "name": "Seboradin Forte - Szampon przeciw wypadaniu włosów Refill",
     "sku": "5902751582949",
@@ -36027,54 +32608,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "9325",
-    "name": "Seboradin Forte - Balsam przeciw wypadaniu włosów - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "9327",
-    "name": "Seboradin Forte - Balsam przeciw wypadaniu włosów - 100ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "9329",
-    "name": "Seboradin Forte - Balsam przeciw wypadaniu włosów - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "9342",
-    "name": "Seboradin Forte - Lotion przeciw wypadaniu włosów",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "9343",
-    "name": "Seboradin Forte - Lotion przeciw wypadaniu włosów - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "9345",
-    "name": "Seboradin Forte - Lotion przeciw wypadaniu włosów - 100ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -36107,22 +32640,6 @@
     ]
   },
   {
-    "externalId": "9425",
-    "name": "Seboradin FitoCell - Szampon z roślinnymi komórkami macierzystymi - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "9427",
-    "name": "Seboradin FitoCell - Szampon z roślinnymi komórkami macierzystymi - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "9432",
     "name": "Seboradin FitoCell - Szampon z roślinnymi komórkami macierzystymi Refill",
     "sku": "5902751582963",
@@ -36146,22 +32663,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "9439",
-    "name": "Seboradin FitoCell - Serum z komórkami macierzystymi - 6g x 15",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "9442",
-    "name": "Seboradin FitoCell - Serum z komórkami macierzystymi - 6g x 7",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -36266,14 +32767,6 @@
     ]
   },
   {
-    "externalId": "9541",
-    "name": "Seboradin Revitalizing - Balsam do włosów suchych i zniszczonych - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "9570",
     "name": "Caudalie Vinosun Protect - Niewidoczny spray o wysokiej ochronie SPF30+",
     "sku": "3522931003778",
@@ -36304,30 +32797,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "9626",
-    "name": "Caudalie Vinosun Protect - Regenerujące mleczko po opalaniu",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "9880",
-    "name": "Caudalie Vinosun Protect - Regenerujące mleczko po opalaniu - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "9886",
-    "name": "Caudalie Vinosun Protect - Regenerujące mleczko po opalaniu - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -36526,54 +32995,6 @@
     "errors": [
       "Brak Opis",
       "Brak Cena / Cena promocyjna"
-    ]
-  },
-  {
-    "externalId": "13438",
-    "name": "H H-Sebopurin Specjalistyczny szampon normalizujący - 250ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "13441",
-    "name": "H H-Sebopurin Specjalistyczny szampon normalizujący - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "13826",
-    "name": "Dermocare Emulsja do ciała - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "13829",
-    "name": "Dermocare Emulsja do ciała - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "13844",
-    "name": "Dermocare Kremowy żel do mycia - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "13847",
-    "name": "Dermocare Kremowy żel do mycia - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -37569,198 +33990,6 @@
     ]
   },
   {
-    "externalId": "14544",
-    "name": "Klorane - Szampon z organiczną piwonią",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14545",
-    "name": "Klorane - Szampon z organiczną piwonią - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14549",
-    "name": "Klorane - Szampon z organiczną piwonią - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14560",
-    "name": "Klorane - Szampon z Organicznym Lnem",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14563",
-    "name": "Klorane - Szampon z Organicznym Lnem - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14565",
-    "name": "Klorane - Szampon z Organicznym Lnem - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14582",
-    "name": "Klorane - Szampon z mango",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14583",
-    "name": "Klorane - Szampon z mango - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14587",
-    "name": "Klorane - Szampon z mango - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14594",
-    "name": "Klorane - Szampon suchy z organiczną miętą nadwodną",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14596",
-    "name": "Klorane - Szampon suchy z organiczną miętą nadwodną - 150ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14599",
-    "name": "Klorane - Szampon suchy z organiczną miętą nadwodną - 2 x 150ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14605",
-    "name": "Klorane - Szampon z organicznym masłem Cupuacu",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14606",
-    "name": "Klorane - Szampon z organicznym masłem Cupuacu - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14610",
-    "name": "Klorane - Szampon z organicznym masłem Cupuacu - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14620",
-    "name": "Klorane - Szampon z organiczną pokrzywą",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14622",
-    "name": "Klorane - Szampon z organiczną pokrzywą - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14625",
-    "name": "Klorane - Szampon z organiczną pokrzywą - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14631",
-    "name": "Klorane - Szampon z organiczną miętą nadwodną",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14633",
-    "name": "Klorane - Szampon z organiczną miętą nadwodną - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14637",
-    "name": "Klorane - Szampon z organiczną miętą nadwodną - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14643",
-    "name": "Klorane - Szampon z chininą i organiczną szarotką",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14644",
-    "name": "Klorane - Szampon z chininą i organiczną szarotką - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14648",
-    "name": "Klorane - Szampon z chininą i organiczną szarotką - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "14655",
     "name": "Klorane - Szampon z granatem",
     "sku": "3282770143577",
@@ -38023,30 +34252,6 @@
     ]
   },
   {
-    "externalId": "14733",
-    "name": "Klorane - Szampon z owsem",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14734",
-    "name": "Klorane - Szampon z owsem - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14737",
-    "name": "Klorane - Szampon z owsem - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "14754",
     "name": "Avene Cleanance Comedomed - Koncentrat przeciw niedoskonałościom",
     "sku": "3282770390414",
@@ -38257,30 +34462,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "14863",
-    "name": "Caudalie Vinoperfect - Skoncentrowana glikolowa esencja dodająca blasku",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14873",
-    "name": "Caudalie Vinoperfect - Skoncentrowana glikolowa esencja dodająca blasku - 100ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "14876",
-    "name": "Caudalie Vinoperfect - Skoncentrowana glikolowa esencja dodająca blasku - 150ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -38686,30 +34867,6 @@
     ]
   },
   {
-    "externalId": "15056",
-    "name": "Caudalie Vinoclean - Maseczka detoksykująca instant",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15057",
-    "name": "Caudalie Vinoclean - Maseczka detoksykująca instant - 75ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15059",
-    "name": "Caudalie Vinoclean - Maseczka detoksykująca instant - 35ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "15081",
     "name": "Caudalie Vinocrush - Krem CC - Odcień 1",
     "sku": "3522930004097",
@@ -38998,30 +35155,6 @@
     ]
   },
   {
-    "externalId": "15176",
-    "name": "Caudalie Vinotherapist<sup>™</sup> - Balsam do ciała z kwasem hialuronowym",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15185",
-    "name": "Caudalie Vinotherapist<sup>™</sup> - Balsam do ciała z kwasem hialuronowym - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15187",
-    "name": "Caudalie Vinotherapist<sup>™</sup> - Balsam do ciała z kwasem hialuronowym - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "15203",
     "name": "Caudalie Vinotherapist<sup>™</sup> - Pomadka do ust",
     "sku": "3522930003595",
@@ -39248,54 +35381,6 @@
     "errors": [
       "Brak Opis",
       "Brak Cena / Cena promocyjna"
-    ]
-  },
-  {
-    "externalId": "15317",
-    "name": "Caudalie Thé des Vignes -Nawilżający balsam do ciała z kwasem hialuronowym",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15320",
-    "name": "Caudalie Thé des Vignes -Nawilżający balsam do ciała z kwasem hialuronowym - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15323",
-    "name": "Caudalie Thé des Vignes -Nawilżający balsam do ciała z kwasem hialuronowym - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15332",
-    "name": "Caudalie Thé des Vignes - Żel pod prysznic",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15337",
-    "name": "Caudalie Thé des Vignes - Żel pod prysznic - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15340",
-    "name": "Caudalie Thé des Vignes - Żel pod prysznic - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -39636,54 +35721,6 @@
     ]
   },
   {
-    "externalId": "15468",
-    "name": "Caudalie Vinopure - Oczyszczający żel myjący",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15478",
-    "name": "Caudalie Vinopure - Oczyszczający żel myjący - 385ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15480",
-    "name": "Caudalie Vinopure - Oczyszczający żel myjący - 150ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15489",
-    "name": "Caudalie Vinopure - Tonik oczyszczający",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15497",
-    "name": "Caudalie Vinopure - Tonik oczyszczający - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15499",
-    "name": "Caudalie Vinopure - Tonik oczyszczający - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "15507",
     "name": "Caudalie Vinopure - Punktowa kuracja z kwasem salicylowym",
     "sku": "3522930004073",
@@ -39902,54 +35939,6 @@
     ]
   },
   {
-    "externalId": "15574",
-    "name": "Caudalie - Nawilżający odżywczy olejek pielęgnacyjny",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15583",
-    "name": "Caudalie - Nawilżający odżywczy olejek pielęgnacyjny - 50ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15587",
-    "name": "Caudalie - Nawilżający odżywczy olejek pielęgnacyjny - 100ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15607",
-    "name": "Caudalie Soleil des Vignes - Nawilżający olejek pielęgnacyjny",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15614",
-    "name": "Caudalie Soleil des Vignes - Nawilżający olejek pielęgnacyjny - 50ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15617",
-    "name": "Caudalie Soleil des Vignes - Nawilżający olejek pielęgnacyjny - 100ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "15680",
     "name": "Caudalie Resveratrol-lift - Krem liftingujący okolice oczu",
     "sku": "3522930004509",
@@ -40010,14 +35999,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "15714",
-    "name": "Caudalie Vinopure - Oczyszczający żel myjący - 75ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -40171,30 +36152,6 @@
     ]
   },
   {
-    "externalId": "15861",
-    "name": "Caudalie Thé des Vignes - Orzeźwiająca woda",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15864",
-    "name": "Caudalie Thé des Vignes - Orzeźwiająca woda - 50ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15868",
-    "name": "Caudalie Thé des Vignes - Orzeźwiająca woda - 100ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "15874",
     "name": "Caudalie Rose de Vigne - Orzeźwiająca woda",
     "sku": "3522930003908",
@@ -40279,30 +36236,6 @@
     "errors": [
       "Brak Opis",
       "Brak Cena / Cena promocyjna"
-    ]
-  },
-  {
-    "externalId": "15903",
-    "name": "Caudalie - Woda rozświetlająca",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15911",
-    "name": "Caudalie - Woda rozświetlająca - 100ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15915",
-    "name": "Caudalie - Woda rozświetlająca - 30ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -40401,142 +36334,6 @@
     ]
   },
   {
-    "externalId": "15965",
-    "name": "Caudalie Vinoclean - Olejek do demakijażu",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15975",
-    "name": "Caudalie Vinoclean - Olejek do demakijażu - 150ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15977",
-    "name": "Caudalie Vinoclean - Olejek do demakijażu - 75ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15987",
-    "name": "Caudalie Vinoclean - Tonik nawilżający",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "15999",
-    "name": "Caudalie Vinoclean - Tonik nawilżający - 100ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16001",
-    "name": "Caudalie Vinoclean - Tonik nawilżający - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16003",
-    "name": "Caudalie Vinoclean - Tonik nawilżający - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16013",
-    "name": "Caudalie Vinoclean - Migdałowe mleczko do demakijażu",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16023",
-    "name": "Caudalie Vinoclean - Migdałowe mleczko do demakijażu - 100ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16025",
-    "name": "Caudalie Vinoclean - Migdałowe mleczko do demakijażu - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16027",
-    "name": "Caudalie Vinoclean - Migdałowe mleczko do demakijażu - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16037",
-    "name": "Caudalie Vinoclean - Plyn micelarny do demakijażu",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16048",
-    "name": "Caudalie Vinoclean - Plyn micelarny do demakijażu - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16050",
-    "name": "Caudalie Vinoclean - Plyn micelarny do demakijażu - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16060",
-    "name": "Caudalie Vinoclean - Pianka oczyszczająca",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16069",
-    "name": "Caudalie Vinoclean - Pianka oczyszczająca - 150ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16071",
-    "name": "Caudalie Vinoclean - Pianka oczyszczająca - 50ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "16079",
     "name": "Caudalie Vinoclean - Duet pianka oczyszczająca",
     "sku": "3522930027812",
@@ -40568,54 +36365,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "16151",
-    "name": "Chusteczki H2O Wipes Kids Wet Wipes Lab4Baby",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16152",
-    "name": "Chusteczki H2O Wipes Kids Wet Wipes Lab4Baby - 24szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16154",
-    "name": "Chusteczki H2O Wipes Kids Wet Wipes Lab4Baby - 48szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16179",
-    "name": "Chusteczki H2O Wipes Baby Wet Wipes Lab4Baby",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16180",
-    "name": "Chusteczki H2O Wipes Baby Wet Wipes Lab4Baby - 24szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16182",
-    "name": "Chusteczki H2O Wipes Baby Wet Wipes Lab4Baby - 48szt",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -40727,30 +36476,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "16218",
-    "name": "Eau Thermale Avène - spray dla dzieci SPF 50+",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16220",
-    "name": "Eau Thermale Avène - spray dla dzieci SPF 50+ - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16223",
-    "name": "Eau Thermale Avène - spray dla dzieci SPF 50+ - 400ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -40898,30 +36623,6 @@
     ]
   },
   {
-    "externalId": "16284",
-    "name": "LibraMed",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16286",
-    "name": "LibraMed - 84x0,725g",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16288",
-    "name": "LibraMed - 138x0,725g",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "16299",
     "name": "Magne-B6<sup>®</sup> Kids",
     "sku": "16299",
@@ -41018,62 +36719,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "16331",
-    "name": "Multilac - Synbiotyk w kapsułkach dla dorosłych",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16337",
-    "name": "Multilac - Synbiotyk w kapsułkach dla dorosłych - 50 kapsułek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16339",
-    "name": "Multilac - Synbiotyk w kapsułkach dla dorosłych - 20 kapsułek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16341",
-    "name": "Multilac - Synbiotyk w kapsułkach dla dorosłych - 10 kapsułek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16350",
-    "name": "Multilac Baby - Synbiotyk w kroplach dla niemowląt i dzieci",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16356",
-    "name": "Multilac Baby - Synbiotyk w kroplach dla niemowląt i dzieci - 2x5ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16358",
-    "name": "Multilac Baby - Synbiotyk w kroplach dla niemowląt i dzieci - 5ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -41244,54 +36889,6 @@
     ]
   },
   {
-    "externalId": "16432",
-    "name": "Dicoflor® 3 - W kapsułkach",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16433",
-    "name": "Dicoflor® 3 - W kapsułkach - 30 kaspułek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16435",
-    "name": "Dicoflor® 3 - W kapsułkach - 10 kapsułek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16452",
-    "name": "Dicoflor® 6 - W kapsułkach",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16463",
-    "name": "Dicoflor® 6 - W kapsułkach - 20 kapsułek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16465",
-    "name": "Dicoflor® 6 - W kapsułkach - 10 kapsułek",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
     "externalId": "16474",
     "name": "Dicoflor® Odporność",
     "sku": "5908229303290",
@@ -41362,54 +36959,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "16502",
-    "name": "ALLERGIKA®- Lipolotio Sensitive",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16510",
-    "name": "ALLERGIKA®- Lipolotio Sensitive - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16512",
-    "name": "ALLERGIKA®- Lipolotio Sensitive - 500ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16520",
-    "name": "ALLERGIKA® - Hydrolotio Sensitive",
-    "type": "variable",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16521",
-    "name": "ALLERGIKA® - Hydrolotio Sensitive - 500ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
-    ]
-  },
-  {
-    "externalId": "16523",
-    "name": "ALLERGIKA® - Hydrolotio Sensitive - 200ml",
-    "type": "variation",
-    "errors": [
-      "Pominięto wariant/produkt nadrzędny"
     ]
   },
   {
@@ -41586,13 +37135,6 @@
     },
     "errors": [
       "Brak Opis"
-    ]
-  },
-  {
-    "externalId": "16604",
-    "name": "Żelki CBD",
-    "errors": [
-      "Produkt nieopublikowany"
     ]
   },
   {
