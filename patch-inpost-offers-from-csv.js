@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 
 /**
- * patch-inpost-categories-from-csv.js
+ * patch-inpost-offers-from-csv.js
  *
- * Naprawia kategorie istniejących ofert InPost Buy na podstawie pełnego CSV WooCommerce.
+ * Naprawia kategorie i zbyt krotkie opisy istniejacych ofert InPost Buy
+ * na podstawie pelnego CSV WooCommerce.
  *
  * Logika:
  * 1. Pobierz EAN z CSV.
@@ -17,13 +18,13 @@
  *    → zapisz do stale-category-errors.
  *
  * Użycie:
- *   node patch-inpost-categories-from-csv.js suppla-oferta.csv dist/category-hints.json category-overrides.json dist
+ *   node patch-inpost-offers-from-csv.js suppla-oferta.csv dist/category-hints.json category-overrides.json dist
  *
  * Tryb testowy:
- *   node patch-inpost-categories-from-csv.js suppla-oferta.csv dist/category-hints.json category-overrides.json dist --dry-run
+ *   node patch-inpost-offers-from-csv.js suppla-oferta.csv dist/category-hints.json category-overrides.json dist --dry-run
  *
  * Wymagane paczki:
- *   npm install axios dotenv csv-parse
+ *   npm install axios dotenv csv-parse he
  */
 
 require("dotenv").config();
@@ -32,6 +33,7 @@ const fs = require("fs");
 const path = require("path");
 const axios = require("axios");
 const { parse } = require("csv-parse/sync");
+const he = require("he");
 
 const INPUT_CSV = process.argv[2] || "suppla-oferta.csv";
 const CATEGORY_HINTS_FILE = process.argv[3] || path.join("dist", "category-hints.json");
@@ -45,8 +47,13 @@ const PATCH_CONTENT_TYPE =
 
 const REQUEST_DELAY_MS = Number(process.env.INPOST_REQUEST_DELAY_MS || 150);
 const PAGE_LIMIT = Number(process.env.INPOST_OFFERS_PAGE_LIMIT || 100);
+const MIN_DESCRIPTION_LENGTH = 100;
+const MAX_DESCRIPTION_LENGTH = 4000;
+const DEFAULT_BRAND = "Inna marka";
 
-const OBSOLETE_CATEGORY_REPAIR_REPORTS = [
+const OBSOLETE_OFFER_REPAIR_REPORTS = [
+  "category-repair-from-csv-report.json",
+  "category-repair-errors.json",
   "category-repair-patched.json",
   "category-repair-already-correct.json",
   "category-repair-stale-category-errors.json",
@@ -106,7 +113,7 @@ function removeFileIfExists(filePath) {
 }
 
 function cleanupObsoleteReports(outputDir) {
-  for (const fileName of OBSOLETE_CATEGORY_REPAIR_REPORTS) {
+  for (const fileName of OBSOLETE_OFFER_REPAIR_REPORTS) {
     removeFileIfExists(path.join(outputDir, fileName));
   }
 }
@@ -140,6 +147,30 @@ function normalizeForCompare(value) {
     .replace(/\s+/g, " ")
     .trim()
     .toLowerCase();
+}
+
+function limitText(value, maxLength = MAX_DESCRIPTION_LENGTH) {
+  const text = normalizeText(value);
+
+  if (text.length <= maxLength) {
+    return text;
+  }
+
+  return text.slice(0, maxLength).trim();
+}
+
+function cleanHtmlToText(value) {
+  const decoded = he.decode(String(value ?? ""));
+
+  return decoded
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<\/p>/gi, "\n")
+    .replace(/<\/li>/gi, "\n")
+    .replace(/<\/h[1-6]>/gi, "\n")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function isUuidLike(value) {
@@ -184,6 +215,96 @@ function getExternalId(row) {
 
 function getName(row) {
   return normalizeText(row["Nazwa"]);
+}
+
+function getSku(row) {
+  return getFirstNonEmpty(row["SKU"], row["Identyfikator"]);
+}
+
+function getBrand(row) {
+  const brandFromColumn = normalizeText(row["Marki"]);
+
+  if (brandFromColumn) {
+    return splitEscapedCommaList(brandFromColumn)[0] || brandFromColumn;
+  }
+
+  const name = getName(row);
+  const firstWord = name.split(" ")[0];
+
+  return firstWord || DEFAULT_BRAND;
+}
+
+function buildDescriptionSupplement(row, context) {
+  const categories = splitWooCategories(row["Kategorie"]);
+  const leafCategory = categories
+    .map((categoryPath) => normalizeCategoryPath(categoryPath))
+    .sort((a, b) => categoryDepth(b) - categoryDepth(a))[0];
+
+  const facts = [];
+
+  if (context.brand) {
+    facts.push(`Marka: ${context.brand}.`);
+  }
+
+  if (leafCategory) {
+    facts.push(`Kategoria produktu: ${leafCategory}.`);
+  }
+
+  if (context.ean) {
+    facts.push(`Kod EAN: ${context.ean}.`);
+  }
+
+  if (context.sku) {
+    facts.push(`SKU produktu: ${context.sku}.`);
+  }
+
+  facts.push(
+    "Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce."
+  );
+
+  return facts.join(" ");
+}
+
+function ensureMinimumDescriptionLength(description, row, context) {
+  let result = normalizeText(description);
+  const originalLength = result.length;
+
+  if (result.length < MIN_DESCRIPTION_LENGTH) {
+    const supplement = buildDescriptionSupplement(row, context);
+    result = normalizeText([result, supplement].filter(Boolean).join(" "));
+
+    while (result.length < MIN_DESCRIPTION_LENGTH) {
+      result = normalizeText(
+        `${result} Produkt opisany na podstawie nazwy, marki, kategorii oraz kodow identyfikacyjnych.`
+      );
+    }
+  }
+
+  result = limitText(result, MAX_DESCRIPTION_LENGTH);
+
+  return {
+    description: result,
+    generated: originalLength < MIN_DESCRIPTION_LENGTH,
+    originalLength,
+    finalLength: result.length
+  };
+}
+
+function getProductDescriptionFromCsv(row) {
+  const name = getName(row);
+  const ean = getEan(row);
+  const sku = getSku(row);
+  const brand = getBrand(row);
+  const descriptionFromHtml = cleanHtmlToText(
+    getFirstNonEmpty(row["Opis"], row["Krótki opis"])
+  );
+
+  return ensureMinimumDescriptionLength(descriptionFromHtml, row, {
+    name,
+    brand,
+    sku,
+    ean
+  });
 }
 
 function detectDelimiter(csvContent) {
@@ -395,7 +516,7 @@ function getCategoryPriority(source) {
   return 0;
 }
 
-function buildDesiredCategoriesFromCsv(rows, categoryHints, categoryOverrides) {
+function buildDesiredOffersFromCsv(rows, categoryHints, categoryOverrides) {
   const desiredByExternalId = new Map();
 
   const noCategoryMapping = [];
@@ -426,6 +547,7 @@ function buildDesiredCategoriesFromCsv(rows, categoryHints, categoryOverrides) {
       categoryHints,
       categoryOverrides
     );
+    const descriptionResult = getProductDescriptionFromCsv(row);
 
     if (!categoryResolution.categoryId) {
       noCategoryMapping.push({
@@ -436,19 +558,23 @@ function buildDesiredCategoriesFromCsv(rows, categoryHints, categoryOverrides) {
         categories: categoryResolution.allWooCategories,
         reason: "Brak categoryId w category-hints.json i category-overrides.json"
       });
-
-      continue;
     }
 
     const record = {
       externalId,
       name,
       ean,
+      sku: getSku(row),
+      brand: getBrand(row),
       expectedCategoryId: categoryResolution.categoryId,
       source: categoryResolution.source,
       sourceDetail: categoryResolution.sourceDetail,
       matchedWooCategory: categoryResolution.matchedWooCategory,
       allWooCategories: categoryResolution.allWooCategories,
+      desiredDescription: descriptionResult.description,
+      descriptionGenerated: descriptionResult.generated,
+      descriptionOriginalLength: descriptionResult.originalLength,
+      descriptionFinalLength: descriptionResult.finalLength,
       rowIndexes: [index]
     };
 
@@ -492,7 +618,10 @@ function buildDesiredCategoriesFromCsv(rows, categoryHints, categoryOverrides) {
     const newPriority = getCategoryPriority(record.source);
 
     if (newPriority > existingPriority) {
-      desiredByExternalId.set(externalId, record);
+      desiredByExternalId.set(externalId, {
+        ...record,
+        rowIndexes: existing.rowIndexes
+      });
     }
   }
 
@@ -777,6 +906,7 @@ function buildExistingOffersMap(existingItems) {
       externalId,
       status: offer.status || null,
       currentCategoryId: normalizeText(offer?.product?.categoryId),
+      currentDescription: normalizeText(offer?.product?.description),
       validationErrors,
       hasCategoryIncorrect: hasCategoryIncorrectValidationError(validationErrors),
       createdAt: offer.createdAt || null,
@@ -792,7 +922,8 @@ function buildExistingOffersMap(existingItems) {
         count: offers.length,
         offerIds: offers.map((offer) => offer.offerId),
         statuses: offers.map((offer) => offer.status),
-        categoryIds: offers.map((offer) => offer.currentCategoryId)
+        categoryIds: offers.map((offer) => offer.currentCategoryId),
+        descriptionLengths: offers.map((offer) => offer.currentDescription.length)
       });
     }
   }
@@ -803,10 +934,26 @@ function buildExistingOffersMap(existingItems) {
   };
 }
 
-async function patchCategory(existingOffer, expectedCategoryId) {
+async function patchOffer(existingOffer, productChanges) {
   const organizationId = getOrganizationId();
 
   let productForPatch = existingOffer.rawOffer?.product || {};
+  const detailResult = await getOfferById(existingOffer.offerId);
+
+  if (!detailResult.ok) {
+    return {
+      ok: false,
+      status: detailResult.status,
+      data: {
+        errorCode: "LOCAL_CANNOT_FETCH_OFFER_DETAILS",
+        errorMessage: "Nie udalo sie pobrac szczegolow oferty przed PATCH.",
+        details: detailResult.data
+      }
+    };
+  }
+
+  const detailedOffer = extractOfferFromDetails(detailResult.data);
+  productForPatch = detailedOffer?.product || productForPatch;
 
   /**
    * Jeżeli lista ofert nie zwróciła pełnego product,
@@ -846,7 +993,7 @@ async function patchCategory(existingOffer, expectedCategoryId) {
   const patchBody = {
     product: {
       ...productForPatch,
-      categoryId: expectedCategoryId
+      ...productChanges
     }
   };
 
@@ -905,6 +1052,37 @@ function extractMetadataFromDetails(data) {
   return {};
 }
 
+async function getDetailedExistingOffer(existingOffer) {
+  const detailResult = await getOfferById(existingOffer.offerId);
+
+  if (!detailResult.ok) {
+    return {
+      ok: false,
+      status: detailResult.status,
+      data: detailResult.data
+    };
+  }
+
+  const offer = extractOfferFromDetails(detailResult.data);
+  const metadata = extractMetadataFromDetails(detailResult.data);
+  const validationErrors = extractValidationErrorsFromMetadata(metadata);
+
+  return {
+    ok: true,
+    offer: {
+      ...existingOffer,
+      status: offer?.status || existingOffer.status,
+      currentCategoryId: normalizeText(offer?.product?.categoryId),
+      currentDescription: normalizeText(offer?.product?.description),
+      validationErrors,
+      hasCategoryIncorrect: hasCategoryIncorrectValidationError(validationErrors),
+      createdAt: offer?.createdAt || existingOffer.createdAt,
+      updatedAt: offer?.updatedAt || existingOffer.updatedAt,
+      rawOffer: offer || existingOffer.rawOffer
+    }
+  };
+}
+
 function buildEffectiveDesiredRecord(desiredRecord, existingOffer) {
   const referenceCategory = extractReferenceCategoryFromValidationErrors(
     existingOffer.validationErrors
@@ -936,6 +1114,10 @@ function buildBaseResultInfo(desiredRecord, existingOffer) {
     status: existingOffer.status,
     categoryIdBefore: existingOffer.currentCategoryId,
     expectedCategoryId: desiredRecord.expectedCategoryId,
+    descriptionLengthBefore: existingOffer.currentDescription.length,
+    desiredDescriptionLength: desiredRecord.descriptionFinalLength,
+    descriptionOriginalLength: desiredRecord.descriptionOriginalLength,
+    descriptionGeneratedFromCsv: desiredRecord.descriptionGenerated,
     csvExpectedCategoryId:
       desiredRecord.csvExpectedCategoryId || desiredRecord.expectedCategoryId,
     categorySource: desiredRecord.source,
@@ -951,6 +1133,57 @@ function buildBaseResultInfo(desiredRecord, existingOffer) {
     validationErrorsBefore: existingOffer.validationErrors,
     hadCategoryIncorrectBefore: existingOffer.hasCategoryIncorrect
   };
+}
+
+function buildProductChanges(existingOffer, desiredRecord) {
+  const productChanges = {};
+  const changedFields = [];
+
+  if (
+    desiredRecord.expectedCategoryId &&
+    existingOffer.currentCategoryId !== desiredRecord.expectedCategoryId
+  ) {
+    productChanges.categoryId = desiredRecord.expectedCategoryId;
+    changedFields.push("categoryId");
+  }
+
+  if (
+    desiredRecord.desiredDescription &&
+    existingOffer.currentDescription.length < MIN_DESCRIPTION_LENGTH &&
+    existingOffer.currentDescription !== desiredRecord.desiredDescription
+  ) {
+    productChanges.description = desiredRecord.desiredDescription;
+    changedFields.push("description");
+  }
+
+  return {
+    productChanges,
+    changedFields
+  };
+}
+
+function productChangesMatch(offer, productChanges) {
+  const product = offer?.product || {};
+
+  if (
+    Object.prototype.hasOwnProperty.call(productChanges, "categoryId") &&
+    normalizeText(product.categoryId) !== normalizeText(productChanges.categoryId)
+  ) {
+    return false;
+  }
+
+  if (
+    Object.prototype.hasOwnProperty.call(productChanges, "description") &&
+    normalizeText(product.description) !== normalizeText(productChanges.description)
+  ) {
+    return false;
+  }
+
+  return true;
+}
+
+function getOfferDescriptionLength(offer) {
+  return normalizeText(offer?.product?.description).length;
 }
 
 async function main() {
@@ -973,7 +1206,7 @@ async function main() {
   const categoryHints = readJsonIfExists(CATEGORY_HINTS_FILE, {});
   const categoryOverrides = readJsonIfExists(CATEGORY_OVERRIDES_FILE, {});
 
-  console.log("Start naprawy kategorii z pełnego CSV.");
+  console.log("Start naprawy ofert z pelnego CSV (kategorie + opisy).");
   console.log(`CSV: ${INPUT_CSV}`);
   console.log(`category-hints: ${CATEGORY_HINTS_FILE}`);
   console.log(`category-overrides: ${CATEGORY_OVERRIDES_FILE}`);
@@ -991,9 +1224,19 @@ async function main() {
     invalidRows,
     duplicateExternalIdsInCsv,
     categoryConflicts
-  } = buildDesiredCategoriesFromCsv(rows, categoryHints, categoryOverrides);
+  } = buildDesiredOffersFromCsv(rows, categoryHints, categoryOverrides);
 
-  console.log(`Produktów z wyliczonym categoryId: ${desiredByExternalId.size}`);
+  const desiredRecords = [...desiredByExternalId.values()];
+  const desiredExternalIdsWithCategory = desiredRecords.filter(
+    (record) => record.expectedCategoryId
+  ).length;
+  const desiredExternalIdsWithGeneratedDescription = desiredRecords.filter(
+    (record) => record.descriptionGenerated
+  ).length;
+
+  console.log(`Produktow z CSV po externalId: ${desiredByExternalId.size}`);
+  console.log(`Produktow z wyliczonym categoryId: ${desiredExternalIdsWithCategory}`);
+  console.log(`Opisow uzupelnionych z CSV do minimum ${MIN_DESCRIPTION_LENGTH} znakow: ${desiredExternalIdsWithGeneratedDescription}`);
   console.log(`Produktów bez mapowania kategorii: ${noCategoryMapping.length}`);
   console.log(`Nieprawidłowe wiersze CSV: ${invalidRows.length}`);
   console.log(`Duplikaty externalId w CSV: ${duplicateExternalIdsInCsv.length}`);
@@ -1014,6 +1257,8 @@ async function main() {
   console.log("");
 
   const patched = [];
+  const categoryPatched = [];
+  const descriptionPatched = [];
   const alreadyCorrect = [];
   const staleCategoryErrors = [];
   const unchangedAfterPatch = [];
@@ -1022,8 +1267,6 @@ async function main() {
   const errors = [];
   const missingExistingOffers = [];
   const dryRunItems = [];
-
-  const desiredRecords = [...desiredByExternalId.values()];
 
   for (let index = 0; index < desiredRecords.length; index++) {
     const desiredRecord = desiredRecords[index];
@@ -1048,15 +1291,76 @@ async function main() {
     }
 
     for (const existingOffer of matches) {
-      const baseInfo = buildBaseResultInfo(desiredRecord, existingOffer);
+      const effectiveDesiredRecord = buildEffectiveDesiredRecord(
+        desiredRecord,
+        existingOffer
+      );
 
-      if (existingOffer.currentCategoryId === desiredRecord.expectedCategoryId) {
+      if (
+        effectiveDesiredRecord.inpostReferenceCategoryId &&
+        effectiveDesiredRecord.inpostReferenceCategoryId !==
+          desiredRecord.expectedCategoryId
+      ) {
+        inpostReferenceCategoryOverrides.push({
+          externalId: desiredRecord.externalId,
+          name: desiredRecord.name,
+          ean: desiredRecord.ean,
+          offerId: existingOffer.offerId,
+          categoryIdBefore: existingOffer.currentCategoryId,
+          csvExpectedCategoryId: desiredRecord.expectedCategoryId,
+          inpostReferenceCategoryId:
+            effectiveDesiredRecord.inpostReferenceCategoryId,
+          csvCategorySource: desiredRecord.source,
+          inpostReferenceValidationMessage:
+            effectiveDesiredRecord.inpostReferenceValidationMessage
+        });
+      }
+
+      let offerForDecision = existingOffer;
+
+      if (offerForDecision.currentDescription.length < MIN_DESCRIPTION_LENGTH) {
+        const detailResult = await getDetailedExistingOffer(offerForDecision);
+
+        if (!detailResult.ok) {
+          errors.push({
+            externalId: desiredRecord.externalId,
+            name: desiredRecord.name,
+            ean: desiredRecord.ean,
+            offerId: existingOffer.offerId,
+            stage: "DETAIL_FOR_DESCRIPTION",
+            status: detailResult.status,
+            error: detailResult.data
+          });
+
+          console.log(
+            `  BLAD DETAIL: offerId=${existingOffer.offerId}, status=${detailResult.status}`
+          );
+          await sleep(REQUEST_DELAY_MS);
+          continue;
+        }
+
+        offerForDecision = detailResult.offer;
+      }
+
+      const baseInfo = buildBaseResultInfo(
+        effectiveDesiredRecord,
+        offerForDecision
+      );
+      const { productChanges, changedFields } = buildProductChanges(
+        offerForDecision,
+        effectiveDesiredRecord
+      );
+
+      if (changedFields.length === 0) {
         alreadyCorrect.push({
           ...baseInfo,
           result: "ALREADY_CORRECT"
         });
 
-        if (existingOffer.hasCategoryIncorrect) {
+        if (
+          effectiveDesiredRecord.expectedCategoryId &&
+          offerForDecision.hasCategoryIncorrect
+        ) {
           staleCategoryErrors.push({
             ...baseInfo,
             result: "STALE_CATEGORY_INCORRECT_ON_ALREADY_CORRECT",
@@ -1065,7 +1369,7 @@ async function main() {
           });
         }
 
-        console.log(`  Już poprawna kategoria: offerId=${existingOffer.offerId}`);
+        console.log(`  Juz poprawna oferta: offerId=${existingOffer.offerId}`);
         continue;
       }
 
@@ -1075,19 +1379,20 @@ async function main() {
           result: "DRY_RUN_WOULD_PATCH",
           patchBody: {
             product: {
-           ...(existingOffer.rawOffer?.product || {}),
-            categoryId: desiredRecord.expectedCategoryId
+              ...(offerForDecision.rawOffer?.product || {}),
+              ...productChanges
             }
-          }
+          },
+          changedFields
         });
 
         console.log(`  DRY RUN: PATCH offerId=${existingOffer.offerId}`);
         continue;
       }
 
-      const patchResult = await patchCategory(
-        existingOffer,
-        desiredRecord.expectedCategoryId
+      const patchResult = await patchOffer(
+        offerForDecision,
+        productChanges
       );
 
       if (!patchResult.ok) {
@@ -1103,11 +1408,26 @@ async function main() {
         continue;
       }
 
+      const patchResponseOffer = extractOfferFromDetails(patchResult.data);
+      const patchResponseMetadata = extractMetadataFromDetails(patchResult.data);
+      const patchResponseCategoryId = normalizeText(
+        patchResponseOffer?.product?.categoryId
+      );
+      const patchResponseDescriptionLength =
+        getOfferDescriptionLength(patchResponseOffer);
+      const patchResponseValidationErrors =
+        extractValidationErrorsFromMetadata(patchResponseMetadata);
+      const patchResponseHasCategoryIncorrect =
+        hasCategoryIncorrectValidationError(patchResponseValidationErrors);
+
       await sleep(REQUEST_DELAY_MS);
 
       const verifyResult = await getOfferById(existingOffer.offerId);
 
-      if (!verifyResult.ok) {
+      if (
+        !verifyResult.ok &&
+        !productChangesMatch(patchResponseOffer, productChanges)
+      ) {
         errors.push({
           ...baseInfo,
           stage: "VERIFY_GET",
@@ -1121,29 +1441,85 @@ async function main() {
         continue;
       }
 
-      const verifiedOffer = extractOfferFromDetails(verifyResult.data);
-      const verifiedMetadata = extractMetadataFromDetails(verifyResult.data);
-      const validationErrorsAfter = extractValidationErrorsFromMetadata(verifiedMetadata);
-      const hasCategoryIncorrectAfter =
-        hasCategoryIncorrectValidationError(validationErrorsAfter);
+      const verifiedOffer = verifyResult.ok
+        ? extractOfferFromDetails(verifyResult.data)
+        : null;
+      const verifiedMetadata = verifyResult.ok
+        ? extractMetadataFromDetails(verifyResult.data)
+        : {};
+      const verifiedValidationErrors =
+        extractValidationErrorsFromMetadata(verifiedMetadata);
 
-      const categoryIdAfter = normalizeText(verifiedOffer?.product?.categoryId);
-      const statusAfter = verifiedOffer?.status || null;
+      const verifiedCategoryId = normalizeText(
+        verifiedOffer?.product?.categoryId
+      );
+      const verifiedDescriptionLength = getOfferDescriptionLength(verifiedOffer);
+      const patchResponseMatches =
+        productChangesMatch(patchResponseOffer, productChanges);
+      const verifiedMatches = productChangesMatch(verifiedOffer, productChanges);
+      const readModelIsStale =
+        patchResponseMatches &&
+        verifyResult.ok &&
+        !verifiedMatches;
+      const categoryIdAfter = patchResponseMatches
+        ? patchResponseCategoryId
+        : verifiedCategoryId;
+      const descriptionLengthAfter = patchResponseMatches
+        ? patchResponseDescriptionLength
+        : verifiedDescriptionLength;
+      const statusAfter = verifiedOffer?.status || patchResponseOffer?.status || null;
+      const validationErrorsAfter = readModelIsStale
+        ? patchResponseValidationErrors
+        : verifiedValidationErrors;
+      const hasCategoryIncorrectAfter = readModelIsStale
+        ? patchResponseHasCategoryIncorrect
+        : hasCategoryIncorrectValidationError(validationErrorsAfter);
 
-      if (categoryIdAfter === desiredRecord.expectedCategoryId) {
+      if (patchResponseMatches || verifiedMatches) {
         const patchedRecord = {
           ...baseInfo,
           patchStatus: patchResult.status,
+          changedFields,
+          productChanges,
           categoryIdAfter,
+          patchResponseCategoryId,
+          verifiedCategoryId,
+          descriptionLengthAfter,
+          patchResponseDescriptionLength,
+          verifiedDescriptionLength,
           statusAfter,
           validationErrorsAfter,
           hasCategoryIncorrectAfter,
-          result: "PATCHED_AND_VERIFIED"
+          verificationStatus: readModelIsStale
+            ? "PATCH_RESPONSE_UPDATED_GET_STALE"
+            : verifyResult.ok
+              ? "GET_VERIFIED"
+              : "PATCH_RESPONSE_UPDATED_VERIFY_FAILED",
+          result: readModelIsStale
+            ? "PATCHED_FROM_RESPONSE_GET_STALE"
+            : "PATCHED_AND_VERIFIED"
         };
 
         patched.push(patchedRecord);
 
-        if (existingOffer.hasCategoryIncorrect || hasCategoryIncorrectAfter) {
+        if (changedFields.includes("categoryId")) {
+          categoryPatched.push(patchedRecord);
+        }
+
+        if (changedFields.includes("description")) {
+          descriptionPatched.push(patchedRecord);
+        }
+
+        if (readModelIsStale) {
+          readModelStaleAfterPatch.push({
+            ...patchedRecord,
+            result: "READ_MODEL_STALE_AFTER_PATCH",
+            explanation:
+              "Odpowiedz PATCH zawiera oczekiwany categoryId, ale szybki GET nadal zwraca stara kategorie."
+          });
+        }
+
+        if (hasCategoryIncorrectAfter) {
           staleCategoryErrors.push({
             ...patchedRecord,
             result: "STALE_CATEGORY_INCORRECT_AFTER_PATCH",
@@ -1157,15 +1533,22 @@ async function main() {
         unchangedAfterPatch.push({
           ...baseInfo,
           patchStatus: patchResult.status,
+          changedFields,
+          productChanges,
           categoryIdAfter,
+          patchResponseCategoryId,
+          verifiedCategoryId,
+          descriptionLengthAfter,
+          patchResponseDescriptionLength,
+          verifiedDescriptionLength,
           statusAfter,
           validationErrorsAfter,
           hasCategoryIncorrectAfter,
           patchResponse: patchResult.data,
-          result: "PATCH_ACCEPTED_BUT_CATEGORY_NOT_CHANGED"
+          result: "PATCH_ACCEPTED_BUT_OFFER_NOT_CHANGED"
         });
 
-        console.log(`  UWAGA: PATCH przyjęty, ale kategoria nie zmieniła się: offerId=${existingOffer.offerId}`);
+        console.log(`  UWAGA: PATCH przyjety, ale oferta nie zmienila sie: offerId=${existingOffer.offerId}`);
       }
 
       await sleep(REQUEST_DELAY_MS);
@@ -1187,9 +1570,12 @@ async function main() {
     dryRun: DRY_RUN,
     patchContentType: PATCH_CONTENT_TYPE,
     delimiter,
+    minDescriptionLength: MIN_DESCRIPTION_LENGTH,
     totals: {
       csvRows: rows.length,
-      desiredExternalIdsWithCategory: desiredByExternalId.size,
+      desiredExternalIds: desiredByExternalId.size,
+      desiredExternalIdsWithCategory,
+      desiredExternalIdsWithGeneratedDescription,
       noCategoryMapping: noCategoryMapping.length,
       invalidRows: invalidRows.length,
       duplicateExternalIdsInCsv: duplicateExternalIdsInCsv.length,
@@ -1198,7 +1584,11 @@ async function main() {
       uniqueExistingExternalIds: existingOffersByExternalId.size,
       duplicateExternalIdsInInPost: duplicateExternalIdsInInPost.length,
       patchedAndVerified: patched.length,
+      categoryPatched: categoryPatched.length,
+      descriptionPatched: descriptionPatched.length,
       alreadyCorrect: alreadyCorrect.length,
+      readModelStaleAfterPatch: readModelStaleAfterPatch.length,
+      inpostReferenceCategoryOverrides: inpostReferenceCategoryOverrides.length,
       staleCategoryErrors: staleCategoryErrors.length,
       unchangedAfterPatch: unchangedAfterPatch.length,
       errors: errors.length,
@@ -1208,44 +1598,58 @@ async function main() {
     byCategorySource
   };
 
-  writeJson(path.join(OUTPUT_DIR, "category-repair-from-csv-report.json"), report);
-  writeJson(path.join(OUTPUT_DIR, "category-repair-patched.json"), patched);
-  writeJson(path.join(OUTPUT_DIR, "category-repair-already-correct.json"), alreadyCorrect);
-  writeJson(path.join(OUTPUT_DIR, "category-repair-stale-category-errors.json"), staleCategoryErrors);
-  writeJson(path.join(OUTPUT_DIR, "category-repair-unchanged-after-patch.json"), unchangedAfterPatch);
-  writeJson(path.join(OUTPUT_DIR, "category-repair-errors.json"), errors);
-  writeJson(path.join(OUTPUT_DIR, "category-repair-missing-existing.json"), missingExistingOffers);
-  writeJson(path.join(OUTPUT_DIR, "category-repair-no-category-mapping.json"), noCategoryMapping);
-  writeJson(path.join(OUTPUT_DIR, "category-repair-invalid-rows.json"), invalidRows);
-  writeJson(path.join(OUTPUT_DIR, "category-repair-duplicate-external-ids-in-csv.json"), duplicateExternalIdsInCsv);
-  writeJson(path.join(OUTPUT_DIR, "category-repair-category-conflicts.json"), categoryConflicts);
-  writeJson(path.join(OUTPUT_DIR, "category-repair-duplicates-in-inpost.json"), duplicateExternalIdsInInPost);
+  const errorReport = {
+    summary: {
+      errors: errors.length,
+      patchedAndVerified: patched.length,
+      categoryPatched: categoryPatched.length,
+      descriptionPatched: descriptionPatched.length,
+      unchangedAfterPatch: unchangedAfterPatch.length,
+      staleCategoryErrors: staleCategoryErrors.length,
+      readModelStaleAfterPatch: readModelStaleAfterPatch.length,
+      noCategoryMapping: noCategoryMapping.length,
+      missingExistingOffers: missingExistingOffers.length,
+      duplicateExternalIdsInInPost: duplicateExternalIdsInInPost.length,
+      inpostReferenceCategoryOverrides: inpostReferenceCategoryOverrides.length
+    },
+    errors,
+    categoryPatched,
+    descriptionPatched,
+    unchangedAfterPatch,
+    staleCategoryErrors,
+    readModelStaleAfterPatch,
+    noCategoryMapping,
+    missingExistingOffers,
+    invalidRows,
+    duplicateExternalIdsInCsv,
+    categoryConflicts,
+    duplicateExternalIdsInInPost,
+    inpostReferenceCategoryOverrides,
+    dryRunItems: DRY_RUN ? dryRunItems : []
+  };
 
-  if (DRY_RUN) {
-    writeJson(path.join(OUTPUT_DIR, "category-repair-dry-run.json"), dryRunItems);
-  }
+  writeJson(path.join(OUTPUT_DIR, "offer-repair-from-csv-report.json"), report);
+  writeJson(path.join(OUTPUT_DIR, "offer-repair-errors.json"), errorReport);
 
   console.log("");
-  console.log("Zakończono naprawę kategorii z CSV.");
-  console.log(`Wyliczone categoryId dla externalId: ${desiredByExternalId.size}`);
+  console.log("Zakonczono naprawe ofert z CSV.");
+  console.log(`ExternalId z CSV: ${desiredByExternalId.size}`);
+  console.log(`Wyliczone categoryId dla externalId: ${desiredExternalIdsWithCategory}`);
   console.log(`Brak mapowania kategorii: ${noCategoryMapping.length}`);
-  console.log(`Zmienione i zweryfikowane: ${patched.length}`);
-  console.log(`Już poprawne: ${alreadyCorrect.length}`);
+  console.log(`Zmienione i zweryfikowane oferty: ${patched.length}`);
+  console.log(`Naprawione kategorie: ${categoryPatched.length}`);
+  console.log(`Naprawione opisy: ${descriptionPatched.length}`);
+  console.log(`Juz poprawne: ${alreadyCorrect.length}`);
   console.log(`Stale CATEGORY_INCORRECT mimo poprawnej kategorii: ${staleCategoryErrors.length}`);
-  console.log(`PATCH przyjęty, ale kategoria niezmieniona: ${unchangedAfterPatch.length}`);
+  console.log(`PATCH przyjety, ale oferta niezmieniona: ${unchangedAfterPatch.length}`);
   console.log(`Błędy: ${errors.length}`);
   console.log(`Nie znaleziono istniejącej oferty: ${missingExistingOffers.length}`);
   console.log(`Duplikaty externalId w InPost: ${duplicateExternalIdsInInPost.length}`);
   console.log("");
 
   console.log("Raporty:");
-  console.log(`- ${path.join(OUTPUT_DIR, "category-repair-from-csv-report.json")}`);
-  console.log(`- ${path.join(OUTPUT_DIR, "category-repair-patched.json")}`);
-  console.log(`- ${path.join(OUTPUT_DIR, "category-repair-already-correct.json")}`);
-  console.log(`- ${path.join(OUTPUT_DIR, "category-repair-stale-category-errors.json")}`);
-  console.log(`- ${path.join(OUTPUT_DIR, "category-repair-unchanged-after-patch.json")}`);
-  console.log(`- ${path.join(OUTPUT_DIR, "category-repair-errors.json")}`);
-  console.log(`- ${path.join(OUTPUT_DIR, "category-repair-no-category-mapping.json")}`);
+  console.log(`- ${path.join(OUTPUT_DIR, "offer-repair-from-csv-report.json")}`);
+  console.log(`- ${path.join(OUTPUT_DIR, "offer-repair-errors.json")}`);
 
   if (staleCategoryErrors.length > 0) {
     console.log("");

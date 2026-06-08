@@ -2,8 +2,7 @@
 
 Ostatnia aktualizacja: 2026-06-08.
 
-To jest skrocona checklista do codziennej pracy. Pelny opis jest w
-`README-csv-inpost.txt`.
+Pelny opis jest w `README-csv-inpost.txt`.
 
 ---
 
@@ -28,9 +27,9 @@ INPOST_PATCH_CONTENT_TYPE=application/merge-patch+json
 
 ---
 
-## 2. Kolejnosc kategorii
+## 2. Kategorie
 
-Aktualna logika:
+Kolejnosc przypisania:
 
 ```text
 1. dist/category-hints.json po EAN
@@ -38,14 +37,9 @@ Aktualna logika:
 3. brak dopasowania -> raport i pominiecie
 ```
 
-EAN/SKU nie przypisuje kategorii automatycznie. `categoryId` musi byc jawnie
-ustawione i najlepiej wskazywac kategorie koncowa InPost.
-
 ---
 
-## 3. Wygeneruj hinty kategorii
-
-Jezeli zaczynasz od pustego `dist`, zrob najpierw:
+## 3. Hinty kategorii
 
 ```bash
 mkdir dist
@@ -61,33 +55,63 @@ dist/category-hints-report.json
 
 ---
 
-## 4. Wygeneruj oferty z CSV
+## 4. Wygeneruj oferty
+
+Tryb domyslny sprawdza InPost i pomija oferty, ktore juz maja ten sam
+`externalId`.
 
 ```bash
 node csv-to-inpost-json.js suppla-oferta.csv category-map.json dist category-overrides.json dist/category-hints.json
 ```
 
-Sprawdz:
+Bez sprawdzania InPost:
 
-```text
-dist/inpost-offers.json
-dist/offer-images.json
-dist/blocking-skipped-products.json
-dist/unresolved-categories.json
-dist/products-without-images.json
-dist/category-resolution-report.json
+```bash
+node csv-to-inpost-json.js suppla-oferta.csv category-map.json dist category-overrides.json dist/category-hints.json --offline
 ```
 
-Do wysylki ida:
+Wyniki:
 
 ```text
 dist/inpost-offers.json
 dist/offer-images.json
+dist/csv-generation-report.json
+dist/csv-generation-errors.json
+```
+
+Generator automatycznie wydluza opisy do minimum 100 znakow. Zmienione opisy sa
+w `csv-generation-errors.json -> generatedDescriptions`.
+
+Sprawdz przed wysylka:
+
+```text
+csv-generation-report.json -> totals
+csv-generation-errors.json -> blockingSkippedProducts
+csv-generation-errors.json -> unresolvedCategories
+csv-generation-errors.json -> duplicateExternalIdsInCsv
+csv-generation-errors.json -> existingInPostSkipped
+csv-generation-errors.json -> existingDuplicateGroups
 ```
 
 ---
 
-## 5. Wyslij nowe oferty
+## 5. Sprzatanie duplikatow w InPost
+
+Plan duplikatow pojawia sie w raporcie generatora. Wykonanie zmian:
+
+```bash
+node csv-to-inpost-json.js suppla-oferta.csv category-map.json dist category-overrides.json dist/category-hints.json --cleanup-duplicates --execute
+```
+
+Tylko zamykanie, bez proby `DELETE`:
+
+```bash
+node csv-to-inpost-json.js suppla-oferta.csv category-map.json dist category-overrides.json dist/category-hints.json --cleanup-duplicates --execute --close-only
+```
+
+---
+
+## 6. Wyslij nowe oferty
 
 Terminal 1:
 
@@ -116,170 +140,25 @@ dist/send-results.json
 
 ---
 
-## 6. Zaktualizuj istniejace oferty
-
-Pelny PATCH z `dist/inpost-offers.json`:
-
-```bash
-node patch-inpost-offers.js dist/inpost-offers.json dist --dry-run
-node patch-inpost-offers.js dist/inpost-offers.json dist
-```
-
-Najwazniejsze raporty:
-
-```text
-dist/patch-offers-report.json
-dist/patch-offers-success.json
-dist/patch-offers-errors.json
-dist/patch-offers-missing-existing.json
-dist/patch-offers-duplicates-in-inpost.json
-```
-
----
-
-## 7. Napraw tylko kategorie istniejacych ofert
+## 7. Napraw istniejace oferty
 
 Dry run:
 
 ```bash
-node patch-inpost-categories-from-csv.js suppla-oferta.csv dist/category-hints.json category-overrides.json dist --dry-run
+node patch-inpost-offers-from-csv.js suppla-oferta.csv dist/category-hints.json category-overrides.json dist --dry-run
 ```
 
 Wykonanie:
 
 ```bash
-node patch-inpost-categories-from-csv.js suppla-oferta.csv dist/category-hints.json category-overrides.json dist
+node patch-inpost-offers-from-csv.js suppla-oferta.csv dist/category-hints.json category-overrides.json dist
 ```
 
-Najwazniejsze raporty:
-
-```text
-dist/category-repair-from-csv-report.json
-dist/category-repair-patched.json
-dist/category-repair-already-correct.json
-dist/category-repair-stale-category-errors.json
-dist/category-repair-unchanged-after-patch.json
-dist/category-repair-errors.json
-dist/category-repair-missing-existing.json
-dist/category-repair-no-category-mapping.json
-dist/category-repair-duplicates-in-inpost.json
-```
-
-Ostatni wynik raportu:
-
-```text
-CSV: 2128 wierszy
-Wyliczone categoryId: 2017
-Brak mapowania: 111
-Pobrane oferty InPost: 1280
-Duplikaty externalId w InPost: 384
-PATCH + verify: 21
-Juz poprawne: 667
-Stale CATEGORY_INCORRECT: 136
-PATCH przyjety, ale kategoria niezmieniona: 590
-Bledy: 0
-Brak oferty w InPost po externalId: 1173
-```
-
-Po takim wyniku sprawdz najpierw:
-
-```text
-dist/category-repair-unchanged-after-patch.json
-dist/category-repair-stale-category-errors.json
-dist/category-repair-duplicates-in-inpost.json
-dist/category-repair-no-category-mapping.json
-```
-
----
-
-## 8. Sprzatanie duplikatow `externalId`
-
-Tylko raport:
-
-```bash
-node cleanup-inpost-duplicate-offers.js dist
-```
-
-Wykonanie:
-
-```bash
-node cleanup-inpost-duplicate-offers.js dist --execute
-```
-
-Tylko zamykanie, bez DELETE:
-
-```bash
-node cleanup-inpost-duplicate-offers.js dist --execute --close-only
-```
+Skrypt naprawia kategorie oraz opisy krotsze niz 100 znakow.
 
 Raporty:
 
 ```text
-dist/duplicate-offers-report.json
-dist/duplicate-offers-groups.json
-dist/duplicate-offers-planned-actions.json
-dist/duplicate-offers-success.json
-dist/duplicate-offers-errors.json
+dist/offer-repair-from-csv-report.json
+dist/offer-repair-errors.json
 ```
-
----
-
-## 9. Zamykanie ofert blednych
-
-Symulacja ofert z `validationErrors`:
-
-```bash
-node close-inpost-offers.js --mode invalid --out dist
-```
-
-Wykonanie:
-
-```bash
-node close-inpost-offers.js --mode invalid --out dist --execute
-```
-
-Raporty:
-
-```text
-dist/offers-to-close.json
-dist/offers-not-closed.json
-dist/closed-offers-report.json
-```
-
----
-
-## 10. Najkrotszy workflow
-
-Nowe oferty:
-
-```bash
-npm install
-mkdir dist
-node generate-category-hints.js suppla-oferta.csv dist/category-hints.json category-map.json
-node csv-to-inpost-json.js suppla-oferta.csv category-map.json dist category-overrides.json dist/category-hints.json
-node server.js
-```
-
-Drugi terminal:
-
-```bash
-node send-inpost-offers.js dist/inpost-offers.json dist/offer-images.json
-```
-
-Naprawa kategorii juz istniejacych ofert:
-
-```bash
-node patch-inpost-categories-from-csv.js suppla-oferta.csv dist/category-hints.json category-overrides.json dist --dry-run
-node patch-inpost-categories-from-csv.js suppla-oferta.csv dist/category-hints.json category-overrides.json dist
-```
-
----
-
-## 11. Najwazniejsze zasady
-
-- Najpierw uruchamiaj `--dry-run`, jezeli skrypt go obsluguje.
-- Nie usuwaj `dist/category-hints.json`, jezeli nie chcesz pobierac hintow ponownie.
-- Produkty bez zdjec nie przejda do wysylki.
-- Brak kategorii poprawiaj w `category-overrides.json` albo przez nowe hinty.
-- Przy duplikatach `externalId` najpierw generuj raport, potem dopiero `--execute`.
-- Po kazdej operacji sprawdz raporty w `dist`.

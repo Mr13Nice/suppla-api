@@ -1,0 +1,49 @@
+{
+  "inputCsv": "suppla-oferta.csv",
+  "categoryMapFile": "category-map.json",
+  "categoryOverridesFile": "category-overrides.json",
+  "categoryHintsFile": "dist/category-hints.json",
+  "outputDir": "dist",
+  "delimiter": ",",
+  "settings": {
+    "STRICT_MODE": false,
+    "REQUIRE_IMAGE": true,
+    "ONLY_PUBLISHED": true,
+    "SKIP_OUT_OF_STOCK": false,
+    "INCLUDE_IMAGES_IN_OFFER_JSON": false,
+    "INCLUDE_META_IN_OFFERS": false,
+    "USE_NAME_AS_FALLBACK_DESCRIPTION": false,
+    "MIN_DESCRIPTION_LENGTH": 100,
+    "CHECK_EXISTING_INPOST": true,
+    "CLEANUP_DUPLICATES": false,
+    "EXECUTE_CLEANUP": false,
+    "CLOSE_ONLY": false,
+    "mappingOrder": [
+      "category-hints.json by EAN",
+      "category-overrides.json by WooCommerce category",
+      "skip"
+    ]
+  },
+  "totals": {
+    "csvRows": 2129,
+    "offersToCreate": 380,
+    "skippedProducts": 906,
+    "blockingSkippedProducts": 347,
+    "productsWithoutImages": 7,
+    "generatedDescriptions": 1310,
+    "unresolvedCategories": 0,
+    "duplicateExternalIdsInCsv": 0,
+    "existingInPostSkipped": 843,
+    "existingInPostItemsFetched": 1280,
+    "existingDuplicateExternalIdGroups": 384,
+    "existingDuplicateCleanupPlanned": 435,
+    "duplicateCleanupSuccess": 0,
+    "duplicateCleanupErrors": 0
+  },
+  "categoryResolution": {
+    "byMethod": {
+      "inpost-hint-ean": 1145,
+      "override-exact": 425
+    }
+  }
+}
