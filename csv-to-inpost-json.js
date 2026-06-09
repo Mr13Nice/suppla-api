@@ -14,8 +14,9 @@
  *   node csv-to-inpost-json.js suppla-oferta.csv category-map.json dist category-overrides.json dist/category-hints.json
  *
  * Domyslnie skrypt pobiera istniejace oferty z InPost i nie generuje nowych
- * ofert dla externalId, ktore juz istnieja. Uzyj --offline, aby pominac ten
- * krok i wygenerowac pliki bez sprawdzania InPost.
+ * ofert dla externalId, ktore juz istnieja. Uzyj --include-existing, aby
+ * wygenerowac pelny plik do synchronizacji roznic przez send-inpost-offers.js
+ * --sync. Uzyj --offline, aby pominac sprawdzanie InPost.
  *
  * Raporty:
  *   dist/csv-generation-report.json
@@ -59,6 +60,12 @@ const DEFAULT_STOCK_UNIT = "UNIT";
 const DEFAULT_BRAND = "Inna marka";
 
 const CHECK_EXISTING_INPOST = !process.argv.includes("--offline");
+const INCLUDE_EXISTING_IN_OUTPUT =
+  process.argv.includes("--include-existing") ||
+  process.argv.includes("--sync-output") ||
+  process.argv.includes("--full-sync");
+const PRESERVE_EXISTING_CATEGORY =
+  process.argv.includes("--preserve-existing-categories");
 const CLEANUP_DUPLICATES = process.argv.includes("--cleanup-duplicates");
 const EXECUTE_CLEANUP =
   process.argv.includes("--execute-cleanup") || process.argv.includes("--execute");
@@ -359,6 +366,12 @@ function extractCategoryId(value) {
   return normalizeText(value);
 }
 
+function isUuidLike(value) {
+  return /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(
+    normalizeText(value)
+  );
+}
+
 function buildCategoryIdSet(categoryMap) {
   const ids = new Set();
 
@@ -367,6 +380,27 @@ function buildCategoryIdSet(categoryMap) {
 
     if (categoryId) {
       ids.add(categoryId);
+    }
+  }
+
+  return ids;
+}
+
+function buildNonLeafCategoryIdSet(categoryMap) {
+  const ids = new Set();
+
+  for (const value of Object.values(categoryMap || {})) {
+    if (
+      value &&
+      typeof value === "object" &&
+      !Array.isArray(value) &&
+      value.leaf === false
+    ) {
+      const categoryId = extractCategoryId(value);
+
+      if (categoryId) {
+        ids.add(categoryId);
+      }
     }
   }
 
@@ -455,6 +489,7 @@ function validateCategoryOverrides(categoryOverrides, categoryMap) {
   const normalizedCategoryMap = buildNormalizedCategoryMap(categoryMap);
   const { duplicates } = buildNormalizedOverridesMap(categoryOverrides);
   const validCategoryIds = buildCategoryIdSet(categoryMap);
+  const nonLeafCategoryIds = buildNonLeafCategoryIdSet(categoryMap);
   const shouldValidateIds = validCategoryIds.size > 0;
   const invalidOverrides = [];
 
@@ -507,6 +542,14 @@ function validateCategoryOverrides(categoryOverrides, categoryMap) {
         inpostCategoryValue,
         resolvedCategoryId: resolved.categoryId,
         error: "ID kategorii InPost nie występuje w category-map.json"
+      });
+    }
+    if (nonLeafCategoryIds.has(resolved.categoryId)) {
+      invalidOverrides.push({
+        wooCategory,
+        inpostCategoryValue,
+        resolvedCategoryId: resolved.categoryId,
+        error: "ID kategorii InPost wskazuje kategorie niebedaca lisciem (leaf: false)"
       });
     }
   }
@@ -682,6 +725,38 @@ function hasCategoryIncorrect(validationErrors) {
   });
 }
 
+function getValidationErrorMessage(error) {
+  return normalizeText(
+    error?.validationMessage ||
+    error?.errorMessage ||
+    error?.message ||
+    ""
+  );
+}
+
+function extractReferenceCategoryFromValidationErrors(validationErrors) {
+  for (const error of validationErrors || []) {
+    const message = getValidationErrorMessage(error);
+
+    if (!/(referencyj|reference categor)/i.test(message)) {
+      continue;
+    }
+
+    const match = message.match(
+      /(?:referencyj\w*|reference categor\w*)[\s\S]*?\(id:\s*([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\)/i
+    );
+
+    if (match?.[1] && isUuidLike(match[1])) {
+      return {
+        categoryId: normalizeText(match[1]),
+        validationMessage: message
+      };
+    }
+  }
+
+  return null;
+}
+
 function toTimestamp(value) {
   const time = Date.parse(value || "");
 
@@ -713,6 +788,9 @@ function normalizeOfferListItem(item) {
   const offer = extractOfferFromListItem(item);
   const metadata = extractMetadataFromListItem(item);
   const validationErrors = extractValidationErrors(metadata);
+  const referenceCategory = extractReferenceCategoryFromValidationErrors(
+    validationErrors
+  );
 
   const normalized = {
     offerId: normalizeText(offer?.id),
@@ -725,7 +803,8 @@ function normalizeOfferListItem(item) {
     createdAt: offer?.createdAt || null,
     updatedAt: offer?.updatedAt || null,
     validationErrors,
-    hasCategoryIncorrect: hasCategoryIncorrect(validationErrors)
+    hasCategoryIncorrect: hasCategoryIncorrect(validationErrors),
+    referenceCategory
   };
 
   normalized.score = getOfferScore(normalized);
@@ -746,6 +825,8 @@ function summarizeExistingOffer(offer) {
     updatedAt: offer.updatedAt,
     validationErrorsCount: offer.validationErrors.length,
     hasCategoryIncorrect: offer.hasCategoryIncorrect,
+    referenceCategoryId: offer.referenceCategory?.categoryId || null,
+    referenceCategoryMessage: offer.referenceCategory?.validationMessage || null,
     score: offer.score
   };
 }
@@ -758,6 +839,30 @@ function chooseKeeper(offers) {
 
     return toTimestamp(b.updatedAt) - toTimestamp(a.updatedAt);
   })[0];
+}
+
+function getReferenceCategoryDecision(existingOffers) {
+  const offersWithReference = (existingOffers || [])
+    .filter((offer) => offer.referenceCategory?.categoryId)
+    .sort((a, b) => b.score - a.score);
+
+  if (!offersWithReference.length) {
+    return null;
+  }
+
+  const uniqueCategoryIds = [
+    ...new Set(
+      offersWithReference.map((offer) => offer.referenceCategory.categoryId)
+    )
+  ];
+  const selectedOffer = offersWithReference[0];
+
+  return {
+    categoryId: selectedOffer.referenceCategory.categoryId,
+    validationMessage: selectedOffer.referenceCategory.validationMessage,
+    selectedOffer: summarizeExistingOffer(selectedOffer),
+    conflictCategoryIds: uniqueCategoryIds.length > 1 ? uniqueCategoryIds : []
+  };
 }
 
 function buildExistingOffersState(items) {
@@ -1539,6 +1644,8 @@ async function main() {
   const unresolvedCategories = new Map();
   const generatedDescriptions = [];
   const existingInPostSkipped = [];
+  const inpostReferenceCategoryOverrides = [];
+  const inpostCurrentCategoryPreserved = [];
   const duplicateExternalIdsInCsv = [];
   const acceptedExternalIds = new Set();
 
@@ -1558,6 +1665,8 @@ async function main() {
       USE_NAME_AS_FALLBACK_DESCRIPTION,
       MIN_DESCRIPTION_LENGTH,
       CHECK_EXISTING_INPOST,
+      INCLUDE_EXISTING_IN_OUTPUT,
+      PRESERVE_EXISTING_CATEGORY,
       CLEANUP_DUPLICATES,
       EXECUTE_CLEANUP,
       CLOSE_ONLY,
@@ -1664,15 +1773,67 @@ async function main() {
       const existingOffers = existingOffersState.byExternalId.get(externalId);
 
       if (existingOffers?.length) {
+        const referenceCategoryDecision =
+          getReferenceCategoryDecision(existingOffers);
+
+        if (
+          referenceCategoryDecision?.categoryId &&
+          offer.product?.categoryId !== referenceCategoryDecision.categoryId
+        ) {
+          inpostReferenceCategoryOverrides.push({
+            externalId,
+            name,
+            ean: getEan(row),
+            csvCategoryId: offer.product?.categoryId || null,
+            inpostReferenceCategoryId: referenceCategoryDecision.categoryId,
+            inpostReferenceValidationMessage:
+              referenceCategoryDecision.validationMessage,
+            selectedExistingOffer: referenceCategoryDecision.selectedOffer,
+            conflictCategoryIds: referenceCategoryDecision.conflictCategoryIds
+          });
+
+          offer.product.categoryId = referenceCategoryDecision.categoryId;
+        } else if (
+          INCLUDE_EXISTING_IN_OUTPUT &&
+          PRESERVE_EXISTING_CATEGORY
+        ) {
+          const currentCategoryOffer = chooseKeeper(existingOffers);
+          const currentCategoryId = currentCategoryOffer?.categoryId;
+
+          if (
+            currentCategoryId &&
+            offer.product?.categoryId !== currentCategoryId
+          ) {
+            inpostCurrentCategoryPreserved.push({
+              externalId,
+              name,
+              ean: getEan(row),
+              csvCategoryId: offer.product?.categoryId || null,
+              preservedInpostCategoryId: currentCategoryId,
+              selectedExistingOffer: summarizeExistingOffer(currentCategoryOffer)
+            });
+
+            offer.product.categoryId = currentCategoryId;
+          }
+        }
+
         existingInPostSkipped.push({
           externalId,
           name,
           ean: getEan(row),
           categoryId: offer.product?.categoryId || null,
-          reason: "Oferta o tym externalId juz istnieje w InPost",
+          categorySource: referenceCategoryDecision?.categoryId
+            ? "inpost-validation-reference"
+            : categoryResolution.matchedBy,
+          reason: INCLUDE_EXISTING_IN_OUTPUT
+            ? "Oferta o tym externalId juz istnieje w InPost; zostala dodana do pliku sync"
+            : "Oferta o tym externalId juz istnieje w InPost",
           existingOffers: existingOffers.map(summarizeExistingOffer)
         });
-        continue;
+
+        if (!INCLUDE_EXISTING_IN_OUTPUT) {
+          continue;
+        }
       }
 
       offers.push(offer);
@@ -1717,6 +1878,12 @@ async function main() {
       unresolvedCategories: unresolvedCategories.size,
       duplicateExternalIdsInCsv: duplicateExternalIdsInCsv.length,
       existingInPostSkipped: existingInPostSkipped.length,
+      existingInPostIncludedInOutput: INCLUDE_EXISTING_IN_OUTPUT
+        ? existingInPostSkipped.length
+        : 0,
+      inpostReferenceCategoryOverrides:
+        inpostReferenceCategoryOverrides.length,
+      inpostCurrentCategoryPreserved: inpostCurrentCategoryPreserved.length,
       existingInPostItemsFetched: existingItems.length,
       existingDuplicateExternalIdGroups:
         existingOffersState.duplicateGroups.length,
@@ -1741,6 +1908,8 @@ async function main() {
     unresolvedCategories: [...unresolvedCategories.keys()].sort(),
     duplicateExternalIdsInCsv,
     existingInPostSkipped,
+    inpostReferenceCategoryOverrides,
+    inpostCurrentCategoryPreserved,
     existingDuplicateGroups: existingOffersState.duplicateGroups,
     existingDuplicatePlannedActions: existingOffersState.plannedActions,
     existingOffersWithoutExternalId:

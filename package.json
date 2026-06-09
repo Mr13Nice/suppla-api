@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "inpost:generate-sync": "node csv-to-inpost-json.js suppla-oferta.csv category-map.json dist category-overrides.json dist/category-hints.json --include-existing",
+    "inpost:sync": "node send-inpost-offers.js dist/inpost-offers.json dist/offer-images.json --sync",
+    "inpost:sync:dry-run": "node send-inpost-offers.js dist/inpost-offers.json dist/offer-images.json --sync --dry-run",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

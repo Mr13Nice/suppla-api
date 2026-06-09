@@ -1,6 +1,6 @@
 # Szybka instrukcja: CSV WooCommerce -> InPost Buy
 
-Ostatnia aktualizacja: 2026-06-08.
+Ostatnia aktualizacja: 2026-06-09.
 
 Pelny opis jest w `README-csv-inpost.txt`.
 
@@ -29,12 +29,29 @@ INPOST_PATCH_CONTENT_TYPE=application/merge-patch+json
 
 ## 2. Kategorie
 
-Kolejnosc przypisania:
+Kolejnosc dla nowych ofert:
 
 ```text
 1. dist/category-hints.json po EAN
 2. category-overrides.json po kategorii WooCommerce
 3. brak dopasowania -> raport i pominiecie
+```
+
+Override'y musza wskazywac kategorie-liscie InPost (`leaf: true`).
+
+Dla istniejacych ofert w sync:
+
+```text
+1. jezeli InPost podal kategorie referencyjna przy CATEGORY_INCORRECT -> uzyj jej
+2. jezeli nie ma referencji -> uzyj kategorii z CSV: hint po EAN, potem override
+3. aktualna kategorie z InPost zachowuj tylko flaga --preserve-existing-categories
+```
+
+Dlatego po zmianach w CSV albo po blednych kategoriach zawsze zacznij od
+ponownego wygenerowania pliku:
+
+```bash
+npm run inpost:generate-sync
 ```
 
 ---
@@ -55,19 +72,19 @@ dist/category-hints-report.json
 
 ---
 
-## 4. Wygeneruj oferty
+## 4. Wygeneruj pelny plik ofert do sync
 
-Tryb domyslny sprawdza InPost i pomija oferty, ktore juz maja ten sam
-`externalId`.
+Po aktualizacji CSV uzyj pelnego eksportu, zeby istniejace oferty tez trafily
+do `dist/inpost-offers.json` i mogly zostac porownane z InPost.
 
 ```bash
-node csv-to-inpost-json.js suppla-oferta.csv category-map.json dist category-overrides.json dist/category-hints.json
+npm run inpost:generate-sync
 ```
 
-Bez sprawdzania InPost:
+Bez skrotu npm:
 
 ```bash
-node csv-to-inpost-json.js suppla-oferta.csv category-map.json dist category-overrides.json dist/category-hints.json --offline
+node csv-to-inpost-json.js suppla-oferta.csv category-map.json dist category-overrides.json dist/category-hints.json --include-existing
 ```
 
 Wyniki:
@@ -81,6 +98,13 @@ dist/csv-generation-errors.json
 
 Generator automatycznie wydluza opisy do minimum 100 znakow. Zmienione opisy sa
 w `csv-generation-errors.json -> generatedDescriptions`.
+
+Korekty kategorii z referencji InPost sa w:
+
+```text
+csv-generation-errors.json -> inpostReferenceCategoryOverrides
+csv-generation-errors.json -> inpostCurrentCategoryPreserved
+```
 
 Sprawdz przed wysylka:
 
@@ -111,7 +135,7 @@ node csv-to-inpost-json.js suppla-oferta.csv category-map.json dist category-ove
 
 ---
 
-## 6. Wyslij nowe oferty
+## 6. Opublikuj tylko roznice
 
 Terminal 1:
 
@@ -119,23 +143,30 @@ Terminal 1:
 node server.js
 ```
 
-Terminal 2, test 3 ofert:
+Terminal 2, najpierw dry-run:
 
 ```bash
-node -e "const fs=require('fs'); const offers=require('./dist/inpost-offers.json'); const test=offers.slice(0,3); fs.writeFileSync('./dist/inpost-offers-test.json', JSON.stringify(test,null,2)); const images=require('./dist/offer-images.json'); const ids=new Set(test.map(o=>String(o.externalId))); const testImages=Object.fromEntries(Object.entries(images).filter(([id])=>ids.has(String(id)))); fs.writeFileSync('./dist/offer-images-test.json', JSON.stringify(testImages,null,2)); console.log('Utworzono pliki testowe:', test.length);"
-node send-inpost-offers.js dist/inpost-offers-test.json dist/offer-images-test.json
+npm run inpost:sync:dry-run
 ```
 
-Pelna wysylka:
+Jezeli plan jest OK:
 
 ```bash
-node send-inpost-offers.js dist/inpost-offers.json dist/offer-images.json
+npm run inpost:sync
 ```
 
-Raport:
+`send-inpost-offers.js --sync` pobiera aktualne oferty z InPost, porownuje
+`product`, `stock`, `price` i `affiliationProductUrl`, robi PATCH tylko dla
+roznic, a brakujace oferty tworzy i dodaje im pierwsze zdjecie.
+Jesli InPost zwraca kategorie referencyjna przy `CATEGORY_INCORRECT`, sync uzyje
+jej zamiast kategorii wyliczonej z CSV. W przeciwnym razie uzyje kategorii z
+CSV, czyli najpierw hintu po EAN, a dopiero potem recznego override'u.
+
+Raporty:
 
 ```text
-dist/send-results.json
+dist/send-sync-report.json
+dist/send-sync-errors.json
 ```
 
 ---
