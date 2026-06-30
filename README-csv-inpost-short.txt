@@ -47,8 +47,8 @@ Dla istniejacych ofert w sync:
 3. aktualna kategorie z InPost zachowuj tylko flaga --preserve-existing-categories
 ```
 
-Dlatego po zmianach w CSV albo po blednych kategoriach zawsze zacznij od
-ponownego wygenerowania pliku:
+Po zmianach w CSV wystarczy zaczac od ponownego wygenerowania synca. Ta komenda
+odswieza `dist/category-hints.json` z InPost, a potem buduje pelny plik ofert:
 
 ```bash
 npm run inpost:generate-sync
@@ -56,18 +56,19 @@ npm run inpost:generate-sync
 
 ---
 
-## 3. Hinty kategorii
+## 3. Aktualizacja po zmianie CSV
 
 ```bash
-mkdir dist
-node generate-category-hints.js suppla-oferta.csv dist/category-hints.json category-map.json
+npm run inpost:generate-sync
+node server.js
+npm run inpost:sync
 ```
 
-Wyniki:
+`npm run inpost:generate-sync` robi dwa kroki:
 
 ```text
-dist/category-hints.json
-dist/category-hints-report.json
+1. odswieza dist/category-hints.json po EAN z InPost
+2. generuje dist/inpost-offers.json oraz dist/offer-images.json
 ```
 
 ---
@@ -84,6 +85,7 @@ npm run inpost:generate-sync
 Bez skrotu npm:
 
 ```bash
+node generate-category-hints.js suppla-oferta.csv dist/category-hints.json category-map.json
 node csv-to-inpost-json.js suppla-oferta.csv category-map.json dist category-overrides.json dist/category-hints.json --include-existing
 ```
 
@@ -143,13 +145,13 @@ Terminal 1:
 node server.js
 ```
 
-Terminal 2, najpierw dry-run:
+Terminal 2, opcjonalny dry-run:
 
 ```bash
 npm run inpost:sync:dry-run
 ```
 
-Jezeli plan jest OK:
+Wlasciwy sync:
 
 ```bash
 npm run inpost:sync
@@ -158,9 +160,10 @@ npm run inpost:sync
 `send-inpost-offers.js --sync` pobiera aktualne oferty z InPost, porownuje
 `product`, `stock`, `price` i `affiliationProductUrl`, robi PATCH tylko dla
 roznic, a brakujace oferty tworzy i dodaje im pierwsze zdjecie.
-Jesli InPost zwraca kategorie referencyjna przy `CATEGORY_INCORRECT`, sync uzyje
-jej zamiast kategorii wyliczonej z CSV. W przeciwnym razie uzyje kategorii z
-CSV, czyli najpierw hintu po EAN, a dopiero potem recznego override'u.
+Po CREATE/PATCH pobiera szczegoly oferty i sprawdza walidacje InPost.
+Jesli InPost zwraca kategorie referencyjna przy `CATEGORY_INCORRECT`, sync robi
+dodatkowy PATCH tej kategorii i zapisuje to w raporcie. Jezeli po korekcie
+zostaja bledy walidacji, trafiaja do `dist/send-sync-errors.json`.
 
 Raporty:
 

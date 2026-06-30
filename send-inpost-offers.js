@@ -16,6 +16,9 @@ const PRESERVE_EXISTING_CATEGORY =
 const DELAY_MS = 700;
 const MAX_BYTES_PER_OFFER = 240000;
 const PAGE_LIMIT = Number(process.env.INPOST_OFFERS_PAGE_LIMIT || 100);
+const POST_WRITE_VALIDATION_DELAY_MS = Number(
+  process.env.INPOST_POST_WRITE_VALIDATION_DELAY_MS || 1000
+);
 const COMPARED_TOP_LEVEL_FIELDS = [
   "product",
   "stock",
@@ -333,6 +336,20 @@ function getValidationErrorMessage(error) {
   );
 }
 
+function buildValidationState(detailsResponse) {
+  const currentOffer = extractOfferFromDetails(detailsResponse);
+  const metadata = extractMetadataFromDetails(detailsResponse);
+  const validationErrors = extractValidationErrors(metadata);
+
+  return {
+    status: currentOffer?.status || null,
+    categoryId: currentOffer?.product?.categoryId || null,
+    validationErrors,
+    referenceCategory:
+      extractReferenceCategoryFromValidationErrors(validationErrors)
+  };
+}
+
 function extractReferenceCategoryFromValidationErrors(validationErrors) {
   for (const error of validationErrors || []) {
     const message = getValidationErrorMessage(error);
@@ -354,6 +371,99 @@ function extractReferenceCategoryFromValidationErrors(validationErrors) {
   }
 
   return null;
+}
+
+function buildReferenceCategoryPatchBody(desiredOffer, categoryId) {
+  return {
+    product: {
+      ...(desiredOffer?.product || {}),
+      categoryId
+    }
+  };
+}
+
+function buildValidationErrorPayload(validationState) {
+  return {
+    message: "InPost zwrocil bledy walidacji po synchronizacji oferty.",
+    status: validationState.status,
+    categoryId: validationState.categoryId,
+    validationErrors: validationState.validationErrors
+  };
+}
+
+function getFinalValidationState(result) {
+  return result.postWriteValidationAfterRepair || result.postWriteValidation || null;
+}
+
+function hasFinalValidationErrors(result) {
+  return Boolean(getFinalValidationState(result)?.validationErrors?.length);
+}
+
+async function getPostWriteValidationState(offerId) {
+  if (POST_WRITE_VALIDATION_DELAY_MS > 0) {
+    await sleep(POST_WRITE_VALIDATION_DELAY_MS);
+  }
+
+  const detailsResponse = await getOfferDetails(offerId);
+
+  return buildValidationState(detailsResponse);
+}
+
+async function validateAndRepairAfterWrite(result, desiredOffer, stage) {
+  const validationState = await getPostWriteValidationState(result.offerId);
+
+  result.postWriteValidation = validationState;
+
+  const referenceCategory = validationState.referenceCategory;
+  const desiredCategoryId = normalizeText(desiredOffer?.product?.categoryId);
+
+  if (
+    referenceCategory?.categoryId &&
+    referenceCategory.categoryId !== desiredCategoryId
+  ) {
+    const patchBody = buildReferenceCategoryPatchBody(
+      desiredOffer,
+      referenceCategory.categoryId
+    );
+
+    validatePatchBody(patchBody);
+
+    console.log(
+      `Korekta kategorii referencyjnej po ${stage} externalId=${result.externalId}, offerId=${result.offerId}`
+    );
+
+    const patchResponse = await patchOffer(result.offerId, patchBody);
+
+    result.postWriteReferenceCategoryOverride = {
+      csvCategoryId: desiredCategoryId || null,
+      inpostReferenceCategoryId: referenceCategory.categoryId,
+      validationMessage: referenceCategory.validationMessage,
+      stage
+    };
+    result.postWriteCategoryPatchBody = patchBody;
+    result.postWriteCategoryPatchResponse = patchResponse;
+    result.changedFields = Array.from(new Set([
+      ...(result.changedFields || []),
+      "product"
+    ]));
+
+    const validationAfterRepair =
+      await getPostWriteValidationState(result.offerId);
+
+    result.postWriteValidationAfterRepair = validationAfterRepair;
+
+    if (validationAfterRepair.validationErrors.length) {
+      result.ok = false;
+      result.error = buildValidationErrorPayload(validationAfterRepair);
+    }
+
+    return;
+  }
+
+  if (validationState.validationErrors.length) {
+    result.ok = false;
+    result.error = buildValidationErrorPayload(validationState);
+  }
 }
 
 function applyInpostReferenceCategory(desiredOffer, detailsResponse) {
@@ -543,6 +653,9 @@ async function createOfferWithImage(originalOffer, imageMap, index, total) {
     imageUrl: null,
     offerResponse: null,
     imageResponse: null,
+    postWriteValidation: null,
+    postWriteReferenceCategoryOverride: null,
+    postWriteValidationAfterRepair: null,
     error: null
   };
 
@@ -586,6 +699,8 @@ async function createOfferWithImage(originalOffer, imageMap, index, total) {
   result.ok = true;
 
   console.log(`OK zdjecie externalId=${externalId}`);
+
+  await validateAndRepairAfterWrite(result, offer, "CREATE");
 
   return result;
 }
@@ -637,6 +752,9 @@ async function syncOffer(originalOffer, imageMap, existingOffersByExternalId, in
       inpostReferenceCategoryOverride: null,
       inpostCurrentCategoryPreserved: null,
       patchResponse: null,
+      postWriteValidation: null,
+      postWriteReferenceCategoryOverride: null,
+      postWriteValidationAfterRepair: null,
       error: null
     };
 
@@ -696,6 +814,8 @@ async function syncOffer(originalOffer, imageMap, existingOffersByExternalId, in
     result.patchResponse = patchResponse;
     result.ok = true;
 
+    await validateAndRepairAfterWrite(result, desiredOffer, "PATCH");
+
     results.push(result);
   }
 
@@ -729,11 +849,14 @@ function writeSyncReports(syncReportPath, syncErrorsPath, context) {
       dryRunCreate: syncResults.filter((item) => item.action === "DRY_RUN_CREATE").length,
       dryRunPatch: syncResults.filter((item) => item.action === "DRY_RUN_PATCH").length,
       inpostReferenceCategoryOverrides: syncResults.filter(
-        (item) => item.inpostReferenceCategoryOverride
+        (item) =>
+          item.inpostReferenceCategoryOverride ||
+          item.postWriteReferenceCategoryOverride
       ).length,
       inpostCurrentCategoryPreserved: syncResults.filter(
         (item) => item.inpostCurrentCategoryPreserved
       ).length,
+      postWriteValidationErrors: syncResults.filter(hasFinalValidationErrors).length,
       errors: syncResults.filter((item) => !item.ok).length
     },
     duplicateExternalIdsInInPost: duplicates,
@@ -747,6 +870,7 @@ function writeSyncReports(syncReportPath, syncErrorsPath, context) {
       duplicateExternalIdsInInPost: duplicates.length
     },
     errors: syncResults.filter((item) => !item.ok),
+    validationErrors: syncResults.filter(hasFinalValidationErrors),
     duplicateExternalIdsInInPost: duplicates,
     patchPlannedOrApplied: syncResults.filter((item) =>
       ["PATCH", "DRY_RUN_PATCH"].includes(item.action)
