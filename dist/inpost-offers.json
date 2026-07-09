@@ -15,7 +15,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 50.59,
+        "amount": 33.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -59,7 +59,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 53.89,
+        "amount": 39.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -147,7 +147,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 43.99,
+        "amount": 31.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -213,7 +213,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 56.09,
+        "amount": 40.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -301,7 +301,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 65.99,
+        "amount": 39.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -367,7 +367,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 41.79,
+        "amount": 30.39,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -587,7 +587,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 34.09,
+        "amount": 25.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -626,7 +626,7 @@
       "ean": "5902502378616"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
@@ -785,7 +785,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 32.99,
+        "amount": 23.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -895,7 +895,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 52.79,
+        "amount": 39.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -961,7 +961,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 58.29,
+        "amount": 42.39,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -983,7 +983,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 38.49,
+        "amount": 23.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -995,7 +995,7 @@
       "name": "Capilarte Szampon wzmacniający-hamujący wypadanie włosów",
       "description": "Co to jest? Szampon wzmacniający hamujący wypadanie włosów do pielęgnacji cienkich, rzadkich włosów, skłonnych do wypadania. Odpowiedni do wrażliwej skóry głowy. Kosmetyk zalecany do stosowania jako przedłużenie kuracji stymulującej wzrost włosów. Widoczne rezultaty Hamuje wypadanie włosów Zwiększa objętość i grubość włosów Nie narusza fizjologicznej równowagi mikrobiomu skóry głowy Łagodnie oczyszcza włosy i skórę głowy Polecany do codziennego, całorocznego stosowania Czy wiesz że...? Ten produkt został przebadany klinicznie i trychologicznie.",
       "brand": "Capilarte",
-      "categoryId": "30bb2b20-69c1-531d-900b-46a4ffc0443b",
+      "categoryId": "8f113915-61d7-5b63-82fc-0e3fc440296a",
       "sku": "5901643174170",
       "ean": "5901643174170"
     },
@@ -1005,7 +1005,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 49.49,
+        "amount": 35.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1061,7 +1061,7 @@
       "name": "Capilarte Szampon kojący do włosów i nadwrażliwej skóry",
       "description": "Szamponu kojącego do włosów i nadwrażliwej skóry. Ten rodzaj szamponu jest specjalnie przeznaczony do codziennego mycia włosów oraz pielęgnacji nadwrażliwej skóry głowy. Oferuje on łagodną i kojącą pielęgnację dla skóry, która jest skłonna do podrażnień, pieczenia oraz chronicznego świądu. Ten szampon jest odpowiedni użytku przez cały rok i przeznaczony zarówno dla kobiet, jak i mężczyzn. Jeśli masz jakiekolwiek wątpliwości co do stosowania kosmetyków na skórę głowy, zawsze warto skonsultować się z dermatologiem lub trychologiem.",
       "brand": "Capilarte",
-      "categoryId": "30bb2b20-69c1-531d-900b-46a4ffc0443b",
+      "categoryId": "8f113915-61d7-5b63-82fc-0e3fc440296a",
       "sku": "5901643174217",
       "ean": "5901643174217"
     },
@@ -1071,7 +1071,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 49.49,
+        "amount": 31.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1093,7 +1093,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 58.29,
+        "amount": 42.39,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1110,7 +1110,7 @@
       "ean": "5901643176945"
     },
     "stock": {
-      "quantity": 9,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -1137,7 +1137,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 43.99,
+        "amount": 31.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1203,7 +1203,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 43.99,
+        "amount": 31.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1225,7 +1225,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 65.99,
+        "amount": 47.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1237,7 +1237,7 @@
       "name": "Hydrain3 Hialuro Krem dogłębnie nawilżający",
       "description": "Marka: Hydrain3. Kategoria produktu: Dermokosmetyki > do Twarzy > Kremy na dzień. Kod EAN: 5901643176280. SKU produktu: 5901643176280. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Hydrain3",
-      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
       "sku": "5901643176280",
       "ean": "5901643176280"
     },
@@ -1264,12 +1264,12 @@
       "ean": "3282770141962"
     },
     "stock": {
-      "quantity": 24,
+      "quantity": 31,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 53.99,
+        "amount": 56.18,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1291,7 +1291,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 37.39,
+        "amount": 27.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1335,7 +1335,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 76.99,
+        "amount": 55.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1352,12 +1352,12 @@
       "ean": "3282770149814"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 86.89,
+        "amount": 63.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1369,7 +1369,7 @@
       "name": "A-Derma Exomega Control - Balsam emolient",
       "description": "Marka: A-Derma. Kategoria produktu: Dermokosmetyki > dla Dziecka > Balsamy, mleczka i emulsje dla dzieci. Kod EAN: 3282770149722. SKU produktu: 3282770149722. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "A-Derma",
-      "categoryId": "2253681c-571d-504c-9030-7463006b38b4",
+      "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
       "sku": "3282770149722",
       "ean": "3282770149722"
     },
@@ -1423,7 +1423,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 109.99,
+        "amount": 79.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1440,12 +1440,12 @@
       "ean": "3282770145021"
     },
     "stock": {
-      "quantity": 8,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 54.99,
+        "amount": 39.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1489,7 +1489,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 64.89,
+        "amount": 47.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1611,7 +1611,7 @@
       "name": "Hydrian3 Hialuro masło ultranawilżające",
       "description": "Masło ultranawadniające, które jest przeznaczone do pielęgnacji skóry całego ciała, zwłaszcza skóry bardzo suchej, szorstkiej i łuszczącej się. Zawiera zazwyczaj składniki nawilżające, takie jak oleje roślinne, masła shea, kwas hialuronowy czy glicerynę. Te składniki pomagają w utrzymaniu wilgoci w skórze, zapobiegając jej przesuszeniu oraz łuszczeniu się. Zaleca się przeprowadzenie testu uczuleniowego na niewielkiej części skóry lub skonsultowanie się z dermatologiem przed użyciem nowego produktu. Profesjonalna opinia może pomóc w doborze produktów, które najlepiej spełnią potrzeby Twojej skóry.",
       "brand": "Hydrian3",
-      "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
+      "categoryId": "2253681c-571d-504c-9030-7463006b38b4",
       "sku": "5901643176105",
       "ean": "5901643176105"
     },
@@ -1660,7 +1660,7 @@
       "ean": "5901643176549"
     },
     "stock": {
-      "quantity": 18,
+      "quantity": 17,
       "unit": "UNIT"
     },
     "price": {
@@ -1687,7 +1687,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 80.29,
+        "amount": 58.39,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1709,7 +1709,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 73.69,
+        "amount": 53.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1726,12 +1726,12 @@
       "ean": "3282770141382"
     },
     "stock": {
-      "quantity": 8,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 75.89,
+        "amount": 55.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1753,7 +1753,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 98.99,
+        "amount": 71.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1775,7 +1775,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 65.99,
+        "amount": 47.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1836,12 +1836,12 @@
       "ean": "3282770148282"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 65.99,
+        "amount": 47.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1863,7 +1863,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 52.79,
+        "amount": 39.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1929,7 +1929,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 60.49,
+        "amount": 47.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2017,7 +2017,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 48.39,
+        "amount": 35.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2061,7 +2061,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 73.69,
+        "amount": 53.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2078,7 +2078,7 @@
       "ean": "3282770392371"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -2100,7 +2100,7 @@
       "ean": "3282770075526"
     },
     "stock": {
-      "quantity": 12,
+      "quantity": 14,
       "unit": "UNIT"
     },
     "price": {
@@ -2127,7 +2127,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 65.99,
+        "amount": 38.39,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2232,12 +2232,12 @@
       "ean": "3282770075533"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 64.55,
+        "amount": 52.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2249,7 +2249,7 @@
       "name": "Normance Krem wspierający farmakoterapię",
       "description": "Marka: Normance. Kategoria produktu: Dermokosmetyki > do Twarzy > Kremy na dzień. Kod EAN: 5901643175641. SKU produktu: 5901643175641. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Normance",
-      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
       "sku": "5901643175641",
       "ean": "5901643175641"
     },
@@ -2281,7 +2281,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 72.59,
+        "amount": 52.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2369,7 +2369,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 98.99,
+        "amount": 71.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2391,7 +2391,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 95.69,
+        "amount": 69.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2408,7 +2408,7 @@
       "ean": "3264680015809"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 9,
       "unit": "UNIT"
     },
     "price": {
@@ -2611,7 +2611,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 90.19,
+        "amount": 65.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2645,7 +2645,7 @@
       "name": "Huile Prodigieuse Or Suchy olejek ze złotymi drobinkami do ciała, twarzy i włosów",
       "description": "Nuxe Huile Prodigieuse Or to suchy olejek brokatowy, który odżywia, zmiękcza i rozświetla twarz, ciało i włosy. Kosmetyk stanowi hybrydę produktu do pielęgnacji skóry i do makijażu. Ekspresowy produkt rozświetlający oferuje nieodparty opalizujący blask bez tłustego wykończenia dzięki niepowtarzalnej suchej w dotyku konsystencji, wzbogaconej złotymi perłami pochodzenia mineralnego. Olejek posiada wielofunkcyjne zastosowanie, idealnie sprawdza się do pielęgnacji skóry i włosów. Naturalne składniki olejku, wzbogacone witaminą E, w jednym geście pielęgnacyjnym odżywiają, regenerują i podkreślają urodę skóry, a włosom przynoszą miękkość i połysk. Nawilża, wygładza i odżywia, a rozświetlające drobinki nadają skórze pięknego wykończenia. Receptura olejku Nuxe zawiera 98,1% składników naturalnego pochodzenia. Aplikowanie produktu jest niezwykle przyjemne, dzięki urzekającemu kwiatowemu zapachowi, który został oparty o nuty pomarańczy, magnolii i wanilii.",
       "brand": "Huile",
-      "categoryId": "33c82884-9e91-5c61-939c-4b81e871cb00",
+      "categoryId": "f4fd7700-6276-55f1-91c8-92912a82eded",
       "sku": "3264680009785",
       "ean": "3264680009785"
     },
@@ -2667,7 +2667,7 @@
       "name": "Oilage Skoncentrowany krem pod oczy",
       "description": "Marka: Oilage. Kategoria produktu: Dermokosmetyki > do Twarzy > Kremy pod oczy. Kod EAN: 5901643174507. SKU produktu: 5901643174507. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Oilage",
-      "categoryId": "e4d0dca1-b497-517a-bf1b-8f0c5d393b94",
+      "categoryId": "65e3ce84-7c3f-564c-b549-b9f729fbca89",
       "sku": "5901643174507",
       "ean": "5901643174507"
     },
@@ -2677,7 +2677,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 63.79,
+        "amount": 46.39,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2699,7 +2699,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 98.99,
+        "amount": 71.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2738,7 +2738,7 @@
       "ean": "5901643174521"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -2755,7 +2755,7 @@
       "name": "Oilage Serum antyoksydacyjne",
       "description": "Marka: Oilage. Kategoria produktu: Dermokosmetyki > do Twarzy > Serum do twarzy. Kod EAN: 5901643176044. SKU produktu: 5901643176044. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Oilage",
-      "categoryId": "0946b5bd-bf47-583c-80f8-b7d63b9c6532",
+      "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
       "sku": "5901643176044",
       "ean": "5901643176044"
     },
@@ -2809,7 +2809,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 58.29,
+        "amount": 42.39,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2831,7 +2831,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 60.49,
+        "amount": 43.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2875,7 +2875,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 93.49,
+        "amount": 67.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2919,7 +2919,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 94.59,
+        "amount": 68.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2941,7 +2941,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 76.99,
+        "amount": 55.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2985,7 +2985,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 85.79,
+        "amount": 62.39,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -3007,7 +3007,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 105.59,
+        "amount": 58.39,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -3029,7 +3029,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 98.99,
+        "amount": 59.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -3068,7 +3068,7 @@
       "ean": "3282779416139"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -3085,12 +3085,12 @@
       "name": "Cicalfate+ Emulsja nawilżająco-regenerująca po zabiegach/tatuażu",
       "description": "Marka: Cicalfate+. Kategoria produktu: Dermokosmetyki > do Ciała > Mleczka i emulsje. Kod EAN: 3282770148763. SKU produktu: 3282770148763. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Cicalfate+",
-      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+      "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
       "sku": "3282770148763",
       "ean": "3282770148763"
     },
     "stock": {
-      "quantity": 8,
+      "quantity": 11,
       "unit": "UNIT"
     },
     "price": {
@@ -3139,7 +3139,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 64.89,
+        "amount": 46.39,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -3437,7 +3437,7 @@
       "name": "Nuxe Reve de Miel Olejkowy balsam do ciała z miodem",
       "description": "Nuxe Reve de Miel Olejkowy balsam do ciała z miodem to kosmetyk przeznaczony do pielęgnacji skóry bardzo suchej oraz wrażliwej. Rozpływający się balsam do ciała z miodem i cennymi olejkami roślinnymi intensywnie odżywia, naprawia i łagodzi podrażnienia. Obecne w składzie olejki roślinne, arganowy i z ogórecznika, dbają o prawidłowe nawilżenie oraz wygładzenie skóry. 93% składników jest pochodzenia naturalnego, w tym miód, który ma właściwości przywracające komfort nawet bardzo suchej skórze. Aplikacja produktu jest przyjemna, dzięki topniejącej konsystencji, która po wmasowaniu zamienia się w delikatny olejek, który otula skórę i zapewnia jej komfort, bez efektu lepkości. Regularne używanie kosmetyku sprawia, że z dnia na dzień skóra odzyskuje elastyczność i komfort.",
       "brand": "Nuxe",
-      "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
+      "categoryId": "2253681c-571d-504c-9030-7463006b38b4",
       "sku": "3264680015816",
       "ean": "3264680015816"
     },
@@ -3613,7 +3613,7 @@
       "name": "Prodigieux Eclat Puder brązujący w kompakcie",
       "description": "Prodigieux Eclat Puder brązujący w kompakcie wielofunkcyjny puder do twarzy i ciała z kwiatem jaśminu przynosi natychmiastowy efekt zdrowego blasku, intensyfikuje opaleniznę, podkreśla opaleniznę i rozświetla cerę. Jego delikatna i przewiewna konsystencja opada jak zasłona słońca.W swoim składzie puder zawiera89% składników pochodzenia naturalnego w tym ekstrakt z jaśminu, który przynosi natychmiastowy efekt zdrowego blasku, intensyfikuje opaleniznę, podkreśla opaleniznę i rozświetla cerę. Zawiera także witaminę E, która opóźnia procesy starzenia się skóry. Dodatkowo aplikacja produktu jest niesamowicie przyjemna, dzięki delikatnej konsystencji i przepięknemu zapachowi. Skóra jest sublimowana i promienna. wielofunkcyjny kosmetyk, który upiększy każdą cerę i karnację. Podkreśli urodę twarzy i ciała. Skóra muśnięta pudrem brązującym promienieje nowym blaskiem. Nuxe Prodigieux Eclat podkreśla i naturalnie ujednolica opaleniznę. Można go stosować przez cały rok. W zimniejszych miesiącach nada cerze natychmiastowy promienny wygląd. W swoim składzie puder zawiera89% składników pochodzenia naturalnego w tym ekstrakt z jaśminu, który przynosi natychmiastowy efekt zdrowego blasku, intensyfikuje opaleniznę, podkreśla opaleniznę i rozświetla cerę. Zawiera także witaminę E, która opóźnia procesy starzenia się skóry. Dodatkowo aplikacja produktu jest niesamowicie przyjemna, dzięki delikatnej konsystencji i przepięknemu zapachowi. Skóra jest sublimowana i promienna.",
       "brand": "Prodigieux",
-      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+      "categoryId": "7ef61ee2-ac06-59e5-95ac-0ed3f8c3b839",
       "sku": "3264680001239",
       "ean": "3264680001239"
     },
@@ -3728,7 +3728,7 @@
       "ean": "3282770142112"
     },
     "stock": {
-      "quantity": 17,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -3755,7 +3755,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 149.59,
+        "amount": 108.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -3777,7 +3777,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 131.99,
+        "amount": 95.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -3799,7 +3799,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 156.19,
+        "amount": 113.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -3821,7 +3821,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 153.99,
+        "amount": 103.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -3843,7 +3843,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 148.49,
+        "amount": 95.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -3948,7 +3948,7 @@
       "ean": "3282770153170"
     },
     "stock": {
-      "quantity": 8,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -3970,7 +3970,7 @@
       "ean": "3282770153200"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -4036,7 +4036,7 @@
       "ean": "3282779390132"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -4080,7 +4080,7 @@
       "ean": "3282770388954"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
@@ -4107,7 +4107,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 95.69,
+        "amount": 69.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4124,12 +4124,12 @@
       "ean": "3282770208795"
     },
     "stock": {
-      "quantity": 0,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 98.99,
+        "amount": 71.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4151,7 +4151,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 102.29,
+        "amount": 63.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4168,7 +4168,7 @@
       "ean": "3282770152371"
     },
     "stock": {
-      "quantity": 13,
+      "quantity": 15,
       "unit": "UNIT"
     },
     "price": {
@@ -4217,7 +4217,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 62.69,
+        "amount": 45.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4239,7 +4239,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 79.19,
+        "amount": 57.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4261,7 +4261,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 84.69,
+        "amount": 55.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4283,7 +4283,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 38.49,
+        "amount": 27.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4300,12 +4300,12 @@
       "ean": "3282770154221"
     },
     "stock": {
-      "quantity": 7,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 65.79,
+        "amount": 53.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4322,12 +4322,12 @@
       "ean": "3282779355872"
     },
     "stock": {
-      "quantity": 9,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 62.99,
+        "amount": 71.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4344,7 +4344,7 @@
       "ean": "3282770204797"
     },
     "stock": {
-      "quantity": 9,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -4371,7 +4371,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 41.99,
+        "amount": 47.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4393,7 +4393,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 62.99,
+        "amount": 71.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4415,7 +4415,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 65.79,
+        "amount": 75.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4437,7 +4437,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 62.99,
+        "amount": 71.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4459,7 +4459,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 67.89,
+        "amount": 77.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4481,7 +4481,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 69.99,
+        "amount": 79.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4542,12 +4542,12 @@
       "ean": "3282770388336"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 97.89,
+        "amount": 71.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4569,7 +4569,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 116.59,
+        "amount": 84.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4718,7 +4718,7 @@
       "ean": "5900717152021"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -4779,7 +4779,7 @@
       "name": "N Vita-Capilaril Krem nawilżająco-wzmacniający",
       "description": "Marka: N. Kategoria produktu: Dermokosmetyki > do Twarzy > Kremy na dzień. Kod EAN: 5900717152311. SKU produktu: 5900717152311. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "N",
-      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
       "sku": "5900717152311",
       "ean": "5900717152311"
     },
@@ -4801,7 +4801,7 @@
       "name": "N Nutri-Capilaril Intensywny krem odżywczy",
       "description": "Marka: N. Kategoria produktu: Dermokosmetyki > do Twarzy > Kremy na dzień. Kod EAN: 5900717152410. SKU produktu: 5900717152410. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "N",
-      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
       "sku": "5900717152410",
       "ean": "5900717152410"
     },
@@ -4921,7 +4921,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 65.99,
+        "amount": 69.29,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -5026,7 +5026,7 @@
       "ean": "5900717150522"
     },
     "stock": {
-      "quantity": 0,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -5065,7 +5065,7 @@
       "name": "N C–Capilix Koncentrat z witaminą C",
       "description": "Marka: N. Kategoria produktu: Dermokosmetyki > do Twarzy > Kremy na dzień. Kod EAN: 5900717150614. SKU produktu: 5900717150614. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "N",
-      "categoryId": "0946b5bd-bf47-583c-80f8-b7d63b9c6532",
+      "categoryId": "91ef0a45-29de-533d-b3d6-483b166b9dec",
       "sku": "5900717150614",
       "ean": "5900717150614"
     },
@@ -5075,7 +5075,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 83.59,
+        "amount": 85.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -5119,7 +5119,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 51.69,
+        "amount": 50.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -5224,7 +5224,7 @@
       "ean": "5900717160064"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
@@ -5263,7 +5263,7 @@
       "name": "A Puri-Sensilique Tonik nawilżająco-łagodzący",
       "description": "Marka: A. Kategoria produktu: Dermokosmetyki > do Twarzy > Toniki do twarzy. Kod EAN: 5900717163829. SKU produktu: 5900717163829. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "A",
-      "categoryId": "853ab193-27c8-5fac-a5d7-5250066fe918",
+      "categoryId": "7f096eb5-a9ae-5653-830f-e3e53d38f8df",
       "sku": "5900717163829",
       "ean": "5900717163829"
     },
@@ -5285,7 +5285,7 @@
       "name": "A Hyaluro-Sensilium Krem z kwasem hialuronowym",
       "description": "Marka: A. Kategoria produktu: Dermokosmetyki > do Twarzy > Kremy na dzień. Kod EAN: 5900717160057. SKU produktu: 5900717160057. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "A",
-      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+      "categoryId": "91ef0a45-29de-533d-b3d6-483b166b9dec",
       "sku": "5900717160057",
       "ean": "5900717160057"
     },
@@ -5307,7 +5307,7 @@
       "name": "A Sensi-Relastine-E Krem napinająco-ujędrniający",
       "description": "Marka: A. Kategoria produktu: Dermokosmetyki > do Twarzy. Kod EAN: 5900717160026. SKU produktu: 5900717160026. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "A",
-      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+      "categoryId": "a7e8f568-42ca-5fa6-b29c-cc86a957dcf1",
       "sku": "5900717160026",
       "ean": "5900717160026"
     },
@@ -5329,7 +5329,7 @@
       "name": "Aquabella Żel mikrozłuszczający do twarzy",
       "description": "Mikro złuszczający żel do twarzy Nuxe Aquabella, zawiera mikrocząsteczki peelingujące, dzięki czemu głęboko oczyszcza skórę twarzy bez efektu jej wysuszenia. Codzienna pielęgnacja tym kosmetykiem pozwala usunąć nadmiar sebum i wygładzić nierówności. Cera jest oczyszczona, świeża i promienieje naturalnym blaskiem. W składzie kosmetyku znajdują się: biała lilia wodna, kwas hialuronowy, złuszczające cząsteczki krzemionki, kompleks wygładzający „Blur” z owsem, nasturcją, zieloną soczewicą.Kosmetyk ma delikatny, świeży, kwiatowy zapach z nutami ogórka, cytryny i jaśminu.",
       "brand": "Aquabella",
-      "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
+      "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
       "sku": "3264680014857",
       "ean": "3264680014857"
     },
@@ -5351,12 +5351,12 @@
       "name": "A Vita-Sensilium Krem głęboko nawilżający",
       "description": "Marka: A. Kategoria produktu: Dermokosmetyki > do Twarzy > Kremy na dzień. Kod EAN: 5900717163317. SKU produktu: 5900717163317. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "A",
-      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
       "sku": "5900717163317",
       "ean": "5900717163317"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -5378,12 +5378,12 @@
       "ean": "5900717164017"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 65.96,
+        "amount": 75.89,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -5395,7 +5395,7 @@
       "name": "Aquabella Tonik-esencja odkrywająca piękno skóry",
       "description": "Tonik-esencja Nuxe Aquabella do skóry mieszanej odświeża i nawilża skórę, a także poprawia jej strukturę: pory są zwężone, tekstura skóry jest wyrafinowana, cera jest świeższa. Przeznaczona dla osób dorosłych w każdym wieku, idealnie w przedziale 18-25 lat. Formułą kosmetyku ma właściwości zwężające pory. Po aplikacji skóra jest widocznie oczyszczona i pachnie delikatną, świeżą, kwiatową wonią połączoną z nutą ogórka, cytryny i jaśminu. W składzie produktu znajdują się składniki aktywne, takie jak biała lilia wodna, kwas hialuronowy, kompleks wygładzający „Blur” z owsem, nasturcją i zieloną soczewicą.",
       "brand": "Aquabella",
-      "categoryId": "7f096eb5-a9ae-5653-830f-e3e53d38f8df",
+      "categoryId": "853ab193-27c8-5fac-a5d7-5250066fe918",
       "sku": "3264680014871",
       "ean": "3264680014871"
     },
@@ -5488,7 +5488,7 @@
       "ean": "5900717160071"
     },
     "stock": {
-      "quantity": 0,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -5510,7 +5510,7 @@
       "ean": "5900717160040"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -5537,7 +5537,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 82.49,
+        "amount": 80.29,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -5598,7 +5598,7 @@
       "ean": "5900717142428"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -5659,7 +5659,7 @@
       "name": "T Sebo-Moistatic Krem nawilżająco-kojący",
       "description": "Marka: T. Kategoria produktu: Dermokosmetyki > do Twarzy > Kremy na dzień. Kod EAN: 5900717142619. SKU produktu: 5900717142619. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "T",
-      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
       "sku": "5900717142619",
       "ean": "5900717142619"
     },
@@ -5681,7 +5681,7 @@
       "name": "Sun Jedwabisty balsam samoopalający do twarzy i ciała",
       "description": "Ten samoopalający krem ​​zapewnia złotą opaleniznę od stóp do głów w zaledwie 2 godziny(1), bez wystawiania się na słońce! Jego jedwabista konsystencja idealnie nadaje się do stosowania na twarz i ciało. Łatwo się rozprowadza i szybko wnika, nie pozostawiając śladów. Masa perłowa bawi się światłem, rozpraszając subtelny, opalizujący połysk. Jego eskapistyczny zapach z nutami słodkiej pomarańczy, tiare i wanilii to nieodparte zaproszenie do cieszenia się latem. Kuracja opracowana i wyprodukowana we Francji ma formułę, która jest niekomodogenna, czyli nie zapycha porów. Balsam ma kremową, jedwabistą konsystencję, dlatego łatwo rozprowadza się na skórze i nie powoduje powstawania smug. W ciągu dwóch godzin tworzy naturalnie wyglądającą, pełną blasku opaleniznę o szlachetnym odcieniu. Dzięki zawartości unikalnych ekstraktów kwiatowych , w tym ekstraktu z hiacyntu wodnego , kosmetyk pozostawia skórę idealnie nawilżoną. Urzekający zapach z nutą słodkiej pomarańczy, gardenii tahitańskiej i wanilii sprawia, że aplikacja balsamu Nuxe jest przyjemnością zarówno dla ciała, jak i dla zmysłów. Nuxe Sun Jedwabisty balsam samoopalający do twarzy i ciała pozwala uzyskać równomierną i naturalną opaleniznę niezależnie od pory roku, bez potrzeby ekspozycji na słońce. Jego jedwabista konsystencja idealnie nadaje się do stosowania na twarz i ciało. Łatwo się rozprowadza i szybko wnika, nie pozostawiając śladów. Masa perłowa bawi się światłem, rozpraszając subtelny, opalizujący połysk. W ciągu dwóch godzin tworzy naturalnie wyglądającą, pełną blasku opaleniznę o szlachetnym odcieniu. Dzięki zawartości unikalnych ekstraktów kwiatowych, w tym ekstraktu z hiacyntu wodnego, kosmetyk pozostawia skórę idealnie nawilżoną. Urzekający zapach z nutą słodkiej pomarańczy, gardenii tahitańskiej i wanilii sprawia, że aplikacja balsamu Nuxe jest przyjemnością zarówno dla ciała, jak i dla zmysłów. Nie zawiera filtrów przeciwsłonecznych.",
       "brand": "Sun",
-      "categoryId": "c900c6df-15c2-59e9-8615-87618d92577a",
+      "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
       "sku": "3264680015755",
       "ean": "3264680015755"
     },
@@ -5713,7 +5713,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 61.59,
+        "amount": 62.69,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -5757,7 +5757,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 81.39,
+        "amount": 83.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -5835,7 +5835,7 @@
       "name": "Men Wielofunkcyjny krem pod oczy",
       "description": "Wielofunkcyjny krem pod oczy Nuxe Men redukuję opuchliznę, koryguje cienie, wygładza skórę wokół oczu i chroni przed przedwczesnym starzeniem się. Kosmetyk zawiera 95,2% składników pochodzenia naturalnego, w tym wyciąg z dębu oraz grabu, kofeina roślinna, nasiona araukarii. Takie połączenie składników zapewnia idealne dopasowanie do potrzeb męskiej skóry. Produkt przeznaczony jest do każdego typu skóry, nawet skóry wrażliwej. Krem uzależnia swoją męską drzewno-korzenną nutą zapachową. Bezpieczny dla osób noszących soczewki kontaktowe . Nuxe Men Wielofunkcyjny krem pod oczy to kompleksowy kosmetyk który zmniejsza widoczność worków, redukuje cienie, wygładza kontur oczu i chroni przed przedwczesnym starzeniem się skóry. Okolica oczu jest odciążona i mniej zaznaczona. Kosmetyk zawiera 95,2% składników pochodzenia naturalnego, w tym wyciąg z dębu oraz grabu, kofeina roślinna, nasiona araukarii. Takie połączenie składników zapewnia idealne dopasowanie do potrzeb męskiej skóry. Produkt przeznaczony jest do każdego typu skóry, nawet skóry wrażliwej. Aplikowanie produktu jesst niezwykle przyjemne, dzięki męskiej drzewno-korzennej nucie zapachowej.",
       "brand": "Men",
-      "categoryId": "65e3ce84-7c3f-564c-b549-b9f729fbca89",
+      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
       "sku": "3264680003561",
       "ean": "3264680003561"
     },
@@ -5879,7 +5879,7 @@
       "name": "T Sebo-Almond-Claris Oczyszczający płyn bakteriostatyczny",
       "description": "Marka: T. Kategoria produktu: Dermokosmetyki > do Twarzy > Pianki,mleczka i żele do mycia twarzy. Kod EAN: 5900717140615. SKU produktu: 5900717140615. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "T",
-      "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
+      "categoryId": "ce743fc1-e886-5c08-b90f-510ce882c1ec",
       "sku": "5900717140615",
       "ean": "5900717140615"
     },
@@ -5906,7 +5906,7 @@
       "ean": "5900717140011"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -5923,7 +5923,7 @@
       "name": "Men Żel do golenia, gęsta, kremowa pianka",
       "description": "Nuxe Men Żel do golenia dla mężczyzn posiada gęstą, kremową konsystencję, która po nałożeniu na skórę pieni się i ułatwia precyzyjne golenie, zmniejszając ryzyko wystąpienia podrażnień. Pianka jest odpowiednia dla każdego rodzaju skóry, w tym cery wrażliwej. Pianka Nuxe Men posiada drzewno-korzenną kompozycję zapachową, podkreśloną przez pikantne nuty. Stosowanie pianki łączy ze sobą praktyczne podejście ułatwiające golenie ze zmysłowym uczuciem towarzyszącym aplikacji produktu. Jej formuła oparta jest na działaniu składników pochodzenia naturalnego, które stanowią aż 81% wszystkich substancji tworzących produkt. Pianka Nuxe Men posiada drzewno-korzenną kompozycję zapachową, podkreśloną przez pikantne nuty. Stosowanie pianki nie tylko ułatwia golenie, ale także sprawia, że staje się ono ucztą dla zmysłów. Drzewno-korzenny męski zapach.",
       "brand": "Men",
-      "categoryId": "71328672-5d78-54cb-ba36-725d39e7ffa3",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "3264680003585",
       "ean": "3264680003585"
     },
@@ -5967,7 +5967,7 @@
       "name": "DS Octopirox Kojący krem",
       "description": "Marka: DS. Kategoria produktu: Dermokosmetyki > do Twarzy > Kremy na dzień. Kod EAN: 5900717141711. SKU produktu: 5900717141711. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "DS",
-      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
       "sku": "5900717141711",
       "ean": "5900717141711"
     },
@@ -5989,7 +5989,7 @@
       "name": "DS Octopirox Scalp-Tonicum Preparat zmniejszający łuszczenie i zaczerwienienie",
       "description": "Marka: DS. Kategoria produktu: Dermokosmetyki > do Ciała. Kod EAN: 5900717140127. SKU produktu: 5900717140127. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "DS",
-      "categoryId": "27059afd-df03-563f-96c8-9d83a825573f",
+      "categoryId": "a7e8f568-42ca-5fa6-b29c-cc86a957dcf1",
       "sku": "5900717140127",
       "ean": "5900717140127"
     },
@@ -6011,7 +6011,7 @@
       "name": "Men Wielofunkcyjny żel nawilżający do twarzy",
       "description": "Nuxe Men Wielofunkcyjny żel nawilżający do twarzy to specjalistyczny preparat, który nawilża i matuje strefy przetłuszczające się. Sprawia, że skora staje się odżywiona. Po zastosowaniu pozostawia na skórze uczucie komfortu i ukojenia. Ma właściwości redukujące oznaki stresu oraz zmęczenia skóry. W składzie znajduje się 93% składników jest pochodzenia naturalnego, takie jak kora dębu, pączki grabu, drzewo sandałowe, kora filodendrona, śluz liści baobabu, nasiona araukarii, kora afrykańskiego drzewa Enanthia Chlorantha. Takie połączenie składników zapewnia idealne dopasowanie do potrzeb męskiej skóry. Formuła żelu nie pozostawia tłustej warstwy na skórze. 93% składników jest pochodzenia naturalnego , w tym kora dębu, pączki grabu, drzewo sandałowe, kora filodendrona, śluz liści baobabu, nasiona araukarii, kora afrykańskiego drzewa Enanthia Chlorantha. Takie połączenie składników zapewnia idealne dopasowanie do potrzeb męskiej skóry. Kosmetyk przeznaczony jest do każdego typu skóry, nawet skóry wrażliwej. Zabieg na twarz z ekstraktami z dębu, baobabu i kwasu hialuronowego nawilża, przywraca skórze energię i matuje obszary podatne na przetłuszczanie się. Natychmiast zapewnia komfort i miękkość, bez tłustego efektu. Nawilża oraz redukuje oznaki zmęczenia i stresu.",
       "brand": "Men",
-      "categoryId": "62f147d2-852d-5536-9235-3007e982e1a2",
+      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
       "sku": "3264680004957",
       "ean": "3264680004957"
     },
@@ -6038,12 +6038,12 @@
       "ean": "5900717148222"
     },
     "stock": {
-      "quantity": 0,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 65.99,
+        "amount": 69.29,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -6077,7 +6077,7 @@
       "name": "W Melacyd Ochronny krem wybielający przebarwienia na dzień",
       "description": "Marka: W. Kategoria produktu: Dermokosmetyki > do Twarzy > Kremy na dzień. Kod EAN: 5900717147324. SKU produktu: 5900717147324. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "W",
-      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+      "categoryId": "68f5ca30-cd76-5c87-bea6-20d280bd1dd5",
       "sku": "5900717147324",
       "ean": "5900717147324"
     },
@@ -6258,7 +6258,7 @@
       "ean": "5900717144811"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -6275,7 +6275,7 @@
       "name": "X X-Rays-Liposubtilium Krem łagodząco-regenerujący",
       "description": "Marka: X. Kategoria produktu: Dermokosmetyki > do Twarzy. Kod EAN: 5900717143111. SKU produktu: 5900717143111. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "X",
-      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
       "sku": "5900717143111",
       "ean": "5900717143111"
     },
@@ -6307,7 +6307,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 65.99,
+        "amount": 68.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -6385,12 +6385,12 @@
       "name": "H H-Sensitonin Micelarny szampon kojąco-nawilżający",
       "description": "Marka: H. Kategoria produktu: Dermokosmetyki > do Włosów > Szampony do włosów. Kod EAN: 5900717157118. SKU produktu: 5900717157118. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "H",
-      "categoryId": "30bb2b20-69c1-531d-900b-46a4ffc0443b",
+      "categoryId": "8f113915-61d7-5b63-82fc-0e3fc440296a",
       "sku": "5900717157118",
       "ean": "5900717157118"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -6412,12 +6412,12 @@
       "ean": "5900717157217"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 48.83,
+        "amount": 47.28,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -6429,7 +6429,7 @@
       "name": "H H-Stimupurin Specjalistyczny szampon stymulujący wzrost włosów",
       "description": "Marka: H. Kategoria produktu: Dermokosmetyki > do Włosów > Szampony do włosów. Kod EAN: 5900717158214. SKU produktu: 5900717158214. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "H",
-      "categoryId": "30bb2b20-69c1-531d-900b-46a4ffc0443b",
+      "categoryId": "8f113915-61d7-5b63-82fc-0e3fc440296a",
       "sku": "5900717158214",
       "ean": "5900717158214"
     },
@@ -6451,7 +6451,7 @@
       "name": "H H-Stimulinum Odżywka stymulująca wzrost włosów",
       "description": "Marka: H. Kategoria produktu: Dermokosmetyki > do Włosów > Odżywki i balsamy do włosów. Kod EAN: 5900717158313. SKU produktu: 5900717158313. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "H",
-      "categoryId": "f37f4f67-807b-5255-ad4a-7cdb98081931",
+      "categoryId": "26b93d9e-7926-5018-ba32-1ccfbe717288",
       "sku": "5900717158313",
       "ean": "5900717158313"
     },
@@ -6478,12 +6478,12 @@
       "ean": "5900717158511"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 82.49,
+        "amount": 76.25,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -6571,7 +6571,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 98.99,
+        "amount": 87.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -6605,7 +6605,7 @@
       "name": "V Viti-Melo-Night Krem dla skóry z problemem bielactwa na noc",
       "description": "Marka: V. Kategoria produktu: Dermokosmetyki > do Twarzy > Kremy na noc. Kod EAN: 5900717167117. SKU produktu: 5900717167117. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "V",
-      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
       "sku": "5900717167117",
       "ean": "5900717167117"
     },
@@ -6786,7 +6786,7 @@
       "ean": "5900717149618"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -6808,12 +6808,12 @@
       "ean": "5900717149120"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 80.29,
+        "amount": 81.39,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -6830,12 +6830,12 @@
       "ean": "5900717149069"
     },
     "stock": {
-      "quantity": 0,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 60.49,
+        "amount": 62.69,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -6935,7 +6935,7 @@
       "name": "E Emotopic 3-Zadaniowa Pianka myjąca MED+",
       "description": "Marka: E. Kategoria produktu: Dermokosmetyki > do Twarzy > Pianki,mleczka i żele do mycia twarzy. Kod EAN: 5900717691711. SKU produktu: 5900717691711. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "E",
-      "categoryId": "8d5d68fa-99a8-5d69-9baa-5866677130e3",
+      "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
       "sku": "5900717691711",
       "ean": "5900717691711"
     },
@@ -6945,7 +6945,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 52.25,
+        "amount": 49.49,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -6984,7 +6984,7 @@
       "ean": "5900717169197"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -7001,7 +7001,7 @@
       "name": "Reve de Miel Krem do rąk i paznokci",
       "description": "Zestaw dwóch kremów do rąk i paznokci z serii Reve de Miel marki Nuxe. Nuxw Reve de Miel Krem do rąk i paznokci to produkt, którego działanie odżywia i regeneruje skórę dłoni, chroniąc ją przed przedwczesnym starzeniem. Aksamitny krem do rąk o nietłustej konsystencji zawiera miód, słonecznik, szlachetne olejki i witaminę E. Zawiera co najmniej 88% składników pochodzenia naturalnego. Z każdym dniem, skóra dłoni staje się gładsza, a paznokcie wzmocnione. Aplikacja krem uwalnia słodki i delikatny zapach z nutami miodu. - odżywia i regeneruje skórę dłoni, - nietłusta konsystencja, - zawiera składniki naturalne: miód, słonecznik, szlachetne olejki, witaminę C, - duopak wystarczy na dłużej, - Gama Rêve de Miel to ultrakomfortowe preparaty do twarzy i ciała, które odżywiają, koją i regenerują, - kultowa francuska marka NUXE to połączenie naturalności, skuteczności działania i przyjemności stosowania, - etyczna marka, której celem jest pielęgnowanie naturalnego piękna każdej kobiety. Zawiera co najmniej 88% składników pochodzenia naturalnego. Używaj kremu do rąk i paznokci tak często, jak tego potrzebujesz, zwracając szczególną uwagę na skórę wokół paznokci.",
       "brand": "Reve",
-      "categoryId": "6bbabeff-7c85-520e-9b5b-ea7f36974775",
+      "categoryId": "be442cf4-be3f-5165-a596-78a9c49eaabd",
       "sku": "3264680010798",
       "ean": "3264680010798"
     },
@@ -7045,12 +7045,12 @@
       "name": "E Emotopic Krem emolientowy kojąco-zmiękczający MED+",
       "description": "Marka: E. Kategoria produktu: Dermokosmetyki > do Ciała > Kremy, balsamy i masła. Kod EAN: 5900717691513. SKU produktu: 5900717691513. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "E",
-      "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
+      "categoryId": "2253681c-571d-504c-9030-7463006b38b4",
       "sku": "5900717691513",
       "ean": "5900717691513"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -7067,7 +7067,7 @@
       "name": "E Emotopic Krem barierowy MED+",
       "description": "Marka: E. Kategoria produktu: Dermokosmetyki > do Ciała > Kremy, balsamy i masła. Kod EAN: 5900717691315. SKU produktu: 5900717691315. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "E",
-      "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
+      "categoryId": "2253681c-571d-504c-9030-7463006b38b4",
       "sku": "5900717691315",
       "ean": "5900717691315"
     },
@@ -7094,12 +7094,12 @@
       "ean": "5900717691216"
     },
     "stock": {
-      "quantity": 0,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 48.39,
+        "amount": 46.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -7111,7 +7111,7 @@
       "name": "E Emotopic Preparat 3w1 intensywnie natłuszczający MED+",
       "description": "Marka: E. Kategoria produktu: Dermokosmetyki > do Ciała > Kremy, balsamy i masła. Kod EAN: 5900717691612. SKU produktu: 5900717691612. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "E",
-      "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
+      "categoryId": "2253681c-571d-504c-9030-7463006b38b4",
       "sku": "5900717691612",
       "ean": "5900717691612"
     },
@@ -7187,7 +7187,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 65.45,
+        "amount": 63.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -7243,7 +7243,7 @@
       "name": "Very Rose Tonizująca mgiełka do twarzy",
       "description": "Nuxe Very Rose Tonizująca mgiełka do twarzy to kosmetyk 2w1, który jednocześnie nawilża i wygładza skórę oraz dopełnia proces demakijażu. Idealny do perfekcyjnego demakijażu i odświeżenia skóry przy jednoczesnym poszanowaniu jej równowagi. Bogata w naturalne składniki formuła zawiera wodę różaną, która zapewnia dodatkowe ukojenie i zmiękczenie każdego typu cery, nawet cery wrażliwej. Dodatek alantoiny sprawia, że skóra jest odprężona, ukojona, miękka i odświeżona. Obecny Kompleks Skin-Respect to składnik w 100% pochodzenia roślinnego, który dzięki cukrom nawilżającym nawadnia i wzmacnia barierę ochronną skóry. Mgiełka zawiera również składniki oczyszczające pochodzące z kokosa i pszenicy, które usuwają zanieczyszczenia, resztki makijażu i nadmiar sebum, nie naruszając równowagi skóry. Kosmetyk ma przyjemny i delikatny zapach z różanymi nutami. Orzeźwiająca mgiełka tonizująca do twarzy Nuxe Very Rose to kosmetyk 2w1, który jednocześnie nawilża i wygładza skórę oraz dopełnia proces demakijażu. Mgiełka delikatnie pachnie różanymi nutami. Dodatek alantoiny sprawia, że skóra jest odprężona, ukojona, miękka i odświeżona. Formuła kosmetyku zawiera również wodę różaną , która zapewnia dodatkowe ukojenie i zmiękczenie każdego typu cery, nawet cery wrażliwej. Kompleks Skin-Respect to składnik w 100% pochodzenia roślinnego, który dzięki cukrom nawilżającym nawadnia i wzmacnia barierę ochronną skóry. Mgiełka zawiera również składniki oczyszczające pochodzące z kokosa i pszenicy , które usuwają zanieczyszczenia, resztki makijażu i nadmiar sebum, nie naruszając równowagi skóry. 95% składników zawartych w produkcie jest pochodzenia naturalnego. Tonik w sprayu o delikatnym różanym zapachu to ekspresowy gest 2 w 1. Idealny do perfekcyjnego demakijażu i odświeżenia skóry przy jednoczesnym poszanowaniu jej równowagi. Formuła wzbogacona alantoiną zapewnia natychmiastowe uczucie ukojenia. Odświeżona delikatną i świeżą mgiełką skóra staje się miękka i wygodna.",
       "brand": "Very",
-      "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
+      "categoryId": "853ab193-27c8-5fac-a5d7-5250066fe918",
       "sku": "3264680022098",
       "ean": "3264680022098"
     },
@@ -7287,7 +7287,7 @@
       "name": "Very Rose Oczyszczająca pianka micelarna",
       "description": "Oczyszczająca pianka micelarna Nuxe Very Rose to kremowy produkt, który oczyszcza, łagodzi i chroni skórę twarzy. Pozostawia na skórze uczucie odświeżenia i czystości. Formuła kosmetyku zawiera naturalne składniki aktywne, w tym wodę różaną, która zmiękcza i koi każdy typ cery, nawet cerę wrażliwą. Obecny Kompleks Skin-Respect to w 100% roślinny składnik, który dzięki cukrom nawilżającym, nawadnia i wzmacnia barierę ochronną skóry. Pianka zawiera również składniki oczyszczające pochodzące z kokosa i pszenicy, które idealnie usuwają zanieczyszczenia, resztki makijażu i nadmiar sebum, nie naruszając równowagi skóry. Roztapiająca się pianka o słodkim zapachu róży delikatnie oczyszcza i łagodzi, pielęgnując jednocześnie skórę. 94% wszystkich składników zawartych w kosmetyku jest pochodzenia naturalnego . Roztapiająca się pianka o słodkim zapachu róży delikatnie oczyszcza i łagodzi, pielęgnując jednocześnie skórę.",
       "brand": "Very",
-      "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
+      "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
       "sku": "3264680022111",
       "ean": "3264680022111"
     },
@@ -7331,7 +7331,7 @@
       "name": "Very Rose Łagodząca woda micelarna 3w1",
       "description": "Nuxe Very Rose Łagodząca woda micelarna 3w1 z Wodą Różaną usuwa makijaż oraz oczyszcza skórę twarzy i oczu, eliminując makijaż i zanieczyszczenia. Wzbogacony kompleksem Skin-Respect w 100% pochodzenia roślinnego, łagodzi skórę i szanuje jej równowagę. Składa się z cukrów nawilżających, które nawadniają i wzmacniają barierę ochronną skóry. Kosmetyk zawiera również micelarne składniki oczyszczające, które umożliwiają usunięcie zanieczyszczeń i makijażu. Pozostawia skórę świeżą i miękką, a zmysły oczarowane delikatnym różanym zapachem. Dzięki zawartości wody różanej skóra jest ukojona i zmiękczona.",
       "brand": "Very",
-      "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
+      "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
       "sku": "3264680022043",
       "ean": "3264680022043"
     },
@@ -7353,7 +7353,7 @@
       "name": "Very Rose Olejek do demakijażu",
       "description": "Nuxe Very Rose Olejek do demakijażu to kosmetyk przeznaczony jest do usuwania nawet bardzo trwałego i wodoodpornego makijażu. Zachowuje naturalną równowagę skóry oraz chroni ją przed wysuszającym działaniem kamienia zawartego w twardej wodzie. Wegańska formuła olejku zawiera 82% składników pochodzenia naturalnego. Kosmetyk wzbogacony jest o olejek ze słodkich migdałów i ekstrakt z róży, które zmiękczają i odżywiają skórę twarzy, nadając jej delikatność i sprężystość. Przeznaczony do pielęgnacji każdego rodzaju skóry. Bogaty w olejek ze słodkich migdałów, jego jedwabista konsystencja w kontakcie z wodą zamienia się w mleczko i nie pozostawia tłustego filmu na skórze, dzięki czemu zyskuje miękkość, elastyczność i komfort. Olejek do demakijażu Nuxe Very Rose przeznaczony jest do usuwania nawet bardzo trwałego i wodoodpornego makijażu. Zachowuje naturalną równowagę skóry oraz chroni ją przed wysuszającym działaniem kamienia zawartego w twardej wodzie. Kosmetyk wzbogacony jest o olejek ze słodkich migdałów i ekstrakt z róży, które zmiękczają i odżywiają skórę twarzy, nadając jej delikatność i sprężystość. Jest odpowiedni do oczyszczania wszystkich rodzajów skóry. Olejek Nuxe ma jedwabistą konsystencję i subtelny różany zapach . Po kontakcie z wodą zamienia się w emulsję, która nie pozostawia tłustego filmu na skórze.",
       "brand": "Very",
-      "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
+      "categoryId": "72b165e2-21dc-59a2-83c5-d60c8a7694a3",
       "sku": "3264680022067",
       "ean": "3264680022067"
     },
@@ -7551,7 +7551,7 @@
       "name": "Classic Md Dermoprotektor Balsam",
       "description": "Marka: Classic. Kategoria produktu: Dermokosmetyki > do Twarzy > Emulsje i balsamy. Kod EAN: 3499320013826. SKU produktu: 3499320013826. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Classic",
-      "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
+      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
       "sku": "3499320013826",
       "ean": "3499320013826"
     },
@@ -7595,7 +7595,7 @@
       "name": "Classic Delikatny żel oczyszczający z peelingiem",
       "description": "Marka: Classic. Kategoria produktu: Dermokosmetyki > do Twarzy > Pianki,mleczka i żele do mycia twarzy. Kod EAN: 5020465201496. SKU produktu: 5020465201496. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Classic",
-      "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
+      "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
       "sku": "5020465201496",
       "ean": "5020465201496"
     },
@@ -7617,7 +7617,7 @@
       "name": "Classic Ps Lipoaktywny krem nawilżający",
       "description": "Marka: Classic. Kategoria produktu: Dermokosmetyki > do Twarzy > Kremy na dzień. Kod EAN: 3499320013864. SKU produktu: 3499320013864. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Classic",
-      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
       "sku": "3499320013864",
       "ean": "3499320013864"
     },
@@ -7688,7 +7688,7 @@
       "ean": "3499320013833"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -7771,7 +7771,7 @@
       "name": "Pro Oil Control Pianka do mycia",
       "description": "Marka: Pro. Kategoria produktu: Dermokosmetyki > do Twarzy > Pianki,mleczka i żele do mycia twarzy. Kod EAN: 3499320009249. SKU produktu: 3499320009249. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Pro",
-      "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
+      "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
       "sku": "3499320009249",
       "ean": "3499320009249"
     },
@@ -7793,7 +7793,7 @@
       "name": "Pro Oil Control Krem nawilżająco-matujący SPF 30",
       "description": "Marka: Pro. Kategoria produktu: Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna. Kod EAN: 3499320009218. SKU produktu: 3499320009218. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Pro",
-      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
       "sku": "3499320009218",
       "ean": "3499320009218"
     },
@@ -7881,7 +7881,7 @@
       "name": "Pro Redness Control Pianka do mycia",
       "description": "Marka: Pro. Kategoria produktu: Dermokosmetyki > do Twarzy > Pianki,mleczka i żele do mycia twarzy. Kod EAN: 3499320009928. SKU produktu: 3499320009928. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Pro",
-      "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
+      "categoryId": "6ec86709-bd13-5454-8345-3ac543ebf480",
       "sku": "3499320009928",
       "ean": "3499320009928"
     },
@@ -7925,7 +7925,7 @@
       "name": "Pro Redness Control Krem nawilżający na dzień SPF 30",
       "description": "Marka: Pro. Kategoria produktu: Dermokosmetyki > do Twarzy > Kremy na dzień. Kod EAN: 3499320009942. SKU produktu: 3499320009942. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Pro",
-      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
       "sku": "3499320009942",
       "ean": "3499320009942"
     },
@@ -7947,7 +7947,7 @@
       "name": "Atoderm Intensive Eye Pielęgnacja podrażnionej skóry powiek 3w1",
       "description": "Bioderma Atoderm Intensive Eye Pielęgnacja podrażnionej skóry powiek 3w1 to krem pod oczy o potrójnym działaniu, który łagodzi, usuwa makijaż oraz regeneruje skórę suchych, podrażnionych powiek, nawet u osób z atopowym zapaleniem skóry. Formuła kremu zawiera składniki, które pomogą zapewnić Twojej skórze najlepszą ochronę. Enoxolone pomaga łagodzić objawy stanu zapalnego powiek. W nawilżeniu i regeneracji skóry pomagają kwas hialuronowy naturalnie obecny w skórze, tworzy nieokluzyjny film nawilżający, zatrzymując wodę na powierzchni skóry (działając jak zbiornik wody). Kompleks Lipigenium wpływa na produkcję lipidów i przywraca naturalną barierę ochronną skóry. Nawilżająca gliceryna w długi sposób utrzymuje swoje działanie, a opatentowany kompleks Skin Barrier Therapy ogranicza przyczepność bakterii mogących powodować suchość skóry do jej powierzchni. W rezultacie skóra jest ukojona, wzmocniona i odzyskuje komfort na długi czas. Bioderma jest marką opartą na ekobiologii, która znajduje się w centrum podejścia NAOS do poszanowania ekosystemu skóry i zachowania jej zdrowia na dłużej. Takie podejście pomaga wzmocnić naturalne mechanizmy skóry, ucząc ją prawidłowego funkcjonowania bez nadmiernego leczenia.",
       "brand": "Atoderm",
-      "categoryId": "e4d0dca1-b497-517a-bf1b-8f0c5d393b94",
+      "categoryId": "65e3ce84-7c3f-564c-b549-b9f729fbca89",
       "sku": "3701129801963",
       "ean": "3701129801963"
     },
@@ -8233,7 +8233,7 @@
       "name": "Wax Daily Odżywka kolagenowa do włosów zniszczonych",
       "description": "Marka: Wax. Kategoria produktu: Dermokosmetyki > do Włosów > Odżywki i balsamy do włosów. Kod EAN: 5906948846975. SKU produktu: 5906948846975. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Wax",
-      "categoryId": "26b93d9e-7926-5018-ba32-1ccfbe717288",
+      "categoryId": "f37f4f67-807b-5255-ad4a-7cdb98081931",
       "sku": "5906948846975",
       "ean": "5906948846975"
     },
@@ -8299,7 +8299,7 @@
       "name": "Wax Girl Odżywka dla dzieci do rozczesywania długich włosów",
       "description": "Marka: Wax. Kategoria produktu: Dermokosmetyki > do Włosów > Odżywki i balsamy do włosów. Kod EAN: 5906948846968. SKU produktu: 5906948846968. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Wax",
-      "categoryId": "59e28a91-f444-55d5-91e6-c50e7dfccacc",
+      "categoryId": "30bb2b20-69c1-531d-900b-46a4ffc0443b",
       "sku": "5906948846968",
       "ean": "5906948846968"
     },
@@ -8541,7 +8541,7 @@
       "name": "Seboradin Szampon do jasnych włosów",
       "description": "Marka: Seboradin. Kategoria produktu: Dermokosmetyki > do Włosów > Szampony do włosów. Kod EAN: 5904730878180. SKU produktu: 5904730878180. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Seboradin",
-      "categoryId": "8f113915-61d7-5b63-82fc-0e3fc440296a",
+      "categoryId": "30bb2b20-69c1-531d-900b-46a4ffc0443b",
       "sku": "5904730878180",
       "ean": "5904730878180"
     },
@@ -8607,7 +8607,7 @@
       "name": "Seboradin Regenerujący Balsam do włosów suchych i zniszczonych",
       "description": "Marka: Seboradin. Kategoria produktu: Dermokosmetyki. Kod EAN: 5907718948233. SKU produktu: 5907718948233. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Seboradin",
-      "categoryId": "26b93d9e-7926-5018-ba32-1ccfbe717288",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5907718948233",
       "ean": "5907718948233"
     },
@@ -8739,7 +8739,7 @@
       "name": "Sensibio H2O AR Płyn micelarny do skóry z problemami naczynkowymi",
       "description": "Marka: Sensibio. Kategoria produktu: Dermokosmetyki > do Twarzy > Płyny micelarne do twarzy. Kod EAN: 3401351366789. SKU produktu: 3401351366789. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Sensibio",
-      "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
+      "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
       "sku": "3401351366789",
       "ean": "3401351366789"
     },
@@ -8871,7 +8871,7 @@
       "name": "Seboradin with cosmetic kerosene - Maska z naftą kosmetyczną",
       "description": "Marka: Seboradin. Kategoria produktu: Dermokosmetyki > do Włosów > Maski do włosów. Kod EAN: 5907718948608. SKU produktu: 5907718948608. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Seboradin",
-      "categoryId": "fba41277-4198-5b45-aca6-cbc3c0f153b9",
+      "categoryId": "f37f4f67-807b-5255-ad4a-7cdb98081931",
       "sku": "5907718948608",
       "ean": "5907718948608"
     },
@@ -8893,7 +8893,7 @@
       "name": "Seboradin Forte Maska - przeciw wypadaniu włosów",
       "description": "Marka: Seboradin. Kategoria produktu: Dermokosmetyki > do Włosów > Maski do włosów. Kod EAN: 5907718948844. SKU produktu: 5907718948844. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Seboradin",
-      "categoryId": "f37f4f67-807b-5255-ad4a-7cdb98081931",
+      "categoryId": "fba41277-4198-5b45-aca6-cbc3c0f153b9",
       "sku": "5907718948844",
       "ean": "5907718948844"
     },
@@ -9294,7 +9294,7 @@
       "ean": "3337875814652"
     },
     "stock": {
-      "quantity": 8,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
@@ -9333,7 +9333,7 @@
       "name": "CeraVe Krem odbudowujący pod oczy",
       "description": "Marka: CeraVe. Kategoria produktu: Dermokosmetyki > do Twarzy > Kremy pod oczy. Kod EAN: 3337875597272. SKU produktu: 3337875597272. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "CeraVe",
-      "categoryId": "65e3ce84-7c3f-564c-b549-b9f729fbca89",
+      "categoryId": "e4d0dca1-b497-517a-bf1b-8f0c5d393b94",
       "sku": "3337875597272",
       "ean": "3337875597272"
     },
@@ -9382,7 +9382,7 @@
       "ean": "3337875784054"
     },
     "stock": {
-      "quantity": 13,
+      "quantity": 12,
       "unit": "UNIT"
     },
     "price": {
@@ -9421,12 +9421,12 @@
       "name": "CeraVe Żel przeciw niedoskonałościom",
       "description": "Marka: CeraVe. Kategoria produktu: Dermokosmetyki > do Twarzy > Kremy punktowe. Kod EAN: 3337875782357. SKU produktu: 3337875782357. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "CeraVe",
-      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+      "categoryId": "60e7ca0f-ace4-5f6e-be7a-f00000833d6b",
       "sku": "3337875782357",
       "ean": "3337875782357"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -9465,7 +9465,7 @@
       "name": "Mediket Ictamo Szampon dla podrażnionej i tłustej skóry głowy",
       "description": "Marka: Mediket. Kategoria produktu: Dermokosmetyki > do Włosów > Szampony do włosów. Kod EAN: 7640114911446. SKU produktu: 7640114911446. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Mediket",
-      "categoryId": "30bb2b20-69c1-531d-900b-46a4ffc0443b",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "7640114911446",
       "ean": "7640114911446"
     },
@@ -9531,7 +9531,7 @@
       "name": "Vitella Zn Krem witaminowy",
       "description": "Marka: Vitella. Kategoria produktu: Dermokosmetyki > do Ciała > Kremy i balsamy do rąk. Kod EAN: 7640114911095. SKU produktu: 7640114911095. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Vitella",
-      "categoryId": "2253681c-571d-504c-9030-7463006b38b4",
+      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
       "sku": "7640114911095",
       "ean": "7640114911095"
     },
@@ -9553,7 +9553,7 @@
       "name": "Vitella Extreme Ochronny krem witaminowy",
       "description": "Marka: Vitella. Kategoria produktu: Dermokosmetyki > do Ciała > Kremy i balsamy do rąk. Kod EAN: 7640114911071. SKU produktu: 7640114911071. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Vitella",
-      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+      "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
       "sku": "7640114911071",
       "ean": "7640114911071"
     },
@@ -9663,7 +9663,7 @@
       "name": "Physiological tonik kojący do twarzy",
       "description": "Marka: Physiological. Kategoria produktu: Dermokosmetyki > do Twarzy > Toniki do twarzy. Kod EAN: 3337872410321. SKU produktu: 3337872410321. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Physiological",
-      "categoryId": "7f096eb5-a9ae-5653-830f-e3e53d38f8df",
+      "categoryId": "853ab193-27c8-5fac-a5d7-5250066fe918",
       "sku": "3337872410321",
       "ean": "3337872410321"
     },
@@ -9707,7 +9707,7 @@
       "name": "Effaclar Tonik mikrozłuszczający",
       "description": "Marka: Effaclar. Kategoria produktu: Dermokosmetyki > do Twarzy > Toniki do twarzy. Kod EAN: 3433422408159. SKU produktu: 3433422408159. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Effaclar",
-      "categoryId": "7f096eb5-a9ae-5653-830f-e3e53d38f8df",
+      "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
       "sku": "3433422408159",
       "ean": "3433422408159"
     },
@@ -9773,7 +9773,7 @@
       "name": "Koncentrat naprawczy do skóry wrażliwej i naczynkowej",
       "description": "Marka: Koncentrat. Kategoria produktu: Dermokosmetyki > do Twarzy. Kod EAN: 5902802702203. SKU produktu: 5902802702203. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Koncentrat",
-      "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
+      "categoryId": "0946b5bd-bf47-583c-80f8-b7d63b9c6532",
       "sku": "5902802702203",
       "ean": "5902802702203"
     },
@@ -9883,7 +9883,7 @@
       "name": "Effaclar Skoncentrowane serum przeciw niedoskonałościom",
       "description": "Marka: Effaclar. Kategoria produktu: Dermokosmetyki > do Twarzy > Serum do twarzy. Kod EAN: 3337875722827. SKU produktu: 3337875722827. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Effaclar",
-      "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
+      "categoryId": "a7e8f568-42ca-5fa6-b29c-cc86a957dcf1",
       "sku": "3337875722827",
       "ean": "3337875722827"
     },
@@ -9905,7 +9905,7 @@
       "name": "Effaclar Duo+ Krem zwalczający niedoskonałości SPF 30",
       "description": "Marka: Effaclar. Kategoria produktu: Dermokosmetyki > do Twarzy > Kremy na dzień. Kod EAN: 3337875549493. SKU produktu: 3337875549493. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Effaclar",
-      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+      "categoryId": "a7e8f568-42ca-5fa6-b29c-cc86a957dcf1",
       "sku": "3337875549493",
       "ean": "3337875549493"
     },
@@ -10174,7 +10174,7 @@
       "ean": "3337872412684"
     },
     "stock": {
-      "quantity": 9,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
@@ -10436,7 +10436,7 @@
       "ean": "3337875807043"
     },
     "stock": {
-      "quantity": 13,
+      "quantity": 12,
       "unit": "UNIT"
     },
     "price": {
@@ -10453,7 +10453,7 @@
       "name": "Toleriane Rosaliac AR Krem ochronny SPF 30",
       "description": "Marka: Toleriane. Kategoria produktu: Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna. Kod EAN: 3337875806961. SKU produktu: 3337875806961. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Toleriane",
-      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
       "sku": "3337875806961",
       "ean": "3337875806961"
     },
@@ -10475,7 +10475,7 @@
       "name": "Toleriane Sensitive Krem nawilżający",
       "description": "Marka: Toleriane. Kategoria produktu: Dermokosmetyki > do Twarzy > Kremy na dzień. Kod EAN: 3337875578486. SKU produktu: 3337875578486. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Toleriane",
-      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+      "categoryId": "6ec86709-bd13-5454-8345-3ac543ebf480",
       "sku": "3337875578486",
       "ean": "3337875578486"
     },
@@ -10700,7 +10700,7 @@
       "ean": "3337875696838"
     },
     "stock": {
-      "quantity": 7,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
@@ -10783,7 +10783,7 @@
       "name": "Omega-3 Baby",
       "description": "Marka: Omega-3. Kategoria produktu: Macierzyństwo > Dla dzieci > Odporność. Kod EAN: 5903031285628. SKU produktu: 5903031285628. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Omega-3",
-      "categoryId": "ef36c9ef-acae-5291-b606-b548c392c3c6",
+      "categoryId": "06580ad5-4491-5e61-b375-0fe06d98b09e",
       "sku": "5903031285628",
       "ean": "5903031285628"
     },
@@ -10805,12 +10805,12 @@
       "name": "Chrom organiczny+B3",
       "description": "Marka: Chrom. Kategoria produktu: Suplementy Diety > Odporność. Kod EAN: 5907377136941. SKU produktu: 5907377136941. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Chrom",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5907377136941",
       "ean": "5907377136941"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -10827,12 +10827,12 @@
       "name": "Folian",
       "description": "Marka: Folian. Kategoria produktu: Macierzyństwo > Ciąża. Kod EAN: 5903031280852. SKU produktu: 5903031280852. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Folian",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5903031280852",
       "ean": "5903031280852"
     },
     "stock": {
-      "quantity": 7,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
@@ -10854,7 +10854,7 @@
       "ean": "5903031281606"
     },
     "stock": {
-      "quantity": 10,
+      "quantity": 9,
       "unit": "UNIT"
     },
     "price": {
@@ -10871,12 +10871,12 @@
       "name": "Metylo-B12 500",
       "description": "Marka: Metylo-B12. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Witaminy > Witaminy z grupy B. Kod EAN: 5907377138365. SKU produktu: 5907377138365. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Metylo-B12",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5907377138365",
       "ean": "5907377138365"
     },
     "stock": {
-      "quantity": 24,
+      "quantity": 12,
       "unit": "UNIT"
     },
     "price": {
@@ -10915,7 +10915,7 @@
       "name": "Witamina B Complex Forte",
       "description": "Marka: Witamina. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Witaminy > Witaminy z grupy B. Kod EAN: 5907377136743. SKU produktu: 5907377136743. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Witamina",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5907377136743",
       "ean": "5907377136743"
     },
@@ -11135,7 +11135,7 @@
       "name": "Mineral 89 Lekki krem nawilżająco-odżywczy",
       "description": "Vichy Mineral 89 lekki krem do twarzy zapewni Twojej cerze poprawę nawilżenia utrzymującą się nawet do 72 godzin. Dodatkowo krem zapewni skórze odżywienie, bez względu na wiek. Lekka formuła dobrze sprawdzi się do stosowania na dzień oraz w cieplejsze dni. Po raz pierwszy Laboratoria Vichy umieściła wszystkie te niezbędne skórze składniki – wodę, minerały, lipidy, witaminy i kwas hialuronowy – w jednym kremie. Skóra jest lepiej chroniona przed szkodliwym działaniem czynników zewnętrznych, poprawia się odczucie komfortu przez cały dzień: krem łagodzi uczucie ściągania i wyraźnie redukuje zaczerwienienia. Skóra jest promienna i jędrna. Zawarte w kremie składniki aktywne, jak kwas hialuronowy, niacynamid, witamina E, skwalany oraz minerały z wody wulkanicznej Vichy, wnikają aż do 3 warstw naskórka zapewniając nawilżenie przez 3 dni. Świeży, roztapiający się krem o lekkiej formule nie zatyka porów oraz nie pozostawia tłustej warstwy.",
       "brand": "Mineral",
-      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
       "sku": "3337875831888",
       "ean": "3337875831888"
     },
@@ -11189,7 +11189,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 84.69,
+        "amount": 83.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -11250,7 +11250,7 @@
       "ean": "3337871320362"
     },
     "stock": {
-      "quantity": 13,
+      "quantity": 12,
       "unit": "UNIT"
     },
     "price": {
@@ -11333,7 +11333,7 @@
       "name": "Czosnek Forte Bezzapachowy",
       "description": "Marka: Czosnek. Kategoria produktu: Suplementy Diety > Odporność. Kod EAN: 5907377136767. SKU produktu: 5907377136767. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Czosnek",
-      "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5907377136767",
       "ean": "5907377136767"
     },
@@ -11377,7 +11377,7 @@
       "name": "Selen organiczny + E",
       "description": "Marka: Selen. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały > Selen. Kod EAN: 5907377136958. SKU produktu: 5907377136958. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Selen",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5907377136958",
       "ean": "5907377136958"
     },
@@ -11399,17 +11399,17 @@
       "name": "Selen organiczny 100",
       "description": "Marka: Selen. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały > Selen. Kod EAN: 5903031280906. SKU produktu: 5903031280906. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Selen",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5903031280906",
       "ean": "5903031280906"
     },
     "stock": {
-      "quantity": 12,
+      "quantity": 8,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 36.29,
+        "amount": 38.49,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -11421,7 +11421,7 @@
       "name": "Selen organiczny 200",
       "description": "Marka: Selen. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały > Selen. Kod EAN: 5907377138372. SKU produktu: 5907377138372. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Selen",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5907377138372",
       "ean": "5907377138372"
     },
@@ -11465,7 +11465,7 @@
       "name": "Potas organiczny",
       "description": "Marka: Potas. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały > Potas. Kod EAN: 5907377136729. SKU produktu: 5907377136729. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Potas",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5907377136729",
       "ean": "5907377136729"
     },
@@ -11531,12 +11531,12 @@
       "name": "Beta-karoten + E",
       "description": "Marka: Beta-karoten. Kategoria produktu: Suplementy Diety > Samopoczucie i energia > Oczy i wzrok > Witaminy i makroelementy. Kod EAN: 5907377136903. SKU produktu: 5907377136903. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Beta-karoten",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5907377136903",
       "ean": "5907377136903"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -11619,7 +11619,7 @@
       "name": "Neovadiol Korygujący krem do skóry wokół oczu i ust",
       "description": "Vichy Neovadiol Oczy i Usta to korygujący przeciwzmarszczkowy krem przeznaczony do pielęgnacji skóry pod oczami i okolic ust. Kosmetyk działa ujędrniająco, niweluje opuchnięcia skórne i cienie pod oczami oraz zapewnia odpowiednie odżywienie. Skuteczność kremu to efekt specjalnie opracowanej formuły, która została oparta o technologię rekonstrukcji tkanek oraz połączenie Proteic Gf i Pro-Xylane™. Krem zawiera w składzie proksylan, ekstrakt z kasji, kwas hialuronowy oraz niacynamid, aby niwelować widoczny wpływ menopauzy na skórę: ujędrnia, nawilża i poprawia sprężystość skóry. Krem został wzbogacony odżywczymi kwasami Omega 3-6-9, wodą wulkaniczną Vichy i kofeiną, aby odżywić i ukoić skórę oraz korygować cienie pod oczami. Bogaty krem dla uwrażliwionej skóry wokół oczu i ust posiada nietłustą i nie lepiącą się konsystencję, która szybko się wchłania. Krem łatwo i równomiernie rozprowadza się na skórze i posiada on aksamitne wykończenie.",
       "brand": "Neovadiol",
-      "categoryId": "65e3ce84-7c3f-564c-b549-b9f729fbca89",
+      "categoryId": "e4d0dca1-b497-517a-bf1b-8f0c5d393b94",
       "sku": "3337875824033",
       "ean": "3337875824033"
     },
@@ -11641,7 +11641,7 @@
       "name": "Żeń-szeń",
       "description": "Marka: Żeń-szeń. Kategoria produktu: Suplementy Diety > Samopoczucie i energia > Bezsenność. Kod EAN: 5907377136750. SKU produktu: 5907377136750. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Żeń-szeń",
-      "categoryId": "e8f03a8b-284f-5065-b098-f22bcec2893a",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5907377136750",
       "ean": "5907377136750"
     },
@@ -11707,7 +11707,7 @@
       "name": "Ginkgo Intensive",
       "description": "Marka: Ginkgo. Kategoria produktu: Suplementy Diety > Samopoczucie i energia > Oczy i wzrok > Witaminy i makroelementy. Kod EAN: 5907377137412. SKU produktu: 5907377137412. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Ginkgo",
-      "categoryId": "887c536f-35d0-51dc-801d-eb39dd13f7d7",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5907377137412",
       "ean": "5907377137412"
     },
@@ -11729,7 +11729,7 @@
       "name": "Uromaxin + C",
       "description": "Marka: Uromaxin. Kategoria produktu: Suplementy Diety > Odporność. Kod EAN: 5903031280333. SKU produktu: 5903031280333. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Uromaxin",
-      "categoryId": "34c92fe8-b153-5814-b3ce-1688668dd190",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5903031280333",
       "ean": "5903031280333"
     },
@@ -11844,12 +11844,12 @@
       "ean": "3337875804431"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 43.08,
+        "amount": 54.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -12037,7 +12037,7 @@
       "name": "Collaflex Only 1",
       "description": "Marka: Collaflex. Kategoria produktu: Suplementy Diety > Kości i stawy > Kolagen. Kod EAN: 5904960017861. SKU produktu: 5904960017861. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Collaflex",
-      "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5904960017861",
       "ean": "5904960017861"
     },
@@ -12081,12 +12081,12 @@
       "name": "Collaflex Duo",
       "description": "Marka: Collaflex. Kategoria produktu: Suplementy Diety > Kości i stawy > Kolagen. Kod EAN: 5904960017755. SKU produktu: 5904960017755. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Collaflex",
-      "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5904960017755",
       "ean": "5904960017755"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 9,
       "unit": "UNIT"
     },
     "price": {
@@ -12125,7 +12125,7 @@
       "name": "Destresan Max",
       "description": "Marka: Destresan. Kategoria produktu: Suplementy Diety > Samopoczucie i energia > Pamięć i koncentracja. Kod EAN: 5904960017489. SKU produktu: 5904960017489. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Destresan",
-      "categoryId": "887c536f-35d0-51dc-801d-eb39dd13f7d7",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5904960017489",
       "ean": "5904960017489"
     },
@@ -12152,7 +12152,7 @@
       "ean": "5904960017496"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -12169,7 +12169,7 @@
       "name": "Capital Soleil Matujący krem do twarzy SPF 50+",
       "description": "Krem zapewnia wysoką ochronę UVA i UVB aby każdego dnia chronić skórę przed fotostarzeniem. Wzbogacony ekstraktem z zielonej glinki i Bifidusa kontroluje błyszczenie się skóry, sprawiając że skóra jest matowa. Chroni skórę przed zanieczyszczeniami, które mogą negatywnie wpływać na skórę, powodując jej uszkodzenie i zwiększoną produkcję sebum. Pozostawia uczucie oczyszczonej skóry do 12 godzin. Wzbogacony ekstraktem z zielonej glinki i Bifidusa kontroluje błyszczenie się skóry, sprawiając że skóra jest matowa. Kontroluje błyszczenie się skóry sprawiając, że skóra jest matowa. Szerokopasmowa ochrona UVA i UVB - SPF 50+ Z każdym użyciem redukuje wytwarzanie sebum, głęboko oczyszcza. Hipoalergiczny. Niekomedogenny krem chroni przed zanieczyszczeniami. Niewidoczny, szybko wchłania się w skórę, nie pozostawia białych śladów i daje efekt matowienia skóry.",
       "brand": "Capital",
-      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+      "categoryId": "68f5ca30-cd76-5c87-bea6-20d280bd1dd5",
       "sku": "3337875695176",
       "ean": "3337875695176"
     },
@@ -12301,12 +12301,12 @@
       "name": "K2-Vitum Forte",
       "description": "Marka: K2-Vitum. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Witaminy > Witamina K. Kod EAN: 5904960012071. SKU produktu: 5904960012071. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "K2-Vitum",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5904960012071",
       "ean": "5904960012071"
     },
     "stock": {
-      "quantity": 11,
+      "quantity": 9,
       "unit": "UNIT"
     },
     "price": {
@@ -12345,7 +12345,7 @@
       "name": "Skrzypolen",
       "description": "Marka: Skrzypolen. Kategoria produktu: Suplementy Diety > Uroda > Skóra, włosy i paznokcie. Kod EAN: 5904960017540. SKU produktu: 5904960017540. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Skrzypolen",
-      "categoryId": "6eafbcd7-ebde-5121-9f42-6e5a1395ccd9",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5904960017540",
       "ean": "5904960017540"
     },
@@ -12367,7 +12367,7 @@
       "name": "Skrzypolen 40+",
       "description": "Marka: Skrzypolen. Kategoria produktu: Suplementy Diety > Uroda > Odchudzanie. Kod EAN: 5904960016215. SKU produktu: 5904960016215. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Skrzypolen",
-      "categoryId": "6eafbcd7-ebde-5121-9f42-6e5a1395ccd9",
+      "categoryId": "49496570-e367-5cf8-b10d-31a786263c0c",
       "sku": "5904960016215",
       "ean": "5904960016215"
     },
@@ -12411,7 +12411,7 @@
       "name": "OleoVitum Czarnuszka",
       "description": "Marka: OleoVitum. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Witaminy > Witamina A. Kod EAN: 5904960015386. SKU produktu: 5904960015386. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "OleoVitum",
-      "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
+      "categoryId": "c344a95f-6783-5189-983a-505ec3c77bd2",
       "sku": "5904960015386",
       "ean": "5904960015386"
     },
@@ -12460,7 +12460,7 @@
       "ean": "5904960017731"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 8,
       "unit": "UNIT"
     },
     "price": {
@@ -12565,7 +12565,7 @@
       "name": "Sanprobi Stress",
       "description": "Marka: Sanprobi. Kategoria produktu: Macierzyństwo > Dla dzieci > Odporność. Kod EAN: 5907774335077. SKU produktu: 5907774335077. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Sanprobi",
-      "categoryId": "887c536f-35d0-51dc-801d-eb39dd13f7d7",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5907774335077",
       "ean": "5907774335077"
     },
@@ -12592,12 +12592,12 @@
       "ean": "5907774335022"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 22,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 33.09,
+        "amount": 41.25,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -12702,7 +12702,7 @@
       "ean": "5907774335053"
     },
     "stock": {
-      "quantity": 21,
+      "quantity": 14,
       "unit": "UNIT"
     },
     "price": {
@@ -12719,7 +12719,7 @@
       "name": "Sanprobi Active & Sport",
       "description": "Marka: Sanprobi. Kategoria produktu: Suplementy Diety > Sport i regeneracja > Aminokwasy dla sportowców. Kod EAN: 5907774335046. SKU produktu: 5907774335046. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Sanprobi",
-      "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5907774335046",
       "ean": "5907774335046"
     },
@@ -12790,12 +12790,12 @@
       "ean": "5902020661610"
     },
     "stock": {
-      "quantity": 14,
+      "quantity": 24,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 40.69,
+        "amount": 39.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -12895,7 +12895,7 @@
       "name": "Idealia Energetyzujący krem wygładzający do skóry suchej",
       "description": "Vichy Idealia to energetyzujący krem do codziennej pielęgnacji skóry, która wymaga odżywienia i intensywnego nawilżenia. Przeznaczony dla kobiet o skórze twarzy z widocznymi oznakami zmęczenia, pozbawionej blasku, z nierównomiernym kolorytem, z widocznymi porami, z pierwszymi zmarszczkami. Jego delikatna formuła wzbogacona polifenolami z jagód borówki oraz ekstraktem z czarnej herbaty działa wygładzająco na skórę, by przywrócić jej zdrowy wygląd oraz utracony blask i komfort. IDÉALIA wnika w głąb cery, by głęboko ją nawilżać, regenerować jej strukturę oraz sprawiać, że staje się gładsza i bardziej miękka w dotyku. Zawiera kojącą i wzmacniającą Wodę Termalną z Vichy bogatą w 15 minerałów. Krem pomoże w walce z nierównomiernym kolorytem, zatkanymi porami oraz z widocznym zmęczeniem oraz pierwszymi zmarszczkami. Lekka konsystencja posiada orzeźwiający zapach o kwiatowo-herbacianej nucie.",
       "brand": "Idealia",
-      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
       "sku": "3337875491563",
       "ean": "3337875491563"
     },
@@ -12922,12 +12922,12 @@
       "ean": "3337875774017"
     },
     "stock": {
-      "quantity": 0,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 149.59,
+        "amount": 148.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -12944,12 +12944,12 @@
       "ean": "3337875774031"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 153.99,
+        "amount": 143.75,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -12966,12 +12966,12 @@
       "ean": "3337875774086"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 135.32,
+        "amount": 156.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -12988,7 +12988,7 @@
       "ean": "3337875774161"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -13010,7 +13010,7 @@
       "ean": "5907698301622"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
@@ -13032,7 +13032,7 @@
       "ean": "5903060616158"
     },
     "stock": {
-      "quantity": 23,
+      "quantity": 16,
       "unit": "UNIT"
     },
     "price": {
@@ -13076,7 +13076,7 @@
       "ean": "5906204021696"
     },
     "stock": {
-      "quantity": 12,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
@@ -13093,7 +13093,7 @@
       "name": "Litorsal Slim",
       "description": "Marka: Litorsal. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały > Potas. Kod EAN: 5906204020927. SKU produktu: 5906204020927. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Litorsal",
-      "categoryId": "3ccc18b9-2ef8-557c-92aa-798b05f5575a",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5906204020927",
       "ean": "5906204020927"
     },
@@ -13115,17 +13115,17 @@
       "name": "Litorsal Grejpfrut",
       "description": "Marka: Litorsal. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały > Potas. Kod EAN: 5906204019921. SKU produktu: 5906204019921. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Litorsal",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5906204019921",
       "ean": "5906204019921"
     },
     "stock": {
-      "quantity": 18,
+      "quantity": 8,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 15.59,
+        "amount": 19.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -13142,7 +13142,7 @@
       "ean": "5906204006549"
     },
     "stock": {
-      "quantity": 28,
+      "quantity": 22,
       "unit": "UNIT"
     },
     "price": {
@@ -13159,7 +13159,7 @@
       "name": "Ibesan Maślan",
       "description": "Marka: Ibesan. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Jelito drażliwe. Kod EAN: 5906204021139. SKU produktu: 5906204021139. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Ibesan",
-      "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5906204021139",
       "ean": "5906204021139"
     },
@@ -13181,7 +13181,7 @@
       "name": "Ibesan Maślan Forte",
       "description": "Marka: Ibesan. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Jelito drażliwe. Kod EAN: 5906204021894. SKU produktu: 5906204021894. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Ibesan",
-      "categoryId": "94856222-e5d2-5c83-9a01-4f5ad5059821",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5906204021894",
       "ean": "5906204021894"
     },
@@ -13357,17 +13357,17 @@
       "name": "Sunnyday Pomadka do ust",
       "description": "Marka: Sunnyday. Kategoria produktu: Dermokosmetyki > do Twarzy > Pomadki i balsamy do ust. Kod EAN: 5900161004495. SKU produktu: 5900161004495. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Sunnyday",
-      "categoryId": "8d92b03d-075e-5d19-827d-0868ca456060",
+      "categoryId": "5bc600a1-9081-50dd-b3ee-e4697f1b74c0",
       "sku": "5900161004495",
       "ean": "5900161004495"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 19.25,
+        "amount": 19.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -13379,12 +13379,12 @@
       "name": "Everyday Pomadka do ust",
       "description": "Marka: Everyday. Kategoria produktu: Dermokosmetyki > do Twarzy > Pomadki i balsamy do ust. Kod EAN: 5900161004488. SKU produktu: 5900161004488. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Everyday",
-      "categoryId": "8d92b03d-075e-5d19-827d-0868ca456060",
+      "categoryId": "1563b6f0-b584-57d4-a677-49cca69bddfb",
       "sku": "5900161004488",
       "ean": "5900161004488"
     },
     "stock": {
-      "quantity": 10,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -13538,7 +13538,7 @@
       "ean": "3337875492799"
     },
     "stock": {
-      "quantity": 11,
+      "quantity": 10,
       "unit": "UNIT"
     },
     "price": {
@@ -13555,7 +13555,7 @@
       "name": "Coligas Fast Kapsułki",
       "description": "Marka: Coligas. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Trawienie. Kod EAN: 8032472010227. SKU produktu: 8032472010227. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Coligas",
-      "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "8032472010227",
       "ean": "8032472010227"
     },
@@ -13604,7 +13604,7 @@
       "ean": "8032472027515"
     },
     "stock": {
-      "quantity": 13,
+      "quantity": 14,
       "unit": "UNIT"
     },
     "price": {
@@ -13709,12 +13709,12 @@
       "name": "Ruscoven Kapsułki",
       "description": "Marka: Ruscoven. Kategoria produktu: Suplementy Diety > Kości i stawy > Układ krążenia. Kod EAN: 8032472004707. SKU produktu: 8032472004707. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Ruscoven",
-      "categoryId": "2209e67b-9c0a-514a-91bd-15af4128e35c",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "8032472004707",
       "ean": "8032472004707"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
@@ -13731,7 +13731,7 @@
       "name": "Vitamin C Naturcomplex",
       "description": "Marka: Vitamin. Kategoria produktu: Suplementy Diety > Odporność > Preparaty ziołowe. Kod EAN: 8032472020653. SKU produktu: 8032472020653. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Vitamin",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "8032472020653",
       "ean": "8032472020653"
     },
@@ -13819,7 +13819,7 @@
       "name": "Colostrum Genactiv Proszek z czarną porzeczką",
       "description": "Marka: Colostrum. Kategoria produktu: Suplementy Diety > Uroda > Skóra, włosy i paznokcie. Kod EAN: 5907546536015. SKU produktu: 5907546536015. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Colostrum",
-      "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
+      "categoryId": "c7a62bf0-04a3-5628-80cf-492af8129279",
       "sku": "5907546536015",
       "ean": "5907546536015"
     },
@@ -13885,7 +13885,7 @@
       "name": "Oryal o smaku limonkowym",
       "description": "Marka: Oryal. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Elektrolity. Kod EAN: 5903031280067. SKU produktu: 5903031280067. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Oryal",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5903031280067",
       "ean": "5903031280067"
     },
@@ -13956,7 +13956,7 @@
       "ean": "5902802701862"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -13978,7 +13978,7 @@
       "ean": "5902802703101"
     },
     "stock": {
-      "quantity": 16,
+      "quantity": 14,
       "unit": "UNIT"
     },
     "price": {
@@ -14000,12 +14000,12 @@
       "ean": "3662042003875"
     },
     "stock": {
-      "quantity": 18,
+      "quantity": 12,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 77.84,
+        "amount": 76.53,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -14039,7 +14039,7 @@
       "name": "Bodymax Świeży umysł",
       "description": "Marka: Bodymax. Kategoria produktu: Suplementy Diety > Samopoczucie i energia > Pamięć i koncentracja. Kod EAN: 5702071386995. SKU produktu: 5702071386995. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Bodymax",
-      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
+      "categoryId": "887c536f-35d0-51dc-801d-eb39dd13f7d7",
       "sku": "5702071386995",
       "ean": "5702071386995"
     },
@@ -14149,7 +14149,7 @@
       "name": "Möller’s Complex",
       "description": "Marka: Möller’s. Kategoria produktu: Suplementy Diety > Samopoczucie i energia > Oczy i wzrok. Kod EAN: 5702071389361. SKU produktu: 5702071389361. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Möller’s",
-      "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5702071389361",
       "ean": "5702071389361"
     },
@@ -14171,7 +14171,7 @@
       "name": "Möller’s Mój Pierwszy Tran Norweski",
       "description": "Marka: Möller’s. Kategoria produktu: Macierzyństwo > Dla dzieci > Odporność. Kod EAN: 7070866027612. SKU produktu: 7070866027612. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Möller’s",
-      "categoryId": "980dff7f-0c9f-5d05-a891-af73ba89084e",
+      "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
       "sku": "7070866027612",
       "ean": "7070866027612"
     },
@@ -14281,7 +14281,7 @@
       "name": "Miovelia Pro",
       "description": "Marka: Miovelia. Kategoria produktu: Macierzyństwo > Ciąża > Wspomaganie płodności. Kod EAN: 5907513003830. SKU produktu: 5907513003830. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Miovelia",
-      "categoryId": "a69627d6-3b1e-5dac-849b-f76bd8400068",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5907513003830",
       "ean": "5907513003830"
     },
@@ -14308,12 +14308,12 @@
       "ean": "5906190437068"
     },
     "stock": {
-      "quantity": 7,
+      "quantity": 8,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 42.89,
+        "amount": 35.11,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -14330,12 +14330,12 @@
       "ean": "5906716507145"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 13,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 43.99,
+        "amount": 39.17,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -14347,7 +14347,7 @@
       "name": "Pregna Plus bez żelaza",
       "description": "Marka: Pregna. Kategoria produktu: Macierzyństwo > Ciąża > Zestawy witamin dla kobiet w ciąży. Kod EAN: 5906190438348. SKU produktu: 5906190438348. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Pregna",
-      "categoryId": "a69627d6-3b1e-5dac-849b-f76bd8400068",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5906190438348",
       "ean": "5906190438348"
     },
@@ -14374,12 +14374,12 @@
       "ean": "5906716507633"
     },
     "stock": {
-      "quantity": 15,
+      "quantity": 17,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 33.29,
+        "amount": 33.84,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -14413,17 +14413,17 @@
       "name": "Ovarin",
       "description": "Marka: Ovarin. Kategoria produktu: Macierzyństwo > Ciąża > Wspomaganie płodności. Kod EAN: 5906716507770. SKU produktu: 5906716507770. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Ovarin",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5906716507770",
       "ean": "5906716507770"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 58.18,
+        "amount": 58.2,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -14435,7 +14435,7 @@
       "name": "TenfertilON",
       "description": "Marka: TenfertilON. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Dla mężczyzn. Kod EAN: 5907377532880. SKU produktu: 5907377532880. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "TenfertilON",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "9e7a71ca-82b4-56ba-9840-37fcabb17c3e",
       "sku": "5907377532880",
       "ean": "5907377532880"
     },
@@ -14479,7 +14479,7 @@
       "name": "Pueria Uno",
       "description": "Marka: Pueria. Kategoria produktu: Macierzyństwo > Ciąża > Zestawy witamin dla kobiet w ciąży. Kod EAN: 5903031283907. SKU produktu: 5903031283907. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Pueria",
-      "categoryId": "a69627d6-3b1e-5dac-849b-f76bd8400068",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5903031283907",
       "ean": "5903031283907"
     },
@@ -14501,7 +14501,7 @@
       "name": "Pueria Duo",
       "description": "Marka: Pueria. Kategoria produktu: Macierzyństwo > Ciąża > Zestawy witamin dla kobiet w ciąży. Kod EAN: 5903031283921. SKU produktu: 5903031283921. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Pueria",
-      "categoryId": "a69627d6-3b1e-5dac-849b-f76bd8400068",
+      "categoryId": "ebbe3af1-5787-5dc1-8502-c0ccf26ad2a1",
       "sku": "5903031283921",
       "ean": "5903031283921"
     },
@@ -14523,7 +14523,7 @@
       "name": "Pueria Magnez 100mg",
       "description": "Marka: Pueria. Kategoria produktu: Macierzyństwo > Ciąża > Zestawy witamin dla kobiet w ciąży. Kod EAN: 5903031287387. SKU produktu: 5903031287387. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Pueria",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5903031287387",
       "ean": "5903031287387"
     },
@@ -14633,12 +14633,12 @@
       "name": "Femibion 2 Ciąża",
       "description": "Marka: Femibion. Kategoria produktu: Macierzyństwo > Ciąża > Zestawy witamin dla kobiet w ciąży. Kod EAN: 5907589874693. SKU produktu: 5907589874693. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Femibion",
-      "categoryId": "a69627d6-3b1e-5dac-849b-f76bd8400068",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5907589874693",
       "ean": "5907589874693"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
@@ -14721,12 +14721,12 @@
       "name": "Primabiotic Collagen",
       "description": "Marka: Primabiotic. Kategoria produktu: Suplementy Diety > Kości i stawy > Kolagen. Kod EAN: 5907222805978. SKU produktu: 5907222805978. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Primabiotic",
-      "categoryId": "6eafbcd7-ebde-5121-9f42-6e5a1395ccd9",
+      "categoryId": "ab615d49-da5f-59c0-ae50-a412c2af348e",
       "sku": "5907222805978",
       "ean": "5907222805978"
     },
     "stock": {
-      "quantity": 11,
+      "quantity": 10,
       "unit": "UNIT"
     },
     "price": {
@@ -14831,12 +14831,12 @@
       "name": "4Flex",
       "description": "Marka: 4Flex. Kategoria produktu: Suplementy Diety > Kości i stawy > Kolagen. Kod EAN: 5903546006251. SKU produktu: 5903546006251. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "4Flex",
-      "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5903546006251",
       "ean": "5903546006251"
     },
     "stock": {
-      "quantity": 30,
+      "quantity": 27,
       "unit": "UNIT"
     },
     "price": {
@@ -14875,7 +14875,7 @@
       "name": "Remé Kolagenowa Formuła Piękna neutralna",
       "description": "Marka: Remé. Kategoria produktu: Suplementy Diety > Kości i stawy > Kolagen. Kod EAN: 5903031286540. SKU produktu: 5903031286540. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Remé",
-      "categoryId": "6eafbcd7-ebde-5121-9f42-6e5a1395ccd9",
+      "categoryId": "918e8953-0b21-58ee-aa24-118b0c276baf",
       "sku": "5903031286540",
       "ean": "5903031286540"
     },
@@ -14902,7 +14902,7 @@
       "ean": "5903031286526"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
@@ -14919,7 +14919,7 @@
       "name": "Doppelherz System Kollagen Beauty",
       "description": "Marka: Doppelherz. Kategoria produktu: Suplementy Diety > Kości i stawy > Kolagen. Kod EAN: 4009932575309. SKU produktu: 4009932575309. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Doppelherz",
-      "categoryId": "6eafbcd7-ebde-5121-9f42-6e5a1395ccd9",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "4009932575309",
       "ean": "4009932575309"
     },
@@ -14941,7 +14941,7 @@
       "name": "Merz Spezial Dragees",
       "description": "Marka: Merz. Kategoria produktu: Suplementy Diety > Kości i stawy > Kolagen. Kod EAN: 4008491127820. SKU produktu: 4008491127820. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Merz",
-      "categoryId": "6eafbcd7-ebde-5121-9f42-6e5a1395ccd9",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "4008491127820",
       "ean": "4008491127820"
     },
@@ -14990,7 +14990,7 @@
       "ean": "5902020661757"
     },
     "stock": {
-      "quantity": 23,
+      "quantity": 16,
       "unit": "UNIT"
     },
     "price": {
@@ -15012,7 +15012,7 @@
       "ean": "5902020661719"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -15078,7 +15078,7 @@
       "ean": "5907461319823"
     },
     "stock": {
-      "quantity": 0,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -15139,12 +15139,12 @@
       "name": "Biofer",
       "description": "Marka: Biofer. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały > Żelazo. Kod EAN: 5702071382690. SKU produktu: 5702071382690. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Biofer",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5702071382690",
       "ean": "5702071382690"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
@@ -15166,12 +15166,12 @@
       "ean": "5702071382706"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 28.25,
+        "amount": 36.29,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -15210,7 +15210,7 @@
       "ean": "5902020661634"
     },
     "stock": {
-      "quantity": 20,
+      "quantity": 25,
       "unit": "UNIT"
     },
     "price": {
@@ -15298,7 +15298,7 @@
       "ean": "5902802706447"
     },
     "stock": {
-      "quantity": 7,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
@@ -15381,12 +15381,12 @@
       "name": "Magne-B6 Zmęczenie i Stres",
       "description": "Marka: Magne-B6. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały > Magnez. Kod EAN: 5902502992331. SKU produktu: 5902502992331. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Magne-B6",
-      "categoryId": "887c536f-35d0-51dc-801d-eb39dd13f7d7",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5902502992331",
       "ean": "5902502992331"
     },
     "stock": {
-      "quantity": 10,
+      "quantity": 8,
       "unit": "UNIT"
     },
     "price": {
@@ -15513,7 +15513,7 @@
       "name": "Falvit Estro+",
       "description": "Marka: Falvit. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Dla kobiet. Kod EAN: 5904398335018. SKU produktu: 5904398335018. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Falvit",
-      "categoryId": "e8f03a8b-284f-5065-b098-f22bcec2893a",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5904398335018",
       "ean": "5904398335018"
     },
@@ -15535,17 +15535,17 @@
       "name": "Duo-FeM",
       "description": "Marka: Duo-FeM. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Dla kobiet. Kod EAN: 5906204015114. SKU produktu: 5906204015114. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Duo-FeM",
-      "categoryId": "e8f03a8b-284f-5065-b098-f22bcec2893a",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5906204015114",
       "ean": "5906204015114"
     },
     "stock": {
-      "quantity": 8,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 41.79,
+        "amount": 43.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -15777,7 +15777,7 @@
       "name": "Jasnum Comfort",
       "description": "Marka: Jasnum. Kategoria produktu: Suplementy Diety > Samopoczucie i energia > Globulki. Kod EAN: 5903031286472. SKU produktu: 5903031286472. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Jasnum",
-      "categoryId": "1a47024c-cba0-55c9-94b7-9f1234ef56d8",
+      "categoryId": "980dff7f-0c9f-5d05-a891-af73ba89084e",
       "sku": "5903031286472",
       "ean": "5903031286472"
     },
@@ -15953,12 +15953,12 @@
       "name": "Artresan Optima",
       "description": "Marka: Artresan. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały. Kod EAN: 5907377131922. SKU produktu: 5907377131922. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Artresan",
-      "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5907377131922",
       "ean": "5907377131922"
     },
     "stock": {
-      "quantity": 46,
+      "quantity": 44,
       "unit": "UNIT"
     },
     "price": {
@@ -15997,7 +15997,7 @@
       "name": "Duo Stawy",
       "description": "Marka: Duo. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały. Kod EAN: 5902891176343. SKU produktu: 5902891176343. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Duo",
-      "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5902891176343",
       "ean": "5902891176343"
     },
@@ -16085,7 +16085,7 @@
       "name": "Grinovita Imbir",
       "description": "Marka: Grinovita. Kategoria produktu: Suplementy Diety > Odporność. Kod EAN: 5901716993400. SKU produktu: 5901716993400. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Grinovita",
-      "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
+      "categoryId": "36b525a4-3717-5739-94c4-52485ed49732",
       "sku": "5901716993400",
       "ean": "5901716993400"
     },
@@ -16107,7 +16107,7 @@
       "name": "Grinovita Mama",
       "description": "Marka: Grinovita. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Dla kobiet. Kod EAN: 5906204021078. SKU produktu: 5906204021078. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Grinovita",
-      "categoryId": "a69627d6-3b1e-5dac-849b-f76bd8400068",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5906204021078",
       "ean": "5906204021078"
     },
@@ -16173,7 +16173,7 @@
       "name": "Olimp Selen 110 µg",
       "description": "Marka: Olimp. Kategoria produktu: Suplementy Diety > Uroda > Skóra, włosy i paznokcie. Kod EAN: 5901330039270. SKU produktu: 5901330039270. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Olimp",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5901330039270",
       "ean": "5901330039270"
     },
@@ -16217,7 +16217,7 @@
       "name": "Olimp Perceptin",
       "description": "Marka: Olimp. Kategoria produktu: Suplementy Diety > Samopoczucie i energia > Pamięć i koncentracja. Kod EAN: 5901330064203. SKU produktu: 5901330064203. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Olimp",
-      "categoryId": "887c536f-35d0-51dc-801d-eb39dd13f7d7",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5901330064203",
       "ean": "5901330064203"
     },
@@ -16283,7 +16283,7 @@
       "name": "Olimp Potas",
       "description": "Marka: Olimp. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały > Potas. Kod EAN: 5901330034008. SKU produktu: 5901330034008. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Olimp",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5901330034008",
       "ean": "5901330034008"
     },
@@ -16305,7 +16305,7 @@
       "name": "Olimp Essentix",
       "description": "Marka: Olimp. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Trawienie. Kod EAN: 5901330040245. SKU produktu: 5901330040245. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Olimp",
-      "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5901330040245",
       "ean": "5901330040245"
     },
@@ -16327,7 +16327,7 @@
       "name": "Olimp Guaranax",
       "description": "Marka: Olimp. Kategoria produktu: Suplementy Diety > Uroda > Odchudzanie. Kod EAN: 5901330073786. SKU produktu: 5901330073786. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Olimp",
-      "categoryId": "887c536f-35d0-51dc-801d-eb39dd13f7d7",
+      "categoryId": "ebbe3af1-5787-5dc1-8502-c0ccf26ad2a1",
       "sku": "5901330073786",
       "ean": "5901330073786"
     },
@@ -16371,7 +16371,7 @@
       "name": "Olimp Prostatan",
       "description": "Marka: Olimp. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Dla mężczyzn. Kod EAN: 5901330003639. SKU produktu: 5901330003639. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Olimp",
-      "categoryId": "34c92fe8-b153-5814-b3ce-1688668dd190",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5901330003639",
       "ean": "5901330003639"
     },
@@ -16459,17 +16459,17 @@
       "name": "Olimp Chela-Cynk",
       "description": "Marka: Olimp. Kategoria produktu: Suplementy Diety > Uroda > Skóra, włosy i paznokcie. Kod EAN: 5901330003905. SKU produktu: 5901330003905. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Olimp",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5901330003905",
       "ean": "5901330003905"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 19.79,
+        "amount": 14.98,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -16481,7 +16481,7 @@
       "name": "Olimp Kolonbiotic 7GG",
       "description": "Marka: Olimp. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Jelito drażliwe. Kod EAN: 5901330054457. SKU produktu: 5901330054457. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Olimp",
-      "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5901330054457",
       "ean": "5901330054457"
     },
@@ -16635,7 +16635,7 @@
       "name": "L'Biotica Home Spa Maska witaminowa C + E",
       "description": "Marka: L'Biotica. Kategoria produktu: Dermokosmetyki > do Twarzy > Maseczki i peeling. Kod EAN: 5907636934806. SKU produktu: 5907636934806. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "L'Biotica",
-      "categoryId": "2c51605b-cab7-5f1e-99c5-4b2100f332b3",
+      "categoryId": "461288a1-9b48-5387-8a0e-00eef126099d",
       "sku": "5907636934806",
       "ean": "5907636934806"
     },
@@ -16833,7 +16833,7 @@
       "name": "L'Biotica Dermomask Maseczka bąbelkowa Bubble mask złoto 24k aktywny węgiel",
       "description": "Marka: L'Biotica. Kategoria produktu: Dermokosmetyki > do Twarzy > Maseczki i peeling. Kod EAN: 5903246244267. SKU produktu: 5903246244267. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "L'Biotica",
-      "categoryId": "2c51605b-cab7-5f1e-99c5-4b2100f332b3",
+      "categoryId": "461288a1-9b48-5387-8a0e-00eef126099d",
       "sku": "5903246244267",
       "ean": "5903246244267"
     },
@@ -16948,7 +16948,7 @@
       "ean": "5905279070066"
     },
     "stock": {
-      "quantity": 24,
+      "quantity": 22,
       "unit": "UNIT"
     },
     "price": {
@@ -17058,7 +17058,7 @@
       "ean": "5905279070103"
     },
     "stock": {
-      "quantity": 181,
+      "quantity": 172,
       "unit": "UNIT"
     },
     "price": {
@@ -17405,7 +17405,7 @@
       "name": "Olimp Chrom Activ",
       "description": "Marka: Olimp. Kategoria produktu: Suplementy Diety > Uroda > Odchudzanie. Kod EAN: 5901330034114. SKU produktu: 5901330034114. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Olimp",
-      "categoryId": "3ccc18b9-2ef8-557c-92aa-798b05f5575a",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5901330034114",
       "ean": "5901330034114"
     },
@@ -17449,7 +17449,7 @@
       "name": "Olimp Odpormax Forte",
       "description": "Marka: Olimp. Kategoria produktu: Suplementy Diety > Odporność > Oleje i trany. Kod EAN: 5901330078927. SKU produktu: 5901330078927. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Olimp",
-      "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5901330078927",
       "ean": "5901330078927"
     },
@@ -17471,7 +17471,7 @@
       "name": "Olimp Forsen Forte z walerianą",
       "description": "Marka: Olimp. Kategoria produktu: Suplementy Diety > Samopoczucie i energia > Bezsenność. Kod EAN: 5901330080128. SKU produktu: 5901330080128. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Olimp",
-      "categoryId": "887c536f-35d0-51dc-801d-eb39dd13f7d7",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5901330080128",
       "ean": "5901330080128"
     },
@@ -17559,12 +17559,12 @@
       "name": "Olimp Gold-Luteina",
       "description": "Marka: Olimp. Kategoria produktu: Suplementy Diety > Samopoczucie i energia > Oczy i wzrok > Witaminy i makroelementy. Kod EAN: 5901330039058. SKU produktu: 5901330039058. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Olimp",
-      "categoryId": "bb0fb27a-aee1-5686-97c8-f066b0d766e5",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5901330039058",
       "ean": "5901330039058"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -17586,12 +17586,12 @@
       "ean": "5901330013744"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 9,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 39.81,
+        "amount": 33.33,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -17608,7 +17608,7 @@
       "ean": "5901330009563"
     },
     "stock": {
-      "quantity": 56,
+      "quantity": 53,
       "unit": "UNIT"
     },
     "price": {
@@ -17652,7 +17652,7 @@
       "ean": "5901330014734"
     },
     "stock": {
-      "quantity": 11,
+      "quantity": 10,
       "unit": "UNIT"
     },
     "price": {
@@ -17669,12 +17669,12 @@
       "name": "Olimp Chela-Ferr Forte",
       "description": "Marka: Olimp. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Cholesterol. Kod EAN: 5901330026416. SKU produktu: 5901330026416. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Olimp",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5901330026416",
       "ean": "5901330026416"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -17696,12 +17696,12 @@
       "ean": "5901330010651"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 20.27,
+        "amount": 25.85,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -17740,7 +17740,7 @@
       "ean": "5901330043505"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -17757,7 +17757,7 @@
       "name": "Solgar Lukrecja wyciąg z korzenia",
       "description": "Marka: Solgar. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Metabolizm. Kod EAN: 0033984041189. SKU produktu: 0033984041189. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Solgar",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
       "sku": "0033984041189",
       "ean": "0033984041189"
     },
@@ -17806,7 +17806,7 @@
       "ean": "0033984022607"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
@@ -17823,17 +17823,17 @@
       "name": "Solgar Magnez cytrynian",
       "description": "Marka: Solgar. Kategoria produktu: Suplementy Diety > Kości i stawy > Układ krążenia. Kod EAN: 0033984017108. SKU produktu: 0033984017108. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Solgar",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "0033984017108",
       "ean": "0033984017108"
     },
     "stock": {
-      "quantity": 0,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 74.79,
+        "amount": 63.1,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -17889,7 +17889,7 @@
       "name": "Solgar Izoflawony sojowe",
       "description": "Marka: Solgar. Kategoria produktu: Suplementy Diety > Samopoczucie i energia > Menopauza. Kod EAN: 0033984014787. SKU produktu: 0033984014787. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Solgar",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "e8f03a8b-284f-5065-b098-f22bcec2893a",
       "sku": "0033984014787",
       "ean": "0033984014787"
     },
@@ -17911,7 +17911,7 @@
       "name": "Solgar Imbir lekarski",
       "description": "Marka: Solgar. Kategoria produktu: Suplementy Diety > Odporność > Preparaty ziołowe. Kod EAN: 0033984041264. SKU produktu: 0033984041264. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Solgar",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
       "sku": "0033984041264",
       "ean": "0033984041264"
     },
@@ -17999,7 +17999,7 @@
       "name": "Solgar Gentle Iron 20mg",
       "description": "Marka: Solgar. Kategoria produktu: Suplementy Diety > Kości i stawy > Układ krążenia. Kod EAN: 0033984012493. SKU produktu: 0033984012493. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Solgar",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "0033984012493",
       "ean": "0033984012493"
     },
@@ -18087,7 +18087,7 @@
       "name": "Solgar Amino 75",
       "description": "Marka: Solgar. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Metabolizm. Kod EAN: 0033984001008. SKU produktu: 0033984001008. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Solgar",
-      "categoryId": "e8f03a8b-284f-5065-b098-f22bcec2893a",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "0033984001008",
       "ean": "0033984001008"
     },
@@ -18197,7 +18197,7 @@
       "name": "Solgar Modulatory glukozy",
       "description": "Marka: Solgar. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Metabolizm. Kod EAN: 0033984012950. SKU produktu: 0033984012950. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Solgar",
-      "categoryId": "3ccc18b9-2ef8-557c-92aa-798b05f5575a",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "0033984012950",
       "ean": "0033984012950"
     },
@@ -18219,7 +18219,7 @@
       "name": "Solgar Witamina D3 4000IU",
       "description": "Marka: Solgar. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 0033984002951. SKU produktu: 0033984002951. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Solgar",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "0033984002951",
       "ean": "0033984002951"
     },
@@ -18373,7 +18373,7 @@
       "name": "Solgar Advanced Multi-Billion Dophilus",
       "description": "Marka: Solgar. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 0033984007659. SKU produktu: 0033984007659. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Solgar",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
       "sku": "0033984007659",
       "ean": "0033984007659"
     },
@@ -18505,7 +18505,7 @@
       "name": "Solgar Omega 3-6-9",
       "description": "Marka: Solgar. Kategoria produktu: Suplementy Diety > Samopoczucie i energia > Oczy i wzrok. Kod EAN: 0033984020276. SKU produktu: 0033984020276. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Solgar",
-      "categoryId": "2209e67b-9c0a-514a-91bd-15af4128e35c",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "0033984020276",
       "ean": "0033984020276"
     },
@@ -18659,7 +18659,7 @@
       "name": "Solgar Kompleks witamin B i witaminy C",
       "description": "Marka: Solgar. Kategoria produktu: Suplementy Diety > Kości i stawy > Układ krążenia. Kod EAN: 0033984006744. SKU produktu: 0033984006744. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Solgar",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "0033984006744",
       "ean": "0033984006744"
     },
@@ -18681,7 +18681,7 @@
       "name": "Solgar Witamina C 500mg pastylki do ssania żurawinowo-malinowe",
       "description": "Marka: Solgar. Kategoria produktu: Suplementy Diety > Odporność. Kod EAN: 0033984004085. SKU produktu: 0033984004085. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Solgar",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "0033984004085",
       "ean": "0033984004085"
     },
@@ -18725,7 +18725,7 @@
       "name": "Solgar Ashwagandha",
       "description": "Marka: Solgar. Kategoria produktu: Suplementy Diety > Samopoczucie i energia > Adaptogeny. Kod EAN: 0033984003484. SKU produktu: 0033984003484. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Solgar",
-      "categoryId": "887c536f-35d0-51dc-801d-eb39dd13f7d7",
+      "categoryId": "49496570-e367-5cf8-b10d-31a786263c0c",
       "sku": "0033984003484",
       "ean": "0033984003484"
     },
@@ -18752,12 +18752,12 @@
       "ean": "0033984041318"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 128.69,
+        "amount": 136.39,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -18857,7 +18857,7 @@
       "name": "Solgar Beta Glukany",
       "description": "Marka: Solgar. Kategoria produktu: Suplementy Diety > Odporność. Kod EAN: 0033984002357. SKU produktu: 0033984002357. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Solgar",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
       "sku": "0033984002357",
       "ean": "0033984002357"
     },
@@ -19033,7 +19033,7 @@
       "name": "Solgar Jelitowa Flora Bakteryjna",
       "description": "Marka: Solgar. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 0033984007635. SKU produktu: 0033984007635. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Solgar",
-      "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "0033984007635",
       "ean": "0033984007635"
     },
@@ -19055,7 +19055,7 @@
       "name": "Solgar Żurawina",
       "description": "Marka: Solgar. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Dla mężczyzn > Układ moczowy. Kod EAN: 0033984009554. SKU produktu: 0033984009554. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Solgar",
-      "categoryId": "34c92fe8-b153-5814-b3ce-1688668dd190",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "0033984009554",
       "ean": "0033984009554"
     },
@@ -19197,7 +19197,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 19.79,
+        "amount": 20.35,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -19329,7 +19329,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 21.99,
+        "amount": 20.89,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -19346,7 +19346,7 @@
       "ean": "5902020661375"
     },
     "stock": {
-      "quantity": 43,
+      "quantity": 19,
       "unit": "UNIT"
     },
     "price": {
@@ -19368,7 +19368,7 @@
       "ean": "5902020661405"
     },
     "stock": {
-      "quantity": 104,
+      "quantity": 97,
       "unit": "UNIT"
     },
     "price": {
@@ -19434,7 +19434,7 @@
       "ean": "5900161006093"
     },
     "stock": {
-      "quantity": 14,
+      "quantity": 9,
       "unit": "UNIT"
     },
     "price": {
@@ -19451,7 +19451,7 @@
       "name": "Potazek Max",
       "description": "Marka: Potazek. Kategoria produktu: Suplementy Diety > Kości i stawy > Układ mięśniowy. Kod EAN: 5900161006086. SKU produktu: 5900161006086. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Potazek",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5900161006086",
       "ean": "5900161006086"
     },
@@ -19478,7 +19478,7 @@
       "ean": "5902020661030"
     },
     "stock": {
-      "quantity": 14,
+      "quantity": 13,
       "unit": "UNIT"
     },
     "price": {
@@ -19500,7 +19500,7 @@
       "ean": "5901720140258"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -19539,7 +19539,7 @@
       "name": "MultiProsti",
       "description": "Marka: MultiProsti. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Dla mężczyzn. Kod EAN: 5901720140043. SKU produktu: 5901720140043. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "MultiProsti",
-      "categoryId": "9e7a71ca-82b4-56ba-9840-37fcabb17c3e",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5901720140043",
       "ean": "5901720140043"
     },
@@ -19583,7 +19583,7 @@
       "name": "Suncare Mineralny krem ochronny",
       "description": "Marka: Suncare. Kategoria produktu: Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna. Kod EAN: 5902502330614. SKU produktu: 5902502330614. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Suncare",
-      "categoryId": "5bc600a1-9081-50dd-b3ee-e4697f1b74c0",
+      "categoryId": "68f5ca30-cd76-5c87-bea6-20d280bd1dd5",
       "sku": "5902502330614",
       "ean": "5902502330614"
     },
@@ -19747,7 +19747,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 31.35,
+        "amount": 34.65,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -19879,7 +19879,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 31.89,
+        "amount": 28.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -20045,7 +20045,7 @@
       "name": "Bioliq Aktywna kuracja stymulująca",
       "description": "Marka: Bioliq. Kategoria produktu: Dermokosmetyki > do Twarzy. Kod EAN: 5906071046907. SKU produktu: 5906071046907. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Bioliq",
-      "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
+      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
       "sku": "5906071046907",
       "ean": "5906071046907"
     },
@@ -20121,7 +20121,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 57.19,
+        "amount": 65.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -20133,7 +20133,7 @@
       "name": "Bioliq Antyperspirant 48h",
       "description": "Marka: Bioliq. Kategoria produktu: Dermokosmetyki > do Ciała > Dezodoranty i antyperspiranty. Kod EAN: 5906071044651. SKU produktu: 5906071044651. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Bioliq",
-      "categoryId": "71b2a65e-1d7c-53df-a72d-11f5b00a4c4c",
+      "categoryId": "ba99ed57-c512-5ee3-8751-6372ca4bfa59",
       "sku": "5906071044651",
       "ean": "5906071044651"
     },
@@ -20231,7 +20231,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 28.05,
+        "amount": 30.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -20556,7 +20556,7 @@
       "ean": "5904386000683"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -20578,7 +20578,7 @@
       "ean": "5904386000614"
     },
     "stock": {
-      "quantity": 9,
+      "quantity": 8,
       "unit": "UNIT"
     },
     "price": {
@@ -20688,7 +20688,7 @@
       "ean": "5908229301715"
     },
     "stock": {
-      "quantity": 7,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
@@ -20732,7 +20732,7 @@
       "ean": "5909990683727"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -20798,12 +20798,12 @@
       "ean": "5060072605898"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 68.34,
+        "amount": 66.16,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -20820,12 +20820,12 @@
       "ean": "5060072605904"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 76.99,
+        "amount": 66.16,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -20842,12 +20842,12 @@
       "ean": "5060072606451"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 127.12,
+        "amount": 122.08,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -20903,7 +20903,7 @@
       "name": "Biotebal Effect Szampon przeciw wypadaniu włosów",
       "description": "Marka: Biotebal. Kategoria produktu: Dermokosmetyki > do Włosów > Szampony do włosów. Kod EAN: 5903060621985. SKU produktu: 5903060621985. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Biotebal",
-      "categoryId": "8f113915-61d7-5b63-82fc-0e3fc440296a",
+      "categoryId": "30bb2b20-69c1-531d-900b-46a4ffc0443b",
       "sku": "5903060621985",
       "ean": "5903060621985"
     },
@@ -20991,7 +20991,7 @@
       "name": "Biotebal Serum wzmacniające do paznokci",
       "description": "Marka: Biotebal. Kategoria produktu: Dermokosmetyki > do Ciała > Serum do paznokci. Kod EAN: 5903060616875. SKU produktu: 5903060616875. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Biotebal",
-      "categoryId": "6eafbcd7-ebde-5121-9f42-6e5a1395ccd9",
+      "categoryId": "8b27f4a7-6e81-5e2a-bebf-7b69d2cf3f5f",
       "sku": "5903060616875",
       "ean": "5903060616875"
     },
@@ -21145,7 +21145,7 @@
       "name": "Witamina C CBC",
       "description": "Marka: Witamina. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Witaminy > Witamina C. Kod EAN: 5902709522126. SKU produktu: 5902709522126. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Witamina",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5902709522126",
       "ean": "5902709522126"
     },
@@ -21255,7 +21255,7 @@
       "name": "Colostrum Genactiv Maska",
       "description": "Marka: Colostrum. Kategoria produktu: Dermokosmetyki > do Włosów > Maski do włosów. Kod EAN: 5907546536190. SKU produktu: 5907546536190. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Colostrum",
-      "categoryId": "26b93d9e-7926-5018-ba32-1ccfbe717288",
+      "categoryId": "078dc602-369a-50a3-8cb1-c57828881208",
       "sku": "5907546536190",
       "ean": "5907546536190"
     },
@@ -21277,7 +21277,7 @@
       "name": "Colostrum Genactiv Serum",
       "description": "Marka: Colostrum. Kategoria produktu: Dermokosmetyki > do Włosów > Serum i olejki do włosów. Kod EAN: 5907546536268. SKU produktu: 5907546536268. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Colostrum",
-      "categoryId": "27059afd-df03-563f-96c8-9d83a825573f",
+      "categoryId": "2cc600df-24c6-5e5a-a35f-10fa2528b776",
       "sku": "5907546536268",
       "ean": "5907546536268"
     },
@@ -21321,12 +21321,12 @@
       "name": "Ascorvita Max 1000mg",
       "description": "Marka: Ascorvita. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały > Cynk. Kod EAN: 5906204019655. SKU produktu: 5906204019655. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Ascorvita",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5906204019655",
       "ean": "5906204019655"
     },
     "stock": {
-      "quantity": 57,
+      "quantity": 56,
       "unit": "UNIT"
     },
     "price": {
@@ -21343,12 +21343,12 @@
       "name": "TriSulin",
       "description": "Marka: TriSulin. Kategoria produktu: Suplementy Diety > Uroda > Odchudzanie. Kod EAN: 5906204021962. SKU produktu: 5906204021962. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "TriSulin",
-      "categoryId": "3ccc18b9-2ef8-557c-92aa-798b05f5575a",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "5906204021962",
       "ean": "5906204021962"
     },
     "stock": {
-      "quantity": 17,
+      "quantity": 13,
       "unit": "UNIT"
     },
     "price": {
@@ -21365,7 +21365,7 @@
       "name": "Age Lift Krem pod oczy",
       "description": "Marka: Age. Kategoria produktu: Dermokosmetyki > do Twarzy > Kremy pod oczy. Kod EAN: 5907734713730. SKU produktu: 5907734713730. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Age",
-      "categoryId": "e4d0dca1-b497-517a-bf1b-8f0c5d393b94",
+      "categoryId": "65e3ce84-7c3f-564c-b549-b9f729fbca89",
       "sku": "5907734713730",
       "ean": "5907734713730"
     },
@@ -21783,7 +21783,7 @@
       "name": "Hydro Sensitia Krem ochronny z lipidami na zimę SPF 20",
       "description": "Marka: Hydro. Kategoria produktu: Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna. Kod EAN: 5902502329618. SKU produktu: 5902502329618. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Hydro",
-      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+      "categoryId": "68f5ca30-cd76-5c87-bea6-20d280bd1dd5",
       "sku": "5902502329618",
       "ean": "5902502329618"
     },
@@ -22179,7 +22179,7 @@
       "name": "Solecrin Spray ochronny dla dzieci SPF 50+",
       "description": "Marka: Solecrin. Kategoria produktu: Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna. Kod EAN: 5907734712788. SKU produktu: 5907734712788. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Solecrin",
-      "categoryId": "68f5ca30-cd76-5c87-bea6-20d280bd1dd5",
+      "categoryId": "1d4767dd-f4b8-5688-b6c8-8e583ae04c6f",
       "sku": "5907734712788",
       "ean": "5907734712788"
     },
@@ -22206,12 +22206,12 @@
       "ean": "4009932575439"
     },
     "stock": {
-      "quantity": 7,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 131.99,
+        "amount": 142.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -22228,7 +22228,7 @@
       "ean": "5903111160135"
     },
     "stock": {
-      "quantity": 33,
+      "quantity": 32,
       "unit": "UNIT"
     },
     "price": {
@@ -22294,12 +22294,12 @@
       "ean": "3282770155020"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 87.99,
+        "amount": 63.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -22316,12 +22316,12 @@
       "ean": "3282770390476"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 53.15,
+        "amount": 55.81,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -22343,7 +22343,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 62.99,
+        "amount": 71.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -22382,7 +22382,7 @@
       "ean": "3282779003124"
     },
     "stock": {
-      "quantity": 22,
+      "quantity": 32,
       "unit": "UNIT"
     },
     "price": {
@@ -22426,12 +22426,12 @@
       "ean": "3282770393477"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 182.67,
+        "amount": 135.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -22448,12 +22448,12 @@
       "ean": "3282770393408"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 153.99,
+        "amount": 111.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -22475,7 +22475,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 127.59,
+        "amount": 92.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -22492,12 +22492,12 @@
       "ean": "3282770393507"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 175.99,
+        "amount": 127.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -22536,12 +22536,12 @@
       "ean": "3282770204681"
     },
     "stock": {
-      "quantity": 21,
+      "quantity": 18,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 74.79,
+        "amount": 67.53,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -22575,7 +22575,7 @@
       "name": "Eau Thermale Avène - Odżywczy krem rewitalizujący",
       "description": "Marka: Eau. Kategoria produktu: Dermokosmetyki > do Twarzy > Kremy na dzień. Kod EAN: 3282770209396. SKU produktu: 3282770209396. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Eau",
-      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+      "categoryId": "6ec86709-bd13-5454-8345-3ac543ebf480",
       "sku": "3282770209396",
       "ean": "3282770209396"
     },
@@ -22585,7 +22585,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 120.99,
+        "amount": 87.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -22602,7 +22602,7 @@
       "ean": "3282770393620"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -22629,7 +22629,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 80.29,
+        "amount": 58.39,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -22651,7 +22651,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 87.99,
+        "amount": 63.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -22685,7 +22685,7 @@
       "name": "Seboradin Revitalizing - Maska do włosów suchych i zniszczonych",
       "description": "Marka: Seboradin. Kategoria produktu: Dermokosmetyki > do Włosów > Maski do włosów. Kod EAN: 5904730878081. SKU produktu: 5904730878081. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Seboradin",
-      "categoryId": "f37f4f67-807b-5255-ad4a-7cdb98081931",
+      "categoryId": "fba41277-4198-5b45-aca6-cbc3c0f153b9",
       "sku": "5904730878081",
       "ean": "5904730878081"
     },
@@ -22932,7 +22932,7 @@
       "ean": "3522931003761"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -22993,17 +22993,17 @@
       "name": "Caudalie Vinosun Protect - Krem o bardzo wysokiej ochronie SPF30+",
       "description": "Marka: Caudalie. Kategoria produktu: Dermokosmetyki > do Twarzy > Kremy na dzień. Kod EAN: 3522930003755. SKU produktu: 3522930003755. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Caudalie",
-      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+      "categoryId": "68f5ca30-cd76-5c87-bea6-20d280bd1dd5",
       "sku": "3522930003755",
       "ean": "3522930003755"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 45.46,
+        "amount": 76.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -23064,7 +23064,7 @@
       "ean": "3522930003236"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -23817,7 +23817,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 60.49,
+        "amount": 43.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -23839,7 +23839,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 43.99,
+        "amount": 31.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -23861,7 +23861,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 59.39,
+        "amount": 43.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -23883,7 +23883,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 56.09,
+        "amount": 40.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -23905,7 +23905,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 72.59,
+        "amount": 52.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -23949,7 +23949,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 42.89,
+        "amount": 31.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -23971,7 +23971,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 42.89,
+        "amount": 31.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -23993,7 +23993,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 54.99,
+        "amount": 39.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -24015,7 +24015,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 87.99,
+        "amount": 63.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -24032,12 +24032,12 @@
       "ean": "3282770390469"
     },
     "stock": {
-      "quantity": 7,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 131.99,
+        "amount": 95.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -24059,7 +24059,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 72.59,
+        "amount": 52.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -24098,7 +24098,7 @@
       "ean": "3522930004585"
     },
     "stock": {
-      "quantity": 10,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
@@ -24120,7 +24120,7 @@
       "ean": "3522930004608"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -24164,7 +24164,7 @@
       "ean": "3522930003281"
     },
     "stock": {
-      "quantity": 11,
+      "quantity": 9,
       "unit": "UNIT"
     },
     "price": {
@@ -24208,7 +24208,7 @@
       "ean": "3522930004318"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -24230,7 +24230,7 @@
       "ean": "3522930004325"
     },
     "stock": {
-      "quantity": 16,
+      "quantity": 15,
       "unit": "UNIT"
     },
     "price": {
@@ -24274,7 +24274,7 @@
       "ean": "3522930004363"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -24379,7 +24379,7 @@
       "name": "Caudalie Vinocrush - Krem CC - Odcień 1",
       "description": "Marka: Caudalie. Kategoria produktu: Dermokosmetyki > do Ciała > Balsamy do paznokci. Kod EAN: 3522930004097. SKU produktu: 3522930004097. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Caudalie",
-      "categoryId": "c5c6e436-4f60-5e84-8d09-aa2fdca0d919",
+      "categoryId": "be442cf4-be3f-5165-a596-78a9c49eaabd",
       "sku": "3522930004097",
       "ean": "3522930004097"
     },
@@ -24494,12 +24494,12 @@
       "ean": "3522930003595"
     },
     "stock": {
-      "quantity": 24,
+      "quantity": 14,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 17.59,
+        "amount": 21.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -24511,7 +24511,7 @@
       "name": "Caudalie Vinotherapist<sup>™</sup> - Krem do stóp",
       "description": "Marka: Caudalie. Kategoria produktu: Dermokosmetyki > do Włosów > Bloker. Kod EAN: 3522930003977. SKU produktu: 3522930003977. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Caudalie",
-      "categoryId": "6bbabeff-7c85-520e-9b5b-ea7f36974775",
+      "categoryId": "be442cf4-be3f-5165-a596-78a9c49eaabd",
       "sku": "3522930003977",
       "ean": "3522930003977"
     },
@@ -24533,7 +24533,7 @@
       "name": "Caudalie Vinotherapist<sup>™</sup> - Regenerujący krem do rąk i paznokci",
       "description": "Marka: Caudalie. Kategoria produktu: Dermokosmetyki > do Ciała > Balsamy do paznokci. Kod EAN: 3522930003618. SKU produktu: 3522930003618. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Caudalie",
-      "categoryId": "6bbabeff-7c85-520e-9b5b-ea7f36974775",
+      "categoryId": "be442cf4-be3f-5165-a596-78a9c49eaabd",
       "sku": "3522930003618",
       "ean": "3522930003618"
     },
@@ -24560,7 +24560,7 @@
       "ean": "3522931003655"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -24626,7 +24626,7 @@
       "ean": "3522930003847"
     },
     "stock": {
-      "quantity": 33,
+      "quantity": 32,
       "unit": "UNIT"
     },
     "price": {
@@ -24648,7 +24648,7 @@
       "ean": "3522930003854"
     },
     "stock": {
-      "quantity": 30,
+      "quantity": 29,
       "unit": "UNIT"
     },
     "price": {
@@ -24670,7 +24670,7 @@
       "ean": "3522930003861"
     },
     "stock": {
-      "quantity": 22,
+      "quantity": 21,
       "unit": "UNIT"
     },
     "price": {
@@ -24692,7 +24692,7 @@
       "ean": "3522930004417"
     },
     "stock": {
-      "quantity": 51,
+      "quantity": 50,
       "unit": "UNIT"
     },
     "price": {
@@ -24709,7 +24709,7 @@
       "name": "Caudalie - Delikatny szampon do włosów",
       "description": "Marka: Caudalie. Kategoria produktu: Dermokosmetyki > do Włosów > Szampony do włosów. Kod EAN: 3522930004141. SKU produktu: 3522930004141. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Caudalie",
-      "categoryId": "8f113915-61d7-5b63-82fc-0e3fc440296a",
+      "categoryId": "30bb2b20-69c1-531d-900b-46a4ffc0443b",
       "sku": "3522930004141",
       "ean": "3522930004141"
     },
@@ -24802,7 +24802,7 @@
       "ean": "3522930004240"
     },
     "stock": {
-      "quantity": 18,
+      "quantity": 17,
       "unit": "UNIT"
     },
     "price": {
@@ -24824,7 +24824,7 @@
       "ean": "3522930004516"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -24846,7 +24846,7 @@
       "ean": "3522930004257"
     },
     "stock": {
-      "quantity": 9,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -24912,7 +24912,7 @@
       "ean": "3522930004288"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -24951,7 +24951,7 @@
       "name": "Caudalie Resveratrol-lift - Fluid kaszmir liftingujący",
       "description": "Marka: Caudalie. Kategoria produktu: Dermokosmetyki > do Twarzy > Fluid. Kod EAN: 3522930004523. SKU produktu: 3522930004523. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Caudalie",
-      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+      "categoryId": "7631e7cb-11cc-5526-8658-f8c873dbecec",
       "sku": "3522930004523",
       "ean": "3522930004523"
     },
@@ -24978,7 +24978,7 @@
       "ean": "3522930004042"
     },
     "stock": {
-      "quantity": 36,
+      "quantity": 34,
       "unit": "UNIT"
     },
     "price": {
@@ -25044,7 +25044,7 @@
       "ean": "3522930003304"
     },
     "stock": {
-      "quantity": 13,
+      "quantity": 12,
       "unit": "UNIT"
     },
     "price": {
@@ -25083,7 +25083,7 @@
       "name": "Caudalie Vinoclean - Delikatny krem peelingujący",
       "description": "Marka: Caudalie. Kategoria produktu: Dermokosmetyki > do Ciała > Kremy, balsamy i masła. Kod EAN: 3522930003038. SKU produktu: 3522930003038. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Caudalie",
-      "categoryId": "d9f63c88-5fd9-5b21-9aef-90d9420a2dd1",
+      "categoryId": "91ef0a45-29de-533d-b3d6-483b166b9dec",
       "sku": "3522930003038",
       "ean": "3522930003038"
     },
@@ -25154,12 +25154,12 @@
       "ean": "3282770389623"
     },
     "stock": {
-      "quantity": 14,
+      "quantity": 10,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 55.99,
+        "amount": 63.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -25176,7 +25176,7 @@
       "ean": "3282770396300"
     },
     "stock": {
-      "quantity": 16,
+      "quantity": 14,
       "unit": "UNIT"
     },
     "price": {
@@ -25215,7 +25215,7 @@
       "name": "Metarecod",
       "description": "Marka: Metarecod. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Cholesterol. Kod EAN: 8032472020981. SKU produktu: 8032472020981. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Metarecod",
-      "categoryId": "3ccc18b9-2ef8-557c-92aa-798b05f5575a",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
       "sku": "8032472020981",
       "ean": "8032472020981"
     },
@@ -25242,7 +25242,7 @@
       "ean": "5903031287585"
     },
     "stock": {
-      "quantity": 7,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -25286,7 +25286,7 @@
       "ean": "5908229303504"
     },
     "stock": {
-      "quantity": 9,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -25308,7 +25308,7 @@
       "ean": "5908229303276"
     },
     "stock": {
-      "quantity": 20,
+      "quantity": 18,
       "unit": "UNIT"
     },
     "price": {
@@ -25660,7 +25660,7 @@
       "ean": "3522930005087"
     },
     "stock": {
-      "quantity": 11,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -25687,7 +25687,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 439.99,
+        "amount": 319.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -25748,7 +25748,7 @@
       "ean": "3282779441476"
     },
     "stock": {
-      "quantity": 32,
+      "quantity": 30,
       "unit": "UNIT"
     },
     "price": {
@@ -25770,7 +25770,7 @@
       "ean": "3282779441483"
     },
     "stock": {
-      "quantity": 47,
+      "quantity": 44,
       "unit": "UNIT"
     },
     "price": {
@@ -25836,7 +25836,7 @@
       "ean": "3522930004554"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -25897,12 +25897,12 @@
       "name": "Niacynobaza 25% - Serum",
       "description": "Marka: Niacynobaza. Kategoria produktu: Dermokosmetyki > do Twarzy > Serum do twarzy. Kod EAN: 5907573300399. SKU produktu: 5907573300399. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Niacynobaza",
-      "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
+      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
       "sku": "5907573300399",
       "ean": "5907573300399"
     },
     "stock": {
-      "quantity": 35,
+      "quantity": 32,
       "unit": "UNIT"
     },
     "price": {
@@ -25946,7 +25946,7 @@
       "ean": "3522930005513"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -25990,7 +25990,7 @@
       "ean": "3282771000572"
     },
     "stock": {
-      "quantity": 17,
+      "quantity": 9,
       "unit": "UNIT"
     },
     "price": {
@@ -26012,7 +26012,7 @@
       "ean": "3282771000534"
     },
     "stock": {
-      "quantity": 22,
+      "quantity": 13,
       "unit": "UNIT"
     },
     "price": {
@@ -26029,12 +26029,12 @@
       "name": "Avène Hyaluron Activ Procedure - Serum ujędrniające",
       "description": "Marka: Avène. Kategoria produktu: Dermokosmetyki > do Twarzy > Serum do twarzy. Kod EAN: 3282770400861. SKU produktu: 3282770400861. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Avène",
-      "categoryId": "0946b5bd-bf47-583c-80f8-b7d63b9c6532",
+      "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
       "sku": "3282770400861",
       "ean": "3282770400861"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
@@ -26073,7 +26073,7 @@
       "name": "Allergika Dermifant - Balsam nawilżający dla dzieci szybka pomoc",
       "description": "Marka: Allergika. Kategoria produktu: Dermokosmetyki > dla Dziecka > Balsamy, mleczka i emulsje dla dzieci. Kod EAN: 4051452033104. SKU produktu: 4051452033104. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Allergika",
-      "categoryId": "ba32365a-b721-5e74-ab25-1ac010b3c98c",
+      "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
       "sku": "4051452033104",
       "ean": "4051452033104"
     },
@@ -26095,7 +26095,7 @@
       "name": "Allergika Dermifant - Balsam natłuszczający dla dzieci Regeneracja",
       "description": "Marka: Allergika. Kategoria produktu: Dermokosmetyki > dla Dziecka > Balsamy, mleczka i emulsje dla dzieci. Kod EAN: 4051452033111. SKU produktu: 4051452033111. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Allergika",
-      "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
+      "categoryId": "2253681c-571d-504c-9030-7463006b38b4",
       "sku": "4051452033111",
       "ean": "4051452033111"
     },
@@ -26122,7 +26122,7 @@
       "ean": "4051452030349"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -26139,7 +26139,7 @@
       "name": "CeraVe - Niewidoczny matujący fluid przeciwsłoneczny, skóra normalna i tłusta, SPF 50+",
       "description": "Marka: CeraVe. Kategoria produktu: Dermokosmetyki > do Twarzy > Fluid. Kod EAN: 3337875945622. SKU produktu: 3337875945622. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "CeraVe",
-      "categoryId": "68f5ca30-cd76-5c87-bea6-20d280bd1dd5",
+      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
       "sku": "3337875945622",
       "ean": "3337875945622"
     },
@@ -26183,7 +26183,7 @@
       "name": "CeraVe - Niewidoczny nawilżający balsam przeciwsłoneczny, SPF 50+",
       "description": "Marka: CeraVe. Kategoria produktu: Dermokosmetyki > do Ciała > Balsamy do paznokci. Kod EAN: 3337875945769. SKU produktu: 3337875945769. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "CeraVe",
-      "categoryId": "68f5ca30-cd76-5c87-bea6-20d280bd1dd5",
+      "categoryId": "5bc600a1-9081-50dd-b3ee-e4697f1b74c0",
       "sku": "3337875945769",
       "ean": "3337875945769"
     },
@@ -26249,7 +26249,7 @@
       "name": "CeraVe - Niewidoczny nawilżający balsam przeciwsłoneczny, SPF 50+",
       "description": "Marka: CeraVe. Kategoria produktu: Dermokosmetyki > do Twarzy > Emulsje i balsamy. Kod EAN: 3337875945738. SKU produktu: 3337875945738. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "CeraVe",
-      "categoryId": "68f5ca30-cd76-5c87-bea6-20d280bd1dd5",
+      "categoryId": "5bc600a1-9081-50dd-b3ee-e4697f1b74c0",
       "sku": "3337875945738",
       "ean": "3337875945738"
     },
@@ -26628,12 +26628,12 @@
       "ean": "5904067519015"
     },
     "stock": {
-      "quantity": 9,
+      "quantity": 8,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 28.59,
+        "amount": 32.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -26738,7 +26738,7 @@
       "ean": "5904490004225"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {

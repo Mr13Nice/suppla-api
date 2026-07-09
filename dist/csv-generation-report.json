@@ -27,17 +27,17 @@
     ]
   },
   "totals": {
-    "csvRows": 2136,
+    "csvRows": 2142,
     "offersToCreate": 1225,
-    "skippedProducts": 911,
-    "blockingSkippedProducts": 352,
-    "productsWithoutImages": 14,
-    "generatedDescriptions": 1317,
+    "skippedProducts": 917,
+    "blockingSkippedProducts": 358,
+    "productsWithoutImages": 20,
+    "generatedDescriptions": 1323,
     "unresolvedCategories": 0,
     "duplicateExternalIdsInCsv": 0,
     "existingInPostSkipped": 1225,
     "existingInPostIncludedInOutput": 1225,
-    "inpostReferenceCategoryOverrides": 193,
+    "inpostReferenceCategoryOverrides": 4,
     "inpostCurrentCategoryPreserved": 0,
     "existingInPostItemsFetched": 1662,
     "existingDuplicateExternalIdGroups": 384,
@@ -47,8 +47,8 @@
   },
   "categoryResolution": {
     "byMethod": {
-      "inpost-hint-ean": 1221,
-      "override-exact": 356
+      "inpost-hint-ean": 1228,
+      "override-exact": 355
     }
   }
 }

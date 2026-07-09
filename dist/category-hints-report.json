@@ -4,13 +4,13 @@
   "categoryMapFile": "category-map.json",
   "delimiter": ",",
   "totals": {
-    "csvRows": 2136,
-    "uniqueEans": 1862,
+    "csvRows": 2142,
+    "uniqueEans": 1868,
     "rowsWithoutEan": 274,
-    "hintsFound": 1498,
-    "hintsNotFound": 364,
+    "hintsFound": 1506,
+    "hintsNotFound": 362,
     "requestErrors": 0,
-    "hintsWithCategoryNotInCategoryMap": 663
+    "hintsWithCategoryNotInCategoryMap": 665
   },
   "rowsWithoutEan": [
     {
@@ -6018,6 +6018,34 @@
         }
       ],
       "validInCategoryMap": true
+    },
+    {
+      "ean": "3282770114195",
+      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "2726",
+          "name": "XeraCalm A.D Krem uzupełniający lipidy - 400ml",
+          "sku": "3282770114195",
+          "categories": ""
+        }
+      ],
+      "validInCategoryMap": false
+    },
+    {
+      "ean": "3264680015120",
+      "categoryId": "65e3ce84-7c3f-564c-b549-b9f729fbca89",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "2731",
+          "name": "Merveillance Expert Liftingujący krem pod oczy",
+          "sku": "3264680015120",
+          "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Kremy pod oczy"
+        }
+      ],
+      "validInCategoryMap": false
     },
     {
       "ean": "3282770155181",
@@ -22356,6 +22384,90 @@
         }
       ],
       "validInCategoryMap": true
+    },
+    {
+      "ean": "5906720534151",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "17515",
+          "name": "Cyclovena, 50 kapsułek",
+          "sku": "5906720534151",
+          "categories": "Dermokosmetyki"
+        }
+      ],
+      "validInCategoryMap": true
+    },
+    {
+      "ean": "5906720536773",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "17519",
+          "name": "Orton Flex, 60 kapsułek",
+          "sku": "5906720536773",
+          "categories": "Dermokosmetyki"
+        }
+      ],
+      "validInCategoryMap": true
+    },
+    {
+      "ean": "5906720534892",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "17522",
+          "name": "Nefrocal, 60 tabletek",
+          "sku": "5906720534892",
+          "categories": "Dermokosmetyki"
+        }
+      ],
+      "validInCategoryMap": true
+    },
+    {
+      "ean": "5902596593018",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "17525",
+          "name": "Katelin +SR, 50 kapsułek",
+          "sku": "5902596593018",
+          "categories": "Dermokosmetyki"
+        }
+      ],
+      "validInCategoryMap": true
+    },
+    {
+      "ean": "5902596593117",
+      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "17528",
+          "name": "Katelin Mag B6 +SR, 60 kapsułek",
+          "sku": "5902596593117",
+          "categories": "Dermokosmetyki"
+        }
+      ],
+      "validInCategoryMap": true
+    },
+    {
+      "ean": "5906720532997",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "17533",
+          "name": "Prostaceum, 60 tabletek",
+          "sku": "5906720532997",
+          "categories": "Dermokosmetyki"
+        }
+      ],
+      "validInCategoryMap": true
     }
   ],
   "notFound": [
@@ -23952,34 +24064,6 @@
           "name": "XeraCalm A.D Krem uzupełniający lipidy - 200ml",
           "sku": "3282779405553",
           "categories": ""
-        }
-      ]
-    },
-    {
-      "ean": "3282770114195",
-      "reason": "HINT_NOT_FOUND_404",
-      "status": 404,
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "2726",
-          "name": "XeraCalm A.D Krem uzupełniający lipidy - 400ml",
-          "sku": "3282770114195",
-          "categories": ""
-        }
-      ]
-    },
-    {
-      "ean": "3264680015120",
-      "reason": "HINT_NOT_FOUND_404",
-      "status": 404,
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "2731",
-          "name": "Merveillance Expert Liftingujący krem pod oczy",
-          "sku": "3264680015120",
-          "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Kremy pod oczy"
         }
       ]
     },
@@ -30133,6 +30217,32 @@
           "name": "Cold Cream Krem - 40ml",
           "sku": "3282779002738",
           "categories": ""
+        }
+      ]
+    },
+    {
+      "ean": "3282770114195",
+      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "2726",
+          "name": "XeraCalm A.D Krem uzupełniający lipidy - 400ml",
+          "sku": "3282770114195",
+          "categories": ""
+        }
+      ]
+    },
+    {
+      "ean": "3264680015120",
+      "categoryId": "65e3ce84-7c3f-564c-b549-b9f729fbca89",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "2731",
+          "name": "Merveillance Expert Liftingujący krem pod oczy",
+          "sku": "3264680015120",
+          "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Kremy pod oczy"
         }
       ]
     },
