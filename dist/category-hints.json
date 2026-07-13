@@ -4349,6 +4349,21 @@
     ],
     "validInCategoryMap": false
   },
+  "5900717692619": {
+    "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
+    "source": "inpost-hint",
+    "ean": "5900717692619",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "2445",
+        "name": "E Emotopic Bacteria-Control Preparat S.O.S.",
+        "sku": "5900717692619",
+        "categories": "Dermokosmetyki, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Ciała > Kremy\\, balsamy i masła"
+      }
+    ],
+    "validInCategoryMap": true
+  },
   "5900717691117": {
     "categoryId": "03232868-0a32-5c66-a17a-cd51fc9e1630",
     "source": "inpost-hint",
@@ -8934,7 +8949,7 @@
         "externalId": "4000",
         "name": "Immuno Kids",
         "sku": "5903031283037",
-        "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Odporność, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety"
+        "categories": "Macierzyństwo > Dla dzieci, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety"
       }
     ],
     "validInCategoryMap": false
@@ -10439,6 +10454,21 @@
     ],
     "validInCategoryMap": true
   },
+  "5904960019360": {
+    "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+    "source": "inpost-hint",
+    "ean": "5904960019360",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "4334",
+        "name": "Wiesiołek Max",
+        "sku": "5904960019360",
+        "categories": "Suplementy Diety > Odporność, Suplementy Diety, Suplementy Diety > Witaminy i minerały > Witaminy > Witamina A, Suplementy Diety > Witaminy i minerały > Witaminy > Witamina E, Suplementy Diety > Witaminy i minerały > Witaminy, Suplementy Diety > Witaminy i minerały"
+      }
+    ],
+    "validInCategoryMap": true
+  },
   "5904960015386": {
     "categoryId": "c344a95f-6783-5189-983a-505ec3c77bd2",
     "source": "inpost-hint",
@@ -11859,7 +11889,7 @@
         "externalId": "4752",
         "name": "Bodymisie o smaku coli",
         "sku": "7070866031343",
-        "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Witaminy i minerały > Multiwitaminy, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety, Macierzyństwo > Dla dzieci > Witaminy i minerały, Suplementy Diety > Witaminy i minerały"
+        "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Witaminy i minerały > Multiwitaminy, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety, Suplementy Diety > Witaminy i minerały, Macierzyństwo > Dla dzieci > Witaminy i minerały"
       }
     ],
     "validInCategoryMap": false
@@ -11874,7 +11904,7 @@
         "externalId": "4754",
         "name": "Bodymisie o smaku owocowym",
         "sku": "7070866031374",
-        "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Witaminy i minerały > Multiwitaminy, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety, Suplementy Diety > Witaminy i minerały, Macierzyństwo > Dla dzieci > Witaminy i minerały"
+        "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Witaminy i minerały > Multiwitaminy, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety, Macierzyństwo > Dla dzieci > Witaminy i minerały, Suplementy Diety > Witaminy i minerały"
       }
     ],
     "validInCategoryMap": false
@@ -11949,7 +11979,7 @@
         "externalId": "4773",
         "name": "Möller’s Mój Pierwszy Tran Norweski",
         "sku": "7070866027612",
-        "categories": "Macierzyństwo > Dla dzieci, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety > Odporność > Oleje i trany, Suplementy Diety"
+        "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Odporność, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność > Oleje i trany, Suplementy Diety"
       }
     ],
     "validInCategoryMap": true
@@ -17334,7 +17364,7 @@
         "externalId": "5983",
         "name": "Synergia Witamina A + D3 + E + K2Mk7 Junior",
         "sku": "5902709520191",
-        "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Kości i stawy, Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem, Suplementy Diety, Suplementy Diety > Witaminy i minerały > Witaminy > Witamina A, Suplementy Diety > Witaminy i minerały > Witaminy > Witamina E, Suplementy Diety > Witaminy i minerały > Witaminy > Witamina K, Macierzyństwo > Dla dzieci > Witaminy i minerały, Suplementy Diety > Witaminy i minerały"
+        "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Kości i stawy, Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem, Suplementy Diety, Suplementy Diety > Witaminy i minerały > Witaminy > Witamina A, Suplementy Diety > Witaminy i minerały > Witaminy > Witamina E, Suplementy Diety > Witaminy i minerały > Witaminy > Witamina K, Suplementy Diety > Witaminy i minerały, Macierzyństwo > Dla dzieci > Witaminy i minerały"
       }
     ],
     "validInCategoryMap": true
@@ -17518,6 +17548,21 @@
       }
     ],
     "validInCategoryMap": false
+  },
+  "5907546536411": {
+    "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+    "source": "inpost-hint",
+    "ean": "5907546536411",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "6053",
+        "name": "Colostrum Genactiv Krem z mlekiem klaczy",
+        "sku": "5907546536411",
+        "categories": "Dermokosmetyki, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Ciała > Kremy\\, balsamy i masła"
+      }
+    ],
+    "validInCategoryMap": true
   },
   "5907546536169": {
     "categoryId": "461288a1-9b48-5387-8a0e-00eef126099d",
@@ -18564,7 +18609,7 @@
         "externalId": "6888",
         "name": "Eau Thermale Avène - Naturalny fluid korygujący w płynie Couvrance",
         "sku": "3282770100532",
-        "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Fluid, Dermokosmetyki > do Twarzy > Fluid, Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna"
+        "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Fluid, Fluid, Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna"
       }
     ],
     "validInCategoryMap": false
@@ -21899,6 +21944,21 @@
     ],
     "validInCategoryMap": false
   },
+  "3337875945660": {
+    "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+    "source": "inpost-hint",
+    "ean": "3337875945660",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "17149",
+        "name": "CeraVe - Niewidoczny matujący fluid przeciwsłoneczny, skóra normalna i sucha, SPF 50+",
+        "sku": "3337875945660",
+        "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy > Fluid, Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna"
+      }
+    ],
+    "validInCategoryMap": true
+  },
   "3337875945769": {
     "categoryId": "5bc600a1-9081-50dd-b3ee-e4697f1b74c0",
     "source": "inpost-hint",
@@ -22299,6 +22359,21 @@
         "externalId": "17418",
         "name": "Natur Glam! - Masło do ciała, Malina",
         "sku": "5904490004133",
+        "categories": "Dermokosmetyki, Dermokosmetyki > do Ciała, Dermokosmetyki > do Ciała > Kremy\\, balsamy i masła"
+      }
+    ],
+    "validInCategoryMap": false
+  },
+  "5904490004188": {
+    "categoryId": "2253681c-571d-504c-9030-7463006b38b4",
+    "source": "inpost-hint",
+    "ean": "5904490004188",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "17424",
+        "name": "Natur Glam! - Masło do ciała, Rokitnik",
+        "sku": "5904490004188",
         "categories": "Dermokosmetyki, Dermokosmetyki > do Ciała, Dermokosmetyki > do Ciała > Kremy\\, balsamy i masła"
       }
     ],

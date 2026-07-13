@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "inpost:generate-sync": "node generate-category-hints.js suppla-oferta.csv dist/category-hints.json category-map.json && node csv-to-inpost-json.js suppla-oferta.csv category-map.json dist category-overrides.json dist/category-hints.json --include-existing",
+    "inpost:rescue-overrides": "node csv-to-inpost-json.js suppla-oferta.csv category-map.json dist category-overrides.json dist/category-hints.json --offline --rescue-overrides",
+    "inpost:rescue-overrides:dry-run": "node send-inpost-offers.js dist/inpost-offers-rescue-overrides.json dist/offer-images-rescue-overrides.json --sync --dry-run",
+    "inpost:rescue-overrides:sync": "node send-inpost-offers.js dist/inpost-offers-rescue-overrides.json dist/offer-images-rescue-overrides.json --sync",
     "inpost:sync": "node send-inpost-offers.js dist/inpost-offers.json dist/offer-images.json --sync",
     "inpost:sync:dry-run": "node send-inpost-offers.js dist/inpost-offers.json dist/offer-images.json --sync --dry-run",
     "test": "echo \"Error: no test specified\" && exit 1"

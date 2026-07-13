@@ -59,7 +59,9 @@ const DEFAULT_CURRENCY = "PLN";
 const DEFAULT_STOCK_UNIT = "UNIT";
 const DEFAULT_BRAND = "Inna marka";
 
-const CHECK_EXISTING_INPOST = !process.argv.includes("--offline");
+const RESCUE_OVERRIDES = process.argv.includes("--rescue-overrides");
+const CHECK_EXISTING_INPOST =
+  !process.argv.includes("--offline") && !RESCUE_OVERRIDES;
 const INCLUDE_EXISTING_IN_OUTPUT =
   process.argv.includes("--include-existing") ||
   process.argv.includes("--sync-output") ||
@@ -73,6 +75,29 @@ const CLOSE_ONLY = process.argv.includes("--close-only");
 
 const REQUEST_DELAY_MS = Number(process.env.INPOST_REQUEST_DELAY_MS || 150);
 const PAGE_LIMIT = Number(process.env.INPOST_OFFERS_PAGE_LIMIT || 100);
+const OUTPUT_OFFERS_FILE = RESCUE_OVERRIDES
+  ? "inpost-offers-rescue-overrides.json"
+  : "inpost-offers.json";
+const OUTPUT_IMAGES_FILE = RESCUE_OVERRIDES
+  ? "offer-images-rescue-overrides.json"
+  : "offer-images.json";
+const OUTPUT_REPORT_FILE = RESCUE_OVERRIDES
+  ? "rescue-overrides-report.json"
+  : "csv-generation-report.json";
+const OUTPUT_ERRORS_FILE = RESCUE_OVERRIDES
+  ? "rescue-overrides-errors.json"
+  : "csv-generation-errors.json";
+const RESCUE_GENERATION_ERRORS_FILE =
+  process.env.INPOST_RESCUE_GENERATION_ERRORS_FILE ||
+  path.join(OUTPUT_DIR, "csv-generation-errors.json");
+const RESCUE_SYNC_ERRORS_FILE =
+  process.env.INPOST_RESCUE_SYNC_ERRORS_FILE ||
+  path.join(OUTPUT_DIR, "send-sync-errors.json");
+const DEFAULT_CATEGORY_TREE_FILES = [
+  path.join(OUTPUT_DIR, "category-tree.json"),
+  "inpost-health-categories.txt",
+  "inpost.txt"
+];
 
 const REQUIRED_ENV_FOR_INPOST = [
   "CLIENT_ID",
@@ -130,6 +155,16 @@ function readJsonIfExists(filePath, fallback = {}) {
   }
 
   return JSON.parse(readFileUtf8(filePath));
+}
+
+function getCategoryTreeFiles() {
+  const configuredFile = normalizeText(process.env.INPOST_CATEGORY_TREE_FILE);
+
+  if (configuredFile) {
+    return [configuredFile];
+  }
+
+  return DEFAULT_CATEGORY_TREE_FILES.filter((filePath) => fs.existsSync(filePath));
 }
 
 function ensureDir(dirPath) {
@@ -407,6 +442,89 @@ function buildNonLeafCategoryIdSet(categoryMap) {
   return ids;
 }
 
+function addCategoryToIndex(node, parentPath, index) {
+  if (!node || typeof node !== "object" || Array.isArray(node)) {
+    return;
+  }
+
+  const id = normalizeText(node.id || node.categoryId || node.value || "");
+  const name = normalizeText(node.name || node.description || "");
+  const categoryPath = [...parentPath, name].filter(Boolean).join(" > ");
+
+  if (id) {
+    index.set(id, {
+      id,
+      name,
+      path: categoryPath,
+      leaf: node.leaf === true,
+      hasLeafFlag: typeof node.leaf === "boolean",
+      childrenCount: Array.isArray(node.children) ? node.children.length : 0
+    });
+  }
+
+  if (Array.isArray(node.children)) {
+    for (const child of node.children) {
+      addCategoryToIndex(child, [...parentPath, name].filter(Boolean), index);
+    }
+  }
+}
+
+function getCategoryTreeRoots(categoryTree) {
+  if (!categoryTree) {
+    return [];
+  }
+
+  if (Array.isArray(categoryTree)) {
+    return categoryTree.flatMap(getCategoryTreeRoots);
+  }
+
+  if (categoryTree.data) {
+    return getCategoryTreeRoots(categoryTree.data);
+  }
+
+  if (
+    typeof categoryTree === "object" &&
+    (
+      categoryTree.id ||
+      categoryTree.categoryId ||
+      Array.isArray(categoryTree.children)
+    )
+  ) {
+    return [categoryTree];
+  }
+
+  return [];
+}
+
+function buildCategoryTreeIndex(categoryTrees) {
+  const index = new Map();
+
+  for (const root of getCategoryTreeRoots(categoryTrees)) {
+    addCategoryToIndex(root, [], index);
+  }
+
+  return index;
+}
+
+function summarizeCategoryTreeIndex(categoryTreeIndex) {
+  let leafCategories = 0;
+  let nonLeafCategories = 0;
+
+  for (const category of categoryTreeIndex.values()) {
+    if (category.leaf) {
+      leafCategories++;
+    } else {
+      nonLeafCategories++;
+    }
+  }
+
+  return {
+    totalCategories: categoryTreeIndex.size,
+    leafCategories,
+    nonLeafCategories
+  };
+}
+
 function buildNormalizedCategoryMap(categoryMap) {
   const normalizedMap = {};
 
@@ -575,7 +693,7 @@ function getEan(row) {
   return "";
 }
 
-function getHintCategoryId(row, categoryHints) {
+function getHintCategoryDecision(row, categoryHints, categoryTreeIndex = new Map()) {
   const ean = getEan(row);
 
   if (!ean) {
@@ -596,13 +714,51 @@ function getHintCategoryId(row, categoryHints) {
     return null;
   }
 
+  const reasons = [];
+  const category = categoryTreeIndex.get(categoryId) || null;
+
+  if (categoryTreeIndex.size > 0) {
+    if (!category) {
+      reasons.push("hint-category-id-not-in-category-tree");
+    } else if (!category.leaf) {
+      reasons.push("hint-category-is-not-leaf");
+    }
+  }
+
   return {
     ean,
-    categoryId
+    categoryId,
+    valid: reasons.length === 0,
+    reasons,
+    categoryPath: category?.path || null,
+    categoryName: category?.name || null,
+    categoryLeaf: category?.leaf ?? null,
+    validatedWithCategoryTree: categoryTreeIndex.size > 0
   };
 }
 
-function resolveCategoryId(row, categoryMap, categoryOverrides, categoryHints) {
+function buildRejectedHint(row, hint, categories) {
+  return {
+    externalId: normalizeText(row["Identyfikator"]),
+    name: normalizeText(row["Nazwa"]),
+    ean: hint.ean,
+    categoryId: hint.categoryId,
+    categoryPath: hint.categoryPath,
+    categoryName: hint.categoryName,
+    categoryLeaf: hint.categoryLeaf,
+    wooCategories: categories,
+    reasons: hint.reasons
+  };
+}
+
+function resolveCategoryId(
+  row,
+  categoryMap,
+  categoryOverrides,
+  categoryHints,
+  categoryTreeIndex = new Map(),
+  referenceCategoryDecision = null
+) {
   const normalizedCategoryMap = buildNormalizedCategoryMap(categoryMap);
   const { normalizedMap: normalizedOverridesMap } = buildNormalizedOverridesMap(categoryOverrides);
 
@@ -618,15 +774,40 @@ function resolveCategoryId(row, categoryMap, categoryOverrides, categoryHints) {
     return b.length - a.length;
   });
 
-  const hint = getHintCategoryId(row, categoryHints);
+  if (referenceCategoryDecision?.categoryId) {
+    return {
+      categoryId: referenceCategoryDecision.categoryId,
+      matchedBy: "inpost-validation-reference",
+      matchedWooCategory: null,
+      matchedInpostCategory: referenceCategoryDecision.validationMessage || "InPost validation reference",
+      allWooCategories: categories,
+      rejectedHints: []
+    };
+  }
 
-  if (hint) {
+  const hint = getHintCategoryDecision(row, categoryHints, categoryTreeIndex);
+
+  if (hint?.valid) {
     return {
       categoryId: hint.categoryId,
       matchedBy: "inpost-hint-ean",
       matchedWooCategory: null,
-      matchedInpostCategory: `EAN hint: ${hint.ean}`,
-      allWooCategories: categories
+      matchedInpostCategory: hint.categoryPath || `EAN hint: ${hint.ean}`,
+      allWooCategories: categories,
+      rejectedHints: []
+    };
+  }
+
+  if (hint && !hint.valid) {
+    const rejectedHint = buildRejectedHint(row, hint, categories);
+
+    return {
+      categoryId: null,
+      matchedBy: "inpost-hint-rejected",
+      matchedWooCategory: null,
+      matchedInpostCategory: hint.categoryPath || `EAN hint: ${hint.ean}`,
+      allWooCategories: categories,
+      rejectedHints: [rejectedHint]
     };
   }
 
@@ -644,7 +825,8 @@ function resolveCategoryId(row, categoryMap, categoryOverrides, categoryHints) {
           matchedBy: "override-exact",
           matchedWooCategory: wooCategory,
           matchedInpostCategory: resolved.resolvedFrom,
-          allWooCategories: categories
+          allWooCategories: categories,
+          rejectedHints: []
         };
       }
     }
@@ -666,7 +848,8 @@ function resolveCategoryId(row, categoryMap, categoryOverrides, categoryHints) {
           matchedBy: "override-normalized",
           matchedWooCategory: wooCategory,
           matchedInpostCategory: resolved.resolvedFrom,
-          allWooCategories: categories
+          allWooCategories: categories,
+          rejectedHints: []
         };
       }
     }
@@ -677,7 +860,8 @@ function resolveCategoryId(row, categoryMap, categoryOverrides, categoryHints) {
     matchedBy: null,
     matchedWooCategory: null,
     matchedInpostCategory: null,
-    allWooCategories: categories
+    allWooCategories: categories,
+    rejectedHints: []
   };
 }
 
@@ -1358,7 +1542,14 @@ function getProductDescription(row, context) {
   );
 }
 
-function buildOffer(row, categoryMap, categoryOverrides, categoryHints) {
+function buildOffer(
+  row,
+  categoryMap,
+  categoryOverrides,
+  categoryHints,
+  categoryTreeIndex,
+  referenceCategoryDecision
+) {
   const externalId = normalizeText(row["Identyfikator"]);
   const name = normalizeText(row["Nazwa"]);
   const price = getPrice(row);
@@ -1383,7 +1574,9 @@ function buildOffer(row, categoryMap, categoryOverrides, categoryHints) {
     row,
     categoryMap,
     categoryOverrides,
-    categoryHints
+    categoryHints,
+    categoryTreeIndex,
+    referenceCategoryDecision
   );
 
   const errors = [];
@@ -1428,7 +1621,8 @@ function buildOffer(row, categoryMap, categoryOverrides, categoryHints) {
           categoryId: categoryResult.categoryId,
           matchedBy: categoryResult.matchedBy,
           matchedWooCategory: categoryResult.matchedWooCategory,
-          matchedInpostCategory: categoryResult.matchedInpostCategory
+          matchedInpostCategory: categoryResult.matchedInpostCategory,
+          rejectedHints: categoryResult.rejectedHints || []
         },
         errors
       },
@@ -1532,12 +1726,26 @@ function updateCategoryReport(report, categoryResolution) {
       categoryId: categoryResolution.categoryId,
       matchedBy: categoryResolution.matchedBy,
       matchedWooCategory: categoryResolution.matchedWooCategory,
-      matchedInpostCategory: categoryResolution.matchedInpostCategory
+      matchedInpostCategory: categoryResolution.matchedInpostCategory,
+      rejectedHints: categoryResolution.rejectedHints || []
     });
   } else {
     report.unresolved.push({
-      categories: categoryResolution.allWooCategories || []
+      categories: categoryResolution.allWooCategories || [],
+      rejectedHints: categoryResolution.rejectedHints || []
     });
+  }
+
+  for (const rejectedHint of categoryResolution.rejectedHints || []) {
+    report.rejectedHints.push(rejectedHint);
+
+    for (const reason of rejectedHint.reasons || []) {
+      if (!report.rejectedHintReasons[reason]) {
+        report.rejectedHintReasons[reason] = 0;
+      }
+
+      report.rejectedHintReasons[reason]++;
+    }
   }
 }
 
@@ -1573,6 +1781,155 @@ function shouldSkipByProductType(row) {
   };
 }
 
+function getOrCreateRescueCandidate(candidates, externalId) {
+  const cleanExternalId = normalizeText(externalId);
+
+  if (!cleanExternalId) {
+    return null;
+  }
+
+  if (!candidates.has(cleanExternalId)) {
+    candidates.set(cleanExternalId, {
+      externalId: cleanExternalId,
+      sources: [],
+      rejectedCategoryIds: new Set(),
+      rejectedHintCategoryIds: new Set(),
+      rejectedSyncCategoryIds: new Set()
+    });
+  }
+
+  return candidates.get(cleanExternalId);
+}
+
+function addRescueSource(candidate, source) {
+  if (!candidate || !source) {
+    return;
+  }
+
+  candidate.sources.push(source);
+
+  for (const categoryId of source.rejectedCategoryIds || []) {
+    const cleanCategoryId = normalizeText(categoryId);
+
+    if (!cleanCategoryId) {
+      continue;
+    }
+
+    candidate.rejectedCategoryIds.add(cleanCategoryId);
+
+    if (source.type === "rejected-category-hint") {
+      candidate.rejectedHintCategoryIds.add(cleanCategoryId);
+    }
+
+    if (source.type === "sync-category-incorrect") {
+      candidate.rejectedSyncCategoryIds.add(cleanCategoryId);
+    }
+  }
+}
+
+function getSyncErrorValidationErrors(errorRecord) {
+  return [
+    ...(errorRecord?.error?.validationErrors || []),
+    ...(errorRecord?.postWriteValidation?.validationErrors || []),
+    ...(errorRecord?.postWriteValidationAfterRepair?.validationErrors || [])
+  ];
+}
+
+function getSyncErrorCategoryId(errorRecord) {
+  return getFirstNonEmpty(
+    errorRecord?.postWriteValidation?.categoryId,
+    errorRecord?.postWriteValidationAfterRepair?.categoryId,
+    errorRecord?.patchBody?.product?.categoryId,
+    errorRecord?.patchResponse?.data?.offer?.product?.categoryId,
+    errorRecord?.error?.categoryId
+  );
+}
+
+function collectRescueCandidates() {
+  const candidates = new Map();
+  const summary = {
+    generationErrorsFile: RESCUE_GENERATION_ERRORS_FILE,
+    syncErrorsFile: RESCUE_SYNC_ERRORS_FILE,
+    rejectedHintProducts: 0,
+    syncCategoryIncorrectProducts: 0
+  };
+
+  const generationErrors = readJsonIfExists(RESCUE_GENERATION_ERRORS_FILE, {});
+
+  for (const rejectedHint of generationErrors.rejectedCategoryHints || []) {
+    const candidate = getOrCreateRescueCandidate(
+      candidates,
+      rejectedHint.externalId
+    );
+
+    if (!candidate) {
+      continue;
+    }
+
+    addRescueSource(candidate, {
+      type: "rejected-category-hint",
+      ean: rejectedHint.ean || null,
+      rejectedCategoryIds: [rejectedHint.categoryId].filter(Boolean),
+      reasons: rejectedHint.reasons || [],
+      wooCategories: rejectedHint.wooCategories || []
+    });
+  }
+
+  summary.rejectedHintProducts = candidates.size;
+
+  const syncErrors = readJsonIfExists(RESCUE_SYNC_ERRORS_FILE, {});
+  const categoryIncorrectExternalIds = new Set();
+
+  for (const errorRecord of syncErrors.errors || []) {
+    const validationErrors = getSyncErrorValidationErrors(errorRecord);
+
+    if (!hasCategoryIncorrect(validationErrors)) {
+      continue;
+    }
+
+    const candidate = getOrCreateRescueCandidate(
+      candidates,
+      errorRecord.externalId
+    );
+
+    if (!candidate) {
+      continue;
+    }
+
+    categoryIncorrectExternalIds.add(candidate.externalId);
+    addRescueSource(candidate, {
+      type: "sync-category-incorrect",
+      offerId: normalizeText(errorRecord.offerId) || null,
+      rejectedCategoryIds: [getSyncErrorCategoryId(errorRecord)].filter(Boolean),
+      validationErrors: validationErrors.map((error) => ({
+        validationCode: normalizeText(error.validationCode || error.code || ""),
+        validationMessage: getValidationErrorMessage(error)
+      }))
+    });
+  }
+
+  summary.syncCategoryIncorrectProducts = categoryIncorrectExternalIds.size;
+
+  return {
+    candidates,
+    summary
+  };
+}
+
+function serializeRescueCandidate(candidate) {
+  if (!candidate) {
+    return null;
+  }
+
+  return {
+    externalId: candidate.externalId,
+    sources: candidate.sources,
+    rejectedCategoryIds: [...candidate.rejectedCategoryIds].sort(),
+    rejectedHintCategoryIds: [...candidate.rejectedHintCategoryIds].sort(),
+    rejectedSyncCategoryIds: [...candidate.rejectedSyncCategoryIds].sort()
+  };
+}
+
 async function main() {
   ensureDir(OUTPUT_DIR);
   cleanupObsoleteGenerationFiles(OUTPUT_DIR);
@@ -1581,12 +1938,18 @@ async function main() {
   const categoryMap = readJsonIfExists(CATEGORY_MAP_FILE, {});
   const categoryOverrides = readJsonIfExists(CATEGORY_OVERRIDES_FILE, {});
   const categoryHints = readJsonIfExists(CATEGORY_HINTS_FILE, {});
+  const categoryTreeFiles = getCategoryTreeFiles();
+  const categoryTrees = categoryTreeFiles.map((filePath) =>
+    readJsonIfExists(filePath, null)
+  );
+  const categoryTreeIndex = buildCategoryTreeIndex(categoryTrees);
+  const categoryTreeSummary = summarizeCategoryTreeIndex(categoryTreeIndex);
 
   const invalidOverrides = validateCategoryOverrides(categoryOverrides, categoryMap);
 
   if (invalidOverrides.length) {
     writeJson(
-      path.join(OUTPUT_DIR, "csv-generation-errors.json"),
+      path.join(OUTPUT_DIR, OUTPUT_ERRORS_FILE),
       {
         summary: {
           invalidCategoryOverrides: invalidOverrides.length
@@ -1597,7 +1960,7 @@ async function main() {
 
     throw new Error(
       `category-overrides.json zawiera błędne mapowania: ${invalidOverrides.length}. ` +
-      `Sprawdz ${path.join(OUTPUT_DIR, "csv-generation-errors.json")}`
+      `Sprawdz ${path.join(OUTPUT_DIR, OUTPUT_ERRORS_FILE)}`
     );
   }
 
@@ -1611,6 +1974,12 @@ async function main() {
     trim: false,
     delimiter
   });
+  const rescue = RESCUE_OVERRIDES
+    ? collectRescueCandidates()
+    : {
+        candidates: new Map(),
+        summary: null
+      };
 
   let existingItems = [];
   let existingOffersState = {
@@ -1648,12 +2017,14 @@ async function main() {
   const inpostCurrentCategoryPreserved = [];
   const duplicateExternalIdsInCsv = [];
   const acceptedExternalIds = new Set();
+  const rescueSkippedSameRejectedCategory = [];
 
   const categoryReport = {
     inputCsv: INPUT_CSV,
     categoryMapFile: CATEGORY_MAP_FILE,
     categoryOverridesFile: CATEGORY_OVERRIDES_FILE,
     categoryHintsFile: CATEGORY_HINTS_FILE,
+    categoryTreeFiles,
     delimiter,
     settings: {
       STRICT_MODE,
@@ -1670,20 +2041,37 @@ async function main() {
       CLEANUP_DUPLICATES,
       EXECUTE_CLEANUP,
       CLOSE_ONLY,
-      mappingOrder: [
-        "category-hints.json by EAN",
-        "category-overrides.json by WooCommerce category",
-        "skip"
-      ]
+      RESCUE_OVERRIDES,
+      mappingOrder: RESCUE_OVERRIDES
+        ? [
+            "category-overrides.json by WooCommerce category for rescue candidates only",
+            "skip"
+          ]
+        : [
+            "category-hints.json by EAN, only when category tree confirms leaf=true",
+            "category-overrides.json by WooCommerce category",
+            "skip"
+          ]
     },
+    rescue: rescue.summary,
+    categoryTree: categoryTreeSummary,
     byMethod: {},
     resolved: [],
-    unresolved: []
+    unresolved: [],
+    rejectedHints: [],
+    rejectedHintReasons: {}
   };
 
   for (const row of rows) {
     const externalId = normalizeText(row["Identyfikator"]);
     const name = normalizeText(row["Nazwa"]);
+    const rescueCandidate = RESCUE_OVERRIDES
+      ? rescue.candidates.get(externalId)
+      : null;
+
+    if (RESCUE_OVERRIDES && !rescueCandidate) {
+      continue;
+    }
 
     const typeSkip = shouldSkipByProductType(row);
 
@@ -1716,6 +2104,12 @@ async function main() {
       continue;
     }
 
+    const existingOffersForExternalId =
+      existingOffersState.byExternalId.get(externalId);
+    const referenceCategoryDecision = getReferenceCategoryDecision(
+      existingOffersForExternalId
+    );
+
     const {
       offer,
       images,
@@ -1728,8 +2122,35 @@ async function main() {
       row,
       categoryMap,
       categoryOverrides,
-      categoryHints
+      RESCUE_OVERRIDES ? {} : categoryHints,
+      categoryTreeIndex,
+      RESCUE_OVERRIDES ? null : referenceCategoryDecision
     );
+
+    if (
+      RESCUE_OVERRIDES &&
+      categoryResolution.categoryId &&
+      rescueCandidate?.rejectedCategoryIds.has(categoryResolution.categoryId)
+    ) {
+      const rescueSkipped = {
+        externalId,
+        name,
+        sku: getSku(row),
+        ean: getEan(row),
+        categoryId: categoryResolution.categoryId,
+        matchedBy: categoryResolution.matchedBy,
+        matchedWooCategory: categoryResolution.matchedWooCategory,
+        matchedInpostCategory: categoryResolution.matchedInpostCategory,
+        rescueCandidate: serializeRescueCandidate(rescueCandidate),
+        errors: [
+          "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
+        ]
+      };
+
+      rescueSkippedSameRejectedCategory.push(rescueSkipped);
+      skippedProducts.push(rescueSkipped);
+      continue;
+    }
 
     updateCategoryReport(categoryReport, categoryResolution);
 
@@ -1770,12 +2191,9 @@ async function main() {
         acceptedExternalIds.add(externalId);
       }
 
-      const existingOffers = existingOffersState.byExternalId.get(externalId);
+      const existingOffers = existingOffersForExternalId;
 
       if (existingOffers?.length) {
-        const referenceCategoryDecision =
-          getReferenceCategoryDecision(existingOffers);
-
         if (
           referenceCategoryDecision?.categoryId &&
           offer.product?.categoryId !== referenceCategoryDecision.categoryId
@@ -1865,17 +2283,24 @@ async function main() {
     categoryMapFile: CATEGORY_MAP_FILE,
     categoryOverridesFile: CATEGORY_OVERRIDES_FILE,
     categoryHintsFile: CATEGORY_HINTS_FILE,
+    categoryTreeFiles,
     outputDir: OUTPUT_DIR,
     delimiter,
     settings: categoryReport.settings,
+    rescue: categoryReport.rescue,
+    categoryTree: categoryReport.categoryTree,
     totals: {
       csvRows: rows.length,
+      rescueCandidates: RESCUE_OVERRIDES ? rescue.candidates.size : 0,
+      rescueSkippedSameRejectedCategory:
+        rescueSkippedSameRejectedCategory.length,
       offersToCreate: cleanOffers.length,
       skippedProducts: skippedProducts.length,
       blockingSkippedProducts: blockingSkippedProducts.length,
       productsWithoutImages: productsWithoutImages.length,
       generatedDescriptions: generatedDescriptions.length,
       unresolvedCategories: unresolvedCategories.size,
+      rejectedCategoryHints: categoryReport.rejectedHints.length,
       duplicateExternalIdsInCsv: duplicateExternalIdsInCsv.length,
       existingInPostSkipped: existingInPostSkipped.length,
       existingInPostIncludedInOutput: INCLUDE_EXISTING_IN_OUTPUT
@@ -1895,7 +2320,8 @@ async function main() {
         duplicateCleanupResult?.errors?.length || 0
     },
     categoryResolution: {
-      byMethod: categoryReport.byMethod
+      byMethod: categoryReport.byMethod,
+      rejectedHintReasons: categoryReport.rejectedHintReasons
     }
   };
 
@@ -1906,10 +2332,12 @@ async function main() {
     productsWithoutImages,
     generatedDescriptions,
     unresolvedCategories: [...unresolvedCategories.keys()].sort(),
+    rejectedCategoryHints: categoryReport.rejectedHints,
     duplicateExternalIdsInCsv,
     existingInPostSkipped,
     inpostReferenceCategoryOverrides,
     inpostCurrentCategoryPreserved,
+    rescueSkippedSameRejectedCategory,
     existingDuplicateGroups: existingOffersState.duplicateGroups,
     existingDuplicatePlannedActions: existingOffersState.plannedActions,
     existingOffersWithoutExternalId:
@@ -1917,10 +2345,10 @@ async function main() {
     duplicateCleanupResult
   };
 
-  writeJson(path.join(OUTPUT_DIR, "inpost-offers.json"), cleanOffers);
-  writeJson(path.join(OUTPUT_DIR, "offer-images.json"), offerImages);
-  writeJson(path.join(OUTPUT_DIR, "csv-generation-report.json"), generationReport);
-  writeJson(path.join(OUTPUT_DIR, "csv-generation-errors.json"), generationErrors);
+  writeJson(path.join(OUTPUT_DIR, OUTPUT_OFFERS_FILE), cleanOffers);
+  writeJson(path.join(OUTPUT_DIR, OUTPUT_IMAGES_FILE), offerImages);
+  writeJson(path.join(OUTPUT_DIR, OUTPUT_REPORT_FILE), generationReport);
+  writeJson(path.join(OUTPUT_DIR, OUTPUT_ERRORS_FILE), generationErrors);
 
   console.log("Generowanie plików zakończone.");
   console.log(`Wczytano produktów z CSV: ${rows.length}`);
@@ -1930,16 +2358,22 @@ async function main() {
   console.log(`Produkty bez zdjęć: ${productsWithoutImages.length}`);
   console.log(`Opisy uzupelnione do minimum ${MIN_DESCRIPTION_LENGTH} znakow: ${generatedDescriptions.length}`);
   console.log(`Kategorie bez mapowania: ${unresolvedCategories.size}`);
+  console.log(`Odrzucone hinty kategorii po EAN: ${categoryReport.rejectedHints.length}`);
   console.log("");
 
   logObjectCounts("Dopasowanie kategorii:", categoryReport.byMethod);
 
+  if (categoryReport.rejectedHints.length) {
+    console.log("");
+    logObjectCounts("Powody odrzucenia hintow kategorii:", categoryReport.rejectedHintReasons);
+  }
+
   console.log("");
   console.log(`Pliki wynikowe zapisano w katalogu: ${OUTPUT_DIR}`);
-  console.log(`- ${path.join(OUTPUT_DIR, "inpost-offers.json")}`);
-  console.log(`- ${path.join(OUTPUT_DIR, "offer-images.json")}`);
-  console.log(`- ${path.join(OUTPUT_DIR, "csv-generation-report.json")}`);
-  console.log(`- ${path.join(OUTPUT_DIR, "csv-generation-errors.json")}`);
+  console.log(`- ${path.join(OUTPUT_DIR, OUTPUT_OFFERS_FILE)}`);
+  console.log(`- ${path.join(OUTPUT_DIR, OUTPUT_IMAGES_FILE)}`);
+  console.log(`- ${path.join(OUTPUT_DIR, OUTPUT_REPORT_FILE)}`);
+  console.log(`- ${path.join(OUTPUT_DIR, OUTPUT_ERRORS_FILE)}`);
 
   const criticalErrors = [];
 
@@ -1961,7 +2395,7 @@ async function main() {
 
     console.log("");
     console.log("Najpierw sprawdź:");
-    console.log(`- ${path.join(OUTPUT_DIR, "csv-generation-errors.json")}`);
+    console.log(`- ${path.join(OUTPUT_DIR, OUTPUT_ERRORS_FILE)}`);
 
     process.exit(1);
   }

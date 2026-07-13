@@ -18,17 +18,23 @@
     "INCLUDE_META_IN_OFFERS": false,
     "USE_NAME_AS_FALLBACK_DESCRIPTION": false,
     "MIN_DESCRIPTION_LENGTH": 100,
-    "CHECK_EXISTING_INPOST": true,
-    "INCLUDE_EXISTING_IN_OUTPUT": true,
+    "CHECK_EXISTING_INPOST": false,
+    "INCLUDE_EXISTING_IN_OUTPUT": false,
     "PRESERVE_EXISTING_CATEGORY": false,
     "CLEANUP_DUPLICATES": false,
     "EXECUTE_CLEANUP": false,
     "CLOSE_ONLY": false,
+    "RESCUE_OVERRIDES": true,
     "mappingOrder": [
-      "category-hints.json by EAN, only when category tree confirms leaf=true",
-      "category-overrides.json by WooCommerce category",
+      "category-overrides.json by WooCommerce category for rescue candidates only",
       "skip"
     ]
+  },
+  "rescue": {
+    "generationErrorsFile": "dist\\csv-generation-errors.json",
+    "syncErrorsFile": "dist\\send-sync-errors.json",
+    "rejectedHintProducts": 536,
+    "syncCategoryIncorrectProducts": 31
   },
   "categoryTree": {
     "totalCategories": 557,
@@ -37,33 +43,30 @@
   },
   "totals": {
     "csvRows": 2142,
-    "offersToCreate": 755,
-    "skippedProducts": 1387,
-    "blockingSkippedProducts": 828,
-    "productsWithoutImages": 20,
-    "generatedDescriptions": 1323,
-    "unresolvedCategories": 84,
-    "rejectedCategoryHints": 536,
+    "rescueCandidates": 567,
+    "rescueSkippedSameRejectedCategory": 10,
+    "offersToCreate": 491,
+    "skippedProducts": 76,
+    "blockingSkippedProducts": 66,
+    "productsWithoutImages": 0,
+    "generatedDescriptions": 442,
+    "unresolvedCategories": 0,
+    "rejectedCategoryHints": 0,
     "duplicateExternalIdsInCsv": 0,
-    "existingInPostSkipped": 755,
-    "existingInPostIncludedInOutput": 755,
+    "existingInPostSkipped": 0,
+    "existingInPostIncludedInOutput": 0,
     "inpostReferenceCategoryOverrides": 0,
     "inpostCurrentCategoryPreserved": 0,
-    "existingInPostItemsFetched": 1662,
-    "existingDuplicateExternalIdGroups": 384,
-    "existingDuplicateCleanupPlanned": 435,
+    "existingInPostItemsFetched": 0,
+    "existingDuplicateExternalIdGroups": 0,
+    "existingDuplicateCleanupPlanned": 0,
     "duplicateCleanupSuccess": 0,
     "duplicateCleanupErrors": 0
   },
   "categoryResolution": {
     "byMethod": {
-      "inpost-hint-rejected": 536,
-      "inpost-hint-ean": 697,
-      "override-exact": 350
+      "override-exact": 557
     },
-    "rejectedHintReasons": {
-      "hint-category-id-not-in-category-tree": 523,
-      "hint-category-is-not-leaf": 13
-    }
+    "rejectedHintReasons": {}
   }
 }

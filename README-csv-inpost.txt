@@ -1,6 +1,6 @@
 # CSV WooCommerce -> InPost Buy
 
-Ostatnia aktualizacja: 2026-06-09.
+Ostatnia aktualizacja: 2026-07-13.
 
 Ten dokument opisuje aktualny proces pracy z eksportem WooCommerce i ofertami
 InPost Buy w tym repozytorium.
@@ -11,8 +11,9 @@ Glowne zasady:
   duplikatow.
 - `send-inpost-offers.js --sync` pobiera aktualne oferty z InPost i wysyla
   tylko roznice z pliku wygenerowanego z CSV.
-- Kategorie sa wybierane tylko w kolejnosci: hint po EAN, override po kategorii
-  WooCommerce, a potem pominiecie produktu.
+- Kategorie sa wybierane tylko w kolejnosci: poprawny hint po EAN potwierdzony
+  jako `leaf: true`, override po kategorii WooCommerce, a potem pominiecie
+  produktu.
 - Generator domyslnie sprawdza istniejace oferty w InPost i nie tworzy ponownie
   ofert o juz istniejacym `externalId`. Do synchronizacji uzyj
   `--include-existing`, zeby wygenerowac pelny obraz CSV.
@@ -20,9 +21,9 @@ Glowne zasady:
   wymaga InPost.
 - Przy synchronizacji istniejacych ofert kategoria referencyjna z bledu
   `CATEGORY_INCORRECT` w InPost ma najwyzszy priorytet. Jezeli InPost nie podaje
-  referencji, sync uzywa kategorii z CSV: najpierw hintu po EAN, potem recznego
-  override'u. Zachowanie aktualnej kategorii z InPost wymaga flagi awaryjnej
-  `--preserve-existing-categories`.
+  referencji, sync uzywa kategorii z CSV: najpierw poprawnego hintu po EAN,
+  potem recznego override'u. Zachowanie aktualnej kategorii z InPost wymaga
+  flagi awaryjnej `--preserve-existing-categories`.
 - Raporty generatora sa zwijane do dwoch plikow: `csv-generation-report.json`
   oraz `csv-generation-errors.json`.
 
@@ -96,16 +97,16 @@ istniejace oferty po `externalId`. Do pracy bez polaczenia uzyj `--offline`.
 Aktualna kolejnosc przypisania kategorii dla nowych ofert:
 
 ```text
-1. dist/category-hints.json po EAN
+1. dist/category-hints.json po EAN, tylko gdy drzewo kategorii potwierdza leaf: true
 2. category-overrides.json po kategorii WooCommerce
-3. brak dopasowania -> produkt trafia do raportu i nie jest wysylany
+3. brak dopasowania albo odrzucony hint -> produkt trafia do raportu i nie jest wysylany
 ```
 
 Dla istniejacych ofert w `--sync` obowiazuje bezpieczniejsza zasada:
 
 ```text
 1. jezeli InPost podaje kategorie referencyjna przy CATEGORY_INCORRECT -> uzyj jej
-2. jezeli nie ma referencji -> uzyj kategorii z CSV: hint po EAN, potem override
+2. jezeli nie ma referencji -> uzyj kategorii z CSV: poprawny hint po EAN, potem override
 3. zachowanie aktualnej kategorii z InPost tylko przez --preserve-existing-categories
 ```
 
@@ -119,6 +120,25 @@ kategorii jako leaf. Jezeli `category-map.json` zawiera bogatsze obiekty z
 `leaf: false`, generator zablokuje taki override. Obecny prosty format
 `"sciezka": "categoryId"` nie niesie informacji o `leaf`, wiec nie da sie tego
 potwierdzic automatycznie bez pelnego drzewa kategorii.
+
+Hinty po EAN sa walidowane wzgledem drzewa kategorii. Generator automatycznie
+laczy dostepne drzewa z plikow:
+
+```text
+dist/category-tree.json
+inpost-health-categories.txt
+inpost.txt
+```
+
+Inny plik mozna wskazac przez `INPOST_CATEGORY_TREE_FILE`. Jezeli hint wskazuje
+nie-lisc albo ID spoza drzewa, generator nie przechodzi po cichu na override,
+tylko pomija produkt i zapisuje szczegoly w:
+
+```text
+csv-generation-report.json -> totals.rejectedCategoryHints
+csv-generation-report.json -> categoryResolution.rejectedHintReasons
+csv-generation-errors.json -> rejectedCategoryHints
+```
 
 ---
 
@@ -212,7 +232,49 @@ duplicateCleanupResult
 
 ---
 
-## 7. Ochrona przed duplikatami
+## 7. Rescue przez override'y
+
+Rescue to osobny, kontrolowany przebieg dla produktow, ktore:
+
+- zostaly pominiete, bo hint po EAN wskazywal nie-lisc albo ID spoza drzewa,
+- albo w ostatnim syncu dostaly z InPost blad `CATEGORY_INCORRECT`.
+
+Ten tryb ignoruje hinty EAN i probuje zbudowac oferty tylko przez reczne
+`category-overrides.json`. Jezeli override wskazuje te sama kategorie, ktora
+InPost juz odrzucil, produkt jest pomijany i trafia do raportu.
+
+```bash
+npm run inpost:rescue-overrides
+npm run inpost:rescue-overrides:dry-run
+npm run inpost:rescue-overrides:sync
+```
+
+Pliki rescue sa osobne i nie nadpisuja glownego synca:
+
+```text
+dist/inpost-offers-rescue-overrides.json
+dist/offer-images-rescue-overrides.json
+dist/rescue-overrides-report.json
+dist/rescue-overrides-errors.json
+```
+
+`npm run inpost:rescue-overrides` czyta domyslnie:
+
+```text
+dist/csv-generation-errors.json
+dist/send-sync-errors.json
+```
+
+Inne pliki raportow mozna wskazac przez:
+
+```env
+INPOST_RESCUE_GENERATION_ERRORS_FILE=...
+INPOST_RESCUE_SYNC_ERRORS_FILE=...
+```
+
+---
+
+## 8. Ochrona przed duplikatami
 
 Generator chroni przed dwoma typami duplikatow.
 
@@ -249,7 +311,7 @@ Alias `--execute-cleanup` dziala tak samo jak `--execute`.
 
 ---
 
-## 8. Hinty kategorii po EAN
+## 9. Hinty kategorii po EAN
 
 Jezeli `dist/category-hints.json` jest pusty albo nieaktualny:
 
@@ -268,7 +330,7 @@ Po aktualizacji hintow uruchom ponownie generator ofert.
 
 ---
 
-## 9. Publikacja zmian z nowego CSV
+## 10. Publikacja zmian z nowego CSV
 
 Najkrotszy bezpieczny flow po aktualizacji CSV:
 
@@ -332,7 +394,7 @@ dist/send-results.json
 
 ---
 
-## 10. Naprawa istniejacych ofert
+## 11. Naprawa istniejacych ofert
 
 `patch-inpost-offers-from-csv.js` naprawia istniejace oferty po `externalId`.
 Robi dwie rzeczy w jednym przebiegu:
@@ -367,7 +429,7 @@ stary stan.
 
 ---
 
-## 11. Szybka checklista
+## 12. Szybka checklista
 
 ```bash
 node generate-category-hints.js suppla-oferta.csv dist/category-hints.json category-map.json

@@ -1,6 +1,6 @@
 # Szybka instrukcja: CSV WooCommerce -> InPost Buy
 
-Ostatnia aktualizacja: 2026-06-09.
+Ostatnia aktualizacja: 2026-07-13.
 
 Pelny opis jest w `README-csv-inpost.txt`.
 
@@ -32,18 +32,30 @@ INPOST_PATCH_CONTENT_TYPE=application/merge-patch+json
 Kolejnosc dla nowych ofert:
 
 ```text
-1. dist/category-hints.json po EAN
+1. hint po EAN tylko wtedy, gdy drzewo kategorii potwierdza leaf: true
 2. category-overrides.json po kategorii WooCommerce
-3. brak dopasowania -> raport i pominiecie
+3. brak dopasowania albo odrzucony hint -> raport i pominiecie
 ```
 
 Override'y musza wskazywac kategorie-liscie InPost (`leaf: true`).
+Generator automatycznie laczy dostepne drzewa kategorii z `dist/category-tree.json`,
+`inpost-health-categories.txt` i `inpost.txt`. Inny plik mozna wskazac przez
+`INPOST_CATEGORY_TREE_FILE`.
+
+Hint po EAN, ktory wskazuje nie-lisc albo ID spoza drzewa, nie przechodzi
+automatycznie na override. Taki produkt trafia do raportu:
+
+```text
+csv-generation-report.json -> totals.rejectedCategoryHints
+csv-generation-report.json -> categoryResolution.rejectedHintReasons
+csv-generation-errors.json -> rejectedCategoryHints
+```
 
 Dla istniejacych ofert w sync:
 
 ```text
 1. jezeli InPost podal kategorie referencyjna przy CATEGORY_INCORRECT -> uzyj jej
-2. jezeli nie ma referencji -> uzyj kategorii z CSV: hint po EAN, potem override
+2. jezeli nie ma referencji -> uzyj kategorii z CSV: poprawny hint po EAN, potem override
 3. aktualna kategorie z InPost zachowuj tylko flaga --preserve-existing-categories
 ```
 
@@ -98,6 +110,29 @@ dist/csv-generation-report.json
 dist/csv-generation-errors.json
 ```
 
+---
+
+## 5. Rescue przez override'y
+
+Jezeli glowny generator odrzucil hint po EAN albo sync zwrocil
+`CATEGORY_INCORRECT`, mozna przygotowac osobny plik ratunkowy tylko z recznych
+override'ow:
+
+```bash
+npm run inpost:rescue-overrides
+npm run inpost:rescue-overrides:dry-run
+npm run inpost:rescue-overrides:sync
+```
+
+Rescue zapisuje osobne pliki i nie nadpisuje glownego synca:
+
+```text
+dist/inpost-offers-rescue-overrides.json
+dist/offer-images-rescue-overrides.json
+dist/rescue-overrides-report.json
+dist/rescue-overrides-errors.json
+```
+
 Generator automatycznie wydluza opisy do minimum 100 znakow. Zmienione opisy sa
 w `csv-generation-errors.json -> generatedDescriptions`.
 
@@ -121,7 +156,7 @@ csv-generation-errors.json -> existingDuplicateGroups
 
 ---
 
-## 5. Sprzatanie duplikatow w InPost
+## 6. Sprzatanie duplikatow w InPost
 
 Plan duplikatow pojawia sie w raporcie generatora. Wykonanie zmian:
 
@@ -137,7 +172,7 @@ node csv-to-inpost-json.js suppla-oferta.csv category-map.json dist category-ove
 
 ---
 
-## 6. Opublikuj tylko roznice
+## 7. Opublikuj tylko roznice
 
 Terminal 1:
 
@@ -174,7 +209,7 @@ dist/send-sync-errors.json
 
 ---
 
-## 7. Napraw istniejace oferty
+## 8. Napraw istniejace oferty
 
 Dry run:
 
