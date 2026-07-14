@@ -1,0 +1,6469 @@
+{
+  "generatedAt": "2026-07-14T11:07:34.659Z",
+  "updatedAt": "2026-07-14T11:07:34.830Z",
+  "status": "complete",
+  "files": {
+    "csvFile": "suppla-oferta.csv",
+    "offersFile": "dist/inpost-offers.json",
+    "mapFile": "brand-map.json",
+    "reportFile": "dist/brand-enrichment-report.json"
+  },
+  "options": {
+    "dryRun": false,
+    "offline": true,
+    "refresh": false,
+    "onlyCode": "",
+    "lookupLimit": "unlimited",
+    "timeoutMs": 10000,
+    "delayMs": 150,
+    "progressEvery": 10,
+    "saveEvery": 25
+  },
+  "totals": {
+    "offers": 1225,
+    "processedOffers": 1225,
+    "codes": 1223,
+    "knownBeforeLookup": 75,
+    "lookedUp": 0,
+    "addedToMap": 0,
+    "changedNames": 48,
+    "alreadyHadBrandInName": 27,
+    "missingBrand": 0,
+    "skippedOffline": 1148,
+    "skippedLookupLimit": 0,
+    "skippedOtherCode": 0
+  },
+  "changed": [
+    {
+      "externalId": "573",
+      "code": "3282770143744",
+      "brand": "3282770143744",
+      "source": "openfoodfacts",
+      "oldName": "A-Derma Exomega Control - Pieniący się żel emolient przeciw drapaniu",
+      "newName": "3282770143744 A-Derma Exomega Control - Pieniący się żel emolient przeciw drapaniu",
+      "oldBrand": "A-Derma",
+      "newBrand": "3282770143744"
+    },
+    {
+      "externalId": "637",
+      "code": "3282770144314",
+      "brand": "Aderma",
+      "source": "openbeautyfacts",
+      "oldName": "A-Derma - Exomega Control Żel emolient do mycia 2 w 1 - przeciw drapaniu",
+      "newName": "Aderma A-Derma - Exomega Control Żel emolient do mycia 2 w 1 - przeciw drapaniu",
+      "oldBrand": "A-Derma",
+      "newBrand": "Aderma"
+    },
+    {
+      "externalId": "767",
+      "code": "3282770141351",
+      "brand": "DUCRAY",
+      "source": "openbeautyfacts",
+      "oldName": "Keracnyl Żel pieniący",
+      "newName": "DUCRAY Keracnyl Żel pieniący",
+      "oldBrand": "Keracnyl",
+      "newBrand": "DUCRAY"
+    },
+    {
+      "externalId": "788",
+      "code": "3282770075526",
+      "brand": "Ducray",
+      "source": "openbeautyfacts",
+      "oldName": "Anaphase Szampon – Uzupełnienie kuracji przeciw wypadaniu włosów",
+      "newName": "Ducray Anaphase Szampon – Uzupełnienie kuracji przeciw wypadaniu włosów",
+      "oldBrand": "Anaphase",
+      "newBrand": "Ducray"
+    },
+    {
+      "externalId": "824",
+      "code": "3282770075533",
+      "brand": "Ducray",
+      "source": "openbeautyfacts",
+      "oldName": "Anaphase Szampon – Uzupełnienie kuracji przeciw wypadaniu włosów",
+      "newName": "Ducray Anaphase Szampon – Uzupełnienie kuracji przeciw wypadaniu włosów",
+      "oldBrand": "Anaphase",
+      "newBrand": "Ducray"
+    },
+    {
+      "externalId": "1071",
+      "code": "3282770205633",
+      "brand": "Avène",
+      "source": "openbeautyfacts",
+      "oldName": "Cicalfate+ Spray oczyszczająco-regenerujący",
+      "newName": "Avène Cicalfate+ Spray oczyszczająco-regenerujący",
+      "oldBrand": "Cicalfate+",
+      "newBrand": "Avène"
+    },
+    {
+      "externalId": "1076",
+      "code": "3282779416139",
+      "brand": "Avène",
+      "source": "openbeautyfacts",
+      "oldName": "Cicalfate+ Regenerujący krem do rąk",
+      "newName": "Avène Cicalfate+ Regenerujący krem do rąk",
+      "oldBrand": "Cicalfate+",
+      "newBrand": "Avène"
+    },
+    {
+      "externalId": "1089",
+      "code": "3282770150261",
+      "brand": "Avène",
+      "source": "openbeautyfacts",
+      "oldName": "Cicalfate+ Oczyszczający żel do mycia",
+      "newName": "Avène Cicalfate+ Oczyszczający żel do mycia",
+      "oldBrand": "Cicalfate+",
+      "newBrand": "Avène"
+    },
+    {
+      "externalId": "1095",
+      "code": "3282770207088",
+      "brand": "Eau Thermale Avene",
+      "source": "openbeautyfacts",
+      "oldName": "Cicalfate+ Żel na blizny",
+      "newName": "Eau Thermale Avene Cicalfate+ Żel na blizny",
+      "oldBrand": "Cicalfate+",
+      "newBrand": "Eau Thermale Avene"
+    },
+    {
+      "externalId": "1331",
+      "code": "3282770200515",
+      "brand": "Eau Thermale Avene",
+      "source": "openbeautyfacts",
+      "oldName": "DermAbsolu Krem modelujący owal twarzy na dzień",
+      "newName": "Eau Thermale Avene DermAbsolu Krem modelujący owal twarzy na dzień",
+      "oldBrand": "DermAbsolu",
+      "newBrand": "Eau Thermale Avene"
+    },
+    {
+      "externalId": "1361",
+      "code": "3282770153170",
+      "brand": "Eau Thermale Avene",
+      "source": "openbeautyfacts",
+      "oldName": "Hyaluron Active B3 Krem odbudowujący komórki",
+      "newName": "Eau Thermale Avene Hyaluron Active B3 Krem odbudowujący komórki",
+      "oldBrand": "Hyaluron",
+      "newBrand": "Eau Thermale Avene"
+    },
+    {
+      "externalId": "1369",
+      "code": "3282770153200",
+      "brand": "Avène",
+      "source": "openbeautyfacts",
+      "oldName": "Hyaluron Activ B3 Multi intensywny krem na noc",
+      "newName": "Avène Hyaluron Activ B3 Multi intensywny krem na noc",
+      "oldBrand": "Hyaluron",
+      "newBrand": "Avène"
+    },
+    {
+      "externalId": "1407",
+      "code": "3282770388954",
+      "brand": "Avène",
+      "source": "openbeautyfacts",
+      "oldName": "Hydrance Skoncentrowane serum nawilżające",
+      "newName": "Avène Hydrance Skoncentrowane serum nawilżające",
+      "oldBrand": "Hydrance",
+      "newBrand": "Avène"
+    },
+    {
+      "externalId": "1420",
+      "code": "3282770208795",
+      "brand": "Eau Thermale Avene",
+      "source": "openbeautyfacts",
+      "oldName": "Hydrance UV Bogaty krem nawilżający SPF 30",
+      "newName": "Eau Thermale Avene Hydrance UV Bogaty krem nawilżający SPF 30",
+      "oldBrand": "Hydrance",
+      "newBrand": "Eau Thermale Avene"
+    },
+    {
+      "externalId": "1453",
+      "code": "3282779051491",
+      "brand": "Eau thermale Avène",
+      "source": "openbeautyfacts",
+      "oldName": "LesEssentiels Delikatny tonik do twarzy",
+      "newName": "Eau thermale Avène LesEssentiels Delikatny tonik do twarzy",
+      "oldBrand": "LesEssentiels",
+      "newBrand": "Eau thermale Avène"
+    },
+    {
+      "externalId": "1491",
+      "code": "3282770204797",
+      "brand": "Avène",
+      "source": "openbeautyfacts",
+      "oldName": "Bardzo wysoka ochrona przeciwsłoneczna Pomadka do ust SPF50+",
+      "newName": "Avène Bardzo wysoka ochrona przeciwsłoneczna Pomadka do ust SPF50+",
+      "oldBrand": "Bardzo",
+      "newBrand": "Avène"
+    },
+    {
+      "externalId": "1532",
+      "code": "3282779402927",
+      "brand": "Avène",
+      "source": "openbeautyfacts",
+      "oldName": "Bardzo wysoka ochrona przeciwsłoneczna Spray SPF30+",
+      "newName": "Avène Bardzo wysoka ochrona przeciwsłoneczna Spray SPF30+",
+      "oldBrand": "Bardzo",
+      "newBrand": "Avène"
+    },
+    {
+      "externalId": "1549",
+      "code": "3282770100778",
+      "brand": "Avène",
+      "source": "openbeautyfacts",
+      "oldName": "Sun SunsiMed Emulsja ochronna",
+      "newName": "Avène Sun SunsiMed Emulsja ochronna",
+      "oldBrand": "Sun",
+      "newBrand": "Avène"
+    },
+    {
+      "externalId": "1575",
+      "code": "3282770138801",
+      "brand": "Avène",
+      "source": "openbeautyfacts",
+      "oldName": "Tolérance Control Krem łagodząco-regenerujący",
+      "newName": "Avène Tolérance Control Krem łagodząco-regenerujący",
+      "oldBrand": "Tolérance",
+      "newBrand": "Avène"
+    },
+    {
+      "externalId": "1605",
+      "code": "3282770074741",
+      "brand": "Pierre Fabre",
+      "source": "openbeautyfacts",
+      "oldName": "TriXera Nurition Balsam odżywczy",
+      "newName": "Pierre Fabre TriXera Nurition Balsam odżywczy",
+      "oldBrand": "TriXera",
+      "newBrand": "Pierre Fabre"
+    },
+    {
+      "externalId": "1788",
+      "code": "3264680025891",
+      "brand": "NUXE",
+      "source": "openbeautyfacts",
+      "oldName": "Reve de Miel Żel do mycia twarzy i ciała",
+      "newName": "NUXE Reve de Miel Żel do mycia twarzy i ciała",
+      "oldBrand": "Reve",
+      "newBrand": "NUXE"
+    },
+    {
+      "externalId": "1867",
+      "code": "3264680014871",
+      "brand": "Nuxe",
+      "source": "openbeautyfacts",
+      "oldName": "Aquabella Tonik-esencja odkrywająca piękno skóry",
+      "newName": "Nuxe Aquabella Tonik-esencja odkrywająca piękno skóry",
+      "oldBrand": "Aquabella",
+      "newBrand": "Nuxe"
+    },
+    {
+      "externalId": "2048",
+      "code": "3264680004957",
+      "brand": "NUXE",
+      "source": "openbeautyfacts",
+      "oldName": "Men Wielofunkcyjny żel nawilżający do twarzy",
+      "newName": "NUXE Men Wielofunkcyjny żel nawilżający do twarzy",
+      "oldBrand": "Men",
+      "newBrand": "NUXE"
+    },
+    {
+      "externalId": "2110",
+      "code": "3264680028014",
+      "brand": "Nuxe",
+      "source": "openbeautyfacts",
+      "oldName": "Creme Fraiche de Beaute Krem nawilżający 3w1",
+      "newName": "Nuxe Creme Fraiche de Beaute Krem nawilżający 3w1",
+      "oldBrand": "Creme",
+      "newBrand": "Nuxe"
+    },
+    {
+      "externalId": "2880",
+      "code": "3499320009928",
+      "brand": "Cetaphil",
+      "source": "openbeautyfacts",
+      "oldName": "Pro Redness Control Pianka do mycia",
+      "newName": "Cetaphil Pro Redness Control Pianka do mycia",
+      "oldBrand": "Pro",
+      "newBrand": "Cetaphil"
+    },
+    {
+      "externalId": "3053",
+      "code": "3401343696245",
+      "brand": "Bioderma",
+      "source": "openbeautyfacts",
+      "oldName": "Sensibio AR Krem redukujący zaczerwienienia",
+      "newName": "Bioderma Sensibio AR Krem redukujący zaczerwienienia",
+      "oldBrand": "Sensibio",
+      "newBrand": "Bioderma"
+    },
+    {
+      "externalId": "3131",
+      "code": "3401575390447",
+      "brand": "Bioderma",
+      "source": "openbeautyfacts",
+      "oldName": "Sensibio H2O Woda micelarna skóra wrażliwa",
+      "newName": "Bioderma Sensibio H2O Woda micelarna skóra wrażliwa",
+      "oldBrand": "Sensibio",
+      "newBrand": "Bioderma"
+    },
+    {
+      "externalId": "3163",
+      "code": "3701129803400",
+      "brand": "Bioderma",
+      "source": "openbeautyfacts",
+      "oldName": "Sebium Gel Moussant Actif Aktywny żel oczyszczający do skóry tłustej i ze skłonnością do trądziku",
+      "newName": "Bioderma Sebium Gel Moussant Actif Aktywny żel oczyszczający do skóry tłustej i ze skłonnością do trądziku",
+      "oldBrand": "Sebium",
+      "newBrand": "Bioderma"
+    },
+    {
+      "externalId": "3220",
+      "code": "3401396935711",
+      "brand": "Bioderma",
+      "source": "openbeautyfacts",
+      "oldName": "AbcDerm Cold-Cream Krem ochronny natłuszczający do twarzy dla dzieci i niemowląt",
+      "newName": "Bioderma AbcDerm Cold-Cream Krem ochronny natłuszczający do twarzy dla dzieci i niemowląt",
+      "oldBrand": "AbcDerm",
+      "newBrand": "Bioderma"
+    },
+    {
+      "externalId": "3275",
+      "code": "3401360106994",
+      "brand": "Bioderma",
+      "source": "openbeautyfacts",
+      "oldName": "Sebium Sensitive Łagodzący krem wspomagający leczenie skóry trądzikowej",
+      "newName": "Bioderma Sebium Sensitive Łagodzący krem wspomagający leczenie skóry trądzikowej",
+      "oldBrand": "Sebium",
+      "newBrand": "Bioderma"
+    },
+    {
+      "externalId": "3309",
+      "code": "3401348840421",
+      "brand": "Bioderma",
+      "source": "openbeautyfacts",
+      "oldName": "Sebium Hydra Krem nawilżający do skóry tłustej i ze skłonnością do trądziku",
+      "newName": "Bioderma Sebium Hydra Krem nawilżający do skóry tłustej i ze skłonnością do trądziku",
+      "oldBrand": "Sebium",
+      "newBrand": "Bioderma"
+    },
+    {
+      "externalId": "3345",
+      "code": "3401347869546",
+      "brand": "Bioderma",
+      "source": "openbeautyfacts",
+      "oldName": "Cicabio Creme Krem łagodząco-odbudowujący skóra podrażniona",
+      "newName": "Bioderma Cicabio Creme Krem łagodząco-odbudowujący skóra podrażniona",
+      "oldBrand": "Cicabio",
+      "newBrand": "Bioderma"
+    },
+    {
+      "externalId": "3360",
+      "code": "3401399372575",
+      "brand": "Bioderma",
+      "source": "openbeautyfacts",
+      "oldName": "Atoderm Mains & Ongles Naprawczo-kojąca pielęgnacja skóry dłoni",
+      "newName": "Bioderma Atoderm Mains & Ongles Naprawczo-kojąca pielęgnacja skóry dłoni",
+      "oldBrand": "Atoderm",
+      "newBrand": "Bioderma"
+    },
+    {
+      "externalId": "3415",
+      "code": "3337875586269",
+      "brand": "La roche posay",
+      "source": "openbeautyfacts",
+      "oldName": "Cicaplast B5 Żel wspierający regenerację naskórka",
+      "newName": "La roche posay Cicaplast B5 Żel wspierający regenerację naskórka",
+      "oldBrand": "Cicaplast",
+      "newBrand": "La roche posay"
+    },
+    {
+      "externalId": "3424",
+      "code": "0000030106659",
+      "brand": "La Roche-Posay",
+      "source": "openbeautyfacts",
+      "oldName": "Cicaplast Levres Balsam do ust",
+      "newName": "La Roche-Posay Cicaplast Levres Balsam do ust",
+      "oldBrand": "Cicaplast",
+      "newBrand": "La Roche-Posay"
+    },
+    {
+      "externalId": "3453",
+      "code": "3433422408159",
+      "brand": "La Roche-Posay",
+      "source": "openbeautyfacts",
+      "oldName": "Effaclar Tonik mikrozłuszczający",
+      "newName": "La Roche-Posay Effaclar Tonik mikrozłuszczający",
+      "oldBrand": "Effaclar",
+      "newBrand": "La Roche-Posay"
+    },
+    {
+      "externalId": "3498",
+      "code": "3337875518451",
+      "brand": "La Roche-Posay",
+      "source": "openbeautyfacts",
+      "oldName": "Effaclar Duo+ Unifiant Tonujący krem zwalczający niedoskonałości",
+      "newName": "La Roche-Posay Effaclar Duo+ Unifiant Tonujący krem zwalczający niedoskonałości",
+      "oldBrand": "Effaclar",
+      "newBrand": "La Roche-Posay"
+    },
+    {
+      "externalId": "3538",
+      "code": "3337875731638",
+      "brand": "La roche posay",
+      "source": "openbeautyfacts",
+      "oldName": "Hydraphase Ha Light Krem intensywnie nawilżający",
+      "newName": "La roche posay Hydraphase Ha Light Krem intensywnie nawilżający",
+      "oldBrand": "Hydraphase",
+      "newBrand": "La roche posay"
+    },
+    {
+      "externalId": "3698",
+      "code": "3337875803786",
+      "brand": "La Roche-Posay",
+      "source": "openbeautyfacts",
+      "oldName": "Lipikar Baume Light AP+M Lekki balsam",
+      "newName": "La Roche-Posay Lipikar Baume Light AP+M Lekki balsam",
+      "oldBrand": "Lipikar",
+      "newBrand": "La Roche-Posay"
+    },
+    {
+      "externalId": "3730",
+      "code": "3337872412684",
+      "brand": "La roche posay",
+      "source": "openbeautyfacts",
+      "oldName": "Lipikar Xerand Krem do rąk",
+      "newName": "La roche posay Lipikar Xerand Krem do rąk",
+      "oldBrand": "Lipikar",
+      "newBrand": "La roche posay"
+    },
+    {
+      "externalId": "3862",
+      "code": "3337875546430",
+      "brand": "La Roche-Posay",
+      "source": "openbeautyfacts",
+      "oldName": "Anthelios Uvmune 400 Oil Control Żel-krem SPF 50+",
+      "newName": "La Roche-Posay Anthelios Uvmune 400 Oil Control Żel-krem SPF 50+",
+      "oldBrand": "Anthelios",
+      "newBrand": "La Roche-Posay"
+    },
+    {
+      "externalId": "3877",
+      "code": "3337875761123",
+      "brand": "La Roche-Posay",
+      "source": "openbeautyfacts",
+      "oldName": "Anthelios Mleczko nawilżające SPF 50+",
+      "newName": "La Roche-Posay Anthelios Mleczko nawilżające SPF 50+",
+      "oldBrand": "Anthelios",
+      "newBrand": "La Roche-Posay"
+    },
+    {
+      "externalId": "3888",
+      "code": "3337872419904",
+      "brand": "La Roche-Posay",
+      "source": "openbeautyfacts",
+      "oldName": "Anthelios Dermo-Pediatrics Mleczko SPF 50+",
+      "newName": "La Roche-Posay Anthelios Dermo-Pediatrics Mleczko SPF 50+",
+      "oldBrand": "Anthelios",
+      "newBrand": "La Roche-Posay"
+    },
+    {
+      "externalId": "3894",
+      "code": "3337875549530",
+      "brand": "La Roche-Posay",
+      "source": "openbeautyfacts",
+      "oldName": "Anthelios Niewidoczna mgiełka SPF 50",
+      "newName": "La Roche-Posay Anthelios Niewidoczna mgiełka SPF 50",
+      "oldBrand": "Anthelios",
+      "newBrand": "La Roche-Posay"
+    },
+    {
+      "externalId": "4023",
+      "code": "3337875831888",
+      "brand": "Vichy",
+      "source": "openbeautyfacts",
+      "oldName": "Mineral 89 Lekki krem nawilżająco-odżywczy",
+      "newName": "Vichy Mineral 89 Lekki krem nawilżająco-odżywczy",
+      "oldBrand": "Mineral",
+      "newBrand": "Vichy"
+    },
+    {
+      "externalId": "4123",
+      "code": "3337875805025",
+      "brand": "Vichy",
+      "source": "openproductsfacts",
+      "oldName": "Homme Clinical Control Antyperspirant roll-on dla mężczyzn",
+      "newName": "Vichy Homme Clinical Control Antyperspirant roll-on dla mężczyzn",
+      "oldBrand": "Homme",
+      "newBrand": "Vichy"
+    },
+    {
+      "externalId": "4133",
+      "code": "3337875804431",
+      "brand": "Vichy",
+      "source": "openbeautyfacts",
+      "oldName": "Clinical Control Antyperspirant roll-on dla kobiet 96-godzinna ochrona",
+      "newName": "Vichy Clinical Control Antyperspirant roll-on dla kobiet 96-godzinna ochrona",
+      "oldBrand": "Clinical",
+      "newBrand": "Vichy"
+    },
+    {
+      "externalId": "4284",
+      "code": "3337875695176",
+      "brand": "Vichy",
+      "source": "openbeautyfacts",
+      "oldName": "Capital Soleil Matujący krem do twarzy SPF 50+",
+      "newName": "Vichy Capital Soleil Matujący krem do twarzy SPF 50+",
+      "oldBrand": "Capital",
+      "newBrand": "Vichy"
+    }
+  ],
+  "alreadyPresent": [
+    {
+      "externalId": "588",
+      "code": "3282770149722",
+      "brand": "A.DERMA",
+      "name": "A-Derma Exomega Control - Balsam emolient",
+      "source": "openbeautyfacts"
+    },
+    {
+      "externalId": "593",
+      "code": "3282770209495",
+      "brand": "A-Derma",
+      "name": "A-Derma Epitheliale A.H Ultra - Krem kojąco-regenerujący",
+      "source": "openbeautyfacts"
+    },
+    {
+      "externalId": "599",
+      "code": "3282770149685",
+      "brand": "A-Derma",
+      "name": "A-Derma Exomega Control– Krem emolient",
+      "source": "openbeautyfacts"
+    },
+    {
+      "externalId": "604",
+      "code": "3282770145021",
+      "brand": "A-DERMA",
+      "name": "A--Derma Dermalibour+ CICA- Żel do mycia",
+      "source": "openbeautyfacts"
+    },
+    {
+      "externalId": "720",
+      "code": "3282770148282",
+      "brand": "Ducray",
+      "name": "Ducray Extra Doux - Szampon dermatologiczny",
+      "source": "openbeautyfacts"
+    },
+    {
+      "externalId": "727",
+      "code": "3282770073348",
+      "brand": "Ducray",
+      "name": "Ducray Dexyane Med Krem kojąco-regenerujący dla skóry z egzemą",
+      "source": "openbeautyfacts"
+    },
+    {
+      "externalId": "1235",
+      "code": "3264680008726",
+      "brand": "Sun",
+      "name": "Sun Pielęgnacyjny żel pod prysznic po opalaniu",
+      "source": "openbeautyfacts"
+    },
+    {
+      "externalId": "1343",
+      "code": "3282770111552",
+      "brand": "Avene",
+      "name": "Avene - Body Łagodny żel pod prysznic",
+      "source": "openbeautyfacts"
+    },
+    {
+      "externalId": "1487",
+      "code": "3282779355872",
+      "brand": "Avene",
+      "name": "Eau Thermale Avène - Bardzo wysoka ochrona przeciwsłoneczna Ochronne mleczko mineralne SPF50+",
+      "source": "openbeautyfacts"
+    },
+    {
+      "externalId": "1513",
+      "code": "3282770149562",
+      "brand": "Avène",
+      "name": "Eau Thermale Avène - Bardzo wysoka ochrona przeciwsłoneczna SPF50+ Cleanance koloryzujący",
+      "source": "openbeautyfacts"
+    },
+    {
+      "externalId": "4044",
+      "code": "3337871320362",
+      "brand": "Vichy Homme",
+      "name": "Vichy Homme Antyperspirant 72h roll-on",
+      "source": "openbeautyfacts"
+    },
+    {
+      "externalId": "4550",
+      "code": "3337875787222",
+      "brand": "Dercos",
+      "name": "Dercos PSOlution Keratolityczny szampon do włosów",
+      "source": "openbeautyfacts"
+    },
+    {
+      "externalId": "4553",
+      "code": "3337875485128",
+      "brand": "Vichy",
+      "name": "Vichy Dercos Ultra Soothing Szampon ultrakojący włosy suche",
+      "source": "openbeautyfacts"
+    },
+    {
+      "externalId": "5452",
+      "code": "0033984010741",
+      "brand": "Solgar",
+      "name": "Solgar Female Multiple",
+      "source": "openfoodfacts"
+    },
+    {
+      "externalId": "5470",
+      "code": "0033984005204",
+      "brand": "Solgar",
+      "name": "Solgar Wapń Magnez Cynk",
+      "source": "openfoodfacts"
+    },
+    {
+      "externalId": "5566",
+      "code": "0033984004078",
+      "brand": "Solgar",
+      "name": "Solgar Witamina C 500mg pastylki do ssania pomarańczowe",
+      "source": "openfoodfacts"
+    },
+    {
+      "externalId": "6896",
+      "code": "3282779003124",
+      "brand": "Avène",
+      "name": "Eau Thermale Avène - Woda termalna Avène",
+      "source": "openbeautyfacts"
+    },
+    {
+      "externalId": "6913",
+      "code": "3282770393477",
+      "brand": "Avene",
+      "name": "Eau Thermale Avène Vitamin Activ Cg - Serum rozjaśniające przebarwienia",
+      "source": "openbeautyfacts"
+    },
+    {
+      "externalId": "9495",
+      "code": "3522931003723",
+      "brand": "caudalie",
+      "name": "Caudalie Vinosun Protect - Fluid o bardzo wysokiej ochronie",
+      "source": "openbeautyfacts"
+    },
+    {
+      "externalId": "11617",
+      "code": "3522930004028",
+      "brand": "Caudalie",
+      "name": "Caudalie Vinosun Protect - Woda słoneczna o bardzo wysokiej ochronie SPF50+",
+      "source": "openbeautyfacts"
+    },
+    {
+      "externalId": "14718",
+      "code": "3282770390766",
+      "brand": "Klorane",
+      "name": "Klorane - Szampon suchy z Owsem i Ceramide<sup>ᴸᴵᴷᴱ</sup> – włosy ciemne",
+      "source": "openbeautyfacts"
+    },
+    {
+      "externalId": "14754",
+      "code": "3282770390414",
+      "brand": "Avène",
+      "name": "Avene Cleanance Comedomed - Koncentrat przeciw niedoskonałościom",
+      "source": "openbeautyfacts"
+    },
+    {
+      "externalId": "14787",
+      "code": "3282770395365",
+      "brand": "Avene",
+      "name": "Avene Cleanance Comedomed Peeling - Intensywny krem na wypryski",
+      "source": "openbeautyfacts"
+    },
+    {
+      "externalId": "15260",
+      "code": "3522930003618",
+      "brand": "Caudalie",
+      "name": "Caudalie Vinotherapist<sup>™</sup> - Regenerujący krem do rąk i paznokci",
+      "source": "openbeautyfacts"
+    },
+    {
+      "externalId": "15432",
+      "code": "3522930004141",
+      "brand": "Caudalie",
+      "name": "Caudalie - Delikatny szampon do włosów",
+      "source": "openbeautyfacts"
+    },
+    {
+      "externalId": "15443",
+      "code": "3522930003441",
+      "brand": "Caudalie",
+      "name": "Caudalie Vinopure - Serum z kwasem salicylowym na niedoskonałości",
+      "source": "openbeautyfacts"
+    },
+    {
+      "externalId": "17275",
+      "code": "3264680046513",
+      "brand": "Nuxe",
+      "name": "Nuxe Merveillance Lift The Exceptional - Krem na dzień i noc",
+      "source": "openbeautyfacts"
+    }
+  ],
+  "missing": [
+    {
+      "externalId": "156",
+      "code": "3504105037772",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "162",
+      "code": "5908216299865",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "166",
+      "code": "3504105034399",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "175",
+      "code": "3504105035860",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "184",
+      "code": "3504105036089",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "193",
+      "code": "3504105036003",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "197",
+      "code": "3504105035532",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "200",
+      "code": "3504105036157",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "203",
+      "code": "3504105036430",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "206",
+      "code": "3504105036454",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "210",
+      "code": "3504105035709",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "213",
+      "code": "3504105029807",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "226",
+      "code": "3504105031572",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "236",
+      "code": "3504105033644",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "240",
+      "code": "5903263248231",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "247",
+      "code": "3504105034306",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "251",
+      "code": "3504105030544",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "260",
+      "code": "5903263245780",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "261",
+      "code": "3504105034412",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "266",
+      "code": "5903240597666",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "277",
+      "code": "3504105039813",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "283",
+      "code": "5903263242185",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "294",
+      "code": "5903263241393",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "299",
+      "code": "3504105037963",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "303",
+      "code": "3504105037956",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "313",
+      "code": "5902502532216",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "320",
+      "code": "3504105034269",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "324",
+      "code": "3504105033873",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "325",
+      "code": "5902502378616",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "329",
+      "code": "3504105033897",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "334",
+      "code": "3504105033880",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "336",
+      "code": "5902502354818",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "347",
+      "code": "5902502353811",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "377",
+      "code": "5908216299339",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "393",
+      "code": "5906739780013",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "401",
+      "code": "5901643174569",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "412",
+      "code": "5901643172718",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "421",
+      "code": "5901643176389",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "424",
+      "code": "5901643176471",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "429",
+      "code": "5901643176228",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "432",
+      "code": "5901643174682",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "441",
+      "code": "5901643173173",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "443",
+      "code": "5901643170691",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "461",
+      "code": "5901643175122",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "464",
+      "code": "5900793010178",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "466",
+      "code": "5901643174170",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "470",
+      "code": "5901643174194",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "472",
+      "code": "5901643174255",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "477",
+      "code": "5901643174217",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "481",
+      "code": "5901643174231",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "487",
+      "code": "5901643176945",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "494",
+      "code": "5901643176167",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "504",
+      "code": "5901643176181",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "510",
+      "code": "5901643170806",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "517",
+      "code": "5901643170813",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "520",
+      "code": "5901643174033",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "530",
+      "code": "5901643176280",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "559",
+      "code": "3282770141962",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "565",
+      "code": "3282779285230",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "578",
+      "code": "3282770143423",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "584",
+      "code": "3282770149814",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "614",
+      "code": "3282770209440",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "625",
+      "code": "3282770108729",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "634",
+      "code": "5901643176242",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "640",
+      "code": "5906739783199",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "651",
+      "code": "3282770104783",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "652",
+      "code": "5906739783175",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "667",
+      "code": "5901643176105",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "675",
+      "code": "5901643175382",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "682",
+      "code": "5901643176549",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "683",
+      "code": "3282770148480",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "685",
+      "code": "5901643176525",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "691",
+      "code": "3282770141382",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "697",
+      "code": "3282770138900",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "702",
+      "code": "3282779317658",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "709",
+      "code": "3282770389272",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "713",
+      "code": "3282770038521",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "725",
+      "code": "3282770148107",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "730",
+      "code": "3282770390032",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "735",
+      "code": "3282770037586",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "748",
+      "code": "3282770148466",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "753",
+      "code": "3282770141467",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "759",
+      "code": "3282770141320",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "773",
+      "code": "3282770148053",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "777",
+      "code": "3282770073683",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "782",
+      "code": "3282770392371",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "799",
+      "code": "3282770140484",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "801",
+      "code": "5901643176563",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "807",
+      "code": "3282770140453",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "815",
+      "code": "5901643176501",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "818",
+      "code": "5901643170073",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "827",
+      "code": "5901643175641",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "831",
+      "code": "3282770109290",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "835",
+      "code": "5901643175627",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "846",
+      "code": "5901643175603",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "856",
+      "code": "5901643175580",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "858",
+      "code": "5901643177140",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "867",
+      "code": "5901643177164",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "868",
+      "code": "3264680015809",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "888",
+      "code": "3264680009808",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "891",
+      "code": "5901643177089",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "914",
+      "code": "3264680024382",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "921",
+      "code": "3264680004070",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "924",
+      "code": "3264680015908",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "926",
+      "code": "3264680022005",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "930",
+      "code": "3264680024993",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "934",
+      "code": "3264680026089",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "935",
+      "code": "5901643177102",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "940",
+      "code": "3264680015946",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "944",
+      "code": "3264680009785",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "949",
+      "code": "5901643174507",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "957",
+      "code": "5901643174545",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "961",
+      "code": "3264680024795",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "966",
+      "code": "5901643174521",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "977",
+      "code": "5901643176044",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "978",
+      "code": "3264680005848",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "988",
+      "code": "5906739783014",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "991",
+      "code": "5906739783007",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "994",
+      "code": "5906739783021",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "996",
+      "code": "5901643170592",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "999",
+      "code": "5901643172053",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1002",
+      "code": "5901643174873",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1004",
+      "code": "5901643175269",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1009",
+      "code": "5906739782864",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1051",
+      "code": "3282779310741",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1056",
+      "code": "3282770204971",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1066",
+      "code": "3282770100686",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1082",
+      "code": "3282770148763",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1101",
+      "code": "3282770101263",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1102",
+      "code": "3264680024818",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1113",
+      "code": "3282770144970",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1118",
+      "code": "3264680023323",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1122",
+      "code": "3282770140521",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1130",
+      "code": "3282770207811",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1131",
+      "code": "3264680019159",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1140",
+      "code": "3282770205671",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1150",
+      "code": "3282770207828",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1163",
+      "code": "3264680021992",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1175",
+      "code": "3264680024757",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1181",
+      "code": "3264680024771",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1191",
+      "code": "3264680022166",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1195",
+      "code": "3264680015816",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1202",
+      "code": "3264680026171",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1226",
+      "code": "3264680010941",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1231",
+      "code": "3264680015922",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1243",
+      "code": "3264680029707",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1253",
+      "code": "3264680029318",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1275",
+      "code": "3264680004117",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1280",
+      "code": "3264680001239",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1283",
+      "code": "3264680021985",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1286",
+      "code": "3264680022012",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1293",
+      "code": "3282770205589",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1298",
+      "code": "3282770072815",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1304",
+      "code": "3282770142112",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1309",
+      "code": "3282770200478",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1316",
+      "code": "3282770200553",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1321",
+      "code": "3282770145564",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1326",
+      "code": "3282770200591",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1338",
+      "code": "3282770201727",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1350",
+      "code": "3282770208597",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1354",
+      "code": "3282770153217",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1374",
+      "code": "3282770153101",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1385",
+      "code": "3264680021978",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1395",
+      "code": "3282779390132",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1400",
+      "code": "3282770208962",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1415",
+      "code": "3282770208788",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1426",
+      "code": "3282770203493",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1439",
+      "code": "3282770152371",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1445",
+      "code": "3282779051378",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1449",
+      "code": "3282770152586",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1472",
+      "code": "3282770114201",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1477",
+      "code": "3282770104684",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1480",
+      "code": "3282770154221",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1498",
+      "code": "3282770388961",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1520",
+      "code": "3282770149548",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1526",
+      "code": "3282770149487",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1538",
+      "code": "3282770100617",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1543",
+      "code": "3282770207576",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1556",
+      "code": "3282770388336",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1566",
+      "code": "3282770138856",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1581",
+      "code": "3282770142280",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1611",
+      "code": "3282770146790",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1650",
+      "code": "5900717150423",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1655",
+      "code": "5400951990743",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1664",
+      "code": "5900717152021",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1679",
+      "code": "5900717015012",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1685",
+      "code": "5900717152229",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1691",
+      "code": "5900717152311",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1697",
+      "code": "5900717152410",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1703",
+      "code": "5900717150713",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1710",
+      "code": "5900717152519",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1718",
+      "code": "5900717150812",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1719",
+      "code": "5902502245727",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1730",
+      "code": "5900717152915",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1731",
+      "code": "5902502243624",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1734",
+      "code": "5902502242726",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1740",
+      "code": "5900717152717",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1763",
+      "code": "3264680022074",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1764",
+      "code": "5900717150522",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1768",
+      "code": "3264680028953",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1774",
+      "code": "5900717150614",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1782",
+      "code": "3264680004063",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1783",
+      "code": "5900717163621",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1794",
+      "code": "5900717165618",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1806",
+      "code": "5900717163515",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1810",
+      "code": "3264680027901",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1820",
+      "code": "5900717160064",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1823",
+      "code": "3264680026225",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1832",
+      "code": "5900717163829",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1839",
+      "code": "5900717160057",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1845",
+      "code": "5900717160026",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1848",
+      "code": "3264680014857",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1855",
+      "code": "5900717163317",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1866",
+      "code": "5900717164017",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1874",
+      "code": "5900717163416",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1878",
+      "code": "3264680014888",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1892",
+      "code": "5900717164314",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1898",
+      "code": "5900717160071",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1902",
+      "code": "5900717160040",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1909",
+      "code": "5900717160019",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1915",
+      "code": "5900717160118",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1924",
+      "code": "5900717141810",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1931",
+      "code": "5900717142428",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1937",
+      "code": "5900717142510",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1943",
+      "code": "5900717142114",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1952",
+      "code": "5900717142619",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1954",
+      "code": "3264680015755",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1960",
+      "code": "5900717142213",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1966",
+      "code": "5900717140103",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1972",
+      "code": "5900717140073",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1978",
+      "code": "5900717142718",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1984",
+      "code": "5900717142817",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "1996",
+      "code": "3264680004964",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2002",
+      "code": "3264680003561",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2007",
+      "code": "3264680003592",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2015",
+      "code": "5900717140615",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2024",
+      "code": "5900717140011",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2027",
+      "code": "3264680003585",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2034",
+      "code": "3264680008719",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2035",
+      "code": "5900717141711",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2044",
+      "code": "5900717140127",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2056",
+      "code": "5900717148222",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2063",
+      "code": "3264680003578",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2068",
+      "code": "5900717147324",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2076",
+      "code": "5900717147423",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2082",
+      "code": "5900717147515",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2083",
+      "code": "3264680027932",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2090",
+      "code": "5900717144521",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2098",
+      "code": "5900717144910",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2107",
+      "code": "5900717144415",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2117",
+      "code": "5900717144811",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2127",
+      "code": "5900717143111",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2139",
+      "code": "5900717146310",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2146",
+      "code": "5900717146419",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2162",
+      "code": "3264680028007",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2166",
+      "code": "5900717159112",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2178",
+      "code": "5900717157118",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2195",
+      "code": "5900717157217",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2201",
+      "code": "5900717158214",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2207",
+      "code": "5900717158313",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2213",
+      "code": "5900717158511",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2220",
+      "code": "5900717158665",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2227",
+      "code": "5900717158719",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2237",
+      "code": "5900717158818",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2244",
+      "code": "5900717167018",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2246",
+      "code": "3264680007019",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2254",
+      "code": "5900717167117",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2266",
+      "code": "5900717149144",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2273",
+      "code": "5900717149007",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2283",
+      "code": "5900717149212",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2290",
+      "code": "5900717149519",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2303",
+      "code": "3264680027178",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2308",
+      "code": "5900717149106",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2315",
+      "code": "5900717149816",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2323",
+      "code": "5900717149618",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2331",
+      "code": "5900717149120",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2338",
+      "code": "5900717149069",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2344",
+      "code": "5900717151017",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2349",
+      "code": "5900717151055",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2351",
+      "code": "5900717151031",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2355",
+      "code": "5900717015135",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2363",
+      "code": "5900717691711",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2368",
+      "code": "5900717691810",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2372",
+      "code": "5900717169197",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2381",
+      "code": "3264680010798",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2397",
+      "code": "5900717692213",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2402",
+      "code": "5900717691513",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2405",
+      "code": "5900717691315",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2407",
+      "code": "5900717691216",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2410",
+      "code": "5900717691612",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2415",
+      "code": "5900717690851",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2419",
+      "code": "5900717692015",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2424",
+      "code": "5900717692114",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2431",
+      "code": "5900717690752",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2435",
+      "code": "5900717692312",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2540",
+      "code": "3264680022098",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2554",
+      "code": "3264680022104",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2563",
+      "code": "3264680022111",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2571",
+      "code": "3264680022036",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2592",
+      "code": "3264680022043",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2598",
+      "code": "3264680022067",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2608",
+      "code": "3264680012525",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2632",
+      "code": "3264680025105",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2654",
+      "code": "3264680026133",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2684",
+      "code": "3264680015915",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2739",
+      "code": "3264680009778",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2750",
+      "code": "3264680009761",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2751",
+      "code": "3499320013857",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2769",
+      "code": "3499320009867",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2774",
+      "code": "3499320013826",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2782",
+      "code": "3499320013871",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2787",
+      "code": "5020465201496",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2791",
+      "code": "3499320013864",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2800",
+      "code": "3499320010573",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2804",
+      "code": "3499320008006",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2811",
+      "code": "3499320013833",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2840",
+      "code": "3499320012089",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2844",
+      "code": "3499320012102",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2850",
+      "code": "3499320012096",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2856",
+      "code": "3499320009249",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2865",
+      "code": "3499320009218",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2869",
+      "code": "3499320009225",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2871",
+      "code": "3499320009232",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2875",
+      "code": "3499320010597",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2882",
+      "code": "3701129802670",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2888",
+      "code": "3499320009942",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2891",
+      "code": "3701129801963",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2894",
+      "code": "5901986060987",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2911",
+      "code": "3401329447977",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2918",
+      "code": "5901986061014",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2921",
+      "code": "5901986061311",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2924",
+      "code": "5901986060628",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2927",
+      "code": "5901986060420",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2940",
+      "code": "5901986061052",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2942",
+      "code": "5906948846838",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2950",
+      "code": "5901986060031",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2967",
+      "code": "5906948846821",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2968",
+      "code": "3401346673335",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2986",
+      "code": "5901986060192",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "2999",
+      "code": "5906948846975",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3012",
+      "code": "5901986060208",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3015",
+      "code": "5901986060048",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3017",
+      "code": "5906948846968",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3033",
+      "code": "5901986061076",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3035",
+      "code": "5906948846876",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3064",
+      "code": "5902751582451",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3067",
+      "code": "5902751582444",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3069",
+      "code": "5902751582437",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3081",
+      "code": "5902751582420",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3097",
+      "code": "5904730878005",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3103",
+      "code": "5907718948530",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3106",
+      "code": "5904730878104",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3111",
+      "code": "5904730878180",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3113",
+      "code": "5904730878463",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3125",
+      "code": "5907718948967",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3129",
+      "code": "5907718948233",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3135",
+      "code": "5904730878128",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3138",
+      "code": "3701129804469",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3140",
+      "code": "5907718948516",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3144",
+      "code": "3701129804452",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3150",
+      "code": "3401351366789",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3152",
+      "code": "3401381682361",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3157",
+      "code": "5902751582222",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3166",
+      "code": "3701129800102",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3182",
+      "code": "5902751582215",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3186",
+      "code": "5907718948608",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3188",
+      "code": "5907718948844",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3190",
+      "code": "5907718948677",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3192",
+      "code": "5907718948981",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3198",
+      "code": "5907718948219",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3200",
+      "code": "5904730878289",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3202",
+      "code": "5904730878142",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3204",
+      "code": "5904730878227",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3218",
+      "code": "5902751587210",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3222",
+      "code": "5902751586794",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3233",
+      "code": "5902751586800",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3235",
+      "code": "5907718948622",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3266",
+      "code": "3701129801000",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3274",
+      "code": "3401360157514",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3308",
+      "code": "3337875597296",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3335",
+      "code": "3337875840620",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3342",
+      "code": "3337875814652",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3350",
+      "code": "3337875597272",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3352",
+      "code": "3401399373008",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3357",
+      "code": "3337875784054",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3370",
+      "code": "3337875782357",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3376",
+      "code": "3337875797719",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3382",
+      "code": "7640114911446",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3384",
+      "code": "5902802704382",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3398",
+      "code": "7640114911538",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3405",
+      "code": "7640114911095",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3407",
+      "code": "7640114911071",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3420",
+      "code": "3337875517300",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3428",
+      "code": "3337872414145",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3439",
+      "code": "3337872410321",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3450",
+      "code": "3337875708289",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3456",
+      "code": "3337872412516",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3468",
+      "code": "5906071043821",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3473",
+      "code": "5902802702203",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3479",
+      "code": "5906071023304",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3481",
+      "code": "5906071023861",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3483",
+      "code": "5906071023854",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3486",
+      "code": "5906071005751",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3487",
+      "code": "3337875722827",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3495",
+      "code": "3337875549493",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3502",
+      "code": "5907245697635",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3507",
+      "code": "3337875613491",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3514",
+      "code": "3337875583626",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3520",
+      "code": "3337875806923",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3524",
+      "code": "3337875760201",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3529",
+      "code": "3701129801628",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3546",
+      "code": "3337875731409",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3551",
+      "code": "3337872412646",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3757",
+      "code": "3337875693820",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3761",
+      "code": "3337875757614",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3763",
+      "code": "3337875757515",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3764",
+      "code": "3401398303648",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3766",
+      "code": "3337875800853",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3779",
+      "code": "3401329447809",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3797",
+      "code": "3701129800072",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3800",
+      "code": "3701129800089",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3810",
+      "code": "3701129805367",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3822",
+      "code": "3337875807043",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3827",
+      "code": "3337875806961",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3838",
+      "code": "3337875578486",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3859",
+      "code": "3337875660570",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3864",
+      "code": "3337875761031",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3869",
+      "code": "3337875797467",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3873",
+      "code": "3337875797764",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3883",
+      "code": "3337875696807",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3900",
+      "code": "3337875696838",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3941",
+      "code": "5907377138914",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3964",
+      "code": "5907377136712",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3971",
+      "code": "5903031285604",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3973",
+      "code": "5903031285628",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3976",
+      "code": "5907377136941",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3981",
+      "code": "5903031280852",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3983",
+      "code": "5903031281606",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3985",
+      "code": "5907377138365",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3987",
+      "code": "5907377136897",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3994",
+      "code": "5907377136743",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3996",
+      "code": "5903031286236",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3998",
+      "code": "5903031283020",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4000",
+      "code": "5903031283037",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4003",
+      "code": "5903031283945",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4005",
+      "code": "5903031287424",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4006",
+      "code": "3337875849999",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4010",
+      "code": "5907377136866",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4015",
+      "code": "5907377136873",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4018",
+      "code": "3337875839501",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4027",
+      "code": "3337875837149",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4033",
+      "code": "3337875414067",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4035",
+      "code": "3337875821636",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4041",
+      "code": "3337875832724",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4047",
+      "code": "3337871316600",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4050",
+      "code": "5907377136927",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4053",
+      "code": "5903031280289",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4060",
+      "code": "5907377136767",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4062",
+      "code": "5903031280265",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4064",
+      "code": "5907377136958",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4066",
+      "code": "5903031280906",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4068",
+      "code": "5907377138372",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4070",
+      "code": "5907377136910",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4074",
+      "code": "5907377136729",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4076",
+      "code": "5907377136736",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4078",
+      "code": "5907377137726",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4080",
+      "code": "5907377136903",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4082",
+      "code": "5903031280296",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4084",
+      "code": "5907377137405",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4085",
+      "code": "3337875734387",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4090",
+      "code": "3337875824033",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4092",
+      "code": "5907377136750",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4100",
+      "code": "5907377137429",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4101",
+      "code": "3337875419802",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4103",
+      "code": "5907377137412",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4109",
+      "code": "5903031280333",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4110",
+      "code": "3337871320980",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4114",
+      "code": "5904960017380",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4117",
+      "code": "3337875773980",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4144",
+      "code": "3337875795265",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4163",
+      "code": "3337871322694",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4170",
+      "code": "3337875585231",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4213",
+      "code": "5904960012415",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4219",
+      "code": "5907559279152",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4221",
+      "code": "5904960011852",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4246",
+      "code": "5904960014945",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4248",
+      "code": "5904960014952",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4267",
+      "code": "5904960017861",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4270",
+      "code": "5904960011982",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4272",
+      "code": "5904960017755",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4274",
+      "code": "5904960012828",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4278",
+      "code": "5904960017489",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4280",
+      "code": "5904960017496",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4289",
+      "code": "3337871323622",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4292",
+      "code": "3337875762298",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4302",
+      "code": "5904960016734",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4304",
+      "code": "5904960019629",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4306",
+      "code": "5904960018325",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4322",
+      "code": "5904960012071",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4324",
+      "code": "5904960012095",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4328",
+      "code": "5904960017540",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4330",
+      "code": "5904960016215",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4332",
+      "code": "5904960017519",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4336",
+      "code": "5904960015386",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4340",
+      "code": "5904960016925",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4343",
+      "code": "5904960017731",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4345",
+      "code": "5904960019278",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4351",
+      "code": "3337871308612",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4356",
+      "code": "5907774335091",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4358",
+      "code": "3337875559485",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4369",
+      "code": "5907774335077",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4375",
+      "code": "5907774335022",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4380",
+      "code": "3337875574358",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4387",
+      "code": "3337875678094",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4391",
+      "code": "3337875796583",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4398",
+      "code": "3337875734905",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4405",
+      "code": "5907774335053",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4408",
+      "code": "5907774335046",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4411",
+      "code": "5907774335084",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4415",
+      "code": "5907774335060",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4431",
+      "code": "5902020661610",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4435",
+      "code": "5900558001830",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4439",
+      "code": "5900558001809",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4445",
+      "code": "5900558000680",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4447",
+      "code": "5900558000307",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4455",
+      "code": "3337875491563",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4458",
+      "code": "3337875774017",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4463",
+      "code": "3337875774031",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4466",
+      "code": "3337875774086",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4472",
+      "code": "3337875774161",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4479",
+      "code": "5907698301622",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4483",
+      "code": "5903060616158",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4486",
+      "code": "5906204022242",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4488",
+      "code": "5906204021696",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4490",
+      "code": "5906204020927",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4492",
+      "code": "5906204019921",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4494",
+      "code": "5906204006549",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4496",
+      "code": "5906204021139",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4498",
+      "code": "5906204021894",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4500",
+      "code": "5904978351032",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4502",
+      "code": "5904978351049",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4504",
+      "code": "5904978351025",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4506",
+      "code": "5904978351056",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4508",
+      "code": "5904978351063",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4510",
+      "code": "5904978351070",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4513",
+      "code": "5900161002415",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4515",
+      "code": "5900161004495",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4517",
+      "code": "5900161004488",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4519",
+      "code": "5900008027366",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4521",
+      "code": "5908311593257",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4524",
+      "code": "3337875774123",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4532",
+      "code": "3337875736459",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4578",
+      "code": "3337875492799",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4603",
+      "code": "8032472010227",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4608",
+      "code": "8032472015697",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4610",
+      "code": "8032472027515",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4616",
+      "code": "8032472018742",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4622",
+      "code": "8032472019145",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4633",
+      "code": "8032472001294",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4635",
+      "code": "8032472019152",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4640",
+      "code": "8032472004707",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4647",
+      "code": "8032472020653",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4659",
+      "code": "5907546536220",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4662",
+      "code": "5907546536053",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4672",
+      "code": "5907546536343",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4674",
+      "code": "5907546536015",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4677",
+      "code": "5903031287516",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4679",
+      "code": "5903031287615",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4681",
+      "code": "5903031280067",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4683",
+      "code": "5903031280081",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4685",
+      "code": "5903031282009",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4689",
+      "code": "5902802701862",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4692",
+      "code": "5902802703101",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4726",
+      "code": "3662042003875",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4746",
+      "code": "5702071387008",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4748",
+      "code": "5702071386995",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4750",
+      "code": "5702071386988",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4752",
+      "code": "7070866031343",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4754",
+      "code": "7070866031374",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4759",
+      "code": "5702071503828",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4761",
+      "code": "5702071389361",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4773",
+      "code": "7070866027612",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4775",
+      "code": "7070866024383",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4787",
+      "code": "5907513003847",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4789",
+      "code": "5907513003281",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4791",
+      "code": "5904161800521",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4793",
+      "code": "5907513003830",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4795",
+      "code": "5906190437068",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4797",
+      "code": "5906716507145",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4799",
+      "code": "5906190438348",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4802",
+      "code": "5906716507633",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4804",
+      "code": "5906190437082",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4806",
+      "code": "5906716507770",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4809",
+      "code": "5907377532880",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4811",
+      "code": "5907377532873",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4820",
+      "code": "5903031283907",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4825",
+      "code": "5903031283921",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4829",
+      "code": "5903031287387",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4831",
+      "code": "5903031287394",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4833",
+      "code": "5903031287837",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4835",
+      "code": "5907589874587",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4837",
+      "code": "5907589874686",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4839",
+      "code": "5907589874693",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4841",
+      "code": "5907589874716",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4849",
+      "code": "5702071358237",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4851",
+      "code": "5702071365051",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4853",
+      "code": "5907222805978",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4857",
+      "code": "5904538691462",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4862",
+      "code": "7640153060495",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4864",
+      "code": "7640153060105",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4866",
+      "code": "7640153060839",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4868",
+      "code": "5903546006251",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4872",
+      "code": "8437002582821",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4875",
+      "code": "5903031286540",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4880",
+      "code": "5903031286526",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4886",
+      "code": "4009932575309",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4889",
+      "code": "4008491127820",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4909",
+      "code": "5902020661733",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4911",
+      "code": "5902020661757",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4913",
+      "code": "5902020661719",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4915",
+      "code": "5905279876880",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4926",
+      "code": "5902802704399",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4939",
+      "code": "5907461319823",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4946",
+      "code": "5902020661658",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4948",
+      "code": "5902020661665",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4950",
+      "code": "5702071382690",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4952",
+      "code": "5702071382706",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4954",
+      "code": "5907501110267",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4956",
+      "code": "5902020661634",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4958",
+      "code": "5902802702043",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4960",
+      "code": "5902768521214",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4962",
+      "code": "5907572580488",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4964",
+      "code": "5902802706447",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4971",
+      "code": "5906204022273",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4974",
+      "code": "5903031281804",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4977",
+      "code": "5903031281811",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4980",
+      "code": "5902502992331",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4984",
+      "code": "5902802705211",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4987",
+      "code": "5906071008448",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4989",
+      "code": "5902802706041",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4996",
+      "code": "5904398317014",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4998",
+      "code": "5904398319018",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5000",
+      "code": "5904398335018",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5002",
+      "code": "5906204015114",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5004",
+      "code": "5907078675251",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5006",
+      "code": "5904960018479",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5008",
+      "code": "5904960011180",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5010",
+      "code": "5711313006744",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5014",
+      "code": "5711313006737",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5018",
+      "code": "5711313006713",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5023",
+      "code": "5711313006720",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5028",
+      "code": "5711313006751",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5047",
+      "code": "5711313006065",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5066",
+      "code": "5903031284218",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5068",
+      "code": "5903031286472",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5070",
+      "code": "5903031284232",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5072",
+      "code": "5903031286496",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5074",
+      "code": "5903031284706",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5076",
+      "code": "5902020661146",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5078",
+      "code": "5903260905199",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5080",
+      "code": "5907368848518",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5086",
+      "code": "5901330011696",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5088",
+      "code": "5907377131922",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5090",
+      "code": "5907377134190",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5092",
+      "code": "5902891176343",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5099",
+      "code": "5901716993356",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5106",
+      "code": "5903031281125",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5109",
+      "code": "5901716993349",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5111",
+      "code": "5901716993400",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5113",
+      "code": "5906204021078",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5115",
+      "code": "5908229303511",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5120",
+      "code": "5901330003721",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5126",
+      "code": "5901330039270",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5131",
+      "code": "5901330011689",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5136",
+      "code": "5901330064203",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5141",
+      "code": "5901330023279",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5143",
+      "code": "5901330039928",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5145",
+      "code": "5901330034008",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5149",
+      "code": "5901330040245",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5151",
+      "code": "5901330073786",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5156",
+      "code": "5901330049934",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5159",
+      "code": "5901330003639",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5169",
+      "code": "5901330041532",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5176",
+      "code": "5901330004087",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5178",
+      "code": "5901330030574",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5180",
+      "code": "5901330003905",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5182",
+      "code": "5901330054457",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5194",
+      "code": "5900116085852",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5197",
+      "code": "5900116085975",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5200",
+      "code": "5900116085913",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5203",
+      "code": "5907636934073",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5206",
+      "code": "5907636934127",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5209",
+      "code": "5907636934066",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5212",
+      "code": "5907636934806",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5215",
+      "code": "5903246240122",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5218",
+      "code": "5900116095561",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5222",
+      "code": "5900116095554",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5225",
+      "code": "5900116095547",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5228",
+      "code": "5900116095530",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5232",
+      "code": "5900116092515",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5236",
+      "code": "5900116092492",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5239",
+      "code": "5900116092478",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5242",
+      "code": "5903246244267",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5244",
+      "code": "5903246244250",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5246",
+      "code": "5903246244243",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5248",
+      "code": "5903246242218",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5250",
+      "code": "5905279070271",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5253",
+      "code": "5905279070066",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5256",
+      "code": "5905279070097",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5259",
+      "code": "5905279070080",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5262",
+      "code": "5905279070110",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5265",
+      "code": "5905279070073",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5268",
+      "code": "5905279070103",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5273",
+      "code": "5907636934790",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5276",
+      "code": "5903246240436",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5280",
+      "code": "5907636934110",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5283",
+      "code": "5907636934783",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5286",
+      "code": "5907636934103",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5290",
+      "code": "5900116092560",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5293",
+      "code": "5900116092546",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5296",
+      "code": "5900116092522",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5304",
+      "code": "5902709521600",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5313",
+      "code": "5904213000022",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5315",
+      "code": "5902709522003",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5348",
+      "code": "5901330003516",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5350",
+      "code": "5901330072475",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5357",
+      "code": "5901330040429",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5363",
+      "code": "5901330058653",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5374",
+      "code": "5901330034114",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5382",
+      "code": "5901330003523",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5392",
+      "code": "5901330078927",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5398",
+      "code": "5901330080128",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5403",
+      "code": "5901330043468",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5408",
+      "code": "5901330026423",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5410",
+      "code": "5901330003936",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5415",
+      "code": "5901330039058",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5418",
+      "code": "5901330013744",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5421",
+      "code": "5901330009563",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5423",
+      "code": "5901330066900",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5426",
+      "code": "5901330014734",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5437",
+      "code": "5901330026416",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5439",
+      "code": "5901330010651",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5441",
+      "code": "5901330070372",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5444",
+      "code": "5901330043505",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5450",
+      "code": "0033984041189",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5454",
+      "code": "0033984022607",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5456",
+      "code": "0033984017108",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5458",
+      "code": "0033984001404",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5462",
+      "code": "0033984001503",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5464",
+      "code": "0033984014787",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5466",
+      "code": "0033984041264",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5468",
+      "code": "0033984009400",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5472",
+      "code": "0033984320482",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5474",
+      "code": "0033984012493",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5476",
+      "code": "0033984019409",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5478",
+      "code": "0033984008663",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5480",
+      "code": "0033984038189",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5482",
+      "code": "0033984001008",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5486",
+      "code": "0033984007802",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5489",
+      "code": "0033984013551",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5493",
+      "code": "0033984012202",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5496",
+      "code": "0033984007000",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5502",
+      "code": "0033984012950",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5504",
+      "code": "0033984002951",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5507",
+      "code": "0033984003545",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5509",
+      "code": "0033984009608",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5511",
+      "code": "0033984004757",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5513",
+      "code": "0033984004771",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5515",
+      "code": "0033984004689",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5517",
+      "code": "0033984004672",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5519",
+      "code": "0033984007659",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5528",
+      "code": "0033984014176",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5532",
+      "code": "0033984512863",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5534",
+      "code": "0033984033405",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5536",
+      "code": "0033984036031",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5538",
+      "code": "0033984017603",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5540",
+      "code": "0033984020276",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5542",
+      "code": "0033984020290",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5549",
+      "code": "0033984005082",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5551",
+      "code": "0033984017207",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5553",
+      "code": "0033984013117",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5555",
+      "code": "0033984004733",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5557",
+      "code": "0033984004054",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5559",
+      "code": "0033984006744",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5564",
+      "code": "0033984004085",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5570",
+      "code": "0033984003484",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5579",
+      "code": "0033984041318",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5582",
+      "code": "0033984022058",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5584",
+      "code": "0033984015807",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5588",
+      "code": "0033984031807",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5590",
+      "code": "0033984005150",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5592",
+      "code": "0033984002357",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5594",
+      "code": "0033984025516",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5598",
+      "code": "0033984025400",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5600",
+      "code": "0033984041356",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5603",
+      "code": "0033984011106",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5605",
+      "code": "0033984002968",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5607",
+      "code": "0033984003552",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5609",
+      "code": "0033984002982",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5617",
+      "code": "0033984007635",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5621",
+      "code": "0033984009554",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5623",
+      "code": "0033984017870",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5625",
+      "code": "0033984041448",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5627",
+      "code": "0033984010567",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5629",
+      "code": "0033984015708",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5632",
+      "code": "5902020661627",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5636",
+      "code": "5904398202013",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5638",
+      "code": "5907529465974",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5644",
+      "code": "5907529465981",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5650",
+      "code": "5903060616271",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5653",
+      "code": "5903060616417",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5658",
+      "code": "5903060617902",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5663",
+      "code": "5902020661368",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5666",
+      "code": "5902020661375",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5668",
+      "code": "5902020661405",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5672",
+      "code": "5903735603513",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5674",
+      "code": "7640165680117",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5678",
+      "code": "5900161006093",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5680",
+      "code": "5900161006086",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5688",
+      "code": "5902020661030",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5692",
+      "code": "5901720140258",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5694",
+      "code": "5903060621039",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5696",
+      "code": "5901720140043",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5699",
+      "code": "5902502150717",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5705",
+      "code": "5902502330614",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5706",
+      "code": "5902502343614",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5730",
+      "code": "5400951990774",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5733",
+      "code": "5902502493111",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5737",
+      "code": "5902502331611",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5748",
+      "code": "5906071023083",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5750",
+      "code": "5906071022895",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5752",
+      "code": "5906071022932",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5755",
+      "code": "5906071022901",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5757",
+      "code": "5906071022956",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5761",
+      "code": "5906071027494",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5764",
+      "code": "5906071022918",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5766",
+      "code": "5906071022970",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5768",
+      "code": "5906071022925",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5770",
+      "code": "5906071023458",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5772",
+      "code": "5906071023434",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5774",
+      "code": "5906071023441",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5776",
+      "code": "5902802702401",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5778",
+      "code": "5902802702418",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5783",
+      "code": "5906071043333",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5784",
+      "code": "5902802700506",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5791",
+      "code": "5906071046907",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5793",
+      "code": "5906071028798",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5795",
+      "code": "5902802706492",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5797",
+      "code": "5902802707420",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5801",
+      "code": "5906071044651",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5803",
+      "code": "5906071004402",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5805",
+      "code": "5902802706515",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5808",
+      "code": "5906071043784",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5813",
+      "code": "5906071049366",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5816",
+      "code": "5906071008127",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5818",
+      "code": "5902802705891",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5820",
+      "code": "5902802705969",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5824",
+      "code": "5906071027814",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5826",
+      "code": "5906071023038",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5829",
+      "code": "5906071023045",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5831",
+      "code": "5906071023021",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5843",
+      "code": "5906071029344",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5846",
+      "code": "5906071009285",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5848",
+      "code": "5906071029443",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5852",
+      "code": "5906071022963",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5854",
+      "code": "5906071027098",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5856",
+      "code": "5902802706300",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5858",
+      "code": "5902802706294",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5860",
+      "code": "5904386000683",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5862",
+      "code": "5904386000614",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5864",
+      "code": "5904386000690",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5866",
+      "code": "5904386000669",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5868",
+      "code": "5904386000881",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5871",
+      "code": "5904386000706",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5873",
+      "code": "5908229301715",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5875",
+      "code": "5908229300978",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5879",
+      "code": "5909990683727",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5881",
+      "code": "5908229302149",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5883",
+      "code": "5908229302934",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5904",
+      "code": "5060072605898",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5906",
+      "code": "5060072605904",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5908",
+      "code": "5060072606451",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5910",
+      "code": "5903048000900",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5927",
+      "code": "5906681440003",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5930",
+      "code": "5903060621985",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5934",
+      "code": "5903060621992",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5938",
+      "code": "5903060621862",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5948",
+      "code": "5903060608351",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5953",
+      "code": "5903060616875",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5955",
+      "code": "5903060614734",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5979",
+      "code": "5902709520160",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5981",
+      "code": "5902709520184",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5983",
+      "code": "5902709520191",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5987",
+      "code": "5902709520245",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5990",
+      "code": "5902709520153",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6000",
+      "code": "5902709522126",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6004",
+      "code": "5906874160848",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6006",
+      "code": "5906874160855",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6010",
+      "code": "5902709521594",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6012",
+      "code": "5906874160862",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6020",
+      "code": "5907546536190",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6024",
+      "code": "5907546536268",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6032",
+      "code": "5907546536114",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6073",
+      "code": "5906204019655",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6078",
+      "code": "5906204021962",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6110",
+      "code": "5907734713730",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6119",
+      "code": "5907734713143",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6123",
+      "code": "5907734713150",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6127",
+      "code": "5907734713167",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6149",
+      "code": "5903263249016",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6155",
+      "code": "5902502219728",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6158",
+      "code": "5903263249610",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6164",
+      "code": "5907734713518",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6169",
+      "code": "5902502962211",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6174",
+      "code": "5902502432219",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6178",
+      "code": "5902502442218",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6181",
+      "code": "5902502822218",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6188",
+      "code": "5902502943418",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6190",
+      "code": "5902502453313",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6192",
+      "code": "5903263249184",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6196",
+      "code": "5903263249191",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6199",
+      "code": "5902502311729",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6201",
+      "code": "5902502182213",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6209",
+      "code": "5907734713471",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6216",
+      "code": "5902502329618",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6227",
+      "code": "5907734713440",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6231",
+      "code": "5907734713617",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6235",
+      "code": "5907734713457",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6239",
+      "code": "5907734713464",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6242",
+      "code": "5902502374618",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6244",
+      "code": "5902502376612",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6246",
+      "code": "5902502377619",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6248",
+      "code": "5907734713303",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6252",
+      "code": "5902502173617",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6256",
+      "code": "5902502175628",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6259",
+      "code": "5907734712900",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6264",
+      "code": "5902502323517",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6267",
+      "code": "5902502178612",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6271",
+      "code": "5902502602223",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6276",
+      "code": "5902502174614",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6282",
+      "code": "5902502249718",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6288",
+      "code": "5902502404612",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6291",
+      "code": "5907734712788",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6630",
+      "code": "4009932575439",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6662",
+      "code": "5903111160135",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6789",
+      "code": "3282770152517",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6796",
+      "code": "3282770394467",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6800",
+      "code": "3282770155020",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6803",
+      "code": "3282770390476",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6873",
+      "code": "3282770392654",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6881",
+      "code": "3282770392692",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6903",
+      "code": "3282770146394",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6920",
+      "code": "3282770393408",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6926",
+      "code": "3282770393415",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "8879",
+      "code": "3282770393507",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "8889",
+      "code": "3282770393514",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "8901",
+      "code": "3282770204681",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "8917",
+      "code": "3282770142327",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "8934",
+      "code": "3282770209396",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "8951",
+      "code": "3282770393620",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "8996",
+      "code": "3282770392357",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "9005",
+      "code": "3282770389890",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "9086",
+      "code": "5904730878067",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "9097",
+      "code": "5904730878081",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "9116",
+      "code": "5902751583328",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "9151",
+      "code": "5902751582956",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "9170",
+      "code": "5902751586770",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "9174",
+      "code": "5902751586787",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "9180",
+      "code": "5902751583441",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "9262",
+      "code": "5902751586350",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "9307",
+      "code": "5902751582949",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "9432",
+      "code": "5902751582963",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "9477",
+      "code": "3522930004301",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "9533",
+      "code": "3522931003761",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "9570",
+      "code": "3522931003778",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "10208",
+      "code": "3522931003747",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "10822",
+      "code": "3522930003755",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "12352",
+      "code": "3522931003228",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "12364",
+      "code": "3522930003236",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14193",
+      "code": "5903246241891",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14200",
+      "code": "5900116081342",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14206",
+      "code": "5903246243956",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14262",
+      "code": "5903246243963",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14267",
+      "code": "5900116085548",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14275",
+      "code": "5900116089683",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14302",
+      "code": "5900116102948",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14308",
+      "code": "5900116100784",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14316",
+      "code": "5900116100791",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14324",
+      "code": "5907467544991",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14326",
+      "code": "5902596711900",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14328",
+      "code": "5905279070189",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14330",
+      "code": "5900116081359",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14344",
+      "code": "5902596711238",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14350",
+      "code": "5903246243970",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14357",
+      "code": "5902596711849",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14361",
+      "code": "5900116092638",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14373",
+      "code": "5900116092652",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14387",
+      "code": "5900116092591",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14399",
+      "code": "5900116092577",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14412",
+      "code": "5907467544519",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14421",
+      "code": "5907467544984",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14427",
+      "code": "5902596711214",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14433",
+      "code": "5900116092645",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14445",
+      "code": "5900116092676",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14457",
+      "code": "5900116092669",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14466",
+      "code": "5900116092607",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14475",
+      "code": "5900116092690",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14486",
+      "code": "5900116092614",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14502",
+      "code": "5900116092621",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14512",
+      "code": "5900116092584",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14522",
+      "code": "5900116092683",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14540",
+      "code": "5907467544410",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14655",
+      "code": "3282770143577",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14663",
+      "code": "3282770208702",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14670",
+      "code": "3282770144659",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14679",
+      "code": "3282770140972",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14689",
+      "code": "3282770140996",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14697",
+      "code": "3282770144819",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14709",
+      "code": "3282770390759",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14727",
+      "code": "3282770141436",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14767",
+      "code": "3282770390469",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14780",
+      "code": "3282770390445",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14813",
+      "code": "3522930004585",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14828",
+      "code": "3522930004608",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14848",
+      "code": "3522930004561",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14882",
+      "code": "3522930003281",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14891",
+      "code": "3522930003298",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14906",
+      "code": "3522930004318",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14916",
+      "code": "3522930004325",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14932",
+      "code": "3522930004356",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14967",
+      "code": "3522930004363",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14978",
+      "code": "3522930004370",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14987",
+      "code": "3522930004387",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15000",
+      "code": "3522930004394",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15011",
+      "code": "3522930004400",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15081",
+      "code": "3522930004097",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15092",
+      "code": "3522930004103",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15140",
+      "code": "3522930004134",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15149",
+      "code": "3522930003212",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15165",
+      "code": "3522930003625",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15203",
+      "code": "3522930003595",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15248",
+      "code": "3522930003977",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15349",
+      "code": "3522931003655",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15358",
+      "code": "3522930004059",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15380",
+      "code": "3522930003816",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15388",
+      "code": "3522930003847",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15402",
+      "code": "3522930003854",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15412",
+      "code": "3522930003861",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15421",
+      "code": "3522930004417",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15457",
+      "code": "3522930003458",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15507",
+      "code": "3522930004073",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15519",
+      "code": "3522930004240",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15529",
+      "code": "3522930004516",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15534",
+      "code": "3522930004257",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15544",
+      "code": "3522930004264",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15552",
+      "code": "3522930004271",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15565",
+      "code": "3522930004288",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15680",
+      "code": "3522930004509",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15691",
+      "code": "3522930004523",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15769",
+      "code": "3522930004042",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15784",
+      "code": "3522930003670",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15838",
+      "code": "3522932027360",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15930",
+      "code": "3522930003304",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15944",
+      "code": "3522930004158",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "15952",
+      "code": "3522930003038",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16079",
+      "code": "3522930027812",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16191",
+      "code": "3282770149494",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16214",
+      "code": "3282770389623",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16237",
+      "code": "3282770396300",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16261",
+      "code": "5903060619760",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16276",
+      "code": "8032472020981",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16312",
+      "code": "5903031287585",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16320",
+      "code": "5903031288292",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16373",
+      "code": "5908229303504",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16383",
+      "code": "5908229303276",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16396",
+      "code": "5908229302989",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16420",
+      "code": "5908229303245",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16474",
+      "code": "5908229303290",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16486",
+      "code": "5908229302248",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16538",
+      "code": "4051452550342",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16549",
+      "code": "4051452030325",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16558",
+      "code": "4051452530139",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16574",
+      "code": "4051452550328",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16596",
+      "code": "4051452550304",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16757",
+      "code": "3522930005254",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16765",
+      "code": "3522930005223",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16796",
+      "code": "3522930005193",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16804",
+      "code": "3522930005216",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16814",
+      "code": "3522930005186",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16826",
+      "code": "3522930005117",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16836",
+      "code": "3522930005087",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16854",
+      "code": "5905794263561",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16861",
+      "code": "3282779441520",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16866",
+      "code": "3282779441506",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16871",
+      "code": "3282779441476",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16886",
+      "code": "3282779441483",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16940",
+      "code": "3522930004578",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16944",
+      "code": "3522930004592",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16949",
+      "code": "3522930004554",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "16978",
+      "code": "5902596593155",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17001",
+      "code": "5902596593056",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17039",
+      "code": "5907573300399",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17050",
+      "code": "3522933005503",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17056",
+      "code": "3522930005513",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17066",
+      "code": "5902596593025",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17073",
+      "code": "3282771000572",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17079",
+      "code": "3282771000534",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17089",
+      "code": "3282770400861",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17096",
+      "code": "5904161801801",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17113",
+      "code": "4051452033104",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17120",
+      "code": "4051452033111",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17132",
+      "code": "4051452030349",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17140",
+      "code": "3337875945622",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17149",
+      "code": "3337875945660",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17159",
+      "code": "3337875945769",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17173",
+      "code": "3337875945820",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17190",
+      "code": "3337875945790",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17200",
+      "code": "3337875945738",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17210",
+      "code": "3264680042980",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17215",
+      "code": "3264680039980",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17224",
+      "code": "3264680039942",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17238",
+      "code": "3264680041945",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17247",
+      "code": "3264680046810",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17256",
+      "code": "3264680046803",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17267",
+      "code": "3264680045295",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17286",
+      "code": "3264680046308",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17297",
+      "code": "3264680046421",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17306",
+      "code": "3264680046414",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17315",
+      "code": "3264680046322",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17326",
+      "code": "3264680046452",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17333",
+      "code": "3264680046261",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17339",
+      "code": "3264680046254",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17346",
+      "code": "3337875944960",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17363",
+      "code": "5904067519015",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17371",
+      "code": "5904490004157",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17384",
+      "code": "5904490004201",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17394",
+      "code": "5904490004171",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17400",
+      "code": "5904490004218",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17406",
+      "code": "5904490004225",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17412",
+      "code": "5904490004256",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17418",
+      "code": "5904490004133",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17424",
+      "code": "5904490004188",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17430",
+      "code": "5904490004249",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17436",
+      "code": "5904490004195",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17444",
+      "code": "5904490004232",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17450",
+      "code": "5904490004263",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17456",
+      "code": "5904490004164",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "17462",
+      "code": "5904490004270",
+      "reason": "offline-no-map-entry"
+    }
+  ],
+  "lookupErrors": [],
+  "lastProgress": {
+    "reason": "offline-no-map-entry",
+    "totals": {
+      "offers": 1225,
+      "processedOffers": 1225,
+      "codes": 1223,
+      "knownBeforeLookup": 75,
+      "lookedUp": 0,
+      "addedToMap": 0,
+      "changedNames": 48,
+      "alreadyHadBrandInName": 27,
+      "missingBrand": 0,
+      "skippedOffline": 1148,
+      "skippedLookupLimit": 0,
+      "skippedOtherCode": 0
+    }
+  }
+}

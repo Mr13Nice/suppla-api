@@ -1,0 +1,549 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-14T11:07:34.830Z",
+  "sources": [
+    {
+      "id": "openbeautyfacts",
+      "name": "Open Beauty Facts"
+    },
+    {
+      "id": "openfoodfacts",
+      "name": "Open Food Facts"
+    },
+    {
+      "id": "openproductsfacts",
+      "name": "Open Products Facts"
+    }
+  ],
+  "manual": {
+    "exact": {},
+    "prefixes": {}
+  },
+  "codes": {
+    "0000030106659": {
+      "brand": "La Roche-Posay",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Cicaplast Baume Lèvres",
+      "updatedAt": "2026-07-14T09:03:52.792Z"
+    },
+    "0033984004078": {
+      "brand": "Solgar",
+      "source": "openfoodfacts",
+      "confidence": "exact-code",
+      "productName": "Vitamines C 500",
+      "updatedAt": "2026-07-14T09:06:55.270Z"
+    },
+    "0033984005204": {
+      "brand": "Solgar",
+      "source": "openfoodfacts",
+      "confidence": "exact-code",
+      "productName": "Calcium Magnesium Plus Zinc - 100 Comprimés - Solgar",
+      "updatedAt": "2026-07-14T09:06:35.344Z"
+    },
+    "0033984010741": {
+      "brand": "Solgar",
+      "source": "openfoodfacts",
+      "confidence": "exact-code",
+      "productName": "Multi femme",
+      "updatedAt": "2026-07-14T09:06:31.500Z"
+    },
+    "3264680004957": {
+      "brand": "NUXE",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Gel Multi-Fonctions Hydratant",
+      "updatedAt": "2026-07-14T09:03:07.637Z"
+    },
+    "3264680008726": {
+      "brand": "Sun",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Shampooing douche après-soleil",
+      "updatedAt": "2026-07-14T09:02:35.514Z"
+    },
+    "3264680014871": {
+      "brand": "Nuxe",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Lotion essence aquabella",
+      "updatedAt": "2026-07-14T09:03:00.283Z"
+    },
+    "3264680025891": {
+      "brand": "NUXE",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "NUXE RÊVE DE MIEL GEL LAVANT",
+      "updatedAt": "2026-07-14T09:02:58.353Z"
+    },
+    "3264680028014": {
+      "brand": "Nuxe",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Creme Fraiche 3 en 1",
+      "updatedAt": "2026-07-14T09:03:10.680Z"
+    },
+    "3264680046513": {
+      "brand": "Nuxe",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Merveillance Lift",
+      "updatedAt": "2026-07-14T09:08:49.707Z"
+    },
+    "3282770073348": {
+      "brand": "Ducray",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Dexyane MeD Crème Mains Réparatrice Apaisante",
+      "updatedAt": "2026-07-14T09:02:14.621Z"
+    },
+    "3282770074741": {
+      "brand": "Pierre Fabre",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Avene Trixera Nutrition Baume Nutri-fluide Flacon-pompe",
+      "updatedAt": "2026-07-14T09:02:50.489Z"
+    },
+    "3282770075526": {
+      "brand": "Ducray",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Anaphase+",
+      "updatedAt": "2026-07-14T09:02:18.911Z"
+    },
+    "3282770075533": {
+      "brand": "Ducray",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Anaphase+",
+      "updatedAt": "2026-07-14T09:02:20.150Z"
+    },
+    "3282770100778": {
+      "brand": "Avène",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "SunsiMed",
+      "updatedAt": "2026-07-14T09:02:48.589Z"
+    },
+    "3282770111552": {
+      "brand": "Avene",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Gel douche douceur body",
+      "updatedAt": "2026-07-14T09:02:41.533Z"
+    },
+    "3282770138801": {
+      "brand": "Avène",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Tolérance control",
+      "updatedAt": "2026-07-14T09:02:49.853Z"
+    },
+    "3282770141351": {
+      "brand": "DUCRAY",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Gel moussant Keracnyl",
+      "updatedAt": "2026-07-14T09:02:17.079Z"
+    },
+    "3282770143744": {
+      "brand": "3282770143744",
+      "source": "openfoodfacts",
+      "confidence": "exact-code",
+      "productName": "3282770143744",
+      "updatedAt": "2026-07-14T09:02:06.964Z"
+    },
+    "3282770144314": {
+      "brand": "Aderma",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Exomega controle",
+      "updatedAt": "2026-07-14T09:02:09.115Z"
+    },
+    "3282770145021": {
+      "brand": "A-DERMA",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "DERMALIBOUR",
+      "updatedAt": "2026-07-14T09:02:07.837Z"
+    },
+    "3282770148282": {
+      "brand": "Ducray",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "shampooing dermo-protecteur extra-doux",
+      "updatedAt": "2026-07-14T09:02:13.993Z"
+    },
+    "3282770149562": {
+      "brand": "Avène",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Cleanance Getöntes Sonnenfluid",
+      "updatedAt": "2026-07-14T09:02:47.313Z"
+    },
+    "3282770149685": {
+      "brand": "A-Derma",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "",
+      "updatedAt": "2026-07-14T09:02:07.776Z"
+    },
+    "3282770149722": {
+      "brand": "A.DERMA",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "",
+      "updatedAt": "2026-07-14T09:02:07.630Z"
+    },
+    "3282770150261": {
+      "brand": "Avène",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "cicalfate",
+      "updatedAt": "2026-07-14T09:02:31.184Z"
+    },
+    "3282770153170": {
+      "brand": "Eau Thermale Avene",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Hyaluron",
+      "updatedAt": "2026-07-14T09:02:42.167Z"
+    },
+    "3282770153200": {
+      "brand": "Avène",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Hyaluron Activ B3",
+      "updatedAt": "2026-07-14T09:02:42.210Z"
+    },
+    "3282770200515": {
+      "brand": "Eau Thermale Avene",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "DermAbsolu",
+      "updatedAt": "2026-07-14T09:02:40.879Z"
+    },
+    "3282770204797": {
+      "brand": "Avène",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Stick lèvres",
+      "updatedAt": "2026-07-14T09:02:46.667Z"
+    },
+    "3282770205633": {
+      "brand": "Avène",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Spray asséchant réparateur",
+      "updatedAt": "2026-07-14T09:02:30.459Z"
+    },
+    "3282770207088": {
+      "brand": "Eau Thermale Avene",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Cicalfate+",
+      "updatedAt": "2026-07-14T09:02:31.231Z"
+    },
+    "3282770208795": {
+      "brand": "Eau Thermale Avene",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Hydrance",
+      "updatedAt": "2026-07-14T09:02:42.884Z"
+    },
+    "3282770209495": {
+      "brand": "A-Derma",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Epithelia A.H",
+      "updatedAt": "2026-07-14T09:02:07.710Z"
+    },
+    "3282770388954": {
+      "brand": "Avène",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Avène",
+      "updatedAt": "2026-07-14T09:02:42.835Z"
+    },
+    "3282770390414": {
+      "brand": "Avène",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "clearance Comedomed",
+      "updatedAt": "2026-07-14T09:08:23.300Z"
+    },
+    "3282770390766": {
+      "brand": "Klorane",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Klorane Dry Shampoo With Oat & Ceramide Dark Hair 150mL",
+      "updatedAt": "2026-07-14T09:08:23.220Z"
+    },
+    "3282770393477": {
+      "brand": "Avene",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Vitamin c activCg",
+      "updatedAt": "2026-07-14T09:08:09.098Z"
+    },
+    "3282770395365": {
+      "brand": "Avene",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Cleanance Comedomed Peeling",
+      "updatedAt": "2026-07-14T09:08:24.572Z"
+    },
+    "3282779003124": {
+      "brand": "Avène",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Eau Thermale Avène Peaux sensibles Avene Apaisante, anti-irritante hermal Spring Wa EAU THERMALE",
+      "updatedAt": "2026-07-14T09:08:08.444Z"
+    },
+    "3282779051491": {
+      "brand": "Eau thermale Avène",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Lotion tonique douceur",
+      "updatedAt": "2026-07-14T09:02:45.391Z"
+    },
+    "3282779355872": {
+      "brand": "Avene",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Lait mineral tres haute protection 50",
+      "updatedAt": "2026-07-14T09:02:46.619Z"
+    },
+    "3282779402927": {
+      "brand": "Avène",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Haute protection Spray SPF30",
+      "updatedAt": "2026-07-14T09:02:47.357Z"
+    },
+    "3282779416139": {
+      "brand": "Avène",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Cicalfate",
+      "updatedAt": "2026-07-14T09:02:30.507Z"
+    },
+    "3337871320362": {
+      "brand": "Vichy Homme",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Déodorant Homme 72h",
+      "updatedAt": "2026-07-14T09:04:12.319Z"
+    },
+    "3337872412684": {
+      "brand": "La roche posay",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Lipikar xerand",
+      "updatedAt": "2026-07-14T09:03:58.194Z"
+    },
+    "3337872419904": {
+      "brand": "La Roche-Posay",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Anthelios SPF 50+ Dermo-Pediatrics Lait Bebe",
+      "updatedAt": "2026-07-14T09:04:01.920Z"
+    },
+    "3337875485128": {
+      "brand": "Vichy",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "DERCOS Technique - shampooing ultra apaisant cheveux normaux à gras - Vichy - 200ml",
+      "updatedAt": "2026-07-14T09:04:59.314Z"
+    },
+    "3337875518451": {
+      "brand": "La Roche-Posay",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Effaclar Duo (+) Unifiant Teinte Light",
+      "updatedAt": "2026-07-14T09:03:55.995Z"
+    },
+    "3337875546430": {
+      "brand": "La Roche-Posay",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "LA ROCHE-POSAY",
+      "updatedAt": "2026-07-14T09:04:00.054Z"
+    },
+    "3337875549530": {
+      "brand": "La Roche-Posay",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Anthelios",
+      "updatedAt": "2026-07-14T09:04:01.965Z"
+    },
+    "3337875586269": {
+      "brand": "La roche posay",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Cicaplast",
+      "updatedAt": "2026-07-14T09:03:52.745Z"
+    },
+    "3337875695176": {
+      "brand": "Vichy",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "",
+      "updatedAt": "2026-07-14T09:04:32.039Z"
+    },
+    "3337875731638": {
+      "brand": "La roche posay",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "hydraphase Ha LIGHT",
+      "updatedAt": "2026-07-14T09:03:57.462Z"
+    },
+    "3337875761123": {
+      "brand": "La Roche-Posay",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "",
+      "updatedAt": "2026-07-14T09:04:01.281Z"
+    },
+    "3337875787222": {
+      "brand": "Dercos",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "PSOlution Kerato-reducing treating shampoo",
+      "updatedAt": "2026-07-14T09:04:59.261Z"
+    },
+    "3337875803786": {
+      "brand": "La Roche-Posay",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Lipikar baume",
+      "updatedAt": "2026-07-14T09:03:58.123Z"
+    },
+    "3337875804431": {
+      "brand": "Vichy",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Anti-transpirant",
+      "updatedAt": "2026-07-14T09:04:26.034Z"
+    },
+    "3337875805025": {
+      "brand": "Vichy",
+      "source": "openproductsfacts",
+      "confidence": "exact-code",
+      "productName": "Vichy",
+      "updatedAt": "2026-07-14T09:04:25.979Z"
+    },
+    "3337875831888": {
+      "brand": "Vichy",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Minéral 89 Crème boost d'hydratation 72h",
+      "updatedAt": "2026-07-14T09:04:11.615Z"
+    },
+    "3401343696245": {
+      "brand": "Bioderma",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Creme anti-vermelhidão sensibio ar",
+      "updatedAt": "2026-07-14T09:03:40.272Z"
+    },
+    "3401347869546": {
+      "brand": "Bioderma",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Cicabio crème",
+      "updatedAt": "2026-07-14T09:03:49.661Z"
+    },
+    "3401348840421": {
+      "brand": "Bioderma",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "BIODERMA Sébium Hydra 40 ml e",
+      "updatedAt": "2026-07-14T09:03:49.610Z"
+    },
+    "3401360106994": {
+      "brand": "Bioderma",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Sébium sensitive",
+      "updatedAt": "2026-07-14T09:03:49.557Z"
+    },
+    "3401396935711": {
+      "brand": "Bioderma",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Bioderma Cold Cream - Crème Visage ABCDerm",
+      "updatedAt": "2026-07-14T09:03:49.507Z"
+    },
+    "3401399372575": {
+      "brand": "Bioderma",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Atoderm mains",
+      "updatedAt": "2026-07-14T09:03:50.350Z"
+    },
+    "3401575390447": {
+      "brand": "Bioderma",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Micellar Water",
+      "updatedAt": "2026-07-14T09:03:42.753Z"
+    },
+    "3433422408159": {
+      "brand": "La Roche-Posay",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Effaclar Lotion Astringente",
+      "updatedAt": "2026-07-14T09:03:53.458Z"
+    },
+    "3499320009928": {
+      "brand": "Cetaphil",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Cetaphil Pro Redness Control Washing Foam",
+      "updatedAt": "2026-07-14T09:03:34.301Z"
+    },
+    "3522930003441": {
+      "brand": "Caudalie",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "",
+      "updatedAt": "2026-07-14T09:08:26.516Z"
+    },
+    "3522930003618": {
+      "brand": "Caudalie",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Vinotherapist",
+      "updatedAt": "2026-07-14T09:08:26.417Z"
+    },
+    "3522930004028": {
+      "brand": "Caudalie",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Caudalie Vinosun Protect Sun Protection Water SPF50+",
+      "updatedAt": "2026-07-14T09:08:15.856Z"
+    },
+    "3522930004141": {
+      "brand": "Caudalie",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "Gentle conditioning shampoo",
+      "updatedAt": "2026-07-14T09:08:26.465Z"
+    },
+    "3522931003723": {
+      "brand": "caudalie",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "vinosun",
+      "updatedAt": "2026-07-14T09:08:13.982Z"
+    },
+    "3701129803400": {
+      "brand": "Bioderma",
+      "source": "openbeautyfacts",
+      "confidence": "exact-code",
+      "productName": "BIODERMA Sébium active foaming gel 200 ml e 6.7 FL.0Z.",
+      "updatedAt": "2026-07-14T09:03:45.296Z"
+    }
+  }
+}

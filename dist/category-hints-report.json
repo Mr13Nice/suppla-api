@@ -7,10 +7,10 @@
     "csvRows": 2142,
     "uniqueEans": 1868,
     "rowsWithoutEan": 274,
-    "hintsFound": 1511,
-    "hintsNotFound": 357,
+    "hintsFound": 1512,
+    "hintsNotFound": 356,
     "requestErrors": 0,
-    "hintsWithCategoryNotInCategoryMap": 666
+    "hintsWithCategoryNotInCategoryMap": 667
   },
   "rowsWithoutEan": [
     {
@@ -21028,6 +21028,20 @@
       "validInCategoryMap": false
     },
     {
+      "ean": "3522931003075",
+      "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "16069",
+          "name": "Caudalie Vinoclean - Pianka oczyszczająca - 150ml",
+          "sku": "3522931003075",
+          "categories": ""
+        }
+      ],
+      "validInCategoryMap": false
+    },
+    {
       "ean": "3522930027812",
       "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
       "productCount": 1,
@@ -27367,20 +27381,6 @@
           "externalId": "16050",
           "name": "Caudalie Vinoclean - Plyn micelarny do demakijażu - 400ml",
           "sku": "3522930003106",
-          "categories": ""
-        }
-      ]
-    },
-    {
-      "ean": "3522931003075",
-      "reason": "HINT_NOT_FOUND_404",
-      "status": 404,
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "16069",
-          "name": "Caudalie Vinoclean - Pianka oczyszczająca - 150ml",
-          "sku": "3522931003075",
           "categories": ""
         }
       ]
@@ -35559,6 +35559,19 @@
           "externalId": "16048",
           "name": "Caudalie Vinoclean - Plyn micelarny do demakijażu - 200ml",
           "sku": "3522930003090",
+          "categories": ""
+        }
+      ]
+    },
+    {
+      "ean": "3522931003075",
+      "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "16069",
+          "name": "Caudalie Vinoclean - Pianka oczyszczająca - 150ml",
+          "sku": "3522931003075",
           "categories": ""
         }
       ]

@@ -1,4 +1,4 @@
-# CSV WooCommerce -> InPost Buy
+﻿# CSV WooCommerce -> InPost Buy
 
 Ostatnia aktualizacja: 2026-07-13.
 
@@ -11,8 +11,8 @@ Glowne zasady:
   duplikatow.
 - `send-inpost-offers.js --sync` pobiera aktualne oferty z InPost i wysyla
   tylko roznice z pliku wygenerowanego z CSV.
-- Kategorie sa wybierane tylko w kolejnosci: poprawny hint po EAN potwierdzony
-  jako `leaf: true`, override po kategorii WooCommerce, a potem pominiecie
+- Kategorie sa wybierane tylko w kolejnosci: hint po EAN zwrocony przez InPost,
+  override po kategorii WooCommerce dla EAN-ow bez hintu, a potem pominiecie
   produktu.
 - Generator domyslnie sprawdza istniejace oferty w InPost i nie tworzy ponownie
   ofert o juz istniejacym `externalId`. Do synchronizacji uzyj
@@ -97,9 +97,9 @@ istniejace oferty po `externalId`. Do pracy bez polaczenia uzyj `--offline`.
 Aktualna kolejnosc przypisania kategorii dla nowych ofert:
 
 ```text
-1. dist/category-hints.json po EAN, tylko gdy drzewo kategorii potwierdza leaf: true
-2. category-overrides.json po kategorii WooCommerce
-3. brak dopasowania albo odrzucony hint -> produkt trafia do raportu i nie jest wysylany
+1. dist/category-hints.json po EAN z endpointu InPost /offers/hint
+2. category-overrides.json po kategorii WooCommerce tylko gdy InPost nie zwrocil hintu
+3. brak dopasowania -> produkt trafia do raportu i nie jest wysylany
 ```
 
 Dla istniejacych ofert w `--sync` obowiazuje bezpieczniejsza zasada:
@@ -121,8 +121,26 @@ kategorii jako leaf. Jezeli `category-map.json` zawiera bogatsze obiekty z
 `"sciezka": "categoryId"` nie niesie informacji o `leaf`, wiec nie da sie tego
 potwierdzic automatycznie bez pelnego drzewa kategorii.
 
-Hinty po EAN sa walidowane wzgledem drzewa kategorii. Generator automatycznie
-laczy dostepne drzewa z plikow:
+Hint po EAN z InPost jest traktowany jako zrodlo nadrzedne. Lokalna walidacja
+drzewa kategorii sluzy do ostrzezen i diagnostyki, ale nie odrzuca hintu tylko
+dlatego, ze lokalny plik drzewa nie zna zwroconego `categoryId`.
+
+Aktualne drzewo kategorii mozna pobrac z InPost:
+
+```bash
+npm run inpost:categories
+```
+
+Ta komenda pobiera `GET /v1/categories?depth=<n>` i zapisuje:
+
+```text
+dist/category-tree.json
+dist/category-tree-report.json
+```
+
+Domyslna glebokosc to `4`; API InPost dopuszcza zakres `0-4`. Mozna ja zmienic
+przez `INPOST_CATEGORIES_DEPTH`.
+Generator automatycznie laczy dostepne drzewa z plikow:
 
 ```text
 dist/category-tree.json
@@ -130,14 +148,13 @@ inpost-health-categories.txt
 inpost.txt
 ```
 
-Inny plik mozna wskazac przez `INPOST_CATEGORY_TREE_FILE`. Jezeli hint wskazuje
-nie-lisc albo ID spoza drzewa, generator nie przechodzi po cichu na override,
-tylko pomija produkt i zapisuje szczegoly w:
+Inny plik mozna wskazac przez `INPOST_CATEGORY_TREE_FILE`. Jezeli lokalne drzewo
+nie zna hintu albo ma sprzeczne `leaf`, generator zapisuje szczegoly w:
 
 ```text
-csv-generation-report.json -> totals.rejectedCategoryHints
-csv-generation-report.json -> categoryResolution.rejectedHintReasons
-csv-generation-errors.json -> rejectedCategoryHints
+csv-generation-report.json -> totals.hintCategoryWarnings
+csv-generation-report.json -> categoryResolution.hintWarningReasons
+csv-generation-errors.json -> hintCategoryWarnings
 ```
 
 ---
@@ -164,6 +181,43 @@ dist/csv-generation-errors.json -> generatedDescriptions
 ---
 
 ## 6. Generator ofert
+
+Pelny proces po podmianie `suppla-oferta.csv`:
+
+```bash
+npm run inpost:update-after-csv
+```
+
+Ta komenda wykonuje po kolei:
+
+```text
+1. npm run inpost:generate-sync
+2. npm run inpost:enrich-brands:offline
+3. npm run inpost:sync
+4. npm run inpost:rescue-overrides
+5. npm run inpost:rescue-overrides:sync
+```
+
+`inpost:generate-sync` zaczyna od `npm run inpost:categories`, czyli odswiezenia
+`dist/category-tree.json` z API InPost.
+
+Wariant kontrolny bez realnej wysylki do InPost:
+
+```bash
+npm run inpost:update-after-csv:dry-run
+```
+
+Etapy mozna nadal uruchamiac osobno:
+
+```bash
+npm run inpost:prepare-after-csv
+npm run inpost:publish-after-csv
+npm run inpost:rescue-after-csv
+```
+
+`inpost:prepare-after-csv` generuje pliki sync i aplikuje lokalna mape marek w
+trybie offline. `inpost:publish-after-csv` wysyla glowny sync. `inpost:rescue-after-csv`
+generuje i wysyla pliki ratunkowe oparte o override'y kategorii.
 
 Podstawowe uruchomienie:
 
@@ -204,6 +258,35 @@ dist/csv-generation-report.json
 dist/csv-generation-errors.json
 ```
 
+Opcjonalny krok przed wysylka synca: ponowne otwarcie zamknietych ofert, ktore
+w aktualnym CSV maja stan magazynowy wiekszy niz 0. Skrypt porownuje zamkniete
+oferty InPost z aktualnym `suppla-oferta.csv` po `externalId`, EAN i SKU.
+Domyslnie robi tylko dry-run:
+
+```bash
+npm run inpost:reopen-closed-instock
+```
+
+Pliki diagnostyczne:
+
+```text
+dist/reopen-closed-instock-report.json
+dist/reopen-closed-instock-candidates.json
+dist/reopen-closed-instock-skipped.json
+dist/reopen-closed-instock-errors.json
+```
+
+Realne otwarcie ofert:
+
+```bash
+npm run inpost:reopen-closed-instock:execute
+```
+
+Dla bezpieczenstwa skrypt pomija zamknieta oferte, jezeli dla tego samego
+`externalId`, EAN albo SKU istnieje juz aktywny duplikat w InPost. Wymuszenie
+tego zachowania jest mozliwe flaga `--allow-active-duplicates`, ale nie powinno
+byc domyslnym trybem pracy, bo moze ponownie wywolac `OFFER_UNIQUENESS`.
+
 Nowe uruchomienie nadpisuje te pliki. Generator usuwa tez stare raporty z
 poprzedniej wersji, np. `skipped-products.json`, `blocking-skipped-products.json`,
 `unresolved-categories.json`, `category-resolution-report.json` i raporty
@@ -232,7 +315,80 @@ duplicateCleanupResult
 
 ---
 
-## 7. Rescue przez override'y
+## 7. Uzupelnianie marek w nazwach
+
+Marki w nazwach produktow sa uzupelniane osobnym skryptem, a nie w
+`csv-to-inpost-json.js`. Skrypt czyta EAN/SKU z `dist/inpost-offers.json` oraz
+z `suppla-oferta.csv`, sprawdza trwala mape `brand-map.json`, a dla brakow
+probuje pobrac marke z publicznych katalogow:
+
+```text
+Open Beauty Facts
+Open Food Facts
+Open Products Facts
+```
+
+Jezeli marka zostanie znaleziona i nie wystepuje jeszcze w nazwie produktu,
+skrypt dopisuje ja jako prefiks oraz aktualizuje `product.brand`. Zrodlo CSV
+nie jest modyfikowane.
+
+```bash
+npm run inpost:enrich-brands
+```
+
+Wyniki:
+
+```text
+brand-map.json
+dist/inpost-offers.json
+dist/brand-enrichment-report.json
+```
+
+Podczas pracy skrypt wypisuje postep w konsoli. `dist/brand-enrichment-report.json`
+jest odswiezany okresowo ze statusem `running`, a `brand-map.json` jest
+zapisywany przyrostowo po znalezieniu marek oraz co pewna liczbe produktow.
+`dist/inpost-offers.json` jest zapisywany dopiero na koncu, zeby nie zostawiac
+polowicznie zmienionego pliku ofert. Czestotliwosc mozna ustawic flagami
+`--progress-every=10` i `--save-every=25`.
+
+Tryb testowy bez zapisu `dist/inpost-offers.json` i `brand-map.json`:
+
+```bash
+npm run inpost:enrich-brands:dry-run
+```
+
+Tryb offline, tylko z juz zapisanej mapy:
+
+```bash
+npm run inpost:enrich-brands:offline
+```
+
+Do diagnostyki pojedynczych produktow mozna uruchomic skrypt bezposrednio:
+
+```bash
+node enrich-inpost-brands.js suppla-oferta.csv dist/inpost-offers.json brand-map.json dist/brand-enrichment-report.json --dry-run --only-code=3264680003561 --lookup-limit=1
+```
+
+Pelne wygenerowanie ofert i natychmiastowe uzupelnienie marek:
+
+```bash
+npm run inpost:generate-sync-brands
+```
+
+`brand-map.json` ma trzy poziomy:
+
+```text
+manual.exact    - reczne dopasowania dokladnego EAN/SKU
+manual.prefixes - reczne dopasowania prefiksu kodu, tylko gdy naprawde pewne
+codes           - automatycznie zapamietane dopasowania po dokladnym EAN/SKU
+```
+
+Najbezpieczniejsze sa wpisy po dokladnym EAN/SKU. Prefiksy powinny byc uzywane
+ostroznie, bo sam prefiks EAN nie zawsze jednoznacznie wskazuje marke produktu.
+
+---
+
+## 8. Rescue przez override'y
 
 Rescue to osobny, kontrolowany przebieg dla produktow, ktore:
 
@@ -368,6 +524,11 @@ Co robi `send-inpost-offers.js --sync`:
 - jezeli szczegoly istniejacej oferty zawieraja `CATEGORY_INCORRECT` z kategoria
   referencyjna, uzywa tej kategorii zamiast kategorii wyliczonej z CSV,
 - jezeli referencji nie ma, uzywa kategorii wyliczonej z CSV,
+- przy duplikatach `externalId` wybiera jeden kanoniczny rekord do PATCH wedlug
+  priorytetu statusu: `PUBLISHED`/`ACTIVE`, `SOLDOUT`, `PENDING`, `DRAFT`, potem
+  pozostale niezamkniete; statusy zamkniete/terminalne sa pomijane,
+- pominiete duplikaty zapisuje w `send-sync-report.json` oraz
+  `send-sync-errors.json -> skippedDuplicates`,
 - wysyla PATCH tylko dla roznic,
 - jezeli oferty nie ma w InPost, tworzy ja jak w starym trybie i dodaje pierwsze
   zdjecie z `dist/offer-images.json`,
@@ -449,3 +610,4 @@ dist/send-sync-errors.json
 dist/inpost-offers.json
 dist/offer-images.json
 ```
+

@@ -26,6 +26,23 @@ const COMPARED_TOP_LEVEL_FIELDS = [
   "affiliationProductUrl"
 ];
 const FULL_PATCH_TOP_LEVEL_FIELDS = new Set(["product", "stock", "price"]);
+const TERMINAL_OFFER_STATUSES = new Set([
+  "CLOSED",
+  "CLOSE",
+  "ENDED",
+  "ARCHIVED",
+  "DELETED",
+  "REMOVED"
+]);
+const PATCH_STATUS_PRIORITY = new Map([
+  ["PUBLISHED", 1000],
+  ["ACTIVE", 1000],
+  ["SOLDOUT", 900],
+  ["PENDING", 800],
+  ["DRAFT", 700],
+  ["INACTIVE", 500],
+  ["REJECTED", 100]
+]);
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -55,6 +72,105 @@ function writeJson(filePath, data) {
 
 function normalizeText(value) {
   return String(value ?? "").replace(/\r/g, "").replace(/\s+/g, " ").trim();
+}
+
+function normalizeStatus(value) {
+  return normalizeText(value).toUpperCase();
+}
+
+function isTerminalOfferStatus(status) {
+  return TERMINAL_OFFER_STATUSES.has(normalizeStatus(status));
+}
+
+function getPatchStatusPriority(status) {
+  const normalized = normalizeStatus(status);
+
+  if (PATCH_STATUS_PRIORITY.has(normalized)) {
+    return PATCH_STATUS_PRIORITY.get(normalized);
+  }
+
+  return 400;
+}
+
+function getMatchTimestamp(match) {
+  const time = Date.parse(
+    match?.rawOffer?.updatedAt ||
+    match?.rawOffer?.createdAt ||
+    ""
+  );
+
+  return Number.isFinite(time) ? time : 0;
+}
+
+function summarizeMatch(match) {
+  return {
+    offerId: match.offerId,
+    externalId: match.externalId,
+    status: match.status || null,
+    name: normalizeText(match.rawOffer?.product?.name),
+    ean: normalizeText(match.rawOffer?.product?.ean),
+    sku: normalizeText(match.rawOffer?.product?.sku),
+    categoryId: normalizeText(match.rawOffer?.product?.categoryId),
+    updatedAt: match.rawOffer?.updatedAt || null,
+    createdAt: match.rawOffer?.createdAt || null
+  };
+}
+
+function chooseCanonicalPatchMatch(matches) {
+  const patchableMatches = matches.filter(
+    (match) => !isTerminalOfferStatus(match.status)
+  );
+
+  const selected = [...patchableMatches].sort((left, right) => {
+    const priorityDiff =
+      getPatchStatusPriority(right.status) - getPatchStatusPriority(left.status);
+
+    if (priorityDiff !== 0) {
+      return priorityDiff;
+    }
+
+    const timestampDiff = getMatchTimestamp(right) - getMatchTimestamp(left);
+
+    if (timestampDiff !== 0) {
+      return timestampDiff;
+    }
+
+    return String(left.offerId).localeCompare(String(right.offerId));
+  })[0] || null;
+
+  const skipped = matches
+    .filter((match) => !selected || match.offerId !== selected.offerId)
+    .map((match) => ({
+      match,
+      reason: isTerminalOfferStatus(match.status)
+        ? "terminal-status"
+        : "non-canonical-duplicate"
+    }));
+
+  return {
+    selected,
+    skipped
+  };
+}
+
+function buildSkippedMatchResult(externalId, skipped, selected) {
+  return {
+    ok: true,
+    action: skipped.reason === "terminal-status"
+      ? "SKIP_TERMINAL_DUPLICATE"
+      : "SKIP_DUPLICATE_NON_CANONICAL",
+    externalId,
+    offerId: skipped.match.offerId,
+    status: skipped.match.status || null,
+    skipReason: skipped.reason,
+    selectedOfferId: selected?.offerId || null,
+    selectedStatus: selected?.status || null,
+    changedFields: [],
+    changedSubfields: {},
+    patchBody: null,
+    skippedOffer: summarizeMatch(skipped.match),
+    selectedOffer: selected ? summarizeMatch(selected) : null
+  };
 }
 
 function stableJson(value) {
@@ -598,11 +714,19 @@ function buildExistingOffersByExternalId(items) {
 
   for (const [externalId, offers] of map.entries()) {
     if (offers.length > 1) {
+      const { selected, skipped } = chooseCanonicalPatchMatch(offers);
+
       duplicates.push({
         externalId,
         count: offers.length,
         offerIds: offers.map((offer) => offer.offerId),
-        statuses: offers.map((offer) => offer.status)
+        statuses: offers.map((offer) => offer.status),
+        selectedPatchOfferId: selected?.offerId || null,
+        selectedPatchStatus: selected?.status || null,
+        skippedBySync: skipped.map((item) => ({
+          reason: item.reason,
+          ...summarizeMatch(item.match)
+        }))
       });
     }
   }
@@ -740,7 +864,43 @@ async function syncOffer(originalOffer, imageMap, existingOffersByExternalId, in
     return [await createOfferWithImage(originalOffer, imageMap, index, total)];
   }
 
-  for (const match of matches) {
+  const { selected, skipped } = chooseCanonicalPatchMatch(matches);
+
+  for (const skippedMatch of skipped) {
+    const skipResult = buildSkippedMatchResult(
+      externalId,
+      skippedMatch,
+      selected
+    );
+
+    results.push(skipResult);
+
+    console.log(
+      `[${index + 1}/${total}] Pomijam duplikat externalId=${externalId}, offerId=${skippedMatch.match.offerId}, status=${skippedMatch.match.status || ""}, reason=${skippedMatch.reason}`
+    );
+  }
+
+  if (!selected) {
+    results.push({
+      ok: true,
+      action: "SKIP_ONLY_TERMINAL_MATCHES",
+      externalId,
+      offerId: null,
+      changedFields: [],
+      changedSubfields: {},
+      patchBody: null,
+      skippedOffers: matches.map(summarizeMatch),
+      skipReason: "only-terminal-matches"
+    });
+
+    console.log(
+      `[${index + 1}/${total}] Pomijam externalId=${externalId}, bo wszystkie dopasowane oferty sa zamkniete/terminalne`
+    );
+
+    return results;
+  }
+
+  for (const match of [selected]) {
     const result = {
       ok: false,
       action: "PATCH",
@@ -848,6 +1008,15 @@ function writeSyncReports(syncReportPath, syncErrorsPath, context) {
       noChanges: syncResults.filter((item) => item.action === "NO_CHANGES").length,
       dryRunCreate: syncResults.filter((item) => item.action === "DRY_RUN_CREATE").length,
       dryRunPatch: syncResults.filter((item) => item.action === "DRY_RUN_PATCH").length,
+      skippedTerminalDuplicates: syncResults.filter(
+        (item) => item.action === "SKIP_TERMINAL_DUPLICATE"
+      ).length,
+      skippedNonCanonicalDuplicates: syncResults.filter(
+        (item) => item.action === "SKIP_DUPLICATE_NON_CANONICAL"
+      ).length,
+      skippedOnlyTerminalMatches: syncResults.filter(
+        (item) => item.action === "SKIP_ONLY_TERMINAL_MATCHES"
+      ).length,
       inpostReferenceCategoryOverrides: syncResults.filter(
         (item) =>
           item.inpostReferenceCategoryOverride ||
@@ -867,11 +1036,21 @@ function writeSyncReports(syncReportPath, syncErrorsPath, context) {
   writeJson(syncErrorsPath, {
     summary: {
       errors: report.totals.errors,
-      duplicateExternalIdsInInPost: duplicates.length
+      duplicateExternalIdsInInPost: duplicates.length,
+      skippedTerminalDuplicates: report.totals.skippedTerminalDuplicates,
+      skippedNonCanonicalDuplicates: report.totals.skippedNonCanonicalDuplicates,
+      skippedOnlyTerminalMatches: report.totals.skippedOnlyTerminalMatches
     },
     errors: syncResults.filter((item) => !item.ok),
     validationErrors: syncResults.filter(hasFinalValidationErrors),
     duplicateExternalIdsInInPost: duplicates,
+    skippedDuplicates: syncResults.filter((item) =>
+      [
+        "SKIP_TERMINAL_DUPLICATE",
+        "SKIP_DUPLICATE_NON_CANONICAL",
+        "SKIP_ONLY_TERMINAL_MATCHES"
+      ].includes(item.action)
+    ),
     patchPlannedOrApplied: syncResults.filter((item) =>
       ["PATCH", "DRY_RUN_PATCH"].includes(item.action)
     )

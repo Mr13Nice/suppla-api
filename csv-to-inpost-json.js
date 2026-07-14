@@ -714,22 +714,22 @@ function getHintCategoryDecision(row, categoryHints, categoryTreeIndex = new Map
     return null;
   }
 
-  const reasons = [];
+  const warnings = [];
   const category = categoryTreeIndex.get(categoryId) || null;
 
   if (categoryTreeIndex.size > 0) {
     if (!category) {
-      reasons.push("hint-category-id-not-in-category-tree");
+      warnings.push("hint-category-id-not-in-category-tree");
     } else if (!category.leaf) {
-      reasons.push("hint-category-is-not-leaf");
+      warnings.push("hint-category-is-not-leaf");
     }
   }
 
   return {
     ean,
     categoryId,
-    valid: reasons.length === 0,
-    reasons,
+    valid: true,
+    warnings,
     categoryPath: category?.path || null,
     categoryName: category?.name || null,
     categoryLeaf: category?.leaf ?? null,
@@ -737,7 +737,7 @@ function getHintCategoryDecision(row, categoryHints, categoryTreeIndex = new Map
   };
 }
 
-function buildRejectedHint(row, hint, categories) {
+function buildHintWarning(row, hint, categories) {
   return {
     externalId: normalizeText(row["Identyfikator"]),
     name: normalizeText(row["Nazwa"]),
@@ -747,7 +747,7 @@ function buildRejectedHint(row, hint, categories) {
     categoryName: hint.categoryName,
     categoryLeaf: hint.categoryLeaf,
     wooCategories: categories,
-    reasons: hint.reasons
+    warnings: hint.warnings
   };
 }
 
@@ -787,27 +787,19 @@ function resolveCategoryId(
 
   const hint = getHintCategoryDecision(row, categoryHints, categoryTreeIndex);
 
-  if (hint?.valid) {
+  if (hint?.categoryId) {
     return {
       categoryId: hint.categoryId,
-      matchedBy: "inpost-hint-ean",
+      matchedBy: hint.warnings?.length
+        ? "inpost-hint-ean-with-local-warning"
+        : "inpost-hint-ean",
       matchedWooCategory: null,
       matchedInpostCategory: hint.categoryPath || `EAN hint: ${hint.ean}`,
       allWooCategories: categories,
-      rejectedHints: []
-    };
-  }
-
-  if (hint && !hint.valid) {
-    const rejectedHint = buildRejectedHint(row, hint, categories);
-
-    return {
-      categoryId: null,
-      matchedBy: "inpost-hint-rejected",
-      matchedWooCategory: null,
-      matchedInpostCategory: hint.categoryPath || `EAN hint: ${hint.ean}`,
-      allWooCategories: categories,
-      rejectedHints: [rejectedHint]
+      rejectedHints: [],
+      hintWarnings: hint.warnings?.length
+        ? [buildHintWarning(row, hint, categories)]
+        : []
     };
   }
 
@@ -826,7 +818,8 @@ function resolveCategoryId(
           matchedWooCategory: wooCategory,
           matchedInpostCategory: resolved.resolvedFrom,
           allWooCategories: categories,
-          rejectedHints: []
+          rejectedHints: [],
+          hintWarnings: []
         };
       }
     }
@@ -849,7 +842,8 @@ function resolveCategoryId(
           matchedWooCategory: wooCategory,
           matchedInpostCategory: resolved.resolvedFrom,
           allWooCategories: categories,
-          rejectedHints: []
+          rejectedHints: [],
+          hintWarnings: []
         };
       }
     }
@@ -861,7 +855,8 @@ function resolveCategoryId(
     matchedWooCategory: null,
     matchedInpostCategory: null,
     allWooCategories: categories,
-    rejectedHints: []
+    rejectedHints: [],
+    hintWarnings: []
   };
 }
 
@@ -1727,12 +1722,14 @@ function updateCategoryReport(report, categoryResolution) {
       matchedBy: categoryResolution.matchedBy,
       matchedWooCategory: categoryResolution.matchedWooCategory,
       matchedInpostCategory: categoryResolution.matchedInpostCategory,
-      rejectedHints: categoryResolution.rejectedHints || []
+      rejectedHints: categoryResolution.rejectedHints || [],
+      hintWarnings: categoryResolution.hintWarnings || []
     });
   } else {
     report.unresolved.push({
       categories: categoryResolution.allWooCategories || [],
-      rejectedHints: categoryResolution.rejectedHints || []
+      rejectedHints: categoryResolution.rejectedHints || [],
+      hintWarnings: categoryResolution.hintWarnings || []
     });
   }
 
@@ -1745,6 +1742,18 @@ function updateCategoryReport(report, categoryResolution) {
       }
 
       report.rejectedHintReasons[reason]++;
+    }
+  }
+
+  for (const hintWarning of categoryResolution.hintWarnings || []) {
+    report.hintWarnings.push(hintWarning);
+
+    for (const warning of hintWarning.warnings || []) {
+      if (!report.hintWarningReasons[warning]) {
+        report.hintWarningReasons[warning] = 0;
+      }
+
+      report.hintWarningReasons[warning]++;
     }
   }
 }
@@ -2048,7 +2057,7 @@ async function main() {
             "skip"
           ]
         : [
-            "category-hints.json by EAN, only when category tree confirms leaf=true",
+            "category-hints.json by EAN from InPost /offers/hint",
             "category-overrides.json by WooCommerce category",
             "skip"
           ]
@@ -2059,7 +2068,9 @@ async function main() {
     resolved: [],
     unresolved: [],
     rejectedHints: [],
-    rejectedHintReasons: {}
+    rejectedHintReasons: {},
+    hintWarnings: [],
+    hintWarningReasons: {}
   };
 
   for (const row of rows) {
@@ -2301,6 +2312,7 @@ async function main() {
       generatedDescriptions: generatedDescriptions.length,
       unresolvedCategories: unresolvedCategories.size,
       rejectedCategoryHints: categoryReport.rejectedHints.length,
+      hintCategoryWarnings: categoryReport.hintWarnings.length,
       duplicateExternalIdsInCsv: duplicateExternalIdsInCsv.length,
       existingInPostSkipped: existingInPostSkipped.length,
       existingInPostIncludedInOutput: INCLUDE_EXISTING_IN_OUTPUT
@@ -2321,7 +2333,8 @@ async function main() {
     },
     categoryResolution: {
       byMethod: categoryReport.byMethod,
-      rejectedHintReasons: categoryReport.rejectedHintReasons
+      rejectedHintReasons: categoryReport.rejectedHintReasons,
+      hintWarningReasons: categoryReport.hintWarningReasons
     }
   };
 
@@ -2333,6 +2346,7 @@ async function main() {
     generatedDescriptions,
     unresolvedCategories: [...unresolvedCategories.keys()].sort(),
     rejectedCategoryHints: categoryReport.rejectedHints,
+    hintCategoryWarnings: categoryReport.hintWarnings,
     duplicateExternalIdsInCsv,
     existingInPostSkipped,
     inpostReferenceCategoryOverrides,
@@ -2359,6 +2373,7 @@ async function main() {
   console.log(`Opisy uzupelnione do minimum ${MIN_DESCRIPTION_LENGTH} znakow: ${generatedDescriptions.length}`);
   console.log(`Kategorie bez mapowania: ${unresolvedCategories.size}`);
   console.log(`Odrzucone hinty kategorii po EAN: ${categoryReport.rejectedHints.length}`);
+  console.log(`Hinty po EAN uzyte z ostrzezeniami lokalnego drzewa: ${categoryReport.hintWarnings.length}`);
   console.log("");
 
   logObjectCounts("Dopasowanie kategorii:", categoryReport.byMethod);
@@ -2366,6 +2381,11 @@ async function main() {
   if (categoryReport.rejectedHints.length) {
     console.log("");
     logObjectCounts("Powody odrzucenia hintow kategorii:", categoryReport.rejectedHintReasons);
+  }
+
+  if (categoryReport.hintWarnings.length) {
+    console.log("");
+    logObjectCounts("Ostrzezenia lokalnej walidacji hintow:", categoryReport.hintWarningReasons);
   }
 
   console.log("");

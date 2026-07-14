@@ -4,6 +4,7 @@
   "categoryOverridesFile": "category-overrides.json",
   "categoryHintsFile": "dist/category-hints.json",
   "categoryTreeFiles": [
+    "dist\\category-tree.json",
     "inpost-health-categories.txt",
     "inpost.txt"
   ],
@@ -24,29 +25,34 @@
     "CLEANUP_DUPLICATES": false,
     "EXECUTE_CLEANUP": false,
     "CLOSE_ONLY": false,
+    "RESCUE_OVERRIDES": false,
     "mappingOrder": [
-      "category-hints.json by EAN, only when category tree confirms leaf=true",
+      "category-hints.json by EAN from InPost /offers/hint",
       "category-overrides.json by WooCommerce category",
       "skip"
     ]
   },
+  "rescue": null,
   "categoryTree": {
-    "totalCategories": 557,
-    "leafCategories": 400,
-    "nonLeafCategories": 157
+    "totalCategories": 9155,
+    "leafCategories": 8076,
+    "nonLeafCategories": 1079
   },
   "totals": {
     "csvRows": 2142,
-    "offersToCreate": 755,
-    "skippedProducts": 1387,
-    "blockingSkippedProducts": 828,
+    "rescueCandidates": 0,
+    "rescueSkippedSameRejectedCategory": 0,
+    "offersToCreate": 1225,
+    "skippedProducts": 917,
+    "blockingSkippedProducts": 358,
     "productsWithoutImages": 20,
     "generatedDescriptions": 1323,
-    "unresolvedCategories": 84,
-    "rejectedCategoryHints": 536,
+    "unresolvedCategories": 0,
+    "rejectedCategoryHints": 0,
+    "hintCategoryWarnings": 13,
     "duplicateExternalIdsInCsv": 0,
-    "existingInPostSkipped": 755,
-    "existingInPostIncludedInOutput": 755,
+    "existingInPostSkipped": 1225,
+    "existingInPostIncludedInOutput": 1225,
     "inpostReferenceCategoryOverrides": 0,
     "inpostCurrentCategoryPreserved": 0,
     "existingInPostItemsFetched": 1662,
@@ -57,12 +63,12 @@
   },
   "categoryResolution": {
     "byMethod": {
-      "inpost-hint-rejected": 536,
-      "inpost-hint-ean": 697,
-      "override-exact": 350
+      "inpost-hint-ean": 1220,
+      "override-exact": 350,
+      "inpost-hint-ean-with-local-warning": 13
     },
-    "rejectedHintReasons": {
-      "hint-category-id-not-in-category-tree": 523,
+    "rejectedHintReasons": {},
+    "hintWarningReasons": {
       "hint-category-is-not-leaf": 13
     }
   }

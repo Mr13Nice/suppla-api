@@ -1,0 +1,11 @@
+{
+  "generatedAt": "2026-07-14T10:58:59.633Z",
+  "outputTreeFile": "dist/category-tree.json",
+  "depth": 4,
+  "summary": {
+    "totalCategories": 9155,
+    "leafCategories": 8076,
+    "nonLeafCategories": 1079,
+    "categoriesWithoutLeafFlag": 0
+  }
+}

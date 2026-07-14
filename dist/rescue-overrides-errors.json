@@ -1,13 +1,13 @@
 {
   "summary": {
     "csvRows": 2142,
-    "rescueCandidates": 567,
-    "rescueSkippedSameRejectedCategory": 10,
-    "offersToCreate": 491,
-    "skippedProducts": 76,
+    "rescueCandidates": 563,
+    "rescueSkippedSameRejectedCategory": 11,
+    "offersToCreate": 486,
+    "skippedProducts": 77,
     "blockingSkippedProducts": 66,
     "productsWithoutImages": 0,
-    "generatedDescriptions": 442,
+    "generatedDescriptions": 437,
     "unresolvedCategories": 0,
     "rejectedCategoryHints": 0,
     "duplicateExternalIdsInCsv": 0,
@@ -1406,6 +1406,48 @@
       },
       "errors": [
         "Brak Cena / Cena promocyjna"
+      ]
+    },
+    {
+      "externalId": "3998",
+      "name": "Immuno Hot",
+      "sku": "5903031283020",
+      "ean": "5903031283020",
+      "categoryId": "43684d3f-c3c7-5a80-a5f2-023dc79cbd09",
+      "matchedBy": "override-exact",
+      "matchedWooCategory": "Suplementy Diety > Odporność > Preparaty ziołowe",
+      "matchedInpostCategory": "direct-id",
+      "rescueCandidate": {
+        "externalId": "3998",
+        "sources": [
+          {
+            "type": "sync-category-incorrect",
+            "offerId": "ccaa5214-5921-41c7-836f-e4515b74232d",
+            "rejectedCategoryIds": [
+              "43684d3f-c3c7-5a80-a5f2-023dc79cbd09"
+            ],
+            "validationErrors": [
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
+              },
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
+              }
+            ]
+          }
+        ],
+        "rejectedCategoryIds": [
+          "43684d3f-c3c7-5a80-a5f2-023dc79cbd09"
+        ],
+        "rejectedHintCategoryIds": [],
+        "rejectedSyncCategoryIds": [
+          "43684d3f-c3c7-5a80-a5f2-023dc79cbd09"
+        ]
+      },
+      "errors": [
+        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
       ]
     },
     {
@@ -5597,12 +5639,6 @@
       "finalLength": 258
     },
     {
-      "externalId": "3998",
-      "name": "Immuno Hot",
-      "originalLength": 0,
-      "finalLength": 234
-    },
-    {
       "externalId": "4000",
       "name": "Immuno Kids",
       "originalLength": 0,
@@ -5747,34 +5783,10 @@
       "finalLength": 245
     },
     {
-      "externalId": "5066",
-      "name": "Jasnum",
-      "originalLength": 0,
-      "finalLength": 240
-    },
-    {
-      "externalId": "5078",
-      "name": "StructuActiv Forte 600",
-      "originalLength": 0,
-      "finalLength": 241
-    },
-    {
-      "externalId": "5092",
-      "name": "Duo Stawy",
-      "originalLength": 0,
-      "finalLength": 232
-    },
-    {
       "externalId": "5111",
       "name": "Grinovita Imbir",
       "originalLength": 0,
       "finalLength": 217
-    },
-    {
-      "externalId": "5126",
-      "name": "Olimp Selen 110 µg",
-      "originalLength": 0,
-      "finalLength": 236
     },
     {
       "externalId": "5151",
@@ -7307,6 +7319,48 @@
         "rejectedHintCategoryIds": [],
         "rejectedSyncCategoryIds": [
           "c81dbc41-d90b-5cea-ad55-511bc9cb23b4"
+        ]
+      },
+      "errors": [
+        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
+      ]
+    },
+    {
+      "externalId": "3998",
+      "name": "Immuno Hot",
+      "sku": "5903031283020",
+      "ean": "5903031283020",
+      "categoryId": "43684d3f-c3c7-5a80-a5f2-023dc79cbd09",
+      "matchedBy": "override-exact",
+      "matchedWooCategory": "Suplementy Diety > Odporność > Preparaty ziołowe",
+      "matchedInpostCategory": "direct-id",
+      "rescueCandidate": {
+        "externalId": "3998",
+        "sources": [
+          {
+            "type": "sync-category-incorrect",
+            "offerId": "ccaa5214-5921-41c7-836f-e4515b74232d",
+            "rejectedCategoryIds": [
+              "43684d3f-c3c7-5a80-a5f2-023dc79cbd09"
+            ],
+            "validationErrors": [
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
+              },
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
+              }
+            ]
+          }
+        ],
+        "rejectedCategoryIds": [
+          "43684d3f-c3c7-5a80-a5f2-023dc79cbd09"
+        ],
+        "rejectedHintCategoryIds": [],
+        "rejectedSyncCategoryIds": [
+          "43684d3f-c3c7-5a80-a5f2-023dc79cbd09"
         ]
       },
       "errors": [

@@ -5126,28 +5126,6 @@
     }
   },
   {
-    "externalId": "3998",
-    "product": {
-      "name": "Immuno Hot",
-      "description": "Marka: Immuno. Kategoria produktu: Suplementy Diety > Odporność > Preparaty ziołowe. Kod EAN: 5903031283020. SKU produktu: 5903031283020. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "Immuno",
-      "categoryId": "43684d3f-c3c7-5a80-a5f2-023dc79cbd09",
-      "sku": "5903031283020",
-      "ean": "5903031283020"
-    },
-    "stock": {
-      "quantity": 0,
-      "unit": "UNIT"
-    },
-    "price": {
-      "grossPrice": {
-        "amount": 24.19,
-        "currency": "PLN"
-      },
-      "taxRateInfo": "23%"
-    }
-  },
-  {
     "externalId": "4000",
     "product": {
       "name": "Immuno Kids",
@@ -6116,72 +6094,6 @@
     }
   },
   {
-    "externalId": "5066",
-    "product": {
-      "name": "Jasnum",
-      "description": "Marka: Jasnum. Kategoria produktu: Suplementy Diety > Samopoczucie i energia > Bezsenność. Kod EAN: 5903031284218. SKU produktu: 5903031284218. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "Jasnum",
-      "categoryId": "887c536f-35d0-51dc-801d-eb39dd13f7d7",
-      "sku": "5903031284218",
-      "ean": "5903031284218"
-    },
-    "stock": {
-      "quantity": 0,
-      "unit": "UNIT"
-    },
-    "price": {
-      "grossPrice": {
-        "amount": 76.99,
-        "currency": "PLN"
-      },
-      "taxRateInfo": "23%"
-    }
-  },
-  {
-    "externalId": "5078",
-    "product": {
-      "name": "StructuActiv Forte 600",
-      "description": "Marka: StructuActiv. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały. Kod EAN: 5903260905199. SKU produktu: 5903260905199. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "StructuActiv",
-      "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
-      "sku": "5903260905199",
-      "ean": "5903260905199"
-    },
-    "stock": {
-      "quantity": 0,
-      "unit": "UNIT"
-    },
-    "price": {
-      "grossPrice": {
-        "amount": 71.49,
-        "currency": "PLN"
-      },
-      "taxRateInfo": "23%"
-    }
-  },
-  {
-    "externalId": "5092",
-    "product": {
-      "name": "Duo Stawy",
-      "description": "Marka: Duo. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały. Kod EAN: 5902891176343. SKU produktu: 5902891176343. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "Duo",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
-      "sku": "5902891176343",
-      "ean": "5902891176343"
-    },
-    "stock": {
-      "quantity": 3,
-      "unit": "UNIT"
-    },
-    "price": {
-      "grossPrice": {
-        "amount": 24.56,
-        "currency": "PLN"
-      },
-      "taxRateInfo": "23%"
-    }
-  },
-  {
     "externalId": "5111",
     "product": {
       "name": "Grinovita Imbir",
@@ -6198,28 +6110,6 @@
     "price": {
       "grossPrice": {
         "amount": 26.39,
-        "currency": "PLN"
-      },
-      "taxRateInfo": "23%"
-    }
-  },
-  {
-    "externalId": "5126",
-    "product": {
-      "name": "Olimp Selen 110 µg",
-      "description": "Marka: Olimp. Kategoria produktu: Suplementy Diety > Uroda > Skóra, włosy i paznokcie. Kod EAN: 5901330039270. SKU produktu: 5901330039270. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "Olimp",
-      "categoryId": "6eafbcd7-ebde-5121-9f42-6e5a1395ccd9",
-      "sku": "5901330039270",
-      "ean": "5901330039270"
-    },
-    "stock": {
-      "quantity": 1,
-      "unit": "UNIT"
-    },
-    "price": {
-      "grossPrice": {
-        "amount": 29.69,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"

@@ -1,0 +1,2846 @@
+[
+  {
+    "offerId": "1c0a8b61-6696-4556-868e-fb12e3edc9a3",
+    "externalId": "4578",
+    "status": "CLOSED",
+    "name": "Dercos Szampon przeciwłupieżowy włosy suche",
+    "ean": "3337875492799",
+    "sku": "3337875492799",
+    "stock": 10,
+    "createdAt": "2026-06-02T14:25:34.279Z",
+    "updatedAt": "2026-07-14T11:34:36.277Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "4578",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 1077,
+        "externalId": "4578",
+        "ean": "3337875492799",
+        "sku": "3337875492799",
+        "name": "Dercos Szampon przeciwłupieżowy włosy suche",
+        "stock": 10
+      },
+      "matches": [
+        {
+          "rowNumber": 1077,
+          "externalId": "4578",
+          "ean": "3337875492799",
+          "sku": "3337875492799",
+          "name": "Dercos Szampon przeciwłupieżowy włosy suche",
+          "stock": 10
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "f840d3a7-d070-478f-b7dc-618a98c1c68f",
+    "externalId": "4550",
+    "status": "CLOSED",
+    "name": "Dercos PSOlution Keratolityczny szampon do włosów",
+    "ean": "3337875787222",
+    "sku": "3337875787222",
+    "stock": 3,
+    "createdAt": "2026-06-02T14:25:31.298Z",
+    "updatedAt": "2026-06-08T20:07:01.576Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "4550",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 1075,
+        "externalId": "4550",
+        "ean": "3337875787222",
+        "sku": "3337875787222",
+        "name": "Dercos PSOlution Keratolityczny szampon do włosów",
+        "stock": 3
+      },
+      "matches": [
+        {
+          "rowNumber": 1075,
+          "externalId": "4550",
+          "ean": "3337875787222",
+          "sku": "3337875787222",
+          "name": "Dercos PSOlution Keratolityczny szampon do włosów",
+          "stock": 3
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "4e62b2a5-de54-412e-a6c9-41d738a1519b",
+    "externalId": "4532",
+    "status": "CLOSED",
+    "name": "Dercos Anti Dandruff K Szampon przeciwłupieżowy głęboko oczyszczający",
+    "ean": "3337875736459",
+    "sku": "3337875736459",
+    "stock": 2,
+    "createdAt": "2026-06-02T14:25:30.826Z",
+    "updatedAt": "2026-07-14T11:34:31.269Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "4532",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 1074,
+        "externalId": "4532",
+        "ean": "3337875736459",
+        "sku": "3337875736459",
+        "name": "Dercos Anti Dandruff K Szampon przeciwłupieżowy głęboko oczyszczający",
+        "stock": 2
+      },
+      "matches": [
+        {
+          "rowNumber": 1074,
+          "externalId": "4532",
+          "ean": "3337875736459",
+          "sku": "3337875736459",
+          "name": "Dercos Anti Dandruff K Szampon przeciwłupieżowy głęboko oczyszczający",
+          "stock": 2
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "ff3e32b3-84a0-4f2e-8444-f6c770ab2766",
+    "externalId": "4524",
+    "status": "CLOSED",
+    "name": "Neovadiol Peri-Menopause Ujędrniający krem na dzień przywracający gęstość skóra normalna i mieszana",
+    "ean": "3337875774123",
+    "sku": "3337875774123",
+    "stock": 1,
+    "createdAt": "2026-06-02T14:25:29.359Z",
+    "updatedAt": "2026-07-14T11:34:28.191Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "4524",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 1073,
+        "externalId": "4524",
+        "ean": "3337875774123",
+        "sku": "3337875774123",
+        "name": "Neovadiol Peri-Menopause Ujędrniający krem na dzień przywracający gęstość skóra normalna i mieszana",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 1073,
+          "externalId": "4524",
+          "ean": "3337875774123",
+          "sku": "3337875774123",
+          "name": "Neovadiol Peri-Menopause Ujędrniający krem na dzień przywracający gęstość skóra normalna i mieszana",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "74c94f84-9dd0-4967-b8bc-678aab6ed393",
+    "externalId": "4472",
+    "status": "CLOSED",
+    "name": "Neovadiol Peri-Menopause Ujędrniający krem na dzień przywracający gęstość skóra sucha",
+    "ean": "3337875774161",
+    "sku": "3337875774161",
+    "stock": 3,
+    "createdAt": "2026-06-02T14:25:28.407Z",
+    "updatedAt": "2026-07-14T11:33:35.661Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "4472",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 1052,
+        "externalId": "4472",
+        "ean": "3337875774161",
+        "sku": "3337875774161",
+        "name": "Neovadiol Peri-Menopause Ujędrniający krem na dzień przywracający gęstość skóra sucha",
+        "stock": 3
+      },
+      "matches": [
+        {
+          "rowNumber": 1052,
+          "externalId": "4472",
+          "ean": "3337875774161",
+          "sku": "3337875774161",
+          "name": "Neovadiol Peri-Menopause Ujędrniający krem na dzień przywracający gęstość skóra sucha",
+          "stock": 3
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "a09c2e96-bd34-495a-acb1-0026b5ace0e2",
+    "externalId": "4133",
+    "status": "CLOSED",
+    "name": "Vichy Clinical Control Antyperspirant roll-on dla kobiet 96-godzinna ochrona",
+    "ean": "3337875804431",
+    "sku": "3337875804431",
+    "stock": 2,
+    "createdAt": "2026-06-02T14:25:10.894Z",
+    "updatedAt": "2026-07-14T09:49:10.692Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "4133",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 932,
+        "externalId": "4133",
+        "ean": "3337875804431",
+        "sku": "3337875804431",
+        "name": "Clinical Control Antyperspirant roll-on dla kobiet 96-godzinna ochrona",
+        "stock": 2
+      },
+      "matches": [
+        {
+          "rowNumber": 932,
+          "externalId": "4133",
+          "ean": "3337875804431",
+          "sku": "3337875804431",
+          "name": "Clinical Control Antyperspirant roll-on dla kobiet 96-godzinna ochrona",
+          "stock": 2
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "a310a78d-eb6b-4dc8-8fd9-0f68edf08b54",
+    "externalId": "4123",
+    "status": "CLOSED",
+    "name": "Vichy Homme Clinical Control Antyperspirant roll-on dla mężczyzn",
+    "ean": "3337875805025",
+    "sku": "3337875805025",
+    "stock": 3,
+    "createdAt": "2026-06-02T14:25:09.158Z",
+    "updatedAt": "2026-07-14T09:49:06.181Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "4123",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 930,
+        "externalId": "4123",
+        "ean": "3337875805025",
+        "sku": "3337875805025",
+        "name": "Homme Clinical Control Antyperspirant roll-on dla mężczyzn",
+        "stock": 3
+      },
+      "matches": [
+        {
+          "rowNumber": 930,
+          "externalId": "4123",
+          "ean": "3337875805025",
+          "sku": "3337875805025",
+          "name": "Homme Clinical Control Antyperspirant roll-on dla mężczyzn",
+          "stock": 3
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "a18b41cd-adcf-47ea-97ec-6380c11ecae1",
+    "externalId": "4090",
+    "status": "CLOSED",
+    "name": "Neovadiol Korygujący krem do skóry wokół oczu i ust",
+    "ean": "3337875824033",
+    "sku": "3337875824033",
+    "stock": 1,
+    "createdAt": "2026-06-02T14:25:05.127Z",
+    "updatedAt": "2026-07-09T10:26:45.183Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "4090",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 921,
+        "externalId": "4090",
+        "ean": "3337875824033",
+        "sku": "3337875824033",
+        "name": "Neovadiol Korygujący krem do skóry wokół oczu i ust",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 921,
+          "externalId": "4090",
+          "ean": "3337875824033",
+          "sku": "3337875824033",
+          "name": "Neovadiol Korygujący krem do skóry wokół oczu i ust",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "a2e07984-b2b4-4f74-b5b5-9d08e6aa34b8",
+    "externalId": "4044",
+    "status": "CLOSED",
+    "name": "Vichy Homme Antyperspirant 72h roll-on",
+    "ean": "3337871320362",
+    "sku": "3337871320362",
+    "stock": 12,
+    "createdAt": "2026-06-02T14:25:02.249Z",
+    "updatedAt": "2026-06-08T20:06:14.111Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "4044",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 900,
+        "externalId": "4044",
+        "ean": "3337871320362",
+        "sku": "3337871320362",
+        "name": "Vichy Homme Antyperspirant 72h roll-on",
+        "stock": 12
+      },
+      "matches": [
+        {
+          "rowNumber": 900,
+          "externalId": "4044",
+          "ean": "3337871320362",
+          "sku": "3337871320362",
+          "name": "Vichy Homme Antyperspirant 72h roll-on",
+          "stock": 12
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "0265ed19-b12a-4085-8c96-7a70608eec7a",
+    "externalId": "3810",
+    "status": "CLOSED",
+    "name": "Sebium Kerato+ Żel-krem przeciw niedoskonałościom do cery trądzikowej",
+    "ean": "3701129805367",
+    "sku": "3701129805367",
+    "stock": 6,
+    "createdAt": "2026-06-02T14:24:54.208Z",
+    "updatedAt": "2026-07-14T11:28:25.812Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "3810",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 825,
+        "externalId": "3810",
+        "ean": "3701129805367",
+        "sku": "3701129805367",
+        "name": "Sebium Kerato+ Żel-krem przeciw niedoskonałościom do cery trądzikowej",
+        "stock": 6
+      },
+      "matches": [
+        {
+          "rowNumber": 825,
+          "externalId": "3810",
+          "ean": "3701129805367",
+          "sku": "3701129805367",
+          "name": "Sebium Kerato+ Żel-krem przeciw niedoskonałościom do cery trądzikowej",
+          "stock": 6
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "6a6ccbf8-2043-411d-a526-837d8c5ef185",
+    "externalId": "2750",
+    "status": "CLOSED",
+    "name": "Huile Prodigieuse Suchy olejek do pielęgnacji ciała, twarzy i włosów",
+    "ean": "3264680009761",
+    "sku": "3264680009761",
+    "stock": 1,
+    "createdAt": "2026-06-02T14:24:28.484Z",
+    "updatedAt": "2026-07-14T11:22:44.577Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "2750",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 497,
+        "externalId": "2750",
+        "ean": "3264680009761",
+        "sku": "3264680009761",
+        "name": "Huile Prodigieuse Suchy olejek do pielęgnacji ciała, twarzy i włosów",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 497,
+          "externalId": "2750",
+          "ean": "3264680009761",
+          "sku": "3264680009761",
+          "name": "Huile Prodigieuse Suchy olejek do pielęgnacji ciała, twarzy i włosów",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "f20663bb-60f8-43fd-a7af-8ce96ec4fa01",
+    "externalId": "2739",
+    "status": "CLOSED",
+    "name": "Huile Prodigieuse Or Suchy olejek ze złotymi drobinkami do ciała, twarzy i włosów",
+    "ean": "3264680009778",
+    "sku": "3264680009778",
+    "stock": 2,
+    "createdAt": "2026-06-02T14:24:27.080Z",
+    "updatedAt": "2026-07-14T11:22:40.643Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "2739",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 493,
+        "externalId": "2739",
+        "ean": "3264680009778",
+        "sku": "3264680009778",
+        "name": "Huile Prodigieuse Or Suchy olejek ze złotymi drobinkami do ciała, twarzy i włosów",
+        "stock": 2
+      },
+      "matches": [
+        {
+          "rowNumber": 493,
+          "externalId": "2739",
+          "ean": "3264680009778",
+          "sku": "3264680009778",
+          "name": "Huile Prodigieuse Or Suchy olejek ze złotymi drobinkami do ciała, twarzy i włosów",
+          "stock": 2
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "d02b660a-ba24-4e8e-8c03-87b29f5b7f35",
+    "externalId": "2684",
+    "status": "CLOSED",
+    "name": "Nuxuriance Gold Odżywczo-wzmacniający balsam na noc",
+    "ean": "3264680015915",
+    "sku": "3264680015915",
+    "stock": 2,
+    "createdAt": "2026-06-02T14:24:25.838Z",
+    "updatedAt": "2026-07-14T11:22:36.072Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "2684",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 469,
+        "externalId": "2684",
+        "ean": "3264680015915",
+        "sku": "3264680015915",
+        "name": "Nuxuriance Gold Odżywczo-wzmacniający balsam na noc",
+        "stock": 2
+      },
+      "matches": [
+        {
+          "rowNumber": 469,
+          "externalId": "2684",
+          "ean": "3264680015915",
+          "sku": "3264680015915",
+          "name": "Nuxuriance Gold Odżywczo-wzmacniający balsam na noc",
+          "stock": 2
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "08c7299e-54c8-4db5-869a-c0aee19ebc76",
+    "externalId": "2571",
+    "status": "CLOSED",
+    "name": "Very Rose Nawilżająca woda micelarna 3w1",
+    "ean": "3264680022036",
+    "sku": "3264680022036",
+    "stock": 1,
+    "createdAt": "2026-06-02T14:24:20.263Z",
+    "updatedAt": "2026-07-14T11:22:20.507Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "2571",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 427,
+        "externalId": "2571",
+        "ean": "3264680022036",
+        "sku": "3264680022036",
+        "name": "Very Rose Nawilżająca woda micelarna 3w1",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 427,
+          "externalId": "2571",
+          "ean": "3264680022036",
+          "sku": "3264680022036",
+          "name": "Very Rose Nawilżająca woda micelarna 3w1",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "355c674d-3e71-4e99-a64f-ab408c2d9fe2",
+    "externalId": "1878",
+    "status": "CLOSED",
+    "name": "Aquabella Emulsja matująca do twarzy",
+    "ean": "3264680014888",
+    "sku": "3264680014888",
+    "stock": 2,
+    "createdAt": "2026-06-02T14:24:02.168Z",
+    "updatedAt": "2026-06-08T20:06:40.787Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "1878",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 308,
+        "externalId": "1878",
+        "ean": "3264680014888",
+        "sku": "3264680014888",
+        "name": "Aquabella Emulsja matująca do twarzy",
+        "stock": 2
+      },
+      "matches": [
+        {
+          "rowNumber": 308,
+          "externalId": "1878",
+          "ean": "3264680014888",
+          "sku": "3264680014888",
+          "name": "Aquabella Emulsja matująca do twarzy",
+          "stock": 2
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "b94ffedb-2346-46db-a204-611a320fce2a",
+    "externalId": "1810",
+    "status": "CLOSED",
+    "name": "Reve De Miel Miodowy olejek do ust",
+    "ean": "3264680027901",
+    "sku": "3264680027901",
+    "stock": 2,
+    "createdAt": "2026-06-02T14:23:57.641Z",
+    "updatedAt": "2026-07-14T11:17:53.353Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "1810",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 297,
+        "externalId": "1810",
+        "ean": "3264680027901",
+        "sku": "3264680027901",
+        "name": "Reve De Miel Miodowy olejek do ust",
+        "stock": 2
+      },
+      "matches": [
+        {
+          "rowNumber": 297,
+          "externalId": "1810",
+          "ean": "3264680027901",
+          "sku": "3264680027901",
+          "name": "Reve De Miel Miodowy olejek do ust",
+          "stock": 2
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "5523f2dd-dbad-4fb7-896d-4646704e6f35",
+    "externalId": "1788",
+    "status": "CLOSED",
+    "name": "NUXE Reve de Miel Żel do mycia twarzy i ciała",
+    "ean": "3264680025891",
+    "sku": "3264680025891",
+    "stock": 1,
+    "createdAt": "2026-06-02T14:23:56.708Z",
+    "updatedAt": "2026-07-14T09:42:13.491Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "1788",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 294,
+        "externalId": "1788",
+        "ean": "3264680025891",
+        "sku": "3264680025891",
+        "name": "Reve de Miel Żel do mycia twarzy i ciała",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 294,
+          "externalId": "1788",
+          "ean": "3264680025891",
+          "sku": "3264680025891",
+          "name": "Reve de Miel Żel do mycia twarzy i ciała",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "5dd59948-678d-4989-ba84-55f30c610e7b",
+    "externalId": "1235",
+    "status": "CLOSED",
+    "name": "Sun Pielęgnacyjny żel pod prysznic po opalaniu",
+    "ean": "3264680008726",
+    "sku": "3264680008726",
+    "stock": 2,
+    "createdAt": "2026-06-02T14:23:45.562Z",
+    "updatedAt": "2026-06-08T20:06:31.626Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "1235",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 205,
+        "externalId": "1235",
+        "ean": "3264680008726",
+        "sku": "3264680008726",
+        "name": "Sun Pielęgnacyjny żel pod prysznic po opalaniu",
+        "stock": 2
+      },
+      "matches": [
+        {
+          "rowNumber": 205,
+          "externalId": "1235",
+          "ean": "3264680008726",
+          "sku": "3264680008726",
+          "name": "Sun Pielęgnacyjny żel pod prysznic po opalaniu",
+          "stock": 2
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "65ef2320-e46d-4f8d-8852-0219a0a3c7fa",
+    "externalId": "1231",
+    "status": "CLOSED",
+    "name": "Nuxuriance Gold Rozświetlający balsam pod oczy, skóra sucha",
+    "ean": "3264680015922",
+    "sku": "3264680015922",
+    "stock": 2,
+    "createdAt": "2026-06-02T14:23:43.451Z",
+    "updatedAt": "2026-07-14T11:14:32.253Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "1231",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 204,
+        "externalId": "1231",
+        "ean": "3264680015922",
+        "sku": "3264680015922",
+        "name": "Nuxuriance Gold Rozświetlający balsam pod oczy, skóra sucha",
+        "stock": 2
+      },
+      "matches": [
+        {
+          "rowNumber": 204,
+          "externalId": "1231",
+          "ean": "3264680015922",
+          "sku": "3264680015922",
+          "name": "Nuxuriance Gold Rozświetlający balsam pod oczy, skóra sucha",
+          "stock": 2
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "e51f1c70-8bd2-43d6-8b4e-d9ea45b02715",
+    "externalId": "1202",
+    "status": "CLOSED",
+    "name": "Nuxe Reve De Miel Cica Krem do rąk",
+    "ean": "3264680026171",
+    "sku": "3264680026171",
+    "stock": 4,
+    "createdAt": "2026-06-02T14:23:42.459Z",
+    "updatedAt": "2026-07-14T11:14:24.138Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "1202",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 198,
+        "externalId": "1202",
+        "ean": "3264680026171",
+        "sku": "3264680026171",
+        "name": "Nuxe Reve De Miel Cica Krem do rąk",
+        "stock": 4
+      },
+      "matches": [
+        {
+          "rowNumber": 198,
+          "externalId": "1202",
+          "ean": "3264680026171",
+          "sku": "3264680026171",
+          "name": "Nuxe Reve De Miel Cica Krem do rąk",
+          "stock": 4
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "1adcf918-2065-4b82-85a2-63dcecbe6472",
+    "externalId": "1191",
+    "status": "CLOSED",
+    "name": "Nuxe Sun Lekki krem z wysoką ochroną SPF 50, skóra normalna i mieszana",
+    "ean": "3264680022166",
+    "sku": "3264680022166",
+    "stock": 1,
+    "createdAt": "2026-06-02T14:23:40.045Z",
+    "updatedAt": "2026-07-14T11:14:18.646Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "1191",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 196,
+        "externalId": "1191",
+        "ean": "3264680022166",
+        "sku": "3264680022166",
+        "name": "Nuxe Sun Lekki krem z wysoką ochroną SPF 50, skóra normalna i mieszana",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 196,
+          "externalId": "1191",
+          "ean": "3264680022166",
+          "sku": "3264680022166",
+          "name": "Nuxe Sun Lekki krem z wysoką ochroną SPF 50, skóra normalna i mieszana",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "9a8236fe-7556-453b-8196-03ff0577b2c7",
+    "externalId": "1181",
+    "status": "CLOSED",
+    "name": "Nuxe Merveillance Lift Olejowe serum liftingujące, do każdego typu cery",
+    "ean": "3264680024771",
+    "sku": "3264680024771",
+    "stock": 1,
+    "createdAt": "2026-06-02T14:23:38.822Z",
+    "updatedAt": "2026-07-14T11:14:14.716Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "1181",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 194,
+        "externalId": "1181",
+        "ean": "3264680024771",
+        "sku": "3264680024771",
+        "name": "Nuxe Merveillance Lift Olejowe serum liftingujące, do każdego typu cery",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 194,
+          "externalId": "1181",
+          "ean": "3264680024771",
+          "sku": "3264680024771",
+          "name": "Nuxe Merveillance Lift Olejowe serum liftingujące, do każdego typu cery",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "aada2e8b-b301-4864-b90d-1a48ce363b1d",
+    "externalId": "1175",
+    "status": "CLOSED",
+    "name": "Nuxe Merveillance Lift Krem liftingujący pod oczy",
+    "ean": "3264680024757",
+    "sku": "3264680024757",
+    "stock": 1,
+    "createdAt": "2026-06-02T14:23:37.425Z",
+    "updatedAt": "2026-07-14T11:14:10.105Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "1175",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 193,
+        "externalId": "1175",
+        "ean": "3264680024757",
+        "sku": "3264680024757",
+        "name": "Nuxe Merveillance Lift Krem liftingujący pod oczy",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 193,
+          "externalId": "1175",
+          "ean": "3264680024757",
+          "sku": "3264680024757",
+          "name": "Nuxe Merveillance Lift Krem liftingujący pod oczy",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "8a192736-78c1-4973-8240-b8f9d47fd88c",
+    "externalId": "1131",
+    "status": "CLOSED",
+    "name": "Reve de Miel Ultrakomfortowy krem do twarzy, skóra sucha i wrażliwa",
+    "ean": "3264680019159",
+    "sku": "3264680019159",
+    "stock": 1,
+    "createdAt": "2026-06-02T14:23:34.845Z",
+    "updatedAt": "2026-07-14T11:13:58.582Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "1131",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 186,
+        "externalId": "1131",
+        "ean": "3264680019159",
+        "sku": "3264680019159",
+        "name": "Reve de Miel Ultrakomfortowy krem do twarzy, skóra sucha i wrażliwa",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 186,
+          "externalId": "1131",
+          "ean": "3264680019159",
+          "sku": "3264680019159",
+          "name": "Reve de Miel Ultrakomfortowy krem do twarzy, skóra sucha i wrażliwa",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "484f7191-0015-458d-ae74-21edd77fb3e7",
+    "externalId": "1118",
+    "status": "CLOSED",
+    "name": "Super Serum Uniwersalny koncentrat przeciwstarzeniowy do każdego typu skóry",
+    "ean": "3264680023323",
+    "sku": "3264680023323",
+    "stock": 1,
+    "createdAt": "2026-06-02T14:23:33.372Z",
+    "updatedAt": "2026-07-14T11:13:50.073Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "1118",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 183,
+        "externalId": "1118",
+        "ean": "3264680023323",
+        "sku": "3264680023323",
+        "name": "Super Serum Uniwersalny koncentrat przeciwstarzeniowy do każdego typu skóry",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 183,
+          "externalId": "1118",
+          "ean": "3264680023323",
+          "sku": "3264680023323",
+          "name": "Super Serum Uniwersalny koncentrat przeciwstarzeniowy do każdego typu skóry",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "8cc09672-7fc3-4418-ba9f-f6f2c45a3d73",
+    "externalId": "1102",
+    "status": "CLOSED",
+    "name": "Merveillance Lift Krem liftingujący na noc",
+    "ean": "3264680024818",
+    "sku": "3264680024818",
+    "stock": 1,
+    "createdAt": "2026-06-02T14:23:32.913Z",
+    "updatedAt": "2026-07-14T11:13:44.186Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "1102",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 180,
+        "externalId": "1102",
+        "ean": "3264680024818",
+        "sku": "3264680024818",
+        "name": "Merveillance Lift Krem liftingujący na noc",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 180,
+          "externalId": "1102",
+          "ean": "3264680024818",
+          "sku": "3264680024818",
+          "name": "Merveillance Lift Krem liftingujący na noc",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "ee4ce788-8f9c-49ae-9590-b59568b346d4",
+    "externalId": "961",
+    "status": "CLOSED",
+    "name": "Merveillance Lift Krem liftingujący, do skóry suchej",
+    "ean": "3264680024795",
+    "sku": "3264680024795",
+    "stock": 1,
+    "createdAt": "2026-06-02T14:23:30.905Z",
+    "updatedAt": "2026-07-14T11:12:49.081Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "961",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 158,
+        "externalId": "961",
+        "ean": "3264680024795",
+        "sku": "3264680024795",
+        "name": "Merveillance Lift Krem liftingujący, do skóry suchej",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 158,
+          "externalId": "961",
+          "ean": "3264680024795",
+          "sku": "3264680024795",
+          "name": "Merveillance Lift Krem liftingujący, do skóry suchej",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "45daeba2-9654-4211-b408-3e83da498947",
+    "externalId": "944",
+    "status": "CLOSED",
+    "name": "Huile Prodigieuse Or Suchy olejek ze złotymi drobinkami do ciała, twarzy i włosów",
+    "ean": "3264680009785",
+    "sku": "3264680009785",
+    "stock": 1,
+    "createdAt": "2026-06-02T14:23:29.317Z",
+    "updatedAt": "2026-07-14T11:12:39.250Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "944",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 154,
+        "externalId": "944",
+        "ean": "3264680009785",
+        "sku": "3264680009785",
+        "name": "Huile Prodigieuse Or Suchy olejek ze złotymi drobinkami do ciała, twarzy i włosów",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 154,
+          "externalId": "944",
+          "ean": "3264680009785",
+          "sku": "3264680009785",
+          "name": "Huile Prodigieuse Or Suchy olejek ze złotymi drobinkami do ciała, twarzy i włosów",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "32a58f35-12ea-4cd2-b8bc-4db5bb98fc3a",
+    "externalId": "940",
+    "status": "CLOSED",
+    "name": "Huile Prodigieuse Florale Suchy olejek do ciała, twarzy i włosów",
+    "ean": "3264680015946",
+    "sku": "3264680015946",
+    "stock": 2,
+    "createdAt": "2026-06-02T14:23:29.159Z",
+    "updatedAt": "2026-07-14T11:12:35.131Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "940",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 153,
+        "externalId": "940",
+        "ean": "3264680015946",
+        "sku": "3264680015946",
+        "name": "Huile Prodigieuse Florale Suchy olejek do ciała, twarzy i włosów",
+        "stock": 2
+      },
+      "matches": [
+        {
+          "rowNumber": 153,
+          "externalId": "940",
+          "ean": "3264680015946",
+          "sku": "3264680015946",
+          "name": "Huile Prodigieuse Florale Suchy olejek do ciała, twarzy i włosów",
+          "stock": 2
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "e315393d-8ee3-4300-bed3-6ad6e944c7d2",
+    "externalId": "934",
+    "status": "CLOSED",
+    "name": "Merveillance Lift Krem liftingujący, do skóry mieszanej",
+    "ean": "3264680026089",
+    "sku": "3264680026089",
+    "stock": 1,
+    "createdAt": "2026-06-02T14:23:27.782Z",
+    "updatedAt": "2026-07-14T11:12:27.200Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "934",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 151,
+        "externalId": "934",
+        "ean": "3264680026089",
+        "sku": "3264680026089",
+        "name": "Merveillance Lift Krem liftingujący, do skóry mieszanej",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 151,
+          "externalId": "934",
+          "ean": "3264680026089",
+          "sku": "3264680026089",
+          "name": "Merveillance Lift Krem liftingujący, do skóry mieszanej",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "8324d438-6f73-4ce8-85a5-1f2244fe190d",
+    "externalId": "924",
+    "status": "CLOSED",
+    "name": "Nuxuriance Gold Ultraodżywczy olejkowy krem do twarzy",
+    "ean": "3264680015908",
+    "sku": "3264680015908",
+    "stock": 3,
+    "createdAt": "2026-06-02T14:23:24.723Z",
+    "updatedAt": "2026-07-14T11:12:14.735Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "924",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 148,
+        "externalId": "924",
+        "ean": "3264680015908",
+        "sku": "3264680015908",
+        "name": "Nuxuriance Gold Ultraodżywczy olejkowy krem do twarzy",
+        "stock": 3
+      },
+      "matches": [
+        {
+          "rowNumber": 148,
+          "externalId": "924",
+          "ean": "3264680015908",
+          "sku": "3264680015908",
+          "name": "Nuxuriance Gold Ultraodżywczy olejkowy krem do twarzy",
+          "stock": 3
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "b6d1eef1-44d5-4f09-94f6-b9ea85559f28",
+    "externalId": "914",
+    "status": "CLOSED",
+    "name": "Huile Prodigieuse Florale Olejek kwiatowy",
+    "ean": "3264680024382",
+    "sku": "3264680024382",
+    "stock": 1,
+    "createdAt": "2026-06-02T14:23:22.297Z",
+    "updatedAt": "2026-07-14T11:12:07.443Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "914",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 146,
+        "externalId": "914",
+        "ean": "3264680024382",
+        "sku": "3264680024382",
+        "name": "Huile Prodigieuse Florale Olejek kwiatowy",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 146,
+          "externalId": "914",
+          "ean": "3264680024382",
+          "sku": "3264680024382",
+          "name": "Huile Prodigieuse Florale Olejek kwiatowy",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "2fca2633-480a-4246-89ab-fba54a539b21",
+    "externalId": "868",
+    "status": "CLOSED",
+    "name": "Nuxe Reve de Miel Odżywczo-regenerujący balsam do ust",
+    "ean": "3264680015809",
+    "sku": "3264680015809",
+    "stock": 9,
+    "createdAt": "2026-06-02T14:23:19.892Z",
+    "updatedAt": "2026-07-14T11:11:57.221Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "868",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 142,
+        "externalId": "868",
+        "ean": "3264680015809",
+        "sku": "3264680015809",
+        "name": "Nuxe Reve de Miel Odżywczo-regenerujący balsam do ust",
+        "stock": 9
+      },
+      "matches": [
+        {
+          "rowNumber": 142,
+          "externalId": "868",
+          "ean": "3264680015809",
+          "sku": "3264680015809",
+          "name": "Nuxe Reve de Miel Odżywczo-regenerujący balsam do ust",
+          "stock": 9
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "0fdf97ad-2cf2-4020-9e07-afa9be1ca8fc",
+    "externalId": "824",
+    "status": "CLOSED",
+    "name": "Ducray Anaphase Szampon – Uzupełnienie kuracji przeciw wypadaniu włosów",
+    "ean": "3282770075533",
+    "sku": "3282770075533",
+    "stock": 3,
+    "createdAt": "2026-06-02T14:23:17.790Z",
+    "updatedAt": "2026-07-14T09:38:59.492Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "824",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 132,
+        "externalId": "824",
+        "ean": "3282770075533",
+        "sku": "3282770075533",
+        "name": "Anaphase Szampon – Uzupełnienie kuracji przeciw wypadaniu włosów",
+        "stock": 3
+      },
+      "matches": [
+        {
+          "rowNumber": 132,
+          "externalId": "824",
+          "ean": "3282770075533",
+          "sku": "3282770075533",
+          "name": "Anaphase Szampon – Uzupełnienie kuracji przeciw wypadaniu włosów",
+          "stock": 3
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "a1a94819-5b60-441f-912d-80bfbb31a6bc",
+    "externalId": "807",
+    "status": "CLOSED",
+    "name": "Kelual DS Szampon do postępowania w ciężkich stanach łupieżowych",
+    "ean": "3282770140453",
+    "sku": "3282770140453",
+    "stock": 14,
+    "createdAt": "2026-06-02T14:23:16.771Z",
+    "updatedAt": "2026-07-14T11:11:31.673Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "807",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 128,
+        "externalId": "807",
+        "ean": "3282770140453",
+        "sku": "3282770140453",
+        "name": "Kelual DS Szampon do postępowania w ciężkich stanach łupieżowych",
+        "stock": 14
+      },
+      "matches": [
+        {
+          "rowNumber": 128,
+          "externalId": "807",
+          "ean": "3282770140453",
+          "sku": "3282770140453",
+          "name": "Kelual DS Szampon do postępowania w ciężkich stanach łupieżowych",
+          "stock": 14
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "9961322f-9dc2-49dd-9835-de0b48924254",
+    "externalId": "788",
+    "status": "CLOSED",
+    "name": "Ducray Anaphase Szampon – Uzupełnienie kuracji przeciw wypadaniu włosów",
+    "ean": "3282770075526",
+    "sku": "3282770075526",
+    "stock": 14,
+    "createdAt": "2026-06-02T14:23:14.198Z",
+    "updatedAt": "2026-07-14T09:38:51.037Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "788",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 124,
+        "externalId": "788",
+        "ean": "3282770075526",
+        "sku": "3282770075526",
+        "name": "Anaphase Szampon – Uzupełnienie kuracji przeciw wypadaniu włosów",
+        "stock": 14
+      },
+      "matches": [
+        {
+          "rowNumber": 124,
+          "externalId": "788",
+          "ean": "3282770075526",
+          "sku": "3282770075526",
+          "name": "Anaphase Szampon – Uzupełnienie kuracji przeciw wypadaniu włosów",
+          "stock": 14
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "cf005555-99ef-415a-8ebd-641bf83ee134",
+    "externalId": "782",
+    "status": "CLOSED",
+    "name": "Kelual DS Krem kojący redukujący łuszczenie się naskórka",
+    "ean": "3282770392371",
+    "sku": "3282770392371",
+    "stock": 3,
+    "createdAt": "2026-06-02T14:23:13.974Z",
+    "updatedAt": "2026-06-08T20:06:38.794Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "782",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 123,
+        "externalId": "782",
+        "ean": "3282770392371",
+        "sku": "3282770392371",
+        "name": "Kelual DS Krem kojący redukujący łuszczenie się naskórka",
+        "stock": 3
+      },
+      "matches": [
+        {
+          "rowNumber": 123,
+          "externalId": "782",
+          "ean": "3282770392371",
+          "sku": "3282770392371",
+          "name": "Kelual DS Krem kojący redukujący łuszczenie się naskórka",
+          "stock": 3
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "24d31fe9-7412-4ab0-892f-00f566644d48",
+    "externalId": "759",
+    "status": "CLOSED",
+    "name": "Keracnyl PP+ Krem przeciw niedoskonałościom",
+    "ean": "3282770141320",
+    "sku": "3282770141320",
+    "stock": 10,
+    "createdAt": "2026-06-02T14:23:09.723Z",
+    "updatedAt": "2026-06-08T20:06:38.760Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "759",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 119,
+        "externalId": "759",
+        "ean": "3282770141320",
+        "sku": "3282770141320",
+        "name": "Keracnyl PP+ Krem przeciw niedoskonałościom",
+        "stock": 10
+      },
+      "matches": [
+        {
+          "rowNumber": 119,
+          "externalId": "759",
+          "ean": "3282770141320",
+          "sku": "3282770141320",
+          "name": "Keracnyl PP+ Krem przeciw niedoskonałościom",
+          "stock": 10
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "0f7a7577-fc0d-4792-9c7c-c8d9cf2d289e",
+    "externalId": "748",
+    "status": "CLOSED",
+    "name": "Kertyol P.S.O. Szampon normalizujący",
+    "ean": "3282770148466",
+    "sku": "3282770148466",
+    "stock": 3,
+    "createdAt": "2026-06-02T14:23:07.991Z",
+    "updatedAt": "2026-06-08T20:07:01.577Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "748",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 117,
+        "externalId": "748",
+        "ean": "3282770148466",
+        "sku": "3282770148466",
+        "name": "Kertyol P.S.O. Szampon normalizujący",
+        "stock": 3
+      },
+      "matches": [
+        {
+          "rowNumber": 117,
+          "externalId": "748",
+          "ean": "3282770148466",
+          "sku": "3282770148466",
+          "name": "Kertyol P.S.O. Szampon normalizujący",
+          "stock": 3
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "d15eb914-14c6-42bc-b9ae-973ff60dbba8",
+    "externalId": "730",
+    "status": "CLOSED",
+    "name": "Ducray Elution Delikatny szampon przywracający równowagę skórze głowy",
+    "ean": "3282770390032",
+    "sku": "3282770390032",
+    "stock": 12,
+    "createdAt": "2026-06-02T14:23:05.749Z",
+    "updatedAt": "2026-06-30T09:11:08.816Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "730",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 114,
+        "externalId": "730",
+        "ean": "3282770390032",
+        "sku": "3282770390032",
+        "name": "Ducray Elution Delikatny szampon przywracający równowagę skórze głowy",
+        "stock": 12
+      },
+      "matches": [
+        {
+          "rowNumber": 114,
+          "externalId": "730",
+          "ean": "3282770390032",
+          "sku": "3282770390032",
+          "name": "Ducray Elution Delikatny szampon przywracający równowagę skórze głowy",
+          "stock": 12
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "b5fbb872-39f2-41e9-8dc6-1e326d9bf901",
+    "externalId": "713",
+    "status": "CLOSED",
+    "name": "Keracnyl Repair Balsam do ust",
+    "ean": "3282770038521",
+    "sku": "3282770038521",
+    "stock": 7,
+    "createdAt": "2026-06-02T14:23:02.067Z",
+    "updatedAt": "2026-06-23T23:22:54.354Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "713",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 110,
+        "externalId": "713",
+        "ean": "3282770038521",
+        "sku": "3282770038521",
+        "name": "Keracnyl Repair Balsam do ust",
+        "stock": 7
+      },
+      "matches": [
+        {
+          "rowNumber": 110,
+          "externalId": "713",
+          "ean": "3282770038521",
+          "sku": "3282770038521",
+          "name": "Keracnyl Repair Balsam do ust",
+          "stock": 7
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "8e67a98f-3962-4126-a00c-383081a6c32d",
+    "externalId": "683",
+    "status": "CLOSED",
+    "name": "Ducray Kertyol P.S.O. - Koncentrat do stosowania miejscowego",
+    "ean": "3282770148480",
+    "sku": "3282770148480",
+    "stock": 4,
+    "createdAt": "2026-06-02T14:22:57.193Z",
+    "updatedAt": "2026-07-09T10:07:41.417Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "683",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 104,
+        "externalId": "683",
+        "ean": "3282770148480",
+        "sku": "3282770148480",
+        "name": "Ducray Kertyol P.S.O. - Koncentrat do stosowania miejscowego",
+        "stock": 4
+      },
+      "matches": [
+        {
+          "rowNumber": 104,
+          "externalId": "683",
+          "ean": "3282770148480",
+          "sku": "3282770148480",
+          "name": "Ducray Kertyol P.S.O. - Koncentrat do stosowania miejscowego",
+          "stock": 4
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "808a3300-e255-4f0f-a89a-7da3c344c21d",
+    "externalId": "675",
+    "status": "CLOSED",
+    "name": "Hydrian3 Hialuro nawilżający fizjotonik",
+    "ean": "5901643175382",
+    "sku": "5901643175382",
+    "stock": 3,
+    "createdAt": "2026-06-02T14:22:56.027Z",
+    "updatedAt": "2026-07-14T11:10:46.891Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "675",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 102,
+        "externalId": "675",
+        "ean": "5901643175382",
+        "sku": "5901643175382",
+        "name": "Hydrian3 Hialuro nawilżający fizjotonik",
+        "stock": 3
+      },
+      "matches": [
+        {
+          "rowNumber": 102,
+          "externalId": "675",
+          "ean": "5901643175382",
+          "sku": "5901643175382",
+          "name": "Hydrian3 Hialuro nawilżający fizjotonik",
+          "stock": 3
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "f05307bc-0208-4d9d-a036-5f1ac19c0764",
+    "externalId": "667",
+    "status": "CLOSED",
+    "name": "Hydrian3 Hialuro masło ultranawilżające",
+    "ean": "5901643176105",
+    "sku": "5901643176105",
+    "stock": 1,
+    "createdAt": "2026-06-02T14:22:55.092Z",
+    "updatedAt": "2026-07-14T11:10:41.922Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "667",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 100,
+        "externalId": "667",
+        "ean": "5901643176105",
+        "sku": "5901643176105",
+        "name": "Hydrian3 Hialuro masło ultranawilżające",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 100,
+          "externalId": "667",
+          "ean": "5901643176105",
+          "sku": "5901643176105",
+          "name": "Hydrian3 Hialuro masło ultranawilżające",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "5e1d2d4c-76b6-48f3-9228-8bf6ce1d854b",
+    "externalId": "637",
+    "status": "CLOSED",
+    "name": "Aderma A-Derma - Exomega Control Żel emolient do mycia 2 w 1 - przeciw drapaniu",
+    "ean": "3282770144314",
+    "sku": "3282770144314",
+    "stock": 4,
+    "createdAt": "2026-06-02T14:22:51.950Z",
+    "updatedAt": "2026-07-14T09:38:16.802Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "637",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 92,
+        "externalId": "637",
+        "ean": "3282770144314",
+        "sku": "3282770144314",
+        "name": "A-Derma - Exomega Control Żel emolient do mycia 2 w 1 - przeciw drapaniu",
+        "stock": 4
+      },
+      "matches": [
+        {
+          "rowNumber": 92,
+          "externalId": "637",
+          "ean": "3282770144314",
+          "sku": "3282770144314",
+          "name": "A-Derma - Exomega Control Żel emolient do mycia 2 w 1 - przeciw drapaniu",
+          "stock": 4
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "ff71ff94-92ae-400d-90b5-8cfcd29abf6b",
+    "externalId": "559",
+    "status": "CLOSED",
+    "name": "Dermalibour+ CICA Krem regenerujący",
+    "ean": "3282770141962",
+    "sku": "3282770141962",
+    "stock": 31,
+    "createdAt": "2026-06-02T14:22:48.458Z",
+    "updatedAt": "2026-06-08T20:06:19.413Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "559",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 79,
+        "externalId": "559",
+        "ean": "3282770141962",
+        "sku": "3282770141962",
+        "name": "Dermalibour+ CICA Krem regenerujący",
+        "stock": 31
+      },
+      "matches": [
+        {
+          "rowNumber": 79,
+          "externalId": "559",
+          "ean": "3282770141962",
+          "sku": "3282770141962",
+          "name": "Dermalibour+ CICA Krem regenerujący",
+          "stock": 31
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "15e91911-1fb6-480a-b6a2-eb02dde93009",
+    "externalId": "520",
+    "status": "CLOSED",
+    "name": "Baby masło intensywnie natłuszczające",
+    "ean": "5901643174033",
+    "sku": "5901643174033",
+    "stock": 5,
+    "createdAt": "2026-06-02T14:22:46.905Z",
+    "updatedAt": "2026-07-14T11:09:58.255Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "520",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 74,
+        "externalId": "520",
+        "ean": "5901643174033",
+        "sku": "5901643174033",
+        "name": "Baby masło intensywnie natłuszczające",
+        "stock": 5
+      },
+      "matches": [
+        {
+          "rowNumber": 74,
+          "externalId": "520",
+          "ean": "5901643174033",
+          "sku": "5901643174033",
+          "name": "Baby masło intensywnie natłuszczające",
+          "stock": 5
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "906d18db-f871-4688-8d95-87a1a727c690",
+    "externalId": "517",
+    "status": "CLOSED",
+    "name": "Baby ochronny krem specjalny",
+    "ean": "5901643170813",
+    "sku": "5901643170813",
+    "stock": 2,
+    "createdAt": "2026-06-02T14:22:45.899Z",
+    "updatedAt": "2026-07-14T11:09:54.880Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "517",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 73,
+        "externalId": "517",
+        "ean": "5901643170813",
+        "sku": "5901643170813",
+        "name": "Baby ochronny krem specjalny",
+        "stock": 2
+      },
+      "matches": [
+        {
+          "rowNumber": 73,
+          "externalId": "517",
+          "ean": "5901643170813",
+          "sku": "5901643170813",
+          "name": "Baby ochronny krem specjalny",
+          "stock": 2
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "b60210a5-8b98-4c26-a2c7-f06bf332b3f5",
+    "externalId": "487",
+    "status": "CLOSED",
+    "name": "Capilarte Sebu-Balance Szampon przywracający równowagę mikrobiomu skóry",
+    "ean": "5901643176945",
+    "sku": "5901643176945",
+    "stock": 7,
+    "createdAt": "2026-06-02T14:22:41.429Z",
+    "updatedAt": "2026-07-14T11:09:48.237Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "487",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 67,
+        "externalId": "487",
+        "ean": "5901643176945",
+        "sku": "5901643176945",
+        "name": "Capilarte Sebu-Balance Szampon przywracający równowagę mikrobiomu skóry",
+        "stock": 7
+      },
+      "matches": [
+        {
+          "rowNumber": 67,
+          "externalId": "487",
+          "ean": "5901643176945",
+          "sku": "5901643176945",
+          "name": "Capilarte Sebu-Balance Szampon przywracający równowagę mikrobiomu skóry",
+          "stock": 7
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "6ba0019a-c442-467b-afc4-e56d558f1d65",
+    "externalId": "477",
+    "status": "CLOSED",
+    "name": "Capilarte Szampon kojący do włosów i nadwrażliwej skóry",
+    "ean": "5901643174217",
+    "sku": "5901643174217",
+    "stock": 1,
+    "createdAt": "2026-06-02T14:22:38.352Z",
+    "updatedAt": "2026-07-14T11:09:41.863Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "477",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 65,
+        "externalId": "477",
+        "ean": "5901643174217",
+        "sku": "5901643174217",
+        "name": "Capilarte Szampon kojący do włosów i nadwrażliwej skóry",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 65,
+          "externalId": "477",
+          "ean": "5901643174217",
+          "sku": "5901643174217",
+          "name": "Capilarte Szampon kojący do włosów i nadwrażliwej skóry",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "e5a1e693-5507-4a44-9879-029eedb2be80",
+    "externalId": "470",
+    "status": "CLOSED",
+    "name": "Capilarte Kuracyjny szampon stymulujący wzrost włosów",
+    "ean": "5901643174194",
+    "sku": "5901643174194",
+    "stock": 5,
+    "createdAt": "2026-06-02T14:22:37.335Z",
+    "updatedAt": "2026-07-14T11:09:36.674Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "470",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 63,
+        "externalId": "470",
+        "ean": "5901643174194",
+        "sku": "5901643174194",
+        "name": "Capilarte Kuracyjny szampon stymulujący wzrost włosów",
+        "stock": 5
+      },
+      "matches": [
+        {
+          "rowNumber": 63,
+          "externalId": "470",
+          "ean": "5901643174194",
+          "sku": "5901643174194",
+          "name": "Capilarte Kuracyjny szampon stymulujący wzrost włosów",
+          "stock": 5
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "2fcd30bf-ade1-4acf-a0d3-e2bfc86ca23b",
+    "externalId": "466",
+    "status": "CLOSED",
+    "name": "Capilarte Szampon wzmacniający-hamujący wypadanie włosów",
+    "ean": "5901643174170",
+    "sku": "5901643174170",
+    "stock": 3,
+    "createdAt": "2026-06-02T14:22:36.325Z",
+    "updatedAt": "2026-07-14T11:09:33.391Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "466",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 62,
+        "externalId": "466",
+        "ean": "5901643174170",
+        "sku": "5901643174170",
+        "name": "Capilarte Szampon wzmacniający-hamujący wypadanie włosów",
+        "stock": 3
+      },
+      "matches": [
+        {
+          "rowNumber": 62,
+          "externalId": "466",
+          "ean": "5901643174170",
+          "sku": "5901643174170",
+          "name": "Capilarte Szampon wzmacniający-hamujący wypadanie włosów",
+          "stock": 3
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "c0181e9e-6fed-4e5e-9caa-e4dcbb4b2c8c",
+    "externalId": "461",
+    "status": "CLOSED",
+    "name": "Melumin Emulsja micelarna",
+    "ean": "5901643175122",
+    "sku": "5901643175122",
+    "stock": 1,
+    "createdAt": "2026-06-02T14:22:34.464Z",
+    "updatedAt": "2026-07-14T11:09:28.298Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "461",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 60,
+        "externalId": "461",
+        "ean": "5901643175122",
+        "sku": "5901643175122",
+        "name": "Melumin Emulsja micelarna",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 60,
+          "externalId": "461",
+          "ean": "5901643175122",
+          "sku": "5901643175122",
+          "name": "Melumin Emulsja micelarna",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "61342beb-fb5f-4bb6-8ff8-4311a5e2fbf8",
+    "externalId": "443",
+    "status": "CLOSED",
+    "name": "Hydrain 3 Hialuro Kremowy żel do mycia",
+    "ean": "5901643170691",
+    "sku": "5901643170691",
+    "stock": 1,
+    "createdAt": "2026-06-02T14:22:32.786Z",
+    "updatedAt": "2026-07-14T11:09:24.809Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "443",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 59,
+        "externalId": "443",
+        "ean": "5901643170691",
+        "sku": "5901643170691",
+        "name": "Hydrain 3 Hialuro Kremowy żel do mycia",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 59,
+          "externalId": "443",
+          "ean": "5901643170691",
+          "sku": "5901643170691",
+          "name": "Hydrain 3 Hialuro Kremowy żel do mycia",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "47dc30e2-8c54-4718-8314-7bbe71f20680",
+    "externalId": "441",
+    "status": "CLOSED",
+    "name": "Normance Tonik oczyszczająco-regulujący",
+    "ean": "5901643173173",
+    "sku": "5901643173173",
+    "stock": 2,
+    "createdAt": "2026-06-02T14:22:32.229Z",
+    "updatedAt": "2026-06-08T20:06:56.018Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "441",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 58,
+        "externalId": "441",
+        "ean": "5901643173173",
+        "sku": "5901643173173",
+        "name": "Normance Tonik oczyszczająco-regulujący",
+        "stock": 2
+      },
+      "matches": [
+        {
+          "rowNumber": 58,
+          "externalId": "441",
+          "ean": "5901643173173",
+          "sku": "5901643173173",
+          "name": "Normance Tonik oczyszczająco-regulujący",
+          "stock": 2
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "b65c1785-250c-4bd8-9342-6be6664eb139",
+    "externalId": "432",
+    "status": "CLOSED",
+    "name": "Oilage Syndet do mycia twarzy",
+    "ean": "5901643174682",
+    "sku": "5901643174682",
+    "stock": 1,
+    "createdAt": "2026-06-02T14:22:30.987Z",
+    "updatedAt": "2026-07-14T11:09:21.269Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "432",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 57,
+        "externalId": "432",
+        "ean": "5901643174682",
+        "sku": "5901643174682",
+        "name": "Oilage Syndet do mycia twarzy",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 57,
+          "externalId": "432",
+          "ean": "5901643174682",
+          "sku": "5901643174682",
+          "name": "Oilage Syndet do mycia twarzy",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "6bd3e2d9-a335-4664-b13d-69adb4f0e96c",
+    "externalId": "429",
+    "status": "CLOSED",
+    "name": "Redness Calm Pianka oczyszczająca",
+    "ean": "5901643176228",
+    "sku": "5901643176228",
+    "stock": 4,
+    "createdAt": "2026-06-02T14:22:29.884Z",
+    "updatedAt": "2026-07-14T11:09:17.634Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "429",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 56,
+        "externalId": "429",
+        "ean": "5901643176228",
+        "sku": "5901643176228",
+        "name": "Redness Calm Pianka oczyszczająca",
+        "stock": 4
+      },
+      "matches": [
+        {
+          "rowNumber": 56,
+          "externalId": "429",
+          "ean": "5901643176228",
+          "sku": "5901643176228",
+          "name": "Redness Calm Pianka oczyszczająca",
+          "stock": 4
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "3bc337f0-bbe6-468a-ae8d-73c8016c11b7",
+    "externalId": "424",
+    "status": "CLOSED",
+    "name": "Linum Emollient Cicatopy Krem do rąk",
+    "ean": "5901643176471",
+    "sku": "5901643176471",
+    "stock": 22,
+    "createdAt": "2026-06-02T14:22:28.807Z",
+    "updatedAt": "2026-07-14T11:09:14.560Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "424",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 55,
+        "externalId": "424",
+        "ean": "5901643176471",
+        "sku": "5901643176471",
+        "name": "Linum Emollient Cicatopy Krem do rąk",
+        "stock": 22
+      },
+      "matches": [
+        {
+          "rowNumber": 55,
+          "externalId": "424",
+          "ean": "5901643176471",
+          "sku": "5901643176471",
+          "name": "Linum Emollient Cicatopy Krem do rąk",
+          "stock": 22
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "183b5508-8c76-47b1-909b-746aac50d559",
+    "externalId": "421",
+    "status": "CLOSED",
+    "name": "Redness Calm Płyn micelarny H2O",
+    "ean": "5901643176389",
+    "sku": "5901643176389",
+    "stock": 1,
+    "createdAt": "2026-06-02T14:22:27.499Z",
+    "updatedAt": "2026-06-08T20:06:49.809Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "421",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 54,
+        "externalId": "421",
+        "ean": "5901643176389",
+        "sku": "5901643176389",
+        "name": "Redness Calm Płyn micelarny H2O",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 54,
+          "externalId": "421",
+          "ean": "5901643176389",
+          "sku": "5901643176389",
+          "name": "Redness Calm Płyn micelarny H2O",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "3bc3481e-cce1-450c-8952-9a45e1e92a24",
+    "externalId": "412",
+    "status": "CLOSED",
+    "name": "Hydarin 3 Hialuro Krem-żel ultranawilżający",
+    "ean": "5901643172718",
+    "sku": "5901643172718",
+    "stock": 23,
+    "createdAt": "2026-06-02T14:22:25.912Z",
+    "updatedAt": "2026-06-08T20:06:38.769Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "412",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 53,
+        "externalId": "412",
+        "ean": "5901643172718",
+        "sku": "5901643172718",
+        "name": "Hydarin 3 Hialuro Krem-żel ultranawilżający",
+        "stock": 23
+      },
+      "matches": [
+        {
+          "rowNumber": 53,
+          "externalId": "412",
+          "ean": "5901643172718",
+          "sku": "5901643172718",
+          "name": "Hydarin 3 Hialuro Krem-żel ultranawilżający",
+          "stock": 23
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "c3f3ee2b-c0ee-4fd8-9582-558315608e02",
+    "externalId": "393",
+    "status": "CLOSED",
+    "name": "Hydrain 2 Hialuro Krem nawilżający",
+    "ean": "5906739780013",
+    "sku": "5906739780013",
+    "stock": 11,
+    "createdAt": "2026-06-02T14:22:23.326Z",
+    "updatedAt": "2026-06-08T20:06:40.771Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "393",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 50,
+        "externalId": "393",
+        "ean": "5906739780013",
+        "sku": "5906739780013",
+        "name": "Hydrain 2 Hialuro Krem nawilżający",
+        "stock": 11
+      },
+      "matches": [
+        {
+          "rowNumber": 50,
+          "externalId": "393",
+          "ean": "5906739780013",
+          "sku": "5906739780013",
+          "name": "Hydrain 2 Hialuro Krem nawilżający",
+          "stock": 11
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "7298e6fa-9de7-404a-9149-66644be8c7f3",
+    "externalId": "4044",
+    "status": "CLOSED",
+    "name": "Vichy Homme Antyperspirant 72h roll-on",
+    "ean": "3337871320362",
+    "sku": "3337871320362",
+    "stock": 12,
+    "createdAt": "2026-05-25T13:25:48.711Z",
+    "updatedAt": "2026-06-08T20:06:14.102Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "4044",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 900,
+        "externalId": "4044",
+        "ean": "3337871320362",
+        "sku": "3337871320362",
+        "name": "Vichy Homme Antyperspirant 72h roll-on",
+        "stock": 12
+      },
+      "matches": [
+        {
+          "rowNumber": 900,
+          "externalId": "4044",
+          "ean": "3337871320362",
+          "sku": "3337871320362",
+          "name": "Vichy Homme Antyperspirant 72h roll-on",
+          "stock": 12
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "af4dcbb3-d638-4823-bcd2-ff586a7b5154",
+    "externalId": "1878",
+    "status": "CLOSED",
+    "name": "Aquabella Emulsja matująca do twarzy",
+    "ean": "3264680014888",
+    "sku": "3264680014888",
+    "stock": 2,
+    "createdAt": "2026-05-25T13:23:30.431Z",
+    "updatedAt": "2026-06-08T20:06:40.683Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "1878",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 308,
+        "externalId": "1878",
+        "ean": "3264680014888",
+        "sku": "3264680014888",
+        "name": "Aquabella Emulsja matująca do twarzy",
+        "stock": 2
+      },
+      "matches": [
+        {
+          "rowNumber": 308,
+          "externalId": "1878",
+          "ean": "3264680014888",
+          "sku": "3264680014888",
+          "name": "Aquabella Emulsja matująca do twarzy",
+          "stock": 2
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "997f220f-0148-4fb0-8210-bedf58d799af",
+    "externalId": "782",
+    "status": "CLOSED",
+    "name": "Kelual DS Krem kojący redukujący łuszczenie się naskórka",
+    "ean": "3282770392371",
+    "sku": "3282770392371",
+    "stock": 3,
+    "createdAt": "2026-05-25T13:21:57.760Z",
+    "updatedAt": "2026-06-08T20:06:33.115Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "782",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 123,
+        "externalId": "782",
+        "ean": "3282770392371",
+        "sku": "3282770392371",
+        "name": "Kelual DS Krem kojący redukujący łuszczenie się naskórka",
+        "stock": 3
+      },
+      "matches": [
+        {
+          "rowNumber": 123,
+          "externalId": "782",
+          "ean": "3282770392371",
+          "sku": "3282770392371",
+          "name": "Kelual DS Krem kojący redukujący łuszczenie się naskórka",
+          "stock": 3
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "897f9c04-c524-4db2-8d2a-479ddabdc8f9",
+    "externalId": "759",
+    "status": "CLOSED",
+    "name": "Keracnyl PP+ Krem przeciw niedoskonałościom",
+    "ean": "3282770141320",
+    "sku": "3282770141320",
+    "stock": 10,
+    "createdAt": "2026-05-25T13:21:55.503Z",
+    "updatedAt": "2026-06-08T20:06:40.660Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "759",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 119,
+        "externalId": "759",
+        "ean": "3282770141320",
+        "sku": "3282770141320",
+        "name": "Keracnyl PP+ Krem przeciw niedoskonałościom",
+        "stock": 10
+      },
+      "matches": [
+        {
+          "rowNumber": 119,
+          "externalId": "759",
+          "ean": "3282770141320",
+          "sku": "3282770141320",
+          "name": "Keracnyl PP+ Krem przeciw niedoskonałościom",
+          "stock": 10
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "2a672e78-f605-4918-8cc8-555fc77baa3f",
+    "externalId": "748",
+    "status": "CLOSED",
+    "name": "Kertyol P.S.O. Szampon normalizujący",
+    "ean": "3282770148466",
+    "sku": "3282770148466",
+    "stock": 3,
+    "createdAt": "2026-05-25T13:21:54.450Z",
+    "updatedAt": "2026-06-08T20:06:58.875Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "748",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 117,
+        "externalId": "748",
+        "ean": "3282770148466",
+        "sku": "3282770148466",
+        "name": "Kertyol P.S.O. Szampon normalizujący",
+        "stock": 3
+      },
+      "matches": [
+        {
+          "rowNumber": 117,
+          "externalId": "748",
+          "ean": "3282770148466",
+          "sku": "3282770148466",
+          "name": "Kertyol P.S.O. Szampon normalizujący",
+          "stock": 3
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "6018d1cb-8938-4b72-8099-c28380ec5cf8",
+    "externalId": "730",
+    "status": "CLOSED",
+    "name": "Ducray Elution Delikatny szampon przywracający równowagę skórze głowy",
+    "ean": "3282770390032",
+    "sku": "3282770390032",
+    "stock": 12,
+    "createdAt": "2026-05-25T13:21:53.262Z",
+    "updatedAt": "2026-06-30T09:11:09.309Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "730",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 114,
+        "externalId": "730",
+        "ean": "3282770390032",
+        "sku": "3282770390032",
+        "name": "Ducray Elution Delikatny szampon przywracający równowagę skórze głowy",
+        "stock": 12
+      },
+      "matches": [
+        {
+          "rowNumber": 114,
+          "externalId": "730",
+          "ean": "3282770390032",
+          "sku": "3282770390032",
+          "name": "Ducray Elution Delikatny szampon przywracający równowagę skórze głowy",
+          "stock": 12
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "349fb544-9532-49d5-b33a-59c64ecb7c9a",
+    "externalId": "713",
+    "status": "CLOSED",
+    "name": "Keracnyl Repair Balsam do ust",
+    "ean": "3282770038521",
+    "sku": "3282770038521",
+    "stock": 7,
+    "createdAt": "2026-05-25T13:21:50.115Z",
+    "updatedAt": "2026-06-23T23:23:01.728Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "713",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 110,
+        "externalId": "713",
+        "ean": "3282770038521",
+        "sku": "3282770038521",
+        "name": "Keracnyl Repair Balsam do ust",
+        "stock": 7
+      },
+      "matches": [
+        {
+          "rowNumber": 110,
+          "externalId": "713",
+          "ean": "3282770038521",
+          "sku": "3282770038521",
+          "name": "Keracnyl Repair Balsam do ust",
+          "stock": 7
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "703bc16d-4b14-418a-8e7e-187599002bc1",
+    "externalId": "4272",
+    "status": "CLOSED",
+    "name": "Collaflex Duo",
+    "ean": "5904960017755",
+    "sku": "5904960017755",
+    "stock": 9,
+    "createdAt": "2026-05-22T14:53:42.947Z",
+    "updatedAt": "2026-07-09T10:27:25.225Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "4272",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 988,
+        "externalId": "4272",
+        "ean": "5904960017755",
+        "sku": "5904960017755",
+        "name": "Collaflex Duo",
+        "stock": 9
+      },
+      "matches": [
+        {
+          "rowNumber": 988,
+          "externalId": "4272",
+          "ean": "5904960017755",
+          "sku": "5904960017755",
+          "name": "Collaflex Duo",
+          "stock": 9
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "ac906186-39a3-4b78-aaa9-d2bd8dac180d",
+    "externalId": "4090",
+    "status": "CLOSED",
+    "name": "Neovadiol Korygujący krem do skóry wokół oczu i ust",
+    "ean": "3337875824033",
+    "sku": "3337875824033",
+    "stock": 1,
+    "createdAt": "2026-05-22T14:53:20.390Z",
+    "updatedAt": "2026-07-09T10:26:47.460Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "4090",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 921,
+        "externalId": "4090",
+        "ean": "3337875824033",
+        "sku": "3337875824033",
+        "name": "Neovadiol Korygujący krem do skóry wokół oczu i ust",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 921,
+          "externalId": "4090",
+          "ean": "3337875824033",
+          "sku": "3337875824033",
+          "name": "Neovadiol Korygujący krem do skóry wokół oczu i ust",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "bc2751d9-89a6-4184-91f4-e8d38519fbe5",
+    "externalId": "2888",
+    "status": "CLOSED",
+    "name": "Pro Redness Control Krem nawilżający na dzień SPF 30",
+    "ean": "3499320009942",
+    "sku": "3499320009942",
+    "stock": 1,
+    "createdAt": "2026-05-22T14:50:17.216Z",
+    "updatedAt": "2026-07-09T10:19:28.738Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "2888",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 521,
+        "externalId": "2888",
+        "ean": "3499320009942",
+        "sku": "3499320009942",
+        "name": "Pro Redness Control Krem nawilżający na dzień SPF 30",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 521,
+          "externalId": "2888",
+          "ean": "3499320009942",
+          "sku": "3499320009942",
+          "name": "Pro Redness Control Krem nawilżający na dzień SPF 30",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "8279898b-e09e-44e6-86da-0697bcad2532",
+    "externalId": "2372",
+    "status": "CLOSED",
+    "name": "E Emotopic Kostka myjąca",
+    "ean": "5900717169197",
+    "sku": "5900717169197",
+    "stock": 2,
+    "createdAt": "2026-05-22T14:49:30.101Z",
+    "updatedAt": "2026-07-14T11:21:38.917Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "2372",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 385,
+        "externalId": "2372",
+        "ean": "5900717169197",
+        "sku": "5900717169197",
+        "name": "E Emotopic Kostka myjąca",
+        "stock": 2
+      },
+      "matches": [
+        {
+          "rowNumber": 385,
+          "externalId": "2372",
+          "ean": "5900717169197",
+          "sku": "5900717169197",
+          "name": "E Emotopic Kostka myjąca",
+          "stock": 2
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "a4995e4b-317e-4458-ad6a-bec5f9a6969c",
+    "externalId": "2338",
+    "status": "CLOSED",
+    "name": "S Spectrum-Protect Krem o szerokopasmowej ochronie SPF 50+",
+    "ean": "5900717149069",
+    "sku": "5900717149069",
+    "stock": 1,
+    "createdAt": "2026-05-22T14:49:22.626Z",
+    "updatedAt": "2026-06-08T20:06:31.786Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "2338",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 377,
+        "externalId": "2338",
+        "ean": "5900717149069",
+        "sku": "5900717149069",
+        "name": "S Spectrum-Protect Krem o szerokopasmowej ochronie SPF 50+",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 377,
+          "externalId": "2338",
+          "ean": "5900717149069",
+          "sku": "5900717149069",
+          "name": "S Spectrum-Protect Krem o szerokopasmowej ochronie SPF 50+",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "c92d83b0-8c4c-41e7-b716-b7d98cc845ea",
+    "externalId": "2056",
+    "status": "CLOSED",
+    "name": "M Tocoreducttm-Forte Preparat zmniejszający istniejące rozstępy",
+    "ean": "5900717148222",
+    "sku": "5900717148222",
+    "stock": 1,
+    "createdAt": "2026-05-22T14:48:43.992Z",
+    "updatedAt": "2026-06-08T20:06:17.522Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "2056",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 338,
+        "externalId": "2056",
+        "ean": "5900717148222",
+        "sku": "5900717148222",
+        "name": "M Tocoreducttm-Forte Preparat zmniejszający istniejące rozstępy",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 338,
+          "externalId": "2056",
+          "ean": "5900717148222",
+          "sku": "5900717148222",
+          "name": "M Tocoreducttm-Forte Preparat zmniejszający istniejące rozstępy",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "cdaf393b-0425-4cf8-a0d3-f8ee40972e3d",
+    "externalId": "1235",
+    "status": "CLOSED",
+    "name": "Sun Pielęgnacyjny żel pod prysznic po opalaniu",
+    "ean": "3264680008726",
+    "sku": "3264680008726",
+    "stock": 2,
+    "createdAt": "2026-05-22T14:46:38.955Z",
+    "updatedAt": "2026-06-08T20:06:31.622Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "1235",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 205,
+        "externalId": "1235",
+        "ean": "3264680008726",
+        "sku": "3264680008726",
+        "name": "Sun Pielęgnacyjny żel pod prysznic po opalaniu",
+        "stock": 2
+      },
+      "matches": [
+        {
+          "rowNumber": 205,
+          "externalId": "1235",
+          "ean": "3264680008726",
+          "sku": "3264680008726",
+          "name": "Sun Pielęgnacyjny żel pod prysznic po opalaniu",
+          "stock": 2
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "b9c25b73-f3ab-4abc-b247-64f59cccbd68",
+    "externalId": "996",
+    "status": "CLOSED",
+    "name": "Sunbrella Baby Mleczko ochronne SPF 50",
+    "ean": "5901643170592",
+    "sku": "5901643170592",
+    "stock": 2,
+    "createdAt": "2026-05-22T14:46:06.353Z",
+    "updatedAt": "2026-07-14T11:13:09.952Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "996",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 165,
+        "externalId": "996",
+        "ean": "5901643170592",
+        "sku": "5901643170592",
+        "name": "Sunbrella Baby Mleczko ochronne SPF 50",
+        "stock": 2
+      },
+      "matches": [
+        {
+          "rowNumber": 165,
+          "externalId": "996",
+          "ean": "5901643170592",
+          "sku": "5901643170592",
+          "name": "Sunbrella Baby Mleczko ochronne SPF 50",
+          "stock": 2
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "68cd949e-e3c3-4ff8-ab37-912f91afefc6",
+    "externalId": "991",
+    "status": "CLOSED",
+    "name": "Sunbrella SPF 50+ skóra sucha i normalna",
+    "ean": "5906739783007",
+    "sku": "5906739783007",
+    "stock": 1,
+    "createdAt": "2026-05-22T14:46:04.444Z",
+    "updatedAt": "2026-06-08T20:06:30.191Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "991",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 163,
+        "externalId": "991",
+        "ean": "5906739783007",
+        "sku": "5906739783007",
+        "name": "Sunbrella SPF 50+ skóra sucha i normalna",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 163,
+          "externalId": "991",
+          "ean": "5906739783007",
+          "sku": "5906739783007",
+          "name": "Sunbrella SPF 50+ skóra sucha i normalna",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "971a2131-7891-4d99-bed5-9e7a4c82917b",
+    "externalId": "949",
+    "status": "CLOSED",
+    "name": "Oilage Skoncentrowany krem pod oczy",
+    "ean": "5901643174507",
+    "sku": "5901643174507",
+    "stock": 3,
+    "createdAt": "2026-05-22T14:45:56.813Z",
+    "updatedAt": "2026-07-14T11:12:43.387Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "949",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 155,
+        "externalId": "949",
+        "ean": "5901643174507",
+        "sku": "5901643174507",
+        "name": "Oilage Skoncentrowany krem pod oczy",
+        "stock": 3
+      },
+      "matches": [
+        {
+          "rowNumber": 155,
+          "externalId": "949",
+          "ean": "5901643174507",
+          "sku": "5901643174507",
+          "name": "Oilage Skoncentrowany krem pod oczy",
+          "stock": 3
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "9d4e175e-bf9a-494a-b5fc-2619f78add3e",
+    "externalId": "683",
+    "status": "CLOSED",
+    "name": "Ducray Kertyol P.S.O. - Koncentrat do stosowania miejscowego",
+    "ean": "3282770148480",
+    "sku": "3282770148480",
+    "stock": 4,
+    "createdAt": "2026-05-22T14:45:07.156Z",
+    "updatedAt": "2026-06-08T20:06:20.672Z",
+    "decision": "REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "683",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 104,
+        "externalId": "683",
+        "ean": "3282770148480",
+        "sku": "3282770148480",
+        "name": "Ducray Kertyol P.S.O. - Koncentrat do stosowania miejscowego",
+        "stock": 4
+      },
+      "matches": [
+        {
+          "rowNumber": 104,
+          "externalId": "683",
+          "ean": "3282770148480",
+          "sku": "3282770148480",
+          "name": "Ducray Kertyol P.S.O. - Koncentrat do stosowania miejscowego",
+          "stock": 4
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  }
+]
