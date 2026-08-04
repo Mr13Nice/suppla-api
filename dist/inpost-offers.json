@@ -15,7 +15,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 33.59,
+        "amount": 50.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -59,7 +59,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 39.19,
+        "amount": 53.89,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -147,7 +147,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 31.99,
+        "amount": 43.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -208,12 +208,12 @@
       "ean": "3504105036454"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 40.79,
+        "amount": 56.09,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -274,7 +274,7 @@
       "ean": "3504105031572"
     },
     "stock": {
-      "quantity": 16,
+      "quantity": 12,
       "unit": "UNIT"
     },
     "price": {
@@ -301,7 +301,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 39.19,
+        "amount": 65.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -340,7 +340,7 @@
       "ean": "3504105034306"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -367,7 +367,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 30.39,
+        "amount": 41.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -587,7 +587,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 25.59,
+        "amount": 34.09,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -736,12 +736,12 @@
       "ean": "5908216299339"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 46.49,
+        "amount": 56.09,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -802,7 +802,7 @@
       "ean": "5901643172718"
     },
     "stock": {
-      "quantity": 23,
+      "quantity": 19,
       "unit": "UNIT"
     },
     "price": {
@@ -819,7 +819,7 @@
       "name": "Redness Calm Płyn micelarny H2O",
       "description": "Co to jest? Płyn micelarny przeznaczony do codziennego oczyszczania wrażliwej skóry i okolic oczu. Kosmetyk bardzo dobrze usuwa ze powierzchni skóry makijaż oraz zanieczyszczenia powstałe w ciągu dnia, jednocześnie wzmacniając naczynka włosowate i łagodząc naskórek. Płyn nie pozostawia tłustej warstwy i nie zatyka porów. Widoczne rezultaty Skutecznie usuwa makijaż i wszelkie zanieczyszczenia, pozostawiając uczucie świeżości i czystości Wzmacnia naczynka włosowate Wykazuje właściwości kojące i łagodzące Nie zatyka porów Jest neutralny dla oczu Nie pozostawia filmu na skórze Hypoalergiczny Czy wiesz że...? Produkt ten jest zbadany klinicznie i okulistycznie.",
       "brand": "Redness",
-      "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
+      "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
       "sku": "5901643176389",
       "ean": "5901643176389"
     },
@@ -846,7 +846,7 @@
       "ean": "5901643176471"
     },
     "stock": {
-      "quantity": 22,
+      "quantity": 17,
       "unit": "UNIT"
     },
     "price": {
@@ -1000,7 +1000,7 @@
       "ean": "5901643174170"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -1110,7 +1110,7 @@
       "ean": "5901643176945"
     },
     "stock": {
-      "quantity": 7,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
@@ -1242,12 +1242,12 @@
       "ean": "5901643176280"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 48.9,
+        "amount": 65.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1264,12 +1264,12 @@
       "ean": "3282770141962"
     },
     "stock": {
-      "quantity": 31,
+      "quantity": 24,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 56.18,
+        "amount": 53.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2166,7 +2166,7 @@
       "ean": "3282770140453"
     },
     "stock": {
-      "quantity": 14,
+      "quantity": 13,
       "unit": "UNIT"
     },
     "price": {
@@ -3046,7 +3046,7 @@
       "ean": "3282770205633"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -3068,7 +3068,7 @@
       "ean": "3282779416139"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -3723,12 +3723,12 @@
       "name": "Cold Cream Nutrition Odżywcza pomadka do ust",
       "description": "Marka: Cold. Kategoria produktu: Dermokosmetyki > do Twarzy > Pomadki i balsamy do ust. Kod EAN: 3282770142112. SKU produktu: 3282770142112. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Cold",
-      "categoryId": "aaf70d45-42dd-508d-a8b8-d4e949e02812",
+      "categoryId": "c81dbc41-d90b-5cea-ad55-511bc9cb23b4",
       "sku": "3282770142112",
       "ean": "3282770142112"
     },
     "stock": {
-      "quantity": 7,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
@@ -4036,7 +4036,7 @@
       "ean": "3282779390132"
     },
     "stock": {
-      "quantity": 7,
+      "quantity": 8,
       "unit": "UNIT"
     },
     "price": {
@@ -4212,7 +4212,7 @@
       "ean": "3282770152586"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
@@ -4344,12 +4344,12 @@
       "ean": "3282770204797"
     },
     "stock": {
-      "quantity": 7,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 58.57,
+        "amount": 65.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4498,12 +4498,12 @@
       "ean": "3282770207576"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 91.85,
+        "amount": 109.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4622,9 +4622,9 @@
   {
     "externalId": "1605",
     "product": {
-      "name": "Pierre Fabre TriXera Nurition Balsam odżywczy",
+      "name": "Eau thermale Avène TriXera Nurition Balsam odżywczy",
       "description": "Marka: TriXera. Kategoria produktu: Dermokosmetyki > do Ciała > Kremy, balsamy i masła. Kod EAN: 3282770074741. SKU produktu: 3282770074741. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "Pierre Fabre",
+      "brand": "Eau thermale Avène",
       "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
       "sku": "3282770074741",
       "ean": "3282770074741"
@@ -4674,7 +4674,7 @@
       "ean": "5900717150423"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -4740,12 +4740,12 @@
       "ean": "5900717015012"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 40.87,
+        "amount": 39.7,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4762,12 +4762,12 @@
       "ean": "5900717152229"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 39.7,
+        "amount": 41.96,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4806,12 +4806,12 @@
       "ean": "5900717152410"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 60.9,
+        "amount": 64.89,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4828,12 +4828,12 @@
       "ean": "5900717150713"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 72.1,
+        "amount": 81.39,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -5026,7 +5026,7 @@
       "ean": "5900717150522"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -5070,7 +5070,7 @@
       "ean": "5900717150614"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
@@ -5180,7 +5180,7 @@
       "ean": "5900717163515"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -5356,12 +5356,12 @@
       "ean": "5900717163317"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 60,
+        "amount": 69.29,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -5488,7 +5488,7 @@
       "ean": "5900717160071"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -5642,7 +5642,7 @@
       "ean": "5900717142114"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -5879,7 +5879,7 @@
       "name": "T Sebo-Almond-Claris Oczyszczający płyn bakteriostatyczny",
       "description": "Marka: T. Kategoria produktu: Dermokosmetyki > do Twarzy > Pianki,mleczka i żele do mycia twarzy. Kod EAN: 5900717140615. SKU produktu: 5900717140615. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "T",
-      "categoryId": "ce743fc1-e886-5c08-b90f-510ce882c1ec",
+      "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
       "sku": "5900717140615",
       "ean": "5900717140615"
     },
@@ -5989,7 +5989,7 @@
       "name": "DS Octopirox Scalp-Tonicum Preparat zmniejszający łuszczenie i zaczerwienienie",
       "description": "Marka: DS. Kategoria produktu: Dermokosmetyki > do Ciała. Kod EAN: 5900717140127. SKU produktu: 5900717140127. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "DS",
-      "categoryId": "a7e8f568-42ca-5fa6-b29c-cc86a957dcf1",
+      "categoryId": "27059afd-df03-563f-96c8-9d83a825573f",
       "sku": "5900717140127",
       "ean": "5900717140127"
     },
@@ -6038,7 +6038,7 @@
       "ean": "5900717148222"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -6478,12 +6478,12 @@
       "ean": "5900717158511"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 76.25,
+        "amount": 82.49,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -6698,7 +6698,7 @@
       "ean": "5900717149519"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -6715,7 +6715,7 @@
       "name": "Very Rose Balsam do ust różany",
       "description": "Nawilżający różany balsam do ust Very Rose to produkt skomponowany w 100% z naturalnych składników, bogaty w oleisty ekstrakt z róży. Kosmetyk zapewnia efekt niezwykle miękkich i rozświetlonych różowym blaskiem i wysublimowanych ust. W składzie kosmetyku znajduje się 100% składników pochodzenia naturalnego, w tym olejkowy ekstrakt z róży, masło Shea oraz wosk pszczeli. To własnie te składniki aktywne są odpowiedzialne za zmiękczenie ust, złagodzenie uczucia naięcia i przywrócenie komfortu oraz za ochronę przed czynnikami zewnętrznymi, jak wiatr, czy zimno. Aplikacja produktu jest niezwykle przyjemna, dzięki rozpływającej się konsystencji i pysznemu zapachowi z nutami wanilii. Nieklejąca się formuła stanowi idealną bazę pod nałożenie szminki, aby poprawić jej trwałość i zachować gładkie usta. W związku z tym, że użyty barwnik jest w 100% pochodzenia roślinnego, m ożna zaobserwować lekkie odbarwienie, jest to spowodowane naturalnym pochodzeniem jego składu, ale nie wpływa to w żaden sposób na skuteczność i bezpieczeństwo produktu. Olejowy ekstrakt z róży: pomaga zmiękczyć usta. - Masło Shea: znane z łagodzenia i komfortu, pomaga złagodzić uczucie napięcia. - Wosk pszczeli: pomaga chronić usta przed czynnikami zewnętrznymi (wiatr, zimno)",
       "brand": "Very",
-      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+      "categoryId": "1563b6f0-b584-57d4-a677-49cca69bddfb",
       "sku": "3264680027178",
       "ean": "3264680027178"
     },
@@ -6940,7 +6940,7 @@
       "ean": "5900717691711"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
@@ -6984,7 +6984,7 @@
       "ean": "5900717169197"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -7094,12 +7094,12 @@
       "ean": "5900717691216"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 46.19,
+        "amount": 37.8,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -7512,7 +7512,7 @@
       "ean": "3499320013857"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -7688,7 +7688,7 @@
       "ean": "3499320013833"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -8040,7 +8040,7 @@
       "ean": "5901986061311"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -8084,7 +8084,7 @@
       "ean": "5901986060420"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -8128,7 +8128,7 @@
       "ean": "5906948846838"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -8282,7 +8282,7 @@
       "ean": "5901986060048"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -9294,7 +9294,7 @@
       "ean": "3337875814652"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -9333,12 +9333,12 @@
       "name": "CeraVe Krem odbudowujący pod oczy",
       "description": "Marka: CeraVe. Kategoria produktu: Dermokosmetyki > do Twarzy > Kremy pod oczy. Kod EAN: 3337875597272. SKU produktu: 3337875597272. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "CeraVe",
-      "categoryId": "e4d0dca1-b497-517a-bf1b-8f0c5d393b94",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "3337875597272",
       "ean": "3337875597272"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -9382,7 +9382,7 @@
       "ean": "3337875784054"
     },
     "stock": {
-      "quantity": 12,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -9531,7 +9531,7 @@
       "name": "Vitella Zn Krem witaminowy",
       "description": "Marka: Vitella. Kategoria produktu: Dermokosmetyki > do Ciała > Kremy i balsamy do rąk. Kod EAN: 7640114911095. SKU produktu: 7640114911095. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Vitella",
-      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+      "categoryId": "be442cf4-be3f-5165-a596-78a9c49eaabd",
       "sku": "7640114911095",
       "ean": "7640114911095"
     },
@@ -9575,7 +9575,7 @@
       "name": "La roche posay Cicaplast B5 Żel wspierający regenerację naskórka",
       "description": "Marka: Cicaplast. Kategoria produktu: Dermokosmetyki > do Twarzy > Kremy punktowe. Kod EAN: 3337875586269. SKU produktu: 3337875586269. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "La roche posay",
-      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+      "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
       "sku": "3337875586269",
       "ean": "3337875586269"
     },
@@ -9619,7 +9619,7 @@
       "name": "La Roche-Posay Cicaplast Levres Balsam do ust",
       "description": "Marka: Cicaplast. Kategoria produktu: Dermokosmetyki > do Twarzy > Pomadki i balsamy do ust. Kod EAN: 0000030106659. SKU produktu: 0000030106659. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "La Roche-Posay",
-      "categoryId": "c81dbc41-d90b-5cea-ad55-511bc9cb23b4",
+      "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
       "sku": "0000030106659",
       "ean": "0000030106659"
     },
@@ -9883,7 +9883,7 @@
       "name": "Effaclar Skoncentrowane serum przeciw niedoskonałościom",
       "description": "Marka: Effaclar. Kategoria produktu: Dermokosmetyki > do Twarzy > Serum do twarzy. Kod EAN: 3337875722827. SKU produktu: 3337875722827. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Effaclar",
-      "categoryId": "a7e8f568-42ca-5fa6-b29c-cc86a957dcf1",
+      "categoryId": "0946b5bd-bf47-583c-80f8-b7d63b9c6532",
       "sku": "3337875722827",
       "ean": "3337875722827"
     },
@@ -9910,12 +9910,12 @@
       "ean": "3337875549493"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 79.85,
+        "amount": 87.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -10174,7 +10174,7 @@
       "ean": "3337872412684"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -10458,7 +10458,7 @@
       "ean": "3337875806961"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -10678,7 +10678,7 @@
       "ean": "3337875549530"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
@@ -10700,12 +10700,12 @@
       "ean": "3337875696838"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 98.99,
+        "amount": 109.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -10810,7 +10810,7 @@
       "ean": "5907377136941"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -10837,7 +10837,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 29.15,
+        "amount": 23.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -10854,7 +10854,7 @@
       "ean": "5903031281606"
     },
     "stock": {
-      "quantity": 9,
+      "quantity": 8,
       "unit": "UNIT"
     },
     "price": {
@@ -10876,12 +10876,12 @@
       "ean": "5907377138365"
     },
     "stock": {
-      "quantity": 12,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 32.66,
+        "amount": 41.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -10915,7 +10915,7 @@
       "name": "Witamina B Complex Forte",
       "description": "Marka: Witamina. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Witaminy > Witaminy z grupy B. Kod EAN: 5907377136743. SKU produktu: 5907377136743. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Witamina",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5907377136743",
       "ean": "5907377136743"
     },
@@ -10925,7 +10925,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 20.89,
+        "amount": 15.95,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -11003,7 +11003,7 @@
       "name": "Witamina C Kids",
       "description": "Marka: Witamina. Kategoria produktu: Macierzyństwo > Dla dzieci > Witaminy i minerały. Kod EAN: 5903031283945. SKU produktu: 5903031283945. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Witamina",
-      "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5903031283945",
       "ean": "5903031283945"
     },
@@ -11250,7 +11250,7 @@
       "ean": "3337871320362"
     },
     "stock": {
-      "quantity": 12,
+      "quantity": 10,
       "unit": "UNIT"
     },
     "price": {
@@ -11382,12 +11382,12 @@
       "ean": "5907377136958"
     },
     "stock": {
-      "quantity": 8,
+      "quantity": 10,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 27.49,
+        "amount": 22.3,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -11404,7 +11404,7 @@
       "ean": "5903031280906"
     },
     "stock": {
-      "quantity": 8,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
@@ -11426,7 +11426,7 @@
       "ean": "5907377138372"
     },
     "stock": {
-      "quantity": 8,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
@@ -11465,17 +11465,17 @@
       "name": "Potas organiczny",
       "description": "Marka: Potas. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały > Potas. Kod EAN: 5907377136729. SKU produktu: 5907377136729. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Potas",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5907377136729",
       "ean": "5907377136729"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 23.09,
+        "amount": 17.96,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -11514,7 +11514,7 @@
       "ean": "5907377137726"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -11531,12 +11531,12 @@
       "name": "Beta-karoten + E",
       "description": "Marka: Beta-karoten. Kategoria produktu: Suplementy Diety > Samopoczucie i energia > Oczy i wzrok > Witaminy i makroelementy. Kod EAN: 5907377136903. SKU produktu: 5907377136903. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Beta-karoten",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "bb0fb27a-aee1-5686-97c8-f066b0d766e5",
       "sku": "5907377136903",
       "ean": "5907377136903"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -11558,7 +11558,7 @@
       "ean": "5903031280296"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -11822,12 +11822,12 @@
       "ean": "3337875805025"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 44.37,
+        "amount": 54.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -12306,12 +12306,12 @@
       "ean": "5904960012071"
     },
     "stock": {
-      "quantity": 7,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 37.7,
+        "amount": 47.29,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -12438,7 +12438,7 @@
       "ean": "5904960016925"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
@@ -12460,7 +12460,7 @@
       "ean": "5904960017731"
     },
     "stock": {
-      "quantity": 8,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
@@ -12570,7 +12570,7 @@
       "ean": "5907774335077"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 11,
       "unit": "UNIT"
     },
     "price": {
@@ -12592,7 +12592,7 @@
       "ean": "5907774335022"
     },
     "stock": {
-      "quantity": 21,
+      "quantity": 26,
       "unit": "UNIT"
     },
     "price": {
@@ -12702,12 +12702,12 @@
       "ean": "5907774335053"
     },
     "stock": {
-      "quantity": 13,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 34.93,
+        "amount": 41.25,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -13010,7 +13010,7 @@
       "ean": "5907698301622"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 12,
       "unit": "UNIT"
     },
     "price": {
@@ -13032,7 +13032,7 @@
       "ean": "5903060616158"
     },
     "stock": {
-      "quantity": 14,
+      "quantity": 24,
       "unit": "UNIT"
     },
     "price": {
@@ -13076,12 +13076,12 @@
       "ean": "5906204021696"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 19.79,
+        "amount": 14.41,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -13093,7 +13093,7 @@
       "name": "Litorsal Slim",
       "description": "Marka: Litorsal. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały > Potas. Kod EAN: 5906204020927. SKU produktu: 5906204020927. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Litorsal",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
       "sku": "5906204020927",
       "ean": "5906204020927"
     },
@@ -13120,12 +13120,12 @@
       "ean": "5906204019921"
     },
     "stock": {
-      "quantity": 8,
+      "quantity": 17,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 19.79,
+        "amount": 14.41,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -13142,12 +13142,12 @@
       "ean": "5906204006549"
     },
     "stock": {
-      "quantity": 21,
+      "quantity": 47,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 21.99,
+        "amount": 14.41,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -13164,7 +13164,7 @@
       "ean": "5906204021139"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -13186,12 +13186,12 @@
       "ean": "5906204021894"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 8,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 54.99,
+        "amount": 41.03,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -13367,7 +13367,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 19.79,
+        "amount": 21.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -13379,17 +13379,17 @@
       "name": "Everyday Pomadka do ust",
       "description": "Marka: Everyday. Kategoria produktu: Dermokosmetyki > do Twarzy > Pomadki i balsamy do ust. Kod EAN: 5900161004488. SKU produktu: 5900161004488. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Everyday",
-      "categoryId": "1563b6f0-b584-57d4-a677-49cca69bddfb",
+      "categoryId": "c81dbc41-d90b-5cea-ad55-511bc9cb23b4",
       "sku": "5900161004488",
       "ean": "5900161004488"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 13,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 13.86,
+        "amount": 18.69,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -13494,7 +13494,7 @@
       "ean": "3337875787222"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -13538,7 +13538,7 @@
       "ean": "3337875492799"
     },
     "stock": {
-      "quantity": 10,
+      "quantity": 9,
       "unit": "UNIT"
     },
     "price": {
@@ -13648,12 +13648,12 @@
       "ean": "8032472019145"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 64.23,
+        "amount": 76.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -13714,7 +13714,7 @@
       "ean": "8032472004707"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -13890,12 +13890,12 @@
       "ean": "5903031280067"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 15.45,
+        "amount": 19.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -13978,7 +13978,7 @@
       "ean": "5902802703101"
     },
     "stock": {
-      "quantity": 12,
+      "quantity": 10,
       "unit": "UNIT"
     },
     "price": {
@@ -14000,7 +14000,7 @@
       "ean": "3662042003875"
     },
     "stock": {
-      "quantity": 11,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -14083,7 +14083,7 @@
       "name": "Bodymisie o smaku coli",
       "description": "Marka: Bodymisie. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Multiwitaminy. Kod EAN: 7070866031343. SKU produktu: 7070866031343. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Bodymisie",
-      "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+      "categoryId": "06580ad5-4491-5e61-b375-0fe06d98b09e",
       "sku": "7070866031343",
       "ean": "7070866031343"
     },
@@ -14105,7 +14105,7 @@
       "name": "Bodymisie o smaku owocowym",
       "description": "Marka: Bodymisie. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Multiwitaminy. Kod EAN: 7070866031374. SKU produktu: 7070866031374. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Bodymisie",
-      "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
       "sku": "7070866031374",
       "ean": "7070866031374"
     },
@@ -14369,12 +14369,12 @@
       "name": "Pregna DHA",
       "description": "Marka: Pregna. Kategoria produktu: Macierzyństwo > Ciąża > Zestawy witamin dla kobiet w ciąży. Kod EAN: 5906716507633. SKU produktu: 5906716507633. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Pregna",
-      "categoryId": "188de254-d124-525a-92e2-2ca50cdb3ef9",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5906716507633",
       "ean": "5906716507633"
     },
     "stock": {
-      "quantity": 16,
+      "quantity": 15,
       "unit": "UNIT"
     },
     "price": {
@@ -14479,7 +14479,7 @@
       "name": "Pueria Uno",
       "description": "Marka: Pueria. Kategoria produktu: Macierzyństwo > Ciąża > Zestawy witamin dla kobiet w ciąży. Kod EAN: 5903031283907. SKU produktu: 5903031283907. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Pueria",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "sku": "5903031283907",
       "ean": "5903031283907"
     },
@@ -14638,7 +14638,7 @@
       "ean": "5907589874693"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -14721,7 +14721,7 @@
       "name": "Primabiotic Collagen",
       "description": "Marka: Primabiotic. Kategoria produktu: Suplementy Diety > Kości i stawy > Kolagen. Kod EAN: 5907222805978. SKU produktu: 5907222805978. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Primabiotic",
-      "categoryId": "ab615d49-da5f-59c0-ae50-a412c2af348e",
+      "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
       "sku": "5907222805978",
       "ean": "5907222805978"
     },
@@ -14731,7 +14731,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 219.99,
+        "amount": 225.49,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -14765,7 +14765,7 @@
       "name": "Flexus",
       "description": "Marka: Flexus. Kategoria produktu: Suplementy Diety > Kości i stawy > Kolagen. Kod EAN: 7640153060495. SKU produktu: 7640153060495. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Flexus",
-      "categoryId": "7efffd5d-4726-55e9-937a-bfba75455bce",
+      "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
       "sku": "7640153060495",
       "ean": "7640153060495"
     },
@@ -14814,12 +14814,12 @@
       "ean": "7640153060839"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 10,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 83.59,
+        "amount": 74.65,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -14836,7 +14836,7 @@
       "ean": "5903546006251"
     },
     "stock": {
-      "quantity": 27,
+      "quantity": 25,
       "unit": "UNIT"
     },
     "price": {
@@ -14990,7 +14990,7 @@
       "ean": "5902020661757"
     },
     "stock": {
-      "quantity": 15,
+      "quantity": 25,
       "unit": "UNIT"
     },
     "price": {
@@ -15012,7 +15012,7 @@
       "ean": "5902020661719"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -15061,7 +15061,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 24.56,
+        "amount": 25.36,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -15122,7 +15122,7 @@
       "ean": "5902020661665"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -15171,7 +15171,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 36.29,
+        "amount": 37.39,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -15210,7 +15210,7 @@
       "ean": "5902020661634"
     },
     "stock": {
-      "quantity": 21,
+      "quantity": 12,
       "unit": "UNIT"
     },
     "price": {
@@ -15232,7 +15232,7 @@
       "ean": "5902802702043"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -15254,7 +15254,7 @@
       "ean": "5902768521214"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -15562,7 +15562,7 @@
       "ean": "5907078675251"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -15782,7 +15782,7 @@
       "ean": "5903031286472"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -15870,7 +15870,7 @@
       "ean": "5902020661146"
     },
     "stock": {
-      "quantity": 14,
+      "quantity": 9,
       "unit": "UNIT"
     },
     "price": {
@@ -15914,7 +15914,7 @@
       "ean": "5907368848518"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -15958,7 +15958,7 @@
       "ean": "5907377131922"
     },
     "stock": {
-      "quantity": 44,
+      "quantity": 40,
       "unit": "UNIT"
     },
     "price": {
@@ -15997,7 +15997,7 @@
       "name": "Duo Stawy",
       "description": "Marka: Duo. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały. Kod EAN: 5902891176343. SKU produktu: 5902891176343. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Duo",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
       "sku": "5902891176343",
       "ean": "5902891176343"
     },
@@ -16085,7 +16085,7 @@
       "name": "Grinovita Imbir",
       "description": "Marka: Grinovita. Kategoria produktu: Suplementy Diety > Odporność. Kod EAN: 5901716993400. SKU produktu: 5901716993400. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Grinovita",
-      "categoryId": "36b525a4-3717-5739-94c4-52485ed49732",
+      "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
       "sku": "5901716993400",
       "ean": "5901716993400"
     },
@@ -16173,7 +16173,7 @@
       "name": "Olimp Selen 110 µg",
       "description": "Marka: Olimp. Kategoria produktu: Suplementy Diety > Uroda > Skóra, włosy i paznokcie. Kod EAN: 5901330039270. SKU produktu: 5901330039270. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Olimp",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "6eafbcd7-ebde-5121-9f42-6e5a1395ccd9",
       "sku": "5901330039270",
       "ean": "5901330039270"
     },
@@ -17058,7 +17058,7 @@
       "ean": "5905279070103"
     },
     "stock": {
-      "quantity": 170,
+      "quantity": 157,
       "unit": "UNIT"
     },
     "price": {
@@ -17405,7 +17405,7 @@
       "name": "Olimp Chrom Activ",
       "description": "Marka: Olimp. Kategoria produktu: Suplementy Diety > Uroda > Odchudzanie. Kod EAN: 5901330034114. SKU produktu: 5901330034114. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Olimp",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "3ccc18b9-2ef8-557c-92aa-798b05f5575a",
       "sku": "5901330034114",
       "ean": "5901330034114"
     },
@@ -17586,7 +17586,7 @@
       "ean": "5901330013744"
     },
     "stock": {
-      "quantity": 9,
+      "quantity": 8,
       "unit": "UNIT"
     },
     "price": {
@@ -17608,7 +17608,7 @@
       "ean": "5901330009563"
     },
     "stock": {
-      "quantity": 53,
+      "quantity": 46,
       "unit": "UNIT"
     },
     "price": {
@@ -17652,7 +17652,7 @@
       "ean": "5901330014734"
     },
     "stock": {
-      "quantity": 9,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -17674,7 +17674,7 @@
       "ean": "5901330026416"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -17740,7 +17740,7 @@
       "ean": "5901330043505"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
@@ -18004,12 +18004,12 @@
       "ean": "0033984012493"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 60.69,
+        "amount": 73.69,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -19324,7 +19324,7 @@
       "ean": "5902020661368"
     },
     "stock": {
-      "quantity": 11,
+      "quantity": 10,
       "unit": "UNIT"
     },
     "price": {
@@ -19346,7 +19346,7 @@
       "ean": "5902020661375"
     },
     "stock": {
-      "quantity": 22,
+      "quantity": 99,
       "unit": "UNIT"
     },
     "price": {
@@ -19368,12 +19368,12 @@
       "ean": "5902020661405"
     },
     "stock": {
-      "quantity": 142,
+      "quantity": 135,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 26.61,
+        "amount": 32.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -19500,7 +19500,7 @@
       "ean": "5901720140258"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
@@ -20578,7 +20578,7 @@
       "ean": "5904386000614"
     },
     "stock": {
-      "quantity": 8,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -20617,7 +20617,7 @@
       "name": "Tisane Balsam do ust w sztyfcie",
       "description": "Marka: Tisane. Kategoria produktu: Dermokosmetyki > do Twarzy > Pomadki i balsamy do ust. Kod EAN: 5904386000669. SKU produktu: 5904386000669. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Tisane",
-      "categoryId": "1563b6f0-b584-57d4-a677-49cca69bddfb",
+      "categoryId": "c81dbc41-d90b-5cea-ad55-511bc9cb23b4",
       "sku": "5904386000669",
       "ean": "5904386000669"
     },
@@ -20688,7 +20688,7 @@
       "ean": "5908229301715"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
@@ -20793,12 +20793,12 @@
       "name": "Equazen Płyn smak waniliowy",
       "description": "Marka: Equazen. Kategoria produktu: Suplementy Diety > Odporność > Oleje i trany. Kod EAN: 5060072605898. SKU produktu: 5060072605898. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Equazen",
-      "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+      "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
       "sku": "5060072605898",
       "ean": "5060072605898"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -20815,7 +20815,7 @@
       "name": "Equazen Płyn smak cytrynowym",
       "description": "Marka: Equazen. Kategoria produktu: Suplementy Diety > Odporność > Oleje i trany. Kod EAN: 5060072605904. SKU produktu: 5060072605904. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Equazen",
-      "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+      "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
       "sku": "5060072605904",
       "ean": "5060072605904"
     },
@@ -20842,7 +20842,7 @@
       "ean": "5060072606451"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -20930,12 +20930,12 @@
       "ean": "5903060621992"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 39.23,
+        "amount": 35.65,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -20996,12 +20996,12 @@
       "ean": "5903060616875"
     },
     "stock": {
-      "quantity": 0,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 36.85,
+        "amount": 28.07,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -21145,7 +21145,7 @@
       "name": "Witamina C CBC",
       "description": "Marka: Witamina. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Witaminy > Witamina C. Kod EAN: 5902709522126. SKU produktu: 5902709522126. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Witamina",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
       "sku": "5902709522126",
       "ean": "5902709522126"
     },
@@ -21255,7 +21255,7 @@
       "name": "Colostrum Genactiv Maska",
       "description": "Marka: Colostrum. Kategoria produktu: Dermokosmetyki > do Włosów > Maski do włosów. Kod EAN: 5907546536190. SKU produktu: 5907546536190. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Colostrum",
-      "categoryId": "078dc602-369a-50a3-8cb1-c57828881208",
+      "categoryId": "f37f4f67-807b-5255-ad4a-7cdb98081931",
       "sku": "5907546536190",
       "ean": "5907546536190"
     },
@@ -21326,7 +21326,7 @@
       "ean": "5906204019655"
     },
     "stock": {
-      "quantity": 56,
+      "quantity": 54,
       "unit": "UNIT"
     },
     "price": {
@@ -21348,7 +21348,7 @@
       "ean": "5906204021962"
     },
     "stock": {
-      "quantity": 18,
+      "quantity": 17,
       "unit": "UNIT"
     },
     "price": {
@@ -22228,12 +22228,12 @@
       "ean": "5903111160135"
     },
     "stock": {
-      "quantity": 32,
+      "quantity": 39,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 24.48,
+        "amount": 23.87,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -22250,7 +22250,7 @@
       "ean": "3282770152517"
     },
     "stock": {
-      "quantity": 9,
+      "quantity": 8,
       "unit": "UNIT"
     },
     "price": {
@@ -22536,7 +22536,7 @@
       "ean": "3282770204681"
     },
     "stock": {
-      "quantity": 18,
+      "quantity": 27,
       "unit": "UNIT"
     },
     "price": {
@@ -22558,7 +22558,7 @@
       "ean": "3282770142327"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -23240,7 +23240,7 @@
       "ean": "5900116100784"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -24098,7 +24098,7 @@
       "ean": "3522930004585"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
@@ -24120,7 +24120,7 @@
       "ean": "3522930004608"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -24164,7 +24164,7 @@
       "ean": "3522930003281"
     },
     "stock": {
-      "quantity": 8,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -24186,7 +24186,7 @@
       "ean": "3522930003298"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -24208,7 +24208,7 @@
       "ean": "3522930004318"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
@@ -24296,7 +24296,7 @@
       "ean": "3522930004370"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
@@ -24318,7 +24318,7 @@
       "ean": "3522930004387"
     },
     "stock": {
-      "quantity": 14,
+      "quantity": 13,
       "unit": "UNIT"
     },
     "price": {
@@ -24384,7 +24384,7 @@
       "ean": "3522930004097"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -24516,7 +24516,7 @@
       "ean": "3522930003977"
     },
     "stock": {
-      "quantity": 9,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -24560,7 +24560,7 @@
       "ean": "3522931003655"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -24604,7 +24604,7 @@
       "ean": "3522930003816"
     },
     "stock": {
-      "quantity": 20,
+      "quantity": 15,
       "unit": "UNIT"
     },
     "price": {
@@ -24626,7 +24626,7 @@
       "ean": "3522930003847"
     },
     "stock": {
-      "quantity": 32,
+      "quantity": 26,
       "unit": "UNIT"
     },
     "price": {
@@ -24648,7 +24648,7 @@
       "ean": "3522930003854"
     },
     "stock": {
-      "quantity": 29,
+      "quantity": 22,
       "unit": "UNIT"
     },
     "price": {
@@ -24670,7 +24670,7 @@
       "ean": "3522930003861"
     },
     "stock": {
-      "quantity": 21,
+      "quantity": 15,
       "unit": "UNIT"
     },
     "price": {
@@ -24692,7 +24692,7 @@
       "ean": "3522930004417"
     },
     "stock": {
-      "quantity": 49,
+      "quantity": 41,
       "unit": "UNIT"
     },
     "price": {
@@ -24709,7 +24709,7 @@
       "name": "Caudalie - Delikatny szampon do włosów",
       "description": "Marka: Caudalie. Kategoria produktu: Dermokosmetyki > do Włosów > Szampony do włosów. Kod EAN: 3522930004141. SKU produktu: 3522930004141. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "Caudalie",
-      "categoryId": "30bb2b20-69c1-531d-900b-46a4ffc0443b",
+      "categoryId": "8f113915-61d7-5b63-82fc-0e3fc440296a",
       "sku": "3522930004141",
       "ean": "3522930004141"
     },
@@ -24802,7 +24802,7 @@
       "ean": "3522930004240"
     },
     "stock": {
-      "quantity": 17,
+      "quantity": 16,
       "unit": "UNIT"
     },
     "price": {
@@ -24824,12 +24824,12 @@
       "ean": "3522930004516"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 132.49,
+        "amount": 127.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -24846,7 +24846,7 @@
       "ean": "3522930004257"
     },
     "stock": {
-      "quantity": 7,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
@@ -24939,7 +24939,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 164.99,
+        "amount": 119.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -24978,7 +24978,7 @@
       "ean": "3522930004042"
     },
     "stock": {
-      "quantity": 32,
+      "quantity": 28,
       "unit": "UNIT"
     },
     "price": {
@@ -25066,7 +25066,7 @@
       "ean": "3522930004158"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
@@ -25242,12 +25242,12 @@
       "ean": "5903031287585"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 46.19,
+        "amount": 33.51,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -25264,12 +25264,12 @@
       "ean": "5903031288292"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 33.64,
+        "amount": 39.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -25308,7 +25308,7 @@
       "ean": "5908229303276"
     },
     "stock": {
-      "quantity": 18,
+      "quantity": 13,
       "unit": "UNIT"
     },
     "price": {
@@ -25418,7 +25418,7 @@
       "ean": "4051452550342"
     },
     "stock": {
-      "quantity": 22,
+      "quantity": 21,
       "unit": "UNIT"
     },
     "price": {
@@ -25484,7 +25484,7 @@
       "ean": "4051452550328"
     },
     "stock": {
-      "quantity": 33,
+      "quantity": 31,
       "unit": "UNIT"
     },
     "price": {
@@ -25506,12 +25506,12 @@
       "ean": "4051452550304"
     },
     "stock": {
-      "quantity": 25,
+      "quantity": 32,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 71.49,
+        "amount": 60.43,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -25660,7 +25660,7 @@
       "ean": "3522930005087"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 8,
       "unit": "UNIT"
     },
     "price": {
@@ -25687,7 +25687,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 319.99,
+        "amount": 439.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -25748,7 +25748,7 @@
       "ean": "3282779441476"
     },
     "stock": {
-      "quantity": 29,
+      "quantity": 28,
       "unit": "UNIT"
     },
     "price": {
@@ -25770,7 +25770,7 @@
       "ean": "3282779441483"
     },
     "stock": {
-      "quantity": 44,
+      "quantity": 40,
       "unit": "UNIT"
     },
     "price": {
@@ -25836,7 +25836,7 @@
       "ean": "3522930004554"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -25880,7 +25880,7 @@
       "ean": "5902596593056"
     },
     "stock": {
-      "quantity": 0,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -25902,7 +25902,7 @@
       "ean": "5907573300399"
     },
     "stock": {
-      "quantity": 32,
+      "quantity": 31,
       "unit": "UNIT"
     },
     "price": {
@@ -25946,12 +25946,12 @@
       "ean": "3522930005513"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 196.89,
+        "amount": 143.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -25968,7 +25968,7 @@
       "ean": "5902596593025"
     },
     "stock": {
-      "quantity": 9,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -26144,7 +26144,7 @@
       "ean": "3337875945622"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -26188,7 +26188,7 @@
       "ean": "3337875945769"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -26232,7 +26232,7 @@
       "ean": "3337875945790"
     },
     "stock": {
-      "quantity": 11,
+      "quantity": 9,
       "unit": "UNIT"
     },
     "price": {

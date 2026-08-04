@@ -10,6 +10,7 @@ const API_URL = nonFlagArgs[2] || "http://127.0.0.1:3000/api/inpost/offers";
 const SYNC_MODE = process.argv.includes("--sync");
 const DRY_RUN = process.argv.includes("--dry-run");
 const PATCH_ONLY = process.argv.includes("--patch-only");
+const CREATE_ONLY = process.argv.includes("--create-only");
 const PRESERVE_EXISTING_CATEGORY =
   process.argv.includes("--preserve-existing-categories");
 
@@ -864,6 +865,18 @@ async function syncOffer(originalOffer, imageMap, existingOffersByExternalId, in
     return [await createOfferWithImage(originalOffer, imageMap, index, total)];
   }
 
+  if (CREATE_ONLY) {
+    return [{
+      ok: true,
+      action: "SKIP_EXISTING_CREATE_ONLY",
+      externalId,
+      offerId: matches[0]?.offerId || null,
+      changedFields: [],
+      patchBody: null,
+      existingOffers: matches.map(summarizeMatch)
+    }];
+  }
+
   const { selected, skipped } = chooseCanonicalPatchMatch(matches);
 
   for (const skippedMatch of skipped) {
@@ -997,6 +1010,7 @@ function writeSyncReports(syncReportPath, syncErrorsPath, context) {
     apiUrl: API_URL,
     dryRun: DRY_RUN,
     patchOnly: PATCH_ONLY,
+    createOnly: CREATE_ONLY,
     comparedTopLevelFields: COMPARED_TOP_LEVEL_FIELDS,
     totals: {
       offersInFile: offers.length,
@@ -1008,6 +1022,9 @@ function writeSyncReports(syncReportPath, syncErrorsPath, context) {
       noChanges: syncResults.filter((item) => item.action === "NO_CHANGES").length,
       dryRunCreate: syncResults.filter((item) => item.action === "DRY_RUN_CREATE").length,
       dryRunPatch: syncResults.filter((item) => item.action === "DRY_RUN_PATCH").length,
+      skippedExistingCreateOnly: syncResults.filter(
+        (item) => item.action === "SKIP_EXISTING_CREATE_ONLY"
+      ).length,
       skippedTerminalDuplicates: syncResults.filter(
         (item) => item.action === "SKIP_TERMINAL_DUPLICATE"
       ).length,
@@ -1142,7 +1159,14 @@ async function main() {
         syncResults
       });
 
-      await sleep(DELAY_MS);
+      const latestResult = syncResults[syncResults.length - 1];
+      const skippedExistingInCreateOnly =
+        CREATE_ONLY &&
+        latestResult?.action === "SKIP_EXISTING_CREATE_ONLY";
+
+      if (!skippedExistingInCreateOnly) {
+        await sleep(DELAY_MS);
+      }
     }
 
     const created = syncResults.filter((item) => item.action === "CREATE" && item.ok).length;

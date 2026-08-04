@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-14T11:07:34.830Z",
+  "updatedAt": "2026-07-28T11:58:37.880Z",
   "sources": [
     {
       "id": "openbeautyfacts",
@@ -98,10 +98,10 @@
       "updatedAt": "2026-07-14T09:02:14.621Z"
     },
     "3282770074741": {
-      "brand": "Pierre Fabre",
+      "brand": "Eau thermale Avène",
       "source": "openbeautyfacts",
       "confidence": "exact-code",
-      "productName": "Avene Trixera Nutrition Baume Nutri-fluide Flacon-pompe",
+      "productName": "Eau thermale Avène Trixera Nutrition Baume Nutri-fluide Flacon-pompe",
       "updatedAt": "2026-07-14T09:02:50.489Z"
     },
     "3282770075526": {

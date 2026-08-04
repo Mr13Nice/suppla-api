@@ -4,11 +4,10 @@
   "categoryOverridesFile": "category-overrides.json",
   "categoryHintsFile": "dist/category-hints.json",
   "categoryTreeFiles": [
-    "dist\\category-tree.json",
     "inpost-health-categories.txt",
     "inpost.txt"
   ],
-  "outputDir": "dist",
+  "outputDir": "dist/inpost-new-variants",
   "delimiter": ",",
   "settings": {
     "STRICT_MODE": false,
@@ -19,13 +18,15 @@
     "INCLUDE_META_IN_OFFERS": false,
     "USE_NAME_AS_FALLBACK_DESCRIPTION": false,
     "MIN_DESCRIPTION_LENGTH": 100,
-    "CHECK_EXISTING_INPOST": true,
-    "INCLUDE_EXISTING_IN_OUTPUT": true,
+    "CHECK_EXISTING_INPOST": false,
+    "INCLUDE_EXISTING_IN_OUTPUT": false,
     "PRESERVE_EXISTING_CATEGORY": false,
     "CLEANUP_DUPLICATES": false,
     "EXECUTE_CLEANUP": false,
     "CLOSE_ONLY": false,
     "RESCUE_OVERRIDES": false,
+    "INCLUDE_VARIATIONS": true,
+    "VARIATIONS_ONLY": true,
     "mappingOrder": [
       "category-hints.json by EAN from InPost /offers/hint",
       "category-overrides.json by WooCommerce category",
@@ -34,42 +35,49 @@
   },
   "rescue": null,
   "categoryTree": {
-    "totalCategories": 9155,
-    "leafCategories": 8076,
-    "nonLeafCategories": 1079
+    "totalCategories": 557,
+    "leafCategories": 400,
+    "nonLeafCategories": 157
   },
   "totals": {
     "csvRows": 2142,
+    "variationRows": 376,
+    "variationParentRowsResolved": 374,
+    "variationParentRowsMissing": 2,
+    "variationOffersGenerated": 292,
+    "variationRowsSkipped": 84,
+    "variableParentRowsSkipped": 0,
     "rescueCandidates": 0,
     "rescueSkippedSameRejectedCategory": 0,
-    "offersToCreate": 1225,
-    "skippedProducts": 917,
-    "blockingSkippedProducts": 358,
-    "productsWithoutImages": 20,
-    "generatedDescriptions": 1323,
+    "offersToCreate": 292,
+    "skippedProducts": 84,
+    "blockingSkippedProducts": 84,
+    "productsWithoutImages": 0,
+    "generatedDescriptions": 346,
     "unresolvedCategories": 0,
     "rejectedCategoryHints": 0,
-    "hintCategoryWarnings": 6,
+    "hintCategoryWarnings": 128,
     "duplicateExternalIdsInCsv": 0,
-    "existingInPostSkipped": 1225,
-    "existingInPostIncludedInOutput": 1225,
+    "existingInPostSkipped": 0,
+    "existingInPostIncludedInOutput": 0,
     "inpostReferenceCategoryOverrides": 0,
     "inpostCurrentCategoryPreserved": 0,
-    "existingInPostItemsFetched": 1662,
-    "existingDuplicateExternalIdGroups": 384,
-    "existingDuplicateCleanupPlanned": 435,
+    "existingInPostItemsFetched": 0,
+    "existingDuplicateExternalIdGroups": 0,
+    "existingDuplicateCleanupPlanned": 0,
     "duplicateCleanupSuccess": 0,
     "duplicateCleanupErrors": 0
   },
   "categoryResolution": {
     "byMethod": {
-      "inpost-hint-ean": 1230,
-      "override-exact": 347,
-      "inpost-hint-ean-with-local-warning": 6
+      "inpost-hint-ean-with-local-warning": 128,
+      "inpost-hint-ean": 152,
+      "override-exact": 94
     },
     "rejectedHintReasons": {},
     "hintWarningReasons": {
-      "hint-category-is-not-leaf": 6
+      "hint-category-id-not-in-category-tree": 121,
+      "hint-category-is-not-leaf": 7
     }
   }
 }

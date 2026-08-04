@@ -99,7 +99,7 @@
         "externalId": "189",
         "name": "Cold Cream Delikatne mydło z organicznym woskiem pszczelim",
         "sku": "3504105036102",
-        "categories": "Dermokosmetyki, Dermokosmetyki > dla Dziecka, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Włosów > Mydła, Dermokosmetyki > do Ciała > Mydła"
+        "categories": "Dermokosmetyki, Dermokosmetyki > dla Dziecka, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Ciała > Mydła, Dermokosmetyki > do Włosów > Mydła"
       }
     ],
     "validInCategoryMap": false
@@ -705,7 +705,7 @@
     "validInCategoryMap": false
   },
   "5901643175801": {
-    "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
+    "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
     "source": "inpost-hint",
     "ean": "5901643175801",
     "productCount": 1,
@@ -717,7 +717,7 @@
         "categories": "Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Płyny micelarne do twarzy"
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "5901643172718": {
     "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
@@ -735,7 +735,7 @@
     "validInCategoryMap": true
   },
   "5901643176389": {
-    "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
+    "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
     "source": "inpost-hint",
     "ean": "5901643176389",
     "productCount": 1,
@@ -747,7 +747,7 @@
         "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Płyny micelarne do twarzy"
       }
     ],
-    "validInCategoryMap": true
+    "validInCategoryMap": false
   },
   "5901643176471": {
     "categoryId": "6bbabeff-7c85-520e-9b5b-ea7f36974775",
@@ -2415,7 +2415,7 @@
     "validInCategoryMap": false
   },
   "3282770142112": {
-    "categoryId": "aaf70d45-42dd-508d-a8b8-d4e949e02812",
+    "categoryId": "c81dbc41-d90b-5cea-ad55-511bc9cb23b4",
     "source": "inpost-hint",
     "ean": "3282770142112",
     "productCount": 1,
@@ -2427,7 +2427,7 @@
         "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Pomadki i balsamy do ust"
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "3282770111552": {
     "categoryId": "8d5d68fa-99a8-5d69-9baa-5866677130e3",
@@ -3555,7 +3555,7 @@
     "validInCategoryMap": false
   },
   "5900717140615": {
-    "categoryId": "ce743fc1-e886-5c08-b90f-510ce882c1ec",
+    "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
     "source": "inpost-hint",
     "ean": "5900717140615",
     "productCount": 1,
@@ -3567,7 +3567,7 @@
         "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Pianki\\,mleczka i żele do mycia twarzy"
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "5900717140011": {
     "categoryId": "0946b5bd-bf47-583c-80f8-b7d63b9c6532",
@@ -3600,7 +3600,7 @@
     "validInCategoryMap": false
   },
   "5900717140127": {
-    "categoryId": "a7e8f568-42ca-5fa6-b29c-cc86a957dcf1",
+    "categoryId": "27059afd-df03-563f-96c8-9d83a825573f",
     "source": "inpost-hint",
     "ean": "5900717140127",
     "productCount": 1,
@@ -3612,7 +3612,7 @@
         "categories": "Dermokosmetyki, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Włosów"
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "5900717148222": {
     "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
@@ -4035,7 +4035,7 @@
     "validInCategoryMap": true
   },
   "3264680027178": {
-    "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+    "categoryId": "1563b6f0-b584-57d4-a677-49cca69bddfb",
     "source": "inpost-hint",
     "ean": "3264680027178",
     "productCount": 1,
@@ -4047,7 +4047,7 @@
         "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Pomadki i balsamy do ust"
       }
     ],
-    "validInCategoryMap": true
+    "validInCategoryMap": false
   },
   "5900717149106": {
     "categoryId": "68f5ca30-cd76-5c87-bea6-20d280bd1dd5",
@@ -4980,7 +4980,7 @@
     "validInCategoryMap": true
   },
   "3282770114195": {
-    "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+    "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
     "source": "inpost-hint",
     "ean": "3282770114195",
     "productCount": 1,
@@ -4992,7 +4992,7 @@
         "categories": ""
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "3264680015120": {
     "categoryId": "65e3ce84-7c3f-564c-b549-b9f729fbca89",
@@ -6105,7 +6105,7 @@
     "validInCategoryMap": false
   },
   "5902751583458": {
-    "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+    "categoryId": "c1ef2384-5293-5738-bda7-4d8be1a25612",
     "source": "inpost-hint",
     "ean": "5902751583458",
     "productCount": 1,
@@ -6150,7 +6150,7 @@
     "validInCategoryMap": false
   },
   "3701129805060": {
-    "categoryId": "30bb2b20-69c1-531d-900b-46a4ffc0443b",
+    "categoryId": "8f113915-61d7-5b63-82fc-0e3fc440296a",
     "source": "inpost-hint",
     "ean": "3701129805060",
     "productCount": 1,
@@ -6162,7 +6162,7 @@
         "categories": "Dermokosmetyki, Dermokosmetyki > do Włosów, Dermokosmetyki > do Włosów > Szampony do włosów"
       }
     ],
-    "validInCategoryMap": true
+    "validInCategoryMap": false
   },
   "5904730878005": {
     "categoryId": "30bb2b20-69c1-531d-900b-46a4ffc0443b",
@@ -6435,7 +6435,7 @@
     "validInCategoryMap": false
   },
   "3701129800225": {
-    "categoryId": "2253681c-571d-504c-9030-7463006b38b4",
+    "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
     "source": "inpost-hint",
     "ean": "3701129800225",
     "productCount": 1,
@@ -6447,7 +6447,7 @@
         "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Kremy punktowe"
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "5902751587210": {
     "categoryId": "27059afd-df03-563f-96c8-9d83a825573f",
@@ -6780,7 +6780,7 @@
     "validInCategoryMap": false
   },
   "3337875597395": {
-    "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+    "categoryId": "980dff7f-0c9f-5d05-a891-af73ba89084e",
     "source": "inpost-hint",
     "ean": "3337875597395",
     "productCount": 1,
@@ -6792,7 +6792,7 @@
         "categories": ""
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "3337875597296": {
     "categoryId": "a7c0df0a-e36b-5268-9130-8664f702ed4a",
@@ -6915,7 +6915,7 @@
     "validInCategoryMap": false
   },
   "3337875597272": {
-    "categoryId": "e4d0dca1-b497-517a-bf1b-8f0c5d393b94",
+    "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
     "source": "inpost-hint",
     "ean": "3337875597272",
     "productCount": 1,
@@ -7140,7 +7140,7 @@
     "validInCategoryMap": true
   },
   "7640114911095": {
-    "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+    "categoryId": "be442cf4-be3f-5165-a596-78a9c49eaabd",
     "source": "inpost-hint",
     "ean": "7640114911095",
     "productCount": 1,
@@ -7152,7 +7152,7 @@
         "categories": "Dermokosmetyki, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Ciała > Kremy i balsamy do rąk, Dermokosmetyki > do Ciała > Kremy i peeling do stóp, Dermokosmetyki > do Ciała > Kremy\\, balsamy i masła"
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "7640114911071": {
     "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
@@ -7200,7 +7200,7 @@
     "validInCategoryMap": false
   },
   "3337875586269": {
-    "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+    "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
     "source": "inpost-hint",
     "ean": "3337875586269",
     "productCount": 1,
@@ -7230,7 +7230,7 @@
     "validInCategoryMap": false
   },
   "0000030106659": {
-    "categoryId": "c81dbc41-d90b-5cea-ad55-511bc9cb23b4",
+    "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
     "source": "inpost-hint",
     "ean": "0000030106659",
     "productCount": 1,
@@ -7470,7 +7470,7 @@
     "validInCategoryMap": false
   },
   "3337875722827": {
-    "categoryId": "a7e8f568-42ca-5fa6-b29c-cc86a957dcf1",
+    "categoryId": "0946b5bd-bf47-583c-80f8-b7d63b9c6532",
     "source": "inpost-hint",
     "ean": "3337875722827",
     "productCount": 1,
@@ -7482,7 +7482,7 @@
         "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Serum do twarzy"
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "3337875549493": {
     "categoryId": "a7e8f568-42ca-5fa6-b29c-cc86a957dcf1",
@@ -7665,7 +7665,7 @@
     "validInCategoryMap": true
   },
   "3401360081451": {
-    "categoryId": "2253681c-571d-504c-9030-7463006b38b4",
+    "categoryId": "ba32365a-b721-5e74-ab25-1ac010b3c98c",
     "source": "inpost-hint",
     "ean": "3401360081451",
     "productCount": 1,
@@ -8370,7 +8370,7 @@
     "validInCategoryMap": true
   },
   "3701129800843": {
-    "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
+    "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
     "source": "inpost-hint",
     "ean": "3701129800843",
     "productCount": 1,
@@ -8382,7 +8382,7 @@
         "categories": ""
       }
     ],
-    "validInCategoryMap": true
+    "validInCategoryMap": false
   },
   "3337875807043": {
     "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
@@ -8623,6 +8623,21 @@
       }
     ],
     "validInCategoryMap": true
+  },
+  "3401346673564": {
+    "categoryId": "2c51605b-cab7-5f1e-99c5-4b2100f332b3",
+    "source": "inpost-hint",
+    "ean": "3401346673564",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "3927",
+        "name": "Sensibio Mask Maseczka łagodząco-nawilżająca skóra wrażliwa i nadrważliwa",
+        "sku": "3401346673564",
+        "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Maseczki i peeling"
+      }
+    ],
+    "validInCategoryMap": false
   },
   "5907377138914": {
     "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
@@ -8895,7 +8910,7 @@
     "validInCategoryMap": true
   },
   "5907377136743": {
-    "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+    "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
     "source": "inpost-hint",
     "ean": "5907377136743",
     "productCount": 1,
@@ -8949,13 +8964,13 @@
         "externalId": "4000",
         "name": "Immuno Kids",
         "sku": "5903031283037",
-        "categories": "Macierzyństwo > Dla dzieci, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety"
+        "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Odporność, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety"
       }
     ],
     "validInCategoryMap": false
   },
   "5903031283945": {
-    "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+    "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
     "source": "inpost-hint",
     "ean": "5903031283945",
     "productCount": 1,
@@ -8967,7 +8982,7 @@
         "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety, Macierzyństwo > Dla dzieci > Witaminy i minerały"
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "5903031287424": {
     "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
@@ -9315,7 +9330,7 @@
     "validInCategoryMap": true
   },
   "5907377136729": {
-    "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+    "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
     "source": "inpost-hint",
     "ean": "5907377136729",
     "productCount": 1,
@@ -9360,7 +9375,7 @@
     "validInCategoryMap": true
   },
   "5907377136903": {
-    "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+    "categoryId": "bb0fb27a-aee1-5686-97c8-f066b0d766e5",
     "source": "inpost-hint",
     "ean": "5907377136903",
     "productCount": 1,
@@ -9675,7 +9690,7 @@
     "validInCategoryMap": true
   },
   "5904960011241": {
-    "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+    "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
     "source": "inpost-hint",
     "ean": "5904960011241",
     "productCount": 1,
@@ -9870,7 +9885,7 @@
     "validInCategoryMap": true
   },
   "5904960017410": {
-    "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+    "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
     "source": "inpost-hint",
     "ean": "5904960017410",
     "productCount": 1,
@@ -9990,7 +10005,7 @@
     "validInCategoryMap": false
   },
   "5904960017090": {
-    "categoryId": "c1a9f74c-9a44-519d-9522-fdcab4bc7ac9",
+    "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
     "source": "inpost-hint",
     "ean": "5904960017090",
     "productCount": 1,
@@ -10002,7 +10017,7 @@
         "categories": ""
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "5904960017441": {
     "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
@@ -10395,7 +10410,7 @@
     "validInCategoryMap": true
   },
   "5904960018554": {
-    "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+    "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
     "source": "inpost-hint",
     "ean": "5904960018554",
     "productCount": 1,
@@ -10575,7 +10590,7 @@
     "validInCategoryMap": true
   },
   "3337871318901": {
-    "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
+    "categoryId": "71328672-5d78-54cb-ba36-725d39e7ffa3",
     "source": "inpost-hint",
     "ean": "3337871318901",
     "productCount": 1,
@@ -10587,7 +10602,7 @@
         "categories": "Dermokosmetyki, Dermokosmetyki > dla Mężczyzn, Dermokosmetyki > dla Mężczyzn > Produkty do golenia"
       }
     ],
-    "validInCategoryMap": true
+    "validInCategoryMap": false
   },
   "5907774335077": {
     "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
@@ -10965,7 +10980,7 @@
     "validInCategoryMap": true
   },
   "5906204020927": {
-    "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+    "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
     "source": "inpost-hint",
     "ean": "5906204020927",
     "productCount": 1,
@@ -11160,7 +11175,7 @@
     "validInCategoryMap": false
   },
   "5900161004488": {
-    "categoryId": "1563b6f0-b584-57d4-a677-49cca69bddfb",
+    "categoryId": "c81dbc41-d90b-5cea-ad55-511bc9cb23b4",
     "source": "inpost-hint",
     "ean": "5900161004488",
     "productCount": 1,
@@ -11172,7 +11187,7 @@
         "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy > Pomadki i balsamy do ust"
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "5900008027366": {
     "categoryId": "898bd657-14ad-55ac-a46b-8b1c64fc577c",
@@ -11715,7 +11730,7 @@
     "validInCategoryMap": true
   },
   "3662042003806": {
-    "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+    "categoryId": "bb0fb27a-aee1-5686-97c8-f066b0d766e5",
     "source": "inpost-hint",
     "ean": "3662042003806",
     "productCount": 1,
@@ -11880,7 +11895,7 @@
     "validInCategoryMap": true
   },
   "7070866031343": {
-    "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+    "categoryId": "06580ad5-4491-5e61-b375-0fe06d98b09e",
     "source": "inpost-hint",
     "ean": "7070866031343",
     "productCount": 1,
@@ -11892,10 +11907,10 @@
         "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Witaminy i minerały > Multiwitaminy, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety, Suplementy Diety > Witaminy i minerały, Macierzyństwo > Dla dzieci > Witaminy i minerały"
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "7070866031374": {
-    "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+    "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
     "source": "inpost-hint",
     "ean": "7070866031374",
     "productCount": 1,
@@ -11907,7 +11922,7 @@
         "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Witaminy i minerały > Multiwitaminy, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety, Macierzyństwo > Dla dzieci > Witaminy i minerały, Suplementy Diety > Witaminy i minerały"
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "5702071503828": {
     "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
@@ -12105,7 +12120,7 @@
     "validInCategoryMap": true
   },
   "5906716507633": {
-    "categoryId": "188de254-d124-525a-92e2-2ca50cdb3ef9",
+    "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
     "source": "inpost-hint",
     "ean": "5906716507633",
     "productCount": 1,
@@ -12117,7 +12132,7 @@
         "categories": "Macierzyństwo > Ciąża, Suplementy Diety, Macierzyństwo > Ciąża > Zestawy witamin dla kobiet w ciąży"
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "5906190437082": {
     "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
@@ -12210,7 +12225,7 @@
     "validInCategoryMap": true
   },
   "5903031283907": {
-    "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+    "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
     "source": "inpost-hint",
     "ean": "5903031283907",
     "productCount": 1,
@@ -12375,7 +12390,7 @@
     "validInCategoryMap": true
   },
   "5907222805978": {
-    "categoryId": "ab615d49-da5f-59c0-ae50-a412c2af348e",
+    "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
     "source": "inpost-hint",
     "ean": "5907222805978",
     "productCount": 1,
@@ -12387,7 +12402,7 @@
         "categories": "Suplementy Diety > Kości i stawy > Kolagen, Suplementy Diety > Kości i stawy, Suplementy Diety, Suplementy Diety > Uroda"
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "5904538691462": {
     "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
@@ -12405,7 +12420,7 @@
     "validInCategoryMap": true
   },
   "7640153060495": {
-    "categoryId": "7efffd5d-4726-55e9-937a-bfba75455bce",
+    "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
     "source": "inpost-hint",
     "ean": "7640153060495",
     "productCount": 1,
@@ -13215,7 +13230,7 @@
     "validInCategoryMap": true
   },
   "5903263900924": {
-    "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+    "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
     "source": "inpost-hint",
     "ean": "5903263900924",
     "productCount": 1,
@@ -13455,7 +13470,7 @@
     "validInCategoryMap": true
   },
   "5902891176343": {
-    "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+    "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
     "source": "inpost-hint",
     "ean": "5902891176343",
     "productCount": 1,
@@ -13569,13 +13584,13 @@
         "externalId": "5109",
         "name": "Grinovita Junior",
         "sku": "5901716993349",
-        "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Odporność, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety"
+        "categories": "Macierzyństwo > Dla dzieci, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety"
       }
     ],
     "validInCategoryMap": true
   },
   "5901716993400": {
-    "categoryId": "36b525a4-3717-5739-94c4-52485ed49732",
+    "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
     "source": "inpost-hint",
     "ean": "5901716993400",
     "productCount": 1,
@@ -13587,7 +13602,7 @@
         "categories": "Suplementy Diety > Odporność, Suplementy Diety"
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "5906204021078": {
     "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
@@ -13635,7 +13650,7 @@
     "validInCategoryMap": true
   },
   "5901330039270": {
-    "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+    "categoryId": "6eafbcd7-ebde-5121-9f42-6e5a1395ccd9",
     "source": "inpost-hint",
     "ean": "5901330039270",
     "productCount": 1,
@@ -14610,7 +14625,7 @@
     "validInCategoryMap": true
   },
   "5901330034114": {
-    "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+    "categoryId": "3ccc18b9-2ef8-557c-92aa-798b05f5575a",
     "source": "inpost-hint",
     "ean": "5901330034114",
     "productCount": 1,
@@ -15225,7 +15240,7 @@
     "validInCategoryMap": true
   },
   "0033984017351": {
-    "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+    "categoryId": "6eafbcd7-ebde-5121-9f42-6e5a1395ccd9",
     "source": "inpost-hint",
     "ean": "0033984017351",
     "productCount": 1,
@@ -16920,7 +16935,7 @@
     "validInCategoryMap": false
   },
   "5904386000669": {
-    "categoryId": "1563b6f0-b584-57d4-a677-49cca69bddfb",
+    "categoryId": "c81dbc41-d90b-5cea-ad55-511bc9cb23b4",
     "source": "inpost-hint",
     "ean": "5904386000669",
     "productCount": 1,
@@ -16932,7 +16947,7 @@
         "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Pomadki i balsamy do ust"
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "5904386000881": {
     "categoryId": "1563b6f0-b584-57d4-a677-49cca69bddfb",
@@ -17085,7 +17100,7 @@
     "validInCategoryMap": true
   },
   "5060072605973": {
-    "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+    "categoryId": "887c536f-35d0-51dc-801d-eb39dd13f7d7",
     "source": "inpost-hint",
     "ean": "5060072605973",
     "productCount": 1,
@@ -17097,7 +17112,7 @@
         "categories": ""
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "5060072605935": {
     "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
@@ -17130,7 +17145,7 @@
     "validInCategoryMap": true
   },
   "5060072605942": {
-    "categoryId": "2209e67b-9c0a-514a-91bd-15af4128e35c",
+    "categoryId": "887c536f-35d0-51dc-801d-eb39dd13f7d7",
     "source": "inpost-hint",
     "ean": "5060072605942",
     "productCount": 1,
@@ -17145,7 +17160,7 @@
     "validInCategoryMap": true
   },
   "5060072605898": {
-    "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+    "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
     "source": "inpost-hint",
     "ean": "5060072605898",
     "productCount": 1,
@@ -17157,10 +17172,10 @@
         "categories": "Suplementy Diety > Odporność, Suplementy Diety > Odporność > Oleje i trany, Suplementy Diety > Samopoczucie i energia, Suplementy Diety"
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "5060072605904": {
-    "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+    "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
     "source": "inpost-hint",
     "ean": "5060072605904",
     "productCount": 1,
@@ -17172,7 +17187,7 @@
         "categories": "Suplementy Diety > Odporność, Suplementy Diety > Odporność > Oleje i trany, Suplementy Diety"
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "5060072606451": {
     "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
@@ -17214,6 +17229,21 @@
         "externalId": "5914",
         "name": "Gal Tran - 150szt",
         "sku": "5907501110106",
+        "categories": ""
+      }
+    ],
+    "validInCategoryMap": true
+  },
+  "5907501110021": {
+    "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+    "source": "inpost-hint",
+    "ean": "5907501110021",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "5915",
+        "name": "Gal Tran - 300szt",
+        "sku": "5907501110021",
         "categories": ""
       }
     ],
@@ -17415,7 +17445,7 @@
     "validInCategoryMap": true
   },
   "5902709522126": {
-    "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+    "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
     "source": "inpost-hint",
     "ean": "5902709522126",
     "productCount": 1,
@@ -17490,7 +17520,7 @@
     "validInCategoryMap": false
   },
   "5907546536190": {
-    "categoryId": "078dc602-369a-50a3-8cb1-c57828881208",
+    "categoryId": "f37f4f67-807b-5255-ad4a-7cdb98081931",
     "source": "inpost-hint",
     "ean": "5907546536190",
     "productCount": 1,
@@ -17502,7 +17532,7 @@
         "categories": "Dermokosmetyki, Dermokosmetyki > do Włosów, Dermokosmetyki > do Włosów > Maski do włosów"
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "5907546536268": {
     "categoryId": "2cc600df-24c6-5e5a-a35f-10fa2528b776",
@@ -17520,7 +17550,7 @@
     "validInCategoryMap": false
   },
   "5907546536299": {
-    "categoryId": "078dc602-369a-50a3-8cb1-c57828881208",
+    "categoryId": "2cc600df-24c6-5e5a-a35f-10fa2528b776",
     "source": "inpost-hint",
     "ean": "5907546536299",
     "productCount": 1,
@@ -17580,7 +17610,7 @@
     "validInCategoryMap": true
   },
   "5907546536206": {
-    "categoryId": "461288a1-9b48-5387-8a0e-00eef126099d",
+    "categoryId": "2c51605b-cab7-5f1e-99c5-4b2100f332b3",
     "source": "inpost-hint",
     "ean": "5907546536206",
     "productCount": 1,
@@ -17592,7 +17622,7 @@
         "categories": ""
       }
     ],
-    "validInCategoryMap": true
+    "validInCategoryMap": false
   },
   "5906204019655": {
     "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
@@ -18344,6 +18374,21 @@
     ],
     "validInCategoryMap": false
   },
+  "8437015942278": {
+    "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+    "source": "inpost-hint",
+    "ean": "8437015942278",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "6447",
+        "name": "Pigment Zero DSP-Bright Dark Spots Ampoules Serum",
+        "sku": "8437015942278",
+        "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy"
+      }
+    ],
+    "validInCategoryMap": true
+  },
   "8436589051157": {
     "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
     "source": "inpost-hint",
@@ -18360,7 +18405,7 @@
     "validInCategoryMap": false
   },
   "8436589052161": {
-    "categoryId": "0946b5bd-bf47-583c-80f8-b7d63b9c6532",
+    "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
     "source": "inpost-hint",
     "ean": "8436589052161",
     "productCount": 1,
@@ -18372,7 +18417,7 @@
         "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Serum do twarzy"
       }
     ],
-    "validInCategoryMap": true
+    "validInCategoryMap": false
   },
   "8436589051089": {
     "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
@@ -18390,7 +18435,7 @@
     "validInCategoryMap": false
   },
   "8436589051072": {
-    "categoryId": "0946b5bd-bf47-583c-80f8-b7d63b9c6532",
+    "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
     "source": "inpost-hint",
     "ean": "8436589051072",
     "productCount": 1,
@@ -18402,7 +18447,7 @@
         "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Serum do twarzy"
       }
     ],
-    "validInCategoryMap": true
+    "validInCategoryMap": false
   },
   "8436589051065": {
     "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
@@ -18445,6 +18490,21 @@
         "name": "The Originals Moisturising Mask Maska nawilżająca",
         "sku": "8437015942636",
         "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Maseczki i peeling"
+      }
+    ],
+    "validInCategoryMap": false
+  },
+  "8437000435150": {
+    "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
+    "source": "inpost-hint",
+    "ean": "8437000435150",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "6554",
+        "name": "The Originals Proteos Hydra Plus SP Serum nawilżające z antyoksydantami - 2ml x 10",
+        "sku": "8437000435150",
+        "categories": ""
       }
     ],
     "validInCategoryMap": false
@@ -20669,6 +20729,21 @@
     ],
     "validInCategoryMap": false
   },
+  "3522930004141": {
+    "categoryId": "8f113915-61d7-5b63-82fc-0e3fc440296a",
+    "source": "inpost-hint",
+    "ean": "3522930004141",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "15432",
+        "name": "Caudalie - Delikatny szampon do włosów",
+        "sku": "3522930004141",
+        "categories": "Dermokosmetyki > do Włosów > Szampony do włosów"
+      }
+    ],
+    "validInCategoryMap": false
+  },
   "3522930003427": {
     "categoryId": "7f096eb5-a9ae-5653-830f-e3e53d38f8df",
     "source": "inpost-hint",
@@ -20910,7 +20985,7 @@
     "validInCategoryMap": false
   },
   "3522930003182": {
-    "categoryId": "27631b8e-3574-5ffc-883b-6418dfd4f631",
+    "categoryId": "853ab193-27c8-5fac-a5d7-5250066fe918",
     "source": "inpost-hint",
     "ean": "3522930003182",
     "productCount": 1,
@@ -20922,7 +20997,7 @@
         "categories": ""
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "3522930003304": {
     "categoryId": "71b2a65e-1d7c-53df-a72d-11f5b00a4c4c",
@@ -22470,7 +22545,7 @@
     "validInCategoryMap": false
   },
   "5902596593032": {
-    "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+    "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
     "source": "inpost-hint",
     "ean": "5902596593032",
     "productCount": 1,
@@ -22560,7 +22635,7 @@
     "validInCategoryMap": true
   },
   "8032472020509": {
-    "categoryId": "980dff7f-0c9f-5d05-a891-af73ba89084e",
+    "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
     "source": "inpost-hint",
     "ean": "8032472020509",
     "productCount": 1,
@@ -22635,7 +22710,7 @@
     "validInCategoryMap": true
   },
   "5902596593018": {
-    "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+    "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
     "source": "inpost-hint",
     "ean": "5902596593018",
     "productCount": 1,

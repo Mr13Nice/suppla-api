@@ -7,10 +7,10 @@
     "csvRows": 2142,
     "uniqueEans": 1868,
     "rowsWithoutEan": 274,
-    "hintsFound": 1512,
-    "hintsNotFound": 356,
+    "hintsFound": 1517,
+    "hintsNotFound": 351,
     "requestErrors": 0,
-    "hintsWithCategoryNotInCategoryMap": 667
+    "hintsWithCategoryNotInCategoryMap": 655
   },
   "rowsWithoutEan": [
     {
@@ -1478,7 +1478,7 @@
           "externalId": "189",
           "name": "Cold Cream Delikatne mydło z organicznym woskiem pszczelim",
           "sku": "3504105036102",
-          "categories": "Dermokosmetyki, Dermokosmetyki > dla Dziecka, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Włosów > Mydła, Dermokosmetyki > do Ciała > Mydła"
+          "categories": "Dermokosmetyki, Dermokosmetyki > dla Dziecka, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Ciała > Mydła, Dermokosmetyki > do Włosów > Mydła"
         }
       ],
       "validInCategoryMap": false
@@ -2045,7 +2045,7 @@
     },
     {
       "ean": "5901643175801",
-      "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
+      "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
       "productCount": 1,
       "examples": [
         {
@@ -2055,7 +2055,7 @@
           "categories": "Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Płyny micelarne do twarzy"
         }
       ],
-      "validInCategoryMap": false
+      "validInCategoryMap": true
     },
     {
       "ean": "5901643172718",
@@ -2073,7 +2073,7 @@
     },
     {
       "ean": "5901643176389",
-      "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
+      "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
       "productCount": 1,
       "examples": [
         {
@@ -2083,7 +2083,7 @@
           "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Płyny micelarne do twarzy"
         }
       ],
-      "validInCategoryMap": true
+      "validInCategoryMap": false
     },
     {
       "ean": "5901643176471",
@@ -3641,7 +3641,7 @@
     },
     {
       "ean": "3282770142112",
-      "categoryId": "aaf70d45-42dd-508d-a8b8-d4e949e02812",
+      "categoryId": "c81dbc41-d90b-5cea-ad55-511bc9cb23b4",
       "productCount": 1,
       "examples": [
         {
@@ -3651,7 +3651,7 @@
           "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Pomadki i balsamy do ust"
         }
       ],
-      "validInCategoryMap": false
+      "validInCategoryMap": true
     },
     {
       "ean": "3282770111552",
@@ -4705,7 +4705,7 @@
     },
     {
       "ean": "5900717140615",
-      "categoryId": "ce743fc1-e886-5c08-b90f-510ce882c1ec",
+      "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
       "productCount": 1,
       "examples": [
         {
@@ -4715,7 +4715,7 @@
           "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Pianki\\,mleczka i żele do mycia twarzy"
         }
       ],
-      "validInCategoryMap": false
+      "validInCategoryMap": true
     },
     {
       "ean": "5900717140011",
@@ -4747,7 +4747,7 @@
     },
     {
       "ean": "5900717140127",
-      "categoryId": "a7e8f568-42ca-5fa6-b29c-cc86a957dcf1",
+      "categoryId": "27059afd-df03-563f-96c8-9d83a825573f",
       "productCount": 1,
       "examples": [
         {
@@ -4757,7 +4757,7 @@
           "categories": "Dermokosmetyki, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Włosów"
         }
       ],
-      "validInCategoryMap": false
+      "validInCategoryMap": true
     },
     {
       "ean": "5900717148222",
@@ -5153,7 +5153,7 @@
     },
     {
       "ean": "3264680027178",
-      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+      "categoryId": "1563b6f0-b584-57d4-a677-49cca69bddfb",
       "productCount": 1,
       "examples": [
         {
@@ -5163,7 +5163,7 @@
           "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Pomadki i balsamy do ust"
         }
       ],
-      "validInCategoryMap": true
+      "validInCategoryMap": false
     },
     {
       "ean": "5900717149106",
@@ -6035,7 +6035,7 @@
     },
     {
       "ean": "3282770114195",
-      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+      "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
       "productCount": 1,
       "examples": [
         {
@@ -6045,7 +6045,7 @@
           "categories": ""
         }
       ],
-      "validInCategoryMap": false
+      "validInCategoryMap": true
     },
     {
       "ean": "3264680015120",
@@ -7085,7 +7085,7 @@
     },
     {
       "ean": "5902751583458",
-      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+      "categoryId": "c1ef2384-5293-5738-bda7-4d8be1a25612",
       "productCount": 1,
       "examples": [
         {
@@ -7127,7 +7127,7 @@
     },
     {
       "ean": "3701129805060",
-      "categoryId": "30bb2b20-69c1-531d-900b-46a4ffc0443b",
+      "categoryId": "8f113915-61d7-5b63-82fc-0e3fc440296a",
       "productCount": 1,
       "examples": [
         {
@@ -7137,7 +7137,7 @@
           "categories": "Dermokosmetyki, Dermokosmetyki > do Włosów, Dermokosmetyki > do Włosów > Szampony do włosów"
         }
       ],
-      "validInCategoryMap": true
+      "validInCategoryMap": false
     },
     {
       "ean": "5904730878005",
@@ -7393,7 +7393,7 @@
     },
     {
       "ean": "3701129800225",
-      "categoryId": "2253681c-571d-504c-9030-7463006b38b4",
+      "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
       "productCount": 1,
       "examples": [
         {
@@ -7403,7 +7403,7 @@
           "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Kremy punktowe"
         }
       ],
-      "validInCategoryMap": false
+      "validInCategoryMap": true
     },
     {
       "ean": "5902751587210",
@@ -7715,7 +7715,7 @@
     },
     {
       "ean": "3337875597395",
-      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+      "categoryId": "980dff7f-0c9f-5d05-a891-af73ba89084e",
       "productCount": 1,
       "examples": [
         {
@@ -7725,7 +7725,7 @@
           "categories": ""
         }
       ],
-      "validInCategoryMap": false
+      "validInCategoryMap": true
     },
     {
       "ean": "3337875597296",
@@ -7841,7 +7841,7 @@
     },
     {
       "ean": "3337875597272",
-      "categoryId": "e4d0dca1-b497-517a-bf1b-8f0c5d393b94",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "productCount": 1,
       "examples": [
         {
@@ -8051,7 +8051,7 @@
     },
     {
       "ean": "7640114911095",
-      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+      "categoryId": "be442cf4-be3f-5165-a596-78a9c49eaabd",
       "productCount": 1,
       "examples": [
         {
@@ -8061,7 +8061,7 @@
           "categories": "Dermokosmetyki, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Ciała > Kremy i balsamy do rąk, Dermokosmetyki > do Ciała > Kremy i peeling do stóp, Dermokosmetyki > do Ciała > Kremy\\, balsamy i masła"
         }
       ],
-      "validInCategoryMap": false
+      "validInCategoryMap": true
     },
     {
       "ean": "7640114911071",
@@ -8107,7 +8107,7 @@
     },
     {
       "ean": "3337875586269",
-      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+      "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
       "productCount": 1,
       "examples": [
         {
@@ -8135,7 +8135,7 @@
     },
     {
       "ean": "0000030106659",
-      "categoryId": "c81dbc41-d90b-5cea-ad55-511bc9cb23b4",
+      "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
       "productCount": 1,
       "examples": [
         {
@@ -8359,7 +8359,7 @@
     },
     {
       "ean": "3337875722827",
-      "categoryId": "a7e8f568-42ca-5fa6-b29c-cc86a957dcf1",
+      "categoryId": "0946b5bd-bf47-583c-80f8-b7d63b9c6532",
       "productCount": 1,
       "examples": [
         {
@@ -8369,7 +8369,7 @@
           "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Serum do twarzy"
         }
       ],
-      "validInCategoryMap": false
+      "validInCategoryMap": true
     },
     {
       "ean": "3337875549493",
@@ -8541,7 +8541,7 @@
     },
     {
       "ean": "3401360081451",
-      "categoryId": "2253681c-571d-504c-9030-7463006b38b4",
+      "categoryId": "ba32365a-b721-5e74-ab25-1ac010b3c98c",
       "productCount": 1,
       "examples": [
         {
@@ -9199,7 +9199,7 @@
     },
     {
       "ean": "3701129800843",
-      "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
+      "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
       "productCount": 1,
       "examples": [
         {
@@ -9209,7 +9209,7 @@
           "categories": ""
         }
       ],
-      "validInCategoryMap": true
+      "validInCategoryMap": false
     },
     {
       "ean": "3337875807043",
@@ -9434,6 +9434,20 @@
         }
       ],
       "validInCategoryMap": true
+    },
+    {
+      "ean": "3401346673564",
+      "categoryId": "2c51605b-cab7-5f1e-99c5-4b2100f332b3",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "3927",
+          "name": "Sensibio Mask Maseczka łagodząco-nawilżająca skóra wrażliwa i nadrważliwa",
+          "sku": "3401346673564",
+          "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Maseczki i peeling"
+        }
+      ],
+      "validInCategoryMap": false
     },
     {
       "ean": "5907377138914",
@@ -9689,7 +9703,7 @@
     },
     {
       "ean": "5907377136743",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "productCount": 1,
       "examples": [
         {
@@ -9738,14 +9752,14 @@
           "externalId": "4000",
           "name": "Immuno Kids",
           "sku": "5903031283037",
-          "categories": "Macierzyństwo > Dla dzieci, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety"
+          "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Odporność, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety"
         }
       ],
       "validInCategoryMap": false
     },
     {
       "ean": "5903031283945",
-      "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "productCount": 1,
       "examples": [
         {
@@ -9755,7 +9769,7 @@
           "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety, Macierzyństwo > Dla dzieci > Witaminy i minerały"
         }
       ],
-      "validInCategoryMap": false
+      "validInCategoryMap": true
     },
     {
       "ean": "5903031287424",
@@ -10081,7 +10095,7 @@
     },
     {
       "ean": "5907377136729",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "productCount": 1,
       "examples": [
         {
@@ -10123,7 +10137,7 @@
     },
     {
       "ean": "5907377136903",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "bb0fb27a-aee1-5686-97c8-f066b0d766e5",
       "productCount": 1,
       "examples": [
         {
@@ -10417,7 +10431,7 @@
     },
     {
       "ean": "5904960011241",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
       "productCount": 1,
       "examples": [
         {
@@ -10599,7 +10613,7 @@
     },
     {
       "ean": "5904960017410",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
       "productCount": 1,
       "examples": [
         {
@@ -10711,7 +10725,7 @@
     },
     {
       "ean": "5904960017090",
-      "categoryId": "c1a9f74c-9a44-519d-9522-fdcab4bc7ac9",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "productCount": 1,
       "examples": [
         {
@@ -10721,7 +10735,7 @@
           "categories": ""
         }
       ],
-      "validInCategoryMap": false
+      "validInCategoryMap": true
     },
     {
       "ean": "5904960017441",
@@ -11089,7 +11103,7 @@
     },
     {
       "ean": "5904960018554",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
       "productCount": 1,
       "examples": [
         {
@@ -11257,7 +11271,7 @@
     },
     {
       "ean": "3337871318901",
-      "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
+      "categoryId": "71328672-5d78-54cb-ba36-725d39e7ffa3",
       "productCount": 1,
       "examples": [
         {
@@ -11267,7 +11281,7 @@
           "categories": "Dermokosmetyki, Dermokosmetyki > dla Mężczyzn, Dermokosmetyki > dla Mężczyzn > Produkty do golenia"
         }
       ],
-      "validInCategoryMap": true
+      "validInCategoryMap": false
     },
     {
       "ean": "5907774335077",
@@ -11621,7 +11635,7 @@
     },
     {
       "ean": "5906204020927",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
       "productCount": 1,
       "examples": [
         {
@@ -11803,7 +11817,7 @@
     },
     {
       "ean": "5900161004488",
-      "categoryId": "1563b6f0-b584-57d4-a677-49cca69bddfb",
+      "categoryId": "c81dbc41-d90b-5cea-ad55-511bc9cb23b4",
       "productCount": 1,
       "examples": [
         {
@@ -11813,7 +11827,7 @@
           "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy > Pomadki i balsamy do ust"
         }
       ],
-      "validInCategoryMap": false
+      "validInCategoryMap": true
     },
     {
       "ean": "5900008027366",
@@ -12321,7 +12335,7 @@
     },
     {
       "ean": "3662042003806",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "bb0fb27a-aee1-5686-97c8-f066b0d766e5",
       "productCount": 1,
       "examples": [
         {
@@ -12475,7 +12489,7 @@
     },
     {
       "ean": "7070866031343",
-      "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+      "categoryId": "06580ad5-4491-5e61-b375-0fe06d98b09e",
       "productCount": 1,
       "examples": [
         {
@@ -12485,11 +12499,11 @@
           "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Witaminy i minerały > Multiwitaminy, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety, Suplementy Diety > Witaminy i minerały, Macierzyństwo > Dla dzieci > Witaminy i minerały"
         }
       ],
-      "validInCategoryMap": false
+      "validInCategoryMap": true
     },
     {
       "ean": "7070866031374",
-      "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
       "productCount": 1,
       "examples": [
         {
@@ -12499,7 +12513,7 @@
           "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Witaminy i minerały > Multiwitaminy, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety, Macierzyństwo > Dla dzieci > Witaminy i minerały, Suplementy Diety > Witaminy i minerały"
         }
       ],
-      "validInCategoryMap": false
+      "validInCategoryMap": true
     },
     {
       "ean": "5702071503828",
@@ -12685,7 +12699,7 @@
     },
     {
       "ean": "5906716507633",
-      "categoryId": "188de254-d124-525a-92e2-2ca50cdb3ef9",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "productCount": 1,
       "examples": [
         {
@@ -12695,7 +12709,7 @@
           "categories": "Macierzyństwo > Ciąża, Suplementy Diety, Macierzyństwo > Ciąża > Zestawy witamin dla kobiet w ciąży"
         }
       ],
-      "validInCategoryMap": false
+      "validInCategoryMap": true
     },
     {
       "ean": "5906190437082",
@@ -12783,7 +12797,7 @@
     },
     {
       "ean": "5903031283907",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "productCount": 1,
       "examples": [
         {
@@ -12937,7 +12951,7 @@
     },
     {
       "ean": "5907222805978",
-      "categoryId": "ab615d49-da5f-59c0-ae50-a412c2af348e",
+      "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
       "productCount": 1,
       "examples": [
         {
@@ -12947,7 +12961,7 @@
           "categories": "Suplementy Diety > Kości i stawy > Kolagen, Suplementy Diety > Kości i stawy, Suplementy Diety, Suplementy Diety > Uroda"
         }
       ],
-      "validInCategoryMap": false
+      "validInCategoryMap": true
     },
     {
       "ean": "5904538691462",
@@ -12965,7 +12979,7 @@
     },
     {
       "ean": "7640153060495",
-      "categoryId": "7efffd5d-4726-55e9-937a-bfba75455bce",
+      "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
       "productCount": 1,
       "examples": [
         {
@@ -13721,7 +13735,7 @@
     },
     {
       "ean": "5903263900924",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "productCount": 1,
       "examples": [
         {
@@ -13945,7 +13959,7 @@
     },
     {
       "ean": "5902891176343",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
       "productCount": 1,
       "examples": [
         {
@@ -14050,14 +14064,14 @@
           "externalId": "5109",
           "name": "Grinovita Junior",
           "sku": "5901716993349",
-          "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Odporność, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety"
+          "categories": "Macierzyństwo > Dla dzieci, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety"
         }
       ],
       "validInCategoryMap": true
     },
     {
       "ean": "5901716993400",
-      "categoryId": "36b525a4-3717-5739-94c4-52485ed49732",
+      "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
       "productCount": 1,
       "examples": [
         {
@@ -14067,7 +14081,7 @@
           "categories": "Suplementy Diety > Odporność, Suplementy Diety"
         }
       ],
-      "validInCategoryMap": false
+      "validInCategoryMap": true
     },
     {
       "ean": "5906204021078",
@@ -14113,7 +14127,7 @@
     },
     {
       "ean": "5901330039270",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "6eafbcd7-ebde-5121-9f42-6e5a1395ccd9",
       "productCount": 1,
       "examples": [
         {
@@ -15023,7 +15037,7 @@
     },
     {
       "ean": "5901330034114",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "3ccc18b9-2ef8-557c-92aa-798b05f5575a",
       "productCount": 1,
       "examples": [
         {
@@ -15597,7 +15611,7 @@
     },
     {
       "ean": "0033984017351",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "6eafbcd7-ebde-5121-9f42-6e5a1395ccd9",
       "productCount": 1,
       "examples": [
         {
@@ -17179,7 +17193,7 @@
     },
     {
       "ean": "5904386000669",
-      "categoryId": "1563b6f0-b584-57d4-a677-49cca69bddfb",
+      "categoryId": "c81dbc41-d90b-5cea-ad55-511bc9cb23b4",
       "productCount": 1,
       "examples": [
         {
@@ -17189,7 +17203,7 @@
           "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Pomadki i balsamy do ust"
         }
       ],
-      "validInCategoryMap": false
+      "validInCategoryMap": true
     },
     {
       "ean": "5904386000881",
@@ -17333,7 +17347,7 @@
     },
     {
       "ean": "5060072605973",
-      "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+      "categoryId": "887c536f-35d0-51dc-801d-eb39dd13f7d7",
       "productCount": 1,
       "examples": [
         {
@@ -17343,7 +17357,7 @@
           "categories": ""
         }
       ],
-      "validInCategoryMap": false
+      "validInCategoryMap": true
     },
     {
       "ean": "5060072605935",
@@ -17375,7 +17389,7 @@
     },
     {
       "ean": "5060072605942",
-      "categoryId": "2209e67b-9c0a-514a-91bd-15af4128e35c",
+      "categoryId": "887c536f-35d0-51dc-801d-eb39dd13f7d7",
       "productCount": 1,
       "examples": [
         {
@@ -17389,7 +17403,7 @@
     },
     {
       "ean": "5060072605898",
-      "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+      "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
       "productCount": 1,
       "examples": [
         {
@@ -17399,11 +17413,11 @@
           "categories": "Suplementy Diety > Odporność, Suplementy Diety > Odporność > Oleje i trany, Suplementy Diety > Samopoczucie i energia, Suplementy Diety"
         }
       ],
-      "validInCategoryMap": false
+      "validInCategoryMap": true
     },
     {
       "ean": "5060072605904",
-      "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+      "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
       "productCount": 1,
       "examples": [
         {
@@ -17413,7 +17427,7 @@
           "categories": "Suplementy Diety > Odporność, Suplementy Diety > Odporność > Oleje i trany, Suplementy Diety"
         }
       ],
-      "validInCategoryMap": false
+      "validInCategoryMap": true
     },
     {
       "ean": "5060072606451",
@@ -17452,6 +17466,20 @@
           "externalId": "5914",
           "name": "Gal Tran - 150szt",
           "sku": "5907501110106",
+          "categories": ""
+        }
+      ],
+      "validInCategoryMap": true
+    },
+    {
+      "ean": "5907501110021",
+      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "5915",
+          "name": "Gal Tran - 300szt",
+          "sku": "5907501110021",
           "categories": ""
         }
       ],
@@ -17641,7 +17669,7 @@
     },
     {
       "ean": "5902709522126",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
       "productCount": 1,
       "examples": [
         {
@@ -17711,7 +17739,7 @@
     },
     {
       "ean": "5907546536190",
-      "categoryId": "078dc602-369a-50a3-8cb1-c57828881208",
+      "categoryId": "f37f4f67-807b-5255-ad4a-7cdb98081931",
       "productCount": 1,
       "examples": [
         {
@@ -17721,7 +17749,7 @@
           "categories": "Dermokosmetyki, Dermokosmetyki > do Włosów, Dermokosmetyki > do Włosów > Maski do włosów"
         }
       ],
-      "validInCategoryMap": false
+      "validInCategoryMap": true
     },
     {
       "ean": "5907546536268",
@@ -17739,7 +17767,7 @@
     },
     {
       "ean": "5907546536299",
-      "categoryId": "078dc602-369a-50a3-8cb1-c57828881208",
+      "categoryId": "2cc600df-24c6-5e5a-a35f-10fa2528b776",
       "productCount": 1,
       "examples": [
         {
@@ -17795,7 +17823,7 @@
     },
     {
       "ean": "5907546536206",
-      "categoryId": "461288a1-9b48-5387-8a0e-00eef126099d",
+      "categoryId": "2c51605b-cab7-5f1e-99c5-4b2100f332b3",
       "productCount": 1,
       "examples": [
         {
@@ -17805,7 +17833,7 @@
           "categories": ""
         }
       ],
-      "validInCategoryMap": true
+      "validInCategoryMap": false
     },
     {
       "ean": "5906204019655",
@@ -18508,6 +18536,20 @@
       "validInCategoryMap": false
     },
     {
+      "ean": "8437015942278",
+      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "6447",
+          "name": "Pigment Zero DSP-Bright Dark Spots Ampoules Serum",
+          "sku": "8437015942278",
+          "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy"
+        }
+      ],
+      "validInCategoryMap": true
+    },
+    {
       "ean": "8436589051157",
       "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
       "productCount": 1,
@@ -18523,7 +18565,7 @@
     },
     {
       "ean": "8436589052161",
-      "categoryId": "0946b5bd-bf47-583c-80f8-b7d63b9c6532",
+      "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
       "productCount": 1,
       "examples": [
         {
@@ -18533,7 +18575,7 @@
           "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Serum do twarzy"
         }
       ],
-      "validInCategoryMap": true
+      "validInCategoryMap": false
     },
     {
       "ean": "8436589051089",
@@ -18551,7 +18593,7 @@
     },
     {
       "ean": "8436589051072",
-      "categoryId": "0946b5bd-bf47-583c-80f8-b7d63b9c6532",
+      "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
       "productCount": 1,
       "examples": [
         {
@@ -18561,7 +18603,7 @@
           "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Serum do twarzy"
         }
       ],
-      "validInCategoryMap": true
+      "validInCategoryMap": false
     },
     {
       "ean": "8436589051065",
@@ -18601,6 +18643,20 @@
           "name": "The Originals Moisturising Mask Maska nawilżająca",
           "sku": "8437015942636",
           "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Maseczki i peeling"
+        }
+      ],
+      "validInCategoryMap": false
+    },
+    {
+      "ean": "8437000435150",
+      "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "6554",
+          "name": "The Originals Proteos Hydra Plus SP Serum nawilżające z antyoksydantami - 2ml x 10",
+          "sku": "8437000435150",
+          "categories": ""
         }
       ],
       "validInCategoryMap": false
@@ -20678,6 +20734,20 @@
       "validInCategoryMap": false
     },
     {
+      "ean": "3522930004141",
+      "categoryId": "8f113915-61d7-5b63-82fc-0e3fc440296a",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "15432",
+          "name": "Caudalie - Delikatny szampon do włosów",
+          "sku": "3522930004141",
+          "categories": "Dermokosmetyki > do Włosów > Szampony do włosów"
+        }
+      ],
+      "validInCategoryMap": false
+    },
+    {
       "ean": "3522930003427",
       "categoryId": "7f096eb5-a9ae-5653-830f-e3e53d38f8df",
       "productCount": 1,
@@ -20903,7 +20973,7 @@
     },
     {
       "ean": "3522930003182",
-      "categoryId": "27631b8e-3574-5ffc-883b-6418dfd4f631",
+      "categoryId": "853ab193-27c8-5fac-a5d7-5250066fe918",
       "productCount": 1,
       "examples": [
         {
@@ -20913,7 +20983,7 @@
           "categories": ""
         }
       ],
-      "validInCategoryMap": false
+      "validInCategoryMap": true
     },
     {
       "ean": "3522930003304",
@@ -22359,7 +22429,7 @@
     },
     {
       "ean": "5902596593032",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "productCount": 1,
       "examples": [
         {
@@ -22443,7 +22513,7 @@
     },
     {
       "ean": "8032472020509",
-      "categoryId": "980dff7f-0c9f-5d05-a891-af73ba89084e",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "productCount": 1,
       "examples": [
         {
@@ -22513,7 +22583,7 @@
     },
     {
       "ean": "5902596593018",
-      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
       "productCount": 1,
       "examples": [
         {
@@ -25001,21 +25071,7 @@
           "externalId": "3925",
           "name": "Canaticann Pastylki do ssania CBD 10mg",
           "sku": "5904257045096",
-          "categories": "Suplementy Diety > Odporność, Suplementy Diety > Odporność > Oleje konopne, Suplementy Diety > Samopoczucie i energia > Oleje konopne, Suplementy Diety > Samopoczucie i energia, Suplementy Diety"
-        }
-      ]
-    },
-    {
-      "ean": "3401346673564",
-      "reason": "HINT_NOT_FOUND_404",
-      "status": 404,
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "3927",
-          "name": "Sensibio Mask Maseczka łagodząco-nawilżająca skóra wrażliwa i nadrważliwa",
-          "sku": "3401346673564",
-          "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Maseczki i peeling"
+          "categories": "Suplementy Diety > Odporność, Suplementy Diety > Samopoczucie i energia > Oleje konopne, Suplementy Diety > Odporność > Oleje konopne, Suplementy Diety > Samopoczucie i energia, Suplementy Diety"
         }
       ]
     },
@@ -26000,20 +26056,6 @@
       ]
     },
     {
-      "ean": "5907501110021",
-      "reason": "HINT_NOT_FOUND_404",
-      "status": 404,
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "5915",
-          "name": "Gal Tran - 300szt",
-          "sku": "5907501110021",
-          "categories": ""
-        }
-      ]
-    },
-    {
       "ean": "5902709521181",
       "reason": "HINT_NOT_FOUND_404",
       "status": 404,
@@ -26434,20 +26476,6 @@
       ]
     },
     {
-      "ean": "8437015942278",
-      "reason": "HINT_NOT_FOUND_404",
-      "status": 404,
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "6447",
-          "name": "Pigment Zero DSP-Bright Dark Spots Ampoules Serum",
-          "sku": "8437015942278",
-          "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy"
-        }
-      ]
-    },
-    {
       "ean": "8437000435129",
       "reason": "HINT_NOT_FOUND_404",
       "status": 404,
@@ -26625,20 +26653,6 @@
           "externalId": "6529",
           "name": "The Originals Formula Nᵒ10 HD Color Touch Serum nawilżająco-ujędrniające SPF 30 - 2ml x 30",
           "sku": "8436589050532",
-          "categories": ""
-        }
-      ]
-    },
-    {
-      "ean": "8437000435150",
-      "reason": "HINT_NOT_FOUND_404",
-      "status": 404,
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "6554",
-          "name": "The Originals Proteos Hydra Plus SP Serum nawilżające z antyoksydantami - 2ml x 10",
-          "sku": "8437000435150",
           "categories": ""
         }
       ]
@@ -27116,20 +27130,6 @@
           "name": "Caudalie Vinosculpt - Drenująca ekoherbata ziołowa",
           "sku": "3522930004219",
           "categories": "Suplementy Diety > Dieta i układ pokarmowy, Suplementy Diety > Odporność > Preparaty ziołowe, Suplementy Diety"
-        }
-      ]
-    },
-    {
-      "ean": "3522930004141",
-      "reason": "HINT_NOT_FOUND_404",
-      "status": 404,
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "15432",
-          "name": "Caudalie - Delikatny szampon do włosów",
-          "sku": "3522930004141",
-          "categories": "Dermokosmetyki > do Włosów > Szampony do włosów"
         }
       ]
     },
@@ -27629,7 +27629,7 @@
           "externalId": "189",
           "name": "Cold Cream Delikatne mydło z organicznym woskiem pszczelim",
           "sku": "3504105036102",
-          "categories": "Dermokosmetyki, Dermokosmetyki > dla Dziecka, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Włosów > Mydła, Dermokosmetyki > do Ciała > Mydła"
+          "categories": "Dermokosmetyki, Dermokosmetyki > dla Dziecka, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Ciała > Mydła, Dermokosmetyki > do Włosów > Mydła"
         }
       ]
     },
@@ -28037,15 +28037,15 @@
       ]
     },
     {
-      "ean": "5901643175801",
+      "ean": "5901643176389",
       "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
       "productCount": 1,
       "examples": [
         {
-          "externalId": "408",
-          "name": "Hydrain 3 Hialuro Duopack Płyn micelarny H2O",
-          "sku": "5901643175801",
-          "categories": "Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Płyny micelarne do twarzy"
+          "externalId": "421",
+          "name": "Redness Calm Płyn micelarny H2O",
+          "sku": "5901643176389",
+          "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Płyny micelarne do twarzy"
         }
       ]
     },
@@ -28869,19 +28869,6 @@
       ]
     },
     {
-      "ean": "3282770142112",
-      "categoryId": "aaf70d45-42dd-508d-a8b8-d4e949e02812",
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "1304",
-          "name": "Cold Cream Nutrition Odżywcza pomadka do ust",
-          "sku": "3282770142112",
-          "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Pomadki i balsamy do ust"
-        }
-      ]
-    },
-    {
       "ean": "3282770153217",
       "categoryId": "91ef0a45-29de-533d-b3d6-483b166b9dec",
       "productCount": 1,
@@ -29376,19 +29363,6 @@
       ]
     },
     {
-      "ean": "5900717140615",
-      "categoryId": "ce743fc1-e886-5c08-b90f-510ce882c1ec",
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "2015",
-          "name": "T Sebo-Almond-Claris Oczyszczający płyn bakteriostatyczny",
-          "sku": "5900717140615",
-          "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Pianki\\,mleczka i żele do mycia twarzy"
-        }
-      ]
-    },
-    {
       "ean": "5900717141711",
       "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
       "productCount": 1,
@@ -29398,19 +29372,6 @@
           "name": "DS Octopirox Kojący krem",
           "sku": "5900717141711",
           "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Kremy na dzień, Dermokosmetyki > do Twarzy > Kremy na noc"
-        }
-      ]
-    },
-    {
-      "ean": "5900717140127",
-      "categoryId": "a7e8f568-42ca-5fa6-b29c-cc86a957dcf1",
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "2044",
-          "name": "DS Octopirox Scalp-Tonicum Preparat zmniejszający łuszczenie i zaczerwienienie",
-          "sku": "5900717140127",
-          "categories": "Dermokosmetyki, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Włosów"
         }
       ]
     },
@@ -29619,6 +29580,19 @@
           "name": "V Viti-Melo-Night Krem dla skóry z problemem bielactwa na noc",
           "sku": "5900717167117",
           "categories": "Dermokosmetyki, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Kremy na noc"
+        }
+      ]
+    },
+    {
+      "ean": "3264680027178",
+      "categoryId": "1563b6f0-b584-57d4-a677-49cca69bddfb",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "2303",
+          "name": "Very Rose Balsam do ust różany",
+          "sku": "3264680027178",
+          "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Pomadki i balsamy do ust"
         }
       ]
     },
@@ -30221,19 +30195,6 @@
       ]
     },
     {
-      "ean": "3282770114195",
-      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "2726",
-          "name": "XeraCalm A.D Krem uzupełniający lipidy - 400ml",
-          "sku": "3282770114195",
-          "categories": ""
-        }
-      ]
-    },
-    {
       "ean": "3264680015120",
       "categoryId": "65e3ce84-7c3f-564c-b549-b9f729fbca89",
       "productCount": 1,
@@ -30820,7 +30781,7 @@
     },
     {
       "ean": "5902751583458",
-      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+      "categoryId": "c1ef2384-5293-5738-bda7-4d8be1a25612",
       "productCount": 1,
       "examples": [
         {
@@ -30854,6 +30815,19 @@
           "name": "Seboradin Oily Hair - Szampon do mycia włosów przetłuszczających się i skłonnych do wypadania - 400ml",
           "sku": "5902751586558",
           "categories": ""
+        }
+      ]
+    },
+    {
+      "ean": "3701129805060",
+      "categoryId": "8f113915-61d7-5b63-82fc-0e3fc440296a",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "3096",
+          "name": "Node DS+ Shampooing Szampon przeciwłupieżowy",
+          "sku": "3701129805060",
+          "categories": "Dermokosmetyki, Dermokosmetyki > do Włosów, Dermokosmetyki > do Włosów > Szampony do włosów"
         }
       ]
     },
@@ -31010,19 +30984,6 @@
           "name": "Seboradin Oily Hair - Ampułki kuracja wzmacniająca i regenerująca włosy - 5,5ml x 14",
           "sku": "5907718948929",
           "categories": ""
-        }
-      ]
-    },
-    {
-      "ean": "3701129800225",
-      "categoryId": "2253681c-571d-504c-9030-7463006b38b4",
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "3217",
-          "name": "Cicabio Lotion Kojąco-regenerujący lotion osuszający rany i hamujący sączenie",
-          "sku": "3701129800225",
-          "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Kremy punktowe"
         }
       ]
     },
@@ -31209,19 +31170,6 @@
       ]
     },
     {
-      "ean": "3337875597395",
-      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "3302",
-          "name": "CeraVe Emulsja nawilżająca - 473ml",
-          "sku": "3337875597395",
-          "categories": ""
-        }
-      ]
-    },
-    {
       "ean": "3337875597296",
       "categoryId": "a7c0df0a-e36b-5268-9130-8664f702ed4a",
       "productCount": 1,
@@ -31365,19 +31313,6 @@
       ]
     },
     {
-      "ean": "7640114911095",
-      "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "3405",
-          "name": "Vitella Zn Krem witaminowy",
-          "sku": "7640114911095",
-          "categories": "Dermokosmetyki, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Ciała > Kremy i balsamy do rąk, Dermokosmetyki > do Ciała > Kremy i peeling do stóp, Dermokosmetyki > do Ciała > Kremy\\, balsamy i masła"
-        }
-      ]
-    },
-    {
       "ean": "3337875816809",
       "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
       "productCount": 1,
@@ -31495,19 +31430,6 @@
       ]
     },
     {
-      "ean": "3337875722827",
-      "categoryId": "a7e8f568-42ca-5fa6-b29c-cc86a957dcf1",
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "3487",
-          "name": "Effaclar Skoncentrowane serum przeciw niedoskonałościom",
-          "sku": "3337875722827",
-          "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Serum do twarzy"
-        }
-      ]
-    },
-    {
       "ean": "3337875549493",
       "categoryId": "a7e8f568-42ca-5fa6-b29c-cc86a957dcf1",
       "productCount": 1,
@@ -31600,7 +31522,7 @@
     },
     {
       "ean": "3401360081451",
-      "categoryId": "2253681c-571d-504c-9030-7463006b38b4",
+      "categoryId": "ba32365a-b721-5e74-ab25-1ac010b3c98c",
       "productCount": 1,
       "examples": [
         {
@@ -31937,6 +31859,19 @@
       ]
     },
     {
+      "ean": "3701129800843",
+      "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "3819",
+          "name": "Sensibio Gel Moussant Łagodzący żel micelarny do mycia twarzy skóra wrażliwa i nadwrażliwa - 500ml",
+          "sku": "3701129800843",
+          "categories": ""
+        }
+      ]
+    },
+    {
       "ean": "3337875807043",
       "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
       "productCount": 1,
@@ -32054,6 +31989,19 @@
       ]
     },
     {
+      "ean": "3401346673564",
+      "categoryId": "2c51605b-cab7-5f1e-99c5-4b2100f332b3",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "3927",
+          "name": "Sensibio Mask Maseczka łagodząco-nawilżająca skóra wrażliwa i nadrważliwa",
+          "sku": "3401346673564",
+          "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Maseczki i peeling"
+        }
+      ]
+    },
+    {
       "ean": "5903031283037",
       "categoryId": "81ebb9c9-1689-5ceb-840c-9edf2604bce2",
       "productCount": 1,
@@ -32062,20 +32010,7 @@
           "externalId": "4000",
           "name": "Immuno Kids",
           "sku": "5903031283037",
-          "categories": "Macierzyństwo > Dla dzieci, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety"
-        }
-      ]
-    },
-    {
-      "ean": "5903031283945",
-      "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "4003",
-          "name": "Witamina C Kids",
-          "sku": "5903031283945",
-          "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety, Macierzyństwo > Dla dzieci > Witaminy i minerały"
+          "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Odporność, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety"
         }
       ]
     },
@@ -32249,19 +32184,6 @@
       ]
     },
     {
-      "ean": "5904960017090",
-      "categoryId": "c1a9f74c-9a44-519d-9522-fdcab4bc7ac9",
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "4237",
-          "name": "D-Vitum 800 j.m. dla dzieci - 30szt",
-          "sku": "5904960017090",
-          "categories": ""
-        }
-      ]
-    },
-    {
       "ean": "5904960017441",
       "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
       "productCount": 1,
@@ -32336,6 +32258,19 @@
           "name": "Vichy Woda termalna",
           "sku": "3337871308612",
           "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Mgiełki i wody termalne"
+        }
+      ]
+    },
+    {
+      "ean": "3337871318901",
+      "categoryId": "71328672-5d78-54cb-ba36-725d39e7ffa3",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "4366",
+          "name": "Homme Sensi Shave Łagodna pianka do golenia przeciw podrażnieniom",
+          "sku": "3337871318901",
+          "categories": "Dermokosmetyki, Dermokosmetyki > dla Mężczyzn, Dermokosmetyki > dla Mężczyzn > Produkty do golenia"
         }
       ]
     },
@@ -32457,19 +32392,6 @@
       ]
     },
     {
-      "ean": "5900161004488",
-      "categoryId": "1563b6f0-b584-57d4-a677-49cca69bddfb",
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "4517",
-          "name": "Everyday Pomadka do ust",
-          "sku": "5900161004488",
-          "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy > Pomadki i balsamy do ust"
-        }
-      ]
-    },
-    {
       "ean": "3337875774123",
       "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
       "productCount": 1,
@@ -32522,45 +32444,6 @@
       ]
     },
     {
-      "ean": "7070866031343",
-      "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "4752",
-          "name": "Bodymisie o smaku coli",
-          "sku": "7070866031343",
-          "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Witaminy i minerały > Multiwitaminy, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety, Suplementy Diety > Witaminy i minerały, Macierzyństwo > Dla dzieci > Witaminy i minerały"
-        }
-      ]
-    },
-    {
-      "ean": "7070866031374",
-      "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "4754",
-          "name": "Bodymisie o smaku owocowym",
-          "sku": "7070866031374",
-          "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Witaminy i minerały > Multiwitaminy, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety, Macierzyństwo > Dla dzieci > Witaminy i minerały, Suplementy Diety > Witaminy i minerały"
-        }
-      ]
-    },
-    {
-      "ean": "5906716507633",
-      "categoryId": "188de254-d124-525a-92e2-2ca50cdb3ef9",
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "4802",
-          "name": "Pregna DHA",
-          "sku": "5906716507633",
-          "categories": "Macierzyństwo > Ciąża, Suplementy Diety, Macierzyństwo > Ciąża > Zestawy witamin dla kobiet w ciąży"
-        }
-      ]
-    },
-    {
       "ean": "5903031283921",
       "categoryId": "ebbe3af1-5787-5dc1-8502-c0ccf26ad2a1",
       "productCount": 1,
@@ -32570,19 +32453,6 @@
           "name": "Pueria Duo",
           "sku": "5903031283921",
           "categories": "Macierzyństwo > Ciąża, Suplementy Diety, Macierzyństwo > Ciąża > Zestawy witamin dla kobiet w ciąży"
-        }
-      ]
-    },
-    {
-      "ean": "5907222805978",
-      "categoryId": "ab615d49-da5f-59c0-ae50-a412c2af348e",
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "4853",
-          "name": "Primabiotic Collagen",
-          "sku": "5907222805978",
-          "categories": "Suplementy Diety > Kości i stawy > Kolagen, Suplementy Diety > Kości i stawy, Suplementy Diety, Suplementy Diety > Uroda"
         }
       ]
     },
@@ -32609,19 +32479,6 @@
           "name": "Sanostol - 30szt",
           "sku": "5903263900238",
           "categories": ""
-        }
-      ]
-    },
-    {
-      "ean": "5901716993400",
-      "categoryId": "36b525a4-3717-5739-94c4-52485ed49732",
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "5111",
-          "name": "Grinovita Imbir",
-          "sku": "5901716993400",
-          "categories": "Suplementy Diety > Odporność, Suplementy Diety"
         }
       ]
     },
@@ -33380,19 +33237,6 @@
       ]
     },
     {
-      "ean": "5904386000669",
-      "categoryId": "1563b6f0-b584-57d4-a677-49cca69bddfb",
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "5866",
-          "name": "Tisane Balsam do ust w sztyfcie",
-          "sku": "5904386000669",
-          "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Pomadki i balsamy do ust"
-        }
-      ]
-    },
-    {
       "ean": "5904386000881",
       "categoryId": "1563b6f0-b584-57d4-a677-49cca69bddfb",
       "productCount": 1,
@@ -33432,19 +33276,6 @@
       ]
     },
     {
-      "ean": "5060072605973",
-      "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "5888",
-          "name": "Equazen Kapsułki - 60szt",
-          "sku": "5060072605973",
-          "categories": ""
-        }
-      ]
-    },
-    {
       "ean": "5060072605935",
       "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
       "productCount": 1,
@@ -33454,32 +33285,6 @@
           "name": "Equazen Kapsułki do żucia - 240szt",
           "sku": "5060072605935",
           "categories": ""
-        }
-      ]
-    },
-    {
-      "ean": "5060072605898",
-      "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "5904",
-          "name": "Equazen Płyn smak waniliowy",
-          "sku": "5060072605898",
-          "categories": "Suplementy Diety > Odporność, Suplementy Diety > Odporność > Oleje i trany, Suplementy Diety > Samopoczucie i energia, Suplementy Diety"
-        }
-      ]
-    },
-    {
-      "ean": "5060072605904",
-      "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "5906",
-          "name": "Equazen Płyn smak cytrynowym",
-          "sku": "5060072605904",
-          "categories": "Suplementy Diety > Odporność, Suplementy Diety > Odporność > Oleje i trany, Suplementy Diety"
         }
       ]
     },
@@ -33601,19 +33406,6 @@
       ]
     },
     {
-      "ean": "5907546536190",
-      "categoryId": "078dc602-369a-50a3-8cb1-c57828881208",
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "6020",
-          "name": "Colostrum Genactiv Maska",
-          "sku": "5907546536190",
-          "categories": "Dermokosmetyki, Dermokosmetyki > do Włosów, Dermokosmetyki > do Włosów > Maski do włosów"
-        }
-      ]
-    },
-    {
       "ean": "5907546536268",
       "categoryId": "2cc600df-24c6-5e5a-a35f-10fa2528b776",
       "productCount": 1,
@@ -33628,7 +33420,7 @@
     },
     {
       "ean": "5907546536299",
-      "categoryId": "078dc602-369a-50a3-8cb1-c57828881208",
+      "categoryId": "2cc600df-24c6-5e5a-a35f-10fa2528b776",
       "productCount": 1,
       "examples": [
         {
@@ -33649,6 +33441,19 @@
           "name": "Colostrum Genactiv Krem",
           "sku": "5907546536114",
           "categories": "Dermokosmetyki, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Ciała > Kremy\\, balsamy i masła"
+        }
+      ]
+    },
+    {
+      "ean": "5907546536206",
+      "categoryId": "2c51605b-cab7-5f1e-99c5-4b2100f332b3",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "6059",
+          "name": "Colostrum Genactiv Maseczka - 50ml",
+          "sku": "5907546536206",
+          "categories": ""
         }
       ]
     },
@@ -33848,6 +33653,19 @@
       ]
     },
     {
+      "ean": "8436589052161",
+      "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "6487",
+          "name": "Shots Collagen Lift Serum ujędrniające",
+          "sku": "8436589052161",
+          "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Serum do twarzy"
+        }
+      ]
+    },
+    {
       "ean": "8436589051089",
       "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
       "productCount": 1,
@@ -33856,6 +33674,19 @@
           "externalId": "6493",
           "name": "Shots Hyaluronic Filler Serum nawilżające",
           "sku": "8436589051089",
+          "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Serum do twarzy"
+        }
+      ]
+    },
+    {
+      "ean": "8436589051072",
+      "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "6498",
+          "name": "Shots Retinol Renew Serum z retinolem",
+          "sku": "8436589051072",
           "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Serum do twarzy"
         }
       ]
@@ -33896,6 +33727,19 @@
           "name": "The Originals Moisturising Mask Maska nawilżająca",
           "sku": "8437015942636",
           "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Maseczki i peeling"
+        }
+      ]
+    },
+    {
+      "ean": "8437000435150",
+      "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "6554",
+          "name": "The Originals Proteos Hydra Plus SP Serum nawilżające z antyoksydantami - 2ml x 10",
+          "sku": "8437000435150",
+          "categories": ""
         }
       ]
     },
@@ -35252,6 +35096,19 @@
       ]
     },
     {
+      "ean": "3522930004141",
+      "categoryId": "8f113915-61d7-5b63-82fc-0e3fc440296a",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "15432",
+          "name": "Caudalie - Delikatny szampon do włosów",
+          "sku": "3522930004141",
+          "categories": "Dermokosmetyki > do Włosów > Szampony do włosów"
+        }
+      ]
+    },
+    {
       "ean": "3522930003427",
       "categoryId": "7f096eb5-a9ae-5653-830f-e3e53d38f8df",
       "productCount": 1,
@@ -35442,19 +35299,6 @@
           "externalId": "15911",
           "name": "Caudalie - Woda rozświetlająca - 100ml",
           "sku": "3522930003199",
-          "categories": ""
-        }
-      ]
-    },
-    {
-      "ean": "3522930003182",
-      "categoryId": "27631b8e-3574-5ffc-883b-6418dfd4f631",
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "15915",
-          "name": "Caudalie - Woda rozświetlająca - 30ml",
-          "sku": "3522930003182",
           "categories": ""
         }
       ]

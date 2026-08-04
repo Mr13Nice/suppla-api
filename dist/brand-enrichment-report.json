@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-14T11:07:34.659Z",
-  "updatedAt": "2026-07-14T11:07:34.830Z",
+  "generatedAt": "2026-07-28T10:58:10.258Z",
+  "updatedAt": "2026-07-28T10:58:10.407Z",
   "status": "complete",
   "files": {
     "csvFile": "suppla-oferta.csv",
@@ -227,12 +227,12 @@
     {
       "externalId": "1605",
       "code": "3282770074741",
-      "brand": "Pierre Fabre",
+      "brand": "Eau thermale Avène",
       "source": "openbeautyfacts",
       "oldName": "TriXera Nurition Balsam odżywczy",
-      "newName": "Pierre Fabre TriXera Nurition Balsam odżywczy",
+      "newName": "Eau thermale Avène TriXera Nurition Balsam odżywczy",
       "oldBrand": "TriXera",
-      "newBrand": "Pierre Fabre"
+      "newBrand": "Eau thermale Avène"
     },
     {
       "externalId": "1788",

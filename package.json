@@ -20,6 +20,9 @@
     "inpost:rescue-overrides:sync": "node send-inpost-offers.js dist/inpost-offers-rescue-overrides.json dist/offer-images-rescue-overrides.json --sync",
     "inpost:sync": "node send-inpost-offers.js dist/inpost-offers.json dist/offer-images.json --sync",
     "inpost:sync:dry-run": "node send-inpost-offers.js dist/inpost-offers.json dist/offer-images.json --sync --dry-run",
+    "inpost:new-variants:prepare": "node csv-to-inpost-json.js suppla-oferta.csv category-map.json dist/inpost-new-variants category-overrides.json dist/category-hints.json --offline --variations-only && node enrich-inpost-brands.js suppla-oferta.csv dist/inpost-new-variants/inpost-offers.json brand-map.json dist/inpost-new-variants/brand-enrichment-report.json --offline",
+    "inpost:new-variants:dry-run": "node send-inpost-offers.js dist/inpost-new-variants/inpost-offers.json dist/inpost-new-variants/offer-images.json --sync --create-only --dry-run",
+    "inpost:new-variants:publish": "node send-inpost-offers.js dist/inpost-new-variants/inpost-offers.json dist/inpost-new-variants/offer-images.json --sync --create-only",
     "test": "echo \"Error: no test specified\" && exit 1",
     "inpost:reopen-closed-instock": "node reopen-closed-instock-offers.js",
     "inpost:reopen-closed-instock:execute": "node reopen-closed-instock-offers.js --execute"

@@ -60,6 +60,7 @@ const DEFAULT_STOCK_UNIT = "UNIT";
 const DEFAULT_BRAND = "Inna marka";
 
 const RESCUE_OVERRIDES = process.argv.includes("--rescue-overrides");
+const VARIATIONS_ONLY = process.argv.includes("--variations-only");
 const CHECK_EXISTING_INPOST =
   !process.argv.includes("--offline") && !RESCUE_OVERRIDES;
 const INCLUDE_EXISTING_IN_OUTPUT =
@@ -1701,6 +1702,7 @@ function isBlockingSkippedProduct(skippedProduct) {
   const ignoredErrors = new Set([
     "Produkt nieopublikowany",
     "Pominięto wariant/produkt nadrzędny",
+    "Pominięto produkt nadrzędny wariantów",
     "Pominięto produkt ze stanem 0"
   ]);
 
@@ -1777,16 +1779,88 @@ function isPublished(row) {
   return normalizeText(row["Opublikowano"]) === "1";
 }
 
-function shouldSkipByProductType(row) {
-  const productType = normalizeText(row["Rodzaj"]);
+const VARIATION_INHERITED_FIELDS = [
+  "Krótki opis",
+  "Opis",
+  "Kategorie",
+  "Marki",
+  "Obrazki",
+  "Status podatku",
+  "Klasa podatkowa",
+  "Stawka podatku",
+  "VAT",
+  "Podatek",
+  "Tax rate",
+  "Waga (kg)",
+  "Długość (cm)",
+  "Szerokość (cm)",
+  "Wysokość (cm)",
+  "Kod producenta",
+  "MPN",
+  "Numer katalogowy",
+  "Adres URL",
+  "URL",
+  "Permalink",
+  "Zewnętrzny adres URL"
+];
 
-  if (!productType || productType === "simple") {
+function getProductType(row) {
+  return normalizeText(row["Rodzaj"]).toLowerCase();
+}
+
+function buildRowsByExternalId(rows) {
+  const rowsByExternalId = new Map();
+
+  for (const row of rows) {
+    const externalId = normalizeText(row["Identyfikator"]);
+
+    if (externalId && !rowsByExternalId.has(externalId)) {
+      rowsByExternalId.set(externalId, row);
+    }
+  }
+
+  return rowsByExternalId;
+}
+
+function getVariationParentExternalId(row) {
+  const parentReference = normalizeText(row["Nadrzędny"]);
+
+  if (!parentReference) {
+    return "";
+  }
+
+  return normalizeText(parentReference.replace(/^id\s*:/i, ""));
+}
+
+function buildEffectiveVariationRow(variationRow, parentRow) {
+  const effectiveRow = { ...variationRow };
+
+  for (const field of VARIATION_INHERITED_FIELDS) {
+    if (!normalizeText(effectiveRow[field]) && normalizeText(parentRow[field])) {
+      effectiveRow[field] = parentRow[field];
+    }
+  }
+
+  return effectiveRow;
+}
+
+function shouldSkipByProductType(row) {
+  const productType = getProductType(row);
+
+  if (!productType || productType === "simple" || productType === "variation") {
     return null;
+  }
+
+  if (productType === "variable") {
+    return {
+      type: productType,
+      reason: "Pominięto produkt nadrzędny wariantów"
+    };
   }
 
   return {
     type: productType,
-    reason: "Pominięto wariant/produkt nadrzędny"
+    reason: "Nieobsługiwany rodzaj produktu: " + productType
   };
 }
 
@@ -1983,6 +2057,7 @@ async function main() {
     trim: false,
     delimiter
   });
+  const rowsByExternalId = buildRowsByExternalId(rows);
   const rescue = RESCUE_OVERRIDES
     ? collectRescueCandidates()
     : {
@@ -2027,6 +2102,13 @@ async function main() {
   const duplicateExternalIdsInCsv = [];
   const acceptedExternalIds = new Set();
   const rescueSkippedSameRejectedCategory = [];
+  const variationStats = {
+    variationRows: 0,
+    resolvedParentRows: 0,
+    missingParentRows: 0,
+    generatedOffers: 0,
+    variableParentRowsSkipped: 0
+  };
 
   const categoryReport = {
     inputCsv: INPUT_CSV,
@@ -2051,6 +2133,8 @@ async function main() {
       EXECUTE_CLEANUP,
       CLOSE_ONLY,
       RESCUE_OVERRIDES,
+      INCLUDE_VARIATIONS: true,
+      VARIATIONS_ONLY,
       mappingOrder: RESCUE_OVERRIDES
         ? [
             "category-overrides.json by WooCommerce category for rescue candidates only",
@@ -2073,28 +2157,67 @@ async function main() {
     hintWarningReasons: {}
   };
 
-  for (const row of rows) {
-    const externalId = normalizeText(row["Identyfikator"]);
-    const name = normalizeText(row["Nazwa"]);
+  for (const sourceRow of rows) {
+    const sourceExternalId = normalizeText(sourceRow["Identyfikator"]);
+    const sourceName = normalizeText(sourceRow["Nazwa"]);
+    const productType = getProductType(sourceRow);
+
+    if (VARIATIONS_ONLY && productType !== "variation") {
+      continue;
+    }
+
     const rescueCandidate = RESCUE_OVERRIDES
-      ? rescue.candidates.get(externalId)
+      ? rescue.candidates.get(sourceExternalId)
       : null;
 
     if (RESCUE_OVERRIDES && !rescueCandidate) {
       continue;
     }
 
-    const typeSkip = shouldSkipByProductType(row);
+    const typeSkip = shouldSkipByProductType(sourceRow);
 
     if (typeSkip) {
+      if (typeSkip.type === "variable") {
+        variationStats.variableParentRowsSkipped += 1;
+      }
+
       skippedProducts.push({
-        externalId,
-        name,
+        externalId: sourceExternalId,
+        name: sourceName,
         type: typeSkip.type,
         errors: [typeSkip.reason]
       });
       continue;
     }
+
+    let row = sourceRow;
+
+    if (productType === "variation") {
+      variationStats.variationRows += 1;
+      const variationParentExternalId = getVariationParentExternalId(sourceRow);
+      const parentRow = rowsByExternalId.get(variationParentExternalId);
+
+      if (!parentRow || getProductType(parentRow) !== "variable") {
+        const missingParentRecord = {
+          externalId: sourceExternalId,
+          name: sourceName,
+          type: productType,
+          parentExternalId: variationParentExternalId || null,
+          errors: ["Nie znaleziono produktu nadrzędnego dla wariantu"]
+        };
+
+        variationStats.missingParentRows += 1;
+        skippedProducts.push(missingParentRecord);
+        blockingSkippedProducts.push(missingParentRecord);
+        continue;
+      }
+
+      row = buildEffectiveVariationRow(sourceRow, parentRow);
+      variationStats.resolvedParentRows += 1;
+    }
+
+    const externalId = normalizeText(row["Identyfikator"]);
+    const name = normalizeText(row["Nazwa"]);
 
     if (ONLY_PUBLISHED && !isPublished(row)) {
       skippedProducts.push({
@@ -2267,6 +2390,10 @@ async function main() {
 
       offers.push(offer);
 
+      if (productType === "variation") {
+        variationStats.generatedOffers += 1;
+      }
+
       if (externalId && images.length) {
         offerImages[externalId] = images;
       }
@@ -2302,6 +2429,13 @@ async function main() {
     categoryTree: categoryReport.categoryTree,
     totals: {
       csvRows: rows.length,
+      variationRows: variationStats.variationRows,
+      variationParentRowsResolved: variationStats.resolvedParentRows,
+      variationParentRowsMissing: variationStats.missingParentRows,
+      variationOffersGenerated: variationStats.generatedOffers,
+      variationRowsSkipped:
+        variationStats.variationRows - variationStats.generatedOffers,
+      variableParentRowsSkipped: variationStats.variableParentRowsSkipped,
       rescueCandidates: RESCUE_OVERRIDES ? rescue.candidates.size : 0,
       rescueSkippedSameRejectedCategory:
         rescueSkippedSameRejectedCategory.length,

@@ -4,6 +4,7 @@
   "categoryOverridesFile": "category-overrides.json",
   "categoryHintsFile": "dist/category-hints.json",
   "categoryTreeFiles": [
+    "dist\\category-tree.json",
     "inpost-health-categories.txt",
     "inpost.txt"
   ],
@@ -33,25 +34,26 @@
   "rescue": {
     "generationErrorsFile": "dist\\csv-generation-errors.json",
     "syncErrorsFile": "dist\\send-sync-errors.json",
-    "rejectedHintProducts": 536,
-    "syncCategoryIncorrectProducts": 27
+    "rejectedHintProducts": 0,
+    "syncCategoryIncorrectProducts": 29
   },
   "categoryTree": {
-    "totalCategories": 557,
-    "leafCategories": 400,
-    "nonLeafCategories": 157
+    "totalCategories": 9155,
+    "leafCategories": 8076,
+    "nonLeafCategories": 1079
   },
   "totals": {
     "csvRows": 2142,
-    "rescueCandidates": 563,
-    "rescueSkippedSameRejectedCategory": 11,
-    "offersToCreate": 486,
-    "skippedProducts": 77,
-    "blockingSkippedProducts": 66,
+    "rescueCandidates": 29,
+    "rescueSkippedSameRejectedCategory": 7,
+    "offersToCreate": 22,
+    "skippedProducts": 7,
+    "blockingSkippedProducts": 0,
     "productsWithoutImages": 0,
-    "generatedDescriptions": 437,
+    "generatedDescriptions": 22,
     "unresolvedCategories": 0,
     "rejectedCategoryHints": 0,
+    "hintCategoryWarnings": 0,
     "duplicateExternalIdsInCsv": 0,
     "existingInPostSkipped": 0,
     "existingInPostIncludedInOutput": 0,
@@ -65,8 +67,9 @@
   },
   "categoryResolution": {
     "byMethod": {
-      "override-exact": 552
+      "override-exact": 22
     },
-    "rejectedHintReasons": {}
+    "rejectedHintReasons": {},
+    "hintWarningReasons": {}
   }
 }
