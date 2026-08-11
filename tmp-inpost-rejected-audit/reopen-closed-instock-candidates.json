@@ -1,0 +1,110 @@
+[
+  {
+    "offerId": "0e60b48b-bc74-42ba-b59d-efb464a42b1c",
+    "externalId": "2303",
+    "status": "CLOSED",
+    "name": "Very Rose Balsam do ust różany",
+    "ean": "3264680027178",
+    "sku": "3264680027178",
+    "stock": 1,
+    "createdAt": "2026-06-02T14:24:15.365Z",
+    "updatedAt": "2026-06-09T12:37:32.330Z",
+    "decision": "DRY_RUN_REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "2303",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 372,
+        "externalId": "2303",
+        "ean": "3264680027178",
+        "sku": "3264680027178",
+        "name": "Very Rose Balsam do ust różany",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 372,
+          "externalId": "2303",
+          "ean": "3264680027178",
+          "sku": "3264680027178",
+          "name": "Very Rose Balsam do ust różany",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "6549d999-10a0-40fe-82fd-dd7b7c8a7554",
+    "externalId": "2303",
+    "status": "CLOSED",
+    "name": "Very Rose Balsam do ust różany",
+    "ean": "3264680027178",
+    "sku": "3264680027178",
+    "stock": 1,
+    "createdAt": "2026-05-25T13:24:13.109Z",
+    "updatedAt": "2026-08-07T15:09:20.234Z",
+    "decision": "DRY_RUN_REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "2303",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 372,
+        "externalId": "2303",
+        "ean": "3264680027178",
+        "sku": "3264680027178",
+        "name": "Very Rose Balsam do ust różany",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 372,
+          "externalId": "2303",
+          "ean": "3264680027178",
+          "sku": "3264680027178",
+          "name": "Very Rose Balsam do ust różany",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "c4c244b0-048c-41d6-b663-d8808b6d8e69",
+    "externalId": "3407",
+    "status": "CLOSED",
+    "name": "Vitella Extreme Ochronny krem witaminowy",
+    "ean": "7640114911071",
+    "sku": "7640114911071",
+    "stock": 0,
+    "createdAt": "2026-05-22T14:52:08.179Z",
+    "updatedAt": "2026-07-14T11:26:55.700Z",
+    "decision": "DRY_RUN_REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "3407",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 711,
+        "externalId": "3407",
+        "ean": "7640114911071",
+        "sku": "7640114911071",
+        "name": "Vitella Extreme Ochronny krem witaminowy",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 711,
+          "externalId": "3407",
+          "ean": "7640114911071",
+          "sku": "7640114911071",
+          "name": "Vitella Extreme Ochronny krem witaminowy",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  }
+]

@@ -26,6 +26,8 @@
     "EXECUTE_CLEANUP": false,
     "CLOSE_ONLY": false,
     "RESCUE_OVERRIDES": true,
+    "INCLUDE_VARIATIONS": true,
+    "VARIATIONS_ONLY": false,
     "mappingOrder": [
       "category-overrides.json by WooCommerce category for rescue candidates only",
       "skip"
@@ -35,7 +37,7 @@
     "generationErrorsFile": "dist\\csv-generation-errors.json",
     "syncErrorsFile": "dist\\send-sync-errors.json",
     "rejectedHintProducts": 0,
-    "syncCategoryIncorrectProducts": 29
+    "syncCategoryIncorrectProducts": 23
   },
   "categoryTree": {
     "totalCategories": 9155,
@@ -43,14 +45,20 @@
     "nonLeafCategories": 1079
   },
   "totals": {
-    "csvRows": 2142,
-    "rescueCandidates": 29,
-    "rescueSkippedSameRejectedCategory": 7,
-    "offersToCreate": 22,
-    "skippedProducts": 7,
+    "csvRows": 2143,
+    "variationRows": 12,
+    "variationParentRowsResolved": 12,
+    "variationParentRowsMissing": 0,
+    "variationOffersGenerated": 7,
+    "variationRowsSkipped": 5,
+    "variableParentRowsSkipped": 0,
+    "rescueCandidates": 23,
+    "rescueSkippedSameRejectedCategory": 14,
+    "offersToCreate": 9,
+    "skippedProducts": 14,
     "blockingSkippedProducts": 0,
     "productsWithoutImages": 0,
-    "generatedDescriptions": 22,
+    "generatedDescriptions": 9,
     "unresolvedCategories": 0,
     "rejectedCategoryHints": 0,
     "hintCategoryWarnings": 0,
@@ -67,7 +75,7 @@
   },
   "categoryResolution": {
     "byMethod": {
-      "override-exact": 22
+      "override-exact": 9
     },
     "rejectedHintReasons": {},
     "hintWarningReasons": {}

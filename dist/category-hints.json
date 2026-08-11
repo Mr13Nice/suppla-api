@@ -99,7 +99,7 @@
         "externalId": "189",
         "name": "Cold Cream Delikatne mydło z organicznym woskiem pszczelim",
         "sku": "3504105036102",
-        "categories": "Dermokosmetyki, Dermokosmetyki > dla Dziecka, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Ciała > Mydła, Dermokosmetyki > do Włosów > Mydła"
+        "categories": "Dermokosmetyki, Dermokosmetyki > dla Dziecka, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Włosów > Mydła, Dermokosmetyki > do Ciała > Mydła"
       }
     ],
     "validInCategoryMap": false
@@ -1258,6 +1258,21 @@
       }
     ],
     "validInCategoryMap": false
+  },
+  "5906739783137": {
+    "categoryId": "d9f63c88-5fd9-5b21-9aef-90d9420a2dd1",
+    "source": "inpost-hint",
+    "ean": "5906739783137",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "663",
+        "name": "Hydrian3 Hialuro peeling enzymatyczny",
+        "sku": "5906739783137",
+        "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Maseczki i peeling"
+      }
+    ],
+    "validInCategoryMap": true
   },
   "5901643176105": {
     "categoryId": "2253681c-571d-504c-9030-7463006b38b4",
@@ -2609,6 +2624,21 @@
     ],
     "validInCategoryMap": true
   },
+  "3282779051378": {
+    "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
+    "source": "inpost-hint",
+    "ean": "3282779051378",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "1445",
+        "name": "LesEssentiels Delikatny żel do demakijażu oczu",
+        "sku": "3282779051378",
+        "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Pianki\\,mleczka i żele do mycia twarzy, Dermokosmetyki > do Twarzy > Pielęgnacja oczu i rzęs"
+      }
+    ],
+    "validInCategoryMap": true
+  },
   "3282770152586": {
     "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
     "source": "inpost-hint",
@@ -3105,7 +3135,7 @@
     "validInCategoryMap": true
   },
   "5900717165618": {
-    "categoryId": "980dff7f-0c9f-5d05-a891-af73ba89084e",
+    "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
     "source": "inpost-hint",
     "ean": "5900717165618",
     "productCount": 1,
@@ -3117,7 +3147,7 @@
         "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Pianki\\,mleczka i żele do mycia twarzy"
       }
     ],
-    "validInCategoryMap": true
+    "validInCategoryMap": false
   },
   "5900717163515": {
     "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
@@ -5685,7 +5715,7 @@
     "validInCategoryMap": false
   },
   "5906948846913": {
-    "categoryId": "f37f4f67-807b-5255-ad4a-7cdb98081931",
+    "categoryId": "fba41277-4198-5b45-aca6-cbc3c0f153b9",
     "source": "inpost-hint",
     "ean": "5906948846913",
     "productCount": 1,
@@ -5697,7 +5727,7 @@
         "categories": ""
       }
     ],
-    "validInCategoryMap": true
+    "validInCategoryMap": false
   },
   "5901986061151": {
     "categoryId": "fba41277-4198-5b45-aca6-cbc3c0f153b9",
@@ -5968,6 +5998,21 @@
       }
     ],
     "validInCategoryMap": false
+  },
+  "5901986060871": {
+    "categoryId": "f37f4f67-807b-5255-ad4a-7cdb98081931",
+    "source": "inpost-hint",
+    "ean": "5901986060871",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "3042",
+        "name": "Wax Hermiona ColourCare Maska odbudowująca do włosów farbowanych i zniszczonych - 240ml",
+        "sku": "5901986060871",
+        "categories": ""
+      }
+    ],
+    "validInCategoryMap": true
   },
   "5902751581904": {
     "categoryId": "03232868-0a32-5c66-a17a-cd51fc9e1630",
@@ -8895,7 +8940,7 @@
     "validInCategoryMap": true
   },
   "5907377136880": {
-    "categoryId": "49496570-e367-5cf8-b10d-31a786263c0c",
+    "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
     "source": "inpost-hint",
     "ean": "5907377136880",
     "productCount": 1,
@@ -8940,7 +8985,7 @@
     "validInCategoryMap": true
   },
   "5903031283020": {
-    "categoryId": "2527c48c-f25e-50c0-b2bf-3dc6500af8e6",
+    "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
     "source": "inpost-hint",
     "ean": "5903031283020",
     "productCount": 1,
@@ -8955,7 +9000,7 @@
     "validInCategoryMap": true
   },
   "5903031283037": {
-    "categoryId": "81ebb9c9-1689-5ceb-840c-9edf2604bce2",
+    "categoryId": "06580ad5-4491-5e61-b375-0fe06d98b09e",
     "source": "inpost-hint",
     "ean": "5903031283037",
     "productCount": 1,
@@ -8964,10 +9009,10 @@
         "externalId": "4000",
         "name": "Immuno Kids",
         "sku": "5903031283037",
-        "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Odporność, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety"
+        "categories": "Macierzyństwo > Dla dzieci, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety"
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "5903031283945": {
     "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
@@ -11190,7 +11235,7 @@
     "validInCategoryMap": true
   },
   "5900008027366": {
-    "categoryId": "898bd657-14ad-55ac-a46b-8b1c64fc577c",
+    "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
     "source": "inpost-hint",
     "ean": "5900008027366",
     "productCount": 1,
@@ -11355,7 +11400,7 @@
     "validInCategoryMap": true
   },
   "8032472018742": {
-    "categoryId": "2527c48c-f25e-50c0-b2bf-3dc6500af8e6",
+    "categoryId": "43684d3f-c3c7-5a80-a5f2-023dc79cbd09",
     "source": "inpost-hint",
     "ean": "8032472018742",
     "productCount": 1,
@@ -11940,7 +11985,7 @@
     "validInCategoryMap": true
   },
   "5702071389361": {
-    "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+    "categoryId": "bb0fb27a-aee1-5686-97c8-f066b0d766e5",
     "source": "inpost-hint",
     "ean": "5702071389361",
     "productCount": 1,
@@ -12060,7 +12105,7 @@
     "validInCategoryMap": true
   },
   "5907513003830": {
-    "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+    "categoryId": "a69627d6-3b1e-5dac-849b-f76bd8400068",
     "source": "inpost-hint",
     "ean": "5907513003830",
     "productCount": 1,
@@ -12240,7 +12285,7 @@
     "validInCategoryMap": true
   },
   "5903031283921": {
-    "categoryId": "ebbe3af1-5787-5dc1-8502-c0ccf26ad2a1",
+    "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
     "source": "inpost-hint",
     "ean": "5903031283921",
     "productCount": 1,
@@ -12252,7 +12297,7 @@
         "categories": "Macierzyństwo > Ciąża, Suplementy Diety, Macierzyństwo > Ciąża > Zestawy witamin dla kobiet w ciąży"
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "5903031287387": {
     "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
@@ -12495,7 +12540,7 @@
     "validInCategoryMap": true
   },
   "5903031286540": {
-    "categoryId": "918e8953-0b21-58ee-aa24-118b0c276baf",
+    "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
     "source": "inpost-hint",
     "ean": "5903031286540",
     "productCount": 1,
@@ -12507,7 +12552,7 @@
         "categories": "Suplementy Diety > Kości i stawy > Kolagen, Suplementy Diety > Kości i stawy, Suplementy Diety > Uroda > Skóra\\, włosy i paznokcie, Suplementy Diety, Suplementy Diety > Uroda"
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "5903031286526": {
     "categoryId": "6eafbcd7-ebde-5121-9f42-6e5a1395ccd9",
@@ -12570,7 +12615,7 @@
     "validInCategoryMap": true
   },
   "5902020661733": {
-    "categoryId": "bd48da1a-a040-559e-9125-aca2f599f127",
+    "categoryId": "2209e67b-9c0a-514a-91bd-15af4128e35c",
     "source": "inpost-hint",
     "ean": "5902020661733",
     "productCount": 1,
@@ -13245,7 +13290,7 @@
     "validInCategoryMap": true
   },
   "5903263900931": {
-    "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+    "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
     "source": "inpost-hint",
     "ean": "5903263900931",
     "productCount": 1,
@@ -13260,7 +13305,7 @@
     "validInCategoryMap": true
   },
   "5903263900238": {
-    "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+    "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
     "source": "inpost-hint",
     "ean": "5903263900238",
     "productCount": 1,
@@ -13272,7 +13317,7 @@
         "categories": ""
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "5903263900245": {
     "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
@@ -13380,7 +13425,7 @@
     "validInCategoryMap": true
   },
   "5903260905199": {
-    "categoryId": "7efffd5d-4726-55e9-937a-bfba75455bce",
+    "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
     "source": "inpost-hint",
     "ean": "5903260905199",
     "productCount": 1,
@@ -13584,7 +13629,7 @@
         "externalId": "5109",
         "name": "Grinovita Junior",
         "sku": "5901716993349",
-        "categories": "Macierzyństwo > Dla dzieci, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety"
+        "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Odporność, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety"
       }
     ],
     "validInCategoryMap": true
@@ -14610,7 +14655,7 @@
     "validInCategoryMap": true
   },
   "5901330004148": {
-    "categoryId": "0e3883b1-2724-5089-a992-126628ca0aa4",
+    "categoryId": "6eafbcd7-ebde-5121-9f42-6e5a1395ccd9",
     "source": "inpost-hint",
     "ean": "5901330004148",
     "productCount": 1,
@@ -15225,7 +15270,7 @@
     "validInCategoryMap": true
   },
   "0033984006768": {
-    "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
+    "categoryId": "6eafbcd7-ebde-5121-9f42-6e5a1395ccd9",
     "source": "inpost-hint",
     "ean": "0033984006768",
     "productCount": 1,
@@ -15405,7 +15450,7 @@
     "validInCategoryMap": true
   },
   "0033984006744": {
-    "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
+    "categoryId": "2209e67b-9c0a-514a-91bd-15af4128e35c",
     "source": "inpost-hint",
     "ean": "0033984006744",
     "productCount": 1,
@@ -15565,6 +15610,21 @@
         "name": "Solgar Selen 200mcg",
         "sku": "0033984025400",
         "categories": "Suplementy Diety > Odporność, Suplementy Diety"
+      }
+    ],
+    "validInCategoryMap": true
+  },
+  "0033984041356": {
+    "categoryId": "2209e67b-9c0a-514a-91bd-15af4128e35c",
+    "source": "inpost-hint",
+    "ean": "0033984041356",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "5600",
+        "name": "Solgar Głóg",
+        "sku": "0033984041356",
+        "categories": "Suplementy Diety, Suplementy Diety > Kości i stawy > Układ krążenia, Suplementy Diety > Samopoczucie i energia > Układ naczyniowy"
       }
     ],
     "validInCategoryMap": true
@@ -17025,7 +17085,7 @@
     "validInCategoryMap": true
   },
   "5909990683727": {
-    "categoryId": "1f66e13c-d9d2-594d-976c-d31dbbc28322",
+    "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
     "source": "inpost-hint",
     "ean": "5909990683727",
     "productCount": 1,
@@ -17115,7 +17175,7 @@
     "validInCategoryMap": true
   },
   "5060072605935": {
-    "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+    "categoryId": "887c536f-35d0-51dc-801d-eb39dd13f7d7",
     "source": "inpost-hint",
     "ean": "5060072605935",
     "productCount": 1,
@@ -17127,7 +17187,7 @@
         "categories": ""
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "5060072605928": {
     "categoryId": "887c536f-35d0-51dc-801d-eb39dd13f7d7",
@@ -17190,7 +17250,7 @@
     "validInCategoryMap": true
   },
   "5060072606451": {
-    "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+    "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
     "source": "inpost-hint",
     "ean": "5060072606451",
     "productCount": 1,
@@ -17202,7 +17262,7 @@
         "categories": "Suplementy Diety > Odporność, Suplementy Diety"
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "5907501110090": {
     "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
@@ -18795,7 +18855,7 @@
     "validInCategoryMap": false
   },
   "3282770142327": {
-    "categoryId": "aaf70d45-42dd-508d-a8b8-d4e949e02812",
+    "categoryId": "1563b6f0-b584-57d4-a677-49cca69bddfb",
     "source": "inpost-hint",
     "ean": "3282770142327",
     "productCount": 1,
@@ -19214,6 +19274,21 @@
     ],
     "validInCategoryMap": false
   },
+  "3522931003723": {
+    "categoryId": "68f5ca30-cd76-5c87-bea6-20d280bd1dd5",
+    "source": "inpost-hint",
+    "ean": "3522931003723",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "9495",
+        "name": "Caudalie Vinosun Protect - Fluid o bardzo wysokiej ochronie",
+        "sku": "3522931003723",
+        "categories": "Dermokosmetyki, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy > Kremy na dzień, Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna"
+      }
+    ],
+    "validInCategoryMap": true
+  },
   "3522931003761": {
     "categoryId": "5bc600a1-9081-50dd-b3ee-e4697f1b74c0",
     "source": "inpost-hint",
@@ -19244,6 +19319,21 @@
     ],
     "validInCategoryMap": false
   },
+  "3522930003809": {
+    "categoryId": "99bf923a-4d01-5fc0-b418-9240681a17a1",
+    "source": "inpost-hint",
+    "ean": "3522930003809",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "9886",
+        "name": "Caudalie Vinosun Protect - Regenerujące mleczko po opalaniu - 400ml",
+        "sku": "3522930003809",
+        "categories": ""
+      }
+    ],
+    "validInCategoryMap": false
+  },
   "3522930003755": {
     "categoryId": "68f5ca30-cd76-5c87-bea6-20d280bd1dd5",
     "source": "inpost-hint",
@@ -19255,6 +19345,21 @@
         "name": "Caudalie Vinosun Protect - Krem o bardzo wysokiej ochronie SPF30+",
         "sku": "3522930003755",
         "categories": "Dermokosmetyki, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Kremy na dzień, Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna"
+      }
+    ],
+    "validInCategoryMap": true
+  },
+  "3522931003228": {
+    "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
+    "source": "inpost-hint",
+    "ean": "3522931003228",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "12352",
+        "name": "Caudalie Vinoperfect - Krem Rozjaśniający Przebarwienia",
+        "sku": "3522931003228",
+        "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Kremy na dzień"
       }
     ],
     "validInCategoryMap": true
@@ -20864,6 +20969,21 @@
     ],
     "validInCategoryMap": false
   },
+  "3522930004431": {
+    "categoryId": "f4fd7700-6276-55f1-91c8-92912a82eded",
+    "source": "inpost-hint",
+    "ean": "3522930004431",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "15583",
+        "name": "Caudalie - Nawilżający odżywczy olejek pielęgnacyjny - 50ml",
+        "sku": "3522930004431",
+        "categories": ""
+      }
+    ],
+    "validInCategoryMap": false
+  },
   "3522930004165": {
     "categoryId": "f4fd7700-6276-55f1-91c8-92912a82eded",
     "source": "inpost-hint",
@@ -21030,7 +21150,7 @@
     "validInCategoryMap": false
   },
   "3522930003038": {
-    "categoryId": "91ef0a45-29de-533d-b3d6-483b166b9dec",
+    "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
     "source": "inpost-hint",
     "ean": "3522930003038",
     "productCount": 1,
@@ -21042,7 +21162,7 @@
         "categories": "Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Ciała > Kremy\\, balsamy i masła, Dermokosmetyki > do Twarzy > Maseczki i peeling"
       }
     ],
-    "validInCategoryMap": false
+    "validInCategoryMap": true
   },
   "3522930003175": {
     "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
@@ -21074,6 +21194,21 @@
     ],
     "validInCategoryMap": false
   },
+  "3522930003151": {
+    "categoryId": "853ab193-27c8-5fac-a5d7-5250066fe918",
+    "source": "inpost-hint",
+    "ean": "3522930003151",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "16001",
+        "name": "Caudalie Vinoclean - Tonik nawilżający - 200ml",
+        "sku": "3522930003151",
+        "categories": ""
+      }
+    ],
+    "validInCategoryMap": true
+  },
   "3522930003168": {
     "categoryId": "7f096eb5-a9ae-5653-830f-e3e53d38f8df",
     "source": "inpost-hint",
@@ -21104,6 +21239,21 @@
     ],
     "validInCategoryMap": false
   },
+  "3522930003137": {
+    "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
+    "source": "inpost-hint",
+    "ean": "3522930003137",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "16027",
+        "name": "Caudalie Vinoclean - Migdałowe mleczko do demakijażu - 400ml",
+        "sku": "3522930003137",
+        "categories": ""
+      }
+    ],
+    "validInCategoryMap": false
+  },
   "3522930003090": {
     "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
     "source": "inpost-hint",
@@ -21119,6 +21269,21 @@
     ],
     "validInCategoryMap": false
   },
+  "3522930003106": {
+    "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
+    "source": "inpost-hint",
+    "ean": "3522930003106",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "16050",
+        "name": "Caudalie Vinoclean - Plyn micelarny do demakijażu - 400ml",
+        "sku": "3522930003106",
+        "categories": ""
+      }
+    ],
+    "validInCategoryMap": false
+  },
   "3522931003075": {
     "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
     "source": "inpost-hint",
@@ -21129,6 +21294,21 @@
         "externalId": "16069",
         "name": "Caudalie Vinoclean - Pianka oczyszczająca - 150ml",
         "sku": "3522931003075",
+        "categories": ""
+      }
+    ],
+    "validInCategoryMap": false
+  },
+  "3522930003052": {
+    "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
+    "source": "inpost-hint",
+    "ean": "3522930003052",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "16071",
+        "name": "Caudalie Vinoclean - Pianka oczyszczająca - 50ml",
+        "sku": "3522930003052",
         "categories": ""
       }
     ],
@@ -21810,7 +21990,7 @@
     "validInCategoryMap": true
   },
   "5902596593056": {
-    "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+    "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
     "source": "inpost-hint",
     "ean": "5902596593056",
     "productCount": 1,
@@ -22650,7 +22830,7 @@
     "validInCategoryMap": true
   },
   "8032472020493": {
-    "categoryId": "2209e67b-9c0a-514a-91bd-15af4128e35c",
+    "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
     "source": "inpost-hint",
     "ean": "8032472020493",
     "productCount": 1,
@@ -22749,6 +22929,21 @@
         "externalId": "17533",
         "name": "Prostaceum, 60 tabletek",
         "sku": "5906720532997",
+        "categories": "Dermokosmetyki"
+      }
+    ],
+    "validInCategoryMap": true
+  },
+  "4030571003144": {
+    "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
+    "source": "inpost-hint",
+    "ean": "4030571003144",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "17555",
+        "name": "Ocuvite Complete, 60 kapsułek",
+        "sku": "4030571003144",
         "categories": "Dermokosmetyki"
       }
     ],

@@ -9,6 +9,7 @@ const DEFAULT_CSV_FILE = "suppla-oferta.csv";
 const DEFAULT_OFFERS_FILE = path.join("dist", "inpost-offers.json");
 const DEFAULT_MAP_FILE = "brand-map.json";
 const DEFAULT_REPORT_FILE = path.join("dist", "brand-enrichment-report.json");
+const DEFAULT_NAME_OVERRIDES_FILE = "product-name-overrides.json";
 
 const SOURCE_APIS = [
   {
@@ -97,6 +98,7 @@ function parseArgs(argv) {
     offersFile: positional[1] || DEFAULT_OFFERS_FILE,
     mapFile: positional[2] || DEFAULT_MAP_FILE,
     reportFile: positional[3] || DEFAULT_REPORT_FILE,
+    nameOverridesFile: positional[4] || DEFAULT_NAME_OVERRIDES_FILE,
     options,
   };
 }
@@ -295,6 +297,15 @@ function updateOfferName(offer, record) {
   };
 }
 
+function findNameOverride(offer, code, overrides) {
+  const externalId = normalizeText(offer.externalId);
+  const byExternalId = overrides.byExternalId || {};
+  const byEan = overrides.byEan || {};
+  const name = normalizeText(byExternalId[externalId] || byEan[code]);
+
+  return name || null;
+}
+
 function sortedObject(object) {
   return Object.fromEntries(
     Object.entries(object || {}).sort(([left], [right]) => left.localeCompare(right))
@@ -334,9 +345,14 @@ function logProgress(report, message) {
 }
 
 async function main() {
-  const { csvFile, offersFile, mapFile, reportFile, options } = parseArgs(
-    process.argv.slice(2)
-  );
+  const {
+    csvFile,
+    offersFile,
+    mapFile,
+    reportFile,
+    nameOverridesFile,
+    options,
+  } = parseArgs(process.argv.slice(2));
 
   const offers = readJson(offersFile, []);
   if (!Array.isArray(offers)) {
@@ -344,13 +360,14 @@ async function main() {
   }
 
   const map = normalizeMap(readJson(mapFile, {}));
+  const nameOverrides = readJson(nameOverridesFile, {});
   const csvCodeByExternalId = buildCsvCodeMap(csvFile);
 
   const report = {
     generatedAt: new Date().toISOString(),
     updatedAt: null,
     status: "running",
-    files: { csvFile, offersFile, mapFile, reportFile },
+    files: { csvFile, offersFile, mapFile, reportFile, nameOverridesFile },
     options: reportOptions(options),
     totals: {
       offers: offers.length,
@@ -360,6 +377,7 @@ async function main() {
       lookedUp: 0,
       addedToMap: 0,
       changedNames: 0,
+      overriddenNames: 0,
       alreadyHadBrandInName: 0,
       missingBrand: 0,
       skippedOffline: 0,
@@ -367,6 +385,7 @@ async function main() {
       skippedOtherCode: 0,
     },
     changed: [],
+    nameOverrides: [],
     alreadyPresent: [],
     missing: [],
     lookupErrors: [],
@@ -411,6 +430,23 @@ async function main() {
   for (const offer of offers) {
     report.totals.processedOffers += 1;
     const code = offerCode(offer, csvCodeByExternalId);
+    const overrideName = findNameOverride(offer, code, nameOverrides);
+
+    if (overrideName) {
+      const oldName = normalizeText(offer.product && offer.product.name);
+      offer.product = offer.product || {};
+      offer.product.name = overrideName;
+      report.totals.overriddenNames += 1;
+      report.nameOverrides.push({
+        externalId: normalizeText(offer.externalId),
+        code,
+        oldName,
+        newName: overrideName,
+      });
+      checkpoint("name-override");
+      continue;
+    }
+
     if (!code) {
       checkpoint("no-code");
       continue;

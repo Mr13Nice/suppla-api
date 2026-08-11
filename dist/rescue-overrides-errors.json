@@ -1,13 +1,19 @@
 {
   "summary": {
-    "csvRows": 2142,
-    "rescueCandidates": 29,
-    "rescueSkippedSameRejectedCategory": 7,
-    "offersToCreate": 22,
-    "skippedProducts": 7,
+    "csvRows": 2143,
+    "variationRows": 12,
+    "variationParentRowsResolved": 12,
+    "variationParentRowsMissing": 0,
+    "variationOffersGenerated": 7,
+    "variationRowsSkipped": 5,
+    "variableParentRowsSkipped": 0,
+    "rescueCandidates": 23,
+    "rescueSkippedSameRejectedCategory": 14,
+    "offersToCreate": 9,
+    "skippedProducts": 14,
     "blockingSkippedProducts": 0,
     "productsWithoutImages": 0,
-    "generatedDescriptions": 22,
+    "generatedDescriptions": 9,
     "unresolvedCategories": 0,
     "rejectedCategoryHints": 0,
     "hintCategoryWarnings": 0,
@@ -23,6 +29,132 @@
     "duplicateCleanupErrors": 0
   },
   "skippedProducts": [
+    {
+      "externalId": "2027",
+      "name": "Men Żel do golenia, gęsta, kremowa pianka",
+      "sku": "3264680003585",
+      "ean": "3264680003585",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
+      "matchedBy": "override-exact",
+      "matchedWooCategory": "Dermokosmetyki > dla Mężczyzn > Produkty do golenia",
+      "matchedInpostCategory": "direct-id",
+      "rescueCandidate": {
+        "externalId": "2027",
+        "sources": [
+          {
+            "type": "sync-category-incorrect",
+            "offerId": "656bd380-6bcd-4481-ad3f-b0a42cfbda95",
+            "rejectedCategoryIds": [
+              "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3"
+            ],
+            "validationErrors": [
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Kategoria oferty 'Zdrowie > Pozostałe produkty zdrowotne' jest nieprawidłowa."
+              },
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Kategoria oferty 'Zdrowie > Pozostałe produkty zdrowotne' jest nieprawidłowa."
+              }
+            ]
+          }
+        ],
+        "rejectedCategoryIds": [
+          "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3"
+        ],
+        "rejectedHintCategoryIds": [],
+        "rejectedSyncCategoryIds": [
+          "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3"
+        ]
+      },
+      "errors": [
+        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
+      ]
+    },
+    {
+      "externalId": "3058",
+      "name": "Seboradin Women Sport - Szampon i Żel 2 w 1 - 150ml",
+      "sku": "5902751581829",
+      "ean": "5902751581829",
+      "categoryId": "8d5d68fa-99a8-5d69-9baa-5866677130e3",
+      "matchedBy": "override-exact",
+      "matchedWooCategory": "Dermokosmetyki > do Ciała > Żele i peeling do ciała",
+      "matchedInpostCategory": "direct-id",
+      "rescueCandidate": {
+        "externalId": "3058",
+        "sources": [
+          {
+            "type": "sync-category-incorrect",
+            "offerId": "7770c481-4bcb-490a-b904-4bc22b04328c",
+            "rejectedCategoryIds": [
+              "8d5d68fa-99a8-5d69-9baa-5866677130e3"
+            ],
+            "validationErrors": [
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Kąpiel i prysznic' jest nieprawidłowa."
+              },
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Kąpiel i prysznic' jest nieprawidłowa."
+              }
+            ]
+          }
+        ],
+        "rejectedCategoryIds": [
+          "8d5d68fa-99a8-5d69-9baa-5866677130e3"
+        ],
+        "rejectedHintCategoryIds": [],
+        "rejectedSyncCategoryIds": [
+          "8d5d68fa-99a8-5d69-9baa-5866677130e3"
+        ]
+      },
+      "errors": [
+        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
+      ]
+    },
+    {
+      "externalId": "4616",
+      "name": "Immunomix Plus Syrop",
+      "sku": "8032472018742",
+      "ean": "8032472018742",
+      "categoryId": "43684d3f-c3c7-5a80-a5f2-023dc79cbd09",
+      "matchedBy": "override-exact",
+      "matchedWooCategory": "Suplementy Diety > Odporność > Preparaty ziołowe",
+      "matchedInpostCategory": "direct-id",
+      "rescueCandidate": {
+        "externalId": "4616",
+        "sources": [
+          {
+            "type": "sync-category-incorrect",
+            "offerId": "1c139f53-d33c-4875-8d0b-c7bcca2d2ab9",
+            "rejectedCategoryIds": [
+              "43684d3f-c3c7-5a80-a5f2-023dc79cbd09"
+            ],
+            "validationErrors": [
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
+              },
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
+              }
+            ]
+          }
+        ],
+        "rejectedCategoryIds": [
+          "43684d3f-c3c7-5a80-a5f2-023dc79cbd09"
+        ],
+        "rejectedHintCategoryIds": [],
+        "rejectedSyncCategoryIds": [
+          "43684d3f-c3c7-5a80-a5f2-023dc79cbd09"
+        ]
+      },
+      "errors": [
+        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
+      ]
+    },
     {
       "externalId": "5014",
       "name": "Mbrace Good Night",
@@ -192,6 +324,90 @@
       ]
     },
     {
+      "externalId": "15057",
+      "name": "Caudalie Vinoclean - Maseczka detoksykująca instant - 75ml",
+      "sku": "3522930004349",
+      "ean": "3522930004349",
+      "categoryId": "be442cf4-be3f-5165-a596-78a9c49eaabd",
+      "matchedBy": "override-exact",
+      "matchedWooCategory": "Dermokosmetyki > do Ciała > Balsamy do paznokci",
+      "matchedInpostCategory": "direct-id",
+      "rescueCandidate": {
+        "externalId": "15057",
+        "sources": [
+          {
+            "type": "sync-category-incorrect",
+            "offerId": "07021f7a-3b18-4872-b170-3f751939c7ac",
+            "rejectedCategoryIds": [
+              "be442cf4-be3f-5165-a596-78a9c49eaabd"
+            ],
+            "validationErrors": [
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Kremy do rąk i stóp' jest nieprawidłowa."
+              },
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Kremy do rąk i stóp' jest nieprawidłowa."
+              }
+            ]
+          }
+        ],
+        "rejectedCategoryIds": [
+          "be442cf4-be3f-5165-a596-78a9c49eaabd"
+        ],
+        "rejectedHintCategoryIds": [],
+        "rejectedSyncCategoryIds": [
+          "be442cf4-be3f-5165-a596-78a9c49eaabd"
+        ]
+      },
+      "errors": [
+        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
+      ]
+    },
+    {
+      "externalId": "15059",
+      "name": "Caudalie Vinoclean - Maseczka detoksykująca instant - 35ml",
+      "sku": "3522930004486",
+      "ean": "3522930004486",
+      "categoryId": "be442cf4-be3f-5165-a596-78a9c49eaabd",
+      "matchedBy": "override-exact",
+      "matchedWooCategory": "Dermokosmetyki > do Ciała > Balsamy do paznokci",
+      "matchedInpostCategory": "direct-id",
+      "rescueCandidate": {
+        "externalId": "15059",
+        "sources": [
+          {
+            "type": "sync-category-incorrect",
+            "offerId": "b890eda8-f6a5-4203-bdbe-7ab1bd1f5aae",
+            "rejectedCategoryIds": [
+              "be442cf4-be3f-5165-a596-78a9c49eaabd"
+            ],
+            "validationErrors": [
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Kremy do rąk i stóp' jest nieprawidłowa."
+              },
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Kremy do rąk i stóp' jest nieprawidłowa."
+              }
+            ]
+          }
+        ],
+        "rejectedCategoryIds": [
+          "be442cf4-be3f-5165-a596-78a9c49eaabd"
+        ],
+        "rejectedHintCategoryIds": [],
+        "rejectedSyncCategoryIds": [
+          "be442cf4-be3f-5165-a596-78a9c49eaabd"
+        ]
+      },
+      "errors": [
+        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
+      ]
+    },
+    {
       "externalId": "15081",
       "name": "Caudalie Vinocrush - Krem CC - Odcień 1",
       "sku": "3522930004097",
@@ -269,6 +485,90 @@
         "rejectedHintCategoryIds": [],
         "rejectedSyncCategoryIds": [
           "be442cf4-be3f-5165-a596-78a9c49eaabd"
+        ]
+      },
+      "errors": [
+        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
+      ]
+    },
+    {
+      "externalId": "16152",
+      "name": "Chusteczki H2O Wipes Kids Wet Wipes Lab4Baby - 24szt",
+      "sku": "5908288911795",
+      "ean": "5908288911795",
+      "categoryId": "e29fe84e-9555-5d4e-ab24-de8653b6c783",
+      "matchedBy": "override-exact",
+      "matchedWooCategory": "Dermokosmetyki > dla Dziecka",
+      "matchedInpostCategory": "direct-id",
+      "rescueCandidate": {
+        "externalId": "16152",
+        "sources": [
+          {
+            "type": "sync-category-incorrect",
+            "offerId": "a77d19a8-5e05-49b1-a568-5ce025b6d902",
+            "rejectedCategoryIds": [
+              "e29fe84e-9555-5d4e-ab24-de8653b6c783"
+            ],
+            "validationErrors": [
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
+              },
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
+              }
+            ]
+          }
+        ],
+        "rejectedCategoryIds": [
+          "e29fe84e-9555-5d4e-ab24-de8653b6c783"
+        ],
+        "rejectedHintCategoryIds": [],
+        "rejectedSyncCategoryIds": [
+          "e29fe84e-9555-5d4e-ab24-de8653b6c783"
+        ]
+      },
+      "errors": [
+        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
+      ]
+    },
+    {
+      "externalId": "16180",
+      "name": "Chusteczki H2O Wipes Baby Wet Wipes Lab4Baby - 24szt",
+      "sku": "5908288911788",
+      "ean": "5908288911788",
+      "categoryId": "e29fe84e-9555-5d4e-ab24-de8653b6c783",
+      "matchedBy": "override-exact",
+      "matchedWooCategory": "Dermokosmetyki > dla Dziecka",
+      "matchedInpostCategory": "direct-id",
+      "rescueCandidate": {
+        "externalId": "16180",
+        "sources": [
+          {
+            "type": "sync-category-incorrect",
+            "offerId": "73b69f90-5400-4b54-94f9-6d7069a282d6",
+            "rejectedCategoryIds": [
+              "e29fe84e-9555-5d4e-ab24-de8653b6c783"
+            ],
+            "validationErrors": [
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
+              },
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
+              }
+            ]
+          }
+        ],
+        "rejectedCategoryIds": [
+          "e29fe84e-9555-5d4e-ab24-de8653b6c783"
+        ],
+        "rejectedHintCategoryIds": [],
+        "rejectedSyncCategoryIds": [
+          "e29fe84e-9555-5d4e-ab24-de8653b6c783"
         ]
       },
       "errors": [
@@ -322,10 +622,22 @@
   "productsWithoutImages": [],
   "generatedDescriptions": [
     {
-      "externalId": "1794",
-      "name": "A Physiopuric-Gel Żel nawilżająco-fizjologiczny",
+      "externalId": "4226",
+      "name": "D-Vitum 400 j.m. dla dzieci - 30szt",
       "originalLength": 0,
-      "finalLength": 247
+      "finalLength": 254
+    },
+    {
+      "externalId": "4227",
+      "name": "D-Vitum 400 j.m. dla dzieci - 90szt",
+      "originalLength": 0,
+      "finalLength": 254
+    },
+    {
+      "externalId": "4242",
+      "name": "D-Vitum 1000 j.m. dla dzieci - 30szt",
+      "originalLength": 0,
+      "finalLength": 254
     },
     {
       "externalId": "4415",
@@ -334,58 +646,10 @@
       "finalLength": 256
     },
     {
-      "externalId": "4490",
-      "name": "Litorsal Slim",
-      "originalLength": 0,
-      "finalLength": 245
-    },
-    {
-      "externalId": "4519",
-      "name": "Capivit A+E Forte System",
-      "originalLength": 0,
-      "finalLength": 249
-    },
-    {
-      "externalId": "4616",
-      "name": "Immunomix Plus Syrop",
+      "externalId": "4943",
+      "name": "Detramax Plus - 60szt",
       "originalLength": 0,
       "finalLength": 237
-    },
-    {
-      "externalId": "4754",
-      "name": "Bodymisie o smaku owocowym",
-      "originalLength": 0,
-      "finalLength": 243
-    },
-    {
-      "externalId": "4761",
-      "name": "Möller’s Complex",
-      "originalLength": 0,
-      "finalLength": 244
-    },
-    {
-      "externalId": "4793",
-      "name": "Miovelia Pro",
-      "originalLength": 0,
-      "finalLength": 233
-    },
-    {
-      "externalId": "4825",
-      "name": "Pueria Duo",
-      "originalLength": 0,
-      "finalLength": 244
-    },
-    {
-      "externalId": "4875",
-      "name": "Remé Kolagenowa Formuła Piękna neutralna",
-      "originalLength": 0,
-      "finalLength": 226
-    },
-    {
-      "externalId": "4909",
-      "name": "LipiForma",
-      "originalLength": 0,
-      "finalLength": 245
     },
     {
       "externalId": "5066",
@@ -394,64 +658,22 @@
       "finalLength": 240
     },
     {
-      "externalId": "5078",
-      "name": "StructuActiv Forte 600",
+      "externalId": "5103",
+      "name": "Artresan Optima 1 a Day - 36szt",
       "originalLength": 0,
-      "finalLength": 241
+      "finalLength": 237
     },
     {
-      "externalId": "5559",
-      "name": "Solgar Kompleks witamin B i witaminy C",
+      "externalId": "16356",
+      "name": "Multilac Baby - Synbiotyk w kroplach dla niemowląt i dzieci - 2x5ml",
       "originalLength": 0,
-      "finalLength": 235
+      "finalLength": 256
     },
     {
-      "externalId": "5866",
-      "name": "Tisane Balsam do ust w sztyfcie",
+      "externalId": "16358",
+      "name": "Multilac Baby - Synbiotyk w kroplach dla niemowląt i dzieci - 5ml",
       "originalLength": 0,
-      "finalLength": 239
-    },
-    {
-      "externalId": "5879",
-      "name": "Bepanthen Plus",
-      "originalLength": 0,
-      "finalLength": 214
-    },
-    {
-      "externalId": "5904",
-      "name": "Equazen Płyn smak waniliowy",
-      "originalLength": 0,
-      "finalLength": 231
-    },
-    {
-      "externalId": "5906",
-      "name": "Equazen Płyn smak cytrynowym",
-      "originalLength": 0,
-      "finalLength": 231
-    },
-    {
-      "externalId": "5908",
-      "name": "Equazen Żelki",
-      "originalLength": 0,
-      "finalLength": 215
-    },
-    {
-      "externalId": "8917",
-      "name": "Eau Thermale Avène Cicalfate+ - Regenerujący balsam do ust",
-      "originalLength": 0,
-      "finalLength": 236
-    },
-    {
-      "externalId": "15952",
-      "name": "Caudalie Vinoclean - Delikatny krem peelingujący",
-      "originalLength": 0,
-      "finalLength": 238
-    },
-    {
-      "externalId": "17001",
-      "name": "Szelazo+ SR, 60 sztuk",
-      "originalLength": 0,
-      "finalLength": 250
+      "finalLength": 256
     }
   ],
   "unresolvedCategories": [],
@@ -462,6 +684,132 @@
   "inpostReferenceCategoryOverrides": [],
   "inpostCurrentCategoryPreserved": [],
   "rescueSkippedSameRejectedCategory": [
+    {
+      "externalId": "2027",
+      "name": "Men Żel do golenia, gęsta, kremowa pianka",
+      "sku": "3264680003585",
+      "ean": "3264680003585",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
+      "matchedBy": "override-exact",
+      "matchedWooCategory": "Dermokosmetyki > dla Mężczyzn > Produkty do golenia",
+      "matchedInpostCategory": "direct-id",
+      "rescueCandidate": {
+        "externalId": "2027",
+        "sources": [
+          {
+            "type": "sync-category-incorrect",
+            "offerId": "656bd380-6bcd-4481-ad3f-b0a42cfbda95",
+            "rejectedCategoryIds": [
+              "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3"
+            ],
+            "validationErrors": [
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Kategoria oferty 'Zdrowie > Pozostałe produkty zdrowotne' jest nieprawidłowa."
+              },
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Kategoria oferty 'Zdrowie > Pozostałe produkty zdrowotne' jest nieprawidłowa."
+              }
+            ]
+          }
+        ],
+        "rejectedCategoryIds": [
+          "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3"
+        ],
+        "rejectedHintCategoryIds": [],
+        "rejectedSyncCategoryIds": [
+          "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3"
+        ]
+      },
+      "errors": [
+        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
+      ]
+    },
+    {
+      "externalId": "3058",
+      "name": "Seboradin Women Sport - Szampon i Żel 2 w 1 - 150ml",
+      "sku": "5902751581829",
+      "ean": "5902751581829",
+      "categoryId": "8d5d68fa-99a8-5d69-9baa-5866677130e3",
+      "matchedBy": "override-exact",
+      "matchedWooCategory": "Dermokosmetyki > do Ciała > Żele i peeling do ciała",
+      "matchedInpostCategory": "direct-id",
+      "rescueCandidate": {
+        "externalId": "3058",
+        "sources": [
+          {
+            "type": "sync-category-incorrect",
+            "offerId": "7770c481-4bcb-490a-b904-4bc22b04328c",
+            "rejectedCategoryIds": [
+              "8d5d68fa-99a8-5d69-9baa-5866677130e3"
+            ],
+            "validationErrors": [
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Kąpiel i prysznic' jest nieprawidłowa."
+              },
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Kąpiel i prysznic' jest nieprawidłowa."
+              }
+            ]
+          }
+        ],
+        "rejectedCategoryIds": [
+          "8d5d68fa-99a8-5d69-9baa-5866677130e3"
+        ],
+        "rejectedHintCategoryIds": [],
+        "rejectedSyncCategoryIds": [
+          "8d5d68fa-99a8-5d69-9baa-5866677130e3"
+        ]
+      },
+      "errors": [
+        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
+      ]
+    },
+    {
+      "externalId": "4616",
+      "name": "Immunomix Plus Syrop",
+      "sku": "8032472018742",
+      "ean": "8032472018742",
+      "categoryId": "43684d3f-c3c7-5a80-a5f2-023dc79cbd09",
+      "matchedBy": "override-exact",
+      "matchedWooCategory": "Suplementy Diety > Odporność > Preparaty ziołowe",
+      "matchedInpostCategory": "direct-id",
+      "rescueCandidate": {
+        "externalId": "4616",
+        "sources": [
+          {
+            "type": "sync-category-incorrect",
+            "offerId": "1c139f53-d33c-4875-8d0b-c7bcca2d2ab9",
+            "rejectedCategoryIds": [
+              "43684d3f-c3c7-5a80-a5f2-023dc79cbd09"
+            ],
+            "validationErrors": [
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
+              },
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
+              }
+            ]
+          }
+        ],
+        "rejectedCategoryIds": [
+          "43684d3f-c3c7-5a80-a5f2-023dc79cbd09"
+        ],
+        "rejectedHintCategoryIds": [],
+        "rejectedSyncCategoryIds": [
+          "43684d3f-c3c7-5a80-a5f2-023dc79cbd09"
+        ]
+      },
+      "errors": [
+        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
+      ]
+    },
     {
       "externalId": "5014",
       "name": "Mbrace Good Night",
@@ -631,6 +979,90 @@
       ]
     },
     {
+      "externalId": "15057",
+      "name": "Caudalie Vinoclean - Maseczka detoksykująca instant - 75ml",
+      "sku": "3522930004349",
+      "ean": "3522930004349",
+      "categoryId": "be442cf4-be3f-5165-a596-78a9c49eaabd",
+      "matchedBy": "override-exact",
+      "matchedWooCategory": "Dermokosmetyki > do Ciała > Balsamy do paznokci",
+      "matchedInpostCategory": "direct-id",
+      "rescueCandidate": {
+        "externalId": "15057",
+        "sources": [
+          {
+            "type": "sync-category-incorrect",
+            "offerId": "07021f7a-3b18-4872-b170-3f751939c7ac",
+            "rejectedCategoryIds": [
+              "be442cf4-be3f-5165-a596-78a9c49eaabd"
+            ],
+            "validationErrors": [
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Kremy do rąk i stóp' jest nieprawidłowa."
+              },
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Kremy do rąk i stóp' jest nieprawidłowa."
+              }
+            ]
+          }
+        ],
+        "rejectedCategoryIds": [
+          "be442cf4-be3f-5165-a596-78a9c49eaabd"
+        ],
+        "rejectedHintCategoryIds": [],
+        "rejectedSyncCategoryIds": [
+          "be442cf4-be3f-5165-a596-78a9c49eaabd"
+        ]
+      },
+      "errors": [
+        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
+      ]
+    },
+    {
+      "externalId": "15059",
+      "name": "Caudalie Vinoclean - Maseczka detoksykująca instant - 35ml",
+      "sku": "3522930004486",
+      "ean": "3522930004486",
+      "categoryId": "be442cf4-be3f-5165-a596-78a9c49eaabd",
+      "matchedBy": "override-exact",
+      "matchedWooCategory": "Dermokosmetyki > do Ciała > Balsamy do paznokci",
+      "matchedInpostCategory": "direct-id",
+      "rescueCandidate": {
+        "externalId": "15059",
+        "sources": [
+          {
+            "type": "sync-category-incorrect",
+            "offerId": "b890eda8-f6a5-4203-bdbe-7ab1bd1f5aae",
+            "rejectedCategoryIds": [
+              "be442cf4-be3f-5165-a596-78a9c49eaabd"
+            ],
+            "validationErrors": [
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Kremy do rąk i stóp' jest nieprawidłowa."
+              },
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Kremy do rąk i stóp' jest nieprawidłowa."
+              }
+            ]
+          }
+        ],
+        "rejectedCategoryIds": [
+          "be442cf4-be3f-5165-a596-78a9c49eaabd"
+        ],
+        "rejectedHintCategoryIds": [],
+        "rejectedSyncCategoryIds": [
+          "be442cf4-be3f-5165-a596-78a9c49eaabd"
+        ]
+      },
+      "errors": [
+        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
+      ]
+    },
+    {
       "externalId": "15081",
       "name": "Caudalie Vinocrush - Krem CC - Odcień 1",
       "sku": "3522930004097",
@@ -708,6 +1140,90 @@
         "rejectedHintCategoryIds": [],
         "rejectedSyncCategoryIds": [
           "be442cf4-be3f-5165-a596-78a9c49eaabd"
+        ]
+      },
+      "errors": [
+        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
+      ]
+    },
+    {
+      "externalId": "16152",
+      "name": "Chusteczki H2O Wipes Kids Wet Wipes Lab4Baby - 24szt",
+      "sku": "5908288911795",
+      "ean": "5908288911795",
+      "categoryId": "e29fe84e-9555-5d4e-ab24-de8653b6c783",
+      "matchedBy": "override-exact",
+      "matchedWooCategory": "Dermokosmetyki > dla Dziecka",
+      "matchedInpostCategory": "direct-id",
+      "rescueCandidate": {
+        "externalId": "16152",
+        "sources": [
+          {
+            "type": "sync-category-incorrect",
+            "offerId": "a77d19a8-5e05-49b1-a568-5ce025b6d902",
+            "rejectedCategoryIds": [
+              "e29fe84e-9555-5d4e-ab24-de8653b6c783"
+            ],
+            "validationErrors": [
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
+              },
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
+              }
+            ]
+          }
+        ],
+        "rejectedCategoryIds": [
+          "e29fe84e-9555-5d4e-ab24-de8653b6c783"
+        ],
+        "rejectedHintCategoryIds": [],
+        "rejectedSyncCategoryIds": [
+          "e29fe84e-9555-5d4e-ab24-de8653b6c783"
+        ]
+      },
+      "errors": [
+        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
+      ]
+    },
+    {
+      "externalId": "16180",
+      "name": "Chusteczki H2O Wipes Baby Wet Wipes Lab4Baby - 24szt",
+      "sku": "5908288911788",
+      "ean": "5908288911788",
+      "categoryId": "e29fe84e-9555-5d4e-ab24-de8653b6c783",
+      "matchedBy": "override-exact",
+      "matchedWooCategory": "Dermokosmetyki > dla Dziecka",
+      "matchedInpostCategory": "direct-id",
+      "rescueCandidate": {
+        "externalId": "16180",
+        "sources": [
+          {
+            "type": "sync-category-incorrect",
+            "offerId": "73b69f90-5400-4b54-94f9-6d7069a282d6",
+            "rejectedCategoryIds": [
+              "e29fe84e-9555-5d4e-ab24-de8653b6c783"
+            ],
+            "validationErrors": [
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
+              },
+              {
+                "validationCode": "CATEGORY_INCORRECT",
+                "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
+              }
+            ]
+          }
+        ],
+        "rejectedCategoryIds": [
+          "e29fe84e-9555-5d4e-ab24-de8653b6c783"
+        ],
+        "rejectedHintCategoryIds": [],
+        "rejectedSyncCategoryIds": [
+          "e29fe84e-9555-5d4e-ab24-de8653b6c783"
         ]
       },
       "errors": [

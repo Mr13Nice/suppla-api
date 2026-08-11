@@ -1,0 +1,134 @@
+[
+  {
+    "externalId": "4862",
+    "product": {
+      "name": "Flexus 30 kaps.",
+      "description": "Marka: Flexus. Kategoria produktu: Suplementy Diety > Kości i stawy > Kolagen. Kod EAN: 7640153060495. SKU produktu: 7640153060495. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+      "brand": "Flexus",
+      "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
+      "sku": "7640153060495",
+      "ean": "7640153060495"
+    },
+    "stock": {
+      "quantity": 0,
+      "unit": "UNIT"
+    },
+    "price": {
+      "grossPrice": {
+        "amount": 32.99,
+        "currency": "PLN"
+      },
+      "taxRateInfo": "23%"
+    }
+  },
+  {
+    "externalId": "4868",
+    "product": {
+      "name": "4Flex, 30 saszetek",
+      "description": "Marka: 4Flex. Kategoria produktu: Suplementy Diety > Kości i stawy > Kolagen. Kod EAN: 5903546006251. SKU produktu: 5903546006251. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+      "brand": "4Flex",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
+      "sku": "5903546006251",
+      "ean": "5903546006251"
+    },
+    "stock": {
+      "quantity": 23,
+      "unit": "UNIT"
+    },
+    "price": {
+      "grossPrice": {
+        "amount": 80.81,
+        "currency": "PLN"
+      },
+      "taxRateInfo": "23%"
+    }
+  },
+  {
+    "externalId": "4974",
+    "product": {
+      "name": "Miralo, 20 kapsułek",
+      "description": "Marka: Miralo. Kategoria produktu: Suplementy Diety > Samopoczucie i energia > Bezsenność. Kod EAN: 5903031281804. SKU produktu: 5903031281804. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+      "brand": "Miralo",
+      "categoryId": "887c536f-35d0-51dc-801d-eb39dd13f7d7",
+      "sku": "5903031281804",
+      "ean": "5903031281804"
+    },
+    "stock": {
+      "quantity": 0,
+      "unit": "UNIT"
+    },
+    "price": {
+      "grossPrice": {
+        "amount": 34.09,
+        "currency": "PLN"
+      },
+      "taxRateInfo": "23%"
+    }
+  },
+  {
+    "externalId": "4996",
+    "product": {
+      "name": "Falvit, 30 tabl. draż.",
+      "description": "Marka: Falvit. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Dla kobiet. Kod EAN: 5904398317014. SKU produktu: 5904398317014. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+      "brand": "Falvit",
+      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
+      "sku": "5904398317014",
+      "ean": "5904398317014"
+    },
+    "stock": {
+      "quantity": 0,
+      "unit": "UNIT"
+    },
+    "price": {
+      "grossPrice": {
+        "amount": 39.59,
+        "currency": "PLN"
+      },
+      "taxRateInfo": "23%"
+    }
+  },
+  {
+    "externalId": "5066",
+    "product": {
+      "name": "Jasnum, kapsułki, 30 szt. na dzień + 30 szt. na noc",
+      "description": "Marka: Jasnum. Kategoria produktu: Suplementy Diety > Samopoczucie i energia > Bezsenność. Kod EAN: 5903031284218. SKU produktu: 5903031284218. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+      "brand": "Jasnum",
+      "categoryId": "6eafbcd7-ebde-5121-9f42-6e5a1395ccd9",
+      "sku": "5903031284218",
+      "ean": "5903031284218"
+    },
+    "stock": {
+      "quantity": 0,
+      "unit": "UNIT"
+    },
+    "price": {
+      "grossPrice": {
+        "amount": 76.99,
+        "currency": "PLN"
+      },
+      "taxRateInfo": "23%"
+    }
+  },
+  {
+    "externalId": "5672",
+    "product": {
+      "name": "DiaB12, kapsułki, 60 szt.",
+      "description": "Marka: DiaB12. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Metabolizm. Kod EAN: 5903735603513. SKU produktu: 5903735603513. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+      "brand": "DiaB12",
+      "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
+      "sku": "5903735603513",
+      "ean": "5903735603513"
+    },
+    "stock": {
+      "quantity": 2,
+      "unit": "UNIT"
+    },
+    "price": {
+      "grossPrice": {
+        "amount": 48.39,
+        "currency": "PLN"
+      },
+      "taxRateInfo": "23%"
+    }
+  }
+]

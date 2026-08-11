@@ -1,21 +1,65 @@
 [
   {
-    "externalId": "1794",
+    "externalId": "4226",
     "product": {
-      "name": "A Physiopuric-Gel Żel nawilżająco-fizjologiczny",
-      "description": "Marka: A. Kategoria produktu: Dermokosmetyki > do Twarzy > Pianki,mleczka i żele do mycia twarzy. Kod EAN: 5900717165618. SKU produktu: 5900717165618. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "A",
-      "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
-      "sku": "5900717165618",
-      "ean": "5900717165618"
+      "name": "D-Vitum 400 j.m. dla dzieci - 30szt",
+      "description": "Marka: D-Vitum. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 5904960017113. SKU produktu: 5904960017113. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+      "brand": "D-Vitum",
+      "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
+      "sku": "5904960017113",
+      "ean": "5904960017113"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 38.89,
+        "amount": 19.79,
+        "currency": "PLN"
+      },
+      "taxRateInfo": "23%"
+    }
+  },
+  {
+    "externalId": "4227",
+    "product": {
+      "name": "D-Vitum 400 j.m. dla dzieci - 90szt",
+      "description": "Marka: D-Vitum. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 5904960017458. SKU produktu: 5904960017458. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+      "brand": "D-Vitum",
+      "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
+      "sku": "5904960017458",
+      "ean": "5904960017458"
+    },
+    "stock": {
+      "quantity": 0,
+      "unit": "UNIT"
+    },
+    "price": {
+      "grossPrice": {
+        "amount": 30.79,
+        "currency": "PLN"
+      },
+      "taxRateInfo": "23%"
+    }
+  },
+  {
+    "externalId": "4242",
+    "product": {
+      "name": "D-Vitum 1000 j.m. dla dzieci - 30szt",
+      "description": "Marka: D-Vitum. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 5904960017120. SKU produktu: 5904960017120. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+      "brand": "D-Vitum",
+      "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
+      "sku": "5904960017120",
+      "ean": "5904960017120"
+    },
+    "stock": {
+      "quantity": 0,
+      "unit": "UNIT"
+    },
+    "price": {
+      "grossPrice": {
+        "amount": 21.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -44,190 +88,14 @@
     }
   },
   {
-    "externalId": "4490",
+    "externalId": "4943",
     "product": {
-      "name": "Litorsal Slim",
-      "description": "Marka: Litorsal. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały > Potas. Kod EAN: 5906204020927. SKU produktu: 5906204020927. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "Litorsal",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
-      "sku": "5906204020927",
-      "ean": "5906204020927"
-    },
-    "stock": {
-      "quantity": 0,
-      "unit": "UNIT"
-    },
-    "price": {
-      "grossPrice": {
-        "amount": 24.75,
-        "currency": "PLN"
-      },
-      "taxRateInfo": "23%"
-    }
-  },
-  {
-    "externalId": "4519",
-    "product": {
-      "name": "Capivit A+E Forte System",
-      "description": "Marka: Capivit. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Witaminy > Witamina A. Kod EAN: 5900008027366. SKU produktu: 5900008027366. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "Capivit",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
-      "sku": "5900008027366",
-      "ean": "5900008027366"
-    },
-    "stock": {
-      "quantity": 0,
-      "unit": "UNIT"
-    },
-    "price": {
-      "grossPrice": {
-        "amount": 36.85,
-        "currency": "PLN"
-      },
-      "taxRateInfo": "23%"
-    }
-  },
-  {
-    "externalId": "4616",
-    "product": {
-      "name": "Immunomix Plus Syrop",
-      "description": "Marka: Immunomix. Kategoria produktu: Suplementy Diety > Odporność > Preparaty ziołowe. Kod EAN: 8032472018742. SKU produktu: 8032472018742. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "Immunomix",
-      "categoryId": "43684d3f-c3c7-5a80-a5f2-023dc79cbd09",
-      "sku": "8032472018742",
-      "ean": "8032472018742"
-    },
-    "stock": {
-      "quantity": 0,
-      "unit": "UNIT"
-    },
-    "price": {
-      "grossPrice": {
-        "amount": 87.99,
-        "currency": "PLN"
-      },
-      "taxRateInfo": "23%"
-    }
-  },
-  {
-    "externalId": "4754",
-    "product": {
-      "name": "Bodymisie o smaku owocowym",
-      "description": "Marka: Bodymisie. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Multiwitaminy. Kod EAN: 7070866031374. SKU produktu: 7070866031374. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "Bodymisie",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
-      "sku": "7070866031374",
-      "ean": "7070866031374"
-    },
-    "stock": {
-      "quantity": 0,
-      "unit": "UNIT"
-    },
-    "price": {
-      "grossPrice": {
-        "amount": 40.69,
-        "currency": "PLN"
-      },
-      "taxRateInfo": "23%"
-    }
-  },
-  {
-    "externalId": "4761",
-    "product": {
-      "name": "Möller’s Complex",
-      "description": "Marka: Möller’s. Kategoria produktu: Suplementy Diety > Samopoczucie i energia > Oczy i wzrok. Kod EAN: 5702071389361. SKU produktu: 5702071389361. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "Möller’s",
-      "categoryId": "bb0fb27a-aee1-5686-97c8-f066b0d766e5",
-      "sku": "5702071389361",
-      "ean": "5702071389361"
-    },
-    "stock": {
-      "quantity": 0,
-      "unit": "UNIT"
-    },
-    "price": {
-      "grossPrice": {
-        "amount": 64.89,
-        "currency": "PLN"
-      },
-      "taxRateInfo": "23%"
-    }
-  },
-  {
-    "externalId": "4793",
-    "product": {
-      "name": "Miovelia Pro",
-      "description": "Marka: Miovelia. Kategoria produktu: Macierzyństwo > Ciąża > Wspomaganie płodności. Kod EAN: 5907513003830. SKU produktu: 5907513003830. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "Miovelia",
-      "categoryId": "9e7a71ca-82b4-56ba-9840-37fcabb17c3e",
-      "sku": "5907513003830",
-      "ean": "5907513003830"
-    },
-    "stock": {
-      "quantity": 0,
-      "unit": "UNIT"
-    },
-    "price": {
-      "grossPrice": {
-        "amount": 153.99,
-        "currency": "PLN"
-      },
-      "taxRateInfo": "23%"
-    }
-  },
-  {
-    "externalId": "4825",
-    "product": {
-      "name": "Pueria Duo",
-      "description": "Marka: Pueria. Kategoria produktu: Macierzyństwo > Ciąża > Zestawy witamin dla kobiet w ciąży. Kod EAN: 5903031283921. SKU produktu: 5903031283921. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "Pueria",
-      "categoryId": "a69627d6-3b1e-5dac-849b-f76bd8400068",
-      "sku": "5903031283921",
-      "ean": "5903031283921"
-    },
-    "stock": {
-      "quantity": 0,
-      "unit": "UNIT"
-    },
-    "price": {
-      "grossPrice": {
-        "amount": 82.49,
-        "currency": "PLN"
-      },
-      "taxRateInfo": "23%"
-    }
-  },
-  {
-    "externalId": "4875",
-    "product": {
-      "name": "Remé Kolagenowa Formuła Piękna neutralna",
-      "description": "Marka: Remé. Kategoria produktu: Suplementy Diety > Kości i stawy > Kolagen. Kod EAN: 5903031286540. SKU produktu: 5903031286540. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "Remé",
-      "categoryId": "6eafbcd7-ebde-5121-9f42-6e5a1395ccd9",
-      "sku": "5903031286540",
-      "ean": "5903031286540"
-    },
-    "stock": {
-      "quantity": 0,
-      "unit": "UNIT"
-    },
-    "price": {
-      "grossPrice": {
-        "amount": 71.49,
-        "currency": "PLN"
-      },
-      "taxRateInfo": "23%"
-    }
-  },
-  {
-    "externalId": "4909",
-    "product": {
-      "name": "LipiForma",
-      "description": "Marka: LipiForma. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Cholesterol. Kod EAN: 5902020661733. SKU produktu: 5902020661733. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "LipiForma",
+      "name": "Detramax Plus - 60szt",
+      "description": "Marka: Detramax. Kategoria produktu: Suplementy Diety > Kości i stawy > Układ krążenia. Kod EAN: 5903111410643. SKU produktu: 5903111410643. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+      "brand": "Detramax",
       "categoryId": "2209e67b-9c0a-514a-91bd-15af4128e35c",
-      "sku": "5902020661733",
-      "ean": "5902020661733"
+      "sku": "5903111410643",
+      "ean": "5903111410643"
     },
     "stock": {
       "quantity": 0,
@@ -235,7 +103,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 24.19,
+        "amount": 45.65,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -264,14 +132,14 @@
     }
   },
   {
-    "externalId": "5078",
+    "externalId": "5103",
     "product": {
-      "name": "StructuActiv Forte 600",
-      "description": "Marka: StructuActiv. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały. Kod EAN: 5903260905199. SKU produktu: 5903260905199. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "StructuActiv",
-      "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
-      "sku": "5903260905199",
-      "ean": "5903260905199"
+      "name": "Artresan Optima 1 a Day - 36szt",
+      "description": "Marka: Artresan. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały. Kod EAN: 5903031283730. SKU produktu: 5903031283730. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+      "brand": "Artresan",
+      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+      "sku": "5903031283730",
+      "ean": "5903031283730"
     },
     "stock": {
       "quantity": 0,
@@ -279,109 +147,21 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 71.49,
+        "amount": 79.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
     }
   },
   {
-    "externalId": "5559",
+    "externalId": "16356",
     "product": {
-      "name": "Solgar Kompleks witamin B i witaminy C",
-      "description": "Marka: Solgar. Kategoria produktu: Suplementy Diety > Kości i stawy > Układ krążenia. Kod EAN: 0033984006744. SKU produktu: 0033984006744. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "Solgar",
-      "categoryId": "2209e67b-9c0a-514a-91bd-15af4128e35c",
-      "sku": "0033984006744",
-      "ean": "0033984006744"
-    },
-    "stock": {
-      "quantity": 0,
-      "unit": "UNIT"
-    },
-    "price": {
-      "grossPrice": {
-        "amount": 82.49,
-        "currency": "PLN"
-      },
-      "taxRateInfo": "23%"
-    }
-  },
-  {
-    "externalId": "5866",
-    "product": {
-      "name": "Tisane Balsam do ust w sztyfcie",
-      "description": "Marka: Tisane. Kategoria produktu: Dermokosmetyki > do Twarzy > Pomadki i balsamy do ust. Kod EAN: 5904386000669. SKU produktu: 5904386000669. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "Tisane",
-      "categoryId": "c81dbc41-d90b-5cea-ad55-511bc9cb23b4",
-      "sku": "5904386000669",
-      "ean": "5904386000669"
-    },
-    "stock": {
-      "quantity": 0,
-      "unit": "UNIT"
-    },
-    "price": {
-      "grossPrice": {
-        "amount": 21.99,
-        "currency": "PLN"
-      },
-      "taxRateInfo": "23%"
-    }
-  },
-  {
-    "externalId": "5879",
-    "product": {
-      "name": "Bepanthen Plus",
-      "description": "Marka: Bepanthen. Kategoria produktu: Dermokosmetyki > do Ciała. Kod EAN: 5909990683727. SKU produktu: 5909990683727. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "Bepanthen",
-      "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
-      "sku": "5909990683727",
-      "ean": "5909990683727"
-    },
-    "stock": {
-      "quantity": 2,
-      "unit": "UNIT"
-    },
-    "price": {
-      "grossPrice": {
-        "amount": 32.7,
-        "currency": "PLN"
-      },
-      "taxRateInfo": "23%"
-    }
-  },
-  {
-    "externalId": "5904",
-    "product": {
-      "name": "Equazen Płyn smak waniliowy",
-      "description": "Marka: Equazen. Kategoria produktu: Suplementy Diety > Odporność > Oleje i trany. Kod EAN: 5060072605898. SKU produktu: 5060072605898. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "Equazen",
-      "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
-      "sku": "5060072605898",
-      "ean": "5060072605898"
-    },
-    "stock": {
-      "quantity": 4,
-      "unit": "UNIT"
-    },
-    "price": {
-      "grossPrice": {
-        "amount": 66.16,
-        "currency": "PLN"
-      },
-      "taxRateInfo": "23%"
-    }
-  },
-  {
-    "externalId": "5906",
-    "product": {
-      "name": "Equazen Płyn smak cytrynowym",
-      "description": "Marka: Equazen. Kategoria produktu: Suplementy Diety > Odporność > Oleje i trany. Kod EAN: 5060072605904. SKU produktu: 5060072605904. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "Equazen",
-      "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
-      "sku": "5060072605904",
-      "ean": "5060072605904"
+      "name": "Multilac Baby - Synbiotyk w kroplach dla niemowląt i dzieci - 2x5ml",
+      "description": "Marka: Multilac. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 5903031282627. SKU produktu: 5903031282627. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+      "brand": "Multilac",
+      "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
+      "sku": "5903031282627",
+      "ean": "5903031282627"
     },
     "stock": {
       "quantity": 5,
@@ -389,65 +169,21 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 66.16,
+        "amount": 43.53,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
     }
   },
   {
-    "externalId": "5908",
+    "externalId": "16358",
     "product": {
-      "name": "Equazen Żelki",
-      "description": "Marka: Equazen. Kategoria produktu: Suplementy Diety > Odporność. Kod EAN: 5060072606451. SKU produktu: 5060072606451. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "Equazen",
-      "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
-      "sku": "5060072606451",
-      "ean": "5060072606451"
-    },
-    "stock": {
-      "quantity": 3,
-      "unit": "UNIT"
-    },
-    "price": {
-      "grossPrice": {
-        "amount": 122.08,
-        "currency": "PLN"
-      },
-      "taxRateInfo": "23%"
-    }
-  },
-  {
-    "externalId": "8917",
-    "product": {
-      "name": "Eau Thermale Avène Cicalfate+ - Regenerujący balsam do ust",
-      "description": "Marka: Eau. Kategoria produktu: Dermokosmetyki > do Twarzy > Pomadki i balsamy do ust. Kod EAN: 3282770142327. SKU produktu: 3282770142327. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "Eau",
-      "categoryId": "c81dbc41-d90b-5cea-ad55-511bc9cb23b4",
-      "sku": "3282770142327",
-      "ean": "3282770142327"
-    },
-    "stock": {
-      "quantity": 3,
-      "unit": "UNIT"
-    },
-    "price": {
-      "grossPrice": {
-        "amount": 27.48,
-        "currency": "PLN"
-      },
-      "taxRateInfo": "23%"
-    }
-  },
-  {
-    "externalId": "15952",
-    "product": {
-      "name": "Caudalie Vinoclean - Delikatny krem peelingujący",
-      "description": "Marka: Caudalie. Kategoria produktu: Dermokosmetyki > do Ciała > Kremy, balsamy i masła. Kod EAN: 3522930003038. SKU produktu: 3522930003038. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "Caudalie",
-      "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
-      "sku": "3522930003038",
-      "ean": "3522930003038"
+      "name": "Multilac Baby - Synbiotyk w kroplach dla niemowląt i dzieci - 5ml",
+      "description": "Marka: Multilac. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 5907377138464. SKU produktu: 5907377138464. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+      "brand": "Multilac",
+      "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
+      "sku": "5907377138464",
+      "ean": "5907377138464"
     },
     "stock": {
       "quantity": 0,
@@ -455,29 +191,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 87.99,
-        "currency": "PLN"
-      },
-      "taxRateInfo": "23%"
-    }
-  },
-  {
-    "externalId": "17001",
-    "product": {
-      "name": "Szelazo+ SR, 60 sztuk",
-      "description": "Marka: Szelazo+. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Witaminy > Witamina C. Kod EAN: 5902596593056. SKU produktu: 5902596593056. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "Szelazo+",
-      "categoryId": "bb0fb27a-aee1-5686-97c8-f066b0d766e5",
-      "sku": "5902596593056",
-      "ean": "5902596593056"
-    },
-    "stock": {
-      "quantity": 1,
-      "unit": "UNIT"
-    },
-    "price": {
-      "grossPrice": {
-        "amount": 43.99,
+        "amount": 38.49,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"

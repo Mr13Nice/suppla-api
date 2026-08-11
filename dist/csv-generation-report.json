@@ -26,6 +26,8 @@
     "EXECUTE_CLEANUP": false,
     "CLOSE_ONLY": false,
     "RESCUE_OVERRIDES": false,
+    "INCLUDE_VARIATIONS": true,
+    "VARIATIONS_ONLY": false,
     "mappingOrder": [
       "category-hints.json by EAN from InPost /offers/hint",
       "category-overrides.json by WooCommerce category",
@@ -39,23 +41,29 @@
     "nonLeafCategories": 1079
   },
   "totals": {
-    "csvRows": 2142,
+    "csvRows": 2143,
+    "variationRows": 376,
+    "variationParentRowsResolved": 374,
+    "variationParentRowsMissing": 2,
+    "variationOffersGenerated": 292,
+    "variationRowsSkipped": 84,
+    "variableParentRowsSkipped": 169,
     "rescueCandidates": 0,
     "rescueSkippedSameRejectedCategory": 0,
-    "offersToCreate": 1225,
-    "skippedProducts": 917,
-    "blockingSkippedProducts": 358,
-    "productsWithoutImages": 20,
-    "generatedDescriptions": 1323,
+    "offersToCreate": 1517,
+    "skippedProducts": 626,
+    "blockingSkippedProducts": 443,
+    "productsWithoutImages": 21,
+    "generatedDescriptions": 1670,
     "unresolvedCategories": 0,
     "rejectedCategoryHints": 0,
-    "hintCategoryWarnings": 6,
+    "hintCategoryWarnings": 9,
     "duplicateExternalIdsInCsv": 0,
-    "existingInPostSkipped": 1225,
-    "existingInPostIncludedInOutput": 1225,
+    "existingInPostSkipped": 1517,
+    "existingInPostIncludedInOutput": 1517,
     "inpostReferenceCategoryOverrides": 0,
     "inpostCurrentCategoryPreserved": 0,
-    "existingInPostItemsFetched": 1662,
+    "existingInPostItemsFetched": 1954,
     "existingDuplicateExternalIdGroups": 384,
     "existingDuplicateCleanupPlanned": 435,
     "duplicateCleanupSuccess": 0,
@@ -63,13 +71,13 @@
   },
   "categoryResolution": {
     "byMethod": {
-      "inpost-hint-ean": 1230,
-      "override-exact": 347,
-      "inpost-hint-ean-with-local-warning": 6
+      "inpost-hint-ean": 1520,
+      "override-exact": 429,
+      "inpost-hint-ean-with-local-warning": 9
     },
     "rejectedHintReasons": {},
     "hintWarningReasons": {
-      "hint-category-is-not-leaf": 6
+      "hint-category-is-not-leaf": 9
     }
   }
 }
