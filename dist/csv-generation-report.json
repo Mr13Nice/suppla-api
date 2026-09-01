@@ -45,25 +45,25 @@
     "variationRows": 376,
     "variationParentRowsResolved": 374,
     "variationParentRowsMissing": 2,
-    "variationOffersGenerated": 292,
-    "variationRowsSkipped": 84,
+    "variationOffersGenerated": 298,
+    "variationRowsSkipped": 78,
     "variableParentRowsSkipped": 169,
     "rescueCandidates": 0,
     "rescueSkippedSameRejectedCategory": 0,
-    "offersToCreate": 1517,
-    "skippedProducts": 626,
-    "blockingSkippedProducts": 443,
+    "offersToCreate": 1550,
+    "skippedProducts": 593,
+    "blockingSkippedProducts": 410,
     "productsWithoutImages": 21,
     "generatedDescriptions": 1670,
     "unresolvedCategories": 0,
     "rejectedCategoryHints": 0,
-    "hintCategoryWarnings": 9,
+    "hintCategoryWarnings": 4,
     "duplicateExternalIdsInCsv": 0,
-    "existingInPostSkipped": 1517,
-    "existingInPostIncludedInOutput": 1517,
+    "existingInPostSkipped": 1549,
+    "existingInPostIncludedInOutput": 1549,
     "inpostReferenceCategoryOverrides": 0,
     "inpostCurrentCategoryPreserved": 0,
-    "existingInPostItemsFetched": 1954,
+    "existingInPostItemsFetched": 1986,
     "existingDuplicateExternalIdGroups": 384,
     "existingDuplicateCleanupPlanned": 435,
     "duplicateCleanupSuccess": 0,
@@ -71,13 +71,14 @@
   },
   "categoryResolution": {
     "byMethod": {
-      "inpost-hint-ean": 1520,
-      "override-exact": 429,
-      "inpost-hint-ean-with-local-warning": 9
+      "inpost-hint-ean": 1523,
+      "override-exact": 417,
+      "override-product-external-id": 14,
+      "inpost-hint-ean-with-local-warning": 4
     },
     "rejectedHintReasons": {},
     "hintWarningReasons": {
-      "hint-category-is-not-leaf": 9
+      "hint-category-is-not-leaf": 4
     }
   }
 }

@@ -12,9 +12,9 @@
     "affiliationProductUrl"
   ],
   "totals": {
-    "offersInFile": 9,
-    "existingItemsFetched": 1954,
-    "existingExternalIds": 1519,
+    "offersInFile": 6,
+    "existingItemsFetched": 1987,
+    "existingExternalIds": 1552,
     "duplicateExternalIdsInInPost": 384,
     "created": 0,
     "patched": 3,
@@ -23,12 +23,12 @@
     "dryRunPatch": 0,
     "skippedExistingCreateOnly": 0,
     "skippedTerminalDuplicates": 0,
-    "skippedNonCanonicalDuplicates": 1,
+    "skippedNonCanonicalDuplicates": 0,
     "skippedOnlyTerminalMatches": 0,
     "inpostReferenceCategoryOverrides": 0,
     "inpostCurrentCategoryPreserved": 0,
-    "postWriteValidationErrors": 6,
-    "errors": 6
+    "postWriteValidationErrors": 3,
+    "errors": 3
   },
   "duplicateExternalIdsInInPost": [
     {
@@ -740,12 +740,12 @@
         "c57e7ca7-8c93-4cae-87c7-ab14bf4bab8c"
       ],
       "statuses": [
-        "PUBLISHED",
+        "SOLDOUT",
         "REJECTED",
         "REJECTED"
       ],
       "selectedPatchOfferId": "a310a78d-eb6b-4dc8-8fd9-0f68edf08b54",
-      "selectedPatchStatus": "PUBLISHED",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -2280,25 +2280,13 @@
         "a0a63c9b-3f6a-400a-86b0-5581204eb8cd"
       ],
       "statuses": [
-        "CLOSED",
+        "PUBLISHED",
         "CLOSED",
         "REJECTED"
       ],
-      "selectedPatchOfferId": "a0a63c9b-3f6a-400a-86b0-5581204eb8cd",
-      "selectedPatchStatus": "REJECTED",
+      "selectedPatchOfferId": "0e60b48b-bc74-42ba-b59d-efb464a42b1c",
+      "selectedPatchStatus": "PUBLISHED",
       "skippedBySync": [
-        {
-          "reason": "terminal-status",
-          "offerId": "0e60b48b-bc74-42ba-b59d-efb464a42b1c",
-          "externalId": "2303",
-          "status": "CLOSED",
-          "name": "Very Rose Balsam do ust różany",
-          "ean": "3264680027178",
-          "sku": "3264680027178",
-          "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
-          "updatedAt": "2026-06-09T12:37:32.330Z",
-          "createdAt": "2026-06-02T14:24:15.365Z"
-        },
         {
           "reason": "terminal-status",
           "offerId": "6549d999-10a0-40fe-82fd-dd7b7c8a7554",
@@ -2310,6 +2298,18 @@
           "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
           "updatedAt": "2026-08-07T15:09:20.234Z",
           "createdAt": "2026-05-25T13:24:13.109Z"
+        },
+        {
+          "reason": "non-canonical-duplicate",
+          "offerId": "a0a63c9b-3f6a-400a-86b0-5581204eb8cd",
+          "externalId": "2303",
+          "status": "REJECTED",
+          "name": "Very Rose Balsam do ust różany",
+          "ean": "3264680027178",
+          "sku": "3264680027178",
+          "categoryId": "1563b6f0-b584-57d4-a677-49cca69bddfb",
+          "updatedAt": "2026-07-28T11:05:56.739Z",
+          "createdAt": "2026-05-22T14:49:17.651Z"
         }
       ]
     },
@@ -2518,10 +2518,10 @@
       ],
       "statuses": [
         "CLOSED",
-        "PENDING"
+        "REJECTED"
       ],
       "selectedPatchOfferId": "656bd380-6bcd-4481-ad3f-b0a42cfbda95",
-      "selectedPatchStatus": "PENDING",
+      "selectedPatchStatus": "REJECTED",
       "skippedBySync": [
         {
           "reason": "terminal-status",
@@ -3063,11 +3063,11 @@
         "5ed35323-43bf-455f-8b55-625cd6731d27"
       ],
       "statuses": [
-        "PENDING",
+        "SOLDOUT",
         "CLOSED"
       ],
       "selectedPatchOfferId": "bffd88a1-3ba9-4169-ad63-3290f5f33c12",
-      "selectedPatchStatus": "PENDING",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "terminal-status",
@@ -3119,11 +3119,11 @@
         "3951d4d1-e5d9-47b9-b315-016723af4955"
       ],
       "statuses": [
-        "PENDING",
+        "SOLDOUT",
         "CLOSED"
       ],
       "selectedPatchOfferId": "52d51048-37f4-4ce1-a3b1-774c117b2a46",
-      "selectedPatchStatus": "PENDING",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "terminal-status",
@@ -4015,11 +4015,11 @@
         "539a3789-05e7-46df-a25f-4b6bf43b954a"
       ],
       "statuses": [
-        "SOLDOUT",
+        "PUBLISHED",
         "REJECTED"
       ],
       "selectedPatchOfferId": "ab039c3e-b3d3-4fb8-9bdf-d3837888d8ce",
-      "selectedPatchStatus": "SOLDOUT",
+      "selectedPatchStatus": "PUBLISHED",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -5751,11 +5751,11 @@
         "538e2c4d-1e14-41ac-805a-362a39a02afb"
       ],
       "statuses": [
-        "PENDING",
+        "SOLDOUT",
         "REJECTED"
       ],
       "selectedPatchOfferId": "2fb6a1ad-41bb-4345-b5c1-7f8b92b860bb",
-      "selectedPatchStatus": "PENDING",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -5765,8 +5765,8 @@
           "name": "Sanprobi 4 Enteric",
           "ean": "5907774335060",
           "sku": "5907774335060",
-          "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
-          "updatedAt": "2026-07-14T11:33:11.027Z",
+          "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
+          "updatedAt": "2026-08-11T09:57:33.326Z",
           "createdAt": "2026-05-22T14:54:16.018Z"
         }
       ]
@@ -5919,11 +5919,11 @@
         "14d1dafd-d644-44a5-9ec9-198a93190491"
       ],
       "statuses": [
-        "SOLDOUT",
+        "PUBLISHED",
         "REJECTED"
       ],
       "selectedPatchOfferId": "45f3952c-fe1f-4e5c-92af-fbe47b43dfa7",
-      "selectedPatchStatus": "SOLDOUT",
+      "selectedPatchStatus": "PUBLISHED",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -7362,7 +7362,7 @@
           "ean": "5902751586800",
           "sku": "5902751586800",
           "categoryId": "2cc600df-24c6-5e5a-a35f-10fa2528b776",
-          "updatedAt": "2026-07-14T11:25:59.992Z",
+          "updatedAt": "2026-08-27T11:42:36.711Z",
           "createdAt": "2026-05-22T14:51:16.439Z"
         }
       ]
@@ -7418,7 +7418,7 @@
           "ean": "5907718948981",
           "sku": "5907718948981",
           "categoryId": "2cc600df-24c6-5e5a-a35f-10fa2528b776",
-          "updatedAt": "2026-07-14T11:25:41.925Z",
+          "updatedAt": "2026-08-27T11:57:59.452Z",
           "createdAt": "2026-05-22T14:51:07.931Z"
         }
       ]
@@ -7627,11 +7627,11 @@
         "bc056546-c3e5-4a39-8b60-56fb250d7ecb"
       ],
       "statuses": [
-        "PUBLISHED",
+        "SOLDOUT",
         "REJECTED"
       ],
       "selectedPatchOfferId": "a9e4f455-fa10-4427-83fd-fefb6347a389",
-      "selectedPatchStatus": "PUBLISHED",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -8747,11 +8747,11 @@
         "9f3f21ab-79a8-4e8e-baf3-bab68bcfea42"
       ],
       "statuses": [
-        "PUBLISHED",
+        "SOLDOUT",
         "REJECTED"
       ],
       "selectedPatchOfferId": "919c3815-f472-4714-8131-dd8638274689",
-      "selectedPatchStatus": "PUBLISHED",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -9307,11 +9307,11 @@
         "daf7183c-bc72-4444-af0e-a55c87d77c67"
       ],
       "statuses": [
-        "PUBLISHED",
+        "SOLDOUT",
         "REJECTED"
       ],
       "selectedPatchOfferId": "70b65676-f3f8-4083-8c78-5fdcfeaa5682",
-      "selectedPatchStatus": "PUBLISHED",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -9363,11 +9363,11 @@
         "31d28249-beb3-44f0-add6-1dcb168907e0"
       ],
       "statuses": [
-        "PUBLISHED",
+        "SOLDOUT",
         "REJECTED"
       ],
       "selectedPatchOfferId": "2603361c-1fed-427a-913b-00a6cf73763d",
-      "selectedPatchStatus": "PUBLISHED",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -9867,11 +9867,11 @@
         "70e499ab-a8e7-4e1a-9b8f-6d4215d84d33"
       ],
       "statuses": [
-        "SOLDOUT",
+        "PUBLISHED",
         "REJECTED"
       ],
       "selectedPatchOfferId": "6abdb811-aa8a-40f2-99d0-5f5a86b2c9a3",
-      "selectedPatchStatus": "SOLDOUT",
+      "selectedPatchStatus": "PUBLISHED",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -10007,11 +10007,11 @@
         "49f2a31a-7800-4bb4-a173-48c30dc1a154"
       ],
       "statuses": [
-        "PENDING",
+        "PUBLISHED",
         "REJECTED"
       ],
       "selectedPatchOfferId": "27777fbc-4a1a-4b77-90b1-ae5d60f1a85f",
-      "selectedPatchStatus": "PENDING",
+      "selectedPatchStatus": "PUBLISHED",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -11582,7 +11582,7 @@
               "refundable": true
             },
             "createdAt": "2026-07-28T12:11:20.708Z",
-            "updatedAt": "2026-08-11T09:06:55.224522773Z"
+            "updatedAt": "2026-08-28T13:49:13.222699729Z"
           }
         }
       },
@@ -11597,107 +11597,7 @@
       "error": null
     },
     {
-      "ok": false,
-      "action": "PATCH",
-      "externalId": "4227",
-      "offerId": "4114dc43-7fec-4c9a-83b7-c721bb73d24a",
-      "changedFields": [
-        "product"
-      ],
-      "changedSubfields": {
-        "product": {
-          "description": "Marka: D-Vitum. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 5904960017458. SKU produktu: 5904960017458. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-          "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0"
-        }
-      },
-      "patchBody": {
-        "product": {
-          "name": "D-Vitum 400 j.m. dla dzieci - 90szt",
-          "description": "Marka: D-Vitum. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 5904960017458. SKU produktu: 5904960017458. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-          "brand": "D-Vitum",
-          "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
-          "sku": "5904960017458",
-          "ean": "5904960017458"
-        }
-      },
-      "inpostReferenceCategoryOverride": null,
-      "inpostCurrentCategoryPreserved": null,
-      "patchResponse": {
-        "ok": true,
-        "data": {
-          "metadata": {
-            "validationErrors": null,
-            "rejectionReasons": null
-          },
-          "offer": {
-            "id": "4114dc43-7fec-4c9a-83b7-c721bb73d24a",
-            "status": "PENDING",
-            "product": {
-              "name": "D-Vitum 400 j.m. dla dzieci - 90szt",
-              "description": "Marka: D-Vitum. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 5904960017458. SKU produktu: 5904960017458. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-              "brand": "D-Vitum",
-              "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
-              "attributes": [],
-              "model": null,
-              "superModel": null,
-              "sku": "5904960017458",
-              "manufacturerProductNumber": null,
-              "ean": "5904960017458",
-              "dimension": null
-            },
-            "stock": {
-              "quantity": 0,
-              "unit": "UNIT"
-            },
-            "price": {
-              "grossPrice": {
-                "amount": 30.79,
-                "currency": "PLN"
-              },
-              "taxRateInfo": "23%",
-              "deposits": []
-            },
-            "externalId": "4227",
-            "gpsr": null,
-            "shippingTime": null,
-            "affiliationProductUrl": null,
-            "images": null,
-            "postSale": null,
-            "features": {
-              "refundable": true
-            },
-            "createdAt": "2026-07-28T12:11:23.22Z",
-            "updatedAt": "2026-08-11T09:06:57.189003223Z"
-          }
-        }
-      },
-      "postWriteValidation": {
-        "status": "PENDING",
-        "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
-        "validationErrors": [
-          {
-            "validationCode": "CATEGORY_INCORRECT",
-            "validationMessage": "Kategoria o identyfikatorze 39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc nie jest liściem w drzewie kategorii."
-          }
-        ],
-        "referenceCategory": null
-      },
-      "postWriteReferenceCategoryOverride": null,
-      "postWriteValidationAfterRepair": null,
-      "error": {
-        "message": "InPost zwrocil bledy walidacji po synchronizacji oferty.",
-        "status": "PENDING",
-        "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
-        "validationErrors": [
-          {
-            "validationCode": "CATEGORY_INCORRECT",
-            "validationMessage": "Kategoria o identyfikatorze 39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc nie jest liściem w drzewie kategorii."
-          }
-        ]
-      }
-    },
-    {
-      "ok": false,
+      "ok": true,
       "action": "PATCH",
       "externalId": "4242",
       "offerId": "9ea5de41-a04f-4fd4-8c56-18dd6b6f2c5a",
@@ -11767,254 +11667,19 @@
               "refundable": true
             },
             "createdAt": "2026-07-28T12:11:29.238Z",
-            "updatedAt": "2026-08-11T09:06:59.16019441Z"
-          }
-        }
-      },
-      "postWriteValidation": {
-        "status": "PENDING",
-        "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
-        "validationErrors": [
-          {
-            "validationCode": "CATEGORY_INCORRECT",
-            "validationMessage": "Kategoria o identyfikatorze 39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc nie jest liściem w drzewie kategorii."
-          }
-        ],
-        "referenceCategory": null
-      },
-      "postWriteReferenceCategoryOverride": null,
-      "postWriteValidationAfterRepair": null,
-      "error": {
-        "message": "InPost zwrocil bledy walidacji po synchronizacji oferty.",
-        "status": "PENDING",
-        "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
-        "validationErrors": [
-          {
-            "validationCode": "CATEGORY_INCORRECT",
-            "validationMessage": "Kategoria o identyfikatorze 39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc nie jest liściem w drzewie kategorii."
-          }
-        ]
-      }
-    },
-    {
-      "ok": true,
-      "action": "SKIP_DUPLICATE_NON_CANONICAL",
-      "externalId": "4415",
-      "offerId": "538e2c4d-1e14-41ac-805a-362a39a02afb",
-      "status": "REJECTED",
-      "skipReason": "non-canonical-duplicate",
-      "selectedOfferId": "2fb6a1ad-41bb-4345-b5c1-7f8b92b860bb",
-      "selectedStatus": "PENDING",
-      "changedFields": [],
-      "changedSubfields": {},
-      "patchBody": null,
-      "skippedOffer": {
-        "offerId": "538e2c4d-1e14-41ac-805a-362a39a02afb",
-        "externalId": "4415",
-        "status": "REJECTED",
-        "name": "Sanprobi 4 Enteric",
-        "ean": "5907774335060",
-        "sku": "5907774335060",
-        "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
-        "updatedAt": "2026-07-14T11:33:11.027Z",
-        "createdAt": "2026-05-22T14:54:16.018Z"
-      },
-      "selectedOffer": {
-        "offerId": "2fb6a1ad-41bb-4345-b5c1-7f8b92b860bb",
-        "externalId": "4415",
-        "status": "PENDING",
-        "name": "Sanprobi 4 Enteric",
-        "ean": "5907774335060",
-        "sku": "5907774335060",
-        "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
-        "updatedAt": "2026-08-11T08:40:10.513Z",
-        "createdAt": "2026-05-25T13:26:18.287Z"
-      }
-    },
-    {
-      "ok": true,
-      "action": "PATCH",
-      "externalId": "4415",
-      "offerId": "2fb6a1ad-41bb-4345-b5c1-7f8b92b860bb",
-      "changedFields": [
-        "product"
-      ],
-      "changedSubfields": {
-        "product": {
-          "description": "Marka: Sanprobi. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 5907774335060. SKU produktu: 5907774335060. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-          "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258"
-        }
-      },
-      "patchBody": {
-        "product": {
-          "name": "Sanprobi 4 Enteric",
-          "description": "Marka: Sanprobi. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 5907774335060. SKU produktu: 5907774335060. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-          "brand": "Sanprobi",
-          "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
-          "sku": "5907774335060",
-          "ean": "5907774335060"
-        }
-      },
-      "inpostReferenceCategoryOverride": null,
-      "inpostCurrentCategoryPreserved": null,
-      "patchResponse": {
-        "ok": true,
-        "data": {
-          "metadata": {
-            "validationErrors": null,
-            "rejectionReasons": null
-          },
-          "offer": {
-            "id": "2fb6a1ad-41bb-4345-b5c1-7f8b92b860bb",
-            "status": "PENDING",
-            "product": {
-              "name": "Sanprobi 4 Enteric",
-              "description": "Marka: Sanprobi. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 5907774335060. SKU produktu: 5907774335060. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-              "brand": "Sanprobi",
-              "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
-              "attributes": [],
-              "model": null,
-              "superModel": null,
-              "sku": "5907774335060",
-              "manufacturerProductNumber": null,
-              "ean": "5907774335060",
-              "dimension": null
-            },
-            "stock": {
-              "quantity": 0,
-              "unit": "UNIT"
-            },
-            "price": {
-              "grossPrice": {
-                "amount": 41.79,
-                "currency": "PLN"
-              },
-              "taxRateInfo": "23%",
-              "deposits": []
-            },
-            "externalId": "4415",
-            "gpsr": null,
-            "shippingTime": null,
-            "affiliationProductUrl": null,
-            "images": null,
-            "postSale": null,
-            "features": {
-              "refundable": true
-            },
-            "createdAt": "2026-05-25T13:26:18.287Z",
-            "updatedAt": "2026-08-11T09:07:01.133834388Z"
+            "updatedAt": "2026-08-28T13:49:15.195711987Z"
           }
         }
       },
       "postWriteValidation": {
         "status": "SOLDOUT",
-        "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
+        "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
         "validationErrors": [],
         "referenceCategory": null
       },
       "postWriteReferenceCategoryOverride": null,
       "postWriteValidationAfterRepair": null,
       "error": null
-    },
-    {
-      "ok": false,
-      "action": "PATCH",
-      "externalId": "4943",
-      "offerId": "9595181d-c892-4af3-9474-3a11d5605564",
-      "changedFields": [
-        "product"
-      ],
-      "changedSubfields": {
-        "product": {
-          "description": "Marka: Detramax. Kategoria produktu: Suplementy Diety > Kości i stawy > Układ krążenia. Kod EAN: 5903111410643. SKU produktu: 5903111410643. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-          "categoryId": "2209e67b-9c0a-514a-91bd-15af4128e35c"
-        }
-      },
-      "patchBody": {
-        "product": {
-          "name": "Detramax Plus - 60szt",
-          "description": "Marka: Detramax. Kategoria produktu: Suplementy Diety > Kości i stawy > Układ krążenia. Kod EAN: 5903111410643. SKU produktu: 5903111410643. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-          "brand": "Detramax",
-          "categoryId": "2209e67b-9c0a-514a-91bd-15af4128e35c",
-          "sku": "5903111410643",
-          "ean": "5903111410643"
-        }
-      },
-      "inpostReferenceCategoryOverride": null,
-      "inpostCurrentCategoryPreserved": null,
-      "patchResponse": {
-        "ok": true,
-        "data": {
-          "metadata": {
-            "validationErrors": null,
-            "rejectionReasons": null
-          },
-          "offer": {
-            "id": "9595181d-c892-4af3-9474-3a11d5605564",
-            "status": "PENDING",
-            "product": {
-              "name": "Detramax Plus - 60szt",
-              "description": "Marka: Detramax. Kategoria produktu: Suplementy Diety > Kości i stawy > Układ krążenia. Kod EAN: 5903111410643. SKU produktu: 5903111410643. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-              "brand": "Detramax",
-              "categoryId": "2209e67b-9c0a-514a-91bd-15af4128e35c",
-              "attributes": [],
-              "model": null,
-              "superModel": null,
-              "sku": "5903111410643",
-              "manufacturerProductNumber": null,
-              "ean": "5903111410643",
-              "dimension": null
-            },
-            "stock": {
-              "quantity": 0,
-              "unit": "UNIT"
-            },
-            "price": {
-              "grossPrice": {
-                "amount": 45.65,
-                "currency": "PLN"
-              },
-              "taxRateInfo": "23%",
-              "deposits": []
-            },
-            "externalId": "4943",
-            "gpsr": null,
-            "shippingTime": null,
-            "affiliationProductUrl": null,
-            "images": null,
-            "postSale": null,
-            "features": {
-              "refundable": true
-            },
-            "createdAt": "2026-07-28T12:12:37.575Z",
-            "updatedAt": "2026-08-11T09:07:03.145318604Z"
-          }
-        }
-      },
-      "postWriteValidation": {
-        "status": "PENDING",
-        "categoryId": "57b658fb-51b5-5632-9a0c-f4aaaf0f06f5",
-        "validationErrors": [
-          {
-            "validationCode": "CATEGORY_INCORRECT",
-            "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
-          }
-        ],
-        "referenceCategory": null
-      },
-      "postWriteReferenceCategoryOverride": null,
-      "postWriteValidationAfterRepair": null,
-      "error": {
-        "message": "InPost zwrocil bledy walidacji po synchronizacji oferty.",
-        "status": "PENDING",
-        "categoryId": "57b658fb-51b5-5632-9a0c-f4aaaf0f06f5",
-        "validationErrors": [
-          {
-            "validationCode": "CATEGORY_INCORRECT",
-            "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
-          }
-        ]
-      }
     },
     {
       "ok": false,
@@ -12067,7 +11732,7 @@
               "dimension": null
             },
             "stock": {
-              "quantity": 0,
+              "quantity": 2,
               "unit": "UNIT"
             },
             "price": {
@@ -12088,7 +11753,7 @@
               "refundable": true
             },
             "createdAt": "2026-05-25T13:27:39.603Z",
-            "updatedAt": "2026-08-11T09:07:05.153859833Z"
+            "updatedAt": "2026-08-28T13:49:17.162153024Z"
           }
         }
       },
@@ -12118,7 +11783,7 @@
       }
     },
     {
-      "ok": false,
+      "ok": true,
       "action": "PATCH",
       "externalId": "5103",
       "offerId": "23319503-385c-444e-9647-1d1b1a26c794",
@@ -12188,34 +11853,19 @@
               "refundable": true
             },
             "createdAt": "2026-07-28T12:13:12.766Z",
-            "updatedAt": "2026-08-11T09:07:07.113675038Z"
+            "updatedAt": "2026-08-28T13:49:19.216523459Z"
           }
         }
       },
       "postWriteValidation": {
-        "status": "PENDING",
-        "categoryId": "7efffd5d-4726-55e9-937a-bfba75455bce",
-        "validationErrors": [
-          {
-            "validationCode": "CATEGORY_INCORRECT",
-            "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
-          }
-        ],
+        "status": "SOLDOUT",
+        "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+        "validationErrors": [],
         "referenceCategory": null
       },
       "postWriteReferenceCategoryOverride": null,
       "postWriteValidationAfterRepair": null,
-      "error": {
-        "message": "InPost zwrocil bledy walidacji po synchronizacji oferty.",
-        "status": "PENDING",
-        "categoryId": "7efffd5d-4726-55e9-937a-bfba75455bce",
-        "validationErrors": [
-          {
-            "validationCode": "CATEGORY_INCORRECT",
-            "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
-          }
-        ]
-      }
+      "error": null
     },
     {
       "ok": false,
@@ -12288,7 +11938,7 @@
               "refundable": true
             },
             "createdAt": "2026-07-28T12:16:44.83Z",
-            "updatedAt": "2026-08-11T09:07:09.109816179Z"
+            "updatedAt": "2026-08-28T13:49:21.194547522Z"
           }
         }
       },
@@ -12318,7 +11968,7 @@
       }
     },
     {
-      "ok": true,
+      "ok": false,
       "action": "PATCH",
       "externalId": "16358",
       "offerId": "9f99fad2-ee40-4fc7-a8fc-90c5ca3fa89e",
@@ -12388,19 +12038,34 @@
               "refundable": true
             },
             "createdAt": "2026-07-28T12:16:47.342Z",
-            "updatedAt": "2026-08-11T09:07:11.074130196Z"
+            "updatedAt": "2026-08-28T13:49:23.150524343Z"
           }
         }
       },
       "postWriteValidation": {
-        "status": "SOLDOUT",
-        "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
-        "validationErrors": [],
+        "status": "PENDING",
+        "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+        "validationErrors": [
+          {
+            "validationCode": "CATEGORY_INCORRECT",
+            "validationMessage": "Kategoria o identyfikatorze 39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc nie jest liściem w drzewie kategorii."
+          }
+        ],
         "referenceCategory": null
       },
       "postWriteReferenceCategoryOverride": null,
       "postWriteValidationAfterRepair": null,
-      "error": null
+      "error": {
+        "message": "InPost zwrocil bledy walidacji po synchronizacji oferty.",
+        "status": "PENDING",
+        "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+        "validationErrors": [
+          {
+            "validationCode": "CATEGORY_INCORRECT",
+            "validationMessage": "Kategoria o identyfikatorze 39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc nie jest liściem w drzewie kategorii."
+          }
+        ]
+      }
     }
   ]
 }

@@ -545,11 +545,23 @@ function buildNormalizedCategoryMap(categoryMap) {
   return normalizedMap;
 }
 
+const RESERVED_CATEGORY_OVERRIDE_KEYS = new Set(["byExternalId", "byEan"]);
+
+function getCategoryPathOverrides(categoryOverrides) {
+  return Object.fromEntries(
+    Object.entries(categoryOverrides || {}).filter(
+      ([key]) => !RESERVED_CATEGORY_OVERRIDE_KEYS.has(key)
+    )
+  );
+}
+
 function buildNormalizedOverridesMap(categoryOverrides) {
   const normalizedMap = {};
   const duplicates = [];
 
-  for (const [wooCategoryPath, inpostCategoryValue] of Object.entries(categoryOverrides || {})) {
+  for (const [wooCategoryPath, inpostCategoryValue] of Object.entries(
+    getCategoryPathOverrides(categoryOverrides)
+  )) {
     const normalizedKey = normalizeForCompare(wooCategoryPath);
 
     if (normalizedMap[normalizedKey]) {
@@ -604,6 +616,28 @@ function resolveOverrideValue(value, categoryMap, normalizedCategoryMap) {
   };
 }
 
+function getProductCategoryOverride(row, categoryOverrides, categoryMap, normalizedCategoryMap) {
+  const externalId = normalizeText(row["Identyfikator"]);
+  const ean = getEan(row);
+  const byExternalId = categoryOverrides?.byExternalId || {};
+  const byEan = categoryOverrides?.byEan || {};
+  let value = null;
+  let matchedBy = null;
+
+  if (externalId && Object.prototype.hasOwnProperty.call(byExternalId, externalId)) {
+    value = byExternalId[externalId];
+    matchedBy = "override-product-external-id";
+  } else if (ean && Object.prototype.hasOwnProperty.call(byEan, ean)) {
+    value = byEan[ean];
+    matchedBy = "override-product-ean";
+  }
+
+  if (value === null) return null;
+
+  const resolved = resolveOverrideValue(value, categoryMap, normalizedCategoryMap);
+  return resolved?.categoryId ? { ...resolved, matchedBy } : null;
+}
+
 function validateCategoryOverrides(categoryOverrides, categoryMap) {
   const normalizedCategoryMap = buildNormalizedCategoryMap(categoryMap);
   const { duplicates } = buildNormalizedOverridesMap(categoryOverrides);
@@ -619,7 +653,9 @@ function validateCategoryOverrides(categoryOverrides, categoryMap) {
     });
   }
 
-  for (const [wooCategory, inpostCategoryValue] of Object.entries(categoryOverrides || {})) {
+  for (const [wooCategory, inpostCategoryValue] of Object.entries(
+    getCategoryPathOverrides(categoryOverrides)
+  )) {
     const cleanWooCategory = normalizeCategoryPath(wooCategory);
     const cleanValue = normalizeText(inpostCategoryValue);
 
@@ -764,6 +800,24 @@ function resolveCategoryId(
   const { normalizedMap: normalizedOverridesMap } = buildNormalizedOverridesMap(categoryOverrides);
 
   const categories = splitWooCategories(row["Kategorie"]);
+  const productOverride = getProductCategoryOverride(
+    row,
+    categoryOverrides,
+    categoryMap,
+    normalizedCategoryMap
+  );
+
+  if (productOverride?.categoryId) {
+    return {
+      categoryId: productOverride.categoryId,
+      matchedBy: productOverride.matchedBy,
+      matchedWooCategory: null,
+      matchedInpostCategory: productOverride.resolvedFrom,
+      allWooCategories: categories,
+      rejectedHints: [],
+      hintWarnings: []
+    };
+  }
 
   const sortedCategories = [...categories].sort((a, b) => {
     const depthDiff = categoryDepth(b) - categoryDepth(a);

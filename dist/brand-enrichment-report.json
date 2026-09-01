@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-11T08:20:10.819Z",
-  "updatedAt": "2026-08-11T08:20:11.078Z",
+  "generatedAt": "2026-08-28T13:00:40.297Z",
+  "updatedAt": "2026-08-28T13:00:40.752Z",
   "status": "complete",
   "files": {
     "csvFile": "suppla-oferta.csv",
@@ -21,17 +21,17 @@
     "saveEvery": 25
   },
   "totals": {
-    "offers": 1517,
-    "processedOffers": 1517,
-    "codes": 1507,
+    "offers": 1550,
+    "processedOffers": 1550,
+    "codes": 1539,
     "knownBeforeLookup": 75,
     "lookedUp": 0,
     "addedToMap": 0,
     "changedNames": 48,
-    "overriddenNames": 7,
+    "overriddenNames": 8,
     "alreadyHadBrandInName": 27,
     "missingBrand": 0,
-    "skippedOffline": 1432,
+    "skippedOffline": 1464,
     "skippedLookupLimit": 0,
     "skippedOtherCode": 0
   },
@@ -519,6 +519,12 @@
   ],
   "nameOverrides": [
     {
+      "externalId": "1710",
+      "code": "5900717152519",
+      "oldName": "N Magni-Capilaril Aktywny krem przeciw­zmarszczkowy",
+      "newName": "N Magni-Capilaril Aktywny krem przeciwzmarszczkowy"
+    },
+    {
       "externalId": "4076",
       "code": "5907377136736",
       "oldName": "Silica",
@@ -934,6 +940,11 @@
       "reason": "offline-no-map-entry"
     },
     {
+      "externalId": "408",
+      "code": "5901643175801",
+      "reason": "offline-no-map-entry"
+    },
+    {
       "externalId": "412",
       "code": "5901643172718",
       "reason": "offline-no-map-entry"
@@ -1096,6 +1107,11 @@
     {
       "externalId": "652",
       "code": "5906739783175",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "663",
+      "code": "5906739783137",
       "reason": "offline-no-map-entry"
     },
     {
@@ -1711,11 +1727,6 @@
     {
       "externalId": "1703",
       "code": "5900717150713",
-      "reason": "offline-no-map-entry"
-    },
-    {
-      "externalId": "1710",
-      "code": "5900717152519",
       "reason": "offline-no-map-entry"
     },
     {
@@ -2694,6 +2705,11 @@
       "reason": "offline-no-map-entry"
     },
     {
+      "externalId": "2976",
+      "code": "5906948846784",
+      "reason": "offline-no-map-entry"
+    },
+    {
       "externalId": "2977",
       "code": "5901986060475",
       "reason": "offline-no-map-entry"
@@ -2906,6 +2922,11 @@
     {
       "externalId": "3182",
       "code": "5902751582215",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3184",
+      "code": "5907718948417",
       "reason": "offline-no-map-entry"
     },
     {
@@ -3219,8 +3240,18 @@
       "reason": "offline-no-map-entry"
     },
     {
+      "externalId": "3466",
+      "code": "5902802702357",
+      "reason": "offline-no-map-entry"
+    },
+    {
       "externalId": "3468",
       "code": "5906071043821",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3471",
+      "code": "5902802702289",
       "reason": "offline-no-map-entry"
     },
     {
@@ -3251,6 +3282,11 @@
     {
       "externalId": "3487",
       "code": "3337875722827",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3489",
+      "code": "3337872414084",
       "reason": "offline-no-map-entry"
     },
     {
@@ -3286,6 +3322,11 @@
     {
       "externalId": "3529",
       "code": "3701129801628",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3533",
+      "code": "3337875613668",
       "reason": "offline-no-map-entry"
     },
     {
@@ -3354,6 +3395,11 @@
       "reason": "offline-no-map-entry"
     },
     {
+      "externalId": "3705",
+      "code": "5902503133603",
+      "reason": "offline-no-map-entry"
+    },
+    {
       "externalId": "3706",
       "code": "3337875656764",
       "reason": "offline-no-map-entry"
@@ -3376,6 +3422,11 @@
     {
       "externalId": "3727",
       "code": "3337875549615",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3736",
+      "code": "3337872418778",
       "reason": "offline-no-map-entry"
     },
     {
@@ -3424,6 +3475,11 @@
       "reason": "offline-no-map-entry"
     },
     {
+      "externalId": "3774",
+      "code": "3401399694127",
+      "reason": "offline-no-map-entry"
+    },
+    {
       "externalId": "3779",
       "code": "3401329447809",
       "reason": "offline-no-map-entry"
@@ -3436,6 +3492,11 @@
     {
       "externalId": "3800",
       "code": "3701129800089",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3804",
+      "code": "3401578653709",
       "reason": "offline-no-map-entry"
     },
     {
@@ -3474,6 +3535,11 @@
       "reason": "offline-no-map-entry"
     },
     {
+      "externalId": "3846",
+      "code": "3337872413704",
+      "reason": "offline-no-map-entry"
+    },
+    {
       "externalId": "3859",
       "code": "3337875660570",
       "reason": "offline-no-map-entry"
@@ -3501,6 +3567,11 @@
     {
       "externalId": "3900",
       "code": "3337875696838",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "3905",
+      "code": "3701129804513",
       "reason": "offline-no-map-entry"
     },
     {
@@ -4004,6 +4075,11 @@
       "reason": "offline-no-map-entry"
     },
     {
+      "externalId": "4313",
+      "code": "5904960016383",
+      "reason": "offline-no-map-entry"
+    },
+    {
       "externalId": "4316",
       "code": "5904960018981",
       "reason": "offline-no-map-entry"
@@ -4136,6 +4212,11 @@
     {
       "externalId": "4439",
       "code": "5900558001809",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4441",
+      "code": "5903991606020",
       "reason": "offline-no-map-entry"
     },
     {
@@ -4414,6 +4495,11 @@
       "reason": "offline-no-map-entry"
     },
     {
+      "externalId": "4722",
+      "code": "3662042003790",
+      "reason": "offline-no-map-entry"
+    },
+    {
       "externalId": "4723",
       "code": "3662042003806",
       "reason": "offline-no-map-entry"
@@ -4491,6 +4577,16 @@
     {
       "externalId": "4761",
       "code": "5702071389361",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4763",
+      "code": "5702071501909",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "4765",
+      "code": "5702071501893",
       "reason": "offline-no-map-entry"
     },
     {
@@ -5114,6 +5210,11 @@
       "reason": "offline-no-map-entry"
     },
     {
+      "externalId": "5174",
+      "code": "5901330032219",
+      "reason": "offline-no-map-entry"
+    },
+    {
       "externalId": "5176",
       "code": "5901330004087",
       "reason": "offline-no-map-entry"
@@ -5304,6 +5405,11 @@
       "reason": "offline-no-map-entry"
     },
     {
+      "externalId": "5299",
+      "code": "5902709522133",
+      "reason": "offline-no-map-entry"
+    },
+    {
       "externalId": "5304",
       "code": "5902709521600",
       "reason": "offline-no-map-entry"
@@ -5326,6 +5432,11 @@
     {
       "externalId": "5350",
       "code": "5901330072475",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5354",
+      "code": "5901330032011",
       "reason": "offline-no-map-entry"
     },
     {
@@ -5569,6 +5680,11 @@
       "reason": "offline-no-map-entry"
     },
     {
+      "externalId": "5530",
+      "code": "0033984011977",
+      "reason": "offline-no-map-entry"
+    },
+    {
       "externalId": "5532",
       "code": "0033984512863",
       "reason": "offline-no-map-entry"
@@ -5634,8 +5750,18 @@
       "reason": "offline-no-map-entry"
     },
     {
+      "externalId": "5568",
+      "code": "0033984008069",
+      "reason": "offline-no-map-entry"
+    },
+    {
       "externalId": "5570",
       "code": "0033984003484",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "5572",
+      "code": "0033984004825",
       "reason": "offline-no-map-entry"
     },
     {
@@ -5939,6 +6065,11 @@
       "reason": "offline-no-map-entry"
     },
     {
+      "externalId": "5782",
+      "code": "5906071044347",
+      "reason": "offline-no-map-entry"
+    },
+    {
       "externalId": "5783",
       "code": "5906071043333",
       "reason": "offline-no-map-entry"
@@ -6114,6 +6245,11 @@
       "reason": "offline-no-map-entry"
     },
     {
+      "externalId": "5877",
+      "code": "5908229303351",
+      "reason": "offline-no-map-entry"
+    },
+    {
       "externalId": "5879",
       "code": "5909990683727",
       "reason": "offline-no-map-entry"
@@ -6254,6 +6390,11 @@
       "reason": "offline-no-map-entry"
     },
     {
+      "externalId": "5992",
+      "code": "5902709520740",
+      "reason": "offline-no-map-entry"
+    },
+    {
       "externalId": "6000",
       "code": "5902709522126",
       "reason": "offline-no-map-entry"
@@ -6329,6 +6470,16 @@
       "reason": "offline-no-map-entry"
     },
     {
+      "externalId": "6139",
+      "code": "5902502352616",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6146",
+      "code": "5903263249023",
+      "reason": "offline-no-map-entry"
+    },
+    {
       "externalId": "6149",
       "code": "5903263249016",
       "reason": "offline-no-map-entry"
@@ -6341,6 +6492,11 @@
     {
       "externalId": "6158",
       "code": "5903263249610",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6161",
+      "code": "5902502992553",
       "reason": "offline-no-map-entry"
     },
     {
@@ -6481,6 +6637,11 @@
     {
       "externalId": "6276",
       "code": "5902502174614",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "6279",
+      "code": "5907734712771",
       "reason": "offline-no-map-entry"
     },
     {
@@ -6951,6 +7112,11 @@
     {
       "externalId": "14522",
       "code": "5900116092683",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "14531",
+      "code": "5903246241907",
       "reason": "offline-no-map-entry"
     },
     {
@@ -7918,17 +8084,17 @@
   "lastProgress": {
     "reason": "offline-no-map-entry",
     "totals": {
-      "offers": 1517,
-      "processedOffers": 1500,
-      "codes": 1490,
+      "offers": 1550,
+      "processedOffers": 1550,
+      "codes": 1539,
       "knownBeforeLookup": 75,
       "lookedUp": 0,
       "addedToMap": 0,
       "changedNames": 48,
-      "overriddenNames": 7,
+      "overriddenNames": 8,
       "alreadyHadBrandInName": 27,
       "missingBrand": 0,
-      "skippedOffline": 1415,
+      "skippedOffline": 1464,
       "skippedLookupLimit": 0,
       "skippedOtherCode": 0
     }

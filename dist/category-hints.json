@@ -99,7 +99,7 @@
         "externalId": "189",
         "name": "Cold Cream Delikatne mydło z organicznym woskiem pszczelim",
         "sku": "3504105036102",
-        "categories": "Dermokosmetyki, Dermokosmetyki > dla Dziecka, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Włosów > Mydła, Dermokosmetyki > do Ciała > Mydła"
+        "categories": "Dermokosmetyki, Dermokosmetyki > dla Dziecka, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Ciała > Mydła, Dermokosmetyki > do Włosów > Mydła"
       }
     ],
     "validInCategoryMap": false
@@ -4379,6 +4379,21 @@
     ],
     "validInCategoryMap": false
   },
+  "5900717692510": {
+    "categoryId": "2253681c-571d-504c-9030-7463006b38b4",
+    "source": "inpost-hint",
+    "ean": "5900717692510",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "2441",
+        "name": "E Emotopic Bacteria-Control Balsam",
+        "sku": "5900717692510",
+        "categories": "Dermokosmetyki, Dermokosmetyki > do Ciała, Dermokosmetyki > do Ciała > Kremy\\, balsamy i masła"
+      }
+    ],
+    "validInCategoryMap": false
+  },
   "5900717692619": {
     "categoryId": "c8093ba7-6846-59c6-afb9-3cc9364b3d16",
     "source": "inpost-hint",
@@ -7319,6 +7334,36 @@
     ],
     "validInCategoryMap": false
   },
+  "3337872410321": {
+    "categoryId": "853ab193-27c8-5fac-a5d7-5250066fe918",
+    "source": "inpost-hint",
+    "ean": "3337872410321",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "3439",
+        "name": "Physiological tonik kojący do twarzy",
+        "sku": "3337872410321",
+        "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Toniki do twarzy"
+      }
+    ],
+    "validInCategoryMap": true
+  },
+  "3337872412158": {
+    "categoryId": "ba99ed57-c512-5ee3-8751-6372ca4bfa59",
+    "source": "inpost-hint",
+    "ean": "3337872412158",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "3442",
+        "name": "Physiological Dezodorant w kulce",
+        "sku": "3337872412158",
+        "categories": "Dermokosmetyki, Dermokosmetyki > do Ciała > Dezodoranty i antyperspiranty, Dermokosmetyki > do Ciała"
+      }
+    ],
+    "validInCategoryMap": true
+  },
   "3337872411083": {
     "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
     "source": "inpost-hint",
@@ -9009,7 +9054,7 @@
         "externalId": "4000",
         "name": "Immuno Kids",
         "sku": "5903031283037",
-        "categories": "Macierzyństwo > Dla dzieci, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety"
+        "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Odporność, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety"
       }
     ],
     "validInCategoryMap": true
@@ -11964,7 +12009,7 @@
         "externalId": "4754",
         "name": "Bodymisie o smaku owocowym",
         "sku": "7070866031374",
-        "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Witaminy i minerały > Multiwitaminy, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety, Macierzyństwo > Dla dzieci > Witaminy i minerały, Suplementy Diety > Witaminy i minerały"
+        "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Witaminy i minerały > Multiwitaminy, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety, Suplementy Diety > Witaminy i minerały, Macierzyństwo > Dla dzieci > Witaminy i minerały"
       }
     ],
     "validInCategoryMap": true
@@ -12039,7 +12084,7 @@
         "externalId": "4773",
         "name": "Möller’s Mój Pierwszy Tran Norweski",
         "sku": "7070866027612",
-        "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Odporność, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność > Oleje i trany, Suplementy Diety"
+        "categories": "Macierzyństwo > Dla dzieci, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety > Odporność > Oleje i trany, Suplementy Diety"
       }
     ],
     "validInCategoryMap": true
@@ -13629,7 +13674,7 @@
         "externalId": "5109",
         "name": "Grinovita Junior",
         "sku": "5901716993349",
-        "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Odporność, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety"
+        "categories": "Macierzyństwo > Dla dzieci, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety"
       }
     ],
     "validInCategoryMap": true
@@ -18449,6 +18494,21 @@
     ],
     "validInCategoryMap": true
   },
+  "8437000435556": {
+    "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
+    "source": "inpost-hint",
+    "ean": "8437000435556",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "6454",
+        "name": "Pigment Zero DSP-Renovation Cream Dark Spots Krem na noc",
+        "sku": "8437000435556",
+        "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Kremy na noc"
+      }
+    ],
+    "validInCategoryMap": false
+  },
   "8436589051157": {
     "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
     "source": "inpost-hint",
@@ -18729,7 +18789,7 @@
         "externalId": "6888",
         "name": "Eau Thermale Avène - Naturalny fluid korygujący w płynie Couvrance",
         "sku": "3282770100532",
-        "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Fluid, Fluid, Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna"
+        "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Fluid, Dermokosmetyki > do Twarzy > Fluid, Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna"
       }
     ],
     "validInCategoryMap": false

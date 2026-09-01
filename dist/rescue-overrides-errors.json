@@ -1,19 +1,19 @@
 {
   "summary": {
     "csvRows": 2143,
-    "variationRows": 12,
-    "variationParentRowsResolved": 12,
+    "variationRows": 10,
+    "variationParentRowsResolved": 10,
     "variationParentRowsMissing": 0,
-    "variationOffersGenerated": 7,
+    "variationOffersGenerated": 5,
     "variationRowsSkipped": 5,
     "variableParentRowsSkipped": 0,
-    "rescueCandidates": 23,
-    "rescueSkippedSameRejectedCategory": 14,
-    "offersToCreate": 9,
-    "skippedProducts": 14,
+    "rescueCandidates": 15,
+    "rescueSkippedSameRejectedCategory": 9,
+    "offersToCreate": 6,
+    "skippedProducts": 9,
     "blockingSkippedProducts": 0,
     "productsWithoutImages": 0,
-    "generatedDescriptions": 9,
+    "generatedDescriptions": 6,
     "unresolvedCategories": 0,
     "rejectedCategoryHints": 0,
     "hintCategoryWarnings": 0,
@@ -29,48 +29,6 @@
     "duplicateCleanupErrors": 0
   },
   "skippedProducts": [
-    {
-      "externalId": "2027",
-      "name": "Men Żel do golenia, gęsta, kremowa pianka",
-      "sku": "3264680003585",
-      "ean": "3264680003585",
-      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
-      "matchedBy": "override-exact",
-      "matchedWooCategory": "Dermokosmetyki > dla Mężczyzn > Produkty do golenia",
-      "matchedInpostCategory": "direct-id",
-      "rescueCandidate": {
-        "externalId": "2027",
-        "sources": [
-          {
-            "type": "sync-category-incorrect",
-            "offerId": "656bd380-6bcd-4481-ad3f-b0a42cfbda95",
-            "rejectedCategoryIds": [
-              "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3"
-            ],
-            "validationErrors": [
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Pozostałe produkty zdrowotne' jest nieprawidłowa."
-              },
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Pozostałe produkty zdrowotne' jest nieprawidłowa."
-              }
-            ]
-          }
-        ],
-        "rejectedCategoryIds": [
-          "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3"
-        ],
-        "rejectedHintCategoryIds": [],
-        "rejectedSyncCategoryIds": [
-          "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3"
-        ]
-      },
-      "errors": [
-        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
-      ]
-    },
     {
       "externalId": "3058",
       "name": "Seboradin Women Sport - Szampon i Żel 2 w 1 - 150ml",
@@ -191,132 +149,6 @@
         "rejectedHintCategoryIds": [],
         "rejectedSyncCategoryIds": [
           "78710e8c-9d50-5af0-88f2-55e173dbc270"
-        ]
-      },
-      "errors": [
-        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
-      ]
-    },
-    {
-      "externalId": "5511",
-      "name": "Solgar D-Biotyna 300ug",
-      "sku": "0033984004757",
-      "ean": "0033984004757",
-      "categoryId": "887c536f-35d0-51dc-801d-eb39dd13f7d7",
-      "matchedBy": "override-exact",
-      "matchedWooCategory": "Suplementy Diety > Samopoczucie i energia > Układ nerwowy",
-      "matchedInpostCategory": "direct-id",
-      "rescueCandidate": {
-        "externalId": "5511",
-        "sources": [
-          {
-            "type": "sync-category-incorrect",
-            "offerId": "92785658-57e6-491a-90a8-28e3540e04a7",
-            "rejectedCategoryIds": [
-              "887c536f-35d0-51dc-801d-eb39dd13f7d7"
-            ],
-            "validationErrors": [
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Domowa apteczka > Suplementy diety > Pamięć, koncentracja i układ nerwowy' jest nieprawidłowa."
-              },
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Domowa apteczka > Suplementy diety > Pamięć, koncentracja i układ nerwowy' jest nieprawidłowa."
-              }
-            ]
-          }
-        ],
-        "rejectedCategoryIds": [
-          "887c536f-35d0-51dc-801d-eb39dd13f7d7"
-        ],
-        "rejectedHintCategoryIds": [],
-        "rejectedSyncCategoryIds": [
-          "887c536f-35d0-51dc-801d-eb39dd13f7d7"
-        ]
-      },
-      "errors": [
-        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
-      ]
-    },
-    {
-      "externalId": "5801",
-      "name": "Bioliq Antyperspirant 48h",
-      "sku": "5906071044651",
-      "ean": "5906071044651",
-      "categoryId": "ba99ed57-c512-5ee3-8751-6372ca4bfa59",
-      "matchedBy": "override-exact",
-      "matchedWooCategory": "Dermokosmetyki > do Ciała > Dezodoranty i antyperspiranty",
-      "matchedInpostCategory": "direct-id",
-      "rescueCandidate": {
-        "externalId": "5801",
-        "sources": [
-          {
-            "type": "sync-category-incorrect",
-            "offerId": "bc3f5d70-3bbc-4508-bfbe-124187bd5c3f",
-            "rejectedCategoryIds": [
-              "ba99ed57-c512-5ee3-8751-6372ca4bfa59"
-            ],
-            "validationErrors": [
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Antyperspiranty' jest nieprawidłowa."
-              },
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Antyperspiranty' jest nieprawidłowa."
-              }
-            ]
-          }
-        ],
-        "rejectedCategoryIds": [
-          "ba99ed57-c512-5ee3-8751-6372ca4bfa59"
-        ],
-        "rejectedHintCategoryIds": [],
-        "rejectedSyncCategoryIds": [
-          "ba99ed57-c512-5ee3-8751-6372ca4bfa59"
-        ]
-      },
-      "errors": [
-        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
-      ]
-    },
-    {
-      "externalId": "9180",
-      "name": "Seboradin Men - Spray odsiwiający do włosów",
-      "sku": "5902751583441",
-      "ean": "5902751583441",
-      "categoryId": "30bb2b20-69c1-531d-900b-46a4ffc0443b",
-      "matchedBy": "override-exact",
-      "matchedWooCategory": "Dermokosmetyki > dla Mężczyzn > Szampony i odżywki do włosów dla mężczyzn",
-      "matchedInpostCategory": "direct-id",
-      "rescueCandidate": {
-        "externalId": "9180",
-        "sources": [
-          {
-            "type": "sync-category-incorrect",
-            "offerId": "228c9ea7-500f-4d93-b5be-107d6a164af1",
-            "rejectedCategoryIds": [
-              "30bb2b20-69c1-531d-900b-46a4ffc0443b"
-            ],
-            "validationErrors": [
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do włosów > Szampony' jest nieprawidłowa."
-              },
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do włosów > Szampony' jest nieprawidłowa."
-              }
-            ]
-          }
-        ],
-        "rejectedCategoryIds": [
-          "30bb2b20-69c1-531d-900b-46a4ffc0443b"
-        ],
-        "rejectedHintCategoryIds": [],
-        "rejectedSyncCategoryIds": [
-          "30bb2b20-69c1-531d-900b-46a4ffc0443b"
         ]
       },
       "errors": [
@@ -574,48 +406,6 @@
       "errors": [
         "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
       ]
-    },
-    {
-      "externalId": "16826",
-      "name": "Caudalie Vinohydra krem Winter Essentials - kosmetyczka zimowa",
-      "sku": "3522930005117",
-      "ean": "3522930005117",
-      "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
-      "matchedBy": "override-exact",
-      "matchedWooCategory": "Dermokosmetyki > do Twarzy > Pianki,mleczka i żele do mycia twarzy",
-      "matchedInpostCategory": "direct-id",
-      "rescueCandidate": {
-        "externalId": "16826",
-        "sources": [
-          {
-            "type": "sync-category-incorrect",
-            "offerId": "ec7940a9-e5d2-46a9-8f02-cb86a148e7dd",
-            "rejectedCategoryIds": [
-              "45627b4f-05c1-56b6-b814-85b444014da1"
-            ],
-            "validationErrors": [
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do twarzy > Oczyszczanie i demakijaż' jest nieprawidłowa."
-              },
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do twarzy > Oczyszczanie i demakijaż' jest nieprawidłowa."
-              }
-            ]
-          }
-        ],
-        "rejectedCategoryIds": [
-          "45627b4f-05c1-56b6-b814-85b444014da1"
-        ],
-        "rejectedHintCategoryIds": [],
-        "rejectedSyncCategoryIds": [
-          "45627b4f-05c1-56b6-b814-85b444014da1"
-        ]
-      },
-      "errors": [
-        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
-      ]
     }
   ],
   "blockingSkippedProducts": [],
@@ -628,28 +418,10 @@
       "finalLength": 254
     },
     {
-      "externalId": "4227",
-      "name": "D-Vitum 400 j.m. dla dzieci - 90szt",
-      "originalLength": 0,
-      "finalLength": 254
-    },
-    {
       "externalId": "4242",
       "name": "D-Vitum 1000 j.m. dla dzieci - 30szt",
       "originalLength": 0,
       "finalLength": 254
-    },
-    {
-      "externalId": "4415",
-      "name": "Sanprobi 4 Enteric",
-      "originalLength": 0,
-      "finalLength": 256
-    },
-    {
-      "externalId": "4943",
-      "name": "Detramax Plus - 60szt",
-      "originalLength": 0,
-      "finalLength": 237
     },
     {
       "externalId": "5066",
@@ -685,48 +457,6 @@
   "inpostCurrentCategoryPreserved": [],
   "rescueSkippedSameRejectedCategory": [
     {
-      "externalId": "2027",
-      "name": "Men Żel do golenia, gęsta, kremowa pianka",
-      "sku": "3264680003585",
-      "ean": "3264680003585",
-      "categoryId": "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3",
-      "matchedBy": "override-exact",
-      "matchedWooCategory": "Dermokosmetyki > dla Mężczyzn > Produkty do golenia",
-      "matchedInpostCategory": "direct-id",
-      "rescueCandidate": {
-        "externalId": "2027",
-        "sources": [
-          {
-            "type": "sync-category-incorrect",
-            "offerId": "656bd380-6bcd-4481-ad3f-b0a42cfbda95",
-            "rejectedCategoryIds": [
-              "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3"
-            ],
-            "validationErrors": [
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Pozostałe produkty zdrowotne' jest nieprawidłowa."
-              },
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Pozostałe produkty zdrowotne' jest nieprawidłowa."
-              }
-            ]
-          }
-        ],
-        "rejectedCategoryIds": [
-          "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3"
-        ],
-        "rejectedHintCategoryIds": [],
-        "rejectedSyncCategoryIds": [
-          "fb9bef23-03d6-5aa1-a053-bd9bd3ab25b3"
-        ]
-      },
-      "errors": [
-        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
-      ]
-    },
-    {
       "externalId": "3058",
       "name": "Seboradin Women Sport - Szampon i Żel 2 w 1 - 150ml",
       "sku": "5902751581829",
@@ -846,132 +576,6 @@
         "rejectedHintCategoryIds": [],
         "rejectedSyncCategoryIds": [
           "78710e8c-9d50-5af0-88f2-55e173dbc270"
-        ]
-      },
-      "errors": [
-        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
-      ]
-    },
-    {
-      "externalId": "5511",
-      "name": "Solgar D-Biotyna 300ug",
-      "sku": "0033984004757",
-      "ean": "0033984004757",
-      "categoryId": "887c536f-35d0-51dc-801d-eb39dd13f7d7",
-      "matchedBy": "override-exact",
-      "matchedWooCategory": "Suplementy Diety > Samopoczucie i energia > Układ nerwowy",
-      "matchedInpostCategory": "direct-id",
-      "rescueCandidate": {
-        "externalId": "5511",
-        "sources": [
-          {
-            "type": "sync-category-incorrect",
-            "offerId": "92785658-57e6-491a-90a8-28e3540e04a7",
-            "rejectedCategoryIds": [
-              "887c536f-35d0-51dc-801d-eb39dd13f7d7"
-            ],
-            "validationErrors": [
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Domowa apteczka > Suplementy diety > Pamięć, koncentracja i układ nerwowy' jest nieprawidłowa."
-              },
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Domowa apteczka > Suplementy diety > Pamięć, koncentracja i układ nerwowy' jest nieprawidłowa."
-              }
-            ]
-          }
-        ],
-        "rejectedCategoryIds": [
-          "887c536f-35d0-51dc-801d-eb39dd13f7d7"
-        ],
-        "rejectedHintCategoryIds": [],
-        "rejectedSyncCategoryIds": [
-          "887c536f-35d0-51dc-801d-eb39dd13f7d7"
-        ]
-      },
-      "errors": [
-        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
-      ]
-    },
-    {
-      "externalId": "5801",
-      "name": "Bioliq Antyperspirant 48h",
-      "sku": "5906071044651",
-      "ean": "5906071044651",
-      "categoryId": "ba99ed57-c512-5ee3-8751-6372ca4bfa59",
-      "matchedBy": "override-exact",
-      "matchedWooCategory": "Dermokosmetyki > do Ciała > Dezodoranty i antyperspiranty",
-      "matchedInpostCategory": "direct-id",
-      "rescueCandidate": {
-        "externalId": "5801",
-        "sources": [
-          {
-            "type": "sync-category-incorrect",
-            "offerId": "bc3f5d70-3bbc-4508-bfbe-124187bd5c3f",
-            "rejectedCategoryIds": [
-              "ba99ed57-c512-5ee3-8751-6372ca4bfa59"
-            ],
-            "validationErrors": [
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Antyperspiranty' jest nieprawidłowa."
-              },
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Antyperspiranty' jest nieprawidłowa."
-              }
-            ]
-          }
-        ],
-        "rejectedCategoryIds": [
-          "ba99ed57-c512-5ee3-8751-6372ca4bfa59"
-        ],
-        "rejectedHintCategoryIds": [],
-        "rejectedSyncCategoryIds": [
-          "ba99ed57-c512-5ee3-8751-6372ca4bfa59"
-        ]
-      },
-      "errors": [
-        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
-      ]
-    },
-    {
-      "externalId": "9180",
-      "name": "Seboradin Men - Spray odsiwiający do włosów",
-      "sku": "5902751583441",
-      "ean": "5902751583441",
-      "categoryId": "30bb2b20-69c1-531d-900b-46a4ffc0443b",
-      "matchedBy": "override-exact",
-      "matchedWooCategory": "Dermokosmetyki > dla Mężczyzn > Szampony i odżywki do włosów dla mężczyzn",
-      "matchedInpostCategory": "direct-id",
-      "rescueCandidate": {
-        "externalId": "9180",
-        "sources": [
-          {
-            "type": "sync-category-incorrect",
-            "offerId": "228c9ea7-500f-4d93-b5be-107d6a164af1",
-            "rejectedCategoryIds": [
-              "30bb2b20-69c1-531d-900b-46a4ffc0443b"
-            ],
-            "validationErrors": [
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do włosów > Szampony' jest nieprawidłowa."
-              },
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do włosów > Szampony' jest nieprawidłowa."
-              }
-            ]
-          }
-        ],
-        "rejectedCategoryIds": [
-          "30bb2b20-69c1-531d-900b-46a4ffc0443b"
-        ],
-        "rejectedHintCategoryIds": [],
-        "rejectedSyncCategoryIds": [
-          "30bb2b20-69c1-531d-900b-46a4ffc0443b"
         ]
       },
       "errors": [
@@ -1224,48 +828,6 @@
         "rejectedHintCategoryIds": [],
         "rejectedSyncCategoryIds": [
           "e29fe84e-9555-5d4e-ab24-de8653b6c783"
-        ]
-      },
-      "errors": [
-        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
-      ]
-    },
-    {
-      "externalId": "16826",
-      "name": "Caudalie Vinohydra krem Winter Essentials - kosmetyczka zimowa",
-      "sku": "3522930005117",
-      "ean": "3522930005117",
-      "categoryId": "45627b4f-05c1-56b6-b814-85b444014da1",
-      "matchedBy": "override-exact",
-      "matchedWooCategory": "Dermokosmetyki > do Twarzy > Pianki,mleczka i żele do mycia twarzy",
-      "matchedInpostCategory": "direct-id",
-      "rescueCandidate": {
-        "externalId": "16826",
-        "sources": [
-          {
-            "type": "sync-category-incorrect",
-            "offerId": "ec7940a9-e5d2-46a9-8f02-cb86a148e7dd",
-            "rejectedCategoryIds": [
-              "45627b4f-05c1-56b6-b814-85b444014da1"
-            ],
-            "validationErrors": [
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do twarzy > Oczyszczanie i demakijaż' jest nieprawidłowa."
-              },
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do twarzy > Oczyszczanie i demakijaż' jest nieprawidłowa."
-              }
-            ]
-          }
-        ],
-        "rejectedCategoryIds": [
-          "45627b4f-05c1-56b6-b814-85b444014da1"
-        ],
-        "rejectedHintCategoryIds": [],
-        "rejectedSyncCategoryIds": [
-          "45627b4f-05c1-56b6-b814-85b444014da1"
         ]
       },
       "errors": [

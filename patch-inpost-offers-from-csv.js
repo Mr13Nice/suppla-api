@@ -399,10 +399,22 @@ function extractCategoryId(value) {
   return normalizeText(value);
 }
 
+const RESERVED_CATEGORY_OVERRIDE_KEYS = new Set(["byExternalId", "byEan"]);
+
+function getCategoryPathOverrides(categoryOverrides) {
+  return Object.fromEntries(
+    Object.entries(categoryOverrides || {}).filter(
+      ([key]) => !RESERVED_CATEGORY_OVERRIDE_KEYS.has(key)
+    )
+  );
+}
+
 function buildNormalizedOverridesMap(categoryOverrides) {
   const normalizedMap = {};
 
-  for (const [wooCategoryPath, inpostCategoryValue] of Object.entries(categoryOverrides || {})) {
+  for (const [wooCategoryPath, inpostCategoryValue] of Object.entries(
+    getCategoryPathOverrides(categoryOverrides)
+  )) {
     normalizedMap[normalizeForCompare(wooCategoryPath)] = {
       originalPath: wooCategoryPath,
       categoryId: extractCategoryId(inpostCategoryValue)
@@ -435,6 +447,37 @@ function getHintCategory(row, categoryHints) {
     categoryId,
     source: "category-hints",
     sourceDetail: `EAN: ${ean}`,
+    ean
+  };
+}
+
+function getProductOverrideCategory(row, categoryOverrides) {
+  const externalId = normalizeText(row["Identyfikator"]);
+  const ean = getEan(row);
+  const byExternalId = categoryOverrides?.byExternalId || {};
+  const byEan = categoryOverrides?.byEan || {};
+  let categoryId = null;
+  let source = null;
+  let sourceDetail = null;
+
+  if (externalId && Object.prototype.hasOwnProperty.call(byExternalId, externalId)) {
+    categoryId = extractCategoryId(byExternalId[externalId]);
+    source = "category-overrides-external-id";
+    sourceDetail = externalId;
+  } else if (ean && Object.prototype.hasOwnProperty.call(byEan, ean)) {
+    categoryId = extractCategoryId(byEan[ean]);
+    source = "category-overrides-ean";
+    sourceDetail = ean;
+  }
+
+  if (!categoryId || !isUuidLike(categoryId)) return null;
+
+  return {
+    categoryId,
+    source,
+    sourceDetail,
+    matchedWooCategory: null,
+    allWooCategories: splitWooCategories(row["Kategorie"]),
     ean
   };
 }
@@ -482,6 +525,11 @@ function getOverrideCategory(row, categoryOverrides) {
 
 function resolveCategoryForRow(row, categoryHints, categoryOverrides) {
   const categories = splitWooCategories(row["Kategorie"]);
+  const productOverride = getProductOverrideCategory(row, categoryOverrides);
+
+  if (productOverride) {
+    return productOverride;
+  }
 
   const hintCategory = getHintCategory(row, categoryHints);
 
@@ -510,6 +558,8 @@ function resolveCategoryForRow(row, categoryHints, categoryOverrides) {
 }
 
 function getCategoryPriority(source) {
+  if (source === "category-overrides-external-id") return 3;
+  if (source === "category-overrides-ean") return 3;
   if (source === "category-hints") return 2;
   if (source === "category-overrides-exact") return 1;
   if (source === "category-overrides-normalized") return 1;

@@ -1,0 +1,38 @@
+{
+  "inputCsv": "suppla-oferta.csv",
+  "categoryHintsFile": "dist/category-hints.json",
+  "categoryOverridesFile": "category-overrides.json",
+  "dryRun": true,
+  "patchContentType": "application/merge-patch+json",
+  "delimiter": ",",
+  "minDescriptionLength": 100,
+  "totals": {
+    "csvRows": 2143,
+    "desiredExternalIds": 2143,
+    "desiredExternalIdsWithCategory": 2053,
+    "desiredExternalIdsWithGeneratedDescription": 1866,
+    "noCategoryMapping": 90,
+    "invalidRows": 0,
+    "duplicateExternalIdsInCsv": 0,
+    "categoryConflicts": 0,
+    "existingItemsFetched": 1954,
+    "uniqueExistingExternalIds": 1519,
+    "duplicateExternalIdsInInPost": 384,
+    "patchedAndVerified": 0,
+    "categoryPatched": 0,
+    "descriptionPatched": 0,
+    "alreadyCorrect": 1925,
+    "readModelStaleAfterPatch": 0,
+    "inpostReferenceCategoryOverrides": 0,
+    "staleCategoryErrors": 21,
+    "unchangedAfterPatch": 0,
+    "errors": 0,
+    "missingExistingOffers": 625,
+    "dryRunItems": 27
+  },
+  "byCategorySource": {
+    "category-hints": 1530,
+    "category-overrides-exact": 523,
+    "unknown": 90
+  }
+}
