@@ -59,11 +59,11 @@
     "rejectedCategoryHints": 0,
     "hintCategoryWarnings": 4,
     "duplicateExternalIdsInCsv": 0,
-    "existingInPostSkipped": 1549,
-    "existingInPostIncludedInOutput": 1549,
+    "existingInPostSkipped": 1550,
+    "existingInPostIncludedInOutput": 1550,
     "inpostReferenceCategoryOverrides": 0,
     "inpostCurrentCategoryPreserved": 0,
-    "existingInPostItemsFetched": 1986,
+    "existingInPostItemsFetched": 1987,
     "existingDuplicateExternalIdGroups": 384,
     "existingDuplicateCleanupPlanned": 435,
     "duplicateCleanupSuccess": 0,
@@ -71,9 +71,9 @@
   },
   "categoryResolution": {
     "byMethod": {
-      "inpost-hint-ean": 1523,
-      "override-exact": 417,
-      "override-product-external-id": 14,
+      "inpost-hint-ean": 1524,
+      "override-exact": 413,
+      "override-product-external-id": 17,
       "inpost-hint-ean-with-local-warning": 4
     },
     "rejectedHintReasons": {},

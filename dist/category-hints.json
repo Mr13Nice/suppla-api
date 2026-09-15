@@ -10319,6 +10319,21 @@
     ],
     "validInCategoryMap": true
   },
+  "3337875695176": {
+    "categoryId": "68f5ca30-cd76-5c87-bea6-20d280bd1dd5",
+    "source": "inpost-hint",
+    "ean": "3337875695176",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "4284",
+        "name": "Capital Soleil Matujący krem do twarzy SPF 50+",
+        "sku": "3337875695176",
+        "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna"
+      }
+    ],
+    "validInCategoryMap": true
+  },
   "3337871323622": {
     "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
     "source": "inpost-hint",
@@ -20575,6 +20590,21 @@
         "name": "Caudalie VinoHydra - Krem intensywne nawilżenie",
         "sku": "3522930004400",
         "categories": "Dermokosmetyki > do Ciała > Balsamy do paznokci, Dermokosmetyki > do Włosów > Bloker, Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Kremy na dzień, Dermokosmetyki > do Twarzy > Kremy na noc, Maści, Dermokosmetyki > do Ciała > Serum do paznokci"
+      }
+    ],
+    "validInCategoryMap": false
+  },
+  "3522930004349": {
+    "categoryId": "2c51605b-cab7-5f1e-99c5-4b2100f332b3",
+    "source": "inpost-hint",
+    "ean": "3522930004349",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "15057",
+        "name": "Caudalie Vinoclean - Maseczka detoksykująca instant - 75ml",
+        "sku": "3522930004349",
+        "categories": ""
       }
     ],
     "validInCategoryMap": false

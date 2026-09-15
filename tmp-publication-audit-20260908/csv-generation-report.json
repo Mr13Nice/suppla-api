@@ -1,0 +1,82 @@
+{
+  "inputCsv": "suppla-oferta.csv",
+  "categoryMapFile": "category-map.json",
+  "categoryOverridesFile": "category-overrides.json",
+  "categoryHintsFile": "dist/category-hints.json",
+  "categoryTreeFiles": [
+    "dist/category-tree.json"
+  ],
+  "outputDir": "tmp-publication-audit-20260908",
+  "delimiter": ",",
+  "settings": {
+    "STRICT_MODE": false,
+    "REQUIRE_IMAGE": true,
+    "ONLY_PUBLISHED": true,
+    "SKIP_OUT_OF_STOCK": false,
+    "INCLUDE_IMAGES_IN_OFFER_JSON": false,
+    "INCLUDE_META_IN_OFFERS": false,
+    "USE_NAME_AS_FALLBACK_DESCRIPTION": false,
+    "MIN_DESCRIPTION_LENGTH": 100,
+    "CHECK_EXISTING_INPOST": false,
+    "INCLUDE_EXISTING_IN_OUTPUT": true,
+    "PRESERVE_EXISTING_CATEGORY": false,
+    "CLEANUP_DUPLICATES": false,
+    "EXECUTE_CLEANUP": false,
+    "CLOSE_ONLY": false,
+    "RESCUE_OVERRIDES": false,
+    "INCLUDE_VARIATIONS": true,
+    "VARIATIONS_ONLY": false,
+    "mappingOrder": [
+      "category-hints.json by EAN from InPost /offers/hint",
+      "category-overrides.json by WooCommerce category",
+      "skip"
+    ]
+  },
+  "rescue": null,
+  "categoryTree": {
+    "totalCategories": 9155,
+    "leafCategories": 8076,
+    "nonLeafCategories": 1079
+  },
+  "totals": {
+    "csvRows": 2143,
+    "variationRows": 376,
+    "variationParentRowsResolved": 374,
+    "variationParentRowsMissing": 2,
+    "variationOffersGenerated": 298,
+    "variationRowsSkipped": 78,
+    "variableParentRowsSkipped": 169,
+    "rescueCandidates": 0,
+    "rescueSkippedSameRejectedCategory": 0,
+    "offersToCreate": 1550,
+    "skippedProducts": 593,
+    "blockingSkippedProducts": 410,
+    "productsWithoutImages": 21,
+    "generatedDescriptions": 1670,
+    "unresolvedCategories": 0,
+    "rejectedCategoryHints": 0,
+    "hintCategoryWarnings": 4,
+    "duplicateExternalIdsInCsv": 0,
+    "existingInPostSkipped": 0,
+    "existingInPostIncludedInOutput": 0,
+    "inpostReferenceCategoryOverrides": 0,
+    "inpostCurrentCategoryPreserved": 0,
+    "existingInPostItemsFetched": 0,
+    "existingDuplicateExternalIdGroups": 0,
+    "existingDuplicateCleanupPlanned": 0,
+    "duplicateCleanupSuccess": 0,
+    "duplicateCleanupErrors": 0
+  },
+  "categoryResolution": {
+    "byMethod": {
+      "inpost-hint-ean": 1524,
+      "override-exact": 413,
+      "override-product-external-id": 17,
+      "inpost-hint-ean-with-local-warning": 4
+    },
+    "rejectedHintReasons": {},
+    "hintWarningReasons": {
+      "hint-category-is-not-leaf": 4
+    }
+  }
+}

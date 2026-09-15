@@ -1,0 +1,90 @@
+[
+  {
+    "externalId": "15057",
+    "product": {
+      "name": "Caudalie Vinoclean - Maseczka detoksykująca instant - 75ml",
+      "description": "Marka: Caudalie. Kategoria produktu: Dermokosmetyki > do Ciała > Balsamy do paznokci. Kod EAN: 3522930004349. SKU produktu: 3522930004349. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+      "brand": "Caudalie",
+      "categoryId": "461288a1-9b48-5387-8a0e-00eef126099d",
+      "sku": "3522930004349",
+      "ean": "3522930004349"
+    },
+    "stock": {
+      "quantity": 7,
+      "unit": "UNIT"
+    },
+    "price": {
+      "grossPrice": {
+        "amount": 75.85,
+        "currency": "PLN"
+      },
+      "taxRateInfo": "23%"
+    }
+  },
+  {
+    "externalId": "15059",
+    "product": {
+      "name": "Caudalie Vinoclean - Maseczka detoksykująca instant - 35ml",
+      "description": "Marka: Caudalie. Kategoria produktu: Dermokosmetyki > do Ciała > Balsamy do paznokci. Kod EAN: 3522930004486. SKU produktu: 3522930004486. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+      "brand": "Caudalie",
+      "categoryId": "461288a1-9b48-5387-8a0e-00eef126099d",
+      "sku": "3522930004486",
+      "ean": "3522930004486"
+    },
+    "stock": {
+      "quantity": 4,
+      "unit": "UNIT"
+    },
+    "price": {
+      "grossPrice": {
+        "amount": 43.65,
+        "currency": "PLN"
+      },
+      "taxRateInfo": "23%"
+    }
+  },
+  {
+    "externalId": "15081",
+    "product": {
+      "name": "Caudalie Vinocrush - Krem CC - Odcień 1",
+      "description": "Marka: Caudalie. Kategoria produktu: Dermokosmetyki > do Ciała > Balsamy do paznokci. Kod EAN: 3522930004097. SKU produktu: 3522930004097. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+      "brand": "Caudalie",
+      "categoryId": "fcf3c9d9-87e0-5d0e-a91f-fc907ff55b2c",
+      "sku": "3522930004097",
+      "ean": "3522930004097"
+    },
+    "stock": {
+      "quantity": 4,
+      "unit": "UNIT"
+    },
+    "price": {
+      "grossPrice": {
+        "amount": 98.71,
+        "currency": "PLN"
+      },
+      "taxRateInfo": "23%"
+    }
+  },
+  {
+    "externalId": "5066",
+    "product": {
+      "name": "Jasnum, kapsułki, 30 szt. na dzień + 30 szt. na noc",
+      "description": "Marka: Jasnum. Kategoria produktu: Suplementy Diety > Samopoczucie i energia > Bezsenność. Kod EAN: 5903031284218. SKU produktu: 5903031284218. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+      "brand": "Jasnum",
+      "categoryId": "887c536f-35d0-51dc-801d-eb39dd13f7d7",
+      "sku": "5903031284218",
+      "ean": "5903031284218"
+    },
+    "stock": {
+      "quantity": 2,
+      "unit": "UNIT"
+    },
+    "price": {
+      "grossPrice": {
+        "amount": 76.99,
+        "currency": "PLN"
+      },
+      "taxRateInfo": "23%"
+    }
+  }
+]

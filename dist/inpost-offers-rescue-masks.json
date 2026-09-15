@@ -1,0 +1,46 @@
+[
+  {
+    "externalId": "15057",
+    "product": {
+      "name": "Caudalie Vinoclean - Maseczka detoksykująca instant - 75ml",
+      "description": "Marka: Caudalie. Kategoria produktu: Dermokosmetyki > do Ciała > Balsamy do paznokci. Kod EAN: 3522930004349. SKU produktu: 3522930004349. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+      "brand": "Caudalie",
+      "categoryId": "2c51605b-cab7-5f1e-99c5-4b2100f332b3",
+      "sku": "3522930004349",
+      "ean": "3522930004349"
+    },
+    "stock": {
+      "quantity": 7,
+      "unit": "UNIT"
+    },
+    "price": {
+      "grossPrice": {
+        "amount": 75.85,
+        "currency": "PLN"
+      },
+      "taxRateInfo": "23%"
+    }
+  },
+  {
+    "externalId": "15059",
+    "product": {
+      "name": "Caudalie Vinoclean - Maseczka detoksykująca instant - 35ml",
+      "description": "Marka: Caudalie. Kategoria produktu: Dermokosmetyki > do Ciała > Balsamy do paznokci. Kod EAN: 3522930004486. SKU produktu: 3522930004486. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+      "brand": "Caudalie",
+      "categoryId": "2c51605b-cab7-5f1e-99c5-4b2100f332b3",
+      "sku": "3522930004486",
+      "ean": "3522930004486"
+    },
+    "stock": {
+      "quantity": 4,
+      "unit": "UNIT"
+    },
+    "price": {
+      "grossPrice": {
+        "amount": 43.65,
+        "currency": "PLN"
+      },
+      "taxRateInfo": "23%"
+    }
+  }
+]

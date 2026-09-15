@@ -1,6 +1,6 @@
 {
   "summary": {
-    "errors": 3,
+    "errors": 2,
     "duplicateExternalIdsInInPost": 384,
     "skippedTerminalDuplicates": 0,
     "skippedNonCanonicalDuplicates": 0,
@@ -58,7 +58,7 @@
               "dimension": null
             },
             "stock": {
-              "quantity": 2,
+              "quantity": 1,
               "unit": "UNIT"
             },
             "price": {
@@ -79,7 +79,7 @@
               "refundable": true
             },
             "createdAt": "2026-05-25T13:27:39.603Z",
-            "updatedAt": "2026-08-28T13:49:17.162153024Z"
+            "updatedAt": "2026-09-08T13:15:08.729669295Z"
           }
         }
       },
@@ -111,25 +111,25 @@
     {
       "ok": false,
       "action": "PATCH",
-      "externalId": "16356",
-      "offerId": "321c594e-8b18-4579-a234-951b62133a2b",
+      "externalId": "5103",
+      "offerId": "23319503-385c-444e-9647-1d1b1a26c794",
       "changedFields": [
         "product"
       ],
       "changedSubfields": {
         "product": {
-          "description": "Marka: Multilac. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 5903031282627. SKU produktu: 5903031282627. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-          "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258"
+          "description": "Marka: Artresan. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały. Kod EAN: 5903031283730. SKU produktu: 5903031283730. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+          "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334"
         }
       },
       "patchBody": {
         "product": {
-          "name": "Multilac Baby - Synbiotyk w kroplach dla niemowląt i dzieci - 2x5ml",
-          "description": "Marka: Multilac. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 5903031282627. SKU produktu: 5903031282627. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-          "brand": "Multilac",
-          "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
-          "sku": "5903031282627",
-          "ean": "5903031282627"
+          "name": "Artresan Optima 1 a Day - 36szt",
+          "description": "Marka: Artresan. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały. Kod EAN: 5903031283730. SKU produktu: 5903031283730. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+          "brand": "Artresan",
+          "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+          "sku": "5903031283730",
+          "ean": "5903031283730"
         }
       },
       "inpostReferenceCategoryOverride": null,
@@ -142,119 +142,19 @@
             "rejectionReasons": null
           },
           "offer": {
-            "id": "321c594e-8b18-4579-a234-951b62133a2b",
+            "id": "23319503-385c-444e-9647-1d1b1a26c794",
             "status": "PENDING",
             "product": {
-              "name": "Multilac Baby - Synbiotyk w kroplach dla niemowląt i dzieci - 2x5ml",
-              "description": "Marka: Multilac. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 5903031282627. SKU produktu: 5903031282627. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-              "brand": "Multilac",
-              "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
+              "name": "Artresan Optima 1 a Day - 36szt",
+              "description": "Marka: Artresan. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały. Kod EAN: 5903031283730. SKU produktu: 5903031283730. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+              "brand": "Artresan",
+              "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
               "attributes": [],
               "model": null,
               "superModel": null,
-              "sku": "5903031282627",
+              "sku": "5903031283730",
               "manufacturerProductNumber": null,
-              "ean": "5903031282627",
-              "dimension": null
-            },
-            "stock": {
-              "quantity": 5,
-              "unit": "UNIT"
-            },
-            "price": {
-              "grossPrice": {
-                "amount": 43.53,
-                "currency": "PLN"
-              },
-              "taxRateInfo": "23%",
-              "deposits": []
-            },
-            "externalId": "16356",
-            "gpsr": null,
-            "shippingTime": null,
-            "affiliationProductUrl": null,
-            "images": null,
-            "postSale": null,
-            "features": {
-              "refundable": true
-            },
-            "createdAt": "2026-07-28T12:16:44.83Z",
-            "updatedAt": "2026-08-28T13:49:21.194547522Z"
-          }
-        }
-      },
-      "postWriteValidation": {
-        "status": "PENDING",
-        "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
-        "validationErrors": [
-          {
-            "validationCode": "CATEGORY_INCORRECT",
-            "validationMessage": "Kategoria o identyfikatorze 39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc nie jest liściem w drzewie kategorii."
-          }
-        ],
-        "referenceCategory": null
-      },
-      "postWriteReferenceCategoryOverride": null,
-      "postWriteValidationAfterRepair": null,
-      "error": {
-        "message": "InPost zwrocil bledy walidacji po synchronizacji oferty.",
-        "status": "PENDING",
-        "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
-        "validationErrors": [
-          {
-            "validationCode": "CATEGORY_INCORRECT",
-            "validationMessage": "Kategoria o identyfikatorze 39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc nie jest liściem w drzewie kategorii."
-          }
-        ]
-      }
-    },
-    {
-      "ok": false,
-      "action": "PATCH",
-      "externalId": "16358",
-      "offerId": "9f99fad2-ee40-4fc7-a8fc-90c5ca3fa89e",
-      "changedFields": [
-        "product"
-      ],
-      "changedSubfields": {
-        "product": {
-          "description": "Marka: Multilac. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 5907377138464. SKU produktu: 5907377138464. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-          "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258"
-        }
-      },
-      "patchBody": {
-        "product": {
-          "name": "Multilac Baby - Synbiotyk w kroplach dla niemowląt i dzieci - 5ml",
-          "description": "Marka: Multilac. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 5907377138464. SKU produktu: 5907377138464. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-          "brand": "Multilac",
-          "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
-          "sku": "5907377138464",
-          "ean": "5907377138464"
-        }
-      },
-      "inpostReferenceCategoryOverride": null,
-      "inpostCurrentCategoryPreserved": null,
-      "patchResponse": {
-        "ok": true,
-        "data": {
-          "metadata": {
-            "validationErrors": null,
-            "rejectionReasons": null
-          },
-          "offer": {
-            "id": "9f99fad2-ee40-4fc7-a8fc-90c5ca3fa89e",
-            "status": "PENDING",
-            "product": {
-              "name": "Multilac Baby - Synbiotyk w kroplach dla niemowląt i dzieci - 5ml",
-              "description": "Marka: Multilac. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 5907377138464. SKU produktu: 5907377138464. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-              "brand": "Multilac",
-              "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
-              "attributes": [],
-              "model": null,
-              "superModel": null,
-              "sku": "5907377138464",
-              "manufacturerProductNumber": null,
-              "ean": "5907377138464",
+              "ean": "5903031283730",
               "dimension": null
             },
             "stock": {
@@ -263,13 +163,13 @@
             },
             "price": {
               "grossPrice": {
-                "amount": 38.49,
+                "amount": 79.19,
                 "currency": "PLN"
               },
               "taxRateInfo": "23%",
               "deposits": []
             },
-            "externalId": "16358",
+            "externalId": "5103",
             "gpsr": null,
             "shippingTime": null,
             "affiliationProductUrl": null,
@@ -278,18 +178,18 @@
             "features": {
               "refundable": true
             },
-            "createdAt": "2026-07-28T12:16:47.342Z",
-            "updatedAt": "2026-08-28T13:49:23.150524343Z"
+            "createdAt": "2026-07-28T12:13:12.766Z",
+            "updatedAt": "2026-09-08T13:15:11.031340319Z"
           }
         }
       },
       "postWriteValidation": {
         "status": "PENDING",
-        "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+        "categoryId": "7efffd5d-4726-55e9-937a-bfba75455bce",
         "validationErrors": [
           {
             "validationCode": "CATEGORY_INCORRECT",
-            "validationMessage": "Kategoria o identyfikatorze 39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc nie jest liściem w drzewie kategorii."
+            "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
           }
         ],
         "referenceCategory": null
@@ -299,11 +199,11 @@
       "error": {
         "message": "InPost zwrocil bledy walidacji po synchronizacji oferty.",
         "status": "PENDING",
-        "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+        "categoryId": "7efffd5d-4726-55e9-937a-bfba75455bce",
         "validationErrors": [
           {
             "validationCode": "CATEGORY_INCORRECT",
-            "validationMessage": "Kategoria o identyfikatorze 39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc nie jest liściem w drzewie kategorii."
+            "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
           }
         ]
       }
@@ -361,7 +261,7 @@
               "dimension": null
             },
             "stock": {
-              "quantity": 2,
+              "quantity": 1,
               "unit": "UNIT"
             },
             "price": {
@@ -382,7 +282,7 @@
               "refundable": true
             },
             "createdAt": "2026-05-25T13:27:39.603Z",
-            "updatedAt": "2026-08-28T13:49:17.162153024Z"
+            "updatedAt": "2026-09-08T13:15:08.729669295Z"
           }
         }
       },
@@ -414,25 +314,25 @@
     {
       "ok": false,
       "action": "PATCH",
-      "externalId": "16356",
-      "offerId": "321c594e-8b18-4579-a234-951b62133a2b",
+      "externalId": "5103",
+      "offerId": "23319503-385c-444e-9647-1d1b1a26c794",
       "changedFields": [
         "product"
       ],
       "changedSubfields": {
         "product": {
-          "description": "Marka: Multilac. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 5903031282627. SKU produktu: 5903031282627. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-          "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258"
+          "description": "Marka: Artresan. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały. Kod EAN: 5903031283730. SKU produktu: 5903031283730. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+          "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334"
         }
       },
       "patchBody": {
         "product": {
-          "name": "Multilac Baby - Synbiotyk w kroplach dla niemowląt i dzieci - 2x5ml",
-          "description": "Marka: Multilac. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 5903031282627. SKU produktu: 5903031282627. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-          "brand": "Multilac",
-          "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
-          "sku": "5903031282627",
-          "ean": "5903031282627"
+          "name": "Artresan Optima 1 a Day - 36szt",
+          "description": "Marka: Artresan. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały. Kod EAN: 5903031283730. SKU produktu: 5903031283730. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+          "brand": "Artresan",
+          "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+          "sku": "5903031283730",
+          "ean": "5903031283730"
         }
       },
       "inpostReferenceCategoryOverride": null,
@@ -445,119 +345,19 @@
             "rejectionReasons": null
           },
           "offer": {
-            "id": "321c594e-8b18-4579-a234-951b62133a2b",
+            "id": "23319503-385c-444e-9647-1d1b1a26c794",
             "status": "PENDING",
             "product": {
-              "name": "Multilac Baby - Synbiotyk w kroplach dla niemowląt i dzieci - 2x5ml",
-              "description": "Marka: Multilac. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 5903031282627. SKU produktu: 5903031282627. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-              "brand": "Multilac",
-              "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
+              "name": "Artresan Optima 1 a Day - 36szt",
+              "description": "Marka: Artresan. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały. Kod EAN: 5903031283730. SKU produktu: 5903031283730. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+              "brand": "Artresan",
+              "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
               "attributes": [],
               "model": null,
               "superModel": null,
-              "sku": "5903031282627",
+              "sku": "5903031283730",
               "manufacturerProductNumber": null,
-              "ean": "5903031282627",
-              "dimension": null
-            },
-            "stock": {
-              "quantity": 5,
-              "unit": "UNIT"
-            },
-            "price": {
-              "grossPrice": {
-                "amount": 43.53,
-                "currency": "PLN"
-              },
-              "taxRateInfo": "23%",
-              "deposits": []
-            },
-            "externalId": "16356",
-            "gpsr": null,
-            "shippingTime": null,
-            "affiliationProductUrl": null,
-            "images": null,
-            "postSale": null,
-            "features": {
-              "refundable": true
-            },
-            "createdAt": "2026-07-28T12:16:44.83Z",
-            "updatedAt": "2026-08-28T13:49:21.194547522Z"
-          }
-        }
-      },
-      "postWriteValidation": {
-        "status": "PENDING",
-        "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
-        "validationErrors": [
-          {
-            "validationCode": "CATEGORY_INCORRECT",
-            "validationMessage": "Kategoria o identyfikatorze 39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc nie jest liściem w drzewie kategorii."
-          }
-        ],
-        "referenceCategory": null
-      },
-      "postWriteReferenceCategoryOverride": null,
-      "postWriteValidationAfterRepair": null,
-      "error": {
-        "message": "InPost zwrocil bledy walidacji po synchronizacji oferty.",
-        "status": "PENDING",
-        "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
-        "validationErrors": [
-          {
-            "validationCode": "CATEGORY_INCORRECT",
-            "validationMessage": "Kategoria o identyfikatorze 39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc nie jest liściem w drzewie kategorii."
-          }
-        ]
-      }
-    },
-    {
-      "ok": false,
-      "action": "PATCH",
-      "externalId": "16358",
-      "offerId": "9f99fad2-ee40-4fc7-a8fc-90c5ca3fa89e",
-      "changedFields": [
-        "product"
-      ],
-      "changedSubfields": {
-        "product": {
-          "description": "Marka: Multilac. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 5907377138464. SKU produktu: 5907377138464. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-          "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258"
-        }
-      },
-      "patchBody": {
-        "product": {
-          "name": "Multilac Baby - Synbiotyk w kroplach dla niemowląt i dzieci - 5ml",
-          "description": "Marka: Multilac. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 5907377138464. SKU produktu: 5907377138464. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-          "brand": "Multilac",
-          "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
-          "sku": "5907377138464",
-          "ean": "5907377138464"
-        }
-      },
-      "inpostReferenceCategoryOverride": null,
-      "inpostCurrentCategoryPreserved": null,
-      "patchResponse": {
-        "ok": true,
-        "data": {
-          "metadata": {
-            "validationErrors": null,
-            "rejectionReasons": null
-          },
-          "offer": {
-            "id": "9f99fad2-ee40-4fc7-a8fc-90c5ca3fa89e",
-            "status": "PENDING",
-            "product": {
-              "name": "Multilac Baby - Synbiotyk w kroplach dla niemowląt i dzieci - 5ml",
-              "description": "Marka: Multilac. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 5907377138464. SKU produktu: 5907377138464. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-              "brand": "Multilac",
-              "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
-              "attributes": [],
-              "model": null,
-              "superModel": null,
-              "sku": "5907377138464",
-              "manufacturerProductNumber": null,
-              "ean": "5907377138464",
+              "ean": "5903031283730",
               "dimension": null
             },
             "stock": {
@@ -566,13 +366,13 @@
             },
             "price": {
               "grossPrice": {
-                "amount": 38.49,
+                "amount": 79.19,
                 "currency": "PLN"
               },
               "taxRateInfo": "23%",
               "deposits": []
             },
-            "externalId": "16358",
+            "externalId": "5103",
             "gpsr": null,
             "shippingTime": null,
             "affiliationProductUrl": null,
@@ -581,18 +381,18 @@
             "features": {
               "refundable": true
             },
-            "createdAt": "2026-07-28T12:16:47.342Z",
-            "updatedAt": "2026-08-28T13:49:23.150524343Z"
+            "createdAt": "2026-07-28T12:13:12.766Z",
+            "updatedAt": "2026-09-08T13:15:11.031340319Z"
           }
         }
       },
       "postWriteValidation": {
         "status": "PENDING",
-        "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+        "categoryId": "7efffd5d-4726-55e9-937a-bfba75455bce",
         "validationErrors": [
           {
             "validationCode": "CATEGORY_INCORRECT",
-            "validationMessage": "Kategoria o identyfikatorze 39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc nie jest liściem w drzewie kategorii."
+            "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
           }
         ],
         "referenceCategory": null
@@ -602,11 +402,11 @@
       "error": {
         "message": "InPost zwrocil bledy walidacji po synchronizacji oferty.",
         "status": "PENDING",
-        "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
+        "categoryId": "7efffd5d-4726-55e9-937a-bfba75455bce",
         "validationErrors": [
           {
             "validationCode": "CATEGORY_INCORRECT",
-            "validationMessage": "Kategoria o identyfikatorze 39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc nie jest liściem w drzewie kategorii."
+            "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
           }
         ]
       }
@@ -5494,12 +5294,12 @@
         "6dfae166-507b-4f0c-90bb-09481cff71f2"
       ],
       "statuses": [
-        "PUBLISHED",
+        "SOLDOUT",
         "REJECTED",
         "REJECTED"
       ],
       "selectedPatchOfferId": "f05307bc-0208-4d9d-a036-5f1ac19c0764",
-      "selectedPatchStatus": "PUBLISHED",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -6557,11 +6357,11 @@
         "67abbcba-0ffb-4d43-ab15-354006532501"
       ],
       "statuses": [
-        "PUBLISHED",
+        "SOLDOUT",
         "REJECTED"
       ],
       "selectedPatchOfferId": "6ab8709d-9a52-47a9-9449-fe93b787c6a2",
-      "selectedPatchStatus": "PUBLISHED",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -6949,11 +6749,11 @@
         "36402e61-319f-435d-8903-5b62436ac674"
       ],
       "statuses": [
-        "PUBLISHED",
+        "SOLDOUT",
         "REJECTED"
       ],
       "selectedPatchOfferId": "66176c3d-1caa-4076-87eb-278bcee7b35b",
-      "selectedPatchStatus": "PUBLISHED",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -8741,11 +8541,11 @@
         "5d29b70b-6cd7-43b1-b0a9-b9411587610b"
       ],
       "statuses": [
-        "PUBLISHED",
+        "SOLDOUT",
         "REJECTED"
       ],
       "selectedPatchOfferId": "1cd8997c-1d78-43f5-ae50-f5dd1900a461",
-      "selectedPatchStatus": "PUBLISHED",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -8881,11 +8681,11 @@
         "d3a22fbc-3aa0-460d-80df-ea31d52f64d0"
       ],
       "statuses": [
-        "PUBLISHED",
+        "SOLDOUT",
         "REJECTED"
       ],
       "selectedPatchOfferId": "2dab6b21-00da-47a3-a835-f7ae481bddbc",
-      "selectedPatchStatus": "PUBLISHED",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -10617,11 +10417,11 @@
         "38f320db-0bfd-4c14-8ba3-9ec40f6bc053"
       ],
       "statuses": [
-        "PUBLISHED",
+        "SOLDOUT",
         "REJECTED"
       ],
       "selectedPatchOfferId": "66bdc1ad-0954-4bef-bdc3-5dbec9c97a81",
-      "selectedPatchStatus": "PUBLISHED",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -10645,11 +10445,11 @@
         "7fe605c3-3a31-418f-a59d-2eaeed7198ca"
       ],
       "statuses": [
-        "PUBLISHED",
+        "SOLDOUT",
         "REJECTED"
       ],
       "selectedPatchOfferId": "fbb618b2-c4b7-4556-a882-5c19d33f2455",
-      "selectedPatchStatus": "PUBLISHED",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -10897,11 +10697,11 @@
         "11c25ded-276a-4d2c-b780-0b3e85d208a0"
       ],
       "statuses": [
-        "PUBLISHED",
+        "SOLDOUT",
         "REJECTED"
       ],
       "selectedPatchOfferId": "883fb3aa-da54-489f-8b7d-f4f8a1551493",
-      "selectedPatchStatus": "PUBLISHED",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -11345,11 +11145,11 @@
         "1f1ff474-2d02-4f86-880b-1a99fe8cc753"
       ],
       "statuses": [
-        "PUBLISHED",
+        "SOLDOUT",
         "REJECTED"
       ],
       "selectedPatchOfferId": "51472a69-c1d5-4d78-b851-85d7cefd0320",
-      "selectedPatchStatus": "PUBLISHED",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -12165,7 +11965,7 @@
               "refundable": true
             },
             "createdAt": "2026-07-28T12:11:20.708Z",
-            "updatedAt": "2026-08-28T13:49:13.222699729Z"
+            "updatedAt": "2026-09-08T13:15:04.57787284Z"
           }
         }
       },
@@ -12250,7 +12050,7 @@
               "refundable": true
             },
             "createdAt": "2026-07-28T12:11:29.238Z",
-            "updatedAt": "2026-08-28T13:49:15.195711987Z"
+            "updatedAt": "2026-09-08T13:15:06.700920533Z"
           }
         }
       },
@@ -12315,7 +12115,7 @@
               "dimension": null
             },
             "stock": {
-              "quantity": 2,
+              "quantity": 1,
               "unit": "UNIT"
             },
             "price": {
@@ -12336,7 +12136,7 @@
               "refundable": true
             },
             "createdAt": "2026-05-25T13:27:39.603Z",
-            "updatedAt": "2026-08-28T13:49:17.162153024Z"
+            "updatedAt": "2026-09-08T13:15:08.729669295Z"
           }
         }
       },
@@ -12366,7 +12166,7 @@
       }
     },
     {
-      "ok": true,
+      "ok": false,
       "action": "PATCH",
       "externalId": "5103",
       "offerId": "23319503-385c-444e-9647-1d1b1a26c794",
@@ -12436,22 +12236,37 @@
               "refundable": true
             },
             "createdAt": "2026-07-28T12:13:12.766Z",
-            "updatedAt": "2026-08-28T13:49:19.216523459Z"
+            "updatedAt": "2026-09-08T13:15:11.031340319Z"
           }
         }
       },
       "postWriteValidation": {
-        "status": "SOLDOUT",
-        "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
-        "validationErrors": [],
+        "status": "PENDING",
+        "categoryId": "7efffd5d-4726-55e9-937a-bfba75455bce",
+        "validationErrors": [
+          {
+            "validationCode": "CATEGORY_INCORRECT",
+            "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
+          }
+        ],
         "referenceCategory": null
       },
       "postWriteReferenceCategoryOverride": null,
       "postWriteValidationAfterRepair": null,
-      "error": null
+      "error": {
+        "message": "InPost zwrocil bledy walidacji po synchronizacji oferty.",
+        "status": "PENDING",
+        "categoryId": "7efffd5d-4726-55e9-937a-bfba75455bce",
+        "validationErrors": [
+          {
+            "validationCode": "CATEGORY_INCORRECT",
+            "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
+          }
+        ]
+      }
     },
     {
-      "ok": false,
+      "ok": true,
       "action": "PATCH",
       "externalId": "16356",
       "offerId": "321c594e-8b18-4579-a234-951b62133a2b",
@@ -12521,37 +12336,22 @@
               "refundable": true
             },
             "createdAt": "2026-07-28T12:16:44.83Z",
-            "updatedAt": "2026-08-28T13:49:21.194547522Z"
+            "updatedAt": "2026-09-08T13:15:13.137928763Z"
           }
         }
       },
       "postWriteValidation": {
-        "status": "PENDING",
-        "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
-        "validationErrors": [
-          {
-            "validationCode": "CATEGORY_INCORRECT",
-            "validationMessage": "Kategoria o identyfikatorze 39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc nie jest liściem w drzewie kategorii."
-          }
-        ],
+        "status": "PUBLISHED",
+        "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
+        "validationErrors": [],
         "referenceCategory": null
       },
       "postWriteReferenceCategoryOverride": null,
       "postWriteValidationAfterRepair": null,
-      "error": {
-        "message": "InPost zwrocil bledy walidacji po synchronizacji oferty.",
-        "status": "PENDING",
-        "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
-        "validationErrors": [
-          {
-            "validationCode": "CATEGORY_INCORRECT",
-            "validationMessage": "Kategoria o identyfikatorze 39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc nie jest liściem w drzewie kategorii."
-          }
-        ]
-      }
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "action": "PATCH",
       "externalId": "16358",
       "offerId": "9f99fad2-ee40-4fc7-a8fc-90c5ca3fa89e",
@@ -12621,34 +12421,19 @@
               "refundable": true
             },
             "createdAt": "2026-07-28T12:16:47.342Z",
-            "updatedAt": "2026-08-28T13:49:23.150524343Z"
+            "updatedAt": "2026-09-08T13:15:15.222400367Z"
           }
         }
       },
       "postWriteValidation": {
-        "status": "PENDING",
-        "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
-        "validationErrors": [
-          {
-            "validationCode": "CATEGORY_INCORRECT",
-            "validationMessage": "Kategoria o identyfikatorze 39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc nie jest liściem w drzewie kategorii."
-          }
-        ],
+        "status": "SOLDOUT",
+        "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
+        "validationErrors": [],
         "referenceCategory": null
       },
       "postWriteReferenceCategoryOverride": null,
       "postWriteValidationAfterRepair": null,
-      "error": {
-        "message": "InPost zwrocil bledy walidacji po synchronizacji oferty.",
-        "status": "PENDING",
-        "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
-        "validationErrors": [
-          {
-            "validationCode": "CATEGORY_INCORRECT",
-            "validationMessage": "Kategoria o identyfikatorze 39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc nie jest liściem w drzewie kategorii."
-          }
-        ]
-      }
+      "error": null
     }
   ]
 }

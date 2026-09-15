@@ -1,16 +1,16 @@
 {
   "summary": {
     "csvRows": 2143,
-    "variationRows": 10,
-    "variationParentRowsResolved": 10,
+    "variationRows": 8,
+    "variationParentRowsResolved": 8,
     "variationParentRowsMissing": 0,
     "variationOffersGenerated": 5,
-    "variationRowsSkipped": 5,
+    "variationRowsSkipped": 3,
     "variableParentRowsSkipped": 0,
-    "rescueCandidates": 15,
-    "rescueSkippedSameRejectedCategory": 9,
+    "rescueCandidates": 12,
+    "rescueSkippedSameRejectedCategory": 6,
     "offersToCreate": 6,
-    "skippedProducts": 9,
+    "skippedProducts": 6,
     "blockingSkippedProducts": 0,
     "productsWithoutImages": 0,
     "generatedDescriptions": 6,
@@ -149,132 +149,6 @@
         "rejectedHintCategoryIds": [],
         "rejectedSyncCategoryIds": [
           "78710e8c-9d50-5af0-88f2-55e173dbc270"
-        ]
-      },
-      "errors": [
-        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
-      ]
-    },
-    {
-      "externalId": "15057",
-      "name": "Caudalie Vinoclean - Maseczka detoksykująca instant - 75ml",
-      "sku": "3522930004349",
-      "ean": "3522930004349",
-      "categoryId": "be442cf4-be3f-5165-a596-78a9c49eaabd",
-      "matchedBy": "override-exact",
-      "matchedWooCategory": "Dermokosmetyki > do Ciała > Balsamy do paznokci",
-      "matchedInpostCategory": "direct-id",
-      "rescueCandidate": {
-        "externalId": "15057",
-        "sources": [
-          {
-            "type": "sync-category-incorrect",
-            "offerId": "07021f7a-3b18-4872-b170-3f751939c7ac",
-            "rejectedCategoryIds": [
-              "be442cf4-be3f-5165-a596-78a9c49eaabd"
-            ],
-            "validationErrors": [
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Kremy do rąk i stóp' jest nieprawidłowa."
-              },
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Kremy do rąk i stóp' jest nieprawidłowa."
-              }
-            ]
-          }
-        ],
-        "rejectedCategoryIds": [
-          "be442cf4-be3f-5165-a596-78a9c49eaabd"
-        ],
-        "rejectedHintCategoryIds": [],
-        "rejectedSyncCategoryIds": [
-          "be442cf4-be3f-5165-a596-78a9c49eaabd"
-        ]
-      },
-      "errors": [
-        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
-      ]
-    },
-    {
-      "externalId": "15059",
-      "name": "Caudalie Vinoclean - Maseczka detoksykująca instant - 35ml",
-      "sku": "3522930004486",
-      "ean": "3522930004486",
-      "categoryId": "be442cf4-be3f-5165-a596-78a9c49eaabd",
-      "matchedBy": "override-exact",
-      "matchedWooCategory": "Dermokosmetyki > do Ciała > Balsamy do paznokci",
-      "matchedInpostCategory": "direct-id",
-      "rescueCandidate": {
-        "externalId": "15059",
-        "sources": [
-          {
-            "type": "sync-category-incorrect",
-            "offerId": "b890eda8-f6a5-4203-bdbe-7ab1bd1f5aae",
-            "rejectedCategoryIds": [
-              "be442cf4-be3f-5165-a596-78a9c49eaabd"
-            ],
-            "validationErrors": [
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Kremy do rąk i stóp' jest nieprawidłowa."
-              },
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Kremy do rąk i stóp' jest nieprawidłowa."
-              }
-            ]
-          }
-        ],
-        "rejectedCategoryIds": [
-          "be442cf4-be3f-5165-a596-78a9c49eaabd"
-        ],
-        "rejectedHintCategoryIds": [],
-        "rejectedSyncCategoryIds": [
-          "be442cf4-be3f-5165-a596-78a9c49eaabd"
-        ]
-      },
-      "errors": [
-        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
-      ]
-    },
-    {
-      "externalId": "15081",
-      "name": "Caudalie Vinocrush - Krem CC - Odcień 1",
-      "sku": "3522930004097",
-      "ean": "3522930004097",
-      "categoryId": "be442cf4-be3f-5165-a596-78a9c49eaabd",
-      "matchedBy": "override-exact",
-      "matchedWooCategory": "Dermokosmetyki > do Ciała > Balsamy do paznokci",
-      "matchedInpostCategory": "direct-id",
-      "rescueCandidate": {
-        "externalId": "15081",
-        "sources": [
-          {
-            "type": "sync-category-incorrect",
-            "offerId": "07671065-e6aa-421e-b645-a9c70e95e391",
-            "rejectedCategoryIds": [
-              "be442cf4-be3f-5165-a596-78a9c49eaabd"
-            ],
-            "validationErrors": [
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Kremy do rąk i stóp' jest nieprawidłowa."
-              },
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Kremy do rąk i stóp' jest nieprawidłowa."
-              }
-            ]
-          }
-        ],
-        "rejectedCategoryIds": [
-          "be442cf4-be3f-5165-a596-78a9c49eaabd"
-        ],
-        "rejectedHintCategoryIds": [],
-        "rejectedSyncCategoryIds": [
-          "be442cf4-be3f-5165-a596-78a9c49eaabd"
         ]
       },
       "errors": [
@@ -576,132 +450,6 @@
         "rejectedHintCategoryIds": [],
         "rejectedSyncCategoryIds": [
           "78710e8c-9d50-5af0-88f2-55e173dbc270"
-        ]
-      },
-      "errors": [
-        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
-      ]
-    },
-    {
-      "externalId": "15057",
-      "name": "Caudalie Vinoclean - Maseczka detoksykująca instant - 75ml",
-      "sku": "3522930004349",
-      "ean": "3522930004349",
-      "categoryId": "be442cf4-be3f-5165-a596-78a9c49eaabd",
-      "matchedBy": "override-exact",
-      "matchedWooCategory": "Dermokosmetyki > do Ciała > Balsamy do paznokci",
-      "matchedInpostCategory": "direct-id",
-      "rescueCandidate": {
-        "externalId": "15057",
-        "sources": [
-          {
-            "type": "sync-category-incorrect",
-            "offerId": "07021f7a-3b18-4872-b170-3f751939c7ac",
-            "rejectedCategoryIds": [
-              "be442cf4-be3f-5165-a596-78a9c49eaabd"
-            ],
-            "validationErrors": [
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Kremy do rąk i stóp' jest nieprawidłowa."
-              },
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Kremy do rąk i stóp' jest nieprawidłowa."
-              }
-            ]
-          }
-        ],
-        "rejectedCategoryIds": [
-          "be442cf4-be3f-5165-a596-78a9c49eaabd"
-        ],
-        "rejectedHintCategoryIds": [],
-        "rejectedSyncCategoryIds": [
-          "be442cf4-be3f-5165-a596-78a9c49eaabd"
-        ]
-      },
-      "errors": [
-        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
-      ]
-    },
-    {
-      "externalId": "15059",
-      "name": "Caudalie Vinoclean - Maseczka detoksykująca instant - 35ml",
-      "sku": "3522930004486",
-      "ean": "3522930004486",
-      "categoryId": "be442cf4-be3f-5165-a596-78a9c49eaabd",
-      "matchedBy": "override-exact",
-      "matchedWooCategory": "Dermokosmetyki > do Ciała > Balsamy do paznokci",
-      "matchedInpostCategory": "direct-id",
-      "rescueCandidate": {
-        "externalId": "15059",
-        "sources": [
-          {
-            "type": "sync-category-incorrect",
-            "offerId": "b890eda8-f6a5-4203-bdbe-7ab1bd1f5aae",
-            "rejectedCategoryIds": [
-              "be442cf4-be3f-5165-a596-78a9c49eaabd"
-            ],
-            "validationErrors": [
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Kremy do rąk i stóp' jest nieprawidłowa."
-              },
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Kremy do rąk i stóp' jest nieprawidłowa."
-              }
-            ]
-          }
-        ],
-        "rejectedCategoryIds": [
-          "be442cf4-be3f-5165-a596-78a9c49eaabd"
-        ],
-        "rejectedHintCategoryIds": [],
-        "rejectedSyncCategoryIds": [
-          "be442cf4-be3f-5165-a596-78a9c49eaabd"
-        ]
-      },
-      "errors": [
-        "Rescue override wskazuje te sama kategorie, ktora byla juz odrzucona"
-      ]
-    },
-    {
-      "externalId": "15081",
-      "name": "Caudalie Vinocrush - Krem CC - Odcień 1",
-      "sku": "3522930004097",
-      "ean": "3522930004097",
-      "categoryId": "be442cf4-be3f-5165-a596-78a9c49eaabd",
-      "matchedBy": "override-exact",
-      "matchedWooCategory": "Dermokosmetyki > do Ciała > Balsamy do paznokci",
-      "matchedInpostCategory": "direct-id",
-      "rescueCandidate": {
-        "externalId": "15081",
-        "sources": [
-          {
-            "type": "sync-category-incorrect",
-            "offerId": "07671065-e6aa-421e-b645-a9c70e95e391",
-            "rejectedCategoryIds": [
-              "be442cf4-be3f-5165-a596-78a9c49eaabd"
-            ],
-            "validationErrors": [
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Kremy do rąk i stóp' jest nieprawidłowa."
-              },
-              {
-                "validationCode": "CATEGORY_INCORRECT",
-                "validationMessage": "Kategoria oferty 'Zdrowie > Dermokosmetyki > Dermokosmetyki do ciała > Kremy do rąk i stóp' jest nieprawidłowa."
-              }
-            ]
-          }
-        ],
-        "rejectedCategoryIds": [
-          "be442cf4-be3f-5165-a596-78a9c49eaabd"
-        ],
-        "rejectedHintCategoryIds": [],
-        "rejectedSyncCategoryIds": [
-          "be442cf4-be3f-5165-a596-78a9c49eaabd"
         ]
       },
       "errors": [

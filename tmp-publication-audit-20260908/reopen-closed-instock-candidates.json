@@ -1,0 +1,110 @@
+[
+  {
+    "offerId": "3f44d8e0-f671-46e8-8cfb-4af9bcf835ae",
+    "externalId": "4486",
+    "status": "CLOSED",
+    "name": "Litorsal Multiwitamina",
+    "ean": "5906204022242",
+    "sku": "5906204022242",
+    "stock": 0,
+    "createdAt": "2026-05-22T14:54:31.076Z",
+    "updatedAt": "2026-07-14T11:33:46.125Z",
+    "decision": "DRY_RUN_REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "4486",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 1055,
+        "externalId": "4486",
+        "ean": "5906204022242",
+        "sku": "5906204022242",
+        "name": "Litorsal Multiwitamina",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 1055,
+          "externalId": "4486",
+          "ean": "5906204022242",
+          "sku": "5906204022242",
+          "name": "Litorsal Multiwitamina",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "c4c244b0-048c-41d6-b663-d8808b6d8e69",
+    "externalId": "3407",
+    "status": "CLOSED",
+    "name": "Vitella Extreme Ochronny krem witaminowy",
+    "ean": "7640114911071",
+    "sku": "7640114911071",
+    "stock": 0,
+    "createdAt": "2026-05-22T14:52:08.179Z",
+    "updatedAt": "2026-07-14T11:26:55.700Z",
+    "decision": "DRY_RUN_REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "3407",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 711,
+        "externalId": "3407",
+        "ean": "7640114911071",
+        "sku": "7640114911071",
+        "name": "Vitella Extreme Ochronny krem witaminowy",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 711,
+          "externalId": "3407",
+          "ean": "7640114911071",
+          "sku": "7640114911071",
+          "name": "Vitella Extreme Ochronny krem witaminowy",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  },
+  {
+    "offerId": "0b5a1873-23a3-437d-900f-e3a89333179b",
+    "externalId": "2875",
+    "status": "CLOSED",
+    "name": "Pro Redness Control Krem nawilżający na noc",
+    "ean": "3499320010597",
+    "sku": "3499320010597",
+    "stock": 0,
+    "createdAt": "2026-05-22T14:50:13.863Z",
+    "updatedAt": "2026-07-14T11:23:30.693Z",
+    "decision": "DRY_RUN_REOPEN",
+    "csvMatch": {
+      "method": "externalId",
+      "key": "2875",
+      "matchCount": 1,
+      "selected": {
+        "rowNumber": 518,
+        "externalId": "2875",
+        "ean": "3499320010597",
+        "sku": "3499320010597",
+        "name": "Pro Redness Control Krem nawilżający na noc",
+        "stock": 1
+      },
+      "matches": [
+        {
+          "rowNumber": 518,
+          "externalId": "2875",
+          "ean": "3499320010597",
+          "sku": "3499320010597",
+          "name": "Pro Redness Control Krem nawilżający na noc",
+          "stock": 1
+        }
+      ]
+    },
+    "blockingDuplicates": []
+  }
+]

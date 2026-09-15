@@ -37,7 +37,7 @@
     "generationErrorsFile": "dist\\csv-generation-errors.json",
     "syncErrorsFile": "dist\\send-sync-errors.json",
     "rejectedHintProducts": 0,
-    "syncCategoryIncorrectProducts": 15
+    "syncCategoryIncorrectProducts": 12
   },
   "categoryTree": {
     "totalCategories": 9155,
@@ -46,16 +46,16 @@
   },
   "totals": {
     "csvRows": 2143,
-    "variationRows": 10,
-    "variationParentRowsResolved": 10,
+    "variationRows": 8,
+    "variationParentRowsResolved": 8,
     "variationParentRowsMissing": 0,
     "variationOffersGenerated": 5,
-    "variationRowsSkipped": 5,
+    "variationRowsSkipped": 3,
     "variableParentRowsSkipped": 0,
-    "rescueCandidates": 15,
-    "rescueSkippedSameRejectedCategory": 9,
+    "rescueCandidates": 12,
+    "rescueSkippedSameRejectedCategory": 6,
     "offersToCreate": 6,
-    "skippedProducts": 9,
+    "skippedProducts": 6,
     "blockingSkippedProducts": 0,
     "productsWithoutImages": 0,
     "generatedDescriptions": 6,
