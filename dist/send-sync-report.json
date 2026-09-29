@@ -12,12 +12,12 @@
     "affiliationProductUrl"
   ],
   "totals": {
-    "offersInFile": 6,
-    "existingItemsFetched": 1987,
-    "existingExternalIds": 1552,
+    "offersInFile": 4,
+    "existingItemsFetched": 1988,
+    "existingExternalIds": 1553,
     "duplicateExternalIdsInInPost": 384,
     "created": 0,
-    "patched": 4,
+    "patched": 3,
     "noChanges": 0,
     "dryRunCreate": 0,
     "dryRunPatch": 0,
@@ -27,8 +27,8 @@
     "skippedOnlyTerminalMatches": 0,
     "inpostReferenceCategoryOverrides": 0,
     "inpostCurrentCategoryPreserved": 0,
-    "postWriteValidationErrors": 2,
-    "errors": 2
+    "postWriteValidationErrors": 1,
+    "errors": 1
   },
   "duplicateExternalIdsInInPost": [
     {
@@ -2308,7 +2308,7 @@
           "ean": "3264680027178",
           "sku": "3264680027178",
           "categoryId": "1563b6f0-b584-57d4-a677-49cca69bddfb",
-          "updatedAt": "2026-07-28T11:05:56.739Z",
+          "updatedAt": "2026-08-11T08:28:40.828Z",
           "createdAt": "2026-05-22T14:49:17.651Z"
         }
       ]
@@ -3078,7 +3078,7 @@
           "ean": "3264680001239",
           "sku": "3264680001239",
           "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
-          "updatedAt": "2026-07-09T13:35:18.874Z",
+          "updatedAt": "2026-08-07T15:09:20.239Z",
           "createdAt": "2026-05-22T14:46:43.472Z"
         }
       ]
@@ -3134,7 +3134,7 @@
           "ean": "3264680029318",
           "sku": "3264680029318",
           "categoryId": "c81dbc41-d90b-5cea-ad55-511bc9cb23b4",
-          "updatedAt": "2026-07-09T10:10:48.489Z",
+          "updatedAt": "2026-08-07T15:09:20.315Z",
           "createdAt": "2026-05-22T14:47:11.564Z"
         }
       ]
@@ -5331,11 +5331,11 @@
         "59ea438e-d105-4afb-9d31-26b2662b221f"
       ],
       "statuses": [
-        "PUBLISHED",
+        "SOLDOUT",
         "REJECTED"
       ],
       "selectedPatchOfferId": "c0181e9e-6fed-4e5e-9caa-e4dcbb4b2c8c",
-      "selectedPatchStatus": "PUBLISHED",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -7222,7 +7222,7 @@
           "ean": "3337875597272",
           "sku": "3337875597272",
           "categoryId": "e4d0dca1-b497-517a-bf1b-8f0c5d393b94",
-          "updatedAt": "2026-07-14T11:26:26.067Z",
+          "updatedAt": "2026-08-07T15:09:20.314Z",
           "createdAt": "2026-05-22T14:51:27.626Z"
         }
       ]
@@ -7263,11 +7263,11 @@
         "acffbfb1-b7b3-46fe-aca9-eb41ac38c642"
       ],
       "statuses": [
-        "PUBLISHED",
+        "SOLDOUT",
         "REJECTED"
       ],
       "selectedPatchOfferId": "78ec5869-a263-4f92-b94e-96b0f2e727f9",
-      "selectedPatchStatus": "PUBLISHED",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -8299,11 +8299,11 @@
         "d3a22fbc-3aa0-460d-80df-ea31d52f64d0"
       ],
       "statuses": [
-        "SOLDOUT",
+        "PUBLISHED",
         "REJECTED"
       ],
       "selectedPatchOfferId": "2dab6b21-00da-47a3-a835-f7ae481bddbc",
-      "selectedPatchStatus": "SOLDOUT",
+      "selectedPatchStatus": "PUBLISHED",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -8747,11 +8747,11 @@
         "9f3f21ab-79a8-4e8e-baf3-bab68bcfea42"
       ],
       "statuses": [
-        "SOLDOUT",
+        "PUBLISHED",
         "REJECTED"
       ],
       "selectedPatchOfferId": "919c3815-f472-4714-8131-dd8638274689",
-      "selectedPatchStatus": "SOLDOUT",
+      "selectedPatchStatus": "PUBLISHED",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -8831,11 +8831,11 @@
         "c7d44fdc-1158-48c1-8c81-722a5b97d2e9"
       ],
       "statuses": [
-        "PUBLISHED",
+        "SOLDOUT",
         "REJECTED"
       ],
       "selectedPatchOfferId": "9cf5a1d6-95dc-4d3b-b79b-914a35f87894",
-      "selectedPatchStatus": "PUBLISHED",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -9055,11 +9055,11 @@
         "a7dcae18-4849-4caf-98d2-4ac0b2f74eaf"
       ],
       "statuses": [
-        "SOLDOUT",
+        "PUBLISHED",
         "REJECTED"
       ],
       "selectedPatchOfferId": "810a5a54-faa3-4e50-8e3b-83e675abe698",
-      "selectedPatchStatus": "SOLDOUT",
+      "selectedPatchStatus": "PUBLISHED",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -9307,11 +9307,11 @@
         "daf7183c-bc72-4444-af0e-a55c87d77c67"
       ],
       "statuses": [
-        "SOLDOUT",
+        "PUBLISHED",
         "REJECTED"
       ],
       "selectedPatchOfferId": "70b65676-f3f8-4083-8c78-5fdcfeaa5682",
-      "selectedPatchStatus": "SOLDOUT",
+      "selectedPatchStatus": "PUBLISHED",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -10035,11 +10035,11 @@
         "38f320db-0bfd-4c14-8ba3-9ec40f6bc053"
       ],
       "statuses": [
-        "SOLDOUT",
+        "PUBLISHED",
         "REJECTED"
       ],
       "selectedPatchOfferId": "66bdc1ad-0954-4bef-bdc3-5dbec9c97a81",
-      "selectedPatchStatus": "SOLDOUT",
+      "selectedPatchStatus": "PUBLISHED",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -10063,11 +10063,11 @@
         "7fe605c3-3a31-418f-a59d-2eaeed7198ca"
       ],
       "statuses": [
-        "SOLDOUT",
+        "PUBLISHED",
         "REJECTED"
       ],
       "selectedPatchOfferId": "fbb618b2-c4b7-4556-a882-5c19d33f2455",
-      "selectedPatchStatus": "SOLDOUT",
+      "selectedPatchStatus": "PUBLISHED",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -10763,11 +10763,11 @@
         "1f1ff474-2d02-4f86-880b-1a99fe8cc753"
       ],
       "statuses": [
-        "SOLDOUT",
+        "PUBLISHED",
         "REJECTED"
       ],
       "selectedPatchOfferId": "51472a69-c1d5-4d78-b851-85d7cefd0320",
-      "selectedPatchStatus": "SOLDOUT",
+      "selectedPatchStatus": "PUBLISHED",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -11492,7 +11492,7 @@
           "ean": "5906554301387",
           "sku": "3918",
           "categoryId": "74a3e0c2-09c0-564d-b1a5-28317cf1d3a2",
-          "updatedAt": "2026-06-23T23:20:11.911Z",
+          "updatedAt": "2026-09-15T13:25:23.067Z",
           "createdAt": "2026-05-21T14:26:15.688Z"
         },
         {
@@ -11514,25 +11514,25 @@
     {
       "ok": true,
       "action": "PATCH",
-      "externalId": "4226",
-      "offerId": "a1df9303-db3f-4b18-b136-714f92e49a57",
+      "externalId": "4227",
+      "offerId": "4114dc43-7fec-4c9a-83b7-c721bb73d24a",
       "changedFields": [
         "product"
       ],
       "changedSubfields": {
         "product": {
-          "description": "Marka: D-Vitum. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 5904960017113. SKU produktu: 5904960017113. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+          "description": "Marka: D-Vitum. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 5904960017458. SKU produktu: 5904960017458. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
           "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0"
         }
       },
       "patchBody": {
         "product": {
-          "name": "D-Vitum 400 j.m. dla dzieci - 30szt",
-          "description": "Marka: D-Vitum. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 5904960017113. SKU produktu: 5904960017113. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+          "name": "D-Vitum 400 j.m. dla dzieci - 90szt",
+          "description": "Marka: D-Vitum. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 5904960017458. SKU produktu: 5904960017458. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
           "brand": "D-Vitum",
           "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
-          "sku": "5904960017113",
-          "ean": "5904960017113"
+          "sku": "5904960017458",
+          "ean": "5904960017458"
         }
       },
       "inpostReferenceCategoryOverride": null,
@@ -11545,19 +11545,19 @@
             "rejectionReasons": null
           },
           "offer": {
-            "id": "a1df9303-db3f-4b18-b136-714f92e49a57",
+            "id": "4114dc43-7fec-4c9a-83b7-c721bb73d24a",
             "status": "PENDING",
             "product": {
-              "name": "D-Vitum 400 j.m. dla dzieci - 30szt",
-              "description": "Marka: D-Vitum. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 5904960017113. SKU produktu: 5904960017113. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+              "name": "D-Vitum 400 j.m. dla dzieci - 90szt",
+              "description": "Marka: D-Vitum. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 5904960017458. SKU produktu: 5904960017458. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
               "brand": "D-Vitum",
               "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
               "attributes": [],
               "model": null,
               "superModel": null,
-              "sku": "5904960017113",
+              "sku": "5904960017458",
               "manufacturerProductNumber": null,
-              "ean": "5904960017113",
+              "ean": "5904960017458",
               "dimension": null
             },
             "stock": {
@@ -11566,13 +11566,13 @@
             },
             "price": {
               "grossPrice": {
-                "amount": 19.79,
+                "amount": 30.79,
                 "currency": "PLN"
               },
               "taxRateInfo": "23%",
               "deposits": []
             },
-            "externalId": "4226",
+            "externalId": "4227",
             "gpsr": null,
             "shippingTime": null,
             "affiliationProductUrl": null,
@@ -11581,8 +11581,9 @@
             "features": {
               "refundable": true
             },
-            "createdAt": "2026-07-28T12:11:20.708Z",
-            "updatedAt": "2026-09-08T13:15:04.57787284Z"
+            "priceProgram": null,
+            "createdAt": "2026-07-28T12:11:23.22Z",
+            "updatedAt": "2026-09-28T13:43:25.014182877Z"
           }
         }
       },
@@ -11599,25 +11600,25 @@
     {
       "ok": true,
       "action": "PATCH",
-      "externalId": "4242",
-      "offerId": "9ea5de41-a04f-4fd4-8c56-18dd6b6f2c5a",
+      "externalId": "4943",
+      "offerId": "9595181d-c892-4af3-9474-3a11d5605564",
       "changedFields": [
         "product"
       ],
       "changedSubfields": {
         "product": {
-          "description": "Marka: D-Vitum. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 5904960017120. SKU produktu: 5904960017120. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-          "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0"
+          "description": "Marka: Detramax. Kategoria produktu: Suplementy Diety > Kości i stawy > Układ krążenia. Kod EAN: 5903111410643. SKU produktu: 5903111410643. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+          "categoryId": "2209e67b-9c0a-514a-91bd-15af4128e35c"
         }
       },
       "patchBody": {
         "product": {
-          "name": "D-Vitum 1000 j.m. dla dzieci - 30szt",
-          "description": "Marka: D-Vitum. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 5904960017120. SKU produktu: 5904960017120. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-          "brand": "D-Vitum",
-          "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
-          "sku": "5904960017120",
-          "ean": "5904960017120"
+          "name": "Detramax Plus - 60szt",
+          "description": "Marka: Detramax. Kategoria produktu: Suplementy Diety > Kości i stawy > Układ krążenia. Kod EAN: 5903111410643. SKU produktu: 5903111410643. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+          "brand": "Detramax",
+          "categoryId": "2209e67b-9c0a-514a-91bd-15af4128e35c",
+          "sku": "5903111410643",
+          "ean": "5903111410643"
         }
       },
       "inpostReferenceCategoryOverride": null,
@@ -11630,19 +11631,19 @@
             "rejectionReasons": null
           },
           "offer": {
-            "id": "9ea5de41-a04f-4fd4-8c56-18dd6b6f2c5a",
+            "id": "9595181d-c892-4af3-9474-3a11d5605564",
             "status": "PENDING",
             "product": {
-              "name": "D-Vitum 1000 j.m. dla dzieci - 30szt",
-              "description": "Marka: D-Vitum. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 5904960017120. SKU produktu: 5904960017120. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-              "brand": "D-Vitum",
-              "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
+              "name": "Detramax Plus - 60szt",
+              "description": "Marka: Detramax. Kategoria produktu: Suplementy Diety > Kości i stawy > Układ krążenia. Kod EAN: 5903111410643. SKU produktu: 5903111410643. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+              "brand": "Detramax",
+              "categoryId": "2209e67b-9c0a-514a-91bd-15af4128e35c",
               "attributes": [],
               "model": null,
               "superModel": null,
-              "sku": "5904960017120",
+              "sku": "5903111410643",
               "manufacturerProductNumber": null,
-              "ean": "5904960017120",
+              "ean": "5903111410643",
               "dimension": null
             },
             "stock": {
@@ -11651,13 +11652,13 @@
             },
             "price": {
               "grossPrice": {
-                "amount": 21.99,
+                "amount": 45.65,
                 "currency": "PLN"
               },
               "taxRateInfo": "23%",
               "deposits": []
             },
-            "externalId": "4242",
+            "externalId": "4943",
             "gpsr": null,
             "shippingTime": null,
             "affiliationProductUrl": null,
@@ -11666,14 +11667,15 @@
             "features": {
               "refundable": true
             },
-            "createdAt": "2026-07-28T12:11:29.238Z",
-            "updatedAt": "2026-09-08T13:15:06.700920533Z"
+            "priceProgram": null,
+            "createdAt": "2026-07-28T12:12:37.575Z",
+            "updatedAt": "2026-09-28T13:43:27.047365408Z"
           }
         }
       },
       "postWriteValidation": {
         "status": "SOLDOUT",
-        "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
+        "categoryId": "2209e67b-9c0a-514a-91bd-15af4128e35c",
         "validationErrors": [],
         "referenceCategory": null
       },
@@ -11752,8 +11754,9 @@
             "features": {
               "refundable": true
             },
+            "priceProgram": null,
             "createdAt": "2026-05-25T13:27:39.603Z",
-            "updatedAt": "2026-09-08T13:15:08.729669295Z"
+            "updatedAt": "2026-09-28T13:43:29.05894074Z"
           }
         }
       },
@@ -11781,191 +11784,6 @@
           }
         ]
       }
-    },
-    {
-      "ok": false,
-      "action": "PATCH",
-      "externalId": "5103",
-      "offerId": "23319503-385c-444e-9647-1d1b1a26c794",
-      "changedFields": [
-        "product"
-      ],
-      "changedSubfields": {
-        "product": {
-          "description": "Marka: Artresan. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały. Kod EAN: 5903031283730. SKU produktu: 5903031283730. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-          "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334"
-        }
-      },
-      "patchBody": {
-        "product": {
-          "name": "Artresan Optima 1 a Day - 36szt",
-          "description": "Marka: Artresan. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały. Kod EAN: 5903031283730. SKU produktu: 5903031283730. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-          "brand": "Artresan",
-          "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
-          "sku": "5903031283730",
-          "ean": "5903031283730"
-        }
-      },
-      "inpostReferenceCategoryOverride": null,
-      "inpostCurrentCategoryPreserved": null,
-      "patchResponse": {
-        "ok": true,
-        "data": {
-          "metadata": {
-            "validationErrors": null,
-            "rejectionReasons": null
-          },
-          "offer": {
-            "id": "23319503-385c-444e-9647-1d1b1a26c794",
-            "status": "PENDING",
-            "product": {
-              "name": "Artresan Optima 1 a Day - 36szt",
-              "description": "Marka: Artresan. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały. Kod EAN: 5903031283730. SKU produktu: 5903031283730. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-              "brand": "Artresan",
-              "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
-              "attributes": [],
-              "model": null,
-              "superModel": null,
-              "sku": "5903031283730",
-              "manufacturerProductNumber": null,
-              "ean": "5903031283730",
-              "dimension": null
-            },
-            "stock": {
-              "quantity": 0,
-              "unit": "UNIT"
-            },
-            "price": {
-              "grossPrice": {
-                "amount": 79.19,
-                "currency": "PLN"
-              },
-              "taxRateInfo": "23%",
-              "deposits": []
-            },
-            "externalId": "5103",
-            "gpsr": null,
-            "shippingTime": null,
-            "affiliationProductUrl": null,
-            "images": null,
-            "postSale": null,
-            "features": {
-              "refundable": true
-            },
-            "createdAt": "2026-07-28T12:13:12.766Z",
-            "updatedAt": "2026-09-08T13:15:11.031340319Z"
-          }
-        }
-      },
-      "postWriteValidation": {
-        "status": "PENDING",
-        "categoryId": "7efffd5d-4726-55e9-937a-bfba75455bce",
-        "validationErrors": [
-          {
-            "validationCode": "CATEGORY_INCORRECT",
-            "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
-          }
-        ],
-        "referenceCategory": null
-      },
-      "postWriteReferenceCategoryOverride": null,
-      "postWriteValidationAfterRepair": null,
-      "error": {
-        "message": "InPost zwrocil bledy walidacji po synchronizacji oferty.",
-        "status": "PENDING",
-        "categoryId": "7efffd5d-4726-55e9-937a-bfba75455bce",
-        "validationErrors": [
-          {
-            "validationCode": "CATEGORY_INCORRECT",
-            "validationMessage": "Produkt jest obecnie niedozwolony do sprzedaży zgodnie z regulaminem i polityką sprzedaży."
-          }
-        ]
-      }
-    },
-    {
-      "ok": true,
-      "action": "PATCH",
-      "externalId": "16356",
-      "offerId": "321c594e-8b18-4579-a234-951b62133a2b",
-      "changedFields": [
-        "product"
-      ],
-      "changedSubfields": {
-        "product": {
-          "description": "Marka: Multilac. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 5903031282627. SKU produktu: 5903031282627. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-          "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258"
-        }
-      },
-      "patchBody": {
-        "product": {
-          "name": "Multilac Baby - Synbiotyk w kroplach dla niemowląt i dzieci - 2x5ml",
-          "description": "Marka: Multilac. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 5903031282627. SKU produktu: 5903031282627. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-          "brand": "Multilac",
-          "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
-          "sku": "5903031282627",
-          "ean": "5903031282627"
-        }
-      },
-      "inpostReferenceCategoryOverride": null,
-      "inpostCurrentCategoryPreserved": null,
-      "patchResponse": {
-        "ok": true,
-        "data": {
-          "metadata": {
-            "validationErrors": null,
-            "rejectionReasons": null
-          },
-          "offer": {
-            "id": "321c594e-8b18-4579-a234-951b62133a2b",
-            "status": "PENDING",
-            "product": {
-              "name": "Multilac Baby - Synbiotyk w kroplach dla niemowląt i dzieci - 2x5ml",
-              "description": "Marka: Multilac. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 5903031282627. SKU produktu: 5903031282627. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-              "brand": "Multilac",
-              "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
-              "attributes": [],
-              "model": null,
-              "superModel": null,
-              "sku": "5903031282627",
-              "manufacturerProductNumber": null,
-              "ean": "5903031282627",
-              "dimension": null
-            },
-            "stock": {
-              "quantity": 5,
-              "unit": "UNIT"
-            },
-            "price": {
-              "grossPrice": {
-                "amount": 43.53,
-                "currency": "PLN"
-              },
-              "taxRateInfo": "23%",
-              "deposits": []
-            },
-            "externalId": "16356",
-            "gpsr": null,
-            "shippingTime": null,
-            "affiliationProductUrl": null,
-            "images": null,
-            "postSale": null,
-            "features": {
-              "refundable": true
-            },
-            "createdAt": "2026-07-28T12:16:44.83Z",
-            "updatedAt": "2026-09-08T13:15:13.137928763Z"
-          }
-        }
-      },
-      "postWriteValidation": {
-        "status": "PUBLISHED",
-        "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
-        "validationErrors": [],
-        "referenceCategory": null
-      },
-      "postWriteReferenceCategoryOverride": null,
-      "postWriteValidationAfterRepair": null,
-      "error": null
     },
     {
       "ok": true,
@@ -12037,8 +11855,9 @@
             "features": {
               "refundable": true
             },
+            "priceProgram": null,
             "createdAt": "2026-07-28T12:16:47.342Z",
-            "updatedAt": "2026-09-08T13:15:15.222400367Z"
+            "updatedAt": "2026-09-28T13:43:31.23301385Z"
           }
         }
       },

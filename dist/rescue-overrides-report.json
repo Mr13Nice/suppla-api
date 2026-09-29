@@ -37,7 +37,7 @@
     "generationErrorsFile": "dist\\csv-generation-errors.json",
     "syncErrorsFile": "dist\\send-sync-errors.json",
     "rejectedHintProducts": 0,
-    "syncCategoryIncorrectProducts": 12
+    "syncCategoryIncorrectProducts": 10
   },
   "categoryTree": {
     "totalCategories": 9155,
@@ -46,19 +46,19 @@
   },
   "totals": {
     "csvRows": 2143,
-    "variationRows": 8,
-    "variationParentRowsResolved": 8,
+    "variationRows": 6,
+    "variationParentRowsResolved": 6,
     "variationParentRowsMissing": 0,
-    "variationOffersGenerated": 5,
+    "variationOffersGenerated": 3,
     "variationRowsSkipped": 3,
     "variableParentRowsSkipped": 0,
-    "rescueCandidates": 12,
+    "rescueCandidates": 10,
     "rescueSkippedSameRejectedCategory": 6,
-    "offersToCreate": 6,
+    "offersToCreate": 4,
     "skippedProducts": 6,
     "blockingSkippedProducts": 0,
     "productsWithoutImages": 0,
-    "generatedDescriptions": 6,
+    "generatedDescriptions": 4,
     "unresolvedCategories": 0,
     "rejectedCategoryHints": 0,
     "hintCategoryWarnings": 0,
@@ -75,7 +75,7 @@
   },
   "categoryResolution": {
     "byMethod": {
-      "override-exact": 6
+      "override-exact": 4
     },
     "rejectedHintReasons": {},
     "hintWarningReasons": {}

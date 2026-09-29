@@ -7,10 +7,10 @@
     "csvRows": 2143,
     "uniqueEans": 1869,
     "rowsWithoutEan": 274,
-    "hintsFound": 1536,
-    "hintsNotFound": 333,
+    "hintsFound": 1537,
+    "hintsNotFound": 332,
     "requestErrors": 0,
-    "hintsWithCategoryNotInCategoryMap": 658
+    "hintsWithCategoryNotInCategoryMap": 657
   },
   "rowsWithoutEan": [
     {
@@ -1478,7 +1478,7 @@
           "externalId": "189",
           "name": "Cold Cream Delikatne mydło z organicznym woskiem pszczelim",
           "sku": "3504105036102",
-          "categories": "Dermokosmetyki, Dermokosmetyki > dla Dziecka, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Ciała > Mydła, Dermokosmetyki > do Włosów > Mydła"
+          "categories": "Dermokosmetyki, Dermokosmetyki > dla Dziecka, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Włosów > Mydła, Dermokosmetyki > do Ciała > Mydła"
         }
       ],
       "validInCategoryMap": false
@@ -12279,7 +12279,7 @@
     },
     {
       "ean": "5907546536015",
-      "categoryId": "c7a62bf0-04a3-5628-80cf-492af8129279",
+      "categoryId": "6eafbcd7-ebde-5121-9f42-6e5a1395ccd9",
       "productCount": 1,
       "examples": [
         {
@@ -12289,7 +12289,7 @@
           "categories": "Suplementy Diety > Odporność, Suplementy Diety > Samopoczucie i energia, Suplementy Diety > Uroda > Skóra\\, włosy i paznokcie, Suplementy Diety, Suplementy Diety > Uroda"
         }
       ],
-      "validInCategoryMap": false
+      "validInCategoryMap": true
     },
     {
       "ean": "5903031287516",
@@ -12594,7 +12594,7 @@
           "externalId": "4752",
           "name": "Bodymisie o smaku coli",
           "sku": "7070866031343",
-          "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Witaminy i minerały > Multiwitaminy, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety > Odporność, Suplementy Diety, Suplementy Diety > Witaminy i minerały, Macierzyństwo > Dla dzieci > Witaminy i minerały"
+          "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Witaminy i minerały > Multiwitaminy, Suplementy Diety > Odporność, Macierzyństwo > Dla dzieci > Odporność, Suplementy Diety, Suplementy Diety > Witaminy i minerały, Macierzyństwo > Dla dzieci > Witaminy i minerały"
         }
       ],
       "validInCategoryMap": true
@@ -17732,7 +17732,7 @@
           "externalId": "5983",
           "name": "Synergia Witamina A + D3 + E + K2Mk7 Junior",
           "sku": "5902709520191",
-          "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Kości i stawy, Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem, Suplementy Diety, Suplementy Diety > Witaminy i minerały > Witaminy > Witamina A, Suplementy Diety > Witaminy i minerały > Witaminy > Witamina E, Suplementy Diety > Witaminy i minerały > Witaminy > Witamina K, Suplementy Diety > Witaminy i minerały, Macierzyństwo > Dla dzieci > Witaminy i minerały"
+          "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Kości i stawy, Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem, Suplementy Diety, Suplementy Diety > Witaminy i minerały > Witaminy > Witamina A, Suplementy Diety > Witaminy i minerały > Witaminy > Witamina E, Suplementy Diety > Witaminy i minerały > Witaminy > Witamina K, Macierzyństwo > Dla dzieci > Witaminy i minerały, Suplementy Diety > Witaminy i minerały"
         }
       ],
       "validInCategoryMap": true
@@ -18936,7 +18936,7 @@
           "externalId": "6888",
           "name": "Eau Thermale Avène - Naturalny fluid korygujący w płynie Couvrance",
           "sku": "3282770100532",
-          "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Fluid, Dermokosmetyki > do Twarzy > Fluid, Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna"
+          "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Fluid, Fluid, Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna"
         }
       ],
       "validInCategoryMap": false
@@ -22045,6 +22045,20 @@
           "name": "Niacynobaza 25% - Serum",
           "sku": "5907573300399",
           "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Serum do twarzy"
+        }
+      ],
+      "validInCategoryMap": true
+    },
+    {
+      "ean": "3522933005503",
+      "categoryId": "6ec86709-bd13-5454-8345-3ac543ebf480",
+      "productCount": 1,
+      "examples": [
+        {
+          "externalId": "17050",
+          "name": "Caudalie Vinoperfect Zestaw Wiosenny - Serum Rozjaśniające + Krem na Dzień + Krem na Noc",
+          "sku": "3522933005503",
+          "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Kremy na dzień, Dermokosmetyki > do Twarzy > Kremy na noc, Dermokosmetyki > do Twarzy > Serum do twarzy, Dermokosmetyki > do Twarzy > Zestawy eksperckie do twarzy"
         }
       ],
       "validInCategoryMap": true
@@ -27512,20 +27526,6 @@
       ]
     },
     {
-      "ean": "3522933005503",
-      "reason": "HINT_NOT_FOUND_404",
-      "status": 404,
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "17050",
-          "name": "Caudalie Vinoperfect Zestaw Wiosenny - Serum Rozjaśniające + Krem na Dzień + Krem na Noc",
-          "sku": "3522933005503",
-          "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Kremy na dzień, Dermokosmetyki > do Twarzy > Kremy na noc, Dermokosmetyki > do Twarzy > Serum do twarzy, Dermokosmetyki > do Twarzy > Zestawy eksperckie do twarzy"
-        }
-      ]
-    },
-    {
       "ean": "3337875945790",
       "reason": "HINT_NOT_FOUND_404",
       "status": 404,
@@ -27643,7 +27643,7 @@
           "externalId": "189",
           "name": "Cold Cream Delikatne mydło z organicznym woskiem pszczelim",
           "sku": "3504105036102",
-          "categories": "Dermokosmetyki, Dermokosmetyki > dla Dziecka, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Ciała > Mydła, Dermokosmetyki > do Włosów > Mydła"
+          "categories": "Dermokosmetyki, Dermokosmetyki > dla Dziecka, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Włosów > Mydła, Dermokosmetyki > do Ciała > Mydła"
         }
       ]
     },
@@ -32471,19 +32471,6 @@
       ]
     },
     {
-      "ean": "5907546536015",
-      "categoryId": "c7a62bf0-04a3-5628-80cf-492af8129279",
-      "productCount": 1,
-      "examples": [
-        {
-          "externalId": "4674",
-          "name": "Colostrum Genactiv Proszek z czarną porzeczką",
-          "sku": "5907546536015",
-          "categories": "Suplementy Diety > Odporność, Suplementy Diety > Samopoczucie i energia, Suplementy Diety > Uroda > Skóra\\, włosy i paznokcie, Suplementy Diety, Suplementy Diety > Uroda"
-        }
-      ]
-    },
-    {
       "ean": "5901330073786",
       "categoryId": "ebbe3af1-5787-5dc1-8502-c0ccf26ad2a1",
       "productCount": 1,
@@ -33753,7 +33740,7 @@
           "externalId": "6888",
           "name": "Eau Thermale Avène - Naturalny fluid korygujący w płynie Couvrance",
           "sku": "3282770100532",
-          "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Fluid, Dermokosmetyki > do Twarzy > Fluid, Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna"
+          "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Fluid, Fluid, Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna"
         }
       ]
     },

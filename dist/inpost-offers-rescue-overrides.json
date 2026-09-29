@@ -1,13 +1,13 @@
 [
   {
-    "externalId": "4226",
+    "externalId": "4227",
     "product": {
-      "name": "D-Vitum 400 j.m. dla dzieci - 30szt",
-      "description": "Marka: D-Vitum. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 5904960017113. SKU produktu: 5904960017113. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+      "name": "D-Vitum 400 j.m. dla dzieci - 90szt",
+      "description": "Marka: D-Vitum. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 5904960017458. SKU produktu: 5904960017458. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
       "brand": "D-Vitum",
       "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
-      "sku": "5904960017113",
-      "ean": "5904960017113"
+      "sku": "5904960017458",
+      "ean": "5904960017458"
     },
     "stock": {
       "quantity": 0,
@@ -15,21 +15,21 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 19.79,
+        "amount": 30.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
     }
   },
   {
-    "externalId": "4242",
+    "externalId": "4943",
     "product": {
-      "name": "D-Vitum 1000 j.m. dla dzieci - 30szt",
-      "description": "Marka: D-Vitum. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 5904960017120. SKU produktu: 5904960017120. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "D-Vitum",
-      "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
-      "sku": "5904960017120",
-      "ean": "5904960017120"
+      "name": "Detramax Plus - 60szt",
+      "description": "Marka: Detramax. Kategoria produktu: Suplementy Diety > Kości i stawy > Układ krążenia. Kod EAN: 5903111410643. SKU produktu: 5903111410643. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+      "brand": "Detramax",
+      "categoryId": "2209e67b-9c0a-514a-91bd-15af4128e35c",
+      "sku": "5903111410643",
+      "ean": "5903111410643"
     },
     "stock": {
       "quantity": 0,
@@ -37,7 +37,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 21.99,
+        "amount": 45.65,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -60,50 +60,6 @@
     "price": {
       "grossPrice": {
         "amount": 76.99,
-        "currency": "PLN"
-      },
-      "taxRateInfo": "23%"
-    }
-  },
-  {
-    "externalId": "5103",
-    "product": {
-      "name": "Artresan Optima 1 a Day - 36szt",
-      "description": "Marka: Artresan. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały. Kod EAN: 5903031283730. SKU produktu: 5903031283730. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "Artresan",
-      "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
-      "sku": "5903031283730",
-      "ean": "5903031283730"
-    },
-    "stock": {
-      "quantity": 0,
-      "unit": "UNIT"
-    },
-    "price": {
-      "grossPrice": {
-        "amount": 79.19,
-        "currency": "PLN"
-      },
-      "taxRateInfo": "23%"
-    }
-  },
-  {
-    "externalId": "16356",
-    "product": {
-      "name": "Multilac Baby - Synbiotyk w kroplach dla niemowląt i dzieci - 2x5ml",
-      "description": "Marka: Multilac. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 5903031282627. SKU produktu: 5903031282627. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
-      "brand": "Multilac",
-      "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
-      "sku": "5903031282627",
-      "ean": "5903031282627"
-    },
-    "stock": {
-      "quantity": 5,
-      "unit": "UNIT"
-    },
-    "price": {
-      "grossPrice": {
-        "amount": 43.53,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
