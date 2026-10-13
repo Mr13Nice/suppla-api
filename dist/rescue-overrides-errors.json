@@ -1,19 +1,19 @@
 {
   "summary": {
     "csvRows": 2143,
-    "variationRows": 6,
-    "variationParentRowsResolved": 6,
+    "variationRows": 10,
+    "variationParentRowsResolved": 10,
     "variationParentRowsMissing": 0,
-    "variationOffersGenerated": 3,
+    "variationOffersGenerated": 7,
     "variationRowsSkipped": 3,
     "variableParentRowsSkipped": 0,
-    "rescueCandidates": 10,
+    "rescueCandidates": 14,
     "rescueSkippedSameRejectedCategory": 6,
-    "offersToCreate": 4,
+    "offersToCreate": 8,
     "skippedProducts": 6,
     "blockingSkippedProducts": 0,
     "productsWithoutImages": 0,
-    "generatedDescriptions": 4,
+    "generatedDescriptions": 8,
     "unresolvedCategories": 0,
     "rejectedCategoryHints": 0,
     "hintCategoryWarnings": 0,
@@ -286,8 +286,20 @@
   "productsWithoutImages": [],
   "generatedDescriptions": [
     {
+      "externalId": "4226",
+      "name": "D-Vitum 400 j.m. dla dzieci - 30szt",
+      "originalLength": 0,
+      "finalLength": 254
+    },
+    {
       "externalId": "4227",
       "name": "D-Vitum 400 j.m. dla dzieci - 90szt",
+      "originalLength": 0,
+      "finalLength": 254
+    },
+    {
+      "externalId": "4242",
+      "name": "D-Vitum 1000 j.m. dla dzieci - 30szt",
       "originalLength": 0,
       "finalLength": 254
     },
@@ -302,6 +314,18 @@
       "name": "Jasnum",
       "originalLength": 0,
       "finalLength": 240
+    },
+    {
+      "externalId": "5103",
+      "name": "Artresan Optima 1 a Day - 36szt",
+      "originalLength": 0,
+      "finalLength": 237
+    },
+    {
+      "externalId": "16356",
+      "name": "Multilac Baby - Synbiotyk w kroplach dla niemowląt i dzieci - 2x5ml",
+      "originalLength": 0,
+      "finalLength": 256
     },
     {
       "externalId": "16358",

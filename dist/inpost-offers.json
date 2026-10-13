@@ -66,6 +66,28 @@
     }
   },
   {
+    "externalId": "169",
+    "product": {
+      "name": "Mustela skóra normalna odświeżający spray ułatwiający rozczesywanie włosów",
+      "description": "Marka: Mustela. Kategoria produktu: Dermokosmetyki > dla Dziecka. Kod EAN: 3504105036027. SKU produktu: 3504105036027. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+      "brand": "Mustela",
+      "categoryId": "59e28a91-f444-55d5-91e6-c50e7dfccacc",
+      "sku": "3504105036027",
+      "ean": "3504105036027"
+    },
+    "stock": {
+      "quantity": 0,
+      "unit": "UNIT"
+    },
+    "price": {
+      "grossPrice": {
+        "amount": 35.75,
+        "currency": "PLN"
+      },
+      "taxRateInfo": "23%"
+    }
+  },
+  {
     "externalId": "175",
     "product": {
       "name": "Mustela skóra normalna olejek do masażu z awokado",
@@ -604,7 +626,7 @@
       "ean": "3504105033873"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
@@ -868,7 +890,7 @@
       "ean": "5901643176471"
     },
     "stock": {
-      "quantity": 15,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
@@ -1022,7 +1044,7 @@
       "ean": "5901643174170"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
@@ -1401,7 +1423,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 76.99,
+        "amount": 55.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1423,7 +1445,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 86.89,
+        "amount": 63.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1445,7 +1467,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 106.69,
+        "amount": 77.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1489,7 +1511,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 109.99,
+        "amount": 79.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1511,7 +1533,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 54.99,
+        "amount": 39.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1599,7 +1621,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 84.69,
+        "amount": 61.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1775,7 +1797,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 80.29,
+        "amount": 58.39,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1819,7 +1841,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 75.89,
+        "amount": 55.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1841,7 +1863,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 98.99,
+        "amount": 71.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1863,7 +1885,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 65.99,
+        "amount": 47.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -1929,7 +1951,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 65.99,
+        "amount": 47.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2017,7 +2039,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 60.49,
+        "amount": 47.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2149,7 +2171,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 73.69,
+        "amount": 53.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2215,7 +2237,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 65.99,
+        "amount": 38.39,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2325,7 +2347,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 72.59,
+        "amount": 52.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2369,7 +2391,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 72.59,
+        "amount": 52.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2501,7 +2523,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 65.99,
+        "amount": 47.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2567,7 +2589,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 98.99,
+        "amount": 71.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2606,7 +2628,7 @@
       "ean": "3264680015908"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
@@ -2677,7 +2699,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 208.99,
+        "amount": 151.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2721,7 +2743,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 153.99,
+        "amount": 111.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2743,7 +2765,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 120.99,
+        "amount": 87.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -2809,7 +2831,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 208.99,
+        "amount": 151.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -3117,7 +3139,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 98.99,
+        "amount": 59.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -3227,7 +3249,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 64.89,
+        "amount": 46.39,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -3271,7 +3293,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 208.99,
+        "amount": 151.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -3315,7 +3337,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 329.99,
+        "amount": 239.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -3381,7 +3403,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 153.99,
+        "amount": 111.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -3469,7 +3491,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 164.99,
+        "amount": 119.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -3491,7 +3513,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 219.99,
+        "amount": 159.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -3513,7 +3535,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 76.99,
+        "amount": 55.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -3557,7 +3579,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 59.39,
+        "amount": 43.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -3596,7 +3618,7 @@
       "ean": "3264680015922"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
@@ -3623,7 +3645,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 54.99,
+        "amount": 39.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -3816,12 +3838,12 @@
       "ean": "3282770142112"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 36.29,
+        "amount": 31.11,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -3843,7 +3865,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 149.59,
+        "amount": 108.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -3909,7 +3931,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 153.99,
+        "amount": 103.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -3931,7 +3953,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 148.49,
+        "amount": 95.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4014,7 +4036,7 @@
       "ean": "3282770153217"
     },
     "stock": {
-      "quantity": 8,
+      "quantity": 10,
       "unit": "UNIT"
     },
     "price": {
@@ -4041,7 +4063,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 131.99,
+        "amount": 95.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4195,7 +4217,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 95.69,
+        "amount": 69.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4217,7 +4239,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 98.99,
+        "amount": 71.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4239,7 +4261,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 102.29,
+        "amount": 63.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4305,7 +4327,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 62.69,
+        "amount": 45.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4327,7 +4349,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 79.19,
+        "amount": 57.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4349,7 +4371,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 84.69,
+        "amount": 55.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4410,7 +4432,7 @@
       "ean": "3282779355872"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -4432,12 +4454,12 @@
       "ean": "3282770204797"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 65.99,
+        "amount": 63.29,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4459,7 +4481,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 65.99,
+        "amount": 47.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4481,7 +4503,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 98.99,
+        "amount": 71.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4525,7 +4547,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 98.99,
+        "amount": 71.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4547,7 +4569,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 116.59,
+        "amount": 77.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4569,7 +4591,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 116.59,
+        "amount": 79.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4591,7 +4613,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 109.99,
+        "amount": 79.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4635,7 +4657,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 97.89,
+        "amount": 71.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -4652,7 +4674,7 @@
       "ean": "3282770138856"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
@@ -4674,7 +4696,7 @@
       "ean": "3282770138801"
     },
     "stock": {
-      "quantity": 7,
+      "quantity": 9,
       "unit": "UNIT"
     },
     "price": {
@@ -4872,12 +4894,12 @@
       "ean": "5900717152311"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 60,
+        "amount": 58.29,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -5004,12 +5026,12 @@
       "ean": "5900717152915"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 59.45,
+        "amount": 57.76,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -5295,7 +5317,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 76.99,
+        "amount": 55.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -5339,7 +5361,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 54.99,
+        "amount": 39.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -5466,12 +5488,12 @@
       "ean": "5900717164017"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 65.96,
+        "amount": 57.65,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -5911,7 +5933,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 50.59,
+        "amount": 36.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -5933,7 +5955,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 92.39,
+        "amount": 67.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -5955,7 +5977,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 105.59,
+        "amount": 76.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -6021,7 +6043,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 59.39,
+        "amount": 43.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -6456,7 +6478,7 @@
       "ean": "5900717159112"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 10,
       "unit": "UNIT"
     },
     "price": {
@@ -6478,12 +6500,12 @@
       "ean": "5900717157118"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 47.19,
+        "amount": 53.89,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -6500,7 +6522,7 @@
       "ean": "5900717157217"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 10,
       "unit": "UNIT"
     },
     "price": {
@@ -6522,7 +6544,7 @@
       "ean": "5900717158214"
     },
     "stock": {
-      "quantity": 0,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -6566,7 +6588,7 @@
       "ean": "5900717158511"
     },
     "stock": {
-      "quantity": 0,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -6654,7 +6676,7 @@
       "ean": "5900717167018"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -6808,12 +6830,12 @@
       "ean": "3264680027178"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 65.99,
+        "amount": 47.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -7737,7 +7759,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 65.99,
+        "amount": 47.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -8128,7 +8150,7 @@
       "ean": "3264680015915"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
@@ -8216,7 +8238,7 @@
       "ean": "3282770207774"
     },
     "stock": {
-      "quantity": 25,
+      "quantity": 27,
       "unit": "UNIT"
     },
     "price": {
@@ -8265,7 +8287,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 39.59,
+        "amount": 28.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -8419,7 +8441,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 208.99,
+        "amount": 151.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -8463,7 +8485,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 84.69,
+        "amount": 61.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -8485,7 +8507,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 98.99,
+        "amount": 71.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -8859,7 +8881,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 106.69,
+        "amount": 96.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -9140,7 +9162,7 @@
       "ean": "5901986061052"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
@@ -9712,12 +9734,12 @@
       "ean": "5906948846876"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 31.35,
+        "amount": 37.39,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -9849,7 +9871,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 39.59,
+        "amount": 30.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -9893,7 +9915,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 24.19,
+        "amount": 18.69,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -9915,7 +9937,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 37.39,
+        "amount": 28.89,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -9937,7 +9959,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 36.29,
+        "amount": 28.04,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -9959,7 +9981,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 51.69,
+        "amount": 39.94,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -10069,7 +10091,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 63.79,
+        "amount": 49.29,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -10091,7 +10113,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 34.65,
+        "amount": 26.77,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -10113,7 +10135,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 40.15,
+        "amount": 27.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -10196,7 +10218,7 @@
       "ean": "3701129804469"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
@@ -10487,7 +10509,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 36.29,
+        "amount": 28.04,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -10597,7 +10619,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 49.49,
+        "amount": 38.24,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -10685,7 +10707,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 42.89,
+        "amount": 33.14,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -10707,7 +10729,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 53.35,
+        "amount": 41.22,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -10724,7 +10746,7 @@
       "ean": "3337875597197"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -11229,12 +11251,12 @@
       "ean": "3337875840620"
     },
     "stock": {
-      "quantity": 0,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 76.99,
+        "amount": 87.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -11251,7 +11273,7 @@
       "ean": "3337875814652"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 8,
       "unit": "UNIT"
     },
     "price": {
@@ -11669,7 +11691,7 @@
       "ean": "3337875816847"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
@@ -11691,7 +11713,7 @@
       "ean": "3337875816809"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -12747,7 +12769,7 @@
       "ean": "3337875656764"
     },
     "stock": {
-      "quantity": 7,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
@@ -13779,7 +13801,7 @@
       "ean": "5903031282122"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 9,
       "unit": "UNIT"
     },
     "price": {
@@ -13801,7 +13823,7 @@
       "ean": "5907377136712"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -13823,7 +13845,7 @@
       "ean": "5903031286427"
     },
     "stock": {
-      "quantity": 8,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -13911,7 +13933,7 @@
       "ean": "5907377136941"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -13933,12 +13955,12 @@
       "ean": "5903031280852"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 30.79,
+        "amount": 24.57,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -13955,7 +13977,7 @@
       "ean": "5903031281606"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
@@ -13977,7 +13999,7 @@
       "ean": "5907377138365"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 26,
       "unit": "UNIT"
     },
     "price": {
@@ -14021,7 +14043,7 @@
       "ean": "5903031282856"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -14065,7 +14087,7 @@
       "ean": "5907377136743"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 11,
       "unit": "UNIT"
     },
     "price": {
@@ -14153,7 +14175,7 @@
       "ean": "5903031283945"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -14395,7 +14417,7 @@
       "ean": "3337871320362"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -14483,7 +14505,7 @@
       "ean": "5903031282849"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -14549,7 +14571,7 @@
       "ean": "5903031280265"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -14571,7 +14593,7 @@
       "ean": "5907377136958"
     },
     "stock": {
-      "quantity": 8,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -14593,12 +14615,12 @@
       "ean": "5903031280906"
     },
     "stock": {
-      "quantity": 8,
+      "quantity": 12,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 29.02,
+        "amount": 31.04,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -14615,7 +14637,7 @@
       "ean": "5907377138372"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -14659,7 +14681,7 @@
       "ean": "5907377136729"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -14747,7 +14769,7 @@
       "ean": "5903031280296"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -15011,12 +15033,12 @@
       "ean": "3337875805025"
     },
     "stock": {
-      "quantity": 0,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 54.99,
+        "amount": 60.49,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -15033,7 +15055,7 @@
       "ean": "3337875804431"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -15165,7 +15187,7 @@
       "ean": "5904960018691"
     },
     "stock": {
-      "quantity": 12,
+      "quantity": 11,
       "unit": "UNIT"
     },
     "price": {
@@ -15253,7 +15275,7 @@
       "ean": "5904960018707"
     },
     "stock": {
-      "quantity": 8,
+      "quantity": 17,
       "unit": "UNIT"
     },
     "price": {
@@ -15297,7 +15319,7 @@
       "ean": "5904960015096"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 22,
       "unit": "UNIT"
     },
     "price": {
@@ -15363,7 +15385,7 @@
       "ean": "5904960018172"
     },
     "stock": {
-      "quantity": 14,
+      "quantity": 17,
       "unit": "UNIT"
     },
     "price": {
@@ -15583,7 +15605,7 @@
       "ean": "5904960017632"
     },
     "stock": {
-      "quantity": 7,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -15649,12 +15671,12 @@
       "ean": "5904960010404"
     },
     "stock": {
-      "quantity": 9,
+      "quantity": 29,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 83.59,
+        "amount": 76.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -15737,7 +15759,7 @@
       "ean": "5904960017755"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 9,
       "unit": "UNIT"
     },
     "price": {
@@ -15803,7 +15825,7 @@
       "ean": "5904960017496"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -15957,7 +15979,7 @@
       "ean": "5904960016123"
     },
     "stock": {
-      "quantity": 7,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
@@ -15979,7 +16001,7 @@
       "ean": "5904960018837"
     },
     "stock": {
-      "quantity": 0,
+      "quantity": 20,
       "unit": "UNIT"
     },
     "price": {
@@ -16045,7 +16067,7 @@
       "ean": "5904960017748"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -16067,7 +16089,7 @@
       "ean": "5904960012071"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -16199,12 +16221,12 @@
       "ean": "5904960016925"
     },
     "stock": {
-      "quantity": 12,
+      "quantity": 11,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 32.54,
+        "amount": 34.68,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -16221,7 +16243,7 @@
       "ean": "5904960017731"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 9,
       "unit": "UNIT"
     },
     "price": {
@@ -16331,7 +16353,7 @@
       "ean": "5907774335077"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 12,
       "unit": "UNIT"
     },
     "price": {
@@ -16463,12 +16485,12 @@
       "ean": "5907774335053"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 11,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 33.09,
+        "amount": 41.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -16551,7 +16573,7 @@
       "ean": "5902020661610"
     },
     "stock": {
-      "quantity": 36,
+      "quantity": 37,
       "unit": "UNIT"
     },
     "price": {
@@ -16749,12 +16771,12 @@
       "ean": "3337875774086"
     },
     "stock": {
-      "quantity": 0,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 156.19,
+        "amount": 135.32,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -16793,12 +16815,12 @@
       "ean": "5907698301622"
     },
     "stock": {
-      "quantity": 12,
+      "quantity": 10,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 44.14,
+        "amount": 50.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -16815,7 +16837,7 @@
       "ean": "5903060616158"
     },
     "stock": {
-      "quantity": 16,
+      "quantity": 20,
       "unit": "UNIT"
     },
     "price": {
@@ -16859,7 +16881,7 @@
       "ean": "5906204021696"
     },
     "stock": {
-      "quantity": 8,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
@@ -16925,7 +16947,7 @@
       "ean": "5906204006549"
     },
     "stock": {
-      "quantity": 41,
+      "quantity": 38,
       "unit": "UNIT"
     },
     "price": {
@@ -16969,7 +16991,7 @@
       "ean": "5906204021894"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
@@ -17255,7 +17277,7 @@
       "ean": "3337875736459"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -17277,7 +17299,7 @@
       "ean": "3337875787222"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -17321,7 +17343,7 @@
       "ean": "3337875492799"
     },
     "stock": {
-      "quantity": 8,
+      "quantity": 9,
       "unit": "UNIT"
     },
     "price": {
@@ -17343,12 +17365,12 @@
       "ean": "8032472010227"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 43.99,
+        "amount": 34.37,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -17805,12 +17827,12 @@
       "ean": "5902802701862"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 31.89,
+        "amount": 34.09,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -17827,7 +17849,7 @@
       "ean": "5902802703101"
     },
     "stock": {
-      "quantity": 8,
+      "quantity": 12,
       "unit": "UNIT"
     },
     "price": {
@@ -17849,7 +17871,7 @@
       "ean": "8001841896410"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -17915,7 +17937,7 @@
       "ean": "3662042003806"
     },
     "stock": {
-      "quantity": 25,
+      "quantity": 23,
       "unit": "UNIT"
     },
     "price": {
@@ -17937,7 +17959,7 @@
       "ean": "3662042003875"
     },
     "stock": {
-      "quantity": 9,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -17959,7 +17981,7 @@
       "ean": "5702071502364"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 14,
       "unit": "UNIT"
     },
     "price": {
@@ -18311,7 +18333,7 @@
       "ean": "7070866008628"
     },
     "stock": {
-      "quantity": 11,
+      "quantity": 10,
       "unit": "UNIT"
     },
     "price": {
@@ -18597,7 +18619,7 @@
       "ean": "5906716507770"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
@@ -18822,7 +18844,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 39.59,
+        "amount": 40.15,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -18949,7 +18971,7 @@
       "ean": "5907222805978"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -19059,7 +19081,7 @@
       "ean": "5903546006251"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
@@ -19213,7 +19235,7 @@
       "ean": "5902020661757"
     },
     "stock": {
-      "quantity": 39,
+      "quantity": 34,
       "unit": "UNIT"
     },
     "price": {
@@ -19279,7 +19301,7 @@
       "ean": "5907377138754"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -19416,7 +19438,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 53.89,
+        "amount": 57.75,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -19499,7 +19521,7 @@
       "ean": "5902020661665"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -19543,7 +19565,7 @@
       "ean": "5702071382706"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
@@ -19587,12 +19609,12 @@
       "ean": "5902020661634"
     },
     "stock": {
-      "quantity": 0,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 38.49,
+        "amount": 39.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -19675,12 +19697,12 @@
       "ean": "5902802706447"
     },
     "stock": {
-      "quantity": 4,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 51.49,
+        "amount": 60.28,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -19983,12 +20005,12 @@
       "ean": "5906204015114"
     },
     "stock": {
-      "quantity": 7,
+      "quantity": 22,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 37.23,
+        "amount": 35.58,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -20401,7 +20423,7 @@
       "ean": "5903031284218"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -20511,7 +20533,7 @@
       "ean": "5902020661146"
     },
     "stock": {
-      "quantity": 7,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -20555,7 +20577,7 @@
       "ean": "5907368848518"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -20687,7 +20709,7 @@
       "ean": "5906204021085"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
@@ -20731,7 +20753,7 @@
       "ean": "5907377131984"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -20907,7 +20929,7 @@
       "ean": "5901330039270"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -21105,7 +21127,7 @@
       "ean": "5901330003639"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
@@ -21809,7 +21831,7 @@
       "ean": "5905279070103"
     },
     "stock": {
-      "quantity": 107,
+      "quantity": 103,
       "unit": "UNIT"
     },
     "price": {
@@ -22975,7 +22997,7 @@
       "ean": "0033984007000"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
@@ -24097,7 +24119,7 @@
       "ean": "5904398202013"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -24229,12 +24251,12 @@
       "ean": "5902020661368"
     },
     "stock": {
-      "quantity": 9,
+      "quantity": 14,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 13.56,
+        "amount": 13.44,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -24251,7 +24273,7 @@
       "ean": "5902020661375"
     },
     "stock": {
-      "quantity": 193,
+      "quantity": 183,
       "unit": "UNIT"
     },
     "price": {
@@ -24273,7 +24295,7 @@
       "ean": "5902020661405"
     },
     "stock": {
-      "quantity": 57,
+      "quantity": 45,
       "unit": "UNIT"
     },
     "price": {
@@ -24295,7 +24317,7 @@
       "ean": "5903735603513"
     },
     "stock": {
-      "quantity": 0,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -24339,7 +24361,7 @@
       "ean": "5900161006093"
     },
     "stock": {
-      "quantity": 212,
+      "quantity": 208,
       "unit": "UNIT"
     },
     "price": {
@@ -24383,7 +24405,7 @@
       "ean": "5900161004150"
     },
     "stock": {
-      "quantity": 221,
+      "quantity": 220,
       "unit": "UNIT"
     },
     "price": {
@@ -24449,7 +24471,7 @@
       "ean": "5901720140258"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
@@ -25131,12 +25153,12 @@
       "ean": "5902802707420"
     },
     "stock": {
-      "quantity": 0,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 65.99,
+        "amount": 58.29,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -25615,7 +25637,7 @@
       "ean": "5904386000683"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -25901,7 +25923,7 @@
       "ean": "5060072605959"
     },
     "stock": {
-      "quantity": 8,
+      "quantity": 6,
       "unit": "UNIT"
     },
     "price": {
@@ -26011,7 +26033,7 @@
       "ean": "5060072605898"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
@@ -26060,7 +26082,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 122.08,
+        "amount": 147.39,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -26121,7 +26143,7 @@
       "ean": "5907501110106"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -26649,7 +26671,7 @@
       "ean": "5906204019655"
     },
     "stock": {
-      "quantity": 29,
+      "quantity": 25,
       "unit": "UNIT"
     },
     "price": {
@@ -27133,7 +27155,7 @@
       "ean": "5902502182213"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
@@ -27617,7 +27639,7 @@
       "ean": "4009932575439"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 4,
       "unit": "UNIT"
     },
     "price": {
@@ -27639,7 +27661,7 @@
       "ean": "5903111160135"
     },
     "stock": {
-      "quantity": 42,
+      "quantity": 41,
       "unit": "UNIT"
     },
     "price": {
@@ -27793,12 +27815,12 @@
       "ean": "3282770392654"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 3,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 98.99,
+        "amount": 91.33,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -27886,7 +27908,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 186.99,
+        "amount": 135.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -27903,12 +27925,12 @@
       "ean": "3282770393408"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 153.99,
+        "amount": 135.95,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -27952,7 +27974,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 175.99,
+        "amount": 127.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -27991,7 +28013,7 @@
       "ean": "3282770204681"
     },
     "stock": {
-      "quantity": 24,
+      "quantity": 27,
       "unit": "UNIT"
     },
     "price": {
@@ -28018,7 +28040,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 31.89,
+        "amount": 23.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -28040,7 +28062,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 120.99,
+        "amount": 87.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -28062,7 +28084,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 126.49,
+        "amount": 91.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -28084,7 +28106,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 80.29,
+        "amount": 58.39,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -28128,7 +28150,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 32.99,
+        "amount": 25.49,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -28172,7 +28194,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 32.99,
+        "amount": 25.49,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -28194,7 +28216,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 18.69,
+        "amount": 14.44,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -28216,7 +28238,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 19.79,
+        "amount": 13.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -28238,7 +28260,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 37.39,
+        "amount": 28.89,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -28282,7 +28304,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 69.29,
+        "amount": 53.54,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -28304,7 +28326,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 63.79,
+        "amount": 49.29,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -28348,7 +28370,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 36.29,
+        "amount": 28.04,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -28370,7 +28392,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 32.99,
+        "amount": 25.49,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -28392,7 +28414,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 48.39,
+        "amount": 37.39,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -28414,7 +28436,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 98.99,
+        "amount": 76.49,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -28458,7 +28480,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 50.05,
+        "amount": 34.84,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -28480,7 +28502,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 38.49,
+        "amount": 29.74,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -28502,7 +28524,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 47.29,
+        "amount": 38.24,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -28524,7 +28546,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 38.49,
+        "amount": 29.74,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -28568,7 +28590,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 84.69,
+        "amount": 65.44,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -28590,7 +28612,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 72.59,
+        "amount": 56.09,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -28612,7 +28634,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 109.99,
+        "amount": 84.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -28871,7 +28893,7 @@
       "ean": "5900717157019"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 7,
       "unit": "UNIT"
     },
     "price": {
@@ -29756,7 +29778,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 70.39,
+        "amount": 51.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -29822,7 +29844,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 46.19,
+        "amount": 33.59,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -29844,7 +29866,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 60.49,
+        "amount": 43.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -29976,7 +29998,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 67.09,
+        "amount": 48.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -30064,7 +30086,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 65.99,
+        "amount": 47.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -30086,7 +30108,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 43.99,
+        "amount": 31.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -30108,7 +30130,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 60.49,
+        "amount": 43.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -30130,7 +30152,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 43.99,
+        "amount": 31.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -30152,7 +30174,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 59.39,
+        "amount": 43.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -30174,7 +30196,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 56.09,
+        "amount": 40.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -30240,7 +30262,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 42.89,
+        "amount": 31.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -30262,7 +30284,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 42.89,
+        "amount": 31.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -30284,7 +30306,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 54.99,
+        "amount": 39.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -30328,7 +30350,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 43.99,
+        "amount": 31.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -30350,7 +30372,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 87.99,
+        "amount": 63.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -30372,7 +30394,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 131.99,
+        "amount": 95.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -30394,7 +30416,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 72.59,
+        "amount": 52.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -30917,7 +30939,7 @@
       "ean": "3522930003595"
     },
     "stock": {
-      "quantity": 24,
+      "quantity": 14,
       "unit": "UNIT"
     },
     "price": {
@@ -30983,7 +31005,7 @@
       "ean": "3522930003823"
     },
     "stock": {
-      "quantity": 28,
+      "quantity": 27,
       "unit": "UNIT"
     },
     "price": {
@@ -31137,7 +31159,7 @@
       "ean": "3522930004417"
     },
     "stock": {
-      "quantity": 34,
+      "quantity": 32,
       "unit": "UNIT"
     },
     "price": {
@@ -32083,12 +32105,12 @@
       "ean": "3282770389623"
     },
     "stock": {
-      "quantity": 10,
+      "quantity": 12,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 87.99,
+        "amount": 78.63,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -32105,7 +32127,7 @@
       "ean": "3282770396300"
     },
     "stock": {
-      "quantity": 14,
+      "quantity": 16,
       "unit": "UNIT"
     },
     "price": {
@@ -32193,7 +32215,7 @@
       "ean": "5903031287585"
     },
     "stock": {
-      "quantity": 6,
+      "quantity": 14,
       "unit": "UNIT"
     },
     "price": {
@@ -32215,7 +32237,7 @@
       "ean": "5903031288292"
     },
     "stock": {
-      "quantity": 1,
+      "quantity": 2,
       "unit": "UNIT"
     },
     "price": {
@@ -32237,12 +32259,12 @@
       "ean": "5903031286748"
     },
     "stock": {
-      "quantity": 3,
+      "quantity": 5,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 84.69,
+        "amount": 67.16,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -32259,7 +32281,7 @@
       "ean": "5903031280944"
     },
     "stock": {
-      "quantity": 13,
+      "quantity": 22,
       "unit": "UNIT"
     },
     "price": {
@@ -32303,7 +32325,7 @@
       "ean": "5903031282627"
     },
     "stock": {
-      "quantity": 5,
+      "quantity": 8,
       "unit": "UNIT"
     },
     "price": {
@@ -32369,7 +32391,7 @@
       "ean": "5908229303276"
     },
     "stock": {
-      "quantity": 14,
+      "quantity": 13,
       "unit": "UNIT"
     },
     "price": {
@@ -32655,7 +32677,7 @@
       "ean": "4051452550328"
     },
     "stock": {
-      "quantity": 22,
+      "quantity": 21,
       "unit": "UNIT"
     },
     "price": {
@@ -32677,12 +32699,12 @@
       "ean": "4051452550304"
     },
     "stock": {
-      "quantity": 10,
+      "quantity": 8,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 60.43,
+        "amount": 69.29,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -32919,7 +32941,7 @@
       "ean": "3282779441476"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 1,
       "unit": "UNIT"
     },
     "price": {
@@ -33051,7 +33073,7 @@
       "ean": "5902596593056"
     },
     "stock": {
-      "quantity": 795,
+      "quantity": 789,
       "unit": "UNIT"
     },
     "price": {
@@ -33095,12 +33117,12 @@
       "ean": "3522933005503"
     },
     "stock": {
-      "quantity": 2,
+      "quantity": 0,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 148.59,
+        "amount": 181.49,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -33139,12 +33161,12 @@
       "ean": "5902596593025"
     },
     "stock": {
-      "quantity": 304,
+      "quantity": 301,
       "unit": "UNIT"
     },
     "price": {
       "grossPrice": {
-        "amount": 22.38,
+        "amount": 24.19,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -33161,7 +33183,7 @@
       "ean": "3282771000572"
     },
     "stock": {
-      "quantity": 11,
+      "quantity": 13,
       "unit": "UNIT"
     },
     "price": {
@@ -33183,7 +33205,7 @@
       "ean": "3282771000534"
     },
     "stock": {
-      "quantity": 13,
+      "quantity": 16,
       "unit": "UNIT"
     },
     "price": {
@@ -33452,7 +33474,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 87.99,
+        "amount": 63.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -33474,7 +33496,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 54.99,
+        "amount": 39.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -33496,7 +33518,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 131.99,
+        "amount": 95.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -33518,7 +33540,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 87.99,
+        "amount": 63.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -33540,7 +33562,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 406.99,
+        "amount": 295.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -33562,7 +33584,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 324.49,
+        "amount": 235.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -33584,7 +33606,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 186.99,
+        "amount": 135.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -33606,7 +33628,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 263.99,
+        "amount": 191.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -33628,7 +33650,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 61.59,
+        "amount": 44.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -33650,7 +33672,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 131.99,
+        "amount": 95.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -33672,7 +33694,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 208.99,
+        "amount": 151.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -33694,7 +33716,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 69.29,
+        "amount": 50.39,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -33716,7 +33738,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 124.29,
+        "amount": 90.39,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -33738,7 +33760,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 60.49,
+        "amount": 43.99,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"
@@ -33760,7 +33782,7 @@
     },
     "price": {
       "grossPrice": {
-        "amount": 116.59,
+        "amount": 84.79,
         "currency": "PLN"
       },
       "taxRateInfo": "23%"

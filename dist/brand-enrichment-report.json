@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-28T12:53:54.507Z",
-  "updatedAt": "2026-09-28T12:53:54.862Z",
+  "generatedAt": "2026-10-02T13:41:59.929Z",
+  "updatedAt": "2026-10-02T13:42:00.470Z",
   "status": "complete",
   "files": {
     "csvFile": "suppla-oferta.csv",
@@ -21,9 +21,9 @@
     "saveEvery": 25
   },
   "totals": {
-    "offers": 1551,
-    "processedOffers": 1551,
-    "codes": 1540,
+    "offers": 1552,
+    "processedOffers": 1552,
+    "codes": 1541,
     "knownBeforeLookup": 75,
     "lookedUp": 0,
     "addedToMap": 0,
@@ -31,7 +31,7 @@
     "overriddenNames": 8,
     "alreadyHadBrandInName": 27,
     "missingBrand": 0,
-    "skippedOffline": 1465,
+    "skippedOffline": 1466,
     "skippedLookupLimit": 0,
     "skippedOtherCode": 0
   },
@@ -772,6 +772,11 @@
     {
       "externalId": "166",
       "code": "3504105034399",
+      "reason": "offline-no-map-entry"
+    },
+    {
+      "externalId": "169",
+      "code": "3504105036027",
       "reason": "offline-no-map-entry"
     },
     {
@@ -8089,7 +8094,7 @@
   "lastProgress": {
     "reason": "offline-no-map-entry",
     "totals": {
-      "offers": 1551,
+      "offers": 1552,
       "processedOffers": 1550,
       "codes": 1539,
       "knownBeforeLookup": 75,

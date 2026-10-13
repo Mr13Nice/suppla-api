@@ -12,12 +12,12 @@
     "affiliationProductUrl"
   ],
   "totals": {
-    "offersInFile": 4,
-    "existingItemsFetched": 1988,
-    "existingExternalIds": 1553,
+    "offersInFile": 8,
+    "existingItemsFetched": 1989,
+    "existingExternalIds": 1554,
     "duplicateExternalIdsInInPost": 384,
     "created": 0,
-    "patched": 3,
+    "patched": 7,
     "noChanges": 0,
     "dryRunCreate": 0,
     "dryRunPatch": 0,
@@ -194,12 +194,12 @@
         "837210b1-957e-4101-a3ed-40cef546a423"
       ],
       "statuses": [
-        "SOLDOUT",
+        "PUBLISHED",
         "REJECTED",
         "REJECTED"
       ],
       "selectedPatchOfferId": "14c0f054-c72c-4f1d-adf5-7779c7f10457",
-      "selectedPatchStatus": "SOLDOUT",
+      "selectedPatchStatus": "PUBLISHED",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -740,12 +740,12 @@
         "c57e7ca7-8c93-4cae-87c7-ab14bf4bab8c"
       ],
       "statuses": [
-        "SOLDOUT",
+        "PUBLISHED",
         "REJECTED",
         "REJECTED"
       ],
       "selectedPatchOfferId": "a310a78d-eb6b-4dc8-8fd9-0f68edf08b54",
-      "selectedPatchStatus": "SOLDOUT",
+      "selectedPatchStatus": "PUBLISHED",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -1972,12 +1972,12 @@
         "ef2bafd8-53c8-447f-9fec-8ffd50b3b474"
       ],
       "statuses": [
-        "PUBLISHED",
+        "SOLDOUT",
         "REJECTED",
         "REJECTED"
       ],
       "selectedPatchOfferId": "d02b660a-ba24-4e8e-8c03-87b29f5b7f35",
-      "selectedPatchStatus": "PUBLISHED",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -2280,12 +2280,12 @@
         "a0a63c9b-3f6a-400a-86b0-5581204eb8cd"
       ],
       "statuses": [
-        "PUBLISHED",
+        "SOLDOUT",
         "CLOSED",
         "REJECTED"
       ],
       "selectedPatchOfferId": "0e60b48b-bc74-42ba-b59d-efb464a42b1c",
-      "selectedPatchStatus": "PUBLISHED",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "terminal-status",
@@ -3218,12 +3218,12 @@
         "3f200553-e128-4774-b9ed-6324605f2752"
       ],
       "statuses": [
-        "PUBLISHED",
+        "SOLDOUT",
         "REJECTED",
         "REJECTED"
       ],
       "selectedPatchOfferId": "65ef2320-e46d-4f8d-8852-0219a0a3c7fa",
-      "selectedPatchStatus": "PUBLISHED",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -3904,12 +3904,12 @@
         "ba15b8f3-8057-4211-8039-4ceaeaf75b63"
       ],
       "statuses": [
-        "PUBLISHED",
+        "SOLDOUT",
         "REJECTED",
         "REJECTED"
       ],
       "selectedPatchOfferId": "8324d438-6f73-4ce8-85a5-1f2244fe190d",
-      "selectedPatchStatus": "PUBLISHED",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -5303,11 +5303,11 @@
         "7f0b9b9e-4489-47b0-8327-a849c56a0de3"
       ],
       "statuses": [
-        "PUBLISHED",
+        "SOLDOUT",
         "REJECTED"
       ],
       "selectedPatchOfferId": "2fcd30bf-ade1-4acf-a0d3-e2bfc86ca23b",
-      "selectedPatchStatus": "PUBLISHED",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -7263,11 +7263,11 @@
         "acffbfb1-b7b3-46fe-aca9-eb41ac38c642"
       ],
       "statuses": [
-        "SOLDOUT",
+        "PUBLISHED",
         "REJECTED"
       ],
       "selectedPatchOfferId": "78ec5869-a263-4f92-b94e-96b0f2e727f9",
-      "selectedPatchStatus": "SOLDOUT",
+      "selectedPatchStatus": "PUBLISHED",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -7851,11 +7851,11 @@
         "5fec1915-e9d4-4ae5-a8cb-6e1afc6ef1bb"
       ],
       "statuses": [
-        "PUBLISHED",
+        "SOLDOUT",
         "REJECTED"
       ],
       "selectedPatchOfferId": "00b0937f-33d9-4ea0-bb7b-29aa80addd3a",
-      "selectedPatchStatus": "PUBLISHED",
+      "selectedPatchStatus": "SOLDOUT",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -8775,11 +8775,11 @@
         "a68477f6-8fc4-408c-bccf-0f87bb7eb26f"
       ],
       "statuses": [
-        "SOLDOUT",
+        "PUBLISHED",
         "REJECTED"
       ],
       "selectedPatchOfferId": "0f88b3c9-7dc0-428f-8e21-ca0283adea11",
-      "selectedPatchStatus": "SOLDOUT",
+      "selectedPatchStatus": "PUBLISHED",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -8831,11 +8831,11 @@
         "c7d44fdc-1158-48c1-8c81-722a5b97d2e9"
       ],
       "statuses": [
-        "SOLDOUT",
+        "PUBLISHED",
         "REJECTED"
       ],
       "selectedPatchOfferId": "9cf5a1d6-95dc-4d3b-b79b-914a35f87894",
-      "selectedPatchStatus": "SOLDOUT",
+      "selectedPatchStatus": "PUBLISHED",
       "skippedBySync": [
         {
           "reason": "non-canonical-duplicate",
@@ -11514,6 +11514,92 @@
     {
       "ok": true,
       "action": "PATCH",
+      "externalId": "4226",
+      "offerId": "a1df9303-db3f-4b18-b136-714f92e49a57",
+      "changedFields": [
+        "product"
+      ],
+      "changedSubfields": {
+        "product": {
+          "description": "Marka: D-Vitum. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 5904960017113. SKU produktu: 5904960017113. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+          "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0"
+        }
+      },
+      "patchBody": {
+        "product": {
+          "name": "D-Vitum 400 j.m. dla dzieci - 30szt",
+          "description": "Marka: D-Vitum. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 5904960017113. SKU produktu: 5904960017113. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+          "brand": "D-Vitum",
+          "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
+          "sku": "5904960017113",
+          "ean": "5904960017113"
+        }
+      },
+      "inpostReferenceCategoryOverride": null,
+      "inpostCurrentCategoryPreserved": null,
+      "patchResponse": {
+        "ok": true,
+        "data": {
+          "metadata": {
+            "validationErrors": null,
+            "rejectionReasons": null
+          },
+          "offer": {
+            "id": "a1df9303-db3f-4b18-b136-714f92e49a57",
+            "status": "PENDING",
+            "product": {
+              "name": "D-Vitum 400 j.m. dla dzieci - 30szt",
+              "description": "Marka: D-Vitum. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 5904960017113. SKU produktu: 5904960017113. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+              "brand": "D-Vitum",
+              "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
+              "attributes": [],
+              "model": null,
+              "superModel": null,
+              "sku": "5904960017113",
+              "manufacturerProductNumber": null,
+              "ean": "5904960017113",
+              "dimension": null
+            },
+            "stock": {
+              "quantity": 0,
+              "unit": "UNIT"
+            },
+            "price": {
+              "grossPrice": {
+                "amount": 19.79,
+                "currency": "PLN"
+              },
+              "taxRateInfo": "23%",
+              "deposits": []
+            },
+            "externalId": "4226",
+            "gpsr": null,
+            "shippingTime": null,
+            "affiliationProductUrl": null,
+            "images": null,
+            "postSale": null,
+            "features": {
+              "refundable": true
+            },
+            "priceProgram": null,
+            "createdAt": "2026-07-28T12:11:20.708Z",
+            "updatedAt": "2026-10-02T14:33:46.106600119Z"
+          }
+        }
+      },
+      "postWriteValidation": {
+        "status": "SOLDOUT",
+        "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
+        "validationErrors": [],
+        "referenceCategory": null
+      },
+      "postWriteReferenceCategoryOverride": null,
+      "postWriteValidationAfterRepair": null,
+      "error": null
+    },
+    {
+      "ok": true,
+      "action": "PATCH",
       "externalId": "4227",
       "offerId": "4114dc43-7fec-4c9a-83b7-c721bb73d24a",
       "changedFields": [
@@ -11583,7 +11669,93 @@
             },
             "priceProgram": null,
             "createdAt": "2026-07-28T12:11:23.22Z",
-            "updatedAt": "2026-09-28T13:43:25.014182877Z"
+            "updatedAt": "2026-10-02T14:33:48.264822834Z"
+          }
+        }
+      },
+      "postWriteValidation": {
+        "status": "SOLDOUT",
+        "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
+        "validationErrors": [],
+        "referenceCategory": null
+      },
+      "postWriteReferenceCategoryOverride": null,
+      "postWriteValidationAfterRepair": null,
+      "error": null
+    },
+    {
+      "ok": true,
+      "action": "PATCH",
+      "externalId": "4242",
+      "offerId": "9ea5de41-a04f-4fd4-8c56-18dd6b6f2c5a",
+      "changedFields": [
+        "product"
+      ],
+      "changedSubfields": {
+        "product": {
+          "description": "Marka: D-Vitum. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 5904960017120. SKU produktu: 5904960017120. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+          "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0"
+        }
+      },
+      "patchBody": {
+        "product": {
+          "name": "D-Vitum 1000 j.m. dla dzieci - 30szt",
+          "description": "Marka: D-Vitum. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 5904960017120. SKU produktu: 5904960017120. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+          "brand": "D-Vitum",
+          "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
+          "sku": "5904960017120",
+          "ean": "5904960017120"
+        }
+      },
+      "inpostReferenceCategoryOverride": null,
+      "inpostCurrentCategoryPreserved": null,
+      "patchResponse": {
+        "ok": true,
+        "data": {
+          "metadata": {
+            "validationErrors": null,
+            "rejectionReasons": null
+          },
+          "offer": {
+            "id": "9ea5de41-a04f-4fd4-8c56-18dd6b6f2c5a",
+            "status": "PENDING",
+            "product": {
+              "name": "D-Vitum 1000 j.m. dla dzieci - 30szt",
+              "description": "Marka: D-Vitum. Kategoria produktu: Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem. Kod EAN: 5904960017120. SKU produktu: 5904960017120. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+              "brand": "D-Vitum",
+              "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
+              "attributes": [],
+              "model": null,
+              "superModel": null,
+              "sku": "5904960017120",
+              "manufacturerProductNumber": null,
+              "ean": "5904960017120",
+              "dimension": null
+            },
+            "stock": {
+              "quantity": 0,
+              "unit": "UNIT"
+            },
+            "price": {
+              "grossPrice": {
+                "amount": 21.99,
+                "currency": "PLN"
+              },
+              "taxRateInfo": "23%",
+              "deposits": []
+            },
+            "externalId": "4242",
+            "gpsr": null,
+            "shippingTime": null,
+            "affiliationProductUrl": null,
+            "images": null,
+            "postSale": null,
+            "features": {
+              "refundable": true
+            },
+            "priceProgram": null,
+            "createdAt": "2026-07-28T12:11:29.238Z",
+            "updatedAt": "2026-10-02T14:33:50.318594497Z"
           }
         }
       },
@@ -11669,7 +11841,7 @@
             },
             "priceProgram": null,
             "createdAt": "2026-07-28T12:12:37.575Z",
-            "updatedAt": "2026-09-28T13:43:27.047365408Z"
+            "updatedAt": "2026-10-02T14:33:52.340544481Z"
           }
         }
       },
@@ -11734,7 +11906,7 @@
               "dimension": null
             },
             "stock": {
-              "quantity": 1,
+              "quantity": 3,
               "unit": "UNIT"
             },
             "price": {
@@ -11756,7 +11928,7 @@
             },
             "priceProgram": null,
             "createdAt": "2026-05-25T13:27:39.603Z",
-            "updatedAt": "2026-09-28T13:43:29.05894074Z"
+            "updatedAt": "2026-10-02T14:33:54.321522045Z"
           }
         }
       },
@@ -11784,6 +11956,178 @@
           }
         ]
       }
+    },
+    {
+      "ok": true,
+      "action": "PATCH",
+      "externalId": "5103",
+      "offerId": "23319503-385c-444e-9647-1d1b1a26c794",
+      "changedFields": [
+        "product"
+      ],
+      "changedSubfields": {
+        "product": {
+          "description": "Marka: Artresan. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały. Kod EAN: 5903031283730. SKU produktu: 5903031283730. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+          "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334"
+        }
+      },
+      "patchBody": {
+        "product": {
+          "name": "Artresan Optima 1 a Day - 36szt",
+          "description": "Marka: Artresan. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały. Kod EAN: 5903031283730. SKU produktu: 5903031283730. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+          "brand": "Artresan",
+          "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+          "sku": "5903031283730",
+          "ean": "5903031283730"
+        }
+      },
+      "inpostReferenceCategoryOverride": null,
+      "inpostCurrentCategoryPreserved": null,
+      "patchResponse": {
+        "ok": true,
+        "data": {
+          "metadata": {
+            "validationErrors": null,
+            "rejectionReasons": null
+          },
+          "offer": {
+            "id": "23319503-385c-444e-9647-1d1b1a26c794",
+            "status": "PENDING",
+            "product": {
+              "name": "Artresan Optima 1 a Day - 36szt",
+              "description": "Marka: Artresan. Kategoria produktu: Suplementy Diety > Witaminy i minerały > Minerały. Kod EAN: 5903031283730. SKU produktu: 5903031283730. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+              "brand": "Artresan",
+              "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+              "attributes": [],
+              "model": null,
+              "superModel": null,
+              "sku": "5903031283730",
+              "manufacturerProductNumber": null,
+              "ean": "5903031283730",
+              "dimension": null
+            },
+            "stock": {
+              "quantity": 0,
+              "unit": "UNIT"
+            },
+            "price": {
+              "grossPrice": {
+                "amount": 79.19,
+                "currency": "PLN"
+              },
+              "taxRateInfo": "23%",
+              "deposits": []
+            },
+            "externalId": "5103",
+            "gpsr": null,
+            "shippingTime": null,
+            "affiliationProductUrl": null,
+            "images": null,
+            "postSale": null,
+            "features": {
+              "refundable": true
+            },
+            "priceProgram": null,
+            "createdAt": "2026-07-28T12:13:12.766Z",
+            "updatedAt": "2026-10-02T14:33:56.361295653Z"
+          }
+        }
+      },
+      "postWriteValidation": {
+        "status": "SOLDOUT",
+        "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+        "validationErrors": [],
+        "referenceCategory": null
+      },
+      "postWriteReferenceCategoryOverride": null,
+      "postWriteValidationAfterRepair": null,
+      "error": null
+    },
+    {
+      "ok": true,
+      "action": "PATCH",
+      "externalId": "16356",
+      "offerId": "321c594e-8b18-4579-a234-951b62133a2b",
+      "changedFields": [
+        "product"
+      ],
+      "changedSubfields": {
+        "product": {
+          "description": "Marka: Multilac. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 5903031282627. SKU produktu: 5903031282627. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+          "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258"
+        }
+      },
+      "patchBody": {
+        "product": {
+          "name": "Multilac Baby - Synbiotyk w kroplach dla niemowląt i dzieci - 2x5ml",
+          "description": "Marka: Multilac. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 5903031282627. SKU produktu: 5903031282627. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+          "brand": "Multilac",
+          "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
+          "sku": "5903031282627",
+          "ean": "5903031282627"
+        }
+      },
+      "inpostReferenceCategoryOverride": null,
+      "inpostCurrentCategoryPreserved": null,
+      "patchResponse": {
+        "ok": true,
+        "data": {
+          "metadata": {
+            "validationErrors": null,
+            "rejectionReasons": null
+          },
+          "offer": {
+            "id": "321c594e-8b18-4579-a234-951b62133a2b",
+            "status": "PENDING",
+            "product": {
+              "name": "Multilac Baby - Synbiotyk w kroplach dla niemowląt i dzieci - 2x5ml",
+              "description": "Marka: Multilac. Kategoria produktu: Suplementy Diety > Dieta i układ pokarmowy > Probiotyki i prebiotyki. Kod EAN: 5903031282627. SKU produktu: 5903031282627. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+              "brand": "Multilac",
+              "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
+              "attributes": [],
+              "model": null,
+              "superModel": null,
+              "sku": "5903031282627",
+              "manufacturerProductNumber": null,
+              "ean": "5903031282627",
+              "dimension": null
+            },
+            "stock": {
+              "quantity": 8,
+              "unit": "UNIT"
+            },
+            "price": {
+              "grossPrice": {
+                "amount": 43.53,
+                "currency": "PLN"
+              },
+              "taxRateInfo": "23%",
+              "deposits": []
+            },
+            "externalId": "16356",
+            "gpsr": null,
+            "shippingTime": null,
+            "affiliationProductUrl": null,
+            "images": null,
+            "postSale": null,
+            "features": {
+              "refundable": true
+            },
+            "priceProgram": null,
+            "createdAt": "2026-07-28T12:16:44.83Z",
+            "updatedAt": "2026-10-02T14:33:58.338974933Z"
+          }
+        }
+      },
+      "postWriteValidation": {
+        "status": "PUBLISHED",
+        "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
+        "validationErrors": [],
+        "referenceCategory": null
+      },
+      "postWriteReferenceCategoryOverride": null,
+      "postWriteValidationAfterRepair": null,
+      "error": null
     },
     {
       "ok": true,
@@ -11857,7 +12201,7 @@
             },
             "priceProgram": null,
             "createdAt": "2026-07-28T12:16:47.342Z",
-            "updatedAt": "2026-09-28T13:43:31.23301385Z"
+            "updatedAt": "2026-10-02T14:34:00.360571386Z"
           }
         }
       },

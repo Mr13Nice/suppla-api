@@ -9,9 +9,9 @@
     "variableParentRowsSkipped": 169,
     "rescueCandidates": 0,
     "rescueSkippedSameRejectedCategory": 0,
-    "offersToCreate": 1551,
-    "skippedProducts": 592,
-    "blockingSkippedProducts": 409,
+    "offersToCreate": 1552,
+    "skippedProducts": 591,
+    "blockingSkippedProducts": 408,
     "productsWithoutImages": 21,
     "generatedDescriptions": 1670,
     "unresolvedCategories": 0,
@@ -29,35 +29,6 @@
     "duplicateCleanupErrors": 0
   },
   "skippedProducts": [
-    {
-      "externalId": "169",
-      "name": "Mustela skóra normalna odświeżający spray ułatwiający rozczesywanie włosów",
-      "sku": "3504105036027",
-      "ean": "3504105036027",
-      "price": null,
-      "stock": 0,
-      "images": [
-        "https://suppla.pl/wp-content/uploads/2023/08/3504105036027-Uaatwiaj•cy-rozczesywanie-i-odewielaj•cy-spray-do-waosEw-i-ciaaa.jpg",
-        "https://suppla.pl/wp-content/uploads/2023/08/3504105036027_spray_do_wlosow_dla_dzieci-e1703686447803.jpg"
-      ],
-      "descriptionLength": 215,
-      "descriptionOriginalLength": 0,
-      "descriptionGenerated": true,
-      "categories": [
-        "Dermokosmetyki > dla Dziecka",
-        "Dermokosmetyki > do Włosów"
-      ],
-      "categoryResolution": {
-        "categoryId": "59e28a91-f444-55d5-91e6-c50e7dfccacc",
-        "matchedBy": "inpost-hint-ean",
-        "matchedWooCategory": null,
-        "matchedInpostCategory": "Dla dzieci > Zdrowie i higiena dziecka > Kosmetyki dla dzieci > Szampony i żele",
-        "rejectedHints": []
-      },
-      "errors": [
-        "Brak Cena / Cena promocyjna"
-      ]
-    },
     {
       "externalId": "189",
       "name": "Cold Cream Delikatne mydło z organicznym woskiem pszczelim",
@@ -10890,9 +10861,9 @@
       ],
       "categoryResolution": {
         "categoryId": "0946b5bd-bf47-583c-80f8-b7d63b9c6532",
-        "matchedBy": "override-exact",
-        "matchedWooCategory": "Dermokosmetyki > do Twarzy > Serum do twarzy",
-        "matchedInpostCategory": "direct-id",
+        "matchedBy": "inpost-hint-ean",
+        "matchedWooCategory": null,
+        "matchedInpostCategory": "Zdrowie > Dermokosmetyki > Dermokosmetyki do twarzy > Serum",
         "rejectedHints": []
       },
       "errors": [
@@ -10962,10 +10933,10 @@
         "Dermokosmetyki > do Twarzy > Serum do twarzy"
       ],
       "categoryResolution": {
-        "categoryId": "0946b5bd-bf47-583c-80f8-b7d63b9c6532",
-        "matchedBy": "override-exact",
-        "matchedWooCategory": "Dermokosmetyki > do Twarzy > Serum do twarzy",
-        "matchedInpostCategory": "direct-id",
+        "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
+        "matchedBy": "inpost-hint-ean",
+        "matchedWooCategory": null,
+        "matchedInpostCategory": "Uroda > Pielęgnacja > Pielęgnacja twarzy > Serum",
         "rejectedHints": []
       },
       "errors": [
@@ -11129,8 +11100,8 @@
       "categories": [
         "Dermokosmetyki",
         "Dermokosmetyki > do Twarzy",
-        "Dermokosmetyki > do Twarzy > Fluid",
         "Fluid",
+        "Dermokosmetyki > do Twarzy > Fluid",
         "Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna"
       ],
       "categoryResolution": {
@@ -13162,8 +13133,8 @@
       "descriptionGenerated": true,
       "categories": [
         "Suplementy Diety > Samopoczucie i energia > Bezsenność",
-        "Suplementy Diety > Odporność > Oleje konopne",
         "Suplementy Diety > Samopoczucie i energia > Oleje konopne",
+        "Suplementy Diety > Odporność > Oleje konopne",
         "Suplementy Diety > Samopoczucie i energia",
         "Suplementy Diety > Samopoczucie i energia > Stres",
         "Suplementy Diety"
@@ -13274,8 +13245,8 @@
       "descriptionGenerated": true,
       "categories": [
         "Suplementy Diety > Samopoczucie i energia > Bezsenność",
-        "Suplementy Diety > Samopoczucie i energia > Oleje konopne",
         "Suplementy Diety > Odporność > Oleje konopne",
+        "Suplementy Diety > Samopoczucie i energia > Oleje konopne",
         "Suplementy Diety > Samopoczucie i energia",
         "Suplementy Diety > Samopoczucie i energia > Stres",
         "Suplementy Diety"
@@ -13373,7 +13344,7 @@
       "sku": "5906720537688",
       "ean": "5906720537688",
       "price": 34.09,
-      "stock": 4,
+      "stock": 3,
       "images": [],
       "descriptionLength": 202,
       "descriptionOriginalLength": 0,
@@ -13398,7 +13369,7 @@
       "sku": "4049649000039",
       "ean": "4049649000039",
       "price": 40.69,
-      "stock": 406,
+      "stock": 154,
       "images": [],
       "descriptionLength": 198,
       "descriptionOriginalLength": 0,
@@ -13422,8 +13393,8 @@
       "name": "Ektin krople do oczy, 10ml",
       "sku": "4030571003779",
       "ean": "4030571003779",
-      "price": 52.79,
-      "stock": 421,
+      "price": 42.48,
+      "stock": 641,
       "images": [],
       "descriptionLength": 199,
       "descriptionOriginalLength": 0,
@@ -13498,7 +13469,7 @@
       "sku": "3577056023552",
       "ean": "3577056023552",
       "price": 20.19,
-      "stock": 290,
+      "stock": 180,
       "images": [],
       "descriptionLength": 202,
       "descriptionOriginalLength": 0,
@@ -13548,7 +13519,7 @@
       "sku": "8032472028437",
       "ean": "8032472028437",
       "price": 40.85,
-      "stock": 60,
+      "stock": 56,
       "images": [],
       "descriptionLength": 202,
       "descriptionOriginalLength": 0,
@@ -13573,7 +13544,7 @@
       "sku": "8032472009405",
       "ean": "8032472009405",
       "price": 31.89,
-      "stock": 72,
+      "stock": 67,
       "images": [],
       "descriptionLength": 202,
       "descriptionOriginalLength": 0,
@@ -13598,7 +13569,7 @@
       "sku": "8032472028420",
       "ean": "8032472028420",
       "price": 43.7,
-      "stock": 47,
+      "stock": 44,
       "images": [],
       "descriptionLength": 202,
       "descriptionOriginalLength": 0,
@@ -13623,7 +13594,7 @@
       "sku": "8032472020509",
       "ean": "8032472020509",
       "price": 57.19,
-      "stock": 61,
+      "stock": 59,
       "images": [],
       "descriptionLength": 202,
       "descriptionOriginalLength": 0,
@@ -13648,7 +13619,7 @@
       "sku": "8032472020493",
       "ean": "8032472020493",
       "price": 34.49,
-      "stock": 22,
+      "stock": 21,
       "images": [],
       "descriptionLength": 202,
       "descriptionOriginalLength": 0,
@@ -13673,7 +13644,7 @@
       "sku": "5906720534151",
       "ean": "5906720534151",
       "price": 27.49,
-      "stock": 504,
+      "stock": 503,
       "images": [],
       "descriptionLength": 204,
       "descriptionOriginalLength": 0,
@@ -13698,7 +13669,7 @@
       "sku": "5906720536773",
       "ean": "5906720536773",
       "price": 57.19,
-      "stock": 191,
+      "stock": 207,
       "images": [],
       "descriptionLength": 199,
       "descriptionOriginalLength": 0,
@@ -13822,8 +13793,8 @@
       "name": "Ocuvite Complete, 60 kapsułek",
       "sku": "4030571003144",
       "ean": "4030571003144",
-      "price": 57.19,
-      "stock": 1,
+      "price": 58.29,
+      "stock": 3,
       "images": [],
       "descriptionLength": 201,
       "descriptionOriginalLength": 0,
@@ -13844,35 +13815,6 @@
     }
   ],
   "blockingSkippedProducts": [
-    {
-      "externalId": "169",
-      "name": "Mustela skóra normalna odświeżający spray ułatwiający rozczesywanie włosów",
-      "sku": "3504105036027",
-      "ean": "3504105036027",
-      "price": null,
-      "stock": 0,
-      "images": [
-        "https://suppla.pl/wp-content/uploads/2023/08/3504105036027-Uaatwiaj•cy-rozczesywanie-i-odewielaj•cy-spray-do-waosEw-i-ciaaa.jpg",
-        "https://suppla.pl/wp-content/uploads/2023/08/3504105036027_spray_do_wlosow_dla_dzieci-e1703686447803.jpg"
-      ],
-      "descriptionLength": 215,
-      "descriptionOriginalLength": 0,
-      "descriptionGenerated": true,
-      "categories": [
-        "Dermokosmetyki > dla Dziecka",
-        "Dermokosmetyki > do Włosów"
-      ],
-      "categoryResolution": {
-        "categoryId": "59e28a91-f444-55d5-91e6-c50e7dfccacc",
-        "matchedBy": "inpost-hint-ean",
-        "matchedWooCategory": null,
-        "matchedInpostCategory": "Dla dzieci > Zdrowie i higiena dziecka > Kosmetyki dla dzieci > Szampony i żele",
-        "rejectedHints": []
-      },
-      "errors": [
-        "Brak Cena / Cena promocyjna"
-      ]
-    },
     {
       "externalId": "189",
       "name": "Cold Cream Delikatne mydło z organicznym woskiem pszczelim",
@@ -23597,9 +23539,9 @@
       ],
       "categoryResolution": {
         "categoryId": "0946b5bd-bf47-583c-80f8-b7d63b9c6532",
-        "matchedBy": "override-exact",
-        "matchedWooCategory": "Dermokosmetyki > do Twarzy > Serum do twarzy",
-        "matchedInpostCategory": "direct-id",
+        "matchedBy": "inpost-hint-ean",
+        "matchedWooCategory": null,
+        "matchedInpostCategory": "Zdrowie > Dermokosmetyki > Dermokosmetyki do twarzy > Serum",
         "rejectedHints": []
       },
       "errors": [
@@ -23654,10 +23596,10 @@
         "Dermokosmetyki > do Twarzy > Serum do twarzy"
       ],
       "categoryResolution": {
-        "categoryId": "0946b5bd-bf47-583c-80f8-b7d63b9c6532",
-        "matchedBy": "override-exact",
-        "matchedWooCategory": "Dermokosmetyki > do Twarzy > Serum do twarzy",
-        "matchedInpostCategory": "direct-id",
+        "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
+        "matchedBy": "inpost-hint-ean",
+        "matchedWooCategory": null,
+        "matchedInpostCategory": "Uroda > Pielęgnacja > Pielęgnacja twarzy > Serum",
         "rejectedHints": []
       },
       "errors": [
@@ -23805,8 +23747,8 @@
       "categories": [
         "Dermokosmetyki",
         "Dermokosmetyki > do Twarzy",
-        "Dermokosmetyki > do Twarzy > Fluid",
         "Fluid",
+        "Dermokosmetyki > do Twarzy > Fluid",
         "Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna"
       ],
       "categoryResolution": {
@@ -25527,8 +25469,8 @@
       "descriptionGenerated": true,
       "categories": [
         "Suplementy Diety > Samopoczucie i energia > Bezsenność",
-        "Suplementy Diety > Odporność > Oleje konopne",
         "Suplementy Diety > Samopoczucie i energia > Oleje konopne",
+        "Suplementy Diety > Odporność > Oleje konopne",
         "Suplementy Diety > Samopoczucie i energia",
         "Suplementy Diety > Samopoczucie i energia > Stres",
         "Suplementy Diety"
@@ -25639,8 +25581,8 @@
       "descriptionGenerated": true,
       "categories": [
         "Suplementy Diety > Samopoczucie i energia > Bezsenność",
-        "Suplementy Diety > Samopoczucie i energia > Oleje konopne",
         "Suplementy Diety > Odporność > Oleje konopne",
+        "Suplementy Diety > Samopoczucie i energia > Oleje konopne",
         "Suplementy Diety > Samopoczucie i energia",
         "Suplementy Diety > Samopoczucie i energia > Stres",
         "Suplementy Diety"
@@ -25738,7 +25680,7 @@
       "sku": "5906720537688",
       "ean": "5906720537688",
       "price": 34.09,
-      "stock": 4,
+      "stock": 3,
       "images": [],
       "descriptionLength": 202,
       "descriptionOriginalLength": 0,
@@ -25763,7 +25705,7 @@
       "sku": "4049649000039",
       "ean": "4049649000039",
       "price": 40.69,
-      "stock": 406,
+      "stock": 154,
       "images": [],
       "descriptionLength": 198,
       "descriptionOriginalLength": 0,
@@ -25787,8 +25729,8 @@
       "name": "Ektin krople do oczy, 10ml",
       "sku": "4030571003779",
       "ean": "4030571003779",
-      "price": 52.79,
-      "stock": 421,
+      "price": 42.48,
+      "stock": 641,
       "images": [],
       "descriptionLength": 199,
       "descriptionOriginalLength": 0,
@@ -25863,7 +25805,7 @@
       "sku": "3577056023552",
       "ean": "3577056023552",
       "price": 20.19,
-      "stock": 290,
+      "stock": 180,
       "images": [],
       "descriptionLength": 202,
       "descriptionOriginalLength": 0,
@@ -25913,7 +25855,7 @@
       "sku": "8032472028437",
       "ean": "8032472028437",
       "price": 40.85,
-      "stock": 60,
+      "stock": 56,
       "images": [],
       "descriptionLength": 202,
       "descriptionOriginalLength": 0,
@@ -25938,7 +25880,7 @@
       "sku": "8032472009405",
       "ean": "8032472009405",
       "price": 31.89,
-      "stock": 72,
+      "stock": 67,
       "images": [],
       "descriptionLength": 202,
       "descriptionOriginalLength": 0,
@@ -25963,7 +25905,7 @@
       "sku": "8032472028420",
       "ean": "8032472028420",
       "price": 43.7,
-      "stock": 47,
+      "stock": 44,
       "images": [],
       "descriptionLength": 202,
       "descriptionOriginalLength": 0,
@@ -25988,7 +25930,7 @@
       "sku": "8032472020509",
       "ean": "8032472020509",
       "price": 57.19,
-      "stock": 61,
+      "stock": 59,
       "images": [],
       "descriptionLength": 202,
       "descriptionOriginalLength": 0,
@@ -26013,7 +25955,7 @@
       "sku": "8032472020493",
       "ean": "8032472020493",
       "price": 34.49,
-      "stock": 22,
+      "stock": 21,
       "images": [],
       "descriptionLength": 202,
       "descriptionOriginalLength": 0,
@@ -26038,7 +25980,7 @@
       "sku": "5906720534151",
       "ean": "5906720534151",
       "price": 27.49,
-      "stock": 504,
+      "stock": 503,
       "images": [],
       "descriptionLength": 204,
       "descriptionOriginalLength": 0,
@@ -26063,7 +26005,7 @@
       "sku": "5906720536773",
       "ean": "5906720536773",
       "price": 57.19,
-      "stock": 191,
+      "stock": 207,
       "images": [],
       "descriptionLength": 199,
       "descriptionOriginalLength": 0,
@@ -26187,8 +26129,8 @@
       "name": "Ocuvite Complete, 60 kapsułek",
       "sku": "4030571003144",
       "ean": "4030571003144",
-      "price": 57.19,
-      "stock": 1,
+      "price": 58.29,
+      "stock": 3,
       "images": [],
       "descriptionLength": 201,
       "descriptionOriginalLength": 0,
@@ -42518,12 +42460,12 @@
           "ean": "3264680026171",
           "categoryId": "6bbabeff-7c85-520e-9b5b-ea7f36974775",
           "createdAt": "2026-06-02T14:23:42.459Z",
-          "updatedAt": "2026-09-08T12:30:41.833Z",
+          "updatedAt": "2026-10-01T15:10:39.237Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3468
+          "score": 3470
         },
         {
           "offerId": "94a30f61-e729-42d1-8848-81674ad50a03",
@@ -43372,12 +43314,12 @@
           "ean": "3282770153200",
           "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
           "createdAt": "2026-05-25T13:22:40.365Z",
-          "updatedAt": "2026-09-15T09:16:42.144Z",
+          "updatedAt": "2026-09-28T12:58:36.246Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3469
+          "score": 3470
         },
         {
           "offerId": "eac477c4-6d80-40ed-b180-a22728f6a935",
@@ -45584,12 +45526,12 @@
           "ean": "3264680026225",
           "categoryId": "1563b6f0-b584-57d4-a677-49cca69bddfb",
           "createdAt": "2026-06-02T14:23:58.089Z",
-          "updatedAt": "2026-09-08T12:32:47.967Z",
+          "updatedAt": "2026-10-01T15:13:26.367Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3468
+          "score": 3470
         },
         {
           "offerId": "518a7eda-1baf-43c1-bb80-af7a2049e08a",
@@ -49208,7 +49150,7 @@
           "ean": "5900717691117",
           "categoryId": "03232868-0a32-5c66-a17a-cd51fc9e1630",
           "createdAt": "2026-07-28T12:05:29.017Z",
-          "updatedAt": "2026-09-22T09:39:04.087Z",
+          "updatedAt": "2026-09-28T13:02:50.741Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -50956,13 +50898,13 @@
         {
           "offerId": "2931cf59-dde7-4d6b-8977-275c9f8f5487",
           "externalId": "2791",
-          "status": "SOLDOUT",
+          "status": "PUBLISHED",
           "name": "Classic Ps Lipoaktywny krem nawilżający",
           "sku": "3499320013864",
           "ean": "3499320013864",
           "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
           "createdAt": "2026-05-25T13:24:34.260Z",
-          "updatedAt": "2026-09-22T09:40:45.119Z",
+          "updatedAt": "2026-09-28T13:04:35.162Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -53282,7 +53224,7 @@
           "ean": "3701129804469",
           "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
           "createdAt": "2026-05-25T13:24:59.261Z",
-          "updatedAt": "2026-09-22T09:42:51.613Z",
+          "updatedAt": "2026-09-28T13:06:37.926Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -54754,18 +54696,18 @@
         {
           "offerId": "78ec5869-a263-4f92-b94e-96b0f2e727f9",
           "externalId": "3335",
-          "status": "PUBLISHED",
+          "status": "SOLDOUT",
           "name": "CeraVe Krem nawilżający do twarzy SPF 25",
           "sku": "3337875840620",
           "ean": "3337875840620",
           "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
           "createdAt": "2026-05-25T13:25:07.799Z",
-          "updatedAt": "2026-09-19T23:42:38.443Z",
+          "updatedAt": "2026-09-28T13:07:59.676Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3469
+          "score": 3470
         },
         {
           "offerId": "acffbfb1-b7b3-46fe-aca9-eb41ac38c642",
@@ -58640,7 +58582,7 @@
           "ean": "5903031281606",
           "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
           "createdAt": "2026-05-25T13:25:40.055Z",
-          "updatedAt": "2026-09-22T09:47:41.903Z",
+          "updatedAt": "2026-09-28T13:11:32.324Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -61068,18 +61010,18 @@
         {
           "offerId": "a1df9303-db3f-4b18-b136-714f92e49a57",
           "externalId": "4226",
-          "status": "SOLDOUT",
+          "status": "PENDING",
           "name": "D-Vitum 400 j.m. dla dzieci - 30szt",
           "sku": "5904960017113",
           "ean": "5904960017113",
-          "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
+          "categoryId": "c1a9f74c-9a44-519d-9522-fdcab4bc7ac9",
           "createdAt": "2026-07-28T12:11:20.708Z",
-          "updatedAt": "2026-09-22T10:18:43.146Z",
-          "validationErrorsCount": 0,
-          "hasCategoryIncorrect": false,
+          "updatedAt": "2026-09-28T13:13:24.705Z",
+          "validationErrorsCount": 1,
+          "hasCategoryIncorrect": true,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3470
+          "score": 2820
         }
       ]
     },
@@ -61100,7 +61042,7 @@
           "ean": "5904960017458",
           "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
           "createdAt": "2026-07-28T12:11:23.220Z",
-          "updatedAt": "2026-09-22T10:18:45.023Z",
+          "updatedAt": "2026-09-28T13:43:25.622Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -61172,18 +61114,18 @@
         {
           "offerId": "9ea5de41-a04f-4fd4-8c56-18dd6b6f2c5a",
           "externalId": "4242",
-          "status": "SOLDOUT",
+          "status": "PENDING",
           "name": "D-Vitum 1000 j.m. dla dzieci - 30szt",
           "sku": "5904960017120",
           "ean": "5904960017120",
-          "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
+          "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
           "createdAt": "2026-07-28T12:11:29.238Z",
-          "updatedAt": "2026-09-22T10:18:47.179Z",
-          "validationErrorsCount": 0,
-          "hasCategoryIncorrect": false,
+          "updatedAt": "2026-09-28T13:13:33.355Z",
+          "validationErrorsCount": 1,
+          "hasCategoryIncorrect": true,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3470
+          "score": 2820
         }
       ]
     },
@@ -64264,14 +64206,14 @@
           "name": "Colostrum Genactiv Proszek z czarną porzeczką",
           "sku": "5907546536015",
           "ean": "5907546536015",
-          "categoryId": "c7a62bf0-04a3-5628-80cf-492af8129279",
+          "categoryId": "6eafbcd7-ebde-5121-9f42-6e5a1395ccd9",
           "createdAt": "2026-06-08T14:31:46.888Z",
-          "updatedAt": "2026-09-15T09:33:43.482Z",
+          "updatedAt": "2026-09-28T13:16:09.684Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3469
+          "score": 3470
         }
       ]
     },
@@ -64604,7 +64546,7 @@
           "ean": "5702071502364",
           "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
           "createdAt": "2026-07-28T12:12:01.875Z",
-          "updatedAt": "2026-09-21T18:15:03.250Z",
+          "updatedAt": "2026-09-29T07:14:23.268Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -65222,13 +65164,13 @@
         {
           "offerId": "0bebfff3-5599-4208-8312-daac816ca455",
           "externalId": "4795",
-          "status": "SOLDOUT",
+          "status": "PUBLISHED",
           "name": "Pregna Start",
           "sku": "5906190437068",
           "ean": "5906190437068",
           "categoryId": "a69627d6-3b1e-5dac-849b-f76bd8400068",
           "createdAt": "2026-05-25T13:27:01.424Z",
-          "updatedAt": "2026-09-22T09:53:37.793Z",
+          "updatedAt": "2026-09-28T13:17:26.913Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -65534,18 +65476,18 @@
         {
           "offerId": "e840d236-71a2-4f02-a6e4-e305d1639fb8",
           "externalId": "4829",
-          "status": "SOLDOUT",
+          "status": "PUBLISHED",
           "name": "Pueria Magnez 100mg",
           "sku": "5903031287387",
           "ean": "5903031287387",
           "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
           "createdAt": "2026-05-25T13:27:06.347Z",
-          "updatedAt": "2026-09-15T09:35:25.347Z",
+          "updatedAt": "2026-09-28T13:17:51.970Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3469
+          "score": 3470
         }
       ]
     },
@@ -65612,18 +65554,18 @@
         {
           "offerId": "1e740b68-7a11-4c3a-8aac-91a898be540f",
           "externalId": "4835",
-          "status": "SOLDOUT",
+          "status": "PUBLISHED",
           "name": "Femibion 0 Planowanie ciąży",
           "sku": "5907589874587",
           "ean": "5907589874587",
           "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
           "createdAt": "2026-05-25T13:27:07.480Z",
-          "updatedAt": "2026-09-15T09:35:31.277Z",
+          "updatedAt": "2026-09-28T13:17:57.994Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3469
+          "score": 3470
         }
       ]
     },
@@ -65774,7 +65716,7 @@
           "ean": "5907222805978",
           "categoryId": "5b62a9b5-90ce-53ea-8ffa-99767eb172a0",
           "createdAt": "2026-05-25T13:27:14.509Z",
-          "updatedAt": "2026-09-21T18:02:49.550Z",
+          "updatedAt": "2026-09-28T13:18:10.645Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -66372,7 +66314,7 @@
           "ean": "5903111410643",
           "categoryId": "2209e67b-9c0a-514a-91bd-15af4128e35c",
           "createdAt": "2026-07-28T12:12:37.575Z",
-          "updatedAt": "2026-09-22T10:18:49.117Z",
+          "updatedAt": "2026-09-28T13:43:27.633Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -67490,7 +67432,7 @@
           "ean": "5903031284218",
           "categoryId": "887c536f-35d0-51dc-801d-eb39dd13f7d7",
           "createdAt": "2026-05-25T13:27:39.603Z",
-          "updatedAt": "2026-09-22T10:18:51.060Z",
+          "updatedAt": "2026-09-28T13:43:29.137Z",
           "validationErrorsCount": 1,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -67900,18 +67842,18 @@
         {
           "offerId": "23319503-385c-444e-9647-1d1b1a26c794",
           "externalId": "5103",
-          "status": "SOLDOUT",
+          "status": "PENDING",
           "name": "Artresan Optima 1 a Day - 36szt",
           "sku": "5903031283730",
           "ean": "5903031283730",
-          "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+          "categoryId": "7efffd5d-4726-55e9-937a-bfba75455bce",
           "createdAt": "2026-07-28T12:13:12.766Z",
-          "updatedAt": "2026-09-22T10:18:53.295Z",
-          "validationErrorsCount": 0,
-          "hasCategoryIncorrect": false,
+          "updatedAt": "2026-09-28T13:21:05.442Z",
+          "validationErrorsCount": 1,
+          "hasCategoryIncorrect": true,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3470
+          "score": 2820
         }
       ]
     },
@@ -70006,18 +69948,18 @@
         {
           "offerId": "9123b91e-9e11-4878-a59d-cb27f7681873",
           "externalId": "5444",
-          "status": "SOLDOUT",
+          "status": "PUBLISHED",
           "name": "Olimp Gold Żeń-szeń Complex",
           "sku": "5901330043505",
           "ean": "5901330043505",
           "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
           "createdAt": "2026-05-25T13:28:15.278Z",
-          "updatedAt": "2026-09-15T09:41:24.229Z",
+          "updatedAt": "2026-09-28T13:23:58.384Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3469
+          "score": 3470
         }
       ]
     },
@@ -72086,18 +72028,18 @@
         {
           "offerId": "0cdbf3bd-0a6c-49de-bece-b91341c65457",
           "externalId": "5672",
-          "status": "PUBLISHED",
+          "status": "SOLDOUT",
           "name": "DiaB12, kapsułki, 60 szt.",
           "sku": "5903735603513",
           "ean": "5903735603513",
           "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
           "createdAt": "2026-05-25T13:28:45.355Z",
-          "updatedAt": "2026-09-15T09:44:11.228Z",
+          "updatedAt": "2026-09-28T13:26:53.290Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3469
+          "score": 3470
         }
       ]
     },
@@ -72216,18 +72158,18 @@
         {
           "offerId": "3e932fe9-cf91-4907-80aa-cc751b80ba35",
           "externalId": "5685",
-          "status": "SOLDOUT",
+          "status": "PUBLISHED",
           "name": "PotazeK - 50szt",
           "sku": "5900161004143",
           "ean": "5900161004143",
           "categoryId": "2209e67b-9c0a-514a-91bd-15af4128e35c",
           "createdAt": "2026-07-28T12:13:29.479Z",
-          "updatedAt": "2026-09-15T09:44:21.981Z",
+          "updatedAt": "2026-09-28T13:27:03.797Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3469
+          "score": 3470
         }
       ]
     },
@@ -72268,13 +72210,13 @@
         {
           "offerId": "b27a97d9-f338-45b4-9fb1-2c45ccab7e29",
           "externalId": "5692",
-          "status": "SOLDOUT",
+          "status": "PUBLISHED",
           "name": "MultiUri",
           "sku": "5901720140258",
           "ean": "5901720140258",
           "categoryId": "34c92fe8-b153-5814-b3ce-1688668dd190",
           "createdAt": "2026-05-25T13:28:49.946Z",
-          "updatedAt": "2026-09-22T10:03:05.463Z",
+          "updatedAt": "2026-09-28T13:27:07.811Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -74088,18 +74030,18 @@
         {
           "offerId": "6d2ce5be-c01f-4e4a-81a7-ec4f20382020",
           "externalId": "5903",
-          "status": "SOLDOUT",
+          "status": "PUBLISHED",
           "name": "Equazen Kapsułki do żucia - 60szt",
           "sku": "5060072605942",
           "ean": "5060072605942",
           "categoryId": "887c536f-35d0-51dc-801d-eb39dd13f7d7",
           "createdAt": "2026-07-28T12:13:54.116Z",
-          "updatedAt": "2026-09-15T09:46:52.361Z",
+          "updatedAt": "2026-09-28T13:29:39.178Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3469
+          "score": 3470
         }
       ]
     },
@@ -74172,7 +74114,7 @@
           "ean": "5060072606451",
           "categoryId": "8951af7a-0d44-52b4-a877-95d41cce7192",
           "createdAt": "2026-05-25T13:29:19.538Z",
-          "updatedAt": "2026-09-28T11:13:00.056Z",
+          "updatedAt": "2026-10-01T18:37:01.721Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -76980,7 +76922,7 @@
           "ean": "5907718948462",
           "categoryId": "2cc600df-24c6-5e5a-a35f-10fa2528b776",
           "createdAt": "2026-07-28T12:14:23.647Z",
-          "updatedAt": "2026-09-22T10:09:21.891Z",
+          "updatedAt": "2026-09-28T13:33:41.318Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -77858,18 +77800,18 @@
         {
           "offerId": "a6538eca-8a52-4074-8828-9863034ded0a",
           "externalId": "14316",
-          "status": "PUBLISHED",
+          "status": "SOLDOUT",
           "name": "Biovax Trychologic Advanced Detox - Maska",
           "sku": "5900116100791",
           "ean": "5900116100791",
           "categoryId": "26b93d9e-7926-5018-ba32-1ccfbe717288",
           "createdAt": "2026-05-25T13:29:58.194Z",
-          "updatedAt": "2026-09-19T23:57:03.829Z",
+          "updatedAt": "2026-09-28T13:34:54.500Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3469
+          "score": 3470
         }
       ]
     },
@@ -79450,12 +79392,12 @@
           "ean": "3522930003298",
           "categoryId": "a7e8f568-42ca-5fa6-b29c-cc86a957dcf1",
           "createdAt": "2026-05-25T13:30:12.254Z",
-          "updatedAt": "2026-09-15T13:25:17.089Z",
+          "updatedAt": "2026-09-28T13:37:05.785Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3469
+          "score": 3470
         }
       ]
     },
@@ -79476,12 +79418,12 @@
           "ean": "3522930004318",
           "categoryId": "60e7ca0f-ace4-5f6e-be7a-f00000833d6b",
           "createdAt": "2026-05-25T13:30:13.257Z",
-          "updatedAt": "2026-09-15T09:54:20.454Z",
+          "updatedAt": "2026-09-28T13:37:08.279Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3469
+          "score": 3470
         }
       ]
     },
@@ -79502,7 +79444,7 @@
           "ean": "3522930004325",
           "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
           "createdAt": "2026-05-25T13:30:14.276Z",
-          "updatedAt": "2026-09-22T10:12:43.584Z",
+          "updatedAt": "2026-09-28T13:37:10.285Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -79996,7 +79938,7 @@
           "ean": "3522930003823",
           "categoryId": "03232868-0a32-5c66-a17a-cd51fc9e1630",
           "createdAt": "2026-07-28T12:15:43.605Z",
-          "updatedAt": "2026-09-22T10:13:24.218Z",
+          "updatedAt": "2026-09-28T13:37:52.367Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -80152,12 +80094,12 @@
           "ean": "3522930003861",
           "categoryId": "03232868-0a32-5c66-a17a-cd51fc9e1630",
           "createdAt": "2026-05-25T13:30:36.870Z",
-          "updatedAt": "2026-09-15T13:25:16.739Z",
+          "updatedAt": "2026-09-28T13:38:04.968Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3469
+          "score": 3470
         }
       ]
     },
@@ -80646,7 +80588,7 @@
           "ean": "3522930004042",
           "categoryId": "c900c6df-15c2-59e9-8615-87618d92577a",
           "createdAt": "2026-06-08T14:37:24.916Z",
-          "updatedAt": "2026-09-22T10:14:15.862Z",
+          "updatedAt": "2026-09-28T13:38:46.569Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -80724,7 +80666,7 @@
           "ean": "3522930003199",
           "categoryId": "7f096eb5-a9ae-5653-830f-e3e53d38f8df",
           "createdAt": "2026-07-28T12:15:59.027Z",
-          "updatedAt": "2026-09-22T10:14:22.389Z",
+          "updatedAt": "2026-09-28T13:38:53.011Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -80750,7 +80692,7 @@
           "ean": "3522930003182",
           "categoryId": "853ab193-27c8-5fac-a5d7-5250066fe918",
           "createdAt": "2026-07-28T12:15:59.668Z",
-          "updatedAt": "2026-09-22T10:14:24.469Z",
+          "updatedAt": "2026-09-28T13:38:55.512Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -80802,7 +80744,7 @@
           "ean": "3522930004158",
           "categoryId": "e6358e0b-0efc-516f-b34d-e8a0bc540e27",
           "createdAt": "2026-05-25T13:30:51.411Z",
-          "updatedAt": "2026-09-25T00:00:59.820Z",
+          "updatedAt": "2026-10-01T15:03:39.266Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -81010,12 +80952,12 @@
           "ean": "3522930003137",
           "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
           "createdAt": "2026-07-28T12:16:16.206Z",
-          "updatedAt": "2026-09-15T13:25:13.622Z",
+          "updatedAt": "2026-09-28T13:39:17.677Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3469
+          "score": 3470
         }
       ]
     },
@@ -81114,7 +81056,7 @@
           "ean": "3522930003052",
           "categoryId": "6c7d5941-7811-5e75-a9b4-684b247304ae",
           "createdAt": "2026-07-28T12:16:25.421Z",
-          "updatedAt": "2026-09-22T10:14:53.709Z",
+          "updatedAt": "2026-09-28T13:39:26.095Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -81296,12 +81238,12 @@
           "ean": "3282770389623",
           "categoryId": "68f5ca30-cd76-5c87-bea6-20d280bd1dd5",
           "createdAt": "2026-05-25T13:30:53.981Z",
-          "updatedAt": "2026-09-15T13:25:18.518Z",
+          "updatedAt": "2026-09-28T13:39:41.136Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3469
+          "score": 3470
         }
       ]
     },
@@ -81550,18 +81492,18 @@
         {
           "offerId": "321c594e-8b18-4579-a234-951b62133a2b",
           "externalId": "16356",
-          "status": "PUBLISHED",
+          "status": "PENDING",
           "name": "Multilac Baby - Synbiotyk w kroplach dla niemowląt i dzieci - 2x5ml",
           "sku": "5903031282627",
           "ean": "5903031282627",
-          "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
+          "categoryId": "39091cd2-cb9c-5bd4-b2c3-3001cc1e60bc",
           "createdAt": "2026-07-28T12:16:44.830Z",
-          "updatedAt": "2026-09-22T10:18:55.069Z",
-          "validationErrorsCount": 0,
-          "hasCategoryIncorrect": false,
+          "updatedAt": "2026-09-28T13:40:03.656Z",
+          "validationErrorsCount": 1,
+          "hasCategoryIncorrect": true,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3470
+          "score": 2820
         }
       ]
     },
@@ -81582,7 +81524,7 @@
           "ean": "5907377138464",
           "categoryId": "00fdccae-e9eb-5a00-a43c-0f32dd064258",
           "createdAt": "2026-07-28T12:16:47.342Z",
-          "updatedAt": "2026-09-22T10:18:57.066Z",
+          "updatedAt": "2026-09-28T13:43:31.634Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -82024,7 +81966,7 @@
           "ean": "3522930005254",
           "categoryId": "a7e8f568-42ca-5fa6-b29c-cc86a957dcf1",
           "createdAt": "2026-05-25T13:31:09.008Z",
-          "updatedAt": "2026-09-22T10:16:06.514Z",
+          "updatedAt": "2026-09-28T13:40:41.751Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -82180,7 +82122,7 @@
           "ean": "3522930005087",
           "categoryId": "91ef0a45-29de-533d-b3d6-483b166b9dec",
           "createdAt": "2026-05-25T13:31:11.496Z",
-          "updatedAt": "2026-09-22T10:16:19.655Z",
+          "updatedAt": "2026-09-28T13:40:55.288Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -82388,12 +82330,12 @@
           "ean": "3522930004554",
           "categoryId": "91ef0a45-29de-533d-b3d6-483b166b9dec",
           "createdAt": "2026-05-25T13:31:18.016Z",
-          "updatedAt": "2026-09-15T13:25:17.995Z",
+          "updatedAt": "2026-09-28T13:41:12.809Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3469
+          "score": 3470
         }
       ]
     },
@@ -82570,7 +82512,7 @@
           "ean": "3282771000572",
           "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
           "createdAt": "2026-05-25T13:31:51.699Z",
-          "updatedAt": "2026-09-22T10:16:49.797Z",
+          "updatedAt": "2026-10-01T14:59:11.256Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -82752,12 +82694,12 @@
           "ean": "3337875945622",
           "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
           "createdAt": "2026-05-25T13:31:58.726Z",
-          "updatedAt": "2026-09-19T23:33:51.597Z",
+          "updatedAt": "2026-10-01T15:05:47.579Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3469
+          "score": 3470
         }
       ]
     },
@@ -90674,12 +90616,12 @@
         "ean": "3264680026225",
         "categoryId": "1563b6f0-b584-57d4-a677-49cca69bddfb",
         "createdAt": "2026-06-02T14:23:58.089Z",
-        "updatedAt": "2026-09-08T12:32:47.967Z",
+        "updatedAt": "2026-10-01T15:13:26.367Z",
         "validationErrorsCount": 0,
         "hasCategoryIncorrect": false,
         "referenceCategoryId": null,
         "referenceCategoryMessage": null,
-        "score": 3468
+        "score": 3470
       },
       "duplicatesToCleanup": [
         {
@@ -90725,12 +90667,12 @@
           "ean": "3264680026225",
           "categoryId": "1563b6f0-b584-57d4-a677-49cca69bddfb",
           "createdAt": "2026-06-02T14:23:58.089Z",
-          "updatedAt": "2026-09-08T12:32:47.967Z",
+          "updatedAt": "2026-10-01T15:13:26.367Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3468
+          "score": 3470
         },
         {
           "offerId": "518a7eda-1baf-43c1-bb80-af7a2049e08a",
@@ -91986,12 +91928,12 @@
         "ean": "3264680026171",
         "categoryId": "6bbabeff-7c85-520e-9b5b-ea7f36974775",
         "createdAt": "2026-06-02T14:23:42.459Z",
-        "updatedAt": "2026-09-08T12:30:41.833Z",
+        "updatedAt": "2026-10-01T15:10:39.237Z",
         "validationErrorsCount": 0,
         "hasCategoryIncorrect": false,
         "referenceCategoryId": null,
         "referenceCategoryMessage": null,
-        "score": 3468
+        "score": 3470
       },
       "duplicatesToCleanup": [
         {
@@ -92037,12 +91979,12 @@
           "ean": "3264680026171",
           "categoryId": "6bbabeff-7c85-520e-9b5b-ea7f36974775",
           "createdAt": "2026-06-02T14:23:42.459Z",
-          "updatedAt": "2026-09-08T12:30:41.833Z",
+          "updatedAt": "2026-10-01T15:10:39.237Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3468
+          "score": 3470
         },
         {
           "offerId": "94a30f61-e729-42d1-8848-81674ad50a03",
@@ -100074,7 +100016,7 @@
         "ean": "5903031281606",
         "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
         "createdAt": "2026-05-25T13:25:40.055Z",
-        "updatedAt": "2026-09-22T09:47:41.903Z",
+        "updatedAt": "2026-09-28T13:11:32.324Z",
         "validationErrorsCount": 0,
         "hasCategoryIncorrect": false,
         "referenceCategoryId": null,
@@ -100109,7 +100051,7 @@
           "ean": "5903031281606",
           "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
           "createdAt": "2026-05-25T13:25:40.055Z",
-          "updatedAt": "2026-09-22T09:47:41.903Z",
+          "updatedAt": "2026-09-28T13:11:32.324Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -102084,18 +102026,18 @@
       "keeper": {
         "offerId": "78ec5869-a263-4f92-b94e-96b0f2e727f9",
         "externalId": "3335",
-        "status": "PUBLISHED",
+        "status": "SOLDOUT",
         "name": "CeraVe Krem nawilżający do twarzy SPF 25",
         "sku": "3337875840620",
         "ean": "3337875840620",
         "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
         "createdAt": "2026-05-25T13:25:07.799Z",
-        "updatedAt": "2026-09-19T23:42:38.443Z",
+        "updatedAt": "2026-09-28T13:07:59.676Z",
         "validationErrorsCount": 0,
         "hasCategoryIncorrect": false,
         "referenceCategoryId": null,
         "referenceCategoryMessage": null,
-        "score": 3469
+        "score": 3470
       },
       "duplicatesToCleanup": [
         {
@@ -102119,18 +102061,18 @@
         {
           "offerId": "78ec5869-a263-4f92-b94e-96b0f2e727f9",
           "externalId": "3335",
-          "status": "PUBLISHED",
+          "status": "SOLDOUT",
           "name": "CeraVe Krem nawilżający do twarzy SPF 25",
           "sku": "3337875840620",
           "ean": "3337875840620",
           "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
           "createdAt": "2026-05-25T13:25:07.799Z",
-          "updatedAt": "2026-09-19T23:42:38.443Z",
+          "updatedAt": "2026-09-28T13:07:59.676Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3469
+          "score": 3470
         },
         {
           "offerId": "acffbfb1-b7b3-46fe-aca9-eb41ac38c642",
@@ -102666,7 +102608,7 @@
         "ean": "3701129804469",
         "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
         "createdAt": "2026-05-25T13:24:59.261Z",
-        "updatedAt": "2026-09-22T09:42:51.613Z",
+        "updatedAt": "2026-09-28T13:06:37.926Z",
         "validationErrorsCount": 0,
         "hasCategoryIncorrect": false,
         "referenceCategoryId": null,
@@ -102701,7 +102643,7 @@
           "ean": "3701129804469",
           "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
           "createdAt": "2026-05-25T13:24:59.261Z",
-          "updatedAt": "2026-09-22T09:42:51.613Z",
+          "updatedAt": "2026-09-28T13:06:37.926Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -104316,13 +104258,13 @@
       "keeper": {
         "offerId": "2931cf59-dde7-4d6b-8977-275c9f8f5487",
         "externalId": "2791",
-        "status": "SOLDOUT",
+        "status": "PUBLISHED",
         "name": "Classic Ps Lipoaktywny krem nawilżający",
         "sku": "3499320013864",
         "ean": "3499320013864",
         "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
         "createdAt": "2026-05-25T13:24:34.260Z",
-        "updatedAt": "2026-09-22T09:40:45.119Z",
+        "updatedAt": "2026-09-28T13:04:35.162Z",
         "validationErrorsCount": 0,
         "hasCategoryIncorrect": false,
         "referenceCategoryId": null,
@@ -104351,13 +104293,13 @@
         {
           "offerId": "2931cf59-dde7-4d6b-8977-275c9f8f5487",
           "externalId": "2791",
-          "status": "SOLDOUT",
+          "status": "PUBLISHED",
           "name": "Classic Ps Lipoaktywny krem nawilżający",
           "sku": "3499320013864",
           "ean": "3499320013864",
           "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
           "createdAt": "2026-05-25T13:24:34.260Z",
-          "updatedAt": "2026-09-22T09:40:45.119Z",
+          "updatedAt": "2026-09-28T13:04:35.162Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
@@ -111018,12 +110960,12 @@
         "ean": "3282770153200",
         "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
         "createdAt": "2026-05-25T13:22:40.365Z",
-        "updatedAt": "2026-09-15T09:16:42.144Z",
+        "updatedAt": "2026-09-28T12:58:36.246Z",
         "validationErrorsCount": 0,
         "hasCategoryIncorrect": false,
         "referenceCategoryId": null,
         "referenceCategoryMessage": null,
-        "score": 3469
+        "score": 3470
       },
       "duplicatesToCleanup": [
         {
@@ -111053,12 +110995,12 @@
           "ean": "3282770153200",
           "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
           "createdAt": "2026-05-25T13:22:40.365Z",
-          "updatedAt": "2026-09-15T09:16:42.144Z",
+          "updatedAt": "2026-09-28T12:58:36.246Z",
           "validationErrorsCount": 0,
           "hasCategoryIncorrect": false,
           "referenceCategoryId": null,
           "referenceCategoryMessage": null,
-          "score": 3469
+          "score": 3470
         },
         {
           "offerId": "eac477c4-6d80-40ed-b180-a22728f6a935",
@@ -116776,12 +116718,12 @@
         "ean": "3264680026225",
         "categoryId": "1563b6f0-b584-57d4-a677-49cca69bddfb",
         "createdAt": "2026-06-02T14:23:58.089Z",
-        "updatedAt": "2026-09-08T12:32:47.967Z",
+        "updatedAt": "2026-10-01T15:13:26.367Z",
         "validationErrorsCount": 0,
         "hasCategoryIncorrect": false,
         "referenceCategoryId": null,
         "referenceCategoryMessage": null,
-        "score": 3468
+        "score": 3470
       },
       "offerToCleanup": {
         "offerId": "518a7eda-1baf-43c1-bb80-af7a2049e08a",
@@ -116812,12 +116754,12 @@
         "ean": "3264680026225",
         "categoryId": "1563b6f0-b584-57d4-a677-49cca69bddfb",
         "createdAt": "2026-06-02T14:23:58.089Z",
-        "updatedAt": "2026-09-08T12:32:47.967Z",
+        "updatedAt": "2026-10-01T15:13:26.367Z",
         "validationErrorsCount": 0,
         "hasCategoryIncorrect": false,
         "referenceCategoryId": null,
         "referenceCategoryMessage": null,
-        "score": 3468
+        "score": 3470
       },
       "offerToCleanup": {
         "offerId": "de2e90d5-825a-4f21-86c4-351948147ac5",
@@ -117532,12 +117474,12 @@
         "ean": "3264680026171",
         "categoryId": "6bbabeff-7c85-520e-9b5b-ea7f36974775",
         "createdAt": "2026-06-02T14:23:42.459Z",
-        "updatedAt": "2026-09-08T12:30:41.833Z",
+        "updatedAt": "2026-10-01T15:10:39.237Z",
         "validationErrorsCount": 0,
         "hasCategoryIncorrect": false,
         "referenceCategoryId": null,
         "referenceCategoryMessage": null,
-        "score": 3468
+        "score": 3470
       },
       "offerToCleanup": {
         "offerId": "94a30f61-e729-42d1-8848-81674ad50a03",
@@ -117568,12 +117510,12 @@
         "ean": "3264680026171",
         "categoryId": "6bbabeff-7c85-520e-9b5b-ea7f36974775",
         "createdAt": "2026-06-02T14:23:42.459Z",
-        "updatedAt": "2026-09-08T12:30:41.833Z",
+        "updatedAt": "2026-10-01T15:10:39.237Z",
         "validationErrorsCount": 0,
         "hasCategoryIncorrect": false,
         "referenceCategoryId": null,
         "referenceCategoryMessage": null,
-        "score": 3468
+        "score": 3470
       },
       "offerToCleanup": {
         "offerId": "e07804b5-f5bb-48b6-8b90-3546f93b57a5",
@@ -122176,7 +122118,7 @@
         "ean": "5903031281606",
         "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
         "createdAt": "2026-05-25T13:25:40.055Z",
-        "updatedAt": "2026-09-22T09:47:41.903Z",
+        "updatedAt": "2026-09-28T13:11:32.324Z",
         "validationErrorsCount": 0,
         "hasCategoryIncorrect": false,
         "referenceCategoryId": null,
@@ -123178,18 +123120,18 @@
       "offerToKeep": {
         "offerId": "78ec5869-a263-4f92-b94e-96b0f2e727f9",
         "externalId": "3335",
-        "status": "PUBLISHED",
+        "status": "SOLDOUT",
         "name": "CeraVe Krem nawilżający do twarzy SPF 25",
         "sku": "3337875840620",
         "ean": "3337875840620",
         "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
         "createdAt": "2026-05-25T13:25:07.799Z",
-        "updatedAt": "2026-09-19T23:42:38.443Z",
+        "updatedAt": "2026-09-28T13:07:59.676Z",
         "validationErrorsCount": 0,
         "hasCategoryIncorrect": false,
         "referenceCategoryId": null,
         "referenceCategoryMessage": null,
-        "score": 3469
+        "score": 3470
       },
       "offerToCleanup": {
         "offerId": "acffbfb1-b7b3-46fe-aca9-eb41ac38c642",
@@ -123472,7 +123414,7 @@
         "ean": "3701129804469",
         "categoryId": "124ee985-1efd-543c-9205-24b6e61e332d",
         "createdAt": "2026-05-25T13:24:59.261Z",
-        "updatedAt": "2026-09-22T09:42:51.613Z",
+        "updatedAt": "2026-09-28T13:06:37.926Z",
         "validationErrorsCount": 0,
         "hasCategoryIncorrect": false,
         "referenceCategoryId": null,
@@ -124294,13 +124236,13 @@
       "offerToKeep": {
         "offerId": "2931cf59-dde7-4d6b-8977-275c9f8f5487",
         "externalId": "2791",
-        "status": "SOLDOUT",
+        "status": "PUBLISHED",
         "name": "Classic Ps Lipoaktywny krem nawilżający",
         "sku": "3499320013864",
         "ean": "3499320013864",
         "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
         "createdAt": "2026-05-25T13:24:34.260Z",
-        "updatedAt": "2026-09-22T09:40:45.119Z",
+        "updatedAt": "2026-09-28T13:04:35.162Z",
         "validationErrorsCount": 0,
         "hasCategoryIncorrect": false,
         "referenceCategoryId": null,
@@ -127648,12 +127590,12 @@
         "ean": "3282770153200",
         "categoryId": "c061bf7e-8005-5e33-a58b-1105183a66cf",
         "createdAt": "2026-05-25T13:22:40.365Z",
-        "updatedAt": "2026-09-15T09:16:42.144Z",
+        "updatedAt": "2026-09-28T12:58:36.246Z",
         "validationErrorsCount": 0,
         "hasCategoryIncorrect": false,
         "referenceCategoryId": null,
         "referenceCategoryMessage": null,
-        "score": 3469
+        "score": 3470
       },
       "offerToCleanup": {
         "offerId": "eac477c4-6d80-40ed-b180-a22728f6a935",

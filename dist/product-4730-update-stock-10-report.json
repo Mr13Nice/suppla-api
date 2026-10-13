@@ -1,0 +1,93 @@
+{
+  "at": "2026-09-29T07:17:06.586Z",
+  "externalId": "4730",
+  "patch": {
+    "stock": {
+      "quantity": 10,
+      "unit": "UNIT"
+    }
+  },
+  "httpStatus": 200,
+  "before": {
+    "metadata": {
+      "validationErrors": []
+    },
+    "offer": {
+      "id": "08d1b59e-d41f-4110-a569-eb5662264377",
+      "status": "PUBLISHED",
+      "externalId": "4730",
+      "product": {
+        "name": "Bodymax Plus - 200szt",
+        "description": "Marka: Bodymax. Kategoria produktu: Suplementy Diety &gt; Samopoczucie i energia &gt; Bezsenność. Kod EAN: 5702071502364. SKU produktu: 5702071502364. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+        "brand": "Bodymax",
+        "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+        "attributes": [],
+        "sku": "5702071502364",
+        "ean": "5702071502364",
+        "dimension": {}
+      },
+      "stock": {
+        "quantity": 1,
+        "unit": "UNIT"
+      },
+      "price": {
+        "grossPrice": {
+          "amount": 85.79,
+          "currency": "PLN"
+        },
+        "finalPrice": {
+          "amount": 85.79,
+          "currency": "PLN"
+        },
+        "taxRateInfo": "23%",
+        "deposits": []
+      },
+      "features": {
+        "refundable": true
+      },
+      "createdAt": "2026-07-28T12:12:01.875Z",
+      "updatedAt": "2026-09-29T07:14:23.268Z"
+    }
+  },
+  "after": {
+    "metadata": {
+      "validationErrors": []
+    },
+    "offer": {
+      "id": "08d1b59e-d41f-4110-a569-eb5662264377",
+      "status": "PUBLISHED",
+      "externalId": "4730",
+      "product": {
+        "name": "Bodymax Plus - 200szt",
+        "description": "Marka: Bodymax. Kategoria produktu: Suplementy Diety &gt; Samopoczucie i energia &gt; Bezsenność. Kod EAN: 5702071502364. SKU produktu: 5702071502364. Opis uzupelniony automatycznie na podstawie danych katalogowych produktu z eksportu WooCommerce.",
+        "brand": "Bodymax",
+        "categoryId": "854749ea-9ce3-5d73-8826-5f37967fc334",
+        "attributes": [],
+        "sku": "5702071502364",
+        "ean": "5702071502364",
+        "dimension": {}
+      },
+      "stock": {
+        "quantity": 10,
+        "unit": "UNIT"
+      },
+      "price": {
+        "grossPrice": {
+          "amount": 85.79,
+          "currency": "PLN"
+        },
+        "finalPrice": {
+          "amount": 85.79,
+          "currency": "PLN"
+        },
+        "taxRateInfo": "23%",
+        "deposits": []
+      },
+      "features": {
+        "refundable": true
+      },
+      "createdAt": "2026-07-28T12:12:01.875Z",
+      "updatedAt": "2026-09-29T07:14:23.268Z"
+    }
+  }
+}

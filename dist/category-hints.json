@@ -17514,7 +17514,7 @@
         "externalId": "5983",
         "name": "Synergia Witamina A + D3 + E + K2Mk7 Junior",
         "sku": "5902709520191",
-        "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Kości i stawy, Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem, Suplementy Diety, Suplementy Diety > Witaminy i minerały > Witaminy > Witamina A, Suplementy Diety > Witaminy i minerały > Witaminy > Witamina E, Suplementy Diety > Witaminy i minerały > Witaminy > Witamina K, Macierzyństwo > Dla dzieci > Witaminy i minerały, Suplementy Diety > Witaminy i minerały"
+        "categories": "Macierzyństwo > Dla dzieci, Suplementy Diety > Kości i stawy, Suplementy Diety > Kości i stawy > Preparaty z witaminą D i wapniem, Suplementy Diety, Suplementy Diety > Witaminy i minerały > Witaminy > Witamina A, Suplementy Diety > Witaminy i minerały > Witaminy > Witamina E, Suplementy Diety > Witaminy i minerały > Witaminy > Witamina K, Suplementy Diety > Witaminy i minerały, Macierzyństwo > Dla dzieci > Witaminy i minerały"
       }
     ],
     "validInCategoryMap": true
@@ -18644,6 +18644,36 @@
     ],
     "validInCategoryMap": false
   },
+  "8437000435167": {
+    "categoryId": "0946b5bd-bf47-583c-80f8-b7d63b9c6532",
+    "source": "inpost-hint",
+    "ean": "8437000435167",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "6555",
+        "name": "The Originals Proteos Hydra Plus SP Serum nawilżające z antyoksydantami - 2ml x 30",
+        "sku": "8437000435167",
+        "categories": ""
+      }
+    ],
+    "validInCategoryMap": true
+  },
+  "8437000435112": {
+    "categoryId": "2a8471e1-0a53-5bbf-b356-bef89905acc2",
+    "source": "inpost-hint",
+    "ean": "8437000435112",
+    "productCount": 1,
+    "examples": [
+      {
+        "externalId": "6566",
+        "name": "The Originals Proteos Liposome Serum nawilżające z antyoksydantami - 2ml x 30",
+        "sku": "8437000435112",
+        "categories": ""
+      }
+    ],
+    "validInCategoryMap": false
+  },
   "4009932575439": {
     "categoryId": "d902cafe-3f8c-52d5-a748-e9643a0d6b00",
     "source": "inpost-hint",
@@ -18774,7 +18804,7 @@
         "externalId": "6873",
         "name": "Eau Thermale Avène - Wysoka ochrona przeciwsłoneczna Ultra Fluid niewidoczny na skórze SPF50",
         "sku": "3282770392654",
-        "categories": "Dermokosmetyki > Certyfikowane, Dermokosmetyki, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Fluid, Dermokosmetyki > do Twarzy > Fluid, Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna"
+        "categories": "Dermokosmetyki > Certyfikowane, Dermokosmetyki, Dermokosmetyki > do Ciała, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Fluid, Fluid, Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna"
       }
     ],
     "validInCategoryMap": true
@@ -18789,7 +18819,7 @@
         "externalId": "6881",
         "name": "Eau Thermale Avène - Bardzo wysoka ochrona przeciwsłoneczna Ultra Fluid Perfector SPF50+",
         "sku": "3282770392692",
-        "categories": "Dermokosmetyki, Fluid, Dermokosmetyki > do Twarzy > Fluid, Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna"
+        "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy > Fluid, Fluid, Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna"
       }
     ],
     "validInCategoryMap": true
@@ -18804,7 +18834,7 @@
         "externalId": "6888",
         "name": "Eau Thermale Avène - Naturalny fluid korygujący w płynie Couvrance",
         "sku": "3282770100532",
-        "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Dermokosmetyki > do Twarzy > Fluid, Fluid, Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna"
+        "categories": "Dermokosmetyki, Dermokosmetyki > do Twarzy, Fluid, Dermokosmetyki > do Twarzy > Fluid, Dermokosmetyki > do Twarzy > Ochrona przeciwsłoneczna"
       }
     ],
     "validInCategoryMap": false

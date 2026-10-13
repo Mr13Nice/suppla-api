@@ -50,9 +50,9 @@
     "variableParentRowsSkipped": 169,
     "rescueCandidates": 0,
     "rescueSkippedSameRejectedCategory": 0,
-    "offersToCreate": 1551,
-    "skippedProducts": 592,
-    "blockingSkippedProducts": 409,
+    "offersToCreate": 1552,
+    "skippedProducts": 591,
+    "blockingSkippedProducts": 408,
     "productsWithoutImages": 21,
     "generatedDescriptions": 1670,
     "unresolvedCategories": 0,
@@ -71,8 +71,8 @@
   },
   "categoryResolution": {
     "byMethod": {
-      "inpost-hint-ean": 1525,
-      "override-exact": 412,
+      "inpost-hint-ean": 1527,
+      "override-exact": 410,
       "override-product-external-id": 17,
       "inpost-hint-ean-with-local-warning": 4
     },
